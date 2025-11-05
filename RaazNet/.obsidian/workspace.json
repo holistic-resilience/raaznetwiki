@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "e6fe167b90166226",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e1dcb176d0e1987",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "087641a89f11a240",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "150358b5e924264d",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd96398383c3acc0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "701e1e2fb703d369",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4c24172dacabcfc2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:privacy, security, digital-rights",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "61310d8525512109",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fba959dc7c87e1ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6630ce8823a8094",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4cb1f775bf33ef9b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "f1e39f0c9aaba4c1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "7c1ad9dc4ac94bc7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2d75f325030bc789",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "087641a89f11a240",
+  "lastOpenFiles": [
+    "Choosing Your Tools.md",
+    "Antivirus _ Surveillance Self-Defense.md",
+    "Animated Overview_ Using Password Managers to Stay Safe Online.md",
+    "Animated Overview_ Protecting Your Device From Hackers.md",
+    "Animated Overview_ How to Make a Super-Secure Password Using Dice.md",
+    "Animated Overview_ How Strong Encryption Can Help Avoid Online Surveillance.md",
+    "Air gap _ Surveillance Self-Defense.md",
+    "A Deep Dive on End-to-End Encryption.md",
+    "Asset _ Surveillance Self-Defense.md",
+    "Full disk encryption _ Surveillance Self-Defense.md",
+    "Spyware _ Surveillance Self-Defense.md",
+    "The Problem with Mobile Phones.md",
+    "Things to Consider When Crossing the U.S. Border.md",
+    "Traffic-blocking browser extension.md",
+    "Web proxy _ Surveillance Self-Defense.md",
+    "What Is Fingerprinting_.md",
+    "What Should I Know About Encryption_.md",
+    "Your Security Plan.md",
+    "Seven Steps To Digital Security.md",
+    "Protocol _ Surveillance Self-Defense.md",
+    "Key Fingerprint _ Surveillance Self-Defense.md",
+    "Key Concepts in Encryption.md",
+    "Keeping Your Data Safe.md",
+    "Journalism student_ _ Surveillance Self-Defense [Playlist].md",
+    "How to_ Get to Know Android Privacy and Security Settings.md",
+    "How to_ Enable Two-factor Authentication.md",
+    "fix_arrays.py",
+    "fix_arrays.py.tmp.2145998.1762328833230",
+    "fix_tags_final.py",
+    "fix_tags_final.py.tmp.2145998.1762328800909",
+    "fix_tags.py",
+    "fix_tags.py.tmp.2145998.1762328767735"
+  ]
+}
