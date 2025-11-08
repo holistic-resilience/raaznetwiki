@@ -12,9 +12,6 @@ security_level: "Informational"
 language: "English"
 prerequisites: ["Basic computer literacy"]
 estimated_read_time: "5 minutes"
-
-
-
 ---
 
 [Skip to main content](https://ssd.eff.org/module/what-should-i-know-about-encryption#main-content)
