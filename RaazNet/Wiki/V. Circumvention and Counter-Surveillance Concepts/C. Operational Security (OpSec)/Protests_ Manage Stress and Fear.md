@@ -1,0 +1,15 @@
+![Act detail 08](https://holistic-security.tacticaltech.org/media/chapters/images/default/act_detail_08.jpg%3F1460642909)
+
+# 4.8 Protests: Manage Stress and Fear
+
+When group members are under stress, or suffering from fear or threats, it can have a negative impact on the collective dynamic. The group can become more authoritarian, and people can say and do hurtful things to one another. When you're at a protest and need to take decisions fast, fear, stress, and the inter-personal problems they lead to, could hinder your ability to make decisions and put you in danger.
+
+Therefore, it's important to have a clear decision-making structure or consensus process established before the protest, and clear communication channels for decision-making. Decide on a set of 'non-negotiables' - courses of action for given scenarios which won't be debated in the moment (e.g. an emergency exit strategy). If an issue has to be debated, consider who needs to be involved in the discussion: the whole group, or a working group? Too many unnecessary voices in the debate can be a hindrance and slow down decision-making. When debating, try to practice [active listening](https://wikipedia.org/wiki/Active_Listening) to avoid misconceptions and ensure that everyone understands what is being talked about. As a process, consider [consensus decision making](https://wikipedia.org/wiki/Consensus_decision-making): each person involved may veto a proposal, but vetos can only be used together with a counter proposal.
+
+Occasionally, fear can be very useful in helping us to escape dangerous situations – just based on an instinctive sense that something is wrong. If your instinct tells you that you are in danger, it's advisable to share this with someone from your affinity group and check your perception: what are the indicators you are perceiving that tell you that something is wrong? Analyse this with your friends or affinity group and take a decision together. Affinity groups should make explicit space for sharing fears and the effects of stress before and after the protest. Moreover, it's healthy to undertake enjoyable activities alone or together with your affinity group in order to relax and manage stress. Consider making one or more people in your affinity group responsible for organising this.
+
+For more on fear and our instinctive responses to threat, check out these Chapters: [Individual Responses to Threat](https://holistic-security.tacticaltech.org/chapters/prepare/1-2-individual-responses-to-threat.html) and [Team and Peer Responses to Threat](https://holistic-security.tacticaltech.org/chapters/prepare/1-4-team-and-peer-responses-to-threat.html).
+
+[4.7 Protests: Be Mindful of Common Threats](https://holistic-security.tacticaltech.org/chapters/act/4-1-7-protests-be-mindful-of-common-threats.html)
+[Back to section](https://holistic-security.tacticaltech.org/chapters/act.html)
+[4.9 Protests: Report Emergencies Accurately](https://holistic-security.tacticaltech.org/chapters/act/4-1-9-protests-report-emergencies-accurately.html)
