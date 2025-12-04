@@ -1,25 +1,69 @@
-![Act detail 04](https://holistic-security.tacticaltech.org/media/chapters/images/default/act_detail_04.jpg%3F1460642737)
+```yaml
+---
+title: "Protests: Protect Your Identity and Information"
+tags: [protests, digital-security, privacy, surveillance, mobile-security, encryption]
+category: "Protest Security"
+difficulty: "Intermediate"
+audience: [Activists, Human Rights Defenders, Protesters]
+topics: ["Digital Security", "Identity Protection", "Device Security"]
+summary: "Guide to protecting digital identity and securing devices when organizing or participating in protests"
+source: "Tactical Tech - Holistic Security"
+content_type: "Educational Guide"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic smartphone usage", "Understanding of social media platforms"]
+estimated_read_time: "4 minutes"
+---
+```
 
-# 4.4 Protests: Protect Your Identity and Information
+# Protests: Protect Your Identity and Information
 
-Many human rights defenders and activists depend heavily on computers and mobile phones for organising and coordinating peaceful protests. However, this makes confiscation, theft and surveillance of our devices and communication a priority for our adversaries attempting to limit free speech and assembly.
+Many human rights defenders and activists depend heavily on computers and mobile phones for organizing and coordinating peaceful protests. This makes confiscation, theft, and surveillance of our devices and communications a priority for adversaries attempting to limit free speech and assembly.
 
-While transparency and open engagement with States and society are useful tools for security in many contexts, in others it may important to protect the identity and sensitive information of those involved in a protest, at least for some of the time.
+While transparency and open engagement can be useful security tools in many contexts, it may be important to protect the identity and sensitive information of those involved in a protest.
 
-If you're planning or coordinating a protest over the internet or using mobile phones, you should consider ways of protecting your identity and that of your network. Sometimes authorities or others will put social movements under surveillance in order to predict, prevent or disrupt protests. Governments and private companies use tactics like observation, infiltration and automated search engines to identify usernames in social networks using specific words or images.
+## Understanding the Surveillance Threat
 
-Therefore, it can be dangerous to rely on social media to organise a protest as is is often heavily surveilled. You may want to avoid using your real name on social networks when organising or participating in an action, avoid associating yourself with groups that are likely to be under surveillance on social media sites, and avoid accepting 'friend requests' and other connections with protesters who you previously didn't know. Consider using a VPN or the [Tor Browser](https://torproject.org/) to hide your IP address and browsing activities from site administrators and your internet service provider respectively.
+When planning or coordinating a protest over the internet or using mobile phones, consider ways of protecting your identity and that of your network. Authorities and others may put social movements under surveillance to predict, prevent, or disrupt protests.
 
-At the protest itself, adversaries might use photography, video or other techniques to try to identify participants and later take action against them. In some cases, you can use face painting or masks to obscure your identity (e.g. the _"V-for-Vendetta"_ masks used during the Occupy Movement and the symbolic balaclavas used by groups like Pussy Riot in Russia and the Zapatista movement in Mexico). Masks can also be used to create a symbolic identity for the group, or to represent those who can not protest. However, be careful: in many countries, obscuring your face during a protest is illegal and could be a pretext for an arrest. Be sure to check the legal situation in your country or region before deciding on this.
+**Common surveillance tactics include:**
+- Direct observation and infiltration
+- Automated search engines scanning social networks for specific words or images
+- Monitoring of known activist groups and their connections
 
-Regarding the threat of confiscation, loss or theft of a device, there are other measures we can take. Many smartphones now offer ways to protect our data, below are some examples of these.
+## Protecting Your Online Identity
 
-Smartphones with the **Android** operating system after version 4.0 usually allow for encryption of the data stored on the device. If so, you can find the option to encrypt the phone in the security settings on the phone. Encrypting the phone means that if your phone is switched off or if the power dies, there is no way for someone to access your data unless they are able to break your passphrase. It's recommended that you encrypt the device at least a day before the protest so that you have enough time to back-up your data first and carry out the procedure (which may take around an hour). Be aware that the Micro-SD on the phone may not be encrypted by this option, only the built in storage.
+Social media is often heavily surveilled, making it potentially dangerous to rely on for organizing protests.
 
-On an **iPhone** or **iPad**, enter the privacy settings in order to enable a passphrase to lock the screen, and ensure it says 'Data protection is enabled' once the passphrase is set. Some iPhones also include the option to erase the data on the phone after 10 incorrect passphrase attempts. You can also use this option as a means to quickly delete sensitive data from your phone in an emergency.
+**Recommended practices:**
+- Avoid using your real name on social networks when organizing or participating in actions
+- Avoid associating yourself with groups likely to be under surveillance on social media
+- Be cautious about accepting friend requests and connections with protesters you don't already know
+- Use a VPN or [Tor Browser](https://torproject.org/) to hide your IP address and browsing activities from site administrators and your internet service provider
 
-More in-depth guides on securing your information can be found on [Security in-a-Box](https://securityinabox.org/).
+## Securing Your Mobile Device
 
-[4.3 Protests: Consider What to Bring](https://holistic-security.tacticaltech.org/chapters/act/4-1-3-protests-consider-what-to-bring.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/act.html)
-[4.5 Protests: Communicate Often and Safely](https://holistic-security.tacticaltech.org/chapters/act/4-1-5-protests-communicate-often-and-safely.html)
+To protect against confiscation, loss, or theft of your device, take these precautions before attending a protest.
+
+### Android Devices
+
+Devices running Android 4.0 or later typically allow encryption of stored data:
+
+1. Navigate to **Security Settings** on your phone
+2. Select the option to encrypt the phone
+3. **Important:** Encrypt your device at least a day before the protest to allow time for:
+   - Backing up your data first
+   - Completing the encryption process (approximately one hour)
+
+> **Note:** The Micro-SD card may not be encrypted by this option—only built-in storage is protected.
+
+### iPhone and iPad
+
+1. Enter **Privacy Settings**
+2. Enable a passphrase to lock the screen
+3. Verify that "Data protection is enabled" appears once the passphrase is set
+4. **Optional:** Enable the setting to erase data after 10 incorrect passphrase attempts (this can also serve as an emergency data deletion method)
+
+## Additional Resources
+
+For more comprehensive guides on securing your information, visit [Security in-a-Box](https://securityinabox.org/).

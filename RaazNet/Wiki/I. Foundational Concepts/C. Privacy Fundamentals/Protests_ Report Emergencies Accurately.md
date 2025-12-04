@@ -1,31 +1,58 @@
-![Act detail 09](https://holistic-security.tacticaltech.org/media/chapters/images/default/act_detail_09.jpg%3F1460642987)
+```yaml
+---
+title: "Protests: Report Emergencies Accurately"
+tags: [protests, emergency-response, human-rights, documentation, activist-safety]
+category: "Protest Safety"
+difficulty: "Beginner"
+audience: [Activists, Protesters, Human Rights Observers, Legal Observers]
+topics: ["Emergency Reporting", "Protest Safety", "Human Rights Documentation"]
+summary: "Guide for accurately reporting emergencies and human rights abuses during protests and demonstrations."
+source: "Tactical Tech - Holistic Security"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of protest participation"]
+estimated_read_time: "3 minutes"
+---
 
-# 4.9 Protests: Report Emergencies Accurately
+# Protests: Report Emergencies Accurately
 
-Sometimes at a protest or demonstration, we can be witness to human rights abuses by authorities or other groups who oppose the aims of the protest. In order to coordinate a response, it will be vital to report what happened as accurately as possible. This can be especially difficult when we are scared, or distressed.
+At protests and demonstrations, you may witness human rights abuses by authorities or opposition groups. Coordinating an effective response requires accurate reporting—something that becomes difficult when you're scared or distressed.
 
-A flow of accurate information is crucial during an emergency. Identify who to contact and in which order, giving priority to those who can provide effective and immediate support. The first thing you must do before attempting to report anything is try to get to as safe a place as possible. Then, get in contact with someone who is also most likely to be in a safe space – ideally someone who is not at the protest to begin with. You should have their contact details ready in advance - either saved in your phone or written down. Take a moment beforehand to organise your thoughts, then relay the following information:
+## Essential Questions for Emergency Reporting
 
-- Who are you, and where are you?
-- What happened?
-- Where did it happen?
-- When did it happen?
-- Who was affected?
-- Who was the perpetrator, and how do you know?
-- What do you need?
-- How and when can you be contacted?
+When reporting an incident, cover these key points:
 
-It may be useful to practice these scenarios before the protest, if you consider them to be sufficiently likely.
+- **Who are you, and where are you?**
+- **What happened?**
+- **Where did it happen?**
+- **When did it happen?**
+- **Who was affected?**
+- **Who was the perpetrator, and how do you know?**
+- **What do you need?**
+- **How and when can you be contacted?**
 
-If a fellow protester is arrested, consider the following:
+> **Tip:** Practice these scenarios before the protest if you consider emergencies sufficiently likely.
 
-- Relay the place and time of the arrest, and information regarding the arresting officer and any vehicles involved - names or ID numbers are usually printed on police uniforms for identification purposes. This information is vital for dissemination among affinity groups, human rights orgnisations and the media.
-- If the person arrested was part of your affinity group, conduct a roll call to confirm that everyone else is OK.
-- Confirm the of location of the person in custody, details of his or her medical condition and charges against him or her. If you think arrest is likely, you should define a comprehensive strategy before the protest to demand immediate release, ideally involving national and/or international human rights groups.
-- Regroup to adapt the plan and reassign duties if needed, if you intend to continue the action.
+## Responding to Arrests
 
-For more on emergency planning, see [Strategise \| Security in Groups and Organisations](https://holistic-security.tacticaltech.org/chapters/strategise/3-4-security-in-groups-and-organisations.html).
+If someone is arrested during the protest:
 
-[4.8 Protests: Manage Stress and Fear](https://holistic-security.tacticaltech.org/chapters/act/4-1-8-protests-manage-stress-and-fear.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/act.html)
-[4.10 Protests: Leave Safely](https://holistic-security.tacticaltech.org/chapters/act/4-1-10-protests-leave-safely.html)
+1. **Document immediately:** Record the place, time, and information about the arresting officer and any vehicles involved. Names or ID numbers are usually printed on police uniforms.
+
+2. **Disseminate information:** Share details with affinity groups, human rights organizations, and media contacts.
+
+3. **Conduct a roll call:** If the arrested person was part of your affinity group, confirm everyone else is safe.
+
+4. **Follow up on custody:** Confirm the location of the detained person, their medical condition, and any charges filed.
+
+5. **Activate your legal strategy:** If arrest was anticipated, implement your pre-planned response involving national and/or international human rights groups to demand immediate release.
+
+6. **Regroup and adapt:** Reassign duties and adjust your plan if you intend to continue the action.
+
+## Related Resources
+
+- [Protests: Manage Stress and Fear](https://holistic-security.tacticaltech.org/chapters/act/4-1-8-protests-manage-stress-and-fear.html)
+- [Protests: Leave Safely](https://holistic-security.tacticaltech.org/chapters/act/4-1-10-protests-leave-safely.html)
+- [Security in Groups and Organisations](https://holistic-security.tacticaltech.org/chapters/strategise/3-4-security-in-groups-and-organisations.html)
+```

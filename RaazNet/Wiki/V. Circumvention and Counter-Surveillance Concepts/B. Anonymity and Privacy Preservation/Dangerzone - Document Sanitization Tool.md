@@ -1,87 +1,89 @@
-![](https://dangerzone.rocks/assets/img/logo.png)
+```yaml
+---
+title: "Dangerzone - Document Sanitization Tool"
+tags: [document-security, malware-protection, pdf-sanitization, open-source, privacy-tools]
+category: "Security Tools"
+difficulty: "Beginner"
+audience: [Journalists, Activists, Privacy-Conscious Users, General Public]
+topics: ["Document Security", "Malware Protection", "Privacy Tools"]
+summary: "Free, open-source tool that converts potentially dangerous documents to safe PDFs by sanitizing them in a secure sandbox."
+source: "Freedom of the Press Foundation (FPF)"
+content_type: "Tool Reference"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic computer literacy", "Ability to install software"]
+estimated_read_time: "3 minutes"
+---
+```
 
 # Dangerzone
 
-Take potentially dangerous PDFs, office documents, or images and convert them
-to safe PDFs.
+**Take potentially dangerous PDFs, office documents, or images and convert them to safe PDFs.**
 
-[Download](https://dangerzone.rocks/#downloads) [Learn More](https://dangerzone.rocks/about/)
+Dangerzone is a free and open-source document sanitization tool maintained by [Freedom of the Press Foundation](https://freedom.press/) (FPF). It protects users from malware hidden in documents by converting files to safe PDFs through a secure sandboxing process.
 
-🦠 Removes malware
+- **Website:** [dangerzone.rocks](https://dangerzone.rocks/)
+- **Source Code:** [GitHub Repository](https://github.com/freedomofpress/dangerzone)
 
-Dangerzone destroys malware by rendering your document into pixels in a secure sandbox and reconstructing it locally as a PDF.
+---
 
-🗋 Supports many file types
+## Key Features
 
-Dangerzone supports more than 20 file types, including PDFs, all major office-suite formats, and the most common image types.
+| Feature | Description |
+|---------|-------------|
+| **Malware Removal** | Destroys malware by rendering documents into pixels in a secure sandbox, then reconstructing them as clean PDFs |
+| **Broad File Support** | Supports 20+ file types including PDFs, major office-suite formats, and common image types |
+| **Network Isolation** | Documents are sanitized in a sandbox with no network access, preventing compromised documents from communicating externally |
+| **Open Source** | Free software maintained by a nonprofit organization dedicated to press freedom |
 
-🔌 Avoids network access
-
-Documents are sanitized in a sandbox with no network access, so if a malicious document can compromise one, it can't let anyone know.
-
-🫴 Provides a public good
-
-Dangerzone is a free and open source project, maintained by [Freedom of the Press Foundation](https://freedom.press/) (FPF), a nonprofit organization that protects and defends press freedom.
-
-## Download Dangerzone 0.9.1
-
-🔍 [How to verify](https://github.com/freedomofpress/dangerzone/blob/v0.9.1/INSTALL.md#verifying-pgp-signatures)
-
-![Apple Logo](https://dangerzone.rocks/assets/img/apple-logo.png)
-
-MacOS
-
-[Intel chip](https://github.com/freedomofpress/dangerzone/releases/download/v0.9.1/Dangerzone-0.9.1-i686.dmg) [Apple Silicon chip](https://github.com/freedomofpress/dangerzone/releases/download/v0.9.1/Dangerzone-0.9.1-arm64.dmg)
-
-ℹ️
-[Which one do I have?](https://support.apple.com/en-us/HT211814)
-
-![Windows Logo](https://dangerzone.rocks/assets/img/windows-logo.png)
-
-Windows
-
-[Download for\\
-Windows](https://github.com/freedomofpress/dangerzone/releases/download/v0.9.1/Dangerzone-0.9.1.msi)
-
-️
-
-![Ubuntu Logo](https://dangerzone.rocks/assets/img/ubuntu-logo.png)
-
-Ubuntu / Debian
-
-[Install](https://github.com/freedomofpress/dangerzone/blob/main/INSTALL.md#ubuntu-debian)
-
-![Fedora Logo](https://dangerzone.rocks/assets/img/fedora-logo.png)
-
-Fedora
-
-[Install](https://github.com/freedomofpress/dangerzone/blob/main/INSTALL.md#fedora)
-
-![Tails Logo](https://dangerzone.rocks/assets/img/tails-logo.svg)
-
-Tails
-
-[Install](https://tails.net/doc/persistent_storage/additional_software/dangerzone/index.en.html)
-
-![Linux Logo](https://dangerzone.rocks/assets/img/linux-logo.png)
-
-Other Linux
-
-[Build from Source](https://github.com/freedomofpress/dangerzone/blob/main/BUILD.md)
-
-![Qubes OS Logo](https://dangerzone.rocks/assets/img/qubes-os-logo.png)
-
-Qubes OS (Beta)
-
-[Install](https://github.com/freedomofpress/dangerzone/blob/main/INSTALL.md#qubes-os)
+---
 
 ## How It Works
 
-Dangerzone works like this: You give it a document that you don't know
-if you can trust (for example, an email attachment). Inside of a sandbox,
-Dangerzone converts the document to a PDF (if it isn't already one), and
-then converts the PDF into raw pixel data: a huge list of of RGB color
-values for each page. Then, Dangerzone takes this pixel data and converts
-it back into a PDF.
+1. **Isolation**: The document is opened inside a secure sandbox environment
+2. **Conversion**: The document is converted to PDF format (if not already)
+3. **Pixel Rendering**: Each page is rendered into raw pixel data
+4. **Reconstruction**: The pixel data is converted back into a clean PDF
 
-[Learn more](https://dangerzone.rocks/about/)
+This process ensures that any malicious code embedded in the original document is destroyed during the pixel conversion step.
+
+---
+
+## Supported Platforms
+
+| Platform | Installation |
+|----------|--------------|
+| **macOS** | Available for Intel and Apple Silicon chips |
+| **Windows** | MSI installer available |
+| **Ubuntu/Debian** | Package installation via repository |
+| **Fedora** | Package installation via repository |
+| **Tails** | Integrated installation guide available |
+| **Qubes OS** | Beta support available |
+| **Other Linux** | Build from source |
+
+---
+
+## Download
+
+**Current Version:** 0.9.1
+
+Download the appropriate version for your system from the [official downloads page](https://dangerzone.rocks/#downloads).
+
+For security verification, see [How to verify PGP signatures](https://github.com/freedomofpress/dangerzone/blob/v0.9.1/INSTALL.md#verifying-pgp-signatures).
+
+---
+
+## Use Cases
+
+- **Journalists**: Safely open documents from unknown sources
+- **Activists**: Protect against targeted malware attacks via document attachments
+- **Organizations**: Sanitize email attachments before opening
+- **General Users**: Add a layer of protection when handling suspicious files
+
+---
+
+## Related Resources
+
+- [About Dangerzone](https://dangerzone.rocks/about/)
+- [Installation Guide](https://github.com/freedomofpress/dangerzone/blob/main/INSTALL.md)
+- [Freedom of the Press Foundation](https://freedom.press/)

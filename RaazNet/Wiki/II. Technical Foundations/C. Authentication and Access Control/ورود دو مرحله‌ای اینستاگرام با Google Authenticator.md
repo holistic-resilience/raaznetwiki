@@ -1,29 +1,50 @@
-# نحوه فعال‌سازی ورود دو مرحله‌ای حساب اینستاگرام با استفاده از برنامه Google Authenticator
+---
+title: "فعال‌سازی ورود دو مرحله‌ای اینستاگرام با Google Authenticator"
+tags: [two-factor-authentication, instagram, google-authenticator, account-security, social-media-security]
+category: "امنیت شبکه‌های اجتماعی"
+difficulty: "Beginner"
+audience: [General Public, Persian Speakers, Social Media Users]
+topics: ["احراز هویت دو مرحله‌ای", "امنیت اینستاگرام", "Google Authenticator"]
+summary: "آموزش ویدیویی فعال‌سازی ورود دو مرحله‌ای اینستاگرام با برنامه Google Authenticator به جای پیامک"
+source: "Certfa (سرتفا)"
+content_type: "Tutorial"
+security_level: "Basic"
+language: "Persian"
+prerequisites: ["داشتن حساب اینستاگرام", "نصب برنامه Google Authenticator"]
+estimated_read_time: "2 minutes"
+date_published: "2020-04-22"
+---
 
-در این آموزش کوتاه ویدیویی، نحوه فعال‌سازی ورود دو مرحله‌ای برای حساب کاربری اینستاگرام با استفاده از برنامه Google Authenticator را می‌توانید مشاهده کنید. توصیه ما استفاده از روش‌های احراز هویت از طریق برنامه‌های موبایلی، مانند Google Authenticator به‌جای احراز هویت از طریق پیامک است.
+# فعال‌سازی ورود دو مرحله‌ای اینستاگرام با Google Authenticator
 
-1. [سرتفا](https://certfa.com/)»
-2. [دانشنامه](https://certfa.com/info/)»
-3. [امنیت شبکه‌های اجتماعی](https://certfa.com/info/social-network-security/)
+## چرا از برنامه احراز هویت استفاده کنیم؟
 
-۰۳ اردیبهشت ۱۳۹۹
+استفاده از برنامه‌های احراز هویت مانند **Google Authenticator** به‌جای پیامک (SMS) امن‌تر است، زیرا:
+- پیامک‌ها قابل رهگیری هستند
+- سیم‌کارت ممکن است مورد سوءاستفاده قرار گیرد
+- برنامه‌های احراز هویت به اینترنت نیاز ندارند
 
-**مطالب مرتبط:**
+## آموزش ویدیویی
 
-- [نحوه مدیریت دستگاه‌های متصل به حساب کاربری اینستاگرام و حذف دسترسی‌ها](https://certfa.com/info/social-network-security/how-to-see-who-where-when-logged-in-instagram)
+در این ویدیوی کوتاه، مراحل فعال‌سازی ورود دو مرحله‌ای برای حساب اینستاگرام با Google Authenticator نمایش داده شده است.
 
-- [نحوه مدیریت و غیرفعال‌سازی وضعیت آخرین فعالیت‌ها در اینستاگرام](https://certfa.com/info/social-network-security/how-to-turn-off-activity-status-on-instagram)
+---
 
-- [نحوه فعال‌سازی ورود دو مرحله‌ای حساب اینستاگرام با استفاده از پیامک](https://certfa.com/info/social-network-security/how-to-enable-instagram-two-step-verification-with-sms)
+## راهنماهای مرتبط
 
-- [نحوه تهیه کدهای بازیابی ورود دو مرحله‌ای برای حساب اینستاگرام](https://certfa.com/info/social-network-security/how-to-get-instagram-recovery-codes)
+### مدیریت حساب اینستاگرام
+- [مدیریت دستگاه‌های متصل و حذف دسترسی‌ها](https://certfa.com/info/social-network-security/how-to-see-who-where-when-logged-in-instagram)
+- [مدیریت و غیرفعال‌سازی وضعیت آخرین فعالیت‌ها](https://certfa.com/info/social-network-security/how-to-turn-off-activity-status-on-instagram)
+- [خصوصی کردن حساب کاربری](https://certfa.com/info/social-network-security/how-to-set-your-instagram-account-to-private)
+- [تغییر گذرواژه حساب کاربری](https://certfa.com/info/social-network-security/how-to-change-instagram-account-password)
 
-- [نحوه خصوصی کردن حساب کاربری اینستاگرام](https://certfa.com/info/social-network-security/how-to-set-your-instagram-account-to-private)
+### احراز هویت دو مرحله‌ای
+- [فعال‌سازی ورود دو مرحله‌ای با پیامک](https://certfa.com/info/social-network-security/how-to-enable-instagram-two-step-verification-with-sms)
+- [تهیه کدهای بازیابی ورود دو مرحله‌ای](https://certfa.com/info/social-network-security/how-to-get-instagram-recovery-codes)
 
-- [نحوه تغییر گذرواژه حساب کاربری اینستاگرام](https://certfa.com/info/social-network-security/how-to-change-instagram-account-password)
+---
 
-[احراز هویت چند عاملی](https://certfa.com/topic/Multi-factor-Authentication/) \| [شبکه‌های اجتماعی](https://certfa.com/topic/social-networks/)
+## منابع بیشتر
 
-[بررسی امنیتی ابزارهای ارتباطی برای کار از راه دور](https://certfa.com/info/basic-information/how-safe-are-all-collaboration-apps/)
-
-[کد بازیابی حساب اینستاگرام](https://certfa.com/info/social-network-security/how-to-get-instagram-recovery-codes/)
+- [دانشنامه سرتفا - امنیت شبکه‌های اجتماعی](https://certfa.com/info/social-network-security/)
+- [بررسی امنیتی ابزارهای ارتباطی برای کار از راه دور](https://certfa.com/info/basic-information/how-safe-are-all-collaboration-apps/)

@@ -1,23 +1,45 @@
-بخش اول
+```yaml
+---
+title: "آموزش ایجاد و ذخیره‌سازی کلید PGP با استفاده از افزونه Mailvelope"
+tags: [pgp, encryption, email-security, mailvelope, browser-extension, privacy]
+category: "Email Security"
+difficulty: "Beginner"
+audience: [General Public, Privacy-Conscious Users, Activists]
+topics: ["Email Encryption", "PGP Key Management", "Browser Extensions"]
+summary: "راهنمای گام‌به‌گام ایجاد کلید PGP با افزونه Mailvelope برای رمزنگاری ایمیل در مرورگرهای فایرفاکس و کروم"
+source: "Certfa"
+content_type: "Tutorial"
+security_level: "Basic"
+language: "Persian"
+prerequisites: ["آشنایی با مرورگر وب", "دسترسی به ایمیل"]
+estimated_read_time: "3 minutes"
+related_guides: ["مدیریت کلیدهای PGP با Mailvelope"]
+---
+```
 
-# آموزش ایجاد و ذخیره‌سازی کلید PGP با استفاده از افزونه Mailvelope
+# آموزش ایجاد و ذخیره‌سازی کلید PGP با افزونه Mailvelope
 
-استفاده از کلید PGP‌ برای رمزنگاری ایمیلی، یکی از شیوه‌های مطمئن برای بالا بردن امنیت ارتباطات است. در این ویدیو کوتاه، آموزش ایجاد و ذخیره‌سازی کلید PGP با استفاده از افزونه Mailvelope را برای شما آماده کرده‌ایم که بخش اول از آموزش‌های مربوط به افزونه Mailvelope است.
+استفاده از کلید PGP برای رمزنگاری ایمیل، یکی از روش‌های مطمئن برای افزایش امنیت ارتباطات است. این راهنما بخش اول از مجموعه آموزش‌های Mailvelope است.
 
-1. [سرتفا](https://certfa.com/)»
-2. [دانشنامه](https://certfa.com/info/)»
-3. [امنیت ایمیل](https://certfa.com/info/email-security/)
+## پیش‌نیازها
 
-۱۴ شهریور ۱۳۹۸
+قبل از شروع، افزونه Mailvelope را نصب کنید:
 
-**لینک‌های راهنما:**
+- [دانلود برای فایرفاکس](https://addons.mozilla.org/en-US/firefox/addon/mailvelope/)
+- [دانلود برای کروم](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke?hl=en)
 
-\- افزونه Mailvelope برای [مرورگر فایرفاکس](https://addons.mozilla.org/en-US/firefox/addon/mailvelope/)
+## آموزش ویدیویی
 
-\- افزونه Mailvelope برای [مرورگر کروم](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke?hl=en)
+*(ویدیوی آموزشی در این بخش قرار می‌گیرد)*
 
-[امنیت ایمیل](https://certfa.com/topic/email-security/) \| [رمزگذاری](https://certfa.com/topic/encryption/)
+---
 
-[مدیریت کلیدهای PGP با Mailvelope](https://certfa.com/info/email-security/pgp-key-managment-with-mailvelope/)
+## منابع مرتبط
 
-[تنظیمات امنیتی در تلگرام](https://certfa.com/info/basic-information/everything-about-telegram-security-settings/)
+- [مدیریت کلیدهای PGP با Mailvelope](https://certfa.com/info/email-security/pgp-key-managment-with-mailvelope/)
+- [تنظیمات امنیتی در تلگرام](https://certfa.com/info/basic-information/everything-about-telegram-security-settings/)
+
+---
+
+**منبع:** [Certfa - امنیت ایمیل](https://certfa.com/info/email-security/)
+**تاریخ انتشار:** ۱۴ شهریور ۱۳۹۸

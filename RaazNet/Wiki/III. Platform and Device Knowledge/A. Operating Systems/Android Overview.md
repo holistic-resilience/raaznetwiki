@@ -1,189 +1,236 @@
-[Skip to content](https://www.privacyguides.org/en/os/android-overview/#security-protections)
-
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/os/android-overview.md?plain=1 "Edit this page")
+```yaml
+---
+title: "Android Overview: Security and Privacy Guide"
+tags: [android, mobile-security, privacy, google, verified-boot, permissions]
+category: "Mobile Operating Systems"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, Android Users, Security Researchers]
+topics: ["Android Security", "Mobile Privacy", "Operating Systems"]
+summary: "Comprehensive overview of Android's security architecture, privacy features, and best practices for protecting your mobile device."
+source: "Privacy Guides"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic Android familiarity", "Understanding of mobile security concepts"]
+estimated_read_time: "15 minutes"
+---
+```
 
 # Android Overview
 
-![Android logo](https://www.privacyguides.org/en/assets/img/android/android.svg)
+The **Android Open Source Project (AOSP)** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
 
-The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+**Resources:** [Homepage](https://source.android.com/) | [Documentation](https://source.android.com/docs) | [Source Code](https://cs.android.com/android/platform/superproject/main)
 
-[Homepage](https://source.android.com/ "Homepage")[Documentation](https://source.android.com/docs "Documentation")[Source Code](https://cs.android.com/android/platform/superproject/main "Source Code")
-
-[Our Android Advice](https://www.privacyguides.org/en/android/)
+---
 
 ## Security Protections
 
-Key components of the Android security model include [verified boot](https://www.privacyguides.org/en/os/android-overview/#verified-boot), [firmware updates](https://www.privacyguides.org/en/os/android-overview/#firmware-updates), and a robust [permission system](https://www.privacyguides.org/en/os/android-overview/#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](https://www.privacyguides.org/en/mobile-phones/) and [custom Android OS](https://www.privacyguides.org/en/android/distributions/) recommendations.
+Key components of the Android security model include verified boot, firmware updates, and a robust permission system. These form the baseline criteria for evaluating mobile phones and custom Android distributions.
 
 ### Verified Boot
 
-[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+**Verified Boot** is a critical part of the Android security model, providing protection against:
 
-Android 10 and above has moved away from full-disk encryption to more flexible [file-based encryption](https://source.android.com/security/encryption/file-based). Your data is encrypted using unique encryption keys, and the operating system files are left unencrypted.
+- **Evil maid attacks** - Physical tampering when device is unattended
+- **Malware persistence** - Prevents malicious code from surviving reboots
+- **Security downgrade attacks** - Rollback protection prevents reverting to vulnerable versions
 
-Verified Boot ensures the integrity of the operating system files, thereby preventing an adversary with physical access from tampering or installing malware on the device. In the unlikely case that malware is able to exploit other parts of the system and gain higher privileged access, Verified Boot will prevent and revert changes to the system partition upon rebooting the device.
+#### How It Works
 
-Unfortunately, OEMs are only obliged to support Verified Boot on their stock Android distribution. Only a few OEMs such as Google support custom AVB key enrollment on their devices. Additionally, some AOSP derivatives such as LineageOS or /e/ OS do not support Verified Boot even on hardware with Verified Boot support for third-party operating systems. We recommend that you check for support **before** purchasing a new device. AOSP derivatives which do not support Verified Boot are **not** recommended.
+Android 10+ uses **file-based encryption** rather than full-disk encryption. Your data is encrypted using unique encryption keys, while operating system files remain unencrypted. Verified Boot ensures the integrity of these OS files, preventing adversaries with physical access from tampering with or installing malware on the device.
 
-Many OEMs also have broken implementation of Verified Boot that you have to be aware of beyond their marketing. For example, the Fairphone 3 and 4 are not secure by default, as the [stock bootloader trusts the public AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
+#### Important Limitations
+
+- **OEM support varies**: Only some manufacturers (like Google) support custom AVB key enrollment
+- **Custom ROMs**: Many AOSP derivatives (LineageOS, /e/ OS) don't support Verified Boot even on capable hardware
+- **Broken implementations exist**: Some devices have flawed Verified Boot. For example, Fairphone 3/4 stock bootloaders trust public AVB signing keys, allowing alternative operating systems to boot without warnings
+
+> **Recommendation**: Verify Verified Boot support *before* purchasing a new device. Avoid AOSP derivatives that don't support it.
 
 ### Firmware Updates
 
-**Firmware updates** are critical for maintaining security and without them your device cannot be secure. OEMs have support agreements with their partners to provide the closed-source components for a limited support period. These are detailed in the monthly [Android Security Bulletins](https://source.android.com/security/bulletin).
+Firmware updates are essential for security—without them, your device cannot be secure. Updates depend on support agreements between OEMs and component manufacturers.
 
-As the components of the phone, such as the processor and radio technologies rely on closed-source components, the updates must be provided by the respective manufacturers. Therefore, it is important that you purchase a device within an active support cycle. [Qualcomm](https://qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
+#### Support Timelines
 
-EOL devices which are no longer supported by the SoC manufacturer cannot receive firmware updates from OEM vendors or after market Android distributors. This means that security issues with those devices will remain unfixed.
+| Manufacturer | Support Period |
+|--------------|----------------|
+| Qualcomm/Samsung | 4 years |
+| Google Pixel 6 | 5 years minimum |
+| Google Pixel 8+ | 7 years |
+| Budget devices | Often shorter |
 
-Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of support. However, the SoC (Qualcomm Snapdragon 750G on the Fairphone 4) has a considerably shorter EOL date. This means that firmware security updates from Qualcomm for the Fairphone 4 will end in September 2023, regardless of whether Fairphone continues to release software security updates.
+#### End-of-Life Considerations
+
+Devices no longer supported by the SoC manufacturer cannot receive firmware updates from any source—OEM or aftermarket. Security issues on these devices remain permanently unfixed.
+
+> **Example**: Fairphone 4 is marketed with 6 years of support, but its Qualcomm Snapdragon 750G SoC reached end-of-life in September 2023, limiting actual firmware security updates regardless of Fairphone's software update commitments.
 
 ### Android Permissions
 
-[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google regularly makes [improvements](https://developer.android.com/about/versions/11/privacy/permissions) on the permission system in each successive version. All apps you install are strictly [sandboxed](https://source.android.com/security/app-sandbox), therefore, there is no need to install any antivirus apps.
+Android's permission system gives you control over app access. Google regularly improves this system with each Android version. All apps are strictly sandboxed, eliminating the need for antivirus software.
 
-A smartphone with the latest version of Android will always be more secure than an old smartphone with an antivirus that you have paid for. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](https://www.privacyguides.org/en/mobile-phones/#google-pixel).
+> **Key Insight**: A smartphone running the latest Android version is always more secure than an older smartphone with paid antivirus software.
 
-Android 10:
+#### Permission Improvements by Version
 
-- [Scoped Storage](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) gives you more control over your files and can limit what can [access external storage](https://developer.android.com/training/data-storage#permissions). Apps can have a specific directory in external storage as well as the ability to store specific types of media there.
-- Tighter access on [device location](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location) by introducing the `ACCESS_BACKGROUND_LOCATION` permission. This prevents apps from accessing the location when running in the background without express permission from the user.
+**Android 10:**
+- **Scoped Storage**: Greater control over file access and external storage
+- **Background Location**: New `ACCESS_BACKGROUND_LOCATION` permission prevents silent location tracking
 
-Android 11:
+**Android 11:**
+- **One-time permissions**: Grant access for a single session only
+- **Auto-reset permissions**: Unused app permissions automatically revoke
+- **Granular phone access**: Finer control over phone number-related features
 
-- [One-time permissions](https://developer.android.com/about/versions/11/privacy/permissions#one-time) which allows you to grant a permission to an app just once.
-- [Auto-reset permissions](https://developer.android.com/about/versions/11/privacy/permissions#auto-reset), which resets [runtime permissions](https://developer.android.com/guide/topics/permissions/overview#runtime) that were granted when the app was opened.
-- Granular permissions for accessing [phone number](https://developer.android.com/about/versions/11/privacy/permissions#phone-numbers) related features.
+**Android 12:**
+- **Approximate location option**: Share general area instead of precise coordinates
+- **Hibernated app auto-reset**: Unused apps lose permissions automatically
+- **Data access auditing**: Track which app components access specific data
 
-Android 12:
+**Android 13:**
+- **Nearby Wi-Fi permission**: Prevents location tracking via Wi-Fi MAC addresses
+- **Granular media permissions**: Separate access for images, videos, and audio
+- **Background sensor permission**: Requires explicit `BODY_SENSORS` permission
 
-- A permission to grant only the [approximate location](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location).
-- Auto-reset of [hibernated apps](https://developer.android.com/about/versions/12/behavior-changes-12#app-hibernation).
-- [Data access auditing](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing) which makes it easier to determine what part of an app is performing a specific type of data access.
+#### Evaluating App Permissions
 
-Android 13:
+Use [Exodus Privacy](https://exodus-privacy.eu.org/) to compare apps with similar purposes. Warning signs include:
+- Excessive permission requests
+- Numerous advertising and analytics trackers
+- Permissions unrelated to app functionality
 
-- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points were a popular way for apps to track a user's location.
-- More [granular media permissions](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), meaning you can grant access to images, videos or audio files only.
-- Background use of sensors now requires the [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) permission.
+> **Note**: Some privacy-friendly apps (like Bitwarden) may show trackers like Google Firebase Analytics. This library includes Firebase Cloud Messaging for push notifications—it doesn't necessarily mean the app uses all analytics features.
 
-An app may request a permission for a specific feature it has. For example, any app that can scan QR codes will require the camera permission. Some apps can request more permissions than they need.
+> **Warning**: Web-based apps may track users server-side without detectable client-side trackers. Apps can also evade detection by avoiding standard advertising code libraries.
 
-[Exodus](https://exodus-privacy.eu.org/) can be useful when comparing apps that have similar purposes. If an app requires a lot of permissions and has a lot of advertising and analytics this is probably a bad sign. We recommend looking at the individual trackers and reading their descriptions rather than simply **counting the total** and assuming all items listed are equal.
-
-Warning
-
-If an app is mostly a web-based service, the tracking may occur on the server side. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) shows "no trackers" but certainly does track users' interests and behavior across the site. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
-
-Note
-
-Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all the analytics features that are provided by Google Firebase Analytics.
+---
 
 ## Privacy Features
 
 ### User Profiles
 
-Multiple **user profiles** can be found in ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**Settings** → **System** → **Users** and are the simplest way to isolate in Android.
+Multiple user profiles provide the simplest isolation method in Android.
 
-With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps. Each profile is encrypted using its own encryption key and cannot access the data of any other profiles. Even the device owner cannot view the data of other profiles without knowing their password. Multiple user profiles are a more secure method of isolation.
+**Location:** Settings → System → Users
+
+Each profile operates as a separate environment with its own apps and data.
 
 ### Work Profile
 
-[**Work Profiles**](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
+Work Profiles isolate apps while allowing simultaneous use with your main profile.
 
-A **device controller** app such as [Shelter](https://www.privacyguides.org/en/android/general-apps/#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+**Requirements:**
+- A device controller app like [Shelter](https://www.privacyguides.org/en/android/general-apps/#shelter), OR
+- A custom Android OS with built-in work profile management
 
-The work profile is dependent on a device controller to function. Features such as _File Shuttle_ and _contact search blocking_ or any kind of isolation features must be implemented by the controller. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
+**Capabilities:**
+- File Shuttle between profiles
+- Contact search blocking
+- App isolation
 
-This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the owner profile and work profile simultaneously.
+**Limitations:**
+- Less secure than separate user profiles
+- Requires trusting the device controller app (which has full access to work profile data)
 
-### Private Space
+### Private Space (Android 15+)
 
-**Private Space** is a feature introduced in Android 15 that adds another way of isolating individual apps. You can set up a private space in the owner profile by navigating to ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**Settings** → **Security & privacy** → **Private space**. Once set up, your private space resides at the bottom of the app drawer.
+Private Space is Android's native solution for isolating individual apps without third-party tools.
 
-Like user profiles, a private space is encrypted using its own encryption key, and you have the option to set up a different unlock method. Like work profiles, you can use apps from both the owner profile and private space simultaneously. Apps launched from a private space are distinguished by an icon depicting a key within a shield.
+**Setup:** Settings → Security & privacy → Private space
 
-Unlike work profiles, Private Space is a feature native to Android that does not require a third-party app to manage it. For this reason, we generally recommend using a private space over a work profile, though you can use a work profile alongside a private space.
+**Features:**
+- Encrypted with its own key
+- Separate unlock method option
+- Apps marked with key-and-shield icon
+- Simultaneous use with main profile
 
-### VPN kill switch
+> **Recommendation**: Private Space is generally preferred over work profiles because it's native to Android and doesn't require third-party management apps.
 
-Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**Settings** → **Network & internet** → **VPN** → ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg) → **Block connections without VPN**.
+### VPN Kill Switch
+
+Android 7+ includes a native VPN kill switch that prevents data leaks when the VPN disconnects.
+
+**Location:** Settings → Network & internet → VPN → ⚙ → Block connections without VPN
 
 ### Global Toggles
 
-Modern Android devices have global toggles for disabling Bluetooth and location services. Android 12 introduced toggles for the camera and microphone. When not in use, we recommend disabling these features. Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
+Android 12+ provides system-wide toggles for:
+- Camera
+- Microphone
+- Bluetooth
+- Location services
 
-## Google Services
+> **Best Practice**: Disable these features when not in use. Apps cannot access disabled features even with granted permissions.
 
-If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play Services to a specific user/work profile by combining a device controller like _Shelter_ with GrapheneOS's Sandboxed Google Play.
+---
+
+## Google Services Configuration
+
+If using a device with Google services (stock OS or sandboxed Google Play like GrapheneOS), these additional changes improve privacy.
 
 ### Advanced Protection Program
 
-If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). It is available at no cost to anyone with two or more hardware security keys with [FIDO](https://www.privacyguides.org/en/basics/multi-factor-authentication/#fido-fast-identity-online) support. Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
+Google's [Advanced Protection Program](https://landing.google.com/advancedprotection) is free and provides enhanced security for Google accounts.
 
-The Advanced Protection Program provides enhanced threat monitoring and enables:
+**Requirements:**
+- Two or more hardware security keys with FIDO support, OR
+- Passkeys
 
-- Stricter two-factor authentication; e.g. that [FIDO](https://www.privacyguides.org/en/basics/multi-factor-authentication/#fido-fast-identity-online) **must** be used and disallows the use of [SMSOTPs](https://www.privacyguides.org/en/basics/multi-factor-authentication/#sms-or-email-mfa), [TOTP](https://www.privacyguides.org/en/basics/multi-factor-authentication/#time-based-one-time-password-totp) and [OAuth](https://www.privacyguides.org/en/basics/account-creation/#sign-in-with-oauth)
-- Only Google and verified third-party apps can access account data
-- Scanning of incoming emails on Gmail accounts for [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) attempts
-- Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
-- Stricter recovery process for accounts with lost credentials
+**Benefits:**
+- **Stricter 2FA**: Requires FIDO; blocks SMS OTP, TOTP, and OAuth
+- **Limited data access**: Only Google and verified third-party apps can access account data
+- **Enhanced phishing protection**: Incoming Gmail scanned for phishing
+- **Stricter browser security**: Enhanced Safe Browsing in Chrome
+- **Secure account recovery**: Stricter process for lost credentials
 
-If you use non-sandboxed Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949) such as:
-
-- Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
-- Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
-- Warning you about unverified applications
+**Additional benefits for non-sandboxed Google Play:**
+- App installation restricted to Google Play Store, OEM store, or `adb`
+- Mandatory Play Protect scanning
+- Warnings about unverified applications
 
 ### Google Play System Updates
 
-In the past, Android security updates had to be shipped by the operating system vendor. Android has become more modular beginning with Android 10, and Google can push security updates for **some** system components via the privileged Play Services.
+For devices running Android 10+ that can't run recommended custom operating systems, staying with OEM Android is often better than using unsupported alternatives (like LineageOS or /e/ OS). This allows receiving some security fixes from Google while maintaining the Android security model.
 
-If you have an EOL device shipped with Android 10 or above and are unable to run any of our recommended operating systems on your device, you are likely going to be better off sticking with your OEM Android installation (as opposed to an operating system not listed here such as LineageOS or /e/ OS). This will allow you to receive **some** security fixes from Google, while not violating the Android security model by using an insecure Android derivative and increasing your attack surface. We would still recommend upgrading to a supported device as soon as possible.
+> **Note**: Always upgrade to a supported device as soon as possible.
 
-### Advertising ID
+### Disabling Advertising ID
 
-All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. Disable this feature to limit the data collected about you.
+All devices with Google Play Services generate an advertising ID for targeted advertising.
 
-On Android distributions with [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **All services** → **Ads**.
+**For Sandboxed Google Play (GrapheneOS):**
+Settings → Apps → Sandboxed Google Play → Google Settings → All services → Ads → **Delete advertising ID**
 
-- Select **Delete advertising ID**
+**For Stock Android (varies by OEM):**
+- Settings → Google → Ads, OR
+- Settings → Privacy → Ads
 
-On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. Check
-
-- ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**Settings** → **Google** → **Ads**
-- ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**Settings** → **Privacy** → **Ads**
-
-You will either be given the option to delete your advertising ID or to _Opt out of interest-based ads_ (this varies between OEM distributions of Android). If presented with the option to delete the advertising ID, that is preferred. If not, then make sure to opt out and reset your advertising ID.
+Choose "Delete advertising ID" if available; otherwise, opt out of interest-based ads and reset your ID.
 
 ### SafetyNet and Play Integrity API
 
-[SafetyNet](https://developer.android.com/training/safetynet/attestation) and the [Play Integrity APIs](https://developer.android.com/google/play/integrity) are generally used for [banking apps](https://grapheneos.org/usage#banking-apps). Many banking apps will work fine in GrapheneOS with sandboxed Play services, however some non-financial apps have their own crude anti-tampering mechanisms which might fail. GrapheneOS passes the `basicIntegrity` check, but not the certification check `ctsProfileMatch`. Devices with Android 8 or later have hardware attestation support which cannot be bypassed without leaked keys or serious vulnerabilities.
+These APIs are primarily used by banking apps for device verification.
 
-As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt out if you don't want your credit rating and personal information shared with affiliate marketing services.
+**GrapheneOS Compatibility:**
+- Passes `basicIntegrity` check
+- Fails `ctsProfileMatch` certification check
+- Many banking apps work with sandboxed Play Services
 
-Was this page helpful?
+**Hardware Attestation:**
+- Android 8+ devices have hardware attestation
+- Cannot be bypassed without leaked keys or serious vulnerabilities
 
+> **Privacy Note**: Google Wallet's [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en) allows sharing credit rating and personal information with affiliate marketing services unless you opt out.
 
+---
 
+## Key Takeaways
 
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+1. **Verified Boot is essential** - Avoid devices or custom ROMs without proper support
+2. **Firmware updates matter** - Purchase devices within active support cycles
+3. **Permissions are powerful** - Use Android's granular controls to limit app access
+4. **Isolation options exist** - Use Private Space, Work Profiles, or separate user profiles
+5. **Google services can be managed** - Sandbox or configure them for improved privacy
+6. **Hardware security keys enhance protection** - Consider the Advanced Protection Program for Google accounts

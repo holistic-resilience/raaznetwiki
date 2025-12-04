@@ -1,100 +1,123 @@
-[Skip to content](https://www.privacyguides.org/en/basics/common-misconceptions/#open-source-software-is-always-secure-or-proprietary-software-is-more-secure)
+```yaml
+---
+title: "Common Misconceptions About Privacy and Security"
+tags: [privacy, security, threat-modeling, open-source, identity-management]
+category: "Privacy Fundamentals"
+difficulty: "Intermediate"
+audience: [General Public, Privacy-Conscious Users, Security Beginners]
+topics: ["Digital Security", "Privacy Protection", "Threat Modeling"]
+summary: "Debunks common privacy and security myths, covering open-source vs proprietary software, trust shifting, and identity management strategies."
+source: "Privacy Guides"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of digital privacy concepts"]
+estimated_read_time: "6 minutes"
+---
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/basics/common-misconceptions.md?plain=1 "Edit this page")
-
-# Common Misconceptions
+# Common Misconceptions About Privacy and Security
 
 ## "Open-source software is always secure" or "Proprietary software is more secure"
 
-These myths stem from a number of prejudices, but whether the source code is available and how software is licensed does not inherently affect its security in any way. Open-source software has the _potential_ to be more secure than proprietary software, but there is absolutely no guarantee this is the case. When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+These myths stem from various prejudices, but whether source code is available and how software is licensed does not inherently affect its security. Open-source software has the *potential* to be more secure than proprietary software, but there is absolutely no guarantee this is the case. When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
 
-Open-source software _can_ be audited by third-parties, and is often more transparent about potential vulnerabilities than proprietary counterparts. It also allows you to review the code and disable any suspicious functionality you find yourself. However, _unless you do so_, there is no guarantee that code has ever been evaluated, especially with smaller software projects. The open development process has also sometimes been exploited to introduce new vulnerabilities known as [Supply Chain Attacks](https://www.privacyguides.org/en/basics/common-threats/#attacks-against-certain-organizations), which are discussed further in our [Common Threats](https://www.privacyguides.org/en/basics/common-threats/) page.[1](https://www.privacyguides.org/en/basics/common-misconceptions/#fn:1)
+**Advantages of open-source software:**
+- Can be audited by third parties
+- Often more transparent about potential vulnerabilities
+- Allows you to review code and disable suspicious functionality
 
-On the flip side, proprietary software is less transparent, but that doesn't imply that it's not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
+**However**, unless you actually review the code, there is no guarantee it has ever been evaluated—especially with smaller software projects. The open development process has also sometimes been exploited to introduce new vulnerabilities known as **Supply Chain Attacks**.
 
-To avoid biased decisions, it's _vital_ that you evaluate the privacy and security standards of the software you use.
+> **Notable Example:** In March 2024, a malicious maintainer added an obfuscated backdoor to `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but was discovered before widespread deployment.
+
+**Proprietary software** is less transparent, but that doesn't mean it's insecure. Major proprietary projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities through techniques like reverse engineering.
+
+**Key takeaway:** Evaluate the privacy and security standards of software on an individual basis, avoiding biased decisions based solely on licensing model.
+
+---
 
 ## "Shifting trust can increase privacy"
 
-We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP _specifically_, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties. This means that:
+When shifting trust from one provider to another:
 
-1. You must exercise caution when choosing a provider to shift trust to.
-2. You should still use other techniques, like E2EE, to protect your data completely. Merely distrusting one provider to trust another is not securing your data.
+1. **Exercise caution** when choosing a provider to shift trust to
+2. **Use additional techniques** like end-to-end encryption (E2EE) to protect your data completely
+
+Merely distrusting one provider to trust another is not securing your data.
+
+---
 
 ## "Privacy-focused solutions are inherently trustworthy"
 
-Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](https://www.privacyguides.org/en/encryption/#cryptomator-cloud)) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+Focusing solely on privacy policies and marketing can blind you to a tool's weaknesses. When seeking a more private solution:
 
-The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
+1. **Identify the underlying problem**
+2. **Find technical solutions** to that specific problem
+
+**Example:** You may want to avoid Google Drive because it gives Google access to all your data. The underlying problem is lack of E2EE. Solutions include:
+- Switching to a provider that actually implements E2EE
+- Using a tool like [Cryptomator](https://www.privacyguides.org/en/encryption/#cryptomator-cloud) to provide E2EE on any cloud provider
+
+Switching to a "privacy-focused" provider that doesn't implement E2EE doesn't solve your problem—it just shifts trust from Google to that provider.
+
+---
 
 ## "Complicated is better"
 
-We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do _X_?"
+People often describe overly complex privacy threat models involving multiple email accounts or complicated setups with many moving parts. This approach has problems:
 
-Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience. Below, we provide some tips:
+- **Use the right level of protection** for what you actually intend
+- Law-enforcement or subpoena-proof solutions often require specialist knowledge and aren't what most people need
+- An intricate threat model for anonymity is pointless if you can be easily deanonymized by a simple oversight
 
-1. Actions need to serve a particular purpose: think about how to do what you want with the fewest actions.
-2. Remove human failure points: We fail, get tired, and forget things. To maintain security, avoid relying on manual conditions and processes that you have to remember.
-3. Use the right level of protection for what you intend. We often see recommendations of so-called law-enforcement or subpoena-proof solutions. These often require specialist knowledge and generally aren't what people want. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
+---
 
-So, how might this look?
+## Understanding Identity Levels
 
-One of the clearest threat models is one where people _know who you are_ and one where they do not. There will always be situations where you must declare your legal name and there are others where you don't need to.
+One of the clearest threat models distinguishes between situations where people *know who you are* and situations where they do not.
 
-1. **Known identity** \- A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
+### 1. Known Identity
 
-We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+Used for situations requiring your legal name:
+- Opening bank accounts
+- Signing property leases
+- Obtaining passports
+- Customs declarations
+- Government dealings
 
+These activities lead to credentials such as credit cards, credit rating checks, account numbers, and physical addresses.
 
+**Recommendation:** Don't use a VPN or Tor for these activities—your identity is already known through other means.
 
+> **Tip:** When shopping online, using a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
 
+### 2. Unknown Identity (Pseudonymous)
 
-Tip
+A stable pseudonym you use regularly. It is **not anonymous** because:
+- It doesn't change
+- If monitored long enough, details about the owner can reveal further information (writing style, knowledge areas, etc.)
 
+**Recommendations:**
+- Use a VPN to mask your IP address
+- For financial transactions, consider anonymous cryptocurrencies like [Monero](https://www.privacyguides.org/en/cryptocurrency/#monero)
+- Altcoin shifting can help disguise currency origins
+- Note: Exchanges typically require KYC (Know Your Customer) for fiat-to-cryptocurrency exchanges
+- Local meet-up options exist but are often more expensive and may also require KYC
 
+### 3. Anonymous Identity
 
+Even with experience, anonymous identities are difficult to maintain over long periods. They should be:
+- **Short-term** and **short-lived**
+- **Rotated regularly**
 
+---
 
+## Key Takeaways
 
-
-When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
-
-2. **Unknown identity** \- An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
-
-You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://www.privacyguides.org/en/cryptocurrency/#monero). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
-
-3. **Anonymous identity** \- Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
-
-Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
-
-
-* * *
-
-1. A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. The backdoor ( [CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed. [↩](https://www.privacyguides.org/en/basics/common-misconceptions/#fnref:1)
-
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+| Misconception | Reality |
+|---------------|---------|
+| Open-source = secure | Security depends on individual tool evaluation, not licensing |
+| Shifting providers = more privacy | Without E2EE, you're just moving trust, not securing data |
+| Privacy-focused = trustworthy | Marketing doesn't equal technical protection |
+| Complex = better | Match protection level to actual needs |
+```

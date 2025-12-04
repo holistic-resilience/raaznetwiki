@@ -1,37 +1,65 @@
-# Threat Brainstorm
+---
+title: "Exercise: Threat Brainstorm"
+tags: [threat-modeling, risk-assessment, security-planning, human-rights, activist-security]
+category: "Security Planning"
+difficulty: "Intermediate"
+audience: [Human Rights Defenders, Activists, NGO Staff, Security Trainers]
+topics: ["Threat Modeling", "Risk Assessment", "Security Planning"]
+summary: "A structured exercise for identifying and cataloging potential threats to human rights defenders and their work."
+source: "Holistic Security - Tactical Tech"
+content_type: "Exercise Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Context analysis completed", "Actor mapping completed", "Understanding of security indicators"]
+estimated_read_time: "4 minutes"
+---
 
-![Explore detail 07](https://holistic-security.tacticaltech.org/media/exercises/images/default/explore_detail_07.jpg%3F1465900455)
+# Exercise: Threat Brainstorm
 
-## Purpose & Output
+This exercise provides a structured approach to identifying threats facing human rights defenders, organizations, and their work. The resulting threat list serves as the foundation for deeper risk analysis and security planning.
 
-This exercise is a first attempt at identifying the threats to yourself, your group or organisation and your work in defence of human rights. This initial list of threats can then be refined so as to focus in more depth on the threats which are most likely or potentially most harmful.
+## Purpose
 
-## Input & Materials
+Create an initial inventory of potential threats that can be refined and prioritized in subsequent exercises based on likelihood and potential harm.
 
-This exercise will be easier if you start with:
+## Prerequisites
 
-- your analysis of the ongoing political, economic, social and technological trends in your context
-- a list of the activities or types of work you carry out in order to achieve your objectives
-- your actor map, particularly the opponents
-- a list of security indicators you have observed in your previous work.
+Before beginning, gather:
 
-Suggested materials:
+- **Context analysis**: Your assessment of political, economic, social, and technological trends in your environment
+- **Activity inventory**: List of work types and activities you conduct to achieve your objectives
+- **Actor map**: Identification of opponents and adversaries
+- **Security indicators**: Observations from previous work that may signal threats
 
-- If alone: a sheet of paper or some other materials for writing.
-- If in a group: a large sheet or flip-chart and writing material.
+## Materials Needed
 
-## Format & Steps
+| Setting | Materials |
+|---------|-----------|
+| Individual | Paper or digital note-taking tool |
+| Group | Flip-chart or large paper, markers |
 
-Consider and write down all the potential threats to yourself, your organisation and your work. It may be helpful to categorise them beginning from each of your activities or areas of work. Remember: _a threat is any potential event which could cause harm to ourselves or our work_. Don't forget to consider potential threats to your information security and threats to your well-being, political or otherwise.
+## Process
 
-Create a list of these threats. If you find it difficult, consider your opponents and the ways in which they have acted against other human rights defenders in the past. Analyse your security indicators and consider whether they represent a concrete threat.
+1. **Review your inputs**: Examine your context analysis, activities, actor map, and security indicators
+2. **Identify threats**: Consider how opponents have acted against other human rights defenders
+3. **Analyze indicators**: Determine whether observed security indicators represent concrete threats
+4. **Document everything**: Create a comprehensive list without filtering at this stage
+5. **Preserve the list**: Keep this inventory for use in subsequent analysis exercises
 
-Observe any patterns that emerge in the threats you identified: do they relate primarily to certain activities of yours, or originate from certain opponents? This will be useful when it comes to security planning (i.e. by planning particularly for certain activities, or dedicated plans for engagement with some actors).
+## Guidance
 
-Keep this list for analysis in the following exercises.
+### Managing Overwhelm
 
-## Remarks and tips
+A lengthy threat list can feel daunting. Remember that this brainstorm is a starting point—prioritization and focused analysis come later.
 
-If the list is somewhat long, it may be overwhelming to consider these potential threats. It may also be a challenging exercise as we may not know how realistic we are being.
+### Reframing Threats
 
-It's important to remember that political threats always originate from a certain actor or set of actors who see their interests potentially threatened by you and your work. In a sense, threats are a sign that your work is effective and that your opponents fear your work. While it may be a moment which inspires fear, clearly recognising the threats you face should also be a moment of empowerment. Acknowledging these threats and the likelihood of their occurrence allows you to better plan for and potentially mitigate the damage caused to you or you work, should one of them occur.
+Political threats originate from actors who perceive their interests as threatened by your work. Consider this perspective:
+
+- **Threats indicate effectiveness**: Opponents fear work that creates change
+- **Recognition enables action**: Acknowledging threats allows you to plan mitigation strategies
+- **Preparation reduces harm**: Understanding potential threats helps minimize damage if they materialize
+
+### Key Principle
+
+While identifying threats may initially inspire fear, this process is fundamentally empowering. Clear recognition of what you face is the first step toward protecting yourself and sustaining your work.

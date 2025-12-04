@@ -1,20 +1,46 @@
-[Skip to content](https://freedom.press/digisec/blog/whatsapp-security/#main)
+---
+title: "WhatsApp Security Tips - Content Unavailable"
+tags: [security, privacy, whatsapp, messaging, freedom-of-press]
+category: "Digital Security"
+difficulty: "Beginner"
+audience: [General Public, Privacy-Conscious Users]
+topics: ["Digital Security", "Messaging Security"]
+summary: "Placeholder for WhatsApp security guide from Freedom of the Press Foundation - original content no longer available."
+source: "Freedom of the Press Foundation"
+content_type: "Reference"
+security_level: "Informational"
+language: "English"
+prerequisites: []
+estimated_read_time: "1 minute"
+status: "broken-link"
+original_url: "https://freedom.press/digisec/blog/whatsapp-security/"
+---
 
-# Page not found
+# WhatsApp Security Tips
 
-The page you requested wasn’t found.
+> [!warning] Content Unavailable
+> The original article from Freedom of the Press Foundation is no longer available at its original URL. The page returns a 404 error.
 
+## Original Source
 
+- **Publisher:** Freedom of the Press Foundation
+- **URL:** `https://freedom.press/digisec/blog/whatsapp-security/`
+- **Status:** Page not found
 
-[Return Home](https://freedom.press/)
+## Recommended Alternatives
 
-## Sign Up. Take Action.
+For WhatsApp security guidance, consider these resources:
 
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
+- [[EFF Surveillance Self-Defense]] - Comprehensive digital security guides
+- [Freedom of the Press Foundation Digital Security](https://freedom.press/digisec/) - Main digital security hub
+- [WhatsApp Security Features](https://www.whatsapp.com/security/) - Official WhatsApp security documentation
 
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
+## Related Topics
 
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
+- [[Messaging Security]]
+- [[End-to-End Encryption]]
+- [[Mobile Security]]
 
+---
 
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+*This document was updated to reflect that the original content is no longer accessible. Consider searching for archived versions or updated guides on the same topic.*

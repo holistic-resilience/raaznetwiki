@@ -1,23 +1,59 @@
-بخش سوم
+```yaml
+---
+title: "آموزش ارسال ایمیل رمزنگاری شده با Mailvelope"
+tags: [pgp, email-encryption, mailvelope, privacy, digital-security]
+category: "Email Security"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, Activists, Journalists]
+topics: ["Email Encryption", "PGP", "Browser Extensions"]
+summary: "آموزش ارسال ایمیل رمزنگاری شده با استفاده از PGP و افزونه Mailvelope برای افزایش امنیت ارتباطات ایمیلی"
+source: "Certfa"
+content_type: "Tutorial"
+security_level: "Basic"
+language: "Persian"
+prerequisites: ["آشنایی با مفاهیم رمزنگاری", "نصب افزونه Mailvelope", "ایجاد کلید PGP"]
+estimated_read_time: "3 minutes"
+related_tutorials: ["ایجاد کلید PGP با Mailvelope", "مدیریت کلیدهای PGP"]
+---
+```
 
-# آموزش ارسال ایمیل رمزنگاری شده با استفاده از PGP و از طریق افزونه Mailvelope
+# آموزش ارسال ایمیل رمزنگاری شده با Mailvelope
 
-در دو بخش قبل از آموزش‌های افزونه Mailvelope، به نحوه ایجاد کلید PGP و همینطور شیوه مدیریت کلیدهای PGP اشاره کردیم. در این ویدیو کوتاه، آموزش ارسال ایمیل‌های رمزنگاری شاده با استفاده از کلید PGP و از طریق افزونه Mailvelope را برای شما آماده کرده‌ایم که با دنبال کردن این مجموعه آموزش‌ها،‌ می‌توانید امنیت ارتباطات ایمیلی خود را تا حد قابل قبولی افزایش دهید.
+## مقدمه
 
-1. [سرتفا](https://certfa.com/)»
-2. [دانشنامه](https://certfa.com/info/)»
-3. [امنیت ایمیل](https://certfa.com/info/email-security/)
+این آموزش بخش سوم از مجموعه آموزش‌های افزونه Mailvelope است. در بخش‌های قبلی به نحوه ایجاد و مدیریت کلیدهای PGP پرداختیم. در این بخش، شیوه ارسال ایمیل‌های رمزنگاری شده را یاد می‌گیرید.
 
-۱۷ شهریور ۱۳۹۸
+## پیش‌نیازها
 
-**لینک‌های راهنما:**
+- نصب افزونه Mailvelope
+- ایجاد کلید PGP شخصی
+- دسترسی به کلید عمومی گیرنده
 
-\- افزونه Mailvelope برای [مرورگر فایرفاکس](https://addons.mozilla.org/en-US/firefox/addon/mailvelope/)
+## نصب افزونه Mailvelope
 
-\- افزونه Mailvelope برای [مرورگر کروم](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke?hl=en)
+افزونه Mailvelope را از لینک‌های زیر دریافت کنید:
 
-[امنیت ایمیل](https://certfa.com/topic/email-security/) \| [رمزگذاری](https://certfa.com/topic/encryption/)
+| مرورگر | لینک دانلود |
+|--------|-------------|
+| Firefox | [افزونه فایرفاکس](https://addons.mozilla.org/en-US/firefox/addon/mailvelope/) |
+| Chrome | [افزونه کروم](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke?hl=en) |
 
-[مقابله با هرزنامه‌های تقویم گوگل](https://certfa.com/info/email-security/google-calendar-spam-got-you-down-a-fix-is-on-the-way/)
+## مراحل ارسال ایمیل رمزنگاری شده
 
-[حملات تعویض سیم‌کارت](https://certfa.com/info/basic-information/sim-swap-attack-defend-phone/)
+با دنبال کردن این آموزش، می‌توانید امنیت ارتباطات ایمیلی خود را تا حد قابل قبولی افزایش دهید.
+
+---
+
+## منابع مرتبط
+
+- [امنیت ایمیل - Certfa](https://certfa.com/info/email-security/)
+- [دانشنامه Certfa](https://certfa.com/info/)
+
+## موضوعات مرتبط
+
+- [[مقابله با هرزنامه‌های تقویم گوگل]]
+- [[حملات تعویض سیم‌کارت]]
+
+---
+
+*منبع: [Certfa](https://certfa.com/) | تاریخ انتشار: ۱۷ شهریور ۱۳۹۸*

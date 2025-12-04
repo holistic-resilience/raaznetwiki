@@ -1,34 +1,106 @@
-# Existing Practices and Capacities
+---
+title: "Exercise: Existing Practices and Capacities"
+tags: [security-assessment, threat-analysis, capacity-building, risk-management, holistic-security]
+category: "Security Planning"
+difficulty: "Intermediate"
+audience: [Activists, Human Rights Defenders, Security Practitioners]
+topics: ["Threat Assessment", "Security Capacity", "Risk Analysis"]
+summary: "A structured exercise to evaluate existing security practices and capacities against identified threats, establishing a baseline for improvement."
+source: "Tactical Tech - Holistic Security"
+content_type: "Exercise"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Completion of threat identification exercise (Exercise 2.5b)", "Basic understanding of threat modeling"]
+estimated_read_time: "8 minutes"
+---
 
-![Strategise detail 01](https://holistic-security.tacticaltech.org/media/exercises/images/default/strategise_detail_01.jpg%3F1465900867)
+# Exercise: Existing Practices and Capacities
+
+![Strategise detail](https://holistic-security.tacticaltech.org/media/exercises/images/default/strategise_detail_01.jpg%3F1465900867)
 
 ## Purpose & Outputs
 
-In this exercise, you can consider each of the threats you identified and prioritised in Section II in light of your existing security practices and other capacities relative to them. This will give you a 'baseline' on which you can later build and improve.
+This exercise helps you evaluate each threat identified in Section II against your current security practices and capacities. The goal is to establish a baseline understanding of your existing protections, which you can later build upon and improve.
 
-## Input & Materials
+## Prerequisites
 
-To carry out this exercise, you need to have identified and prioritised threats in Exercise 2.5b. It may be helpful to write out the the capacities you identify so you can review them later.
+- Completed threat identification and prioritization (Exercise 2.5b)
+- Writing materials to document identified capacities for later review
 
-## Format & Steps
+---
 
-Return to the threats identified in Exercise 2.5b. For each of the threats you have identified, there were a series of questions. Here you can relate your existing security practices and capacities to each of these questions as follows:
+## Assessment Framework
 
-**Whom/What is under threat?** Identify here what capacities (if any) are already protecting this person or thing from this threat. Examples of capacities could include:
+For each prioritized threat, work through the following dimensions:
 
-- in the case of judicial harassment: good legal knowledge
-- in the case of computer confiscation: having encrypted hard drives.
+### 1. Asset Protection
 
-**Who is behind the threat?** Do you already have some kind of tactic for engaging with this actor? Are there any tactics or resources you have leveraged in order to prevent them from acting against you? If so, what? If they have acted against you before, did you respond in some way? If so, how? If you don't have any, that is fine: this will be important to remember when you identify gaps.
+**Question:** What capacities currently protect this person or asset from this threat?
 
-**How: What information is necessary for them to carry out the attack?** Do you have any information protection or counter-surveillance practices in place which might prevent that information from falling into their hands?
+**Examples:**
+- **Judicial harassment** → Strong legal knowledge or access to legal support
+- **Device confiscation** → Encrypted hard drives and secure data practices
 
-**Where: What access to you or your property do they need?** How do you secure the physical spaces around you (e.g. buildings, vehicles, private property) in order to protect yourself and your property? For example, do you lock your offices and homes? What 'common sense' practices do you have for your personal safety in dangerous environments? All of these are important to note, so that you don't start from zero!
+### 2. Adversary Engagement
 
-**Psychological, emotional and health tactics:** Include any well-being practices that are in place to deal with this threat – do you have any practices which help to reduce stress, tiredness etc., and increase centredness and awareness which may help respond to this threat?
+**Question:** What strategies exist for dealing with the threat actor?
 
-Where possible, try to consider these aspects relative to each of the threats you have identified. **If you can't think of an answer for one or more of the questions, that is fine: you have just identified a gap to be filled!** You will consider gaps in the following exercise, and use them as a way to identify what new resources and practices you need.
+Consider:
+- Current tactics for engaging with this actor
+- Resources previously leveraged to prevent their actions
+- Past responses to their actions against you
+- *Note: Having no existing tactics is acceptable—this identifies gaps for future planning*
 
-## Remarks & Tips
+### 3. Information Security
 
-**Caution!** For each of the answers you give, **consider whether this practice or capacity is positive. How do you know?** There is a slight danger of creating a false sense of security if you falsely credit an existing practice with helping to keep you safe. If you are not sure about something, it would be worth taking the time to think over and **talk to your colleagues or trusted friends in order to get a fresh perspective**.
+**Question:** What practices prevent critical information from reaching adversaries?
+
+Evaluate your:
+- Information protection protocols
+- Counter-surveillance practices
+- Communication security measures
+
+### 4. Physical Security
+
+**Question:** How do you secure physical access to yourself and your property?
+
+Review:
+- Building and office security (locks, access controls)
+- Vehicle security
+- Personal safety practices in high-risk environments
+- Property protection measures
+
+*Document all "common sense" practices—these form your security foundation.*
+
+### 5. Well-being Practices
+
+**Question:** What supports your psychological and physical resilience against this threat?
+
+Consider:
+- Stress reduction practices
+- Rest and recovery routines
+- Mindfulness or awareness practices
+- Support networks and community connections
+
+---
+
+## Critical Evaluation
+
+> [!warning] Avoid False Security
+> For each practice you identify, critically assess whether it actually provides protection.
+> 
+> **Ask yourself:**
+> - How do I know this practice is effective?
+> - Is there evidence it works against this specific threat?
+> - Could I be overestimating its protective value?
+> 
+> **If uncertain:** Consult colleagues or trusted peers for an outside perspective before crediting a practice with keeping you safe.
+
+---
+
+## Next Steps
+
+After completing this assessment, you will have:
+- A documented baseline of existing security capacities
+- Identified gaps where no protections exist
+- A foundation for developing targeted security improvements

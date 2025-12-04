@@ -1,143 +1,253 @@
-Electronic Monitoring \| Street Level Surveillance [Skip to main content](https://sls.eff.org/technologies/electronic-monitoring#main-content)
+```yaml
+---
+title: "Electronic Monitoring - Street Level Surveillance"
+tags: [surveillance, electronic-monitoring, criminal-justice, privacy, e-carceration, gps-tracking]
+category: "Surveillance Technologies"
+difficulty: "Intermediate"
+audience: [General Public, Activists, Legal Professionals, Privacy-Conscious Users]
+topics: ["Criminal Justice", "Digital Surveillance", "Civil Liberties", "Privacy Rights"]
+summary: "Comprehensive guide on electronic monitoring devices used in the criminal justice system, including GPS ankle monitors, their impact on communities, and associated civil liberties concerns."
+source: "Electronic Frontier Foundation (EFF) - Street Level Surveillance"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of criminal justice system", "Familiarity with surveillance concepts"]
+estimated_read_time: "12 minutes"
+---
 
-- [Technologies](https://sls.eff.org/)
-- [About](https://sls.eff.org/?class=scrolly#about)
-- [News](https://sls.eff.org/articles)
-- Resources
-  - [Atlas of Surveillance](https://atlasofsurveillance.org/)
-  - [Spot the Surveillance](https://eff.org/spot)
-  - [Surveillance Self Defense](https://ssd.eff.org/)
+# Electronic Monitoring
 
-* * *
+Electronic monitoring is a form of digital incarceration, often in the form of a wrist bracelet or ankle "shackle" that can monitor a subject's location, and sometimes also their blood alcohol level or breath.
 
-Follow Us
+## Overview
 
+Monitors are commonly used as a condition of:
+- Pretrial release
+- Post-conviction supervision (probation or parole)
+- Reducing jail and prison populations
 
-- [Facebook](https://www.facebook.com/eff)
-- [X](https://twitter.com/eff)
-- [RSS](https://www.eff.org/rss)
-- [Subscribe](https://www.eff.org/effector)
+Electronic monitoring has also been used to track:
+- Juveniles
+- Immigrants awaiting legal proceedings
+- Adults in drug rehabilitation programs
+- Individuals accused or convicted of DUIs or domestic violence
 
-Share
+## Typical Requirements for Monitored Individuals
 
+People on monitors typically face strict conditions:
 
-- [Facebook](https://www.facebook.com/share.php?u=https%3A//sls.eff.org&title=EFF%27s%20Street-Level%20Surveillance%20page%20is%20an%20accessible%20resources%20when%20you%20need%20a%20field%20guide%20to%20the%20technology%20used%20by%20police,%20how%20it%20works,%20and%20why%20it%27s%20dangerous.%20Learn%20more%20about%20surveillance%20cameras,%20license%20plate%20readers,%20and%20more. "Share on Facebook")
-- [X](https://twitter.com/intent/tweet?text=EFF%27s%20Street-Level%20Surveillance%20page%20is%20an%20accessible%20resources%20when%20you%20need%20a%20field%20guide%20to%20the%20technology%20used%20by%20police,%20how%20it%20works,%20and%20why%20it%27s%20dangerous.%20Learn%20more%20about%20surveillance%20cameras,%20license%20plate%20readers,%20and%20more.&url=https%3A//sls.eff.org&via=eff&related=eff "Share on Twitter")
-- Copy Link
+- **Daily charging**: Devices must be charged daily
+- **Movement restrictions**: Cannot leave home without permission
+- **Exclusion zones**: Certain areas of the city trigger alarms if entered
+- **Schedule rigidity**: Some counties require a full week's notice for schedule changes, even for emergencies
+- **Financial burden**: Installation fees and daily fees may be required
+- **Communication requirements**: Some counties require users to own a landline phone
+- **Consequences**: Device disconnection may result in incarceration
 
-[×](https://sls.eff.org/technologies/electronic-monitoring#)
+## Scale of Use
 
-[≡](https://sls.eff.org/technologies/electronic-monitoring#mobile-nav)
+Electronic monitoring has seen a **140 percent increase** in just over a decade:
 
-[![Electronic Frontier Foundation](https://sls.eff.org/assets/eff-monogram-white-82e096a984dc1f116f80dbea3f0f704d2e1a7407a359a616057f4e7917cd7a26.svg)](https://eff.org/)
+- Approximately **125,000 devices** currently in use
+- Up to **30,000 devices** attached to immigrants on any given day
+- States with highest usage: Florida, Texas, California, Massachusetts, and Michigan
 
-![globe](https://sls.eff.org/assets/globe-54ce3b0c3b43065e07a53826025a3b07657c141b646dc37047e18a7d4622854e.svg)
+> **Key Finding**: There is no concrete evidence that electronic monitoring reduces crime rates or recidivism.
 
-- [English](https://sls.eff.org/technologies/electronic-monitoring)
-- [Español](https://sls.eff.org/es/technologies/electronic-monitoring)
+---
 
-![](https://sls.eff.org/files/sls/technology/banner_attachment/file/31/SLS-electronic-monitoring-2023-V2.png)
+## How Electronic Monitoring Works
 
-## Electronic monitoring
+Electronic monitoring devices typically use one of several technologies:
 
-Electronic monitoring is a form of digital incarceration, often in the form of a wrist bracelet or ankle “shackle” that can monitor a subject’s location, and sometimes also their blood alcohol level or breath.
+### GPS Tracking
 
-Monitors are commonly used as a condition of pretrial release, or post-conviction supervision, like probation or parole. They are sometimes used as a mechanism for reducing jail and prison populations. Electronic monitoring has also been used to track juveniles, immigrants awaiting legal proceedings, adults in drug rehabilitation programs, and individuals accused or convicted of DUIs or domestic violence.
+**Active GPS Tracking**
+- Uses satellites to triangulate location
+- Transmits location information at set intervals in real-time
 
-Typically, people on monitors must charge their devices daily and can’t leave their homes without permission, and/or have areas of the city, called exclusion zones, which they can’t visit without triggering an alarm. Some counties require as much as a full week’s notice for a schedule change, even in the event of an emergency. Some counties impose installation fees and daily fees for the devices and require users to own a landline phone. If the device disconnects, the monitored person may be incarcerated.
+**Passive GPS Tracking**
+- Tracks and stores location information
+- Data downloaded at a later time
 
-Electronic monitoring has seen a 140 percent increase in just over a decade. About 125,000 devices are in use, with up to 30,000 of them attached to immigrants on any given day. States with the most prolific use of electronic monitoring include Florida, Texas, California, Massachusetts, and Michigan.
+### Radio Frequency Monitoring
 
-Not only does electronic monitoring impose excessive surveillance on people coming home from prison, but it also hinders their ability to successfully transition back into the community. Additionally, there is no concrete evidence that electronic monitoring reduces crime rates or recidivism.
+- Used primarily for curfew enforcement
+- Home monitoring unit detects the user's device within a specific range
+- Sends confirmation back to a monitoring center
 
-### How Electronic Monitoring Works
+### Alcohol Monitoring
 
-![An infographic showing how a satellite-linked GPS ankle bracelet transmits information to a vendor and the vendor's system transfers the data to the agency's monitoring center.](https://sls.eff.org/files/sls/wysiwyg/pictures/27/content_gao_-_electronic_monitoring_graphic.png)
+**Secure Continuous Remote Alcohol Monitoring (SCRAM)**
+- Analyzes perspiration
+- Sends blood alcohol content report every hour
 
-Source: Government Accountability Office
+**Breathalyzer Monitor**
+- Usually includes a camera
+- Tests breath at random intervals
+- Estimates blood alcohol content
 
-Electronic monitoring devices typically use active or passive GPS tracking, radio frequency monitoring, secure continuous remote alcohol monitoring, or breathalyzer monitoring.
+---
 
-Active GPS tracking uses satellites to triangulate and transmit location information at set intervals.
+## How Law Enforcement Uses Electronic Monitoring
 
-Passive GPS tracking tracks and stores location information for download at a later time.
+### Scope of Use
 
-Radio frequency monitoring is used for curfew enforcement. A home monitoring unit detects the user’s device within a specific range and sends confirmation back to a monitoring center.
+- **All 50 states** use some form of electronic monitoring
+- **49 states** (all except New Hampshire) use juvenile electronic monitoring
+- Used by Immigration and Customs Enforcement (ICE) for immigrant supervision
 
-Secure Continuous Remote Alcohol Monitoring, or SCRAM, analyzes perspiration to send a blood alcohol content report every hour.
+### Application Points
 
-A breathalyzer monitor usually has a camera. It tests a subject’s breath at random to estimate their blood alcohol content.
+| Stage | Description |
+|-------|-------------|
+| **Pretrial/During Trial** | For people arrested but not yet convicted |
+| **Post-Conviction** | Before or after serving incarceration sentence |
+| **Probation/Parole** | Community supervision after jail or prison |
 
-### How Law Enforcement Uses Electronic Monitoring
+> **Important Note**: Even though electronic monitoring is a form of custodial detention, not everyone on it receives credit for time served on the monitor.
 
-All 50 states use some form of electronic monitoring. Sometimes it is used pretrial or during trial, for people who have been arrested but have not been convicted of any crime. It can be used post-conviction, either before or after serving a sentence of incarceration.   It’s also been used for people on probation or parole, or who are under community supervision after serving time in jail or prison.
+---
 
-Every state except New Hampshire uses some form of [juvenile electronic monitoring](https://www.law.berkeley.edu/wp-content/uploads/2017/04/Report_Final_Electronic_Monitoring.pdf). It’s also been used on immigrants, who are placed under the electronic supervision of Immigrations and Customs Enforcement (ICE).
+## Threats Posed by Electronic Monitoring
 
-Even though electronic monitoring is a form of custodial detention, not everyone on it receives credit for time served on the monitor.
+### Financial Burden
 
-### Threats Posed by Electronic Monitoring
+People subject to electronic monitoring often face significant costs:
 
-![A CDCR wraps an ankle monitor around a person's leg. ](https://sls.eff.org/files/sls/wysiwyg/pictures/33/content_Delta-Parole-GPS-Unit-ridealong-July-2022-10-2048x1365.jpg)
+- **Daily fees**: $3 to $35 per day
+- **Setup charges**: $100 to $200
+- **Impact**: Unfairly shifts incarceration costs from government to individuals and families
 
-Source: California Department of Corrections & Rehabilitation
+A class-action lawsuit in Alameda County alleges these practices amount to extortion.
 
-A parole agent attaches a GPS monitor to a person's ankle.
+### Barriers to Reintegration
 
-People subject to electronic monitoring often pay user fees ranging from $3 to $35 per day, along with $100 to $200 in setup charges. This unfairly shifts the costs of incarceration from the government to individuals and their families. A class-action lawsuit in Alameda County alleges that this practice [amounts to extortion](https://www.eastbayexpress.com/oakland/lawsuit-alleges-ankle-monitoring-practices-are-akin-to-extortion/Content?oid=18890703).
+Electronic monitoring creates obstacles for:
 
-Electronic monitoring can make it difficult for parolees or probationers to go to job interviews, access employment and education, receive medical treatment, responsibly parent their children, or take part in family and community life. Short perimeters around their homes can stop people from emptying their garbage or doing yard work. Exclusion zones may prevent people from visiting homes of family members, religious services, school, or work.
+- **Employment**: Job interviews, maintaining employment, responding to schedule changes
+- **Education**: Accessing educational opportunities
+- **Healthcare**: Receiving medical treatment
+- **Family life**: Parenting responsibilities, family visits
+- **Community participation**: Religious services, community activities
+- **Daily tasks**: Even simple activities like emptying garbage or yard work may be restricted
 
-Responding to emergencies can be difficult, too. A person may be forced to take the risk of going back to prison for unauthorized movement to get a sick child to the hospital, or to pick up an elderly family member during bad weather.
+### Emergency Response Challenges
 
-Electronic monitoring can interfere in employment activities. It can create challenges for landscaping, construction, or delivery jobs. Some buildings, such as warehouses, interfere with GPS signals, so people may need to leave work to pick up the signal or call their parole officers. Unplanned overtime or a sudden change in work schedule can also lead to violations that result in further incarceration.
+Monitored individuals face difficult choices during emergencies:
+- Risk returning to prison for unauthorized movement to help a sick child
+- Unable to assist elderly family members during bad weather
+- Forced to choose between violation and family safety
 
-Electronic monitoring [disproportionately affects people of color](https://centerformediajustice.org/2017/06/20/malkia-cyril-will-harbor-fight-police-violence-demand-digital-sanctuary/), who already comprise more than 60 percent of people in correctional and detention facilities. Michelle Alexander, author of _[The New Jim Crow](https://slowrotation.memoryoftheworld.org/Michelle%20Alexander/The%20New%20Jim%20Crow_%20Mass%20Incarcerati%20(10839)/The%20New%20Jim%20Crow_%20Mass%20Incarcer%20-%20Michelle%20Alexander.pdf)_, warns that this new age of e-carceration is tantamount to the “ [Newest Jim Crow](https://www.nytimes.com/2018/11/08/opinion/sunday/criminal-justice-reforms-race-technology.html).” As mass incarceration continues to affect people of color disproportionately, the growth of electronic monitoring from [just 53,000 units in use in 2005](https://www.challengingecarceration.org/wp-content/uploads/2018/07/Survey-of-EM-Research.pdf) to well over 100,000 now, will also amplify the impact on e-carceration in vulnerable communities.
+### Employment Interference
 
-Curiously, [studies show](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4894743/) that black prisoners are less likely to accept electronic monitoring over prison. Perhaps this is  due to skepticism about the success rates for participation or fear that a faulty signal could extend a sentence. And yet, even with this attempt to avoid it, black people are subjected to electronic monitoring at a rate grossly disproportionate to their share of the population. [In Cook County, Illinois](https://www.challengingecarceration.org/2018/02/27/sheriff-tom-dart-controversy-over-em-in-cook-county-il/), for instance, Black people make up only 24% of the county’s population yet represent 70% of those who are on electronic monitors. This is part of the reason why the Center for Media Justice [calls for an end to electronic monitoring](https://centerformediajustice.org/wp-content/uploads/2018/10/NoMoreShackles_ParoleReport_UPDATED.pdf).
+Specific challenges include:
+- Difficulties with outdoor jobs (landscaping, construction, delivery)
+- GPS signal interference in warehouses and certain buildings
+- Need to leave work to pick up GPS signal or contact parole officers
+- Violations from unplanned overtime or schedule changes
+- Late buses or public transit delays can result in prison time
 
-Electronif [monitoring of juveniles](https://ebclc.org/wp-content/uploads/2017/07/Report_Final_Electronic_Monitoring.pdf) has been criticized for undermining the rehabilitative purpose of the [juvenile justice system](https://www.challengingecarceration.org/category/em-and-juvenile-justice/).
+### Racial Disparities
 
-Problems with reading comprehension or language translation can make it difficult for monitored people to understand and comply with the strict rules that govern e-carceration. A person’s electronic monitoring is governed by individual supervisors, who can change frequently. Supervisors often have different rules, and some rules are subjective and prone to bias.
+Electronic monitoring disproportionately affects people of color:
 
-It’s often unclear when movement will be permitted or for what purpose. Requests for movement for family, parenting, or community activities are often refused or not approved in a timely manner. Stringent rules can lead to jail time and increased costs due to technical violations. For example, someone who comes home late from work because the bus was late can be sent back to prison. To make matters worse, call center operators who handle all communication between people using electronic monitoring devices and their parole officers are frequently slow to answer the phone and often fail to record pre-arranged movement.
+- People of color comprise **over 60%** of those in correctional and detention facilities
+- Growth from **53,000 units in 2005** to over **100,000 now** amplifies impact on vulnerable communities
 
-Like all technology, electronic monitoring devices are imperfect. They are subject to technical failures and false monitor alarms. For example, GPS tracking devices can lose signal, which can trigger an alarm and an arrest warrant. Electronic monitoring devices must be plugged in twice a day for an hour at a time, and some batteries don’t last the 12 hours they’re supposed to.
+**Case Study - Cook County, Illinois:**
+- Black people make up only **24%** of the county's population
+- Yet represent **70%** of those on electronic monitors
 
-GPS location traffic data from electronic monitoring devices often ends up in a database under control of the state and a private vendor. When maintained by law enforcement, this circumvents legal safeguards (like search warrants) for electronic location data. Whether it’s controlled by the state or by a private vendor, it’s often unclear what the restrictions are for access to that data, or what the regulations are for storage, use, information security, and retention. This runs the risk of private companies selling or sharing the information for a profit, or failing to adequately secure it from theft.
+Michelle Alexander, author of *The New Jim Crow*, warns that e-carceration represents the "Newest Jim Crow."
 
-### Who Sells Electronic Monitoring Technology
+> **Research Finding**: Studies show Black prisoners are less likely to accept electronic monitoring over prison, possibly due to skepticism about success rates or fear that faulty signals could extend sentences.
 
-Companies that make or have made electronic monitoring devices include [SuperCom](https://www.supercom.com/), USA Technologies, [Sentinel Offender Services](https://www.sentineladvantage.com/), owned by Robert Contestabile, [Attenti](https://www.attentigroup.com/) (formerly 3M), owned by Apax Partners, [BI Incorporated](https://bi.com/), owned by private prison group GEO Group (the sole provider for ICE), and [“Libre” by Nexus](https://www.librebynexus.com/), a company that pays the cash bonds to release immigrants who are in detention. Another EM company is Satellite Tracking of People (STOP), which is owned by Securus Technologies (one of the largest prison phone providers), which in turn is owned by an investment firm, Platinum Equity).
+### Impact on Juveniles
 
-Some states contract with more than one electronic monitoring company. For example, they may rent GPS tracking devices from one company but rent the SCRAM devices used to detect blood alcohol from another firm.
+Electronic monitoring of juveniles has been criticized for undermining the rehabilitative purpose of the juvenile justice system.
 
-### Legal Cases Concerning Electronic Monitoring
+### Compliance Challenges
 
-US v. Lambus, 251 F.Supp.3d 470 (E.D.NY 2017): Use of EM ankle bracelet tracking is a search that requires a warrant.
+**Language and Comprehension Barriers**
+- Reading comprehension difficulties
+- Language translation problems
+- Complex rules difficult to understand
 
-US v. Carpenter, 585 U.S. \_\_\_, 138 S. Ct. 2206 (2018): seizure of 7 days or more of historical CSLI is a search requiring PC SW; third-party doctrine (TPD) does not defeat REP in CSLI.
+**Inconsistent Supervision**
+- Individual supervisors can change frequently
+- Different supervisors have different rules
+- Subjective rules prone to bias
 
-US v. Jones, 565 US 400, 415 (2012): “GPS monitoring generates a precise, comprehensive record of a person’s public movements that reflects a wealth of detail about her familial, political, professional, religious, and sexual associations.”
+**Unclear Movement Permissions**
+- Uncertainty about when movement will be permitted
+- Requests for family, parenting, or community activities often refused or delayed
+- Technical violations can lead to jail time and increased costs
 
-### **Suggested Additional Reading**
+**Communication Problems**
+- Call center operators slow to answer
+- Failure to record pre-arranged movement
+- Delays in approval processes
 
-[Electric Monitoring Stats](https://www.eff.org/document/em-stats) (EFF)
+### Technical Failures
 
-[Electronic Monitoring: A Guide for Criminal Defense Attorneys](https://www.eff.org/document/em-one-pager)(EFF)
+Electronic monitoring devices are subject to:
 
-[Practical Advice for Defense Attorneys with Clients Who May be Placed on Electronic Monitoring](https://www.eff.org/document/em-practical-advice-0) (EFF)
+- GPS signal loss triggering false alarms and arrest warrants
+- Battery failures (some don't last the advertised 12 hours)
+- Required charging twice daily for an hour at a time
+- False monitor alarms
 
-[Challenging Incarceration](https://mediajustice.org/campaign/nodigitalprisons-challenging-e-carceration/challenging-e-carceration/) ( [Center for Media Justice](http://centerformediajustice.org/) and the [Urbana-Champaign Independent Media Center (UCIMC)](http://www.ucimc.org/))
+### Data Privacy Concerns
 
-[The New Frontier of E-Carceration: Trading Physical for Virtual Prisons](https://www.eff.org/deeplinks/2018/03/new-frontier-e-carceration-trading-physical-virtual-prisons) (EFF)
+GPS location data from electronic monitoring devices raises significant privacy issues:
 
-[Key Findings: Electronic Monitoring of Youth in the California Criminal Juvenile Justice System](https://www.law.berkeley.edu/wp-content/uploads/2017/04/key_findings_webFINAL.pdf) (UC-Berkeley School of Law)
+| Concern | Description |
+|---------|-------------|
+| **Database Control** | Data ends up in databases controlled by state and private vendors |
+| **Legal Safeguards** | Law enforcement control circumvents protections like search warrants |
+| **Access Restrictions** | Often unclear what restrictions exist for data access |
+| **Data Governance** | Unclear regulations for storage, use, security, and retention |
+| **Commercial Risk** | Private companies may sell or share information for profit |
+| **Security Risk** | Inadequate protection from data theft |
 
-[No More Shackles: Why We Must End the Use of Electronic Monitors for People on Parole](https://mediajustice.org/resource/no-more-shackles-report/) (Center for Media Justice)
+---
 
-[Guidelines for Respecting the Rights of Individuals on Electronic Monitors](https://mediajustice.org/wp-content/uploads/2019/03/electronic-monitoring-guidelines-final.pdf) (Center for Media Justice)
+## Who Sells Electronic Monitoring Technology
 
-_Most recently updated October 1, 2023_
+### Major Vendors
 
-[Technologies](https://sls.eff.org/)
+| Company | Owner/Notes |
+|---------|-------------|
+| **SuperCom** | Independent |
+| **USA Technologies** | Independent |
+| **Sentinel Offender Services** | Owned by Robert Contestabile |
+| **Attenti** (formerly 3M) | Owned by Apax Partners |
+| **BI Incorporated** | Owned by GEO Group (private prison company); sole provider for ICE |
+| **Libre by Nexus** | Pays cash bonds to release immigrants in detention |
+| **Satellite Tracking of People (STOP)** | Owned by Securus Technologies (prison phone provider), owned by Platinum Equity |
+
+> **Note**: Some states contract with multiple companies—for example, using one company for GPS tracking devices and another for SCRAM alcohol detection devices.
+
+---
+
+## Additional Resources
+
+### EFF Resources
+- [Electronic Monitoring Stats](https://www.eff.org/document/em-stats)
+- [Electronic Monitoring: A Guide for Criminal Defense Attorneys](https://www.eff.org/document/em-one-pager)
+- [Practical Advice for Defense Attorneys with Clients Who May be Placed on Electronic Monitoring](https://www.eff.org/document/em-practical-advice-0)
+- [The New Frontier of E-Carceration: Trading Physical for Virtual Prisons](https://www.eff.org/deeplinks/2018/03/new-frontier-e-carceration-trading-physical-virtual-prisons)
+
+### External Resources
+- [Challenging Incarceration](https://mediajustice.org/campaign/nodigitalprisons-challenging-e-carceration/challenging-e-carceration/) - Center for Media Justice and UCIMC
+- [Key Findings: Electronic Monitoring of Youth in the California Criminal Juvenile Justice System](https://www.law.berkeley.edu/wp-content/uploads/2017/04/key_findings_webFINAL.pdf) - UC-Berkeley School of Law
+- [No More Shackles: Why We Must End the Use of Electronic Monitors for People on Parole](https://mediajustice.org/resource/no-more-shackles-report/) - Center for Media Justice
+- [Guidelines for Respecting the Rights of Individuals on Electronic Monitors](https://mediajustice.org/wp-content/uploads/2019/03/electronic-monitoring-guidelines-final.pdf) - Center for Media Justice
+
+---
+
+*Most recently updated October 1, 2023*
+
+*Source: [EFF Street Level Surveillance](https://sls.eff.org/technologies/electronic-monitoring)*
+```

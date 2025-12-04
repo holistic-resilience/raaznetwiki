@@ -1,74 +1,85 @@
-[Skip to content](https://freedom.press/digisec/blog/verizon-in-hot-water-for-selling-location-data/#main)
+```yaml
+---
+title: "Verizon Fined for Selling Location Data: What You Can Do to Protect Your Privacy"
+tags: [location-tracking, mobile-security, privacy, verizon, data-brokers, telecommunications]
+category: "Mobile Security"
+difficulty: "Beginner"
+audience: [General Public, Journalists, Privacy-Conscious Users]
+topics: ["Location Privacy", "Mobile Device Security", "Data Protection"]
+summary: "FCC fines Verizon for selling location data without consent; practical steps to protect your mobile location privacy."
+source: "Freedom of the Press Foundation"
+content_type: "Newsletter"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic smartphone usage"]
+estimated_read_time: "4 minutes"
+related_guides:
+  - "[[Stop Ad-Based Location Tracking]]"
+  - "[[Mobile Device Maintenance Guide]]"
+---
 
-![Header image of a group of figures studying a person on a screen with translucent computer windows, with an uncomfortable person behind it.](https://media.freedom.press/media/images/54283736421_178d79dc9b_o.2e16d0ba.fill-1920x1080.png)
+# Verizon Fined for Selling Location Data: What You Can Do
 
-Electronic Frontier Foundation (CC BY 2.0)
+The U.S. Federal Communications Commission fined Verizon, alongside T-Mobile and AT&T, for selling customers' location data without consent through contracts with location aggregation companies. Verizon fought the fines, arguing that the law does not cover *device* location data, only *call* location data.
 
-It’s the digital security training team at Freedom of the Press Foundation (FPF), with security news that keeps you, your sources, and your devices safe. If someone shared this newsletter with you, [please subscribe here](https://freedom.press/training/digisec-subscribe/).
+In September 2025, the U.S. Court of Appeals for the 2nd Circuit disagreed and upheld the **$46.9 million fine** on the telecommunications giant for violations of the Communications Act.
 
-#### [Jump link for section](https://freedom.press/digisec/blog/verizon-in-hot-water-for-selling-location-data/\#location-data-fines-on-the-horizon-for-verizon) Location data fines on the horizon for Verizon
+**Source:** [Ars Technica: Court rejects Verizon claim that selling location data without consent is legal](https://arstechnica.com/tech-policy/2025/09/court-rejects-verizon-claim-that-selling-location-data-without-consent-is-legal/)
 
-The [U.S. Federal Communications Commission fined Verizon](https://www.reuters.com/business/media-telecom/fcc-fines-us-wireless-carriers-nearly-200-million-over-illegal-location-data-2024-04-29/), alongside T-Mobile and AT&T, for selling customers’ location data without consent through contracts with location aggregation companies. Verizon has been fighting the fines, arguing that the law does not cover _device_ location data, only _call_ location data. Last week, we learned that the U.S. Court of Appeals for the 2nd Circuit disagreed and upheld the $46.9 million fine on the telecommunications giant for violations of the Communications Act. [Read more](https://arstechnica.com/tech-policy/2025/09/court-rejects-verizon-claim-that-selling-location-data-without-consent-is-legal/).
+---
 
-## Get Weekly Tips & Advice
+## What You Can Do
 
-Subscribe for easy and actionable tips that improve your digital security awareness.
+### Understand How Your Phone Shares Location
 
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
+Your phone is designed to share location data—this isn't inherently nefarious. Staying connected requires location information, and your device constantly communicates with:
 
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
+- Cellphone towers
+- GPS satellites
+- Bluetooth and Wi-Fi networks (though this is improving with [Android MAC randomization](https://source.android.com/docs/core/connect/wifi-mac-randomization-behavior) and [Apple's privacy features](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web))
 
+Even when offline, features like [Apple's Find My](https://support.apple.com/en-za/guide/iphone/iph09b087eda/ios) can locate your device. However, you can take steps to reduce exposure.
 
-#### [Jump link for section](https://freedom.press/digisec/blog/verizon-in-hot-water-for-selling-location-data/\#what-you-can-do) What you can do
+### Tighten Your Location Settings
 
-- **Remember: Your phone’s job is to give away your location.** There’s nothing nefarious about your phone giving away location data. This is what it’s designed to do: ensure you stay connected, and that requires location information. Along the way, you are often leaving records of these connections with third parties so that they can maintain your connection to nearby cellphone towers, GPS, or even other data connections the device broadcasts, like Bluetooth or Wi-Fi (though this is slowly [getting](https://source.android.com/docs/core/connect/wifi-mac-randomization-behavior) [better](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web)). In some circumstances (e.g., using [Apple’s Find My feature](https://support.apple.com/en-za/guide/iphone/iph09b087eda/ios)) the device can even be found when it’s offline. With that said, there are some ways to lower risk.
-- **Tighten your location settings.** Location data brokers often get your location by embedding location tracking code in third-party apps. You can make location data brokers’ jobs harder by going into your settings app and adjusting your permissions. Many apps don’t need access to location, and you can turn location permissions off or enable them at the moment you need them. To disable location permissions, Android users can [follow the instructions here](https://support.google.com/accounts/answer/6179507?hl=en), and [iPhone users can follow the instructions here](https://support.apple.com/en-us/102647).
-- **Uninstall unneeded apps.** Do some spring cleaning and remove third-party apps that you don’t strictly need. This is not only to remove apps with potentially dodgy code. It’s also just a positive thing to do for the safety of all of your computers and phones, because this gives malware fewer ways to gain a foothold. You can always install apps again later as needed.
-- **But wait, there’s more: disable advertising IDs.** In a previous digital security digest, we wrote about ways to remove location tracking based on device IDs designed for advertisers. [Check it out](https://freedom.press/digisec/blog/stop-ad-based-location-tracking/).
-- **Don’t stop there.** While you’re tinkering with your location settings, why not tighten some other settings too? [Read our guide to mobile device maintenance](https://freedom.press/digisec/blog/your-smartphone-and-you-handbook-modern-mobile-maintenance/).
+Location data brokers often obtain your location through tracking code embedded in third-party apps. Adjust your permissions to limit this:
 
-Our team is always ready to assist journalists with digital security concerns. [Reach out here](https://freedom.press/training/request-training/), and stay safe and secure out there.
+- **Android:** [Manage location permissions](https://support.google.com/accounts/answer/6179507?hl=en)
+- **iPhone:** [Control location services](https://support.apple.com/en-us/102647)
 
-Best,
+**Tip:** Many apps don't need constant location access. Set permissions to "While Using" or disable them entirely, enabling only when needed.
 
-Martin
+### Uninstall Unnecessary Apps
 
-–
+Remove third-party apps you don't strictly need. This reduces:
 
-Martin Shelton
+- Apps with potentially problematic tracking code
+- Attack surface for malware
+- Overall data exposure
 
-Deputy Director of Digital Security
+You can always reinstall apps later if needed.
 
-Freedom of the Press Foundation
+### Disable Advertising IDs
 
-## Related Posts
+Your device has an advertising ID that enables cross-app tracking. Disabling it significantly reduces location tracking by data brokers.
 
-1. ## [AI browsers: the security headache nobody asked for](https://freedom.press/digisec/blog/ai-browsers-the-security-headache-nobody-asked-for/)
+**Learn how:** [[Stop Ad-Based Location Tracking]]
 
-![Illustration by the Electronic Frontier Foundation. (CC BY 2.0 DEED)](https://media.freedom.press/media/images/afd67c3f-9252-5490-622a-349cac35a1.2e16d0ba.fill-451x254.jpg)
+### Review All Mobile Settings
 
-[Network security](https://freedom.press/digisec/blog/network-security/)• [Newsletter](https://freedom.press/digisec/blog/?content-type=newsletter)
+While adjusting location settings, take time to review your complete device security configuration.
 
-2. ## [Phishing scams are all trick, no treat](https://freedom.press/digisec/blog/phishing-scams-are-all-trick-no-treat/)
+**Comprehensive guide:** [[Mobile Device Maintenance Guide]]
 
-![FPF CC BY 40](https://media.freedom.press/media/images/fishing.2e16d0ba.fill-451x254.jpg)
+---
 
-[Expert analysis](https://freedom.press/digisec/blog/expert-analysis/)• [Newsletter](https://freedom.press/digisec/blog/?content-type=newsletter)
+## Need Help?
 
-3. ## [How to limit exposing your location](https://freedom.press/digisec/blog/how-to-limit-exposing-your-location/)
+Freedom of the Press Foundation's digital security team assists journalists with security concerns.
 
-![CREDIT: Pixabay (CC0 1.0) - https://www.stockvault.net/photo/222798/gps#](https://media.freedom.press/media/images/stockvault-gps2227982.2e16d0ba.fill-451x254.jpg)
+**Request training:** [Contact FPF](https://freedom.press/training/request-training/)
 
-[Expert analysis](https://freedom.press/digisec/blog/expert-analysis/)• [Guide](https://freedom.press/digisec/blog/?content-type=guide)
+---
 
-
-## Sign Up. Take Action.
-
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
-
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
-
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
-
-
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+*From the Digital Security Digest by Martin Shelton, Deputy Director of Digital Security, Freedom of the Press Foundation*
+```

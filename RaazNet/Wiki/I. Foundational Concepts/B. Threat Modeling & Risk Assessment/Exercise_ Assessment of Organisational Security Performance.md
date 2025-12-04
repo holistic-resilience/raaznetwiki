@@ -1,27 +1,72 @@
-# Assessment of Organisational Security Performance
+---
+title: "Exercise: Assessment of Organisational Security Performance"
+tags: [security-assessment, organizational-security, risk-management, team-exercise, security-audit]
+category: "Security Assessment"
+difficulty: "Intermediate"
+audience: [Security Practitioners, NGO Staff, Team Leaders, Organizational Managers]
+topics: ["Organizational Security", "Security Assessment", "Team Collaboration"]
+summary: "A participatory exercise using a security wheel to evaluate and improve organizational security practices across multiple dimensions."
+source: "Tactical Tech - Holistic Security"
+content_type: "Exercise Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of organizational security concepts", "Familiarity with your organization's current security practices"]
+estimated_read_time: "4 minutes"
+---
 
-![Strategise detail 05](https://holistic-security.tacticaltech.org/media/exercises/images/default/strategise_detail_05.jpg%3F1465900948)
+# Assessment of Organisational Security Performance
 
 ## Purpose & Output
 
-This is a basic exercise which checks perceptions of members of the organisation regarding the implementation of organisational security measures
+This participatory exercise helps team members assess their organization's security implementation across multiple dimensions. By visualizing security performance on a wheel diagram, teams can identify gaps, build consensus, and prioritize improvements.
 
-## Input & Materials
+**Output:** A visual assessment of organizational security performance with identified barriers, solutions, and priority areas for improvement.
 
-Some drawing materials or a copy of the [security wheel](https://holistic-security.tacticaltech.org/ckeditor_assets/attachments/31/appendixe.pdf).
+## Materials Needed
 
-## Format & Steps
+- Copy of the [security wheel template](https://holistic-security.tacticaltech.org/ckeditor_assets/attachments/31/appendixe.pdf) (one per participant)
+- Drawing materials (colored pencils or markers)
+- Flip chart or whiteboard for group discussion
 
-You may want to focus on overall organisational security performance, or one more specific aspect of your organisation's security practices such as digital security, psycho-social well-being, travel security, security in conflict zones, etc.
+## Exercise Steps
 
-**Step 1**: Take a copy of the organisational [security wheel](https://holistic-security.tacticaltech.org/ckeditor_assets/attachments/31/appendixe.pdf) or draw a circle and divide it into eight sections, each with a title (as shown in the diagram) to create your own security wheel.
+### Step 1: Prepare the Security Wheel
 
-**Step 2**: For each segment of the wheel,  colour in a proportion which, in your opinion, reflects the extent to which your organisation implements best practices.
+Download the [security wheel template](https://holistic-security.tacticaltech.org/ckeditor_assets/attachments/31/appendixe.pdf) or create your own by drawing a circle divided into eight sections. Label each section with a security dimension relevant to your assessment focus.
 
-**Step 3**: For each segment, each person should identify the barriers which are currently preventing them or the organisation in general from better observing best practices.
+**Optional focus areas:**
+- Overall organizational security
+- Digital security specifically
+- Psycho-social well-being
+- Travel security
+- Security in conflict zones
 
-**Step 4**: Similarly, consider what the potential solutions are for each barrier or problem.
+### Step 2: Individual Assessment
 
-**Step 5**: Compare results among members of the organisations. Where is there consensus, and where are there differences? Why might that be?
+For each segment of the wheel, color in a proportion that reflects how well your organization currently implements best practices in that area. A fully colored segment indicates excellent implementation; an empty segment indicates no implementation.
 
-**Step 6**: Together, try to identify areas which must be prioritised for improvement.
+### Step 3: Identify Barriers
+
+For each segment, note the specific barriers preventing better security practices. Consider:
+- Resource limitations
+- Knowledge gaps
+- Organizational culture
+- External constraints
+
+### Step 4: Propose Solutions
+
+For each barrier identified, brainstorm potential solutions. Be specific and realistic about what changes could address each obstacle.
+
+### Step 5: Group Comparison
+
+Compare results among team members:
+- Where is there consensus on performance levels?
+- Where do perceptions differ significantly?
+- What might explain these differences?
+
+### Step 6: Prioritize Improvements
+
+As a group, identify 2-3 priority areas for immediate improvement based on:
+- Severity of gaps
+- Feasibility of solutions
+- Available resources

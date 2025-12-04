@@ -1,82 +1,95 @@
-\_\_('Table of Contents')
+---
+title: "Manage Your Passwords Safely"
+tags: [password-management, security, authentication, encryption, privacy, digital-security]
+category: "Authentication"
+difficulty: "Beginner"
+audience: [General Public, Activists, Privacy-Conscious Users]
+topics: ["Password Management", "Digital Security", "Privacy Protection"]
+summary: "Guide to using password managers for generating and storing strong, unique passwords securely."
+source: "Security in a Box"
+content_type: "Educational Guide"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic computer literacy"]
+estimated_read_time: "6 minutes"
+---
 
-Passwords › Manage your passwords safely
+# Manage Your Passwords Safely
 
-# [Anchor](https://securityinabox.org/en/passwords/password-managers/\#manage-your-passwords-safely) Manage your passwords safely
+No human brain is powerful enough to develop and remember passwords that are sufficiently long, random, and unique to keep all devices and accounts secure. A password manager generates and stores these passwords for you, protecting them with encryption.
 
-Updated 28 March 2024
+Password managers store passwords on your computer or on remote servers ("in the cloud"). Even though most cloud-based password managers are end-to-end encrypted, they can be exposed to hacking attempts without you noticing. **We strongly recommend using an offline password manager installed on your computer** like the ones listed in this guide.
 
-## [Anchor](https://securityinabox.org/en/passwords/password-managers/\#table-of-contents) Table of Contents
+Some browsers, email clients, or built-in applications like iCloud Keychain will also offer to store your passwords. This is generally less secure than using a dedicated password manager. Any solution that uses the same password for unlocking both your account and your password manager should not be considered secure enough.
 
-- [Use a password manager installed in your device](https://securityinabox.org/en/passwords/password-managers/#use-a-password-manager-installed-in-your-device)
-- [Back up the database of your password manager](https://securityinabox.org/en/passwords/password-managers/#back-up-the-database-of-your-password-manager)
-- [If there are passwords or backup codes you need to keep outside of your password manager](https://securityinabox.org/en/passwords/password-managers/#if-there-are-passwords-or-backup-codes-you-need-to-keep-outside-of-your-password-manager)
-- [If you decide to use an online password manager](https://securityinabox.org/en/passwords/password-managers/#if-you-decide-to-use-an-online-password-manager)
-- [If you decide to store some passwords in your browser or email client](https://securityinabox.org/en/passwords/password-managers/#if-you-decide-to-store-some-passwords-in-your-browser-or-email-client)
+## Use a Password Manager Installed on Your Device
 
-No human brain is powerful enough to develop and remember passwords that are sufficiently long, random and unique to keep all of their devices and accounts secure. A password manager generates and stores these passwords for you, protecting them with encryption.
+### Recommended Password Managers
 
-Password managers store passwords in your computer or on remote servers ("in the cloud"). Even if most cloud-based password managers are end-to-end encrypted, they can be exposed to hacking attempts without you noticing. This is why we strongly recommend using an offline password manager installed in your computer like the ones listed in this guide and in [our section on password managers](https://securityinabox.org/en/passwords/tools/#manage-your-passwords-safely). If you still think that an online password manager is the best choice for you, read our recommendations [at the end of this guide](https://securityinabox.org/en/passwords/password-managers/#if-you-decide-to-use-an-online-password-manager) to minimize potential risks.
+| Platform | Recommended Tool |
+|----------|------------------|
+| Linux, macOS, Windows | [KeePassXC](https://keepassxc.org/) |
+| Android | [KeePassDX](https://keepassdx.com/) |
+| iOS, macOS | [Strongbox](https://strongboxsafe.com/) |
 
-Some browsers, email clients or built-in applications like iCloud Keychain will also offer to store your passwords for you. This is generally less secure than using a dedicated password manager for all your passwords. If you still think it would be convenient for you to store some passwords in your browser or mail client, you can follow [our advice on how to do this securely on Firefox, Chrome/Chromium and Thunderbird](https://securityinabox.org/en/passwords/password-managers/#if-you-decide-to-store-some-passwords-in-your-browser-or-email-client). Any solution that uses the same password for unlocking both your account and your password manager (like iCloud Keychain for example) should not be considered secure enough and we strongly recommend using a [dedicated password manager](https://securityinabox.org/en/passwords/tools/#manage-your-passwords-safely) instead.
+### Best Practices
 
-Read the following paragraphs to learn how to use password managers to generate and safely store strong and unique passwords.
+- Let the password manager generate and save a long, random, unique password for each of your accounts
+- Avoid using your browser or email client to generate or store passwords when possible
 
-## [Anchor](https://securityinabox.org/en/passwords/password-managers/\#use-a-password-manager-installed-in-your-device) Use a password manager installed in your device
+### Why These Tools?
 
-- Get [KeePassXC](https://keepassxc.org/) (for Linux, macOS or Windows), [KeePassDX](https://keepassdx.com/) (for Android), or [Strongbox](https://strongboxsafe.com/) (for iOS or macOS).
-- Let the password manager generate and save a long, random, unique password for each of your accounts.
-- Read our guides on [KeePassXC](https://securityinabox.org/en/tools/keepassxc/) and [KeePassDX](https://securityinabox.org/en/tools/keepassdx) to learn how to generate and store your passwords safely.
-- If you need an online password manager, see the section [on online password managers](https://securityinabox.org/en/passwords/password-managers/#if-you-decide-to-use-an-online-password-manager) at the end of this guide.
-- We do not recommend using your browser or email client to generate or store your passwords. If, for some reason, you really need to do this, read [our recommendations on how to reduce the risks of storing passwords in your browser or email client](https://securityinabox.org/en/passwords/password-managers/#if-you-decide-to-store-some-passwords-in-your-browser-or-email-client).
+KeePassXC, KeePassDX, and Strongbox are:
+- Free to use
+- Verified as secure by community experts
+- Continuously updated
+- Offline-based, giving you control over where data is stored and how it's managed
 
-Learn why we recommend this
+## Back Up Your Password Manager Database
 
-We recommend [KeePassXC](https://keepassxc.org/), [KeePassDX](https://keepassdx.com/), and [Strongbox](https://strongboxsafe.com/). They are free to use, have been verified as secure by community experts, and continue to be updated. They store passwords in an offline database, which means you have control over where the data is stored and how it is managed.
+Regular backups protect you from catastrophic loss of access to your accounts.
 
-## [Anchor](https://securityinabox.org/en/passwords/password-managers/\#back-up-the-database-of-your-password-manager) Back up the database of your password manager
-
-Follow these instructions to back up the database of your password manager:
+### Backup Guides by Tool
 
 - [How to back up KeePassXC](https://keepassxc.org/docs/KeePassXC_UserGuide.html#_backing_up_a_database_file)
 - [How to back up KeePassDX](https://github.com/Kunzisoft/KeePassDX/wiki/Backup)
 - [How to back up Strongbox](https://strongboxsafe.com/support/#reamaze#0#/kb/migration-and-import-slash-export/does-strongbox-store-backups-how-can-i-export-them)
 
-Learn why we recommend this
+Losing many passwords at once could cause anything from a minor nuisance to catastrophic loss of communication with contacts or access to finances. Practice backing up your database regularly.
 
-As with any individual password, losing many of your passwords at once could cause anything from a nuisance to a catastrophic loss of communication with your contacts or loss of your finances. Practice backing up your database regularly.
+## Storing Passwords Outside Your Password Manager
 
-## [Anchor](https://securityinabox.org/en/passwords/password-managers/\#if-there-are-passwords-or-backup-codes-you-need-to-keep-outside-of-your-password-manager) If there are passwords or backup codes you need to keep outside of your password manager
+For passwords you cannot save in your password manager (like device unlock codes):
 
-- If you must write passwords down on paper, store them in a secure, locked place like a safe or desk drawer.
-  - It's important that your passwords aren't visible to those who pass by, or easy to find and copy.
-  - Do not keep paper copies of your passwords in your wallet.
-- Destroy any paper copies of passwords or backup codes thoroughly as soon as you no longer need them.
-- Alternatively keep these passwords on another device.
-- You may also hide your passwords between other notes with no explanation or description.
+- **Paper storage**: Keep in a secure, locked place like a safe or desk drawer
+- **Destruction**: Thoroughly destroy paper copies as soon as you no longer need them
+- **Alternative devices**: Store on a separate, secure device
+- **Obscurity**: Hide passwords among other notes without explanation or description
 
-Learn why we recommend this
+## If You Choose an Online Password Manager
 
-Long passwords can certainly be hard to remember. For passwords you may not be able to save in your password manager (like the ones to unlock your devices), consider writing them down and protecting them with a physical lock.
+If you decide an online password manager best fits your needs:
 
-## [Anchor](https://securityinabox.org/en/passwords/password-managers/\#if-you-decide-to-use-an-online-password-manager) If you decide to use an online password manager
+- **Avoid storing highly sensitive information** (financial accounts, recovery account logins) in the online database
+- **Enable 2-factor authentication** to protect access to your online database
+- **Recommended option**: [Bitwarden](https://bitwarden.com/)
 
-- Avoid storing highly sensitive account information (like financial account or recovery account logins) in the online database.
-- Protect access to your online database with 2-factor authentication.
-- We recommend [Bitwarden](https://bitwarden.com/) as an online password manager.
+### Risk Considerations
 
-Learn why we recommend this
+Online password managers that sync between devices can be easier to use, but they store your encrypted password database on servers. This presents the additional risk that an attacker could decrypt your database and access your passwords without your knowledge.
 
-Password managers that automatically synchronize between devices online can be easier to use. They store your database of passwords encrypted on servers. However, online password managers present the additional risk that an attacker could decrypt your database and access your passwords without you knowing.
+## If You Store Passwords in Your Browser or Email Client
 
-We recommend [KeePassXC](https://keepassxc.org/), [KeePassDX](https://keepassdx.com/), and [Strongbox](https://strongboxsafe.com/) because they do not store your passwords online. If you do decide to use an online password manager, we recommend taking these steps for additional password protection.
+If you find it convenient to store some passwords in your browser or email client, minimize risks by following these guidelines:
 
-## [Anchor](https://securityinabox.org/en/passwords/password-managers/\#if-you-decide-to-store-some-passwords-in-your-browser-or-email-client) If you decide to store some passwords in your browser or email client
+- **Use only Firefox and Thunderbird** for this purpose
+- **Avoid storing highly sensitive information** (financial accounts, recovery accounts)
+- **Set a strong, unique primary password**
+- **Close your browser** whenever you aren't using it
+- **Do not sync** on devices you do not trust
 
-If you find it convenient to store some passwords in your browser or email client, it's best to only do so in Firefox and Thunderbird and to minimize risks based on the following advice.
+---
 
-- Avoid storing highly sensitive account information (like financial account or recovery account logins) in your browser.
-- Make sure to set a strong and unique primary password following the instructions below:
-  - [Firefox](https://support.mozilla.org/en-US/kb/use-primary-password-protect-stored-logins#w_create-a-primary-password)
-  - [Thunderbird](https://support.mozilla.org/en-US/kb/protect-your-thunderbird-passwords-primary-password)
-- Close your browser whenever you aren't using it and do not sync it on devices you do not trust.
+*Updated 28 March 2024*
+
+*Source: [Security in a Box](https://securityinabox.org/en/passwords/password-managers/)*

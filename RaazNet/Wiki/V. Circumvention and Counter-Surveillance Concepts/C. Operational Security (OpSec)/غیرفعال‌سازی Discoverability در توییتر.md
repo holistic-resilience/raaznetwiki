@@ -1,15 +1,36 @@
-# جلوگیری از قابل جستجو بودن حساب توییتری با شماره تلفن و ایمیل
+---
+title: "غیرفعال‌سازی قابلیت جستجوی حساب توییتر با شماره تلفن و ایمیل"
+tags: [twitter, privacy, discoverability, social-media-security, account-settings]
+category: "Social Media Security"
+difficulty: "Beginner"
+audience: [General Public, Activists, Privacy-Conscious Users]
+topics: ["Twitter Privacy", "Account Security", "Social Media Settings"]
+summary: "راهنمای غیرفعال‌سازی قابلیت جستجوی حساب توییتر با شماره تلفن و ایمیل برای حفظ حریم خصوصی"
+source: "Certfa (سرتفا)"
+content_type: "Tutorial"
+security_level: "Basic"
+language: "Persian"
+prerequisites: ["داشتن حساب کاربری توییتر"]
+estimated_read_time: "2 minutes"
+---
 
-یکی از تنظیمات موجود در حساب‌های کاربری توییتر، امکان فعال و غیرفعال‌سازی قابل جستجو بودن حساب‌های کاربری براساس شماره تلفن و نشانی ایمیل است. در این آموزش ویدیویی، می‌توانید نحوه غیرفعال کردن این تنظیمات را مشاهده کنید.
+# غیرفعال‌سازی قابلیت جستجوی حساب توییتر با شماره تلفن و ایمیل
 
-1. [سرتفا](https://certfa.com/)»
-2. [دانشنامه](https://certfa.com/info/)»
-3. [امنیت شبکه‌های اجتماعی](https://certfa.com/info/social-network-security/)
+## معرفی
 
-۲۴ فروردین ۱۴۰۰
+یکی از تنظیمات حریم خصوصی در توییتر، امکان جستجوی حساب کاربری شما توسط دیگران از طریق شماره تلفن یا نشانی ایمیل است. با غیرفعال کردن این قابلیت، افراد نمی‌توانند با داشتن شماره تلفن یا ایمیل شما، حساب توییتری‌تان را پیدا کنند.
 
-[حریم خصوصی](https://certfa.com/topic/privacy/) \| [شبکه‌های اجتماعی](https://certfa.com/topic/social-networks/)
+## چرا این تنظیم مهم است؟
 
-[ورود دو مرحله‌ای توییتر با Authenticator](https://certfa.com/info/social-network-security/enable-twitter-2fa-via-app/)
+- **حفظ ناشناسی**: جلوگیری از شناسایی هویت واقعی شما
+- **محافظت در برابر مزاحمت**: کاهش احتمال پیدا شدن توسط افراد ناخواسته
+- **امنیت فعالان**: مهم برای کسانی که نیاز به جدا نگه داشتن هویت آنلاین و واقعی دارند
 
-[تغییر رمز عبور فیسبوک](https://certfa.com/info/social-network-security/how-to-chage-facebook-password/)
+## منابع مرتبط
+
+- [ورود دو مرحله‌ای توییتر با Authenticator](https://certfa.com/info/social-network-security/enable-twitter-2fa-via-app/)
+- [تغییر رمز عبور فیسبوک](https://certfa.com/info/social-network-security/how-to-chage-facebook-password/)
+
+---
+
+**منبع**: [سرتفا - امنیت شبکه‌های اجتماعی](https://certfa.com/info/social-network-security/)

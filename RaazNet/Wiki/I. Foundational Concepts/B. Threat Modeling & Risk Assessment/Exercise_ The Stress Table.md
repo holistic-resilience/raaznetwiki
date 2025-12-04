@@ -1,29 +1,67 @@
+---
+title: "Exercise: The Stress Table"
+tags: [stress-management, self-assessment, wellbeing, security-planning, resilience]
+category: "Personal Security"
+difficulty: "Beginner"
+audience: [Activists, Human Rights Defenders, General Public]
+topics: ["Stress Management", "Personal Wellbeing", "Holistic Security"]
+summary: "A self-assessment exercise to identify personal stress limits, warning signs, and coping strategies using a color-coded stress table."
+source: "Tactical Tech - Holistic Security"
+content_type: "Exercise"
+security_level: "Informational"
+language: "English"
+prerequisites: ["None"]
+estimated_read_time: "4 minutes"
+---
+
 # The Stress Table
 
-![Explore detail 06](https://holistic-security.tacticaltech.org/media/exercises/images/default/explore_detail_06.jpg%3F1465900424)
+## Purpose
 
-## Purpose & Output
+This exercise helps you identify your personal limits for different stress levels, recognize warning signs when those limits are reached, and develop strategies to manage stress effectively. Complete this exercise during a calm period—not when you're already under stress.
 
-This exercise can help you to identify your limits concerning different kinds of stress, how to recognise these limits and measures to counter stress. Please take some time, ideally when you are not under stress and try to create your own stress table.
+## Understanding Stress Levels
 
-## Input & Materials
+### 🟢 Green: Manageable Stress
+Bearable, potentially motivating stress that keeps you creative and engaged. At this level, you may:
+- Tire more easily than usual
+- Need more frequent breaks
+- Recognize you don't want to sustain this level long-term
 
-For this exercise we differentiate between three levels of stress, like a traffic light:
+### 🟡 Yellow: Unpleasant Stress
+Elevated stress that creates discomfort and urgency. At this level, you may:
+- Feel simultaneously tired and hyper-alert
+- Experience physical symptoms (varies by individual)
+- Have a strong desire to change your situation
 
-**GREEN = bearable, motivating stress**. This kind of stress might keep us creative, but we may become tired more easily, need more breaks and know that we don't want to feel it for a long period of time.
+### 🔴 Red: Critical Stress
+Profound, lasting stress that affects multiple life areas. At this level, you may:
+- Experience strain in work, family, and personal relationships
+- Lose enjoyment in recreational activities
+- Feel persistent anxiety or misery
+- Show clear physical reactions
+- Feel close to collapse
+- Resort to unhealthy coping mechanisms (stimulants, etc.)
 
-**YELLOW = unpleasant stress**. With this level of stress, we may feel tired and at the same time alert. We may manifest physical signs of stress (which vary from person to person). We will usually have a strong desire to change the situation which is causing this sensation.
+## Exercise Steps
 
-**RED = unbearable, profound and lasting stress**. This kind of stress affects different spheres of our lives including our relationships at work, with our friends and family as well as our personal relationships. This level of stress also reduces the pleasure and relaxation we take from recreational activities, and we feel anxious and/or miserable. Our bodies show clear physical reactions, and we may feel close to collapse, and resort to unhealthy measures to stay alert, such as stimulants.
+**Step 1: Create Your Personal Stress Table**
+Using the template below, identify your personal indicators for each stress level. Reflect on this with someone you trust.
 
-## Format & Steps
+| Level | Physical Signs | Emotional Signs | Behavioral Signs | Coping Strategies |
+|-------|----------------|-----------------|------------------|-------------------|
+| 🟢 Green | | | | |
+| 🟡 Yellow | | | | |
+| 🔴 Red | | | | |
 
-**Step 1**: Basing yourself in the example below, draw up an initial stress table and reflect on it with somebody you trust.
+**Step 2: Schedule Regular Reviews**
+Decide on a consistent schedule to check your current stress status against your table (weekly, bi-weekly, or monthly).
 
-**Step 2**: Decide on a regular schedule, when you want to review your stress status, and try to carry out these reviews accordingly.
+**Step 3: Update as Needed**
+If you frequently experience high stress over time, review and adjust your stress table—your baseline may have shifted.
 
-**Step 3**: If you frequently experience high stress levels over a period of time, review your stress table to determine if it is still adequate.
+## Tips
 
-## Remarks & Tips
-
-Checking with this stress table could be one step in your personal security guideline and should be done regularly. Be sure to check if your definitions for the different levels are still accurate, or if you have simply become accustomed to higher stress levels!
+- Incorporate stress table check-ins into your personal security routine
+- Watch for "normalization" of higher stress levels—your definitions may need updating if you've become accustomed to chronic stress
+- Share your stress table with a trusted colleague or friend who can help you recognize warning signs you might miss

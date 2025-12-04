@@ -1,52 +1,87 @@
-# Talking About Security in Groups and Teams
+---
+title: "Exercise: Talking About Security in Groups and Teams"
+tags: [security, team-communication, group-dynamics, facilitation, organizational-security]
+category: "Security Communication"
+difficulty: "Beginner"
+audience: [Activists, Teams, Organizations, Facilitators]
+topics: ["Team Security", "Group Communication", "Security Culture"]
+summary: "A facilitated exercise to help teams reflect on and improve how they discuss security issues together."
+source: "Holistic Security - Tactical Tech"
+content_type: "Exercise"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Working in a team or group context"]
+estimated_read_time: "8 minutes"
+---
 
-![Prepare detail 04](https://holistic-security.tacticaltech.org/media/exercises/images/default/prepare_detail_04.jpg%3F1465900252)
+# Talking About Security in Groups and Teams
 
 ## Purpose & Output
 
-The purpose of this exercise is to reflect on how and when we talk about security with our peers, colleagues or team. It is best facilitated by at least two people, but can also serve as a useful individual reflection on your interaction with your colleagues.
+This exercise helps teams reflect on how and when they discuss security with peers and colleagues. While best facilitated with at least two people, it also works as individual reflection on group interactions.
 
-The exercise helps start a process to constructively talk and discuss security in your team / group.
+**Goal:** Start a constructive process for discussing security within your team or group.
 
-## Input & Materials
+## Materials Needed
 
-To do this exercise in a participative way and in order to document it, you may need writing material (cards or stickies and markers). A large area of wall-space, a flip-chart or pin-board may also be useful.
+- Writing materials (index cards, sticky notes, markers)
+- Large wall space, flip-chart, or pin-board for documentation
 
-## Format & Steps
+## Format
 
-Individual work & group discussion
+Individual reflection followed by group discussion
 
-**Step 1**. Divide the group into pairs. Ask each pair to consider the following questions concerning group dynamics and write down their answers.
+---
+
+## Exercise Steps
+
+### Step 1: Pair Discussion
+
+Divide into pairs and discuss the following questions, writing down your answers:
 
 1. What topics take up the majority of time in group conversations?
-2. What topics do we never seem to find time for? What aspects of our group interaction do we find energising?
-3. What aspects of our group interaction do we find exhausting?
-4. What happens in the group when people disagree?
-5. Have you created any space to develop and refine your own security practices (as an individual)? Describe it: where and when does this space exist? Is it sufficient, and how might you expand this space, if necessary?
-6. Do you have enough space to talk about security issues with others, such as peers or colleagues who work closely with you, and how might this space be created or expanded if necessary?
+2. What topics do we never seem to find time for?
+3. What aspects of our group interaction do we find energizing?
+4. What aspects of our group interaction do we find exhausting?
+5. What happens in the group when people disagree?
+6. Do you have enough space to talk about security issues with peers or close colleagues? How might this space be created or expanded?
 
-**Step 2**. Collate the full set of responses to these questions on a board or in a notebook.
+### Step 2: Compile Responses
 
-**Step 3**. As a team, consider the following questions.
+Collate all responses on a board or in a shared notebook.
+
+### Step 3: Team Discussion
+
+As a full team, consider these questions:
 
 1. Where and how do we want to set our priorities concerning security?
-2. What are common problems that arise around talking about security as a group?
-3. What can prevent us from talking about security? How can we deal with this?
-4. How can we create and maintain sufficient and adequate space for talking about security? What will this mean in terms of time and resources?
+2. What common problems arise when talking about security as a group?
+3. What prevents us from talking about security? How can we address this?
+4. How can we create and maintain adequate space for security discussions? What time and resources will this require?
 5. How might we increase the effectiveness of our group interaction on security?
-6. What problems arise around committing to changing our security practices? Do we resist change, individually or collectively, and why?
+6. What problems arise around committing to changing our security practices? Do we resist change, and why?
 
-**Step 4**. Invite each person individually to reflect on:
+### Step 4: Individual Reflection
 
-1. Whether you should have a similar awareness for your family and loved ones?
-2. What are the differences in the dynamics and ways in which family and loved ones are affected?
-3. In what ways do you communicate the threats you are facing to your family, community, friends and others not in your work circle?
+Each person reflects privately on:
 
-**Step 5**. In the whole group, share the points that people feel free to share. Then you should agree on what can be communicated to those 'outside' the group, for reasons of confidentiality, intimacy and security. Agree on these guidelines for the whole group.
+1. Should you have similar security awareness for family and loved ones?
+2. How are family and loved ones affected differently by security concerns?
+3. How do you communicate the threats you face to people outside your work circle?
 
-## Remarks & Tips
+### Step 5: Establish Guidelines
 
-Consider also discussing the steps and requirements necessary to put your ideas of how to talk about security in the future into practice. Important questions to think about might be:
+As a whole group:
 
-- What happens if you don't progress on 'talking about security'?
-- What happens if someone does not stick to the guidelines on what can be communicated to the outside?
+1. Share points that individuals feel comfortable discussing
+2. Agree on what information can be communicated to those outside the group
+3. Establish clear guidelines around confidentiality, intimacy, and security for the entire group
+
+---
+
+## Discussion Points
+
+Consider these scenarios as a group:
+
+- What happens if you don't make progress on discussing security?
+- What happens if someone doesn't follow the agreed guidelines about external communication?

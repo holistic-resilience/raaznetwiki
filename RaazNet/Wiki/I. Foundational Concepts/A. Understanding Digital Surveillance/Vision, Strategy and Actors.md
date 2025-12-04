@@ -1,76 +1,103 @@
-![Explore detail 03](https://holistic-security.tacticaltech.org/media/chapters/images/default/explore_detail_03.jpg%3F1460641700)
+---
+title: "Vision, Strategy and Actors"
+tags: [security-planning, actor-mapping, threat-assessment, human-rights, strategic-planning]
+category: "Security Planning"
+difficulty: "Intermediate"
+audience: [Human Rights Defenders, Activists, Civil Society Organizations]
+topics: ["Strategic Planning", "Threat Analysis", "Actor Mapping", "Security Assessment"]
+summary: "Guide to developing a security vision, mapping actors in your environment, and understanding relationships that affect your work."
+source: "Tactical Tech - Holistic Security"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of human rights work", "Familiarity with security concepts"]
+estimated_read_time: "8 minutes"
+---
 
-# 2.3 Vision, Strategy and Actors
+# Vision, Strategy and Actors
 
-As human rights defenders, our analysis of developments in our society or indeed internationally often leads us to identify problems with regard to respect for Human Rights. We must then consider what is our vision for change?
+As human rights defenders, our analysis of developments in society often leads us to identify problems regarding respect for Human Rights. We must then consider: what is our vision for change?
 
-For many human rights defenders, this will already be clear, but sometimes we don't take the time to clearly articulate and define our vision or goals. Being conscious about this process is helpful when creating a strategy, which in turn informs the decisions we make regarding our security: our vision and goals, and how we set out to achieve them, determine what other actors in society will act to help or hinder our work, and therefore impact our security situation.
+Thinking critically about strategy becomes especially important when working in groups. Being transparent and open about the changes we want to achieve—and how we plan to achieve them—can prevent difficulties and conflict within the group, community, or broader society.
 
-Thinking critically about our strategy becomes even more important when working in groups. Being transparent and open about the changes we want to achieve and how can prevent difficulties and conflict within the group but also within our community or society in general.
+## Establishing Your Vision and Activities
 
-![Work Space Diagram](https://holistic-security.tacticaltech.org/ckeditor_assets/pictures/21/content_workspace.png)
+Before developing a security strategy, clarify your fundamental goals by considering these questions:
 
-## Establishing our vision and activities
-
-To help establish or refresh your vision for change, ask yourself the following questions:
-
-- What is the problem, or the problems, that you hope to address?
-
+- What problem or problems do you hope to address?
 - What change do you wish to see?
+- How would your community be different if you succeed?
+- What would change about relationships between people?
+- Who else is involved in this issue, and how do they react to your activities?
 
-- How would your community be different afterwards?
+## Activity and Actor Mapping
 
-- What would be different about the relationships between people if you succeed?
+Once you have a clear vision of **what** you want to achieve, you can focus on the **how**. Consider:
 
-- Who are the other individuals, groups, institutions, etc. involved in this issue and how do they react to your activities?
+- What methods and activities should you implement to achieve your goals?
+- Which activities are you already doing?
+- What else could you be doing?
+- Which activities may be less effective than previously thought?
 
+Make time as a group to reflect critically on these questions.
 
-## Activity and actor mapping
+### Why Actor Mapping Matters
 
-When we have a clear vision of **what** we want to achieve, we can start thinking about the **'how'**. What methods and activities should we implement to achieve our goals? Which of these are we doing already? What else could we be doing? Which activities are perhaps not as effective in achieving our goals as we previously thought? if necessary, make time in a group to reflect critically on this.
+The activities you carry out—and your behavior while carrying them out—define how you are perceived by the State, society, and others. How you interface with these actors determines their response to you and influences whether they tolerate, accept, or reject your work.
 
-The activities we carry out, and our behaviour while we carry them out, define how we are perceived by State, society and others around us. How we 'interface' with these actors will determine their response to us, and influence the extent to which they tolerate, accept, or reject our work and attempt to close our space for it.
+Getting a clear picture of all actors in your environment (individuals, institutions, organizations) improves your perception of your surroundings and your ability to maintain or expand your space for work. **Threats almost always come from someone or something**—knowing about the actors in your context is essential for security.
 
-Therefore, it is valuable to get a clear picture of all the actors in our environment (individuals, institutions, organisations, etc). Threats almost always come **from** someone or something. Knowing as much as we can about the actors in our context improves our perception of our environment and thereby, our ability to carry out activities to maintain or expand our space for work.
+## Understanding Different Types of Actors
 
-Some of these actors can be viewed as friends or allies, others as opponents, and still others will sit somewhere in the middle, as neutral parties. Each will have their own interests and resources at their disposal, and can potentially help or hinder our work.
+Actors in your environment generally fall into three categories:
 
-Your security plan will benefit from understanding who these actors are and how their actions affect you. Try completing this exercise to map the actors in your own field and the nature of their relationship to you.
+| Actor Type | Description | Considerations |
+|------------|-------------|----------------|
+| **Allies** | Actors with strategic alignment to your goals | Support strength and longevity may change over time |
+| **Adversaries** | Actors whose interests oppose yours | Intensity of opposition may vary with circumstances |
+| **Neutral Parties** | Actors who neither support nor oppose your cause | Their role may shift depending on the situation |
 
-> [Exercise: Visual Actor Mapping - Part 1](https://holistic-security.tacticaltech.org/exercises/explore/visual-actor-mapping-part-1.html)
+### The Spectrum of Allies
 
-## Expanding our knowledge of actors
+The "spectrum of allies" framework, often used in campaign design, helps identify those you want to influence. For security planning, this spectrum helps promote acceptance of your work among different elements of State and society through various forms of advocacy and engagement.
 
-We might roughly categorise the actors into three groups:
+**Prioritization tip:** Focus first on **active** allies and opponents in your context. Dig deeper into their motivations and resources—this is useful when analyzing potential or actual threats and identifying who is actively or inadvertently behind them.
 
-**Allies:** these are actors with strategic alignment to our goals, though the strength and longevity of their support may change over time.
+## Mapping Relationships Between Actors
 
-**Adversaries or opponents:** these are actors whose strategic interests are opposed to ours, or somehow oppose our goals for various reasons. Again, remember that the intensity of opposition or disengagement may vary with changing circumstances.
+The next step is to analyze and specify the **nature** of relationships between actors. This helps you:
 
-**Neutral parties:** these are actors who neither support nor oppose our cause. However, their role may change depending on the changing situation.
+- Identify actors whose motivations may lead them to threaten you or your work
+- Recognize allies who can help you work more securely
+- Discover avenues to improve relationships with opponents through mutual contacts
 
-It may be useful to imagine or visualise these actors as a spectrum:
+### Maintaining Your Actor Map
 
-![Spectrum of Actors Diagram](https://holistic-security.tacticaltech.org/ckeditor_assets/pictures/24/content_spectrumallies.png)
+Store actor maps where they can be viewed and updated regularly:
 
-This 'spectrum of allies'1is often used in action campaign design, to identify those we want to influence. We can also use this spectrum for security planning and promoting acceptance of our work among different elements of State and society – that is, through different kinds of advocacy and engagement.
+1. **Start visually** with a diagram or chart
+2. **Create a digital document** (such as a spreadsheet) for ongoing updates
+3. **Include detailed information sheets** on key actors
+4. **Review regularly** as your security strategy evolves and new threats emerge
 
-In order to prioritise, you might firstly focus on the **active** allies and opponents in your context, and dig a little deeper into their motivations and resources. This is useful when you are analysing potential (or actual) threats, and who is actively or inadvertently behind them. Then, in mapping the relationships between the actors around you, you may see avenues which can be used in order to improve your relationship with your opponents (for example, through mutual contacts).
+## Key Takeaways
 
-## Mapping relationships between actors
+- A clear vision of change guides effective security planning
+- Understanding actors in your environment improves threat perception
+- Relationships between actors can reveal both risks and opportunities
+- Regular updates to actor maps strengthen ongoing security strategy
 
-The next step is to analyse, identify and specify the **nature** of relationships between actors. This is particularly useful for identifying actors whose motivations may lead them to threaten us or our work, as well as allies who can be relied upon to help us work more securely. To do this, try the following exercise.
+---
 
-> [Exercise: Visual Actor Mapping - Part 2](https://holistic-security.tacticaltech.org/exercises/explore/viaual-actor-mapping-part-2.html)
+## Related Exercises
 
-It is a good idea to store actor maps where they can be viewed and updated on a regular basis: while at first you may do it visually, you can later create a digital document such as a spreadsheet wherein you can keep up to date information sheets on the key actors identified in your map. This will be useful when considering your security strategy and new threats as they emerge. Guidance on what details might be useful to include is listed at the end of the second exercise.
+- [Visual Actor Mapping - Part 1](https://holistic-security.tacticaltech.org/exercises/explore/visual-actor-mapping-part-1.html)
+- [Visual Actor Mapping - Part 2](https://holistic-security.tacticaltech.org/exercises/explore/viaual-actor-mapping-part-2.html)
 
-Having established a good understanding of our socio-political environment, we should now take account of what our data and information mean for our work and our security.
+## References
 
-* * *
+1. Based on the "Spectrum of Allies" exercise in [New Tactics for Human Rights](https://www.newtactics.org/)
 
-1)  Based on the “Spectrum of Allies” exercise in New Tactics for Human Rights. [https://www.newtactics.org](https://www.newtactics.org/)
+---
 
-[2.2 Situation Monitoring and Analysis](https://holistic-security.tacticaltech.org/chapters/explore/2-2-situation-monitoring-and-analysis.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/explore.html)
-[2.4 Understanding and Cataloguing our Information](https://holistic-security.tacticaltech.org/chapters/explore/2-4-understanding-and-cataloguing-our-information.html)
+**Navigation:** [Previous: Situation Monitoring and Analysis](https://holistic-security.tacticaltech.org/chapters/explore/2-2-situation-monitoring-and-analysis.html) | [Back to Section](https://holistic-security.tacticaltech.org/chapters/explore.html) | [Next: Understanding and Cataloguing our Information](https://holistic-security.tacticaltech.org/chapters/explore/2-4-understanding-and-cataloguing-our-information.html)

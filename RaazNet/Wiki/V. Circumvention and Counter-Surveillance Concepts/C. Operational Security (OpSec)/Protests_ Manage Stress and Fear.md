@@ -1,15 +1,45 @@
-![Act detail 08](https://holistic-security.tacticaltech.org/media/chapters/images/default/act_detail_08.jpg%3F1460642909)
+```yaml
+---
+title: "Protests: Manage Stress and Fear"
+tags: [protests, stress-management, group-dynamics, decision-making, activism-safety]
+category: "Protest Safety"
+difficulty: "Intermediate"
+audience: [Activists, Protest Organizers, Community Groups]
+topics: ["Protest Preparedness", "Group Decision-Making", "Stress Management"]
+summary: "Guide to managing stress and fear during protests through clear decision-making structures and communication strategies."
+source: "Tactical Tech - Holistic Security"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of group organizing", "Familiarity with protest participation"]
+estimated_read_time: "3 minutes"
+---
 
-# 4.8 Protests: Manage Stress and Fear
+# Protests: Manage Stress and Fear
 
-When group members are under stress, or suffering from fear or threats, it can have a negative impact on the collective dynamic. The group can become more authoritarian, and people can say and do hurtful things to one another. When you're at a protest and need to take decisions fast, fear, stress, and the inter-personal problems they lead to, could hinder your ability to make decisions and put you in danger.
+When group members are under stress or suffering from fear and threats, it can negatively impact collective dynamics. Groups can become more authoritarian, and people may say or do hurtful things to one another. During protests, when decisions must be made quickly, fear, stress, and the interpersonal problems they create can hinder decision-making and put everyone in danger.
 
-Therefore, it's important to have a clear decision-making structure or consensus process established before the protest, and clear communication channels for decision-making. Decide on a set of 'non-negotiables' - courses of action for given scenarios which won't be debated in the moment (e.g. an emergency exit strategy). If an issue has to be debated, consider who needs to be involved in the discussion: the whole group, or a working group? Too many unnecessary voices in the debate can be a hindrance and slow down decision-making. When debating, try to practice [active listening](https://wikipedia.org/wiki/Active_Listening) to avoid misconceptions and ensure that everyone understands what is being talked about. As a process, consider [consensus decision making](https://wikipedia.org/wiki/Consensus_decision-making): each person involved may veto a proposal, but vetos can only be used together with a counter proposal.
+## Preparation Strategies
 
-Occasionally, fear can be very useful in helping us to escape dangerous situations – just based on an instinctive sense that something is wrong. If your instinct tells you that you are in danger, it's advisable to share this with someone from your affinity group and check your perception: what are the indicators you are perceiving that tell you that something is wrong? Analyse this with your friends or affinity group and take a decision together. Affinity groups should make explicit space for sharing fears and the effects of stress before and after the protest. Moreover, it's healthy to undertake enjoyable activities alone or together with your affinity group in order to relax and manage stress. Consider making one or more people in your affinity group responsible for organising this.
+### Establish Clear Decision-Making Structures
 
-For more on fear and our instinctive responses to threat, check out these Chapters: [Individual Responses to Threat](https://holistic-security.tacticaltech.org/chapters/prepare/1-2-individual-responses-to-threat.html) and [Team and Peer Responses to Threat](https://holistic-security.tacticaltech.org/chapters/prepare/1-4-team-and-peer-responses-to-threat.html).
+Before the protest, establish:
 
-[4.7 Protests: Be Mindful of Common Threats](https://holistic-security.tacticaltech.org/chapters/act/4-1-7-protests-be-mindful-of-common-threats.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/act.html)
-[4.9 Protests: Report Emergencies Accurately](https://holistic-security.tacticaltech.org/chapters/act/4-1-9-protests-report-emergencies-accurately.html)
+- **Decision-making structure** or consensus process
+- **Clear communication channels** for making decisions under pressure
+- **Non-negotiables** — predetermined courses of action for specific scenarios that won't be debated in the moment (e.g., emergency exit strategies)
+
+### Effective Group Decision-Making
+
+When issues must be debated during a protest:
+
+1. **Determine who needs to be involved** — the whole group, or a smaller working group? Too many unnecessary voices can slow down critical decisions
+2. **Practice active listening** to avoid misconceptions and ensure mutual understanding
+3. **Consider consensus decision-making** — each person may veto a proposal, but vetoes must be accompanied by a counter-proposal
+
+## Related Resources
+
+- [Active Listening (Wikipedia)](https://wikipedia.org/wiki/Active_Listening)
+- [Consensus Decision-Making (Wikipedia)](https://wikipedia.org/wiki/Consensus_decision-making)
+- [Individual Responses to Threat](https://holistic-security.tacticaltech.org/chapters/prepare/1-2-individual-responses-to-threat.html)
+- [Team and Peer Responses to Threat](https://holistic-security.tacticaltech.org/chapters/prepare/1-4-team-and-peer-responses-to-threat.html)

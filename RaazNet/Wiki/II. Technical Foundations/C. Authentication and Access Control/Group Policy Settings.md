@@ -1,162 +1,186 @@
-[Skip to content](https://www.privacyguides.org/en/os/windows/group-policies/#administrative-templates)
+---
+title: "Windows Group Policy Privacy and Security Settings"
+tags: [windows, group-policy, privacy, security, system-hardening, microsoft]
+category: "Operating System Security"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, System Administrators, Windows Power Users]
+topics: ["Windows Configuration", "Privacy Protection", "System Hardening"]
+summary: "Comprehensive guide to configuring Windows Group Policy settings for enhanced privacy and security on Windows Pro editions."
+source: "Privacy Guides"
+content_type: "Tutorial"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Windows Pro Edition or higher", "Basic Windows administration knowledge", "Administrator access"]
+estimated_read_time: "8 minutes"
+---
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/os/windows/group-policies.md?plain=1 "Edit this page")
+# Windows Group Policy Privacy and Security Settings
 
-# Group Policy Settings
+The **Local Group Policy Editor** is the most powerful built-in tool for configuring Windows system behavior without third-party software. These settings require [Windows Pro Edition](https://www.privacyguides.org/en/os/windows/#windows-editions) or higher.
 
-Outside modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. Changing these settings requires [Pro Edition](https://www.privacyguides.org/en/os/windows/#windows-editions) or better.
+> **Important:** Apply these settings on a fresh Windows installation when possible. Modifying an existing installation may introduce unpredictable behavior.
 
-These settings should be set on a brand-new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictable behavior and is done at your own risk.
+Each policy in the Group Policy Editor includes a detailed explanation. Review these descriptions carefully before making changes.
 
-All of these settings have an explanation attached to them in the Group Policy editor which explains exactly what they do, usually in great detail. Please pay attention to those descriptions as you make changes, so you know exactly what we are recommending here. We've also explained some of our choices below whenever the explanation included with Windows is inadequate.
+## Accessing Group Policy Editor
 
-## Administrative Templates
+1. Open `gpedit.msc`
+2. Navigate to **Local Computer Policy** → **Computer Configuration** → **Administrative Templates**
 
-You can find these settings by opening `gpedit.msc` and navigating to **Local Computer Policy** \> **Computer Configuration** \> **Administrative Templates** in the left sidebar. The headers on this page correspond to folders/subfolders within Administrative Templates, and the bullet points correspond to individual policies.
+The sections below correspond to folders within Administrative Templates.
 
-To change any group policy, double click it and select Enabled or Disabled at the top of the window that appears depending on the recommendations below. Some group policies have additional settings that can be configured, and if that's the case the appropriate settings are noted below as well.
+---
 
-### System
+## System Settings
 
-#### Device Guard
+### Device Guard
 
-- Turn On Virtualization Based Security: **Enabled**
-  - Platform Security Level: **Secure Boot and DMA Protection**
-  - Secure Launch Configuration: **Enabled**
+| Policy | Setting |
+|--------|---------|
+| Turn On Virtualization Based Security | **Enabled** |
 
-#### Internet Communication Management
+### Internet Communication Management
 
-- Turn off Windows Customer Experience Improvement Program: **Enabled**
-- Turn off Windows Error Reporting: **Enabled**
-- Turn off the Windows Messenger Customer Experience Improvement Program: **Enabled**
+| Policy | Setting |
+|--------|---------|
+| Turn off Windows Customer Experience Improvement Program | **Enabled** |
+| Turn off Windows Error Reporting | **Enabled** |
+| Turn off the Windows Messenger Customer Experience Improvement Program | **Enabled** |
 
-Note that disabling the Windows Customer Experience Improvement Program also disables some other tracking features that can be individually controlled with Group Policy as well. We don't list them all here or disable them because this setting covers that.
+> **Note:** Disabling the Customer Experience Improvement Program also disables related tracking features, making individual controls for those features unnecessary.
 
-#### OS Policies
+### OS Policies
 
-- Allow Clipboard History: **Disabled**
-- Allow Clipboard synchronization across devices: **Disabled**
-- Enables Activity Feed: **Disabled**
-- Allow publishing of User Activities: **Disabled**
-- Allow upload of User Activities: **Disabled**
+| Policy | Setting |
+|--------|---------|
+| Allow Clipboard History | **Disabled** |
+| Allow Clipboard synchronization across devices | **Disabled** |
+| Enables Activity Feed | **Disabled** |
+| Allow publishing of User Activities | **Disabled** |
+| Allow upload of User Activities | **Disabled** |
 
-#### User Profiles
+### User Profiles
 
-- Turn off the advertising ID: **Enabled**
+| Policy | Setting |
+|--------|---------|
+| Turn off the advertising ID | **Enabled** |
 
-### Windows Components
+---
 
-#### AutoPlay Policies
+## Windows Components
 
-AutoRun and AutoPlay are features which allow Windows to run a script or perform some other task when a device is connected, sometimes avoiding security measures that involve user consent. This could allow untrusted devices to run malicious code without your knowledge. It's a security best practice to disable these features, and simply open files on your external disks manually.
+### AutoPlay Policies
 
-- Turn off AutoPlay: **Enabled**
-- Disallow Autoplay for nonvolume devices: **Enabled**
-- Set the default behavior for AutoRun: **Enabled**
-  - Default AutoRun Behavior: **Do not execute any AutoRun commands**
+AutoRun and AutoPlay can execute scripts when devices are connected, potentially bypassing security measures. Disabling these features prevents untrusted devices from running malicious code automatically.
 
-#### BitLocker Drive Encryption
+| Policy | Setting |
+|--------|---------|
+| Turn off AutoPlay | **Enabled** |
+| Disallow Autoplay for nonvolume devices | **Enabled** |
+| Set the default behavior for AutoRun | **Enabled** |
 
-You may wish to re-encrypt your operating system drive after changing these settings.
+### BitLocker Drive Encryption
 
-- Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7): **Enabled**
-  - Select the encryption method: **AES-256**
+> **Note:** Consider re-encrypting your operating system drive after changing these settings.
 
-Setting the cipher strength for the Windows 7 policy still applies that strength to newer versions of Windows.
+| Policy | Setting |
+|--------|---------|
+| Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7) | **Enabled** |
 
-##### Operating System Drives
+The Windows 7 cipher strength policy applies to newer Windows versions as well.
 
-- Require additional authentication at startup: **Enabled**
-- Allow enhanced PINs for startup: **Enabled**
+#### Operating System Drives
 
-Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the BitLocker setup wizard.
+| Policy | Setting |
+|--------|---------|
+| Require additional authentication at startup | **Enabled** |
+| Allow enhanced PINs for startup | **Enabled** |
 
-#### Cloud Content
+These policies enable the *option* for enhanced security (such as requiring a PIN alongside TPM) in the BitLocker setup wizard—they don't enforce requirements by default.
 
-- Turn off cloud optimized content: **Enabled**
-- Turn off cloud consumer account state content: **Enabled**
-- Do not show Windows tips: **Enabled**
-- Turn off Microsoft consumer experiences: **Enabled**
+### Cloud Content
 
-#### Credential User Interface
+| Policy | Setting |
+|--------|---------|
+| Turn off cloud optimized content | **Enabled** |
+| Turn off cloud consumer account state content | **Enabled** |
+| Do not show Windows tips | **Enabled** |
+| Turn off Microsoft consumer experiences | **Enabled** |
 
-- Require trusted path for credential entry: **Enabled**
-- Prevent the use of security questions for local accounts: **Enabled**
+### Credential User Interface
 
-#### Data Collection and Preview Builds
+| Policy | Setting |
+|--------|---------|
+| Require trusted path for credential entry | **Enabled** |
+| Prevent the use of security questions for local accounts | **Enabled** |
 
-- Allow Diagnostic Data: **Enabled**
-  - Options: **Send required diagnostic data** (Pro Edition); or
-  - Options: **Diagnostic data off** (Enterprise or Education Edition)
-- Limit Diagnostic Log Collection: **Enabled**
-- Limit Dump Collection: **Enabled**
-- Limit optional diagnostic data for Desktop Analytics: **Enabled**
-  - Options: **Disable Desktop Analytics collection**
-- Do not show feedback notifications: **Enabled**
+### Data Collection and Preview Builds
 
-#### File Explorer
+| Policy | Setting |
+|--------|---------|
+| Allow Diagnostic Data | **Enabled** |
+| Limit Diagnostic Log Collection | **Enabled** |
+| Limit Dump Collection | **Enabled** |
+| Limit optional diagnostic data for Desktop Analytics | **Enabled** |
+| Do not show feedback notifications | **Enabled** |
 
-- Turn off account-based insights, recent, favorite, and recommended files in File Explorer: **Enabled**
+### File Explorer
 
-#### MDM
+| Policy | Setting |
+|--------|---------|
+| Turn off account-based insights, recent, favorite, and recommended files in File Explorer | **Enabled** |
 
-- Disable MDM Enrollment: **Enabled**
+### MDM (Mobile Device Management)
 
-#### OneDrive
+| Policy | Setting |
+|--------|---------|
+| Disable MDM Enrollment | **Enabled** |
 
-- Save documents to OneDrive by default: **Disabled**
-- Prevent OneDrive from generating network traffic until the user signs in to OneDrive: **Enabled**
-- Prevent the usage of OneDrive for file storage: **Enabled**
+### OneDrive
 
-This last setting disables OneDrive on your system; make sure to change it to **Disabled** if you use OneDrive.
+| Policy | Setting |
+|--------|---------|
+| Save documents to OneDrive by default | **Disabled** |
+| Prevent OneDrive from generating network traffic until the user signs in to OneDrive | **Enabled** |
+| Prevent the usage of OneDrive for file storage | **Enabled** |
 
-#### Push To Install
+> **Warning:** If you use OneDrive, set "Prevent the usage of OneDrive for file storage" to **Disabled**.
 
-- Turn off Push To Install service: **Enabled**
+### Push To Install
 
-#### Search
+| Policy | Setting |
+|--------|---------|
+| Turn off Push To Install service | **Enabled** |
 
-- Allow Cortana: **Disabled**
-- Don't search the web or display web results in Search: **Enabled**
-- Set what information is shared in Search: **Enabled**
-  - Type of information: **Anonymous info**
+### Search
 
-#### Sync your settings
+| Policy | Setting |
+|--------|---------|
+| Allow Cortana | **Disabled** |
+| Don't search the web or display web results in Search | **Enabled** |
+| Set what information is shared in Search | **Enabled** |
 
-- Do not sync: **Enabled**
+### Sync Your Settings
 
-#### Text input
+| Policy | Setting |
+|--------|---------|
+| Do not sync | **Enabled** |
 
-- Improve inking and typing recognition: **Disabled**
+### Text Input
 
-#### Windows Error Reporting
+| Policy | Setting |
+|--------|---------|
+| Improve inking and typing recognition | **Disabled** |
 
-- Do not send additional data: **Enabled**
-- Consent > Configure Default consent: **Enabled**
-  - Consent level: **Always ask before sending data**
+### Windows Error Reporting
 
-Was this page helpful?
+| Policy | Setting |
+|--------|---------|
+| Do not send additional data | **Enabled** |
+| Consent → Configure Default consent | **Enabled** |
 
+---
 
+## Summary
 
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+These Group Policy configurations reduce telemetry, disable unnecessary cloud features, enhance BitLocker security, and prevent automatic execution of potentially malicious content. Review each setting's built-in documentation for additional context before applying.

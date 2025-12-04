@@ -1,76 +1,63 @@
-[Skip to content](https://freedom.press/digisec/blog/lock-down-those-firefox-add-ons/#main)
+---
+title: "Lock Down Firefox Add-ons"
+tags: [firefox, browser-extensions, phishing, privacy, digital-security, browser-safety]
+category: "Browser Security"
+difficulty: "Beginner"
+audience: [Journalists, Privacy-Conscious Users, General Public]
+topics: ["Browser Security", "Phishing Prevention", "Privacy Protection"]
+summary: "Guide to protecting yourself from compromised Firefox extensions following Mozilla's phishing warning to add-on developers."
+source: "Freedom of the Press Foundation"
+content_type: "Newsletter"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic browser usage"]
+estimated_read_time: "3 minutes"
+related_guides:
+  - "[[Recording Interviews Securely]]"
+  - "[[Password Manager Security]]"
+---
 
-![Header image of a laptop computer with a shark fin peeking out above the water on the screen.](https://media.freedom.press/media/images/AD_4nXfYWJ5vegOvkb1IQ1W2MCziOtyS.2e16d0ba.fill-1920x1080.jpg)
+# Lock Down Firefox Add-ons
 
-Electronic Frontier Foundation (CC BY 2.0)
+## Firefox Add-on Developers Targeted in Phishing Attacks
 
-It’s the digital security training team at Freedom of the Press Foundation (FPF), with security news that keeps you, your sources, and your devices safe. If someone shared this newsletter with you, [please subscribe here](https://freedom.press/training/digisec-subscribe/).
+If you use Firefox, you should know that Mozilla [issued a warning](https://blog.mozilla.org/addons/2025/08/01/warning-phishing-campaign-detected/) to add-on developers about a phishing campaign. Browser extensions often have wide-reaching access to users' browsing activity, making it especially important that developers maintain control over their accounts to protect users.
 
-#### [Jump link for section](https://freedom.press/digisec/blog/lock-down-those-firefox-add-ons/\#firefox-add-on-developers-targeted-in-phishing-attacks) Firefox add-on developers targeted in phishing attacks
+Attackers are targeting developer accounts through AMO ([addons.mozilla.org](http://addons.mozilla.org/)). According to Mozilla, these phishing emails are variants on the message:
 
-If you use Firefox, you might be interested to know that Mozilla [issued a warning](https://blog.mozilla.org/addons/2025/08/01/warning-phishing-campaign-detected/) to add-on developers of a phishing campaign. Add-ons such as browser extensions used to customize browsers often have wide-reaching access to users’ browsing activity, so it’s especially important that developers maintain control over these accounts to protect the users of their browser extensions. Attackers are targeting developer accounts through AMO ( [addons.mozilla.org](http://addons.mozilla.org/)). According to Mozilla, these emails are variants on the message, “Your Mozilla Add-ons account requires an update to continue accessing developer features.” Mozilla has not yet shared details about the scale of the attacks, nor how many developers may have been compromised. [Read more](https://www.theregister.com/2025/08/04/mozilla_add_on_phishing/).
+> "Your Mozilla Add-ons account requires an update to continue accessing developer features."
 
-## Get Weekly Tips & Advice
+Mozilla has not yet shared details about the scale of the attacks or how many developers may have been compromised.
 
-Subscribe for easy and actionable tips that improve your digital security awareness.
+## What You Can Do
 
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
+### Remove Unneeded Extensions
 
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
+This is a good reminder to review your browser extensions and minimize risk by uninstalling any you don't need.
 
+**Firefox users:**
+1. Click the hamburger (three-line) menu at the top right corner
+2. Navigate to "Extensions and themes"
+3. Select "Extensions"
 
-#### [Jump link for section](https://freedom.press/digisec/blog/lock-down-those-firefox-add-ons/\#what-you-can-do) What you can do
+**Chrome users:**
+1. Click the three-dot menu at the top right
+2. Navigate to "Extensions"
 
-- **Remove unneeded extensions.** This is a good reminder to review your browser extensions and to minimize risk by uninstalling any that you don’t need. Firefox users can access extensions by navigating to the hamburger (three-line) menu at the top right corner of the screen, navigating to “Extensions and themes” and then “Extensions.” Similarly, at the top right of the screen, Chrome users can click on the three-dot menu and navigate to “Extensions.”
-- **Make an exception for privacy-preserving extensions.** We do sometimes recommend a few browser extensions for boosting your safety when browsing. The Electronic Frontier Foundation’s [Privacy Badger](https://privacybadger.org/) will help block many trackers embedded in the websites you browse. Likewise, [uBlock Origin](https://ublockorigin.com/) will help block ads that may also be embedded with tracking code. You can always disable uBlock Origin on websites you’d like to support — or even better, become a paid subscriber!
+### Make an Exception for Privacy-Preserving Extensions
 
-#### [Jump link for section](https://freedom.press/digisec/blog/lock-down-those-firefox-add-ons/\#updates-from-our-team) Updates from our team
+We recommend a few browser extensions for boosting your safety when browsing:
 
-- If you’re a journalist regularly recording interviews and have questions about the security and property issues related to recording apps, my colleague Evan Summers wrote something you’re going to love. Depending on your reporting needs (e.g., do you need transcription?), you may want specific features, each with their own safety implications. [Check out his write-up](https://freedom.press/digisec/blog/recording-interviews/).
-- In our newest “Ask a security trainer” column, someone wonders if we use a password for our password manager. Yes, and we also have backups for our authentication methods. [Read all about it](https://freedom.press/digisec/blog/ask-a-security-trainer-what-about-the-password-for-my-password-manager/)!
+- **[Privacy Badger](https://privacybadger.org/)** (Electronic Frontier Foundation) — Blocks many trackers embedded in websites you browse
+- **[uBlock Origin](https://ublockorigin.com/)** — Blocks ads that may contain tracking code
 
-Our team is always ready to assist journalists with digital security concerns. [Reach out here](https://freedom.press/training/request-training/), and stay safe and secure out there.
+> **Tip:** You can disable uBlock Origin on websites you'd like to support—or even better, become a paid subscriber to those sites.
 
-Best,
+## Related Resources
 
-Martin
+- [Recording Interviews Securely](https://freedom.press/digisec/blog/recording-interviews/) — Security and privacy considerations for interview recording apps
+- [Password Manager Security](https://freedom.press/digisec/blog/ask-a-security-trainer-what-about-the-password-for-my-password-manager/) — Best practices for securing your password manager
 
-–
+---
 
-Martin Shelton
-
-Deputy Director of Digital Security
-
-Freedom of the Press Foundation
-
-## Related Posts
-
-1. ## [Data vampires … we mean, brokers](https://freedom.press/digisec/blog/data-vampires-we-mean-brokers/)
-
-![FPF](https://media.freedom.press/media/images/batsbyFPF.2e16d0ba.fill-451x254.jpg)
-
-[Account security](https://freedom.press/digisec/blog/account-security/)• [Newsletter](https://freedom.press/digisec/blog/?content-type=newsletter)
-
-2. ## [Defend against phone number theft](https://freedom.press/digisec/blog/defend-against-phone-number-theft/)
-
-![Electronic Frontier Foundation (CC BY 2.0)](https://media.freedom.press/media/images/EFF_Walk.2e16d0ba.fill-451x254.jpg)
-
-[Account security](https://freedom.press/digisec/blog/account-security/)• [Newsletter](https://freedom.press/digisec/blog/?content-type=newsletter)
-
-3. ## [How to protect yourself and your information online](https://freedom.press/digisec/blog/how-to-protect-yourself-and-your-information-online/)
-
-![James Minichello for EWA](https://media.freedom.press/media/images/Digital-safety-NS25_James-Minichel.2e16d0ba.fill-451x254.png)
-
-[Account security](https://freedom.press/digisec/blog/account-security/)• [Article](https://freedom.press/digisec/blog/?content-type=article)
-
-
-## Sign Up. Take Action.
-
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
-
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
-
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
-
-
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+*Source: Freedom of the Press Foundation Digital Security Newsletter*

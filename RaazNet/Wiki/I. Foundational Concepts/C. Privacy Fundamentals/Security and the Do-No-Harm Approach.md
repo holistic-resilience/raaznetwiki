@@ -1,57 +1,122 @@
-![Strategise detail 06](https://holistic-security.tacticaltech.org/media/chapters/images/default/strategise_detail_06.jpg%3F1460642136)
+---
+title: "Security and the Do-No-Harm Approach"
+tags: [security, do-no-harm, organizational-security, conflict-sensitivity, team-dynamics, resource-allocation]
+category: "Organizational Security"
+difficulty: "Intermediate"
+audience: [Activists, NGO Staff, Security Practitioners, Team Leaders]
+topics: ["Conflict Sensitivity", "Security Implementation", "Organizational Dynamics", "Resource Management"]
+summary: "Guide to implementing security measures without creating division or conflict within organizations and communities."
+source: "Tactical Tech - Holistic Security Guide"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of organizational security", "Familiarity with team dynamics"]
+estimated_read_time: "6 minutes"
+---
 
-# 3.6 Security and the Do-No-Harm Approach
+# Security and the Do-No-Harm Approach
 
-In this Chapter, we will consider the ways in which our security measures – old or new – can have a positive or negative impact on conflicts, which may be internal or external to the group.
+This chapter examines how security measures can positively or negatively impact conflicts—both internal and external to a group or organization.
 
-Here, when we use the term 'conflict', this may be armed or unarmed and the violence to which we are subjected may be physical, but could equally be economic, gender-based, institutional, structural, psychological or otherwise. At times, activist communities are affected by conflicts within our organisations or movements too, and we rarely escape the dynamics of privilege. Working in a context of (perhaps multiple) conflicts, our actions and behaviours can create or intensify division or connection between people, which in turn either worsen or relieve the conflict.
+## Understanding Conflict in Context
 
-As activists we should seek to increase the positive impact of our actions and reduce possible negative impacts. The Do No Harm (DNH) Approach1 can be useful in achieving this.
+The term "conflict" encompasses various forms:
+- Armed or unarmed confrontations
+- Physical, economic, or psychological violence
+- Gender-based or institutional harm
+- Structural inequalities
+- Internal organizational tensions
+- Dynamics of privilege within movements
 
-This approach assumes that all our actions and behaviours lead to consequences, both positive and negative.
+Our actions and behaviors can either intensify division or strengthen connection between people, which in turn worsens or relieves conflict.
 
-**A** ctions + **B** ehaviours = **C** onsequences
+## The Do No Harm Framework
 
-With this in mind, in this section we will consider some of the ways in which our actions and behaviours can have positive or negative effects on these conflicts, particularly at the organisational level as we implement changes to our security practices.
+The Do No Harm (DNH) Approach helps activists increase positive impacts while reducing negative ones. It operates on a simple principle:
 
-## Actions and resources
+> **Actions + Behaviors = Consequences** (both positive and negative)
 
-Our actions can be understood as everything we do and bring into an existing situation, including the resources we obtain, use and transfer. Resources for security and well-being are often considered valuable and access to them may be limited. As you seek to expand the actions and resources within your group or organisation, consider the possible impact of these changes – they may not always be positive.
+This framework encourages careful consideration of how security implementation affects existing dynamics within organizations and communities.
 
-Below we explore how some negative impacts can emerge and how we can counteract them.
+---
 
-**Competition vs. inclusivity** – Supplying resources only to selected individuals can increase existing tensions or creates new ones. If we are inclusive about using and sharing resources, we can connect people. If it is not possible to share resources, talk to the group about why and get their buy-in.
+## Part 1: Actions and Resources
 
-**Substitution vs. appreciation** – Introducing new practices or implementing new resources can mean that old practices, traditions or even people's roles are replaced. Existing strategies and resources should be replaced only when justified and in a way which respects the efforts which were put into them.
+Our actions include everything we do and bring into a situation—particularly the resources we obtain, use, and transfer. Security resources are often valuable and access may be limited, which can create unintended tensions.
 
-**Selectivity and power relations** – Including the whole group or organisation in discussions on who gets training or other benefits can enhance acceptance of security measures and reinforce a sense of unity in the whole team.
+### Key Considerations
 
-**Standard of living and working** – If resources for security and protection are directed towards staff who already enjoy better standards of living or working, it could contribute to further division in the group. Consider critically: Who gets which training? Who gets paid for which activities? Who benefits more from security? Who has what better access to communications and other infrastructure due to living in urban (rather than rural) settings? How can these differences be bridged?
+**Competition vs. Inclusivity**
+- Supplying resources only to selected individuals can increase existing tensions or create new ones
+- Inclusive sharing of resources connects people
+- When sharing isn't possible, explain why and seek group buy-in
 
-## Behaviours and implicit ethical messages
+**Substitution vs. Appreciation**
+- New practices may replace old traditions or people's roles
+- Replace existing strategies only when justified
+- Respect the efforts invested in previous approaches
 
-When building our capacities, we should think about how our behaviours,   may change, and how this may impact others. Our behaviours send non-verbal, implicit messages to all the actors in our field including our allies and adversaries. The interpretation of these messages can, like our actions, lead to further connection or division within the group.
+**Selectivity and Power Relations**
+- Include the whole group in discussions about who receives training or benefits
+- This enhances acceptance of security measures
+- Reinforces unity across the team
 
-Below, we explore four common ways in which this can happen.
+**Standards of Living and Working**
 
-**1\. Cultural characteristics**
+Consider critically:
+- Who receives which training?
+- Who gets paid for which activities?
+- Who benefits more from security measures?
+- Who has better access to communications infrastructure (urban vs. rural)?
+- How can these differences be addressed?
 
-In multi-cultural environments, the implications of notions such as privacy or specific ways of decision-making often vary greatly. Be sensitive to your surroundings and check that the new security measures you introduce are being interpreted in a way that doesn't cause offence or division.
+---
 
-**2\. Different values for different lives**
+## Part 2: Behaviors and Implicit Messages
 
-If certain groups or members are not included in the security plan of their organisation, they might infer that organisation does not care as much about their security – this can often be seen in the different policies international organisations apply to their international staff as opposed to local staff. An inclusive approach allows for more cohesion and ownership of security measures in teams as well as improved security for everybody.
+When building security capacity, consider how behavioral changes may impact others. Our behaviors send non-verbal, implicit messages to all actors—including allies and adversaries. These messages can lead to further connection or division.
 
-**3\. Fear, tension and mistrust**
+### Four Common Dynamics
 
-Adopting new security measures does not mean a lack of trust exists, but it can be interpreted as such so it is important to clarify the reasons for new measures and the logic behind them. Listen to feedback and commentary from the team and try to maintain trust in both directions.
+**1. Cultural Characteristics**
+- Notions of privacy and decision-making vary across cultures
+- Be sensitive to your surroundings
+- Ensure new security measures don't cause offense or division
 
-**4\. Use of resources**
+**2. Different Values for Different Lives**
+- Excluding certain groups from security plans signals the organization doesn't value their safety equally
+- This often appears in different policies for international vs. local staff
+- Inclusive approaches create cohesion and improve security for everyone
 
-Any new resources need to be carefully and responsibly handled and allocated, be they hardware such as new laptops, knowledge based resources such as trainings, psychological support or something else entirely. Allocation and usage may cause rifts if not carefully explained and made clear that resources are not for the personal benefit of the recipients.
+**3. Fear, Tension, and Mistrust**
+- New security measures can be misinterpreted as signs of distrust
+- Clarify reasons for new measures and the logic behind them
+- Listen to team feedback and maintain bidirectional trust
 
-In order to analyse your own behaviours and the messages in your security practices, it may be useful to create a table like the one linked here and consider the examples given before filling it in for yourself.If we consider these question carefully in advance, we are more likely to introduce a security strategy which is acceptable to all our colleagues and peers, without causing tension or conflict.
+**4. Use of Resources**
+- New resources (hardware, training, psychological support) require careful allocation
+- Poor handling can cause rifts
+- Clarify that resources serve organizational purposes, not personal benefit
 
-[3.5 Assessing Organisational Security](https://holistic-security.tacticaltech.org/chapters/strategise/3-5-assessing-organisational-security.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/strategise.html)
-[3.7 Conclusion](https://holistic-security.tacticaltech.org/chapters/strategise/3-7-conclusion.html)
+---
+
+## Practical Application
+
+To analyze your own behaviors and the messages in your security practices:
+
+1. Create a table mapping your planned actions against potential positive and negative impacts
+2. Review the considerations above for each planned change
+3. Gather input from diverse team members before implementation
+4. Document decisions and reasoning for transparency
+
+By considering these questions carefully in advance, you're more likely to introduce a security strategy acceptable to all colleagues and peers—without causing tension or conflict.
+
+---
+
+## Key Takeaways
+
+- Security measures always have consequences—both intended and unintended
+- Resource allocation decisions send powerful messages about organizational values
+- Inclusive approaches strengthen both security and team cohesion
+- Cultural sensitivity is essential when implementing new practices
+- Transparent communication prevents misinterpretation of security changes

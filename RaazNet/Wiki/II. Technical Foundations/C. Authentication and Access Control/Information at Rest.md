@@ -1,34 +1,70 @@
-![Explore detail 05](https://holistic-security.tacticaltech.org/media/chapters/images/default/explore_detail_05.jpg%3F1460641844)
+---
+title: "Information at Rest"
+tags: [data-security, information-management, data-storage, risk-assessment, digital-files]
+category: "Information Security"
+difficulty: "Beginner"
+audience: [General Public, Activists, Privacy-Conscious Users, Organizations]
+topics: ["Digital Security", "Data Protection", "Information Management"]
+summary: "Guide to understanding and cataloguing stored digital and physical information for better security management."
+source: "Tactical Tech - Holistic Security"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic computer literacy", "Understanding of file storage concepts"]
+estimated_read_time: "3 minutes"
+---
 
-# 2.5 Information at Rest
+# Information at Rest
 
-Information “at rest” refers to digital files (as well as hard-copies) which are being _stored_ on devices or on paper or other formats.
+Information "at rest" refers to digital files and hard-copies that are being *stored* on devices, paper, or other formats—as opposed to information actively being transferred or communicated.
 
-In their digital format, information “at rest” refers to all our files (such as reports, evidence, fundraising or project proposals, contact information, accounting information, etc), their meta-data, our emails and attachments, text messages etc., stored on computers, phones, hard drives, USB-drives, SD-cards, CDs, “cloud” servers or those of our email providers, whenever they are not directly being transferred or communicated between devices. It is also worth noting that there can be lots of digital files at rest on portable devices, including smart-phones, whereby the data is at rest, but the device is in motion.
+## Digital Information at Rest
 
-Hard copies of this data can be stored in filing cabinets, vaults, office desks, wallets, purses, shelves, books and ledgers.
+Digital information at rest includes:
 
-Those opposed to the work of human rights defenders are often very interested in accessing such data: if captured, these sources can provide our adversaries with a wealth of information about our projects, movements or organisations. For this reason, theft and confiscation of computers, phones, and memory storage devices are common tactics used against human rights defenders. Others may try to break into our email or social networking accounts or cloud services, or try to pressure the companies through legal means into handing over our data.
+- **Documents**: Reports, evidence, proposals, contact information, accounting records
+- **Communications**: Emails, attachments, text messages
+- **Metadata**: Information about your files (creation dates, authors, locations)
 
-When brainstorming a list of your 'information at rest', it helps to consider some attributes, such as:
+This information may be stored on:
 
-- where they are
+- Computers and laptops
+- Phones and tablets
+- External hard drives and USB drives
+- SD cards and CDs
+- Cloud servers and email provider servers
 
-- who has access to them
+> **Note**: Portable devices like smartphones contain data "at rest" even while the device itself is in motion.
 
-- how sensitive is their content to you, your organisation or people mentioned in the document (e.g. witness or victim statements)
+## Physical Information at Rest
 
-- how important it is to keep them
+Hard copies of sensitive data may be stored in:
 
-- how long they should be kept.
+- Filing cabinets and vaults
+- Office desks and shelves
+- Wallets and purses
+- Books and ledgers
 
+## Key Questions for Assessment
 
-Try using a table similar to the one below to map your information at rest. Once you have taken account of at least your most important information and where it is, you can identify concrete ways of protecting it.
+When cataloguing your information at rest, consider:
 
-![Data at Rest table](https://holistic-security.tacticaltech.org/ckeditor_assets/pictures/27/content_table1_data-at-rest.png)
+- **Location**: Where is the information stored?
+- **Access**: Who has access to it?
+- **Sensitivity**: How sensitive is the content to you, your organisation, or people mentioned (e.g., witness or victim statements)?
+- **Importance**: How critical is it to retain this information?
+- **Retention**: How long should it be kept?
 
-In the next section, we will consider how to map information _in motion_, how to map it, identify its vulnerabilities, and protect it.
+## Mapping Your Information
 
-[2.4 Understanding and Cataloguing our Information](https://holistic-security.tacticaltech.org/chapters/explore/2-4-understanding-and-cataloguing-our-information.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/explore.html)
-[2.6 Information in Motion](https://holistic-security.tacticaltech.org/chapters/explore/2-6-information-in-motion.html)
+Use a structured approach to map your information at rest. Create a table that documents:
+
+| Information Type | Location | Access Level | Sensitivity | Retention Period |
+|------------------|----------|--------------|-------------|------------------|
+| *Example entry*  | *Where stored* | *Who can access* | *High/Medium/Low* | *Duration* |
+
+Once you have catalogued your most important information and its locations, you can identify concrete protection strategies.
+
+## Next Steps
+
+After mapping information at rest, proceed to understanding **information in motion**—data that is actively being transferred or communicated between devices and people.

@@ -1,46 +1,87 @@
-Blog › The Dim Sum Guide - digital security advice for Chinese-speaking readers
+---
+title: "The Dim Sum Guide: Digital Security for Chinese-Speaking Readers"
+tags: [digital-security, china, vpn, censorship-circumvention, privacy, human-rights]
+category: "Regional Digital Security"
+difficulty: "Intermediate"
+audience: [Chinese-Speaking Users, Human Rights Defenders, Activists, Privacy-Conscious Users]
+topics: ["Digital Security", "Censorship Circumvention", "Privacy Protection", "Regional Threats"]
+summary: "Companion guide to Security in a Box providing China-specific digital security advice, including safer input methods, VPN recommendations, and guidance for police encounters."
+source: "Security in a Box / Front Line Defenders"
+content_type: "Educational Guide"
+security_level: "Advanced"
+language: "English"
+prerequisites: ["Basic computer literacy", "Familiarity with Security in a Box concepts"]
+estimated_read_time: "4 minutes"
+related_resources: ["Security in a Box", "Front Line Defenders"]
+external_links:
+  - url: "https://yummydimsum.github.io/"
+    description: "Dim Sum Guide main site"
+  - url: "https://github.com/YummyDimsum/yummydimsum.github.io/issues"
+    description: "Submit feedback or issues"
+---
 
-# [Anchor](https://securityinabox.org/en/blog/dim-sum-guide/\#the-dim-sum-guide-digital-security-advice-for-chinese-speaking-r) The Dim Sum Guide - digital security advice for Chinese-speaking readers
+# The Dim Sum Guide: Digital Security for Chinese-Speaking Readers
 
-By Haven
+**Author:** Haven  
+**Published:** February 12, 2025
 
-Posted 2025.02.12
+The Dim Sum Guide is a specialized digital security resource designed for Chinese-speaking readers, particularly those in China. Developed by the Security in a Box team with support from Front Line Defenders, it addresses the unique censorship challenges and cyber threats faced by human rights defenders in the region.
 
-![](https://securityinabox.org/media/en/blog/dim-sum.png)
+> **Access the guide:** [https://yummydimsum.github.io/](https://yummydimsum.github.io/)
 
-_Access the Dim sum Guide on [https://yummydimsum.github.io/](https://yummydimsum.github.io/)._
+## Why a Specialized Guide?
 
-Some countries and regions experience more complex censorship and cyber-attacks against human rights defenders than others, and the advice provided by Security in a Box needs to be combined with guidance that addresses threats specific to those regions. People from China are one of the groups in need of contextualised digital protection. This is why our team, with the support of Front Line Defenders, completed the Dim Sum guide. It builds on the content of Security in a Box and provides more specific instructions and guidance for Chinese-speaking readers from China, focusing on particular aspects as detailed in the following paragraphs. Ideally one should read both guides together.
+China presents one of the most complex digital security environments in the world. While Security in a Box provides foundational guidance, Chinese users face region-specific threats that require tailored advice. The Dim Sum Guide serves as a companion resource—ideally read alongside Security in a Box.
 
-## [Anchor](https://securityinabox.org/en/blog/dim-sum-guide/\#restrictions-and-problems-with-the-use-of-iphones-and-ipads-in-china) Restrictions and problems with the use of iPhones and iPads in China
+## Key Topics Covered
 
-The Dim Sum guide devotes a section to the restrictions applied to the usage of iOS devices in China, including the lack of eSIM, FaceTime being only available for video but not for audio calls and heavy censorship of books, music, movies and other content which is available for consumption on these devices elsewhere in the world.
+### iOS Device Restrictions in China
 
-During the "Sitongqiao Protests" and the "White Paper Movement" in 2022, many Chinese people used AirDrop on iPhones to share images and videos related to the protests. But in early 2024 the Beijing authorities were apparently able to trace the mobile phone numbers and email accounts of those who sent these messages. Given the risk of tracing the identity of people who share files through AirDrop, the Dim Sum manual recommends not to use AirDrop at all.
+The guide details limitations affecting iPhone and iPad users in China:
 
-## [Anchor](https://securityinabox.org/en/blog/dim-sum-guide/\#safer-chinese-input-methods) Safer Chinese input methods
+- **eSIM unavailability**
+- **FaceTime restricted to video-only** (no audio calls)
+- **Heavy content censorship** on books, music, movies, and other media
 
-Chinese input methods are mandatory software for Chinese language readers, and there is a risk of exposing sensitive information if one uses inappropriate and unsafe apps. It has been widely proved that Chinese input methods by some Chinese companies have security issues or even backdoors. Therefore the Dim Sum guide has a section dedicated to more secure Chinese input methods and their usage in different operating systems.
+#### AirDrop Security Warning
 
-## [Anchor](https://securityinabox.org/en/blog/dim-sum-guide/\#secure-vpns-available-in-china) Secure VPNs available in China
+During the 2022 "Sitongqiao Protests" and "White Paper Movement," many protesters used AirDrop to share images and videos. However, by early 2024, Beijing authorities reportedly traced mobile phone numbers and email accounts of AirDrop senders.
 
-China has one of the strictest Internet filtering regimes in the world, and using a VPN to "go over the \[Great Fire-\]wall" has become a daily routine for many Chinese people. However, not all VPNs can work stably and are secure enough, and according to some reports the Chinese police force has even developed some VPNs with the specific intent of phishing the data of people who use them. The Dim sum guide recommends some more secure censorship circumvention solutions, and the team behind the manual constantly monitors and updates this section to provide the most current and relevant information on the topic.
+> **Recommendation:** Avoid using AirDrop entirely due to identity tracing risks.
 
-## [Anchor](https://securityinabox.org/en/blog/dim-sum-guide/\#confronting-the-police-in-case-of-mobile-phone-searches) Confronting the police in case of mobile phone searches
+### Safer Chinese Input Methods
 
-In the wake of the "White Paper Movement" at the end of 2022, police in many Chinese cities have been randomly questioning passers-by on the street to check whether they have installed VPNs, Telegram and similar tools on their devices. The Dim Sum guide explains how ordinary people can respond to police checks of their mobile phones, both from a digital security perspective and from a legal perspective.
+Chinese input method editors (IMEs) are essential software, but many popular options from Chinese companies have documented security vulnerabilities or backdoors. The guide provides:
 
-## [Anchor](https://securityinabox.org/en/blog/dim-sum-guide/\#conclusions) Conclusions
+- Recommendations for secure Chinese input methods
+- Platform-specific guidance for different operating systems
 
-We sincerely hope that the Dim Sum guide will help Chinese readers, especially Chinese human rights defenders, to protect their activities as well as their data and devices. However, we also know that the digital landscape is constantly shifting and that no resource can guarantee 100% security in any given context.
+### Secure VPN Solutions
 
-We will continue to monitor and update the Dim Sum guide and Security in a Box, to provide the latest and most appropriate digital security recommendations, and we very much welcome comments and suggestions from our readers. Send us feedback by [adding an issue to the Github where we developed the guide](https://github.com/YummyDimsum/yummydimsum.github.io/issues) or by writing an email to secure.resistance @ proton . me.
+China maintains one of the world's strictest internet filtering regimes. While VPNs are commonly used to bypass the Great Firewall, significant risks exist:
 
-The Dim Sum guide can be accessed on:
+- Not all VPNs work reliably within China
+- Reports indicate Chinese police have developed phishing VPNs to harvest user data
 
-- [https://yummydimsum.github.io/](https://yummydimsum.github.io/)
+The guide recommends vetted censorship circumvention tools and is continuously updated to reflect the current landscape.
 
-The Dim Sum guide is also frequently shared on social media, so feel free to follow along:
+### Responding to Police Phone Searches
+
+Following the 2022 White Paper Movement, police in many Chinese cities began conducting random street checks, searching devices for VPNs, Telegram, and similar applications. The guide provides:
+
+- **Digital security strategies** for protecting sensitive data
+- **Legal guidance** for responding to police inquiries
+
+## Staying Current
+
+The digital security landscape evolves constantly. No resource can guarantee complete security in any context. The Dim Sum Guide team commits to ongoing monitoring and updates.
+
+## Provide Feedback
+
+- **GitHub Issues:** [Submit feedback or suggestions](https://github.com/YummyDimsum/yummydimsum.github.io/issues)
+- **Email:** secure.resistance @ proton . me
+
+## Connect
 
 - [Mastodon](https://mstdn.social/@dimsum)
 - [Instagram](https://www.instagram.com/yummydimsumcook/)

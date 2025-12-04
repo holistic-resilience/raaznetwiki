@@ -1,38 +1,115 @@
-![Act detail 02](https://holistic-security.tacticaltech.org/media/chapters/images/default/act_detail_02.jpg%3F1460642694)
+---
+title: "Protests: Affinity Groups - Care for Yourself and Others"
+tags: [protests, activism, affinity-groups, well-being, collective-security, movement-building]
+category: "Protest Security"
+difficulty: "Beginner"
+audience: [Activists, Protesters, Community Organizers]
+topics: ["Protest Safety", "Collective Action", "Well-being", "Inclusive Movements"]
+summary: "Guide to forming affinity groups for protests, managing well-being during actions, and building inclusive movements."
+source: "Tactical Tech - Holistic Security"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of protest participation"]
+estimated_read_time: "6 minutes"
+---
 
-# 4.2 Protests: Affinity Groups - Care for Yourself and Others
+# Protests: Affinity Groups - Care for Yourself and Others
 
-In order to protest in a more effective and secure way, it can be useful to coordinate with a group of friends or colleagues in order to act together and take care of one another. Here, we consider some useful tactics for coordinating your action in order to keep yourself and others safe.
+Protesting effectively and securely often requires coordination with trusted friends or colleagues. This guide covers tactics for collective action that help keep you and others safe.
 
-## Create an affinity group
+## Create an Affinity Group
 
-An affinity group is a small group of fellow protesters or friends who prepare, carry out, and leave the protest together, interacting with the larger protest as a 'unit'. They create their security plan together and divide up roles for the action and for responding in an emergency. Affinity groups are normally of between two and 15 people, i.e. small enough to enable personal sharing and direct trust and care among members. They can be set up for a special activity (e.g. nonviolent action, protests, demonstrations) or form a continuous part of a movement. They can be autonomous, or several of them can form part of a larger group.
+An **affinity group** is a small group of fellow protesters or friends who prepare, carry out, and leave the protest together, interacting with the larger protest as a unit. Members create their security plan together and divide up roles for the action and for responding to emergencies.
 
-If you set up an affinity group, decide on roles (such as facilitator, representative, media contact, medical support, 'good vibe watch', etc) and create a decision-making structure. It's important that your affinity group stay in communication during the action, respond to emergencies together, and leave together. Take the time to plan your action together and check one another's perceptions on security issues. After the action, it is a good idea to leave together and debrief. Ideally, one or two members of the group should have capacities for first-aid and psycho-social care in case of emergencies.
+### Key Characteristics
 
-## Manage your well-being
+- **Size**: Between 2-15 people—small enough for personal sharing, direct trust, and mutual care
+- **Duration**: Can be formed for a single action or as a continuous part of a movement
+- **Structure**: Can operate autonomously or coordinate with other affinity groups as part of a larger organization
 
-In order make our activism sustainable in the long-run, we have to take care of ourselves and each other. Stress, fatigue and trauma are some of the biggest threats to any activist over time. Maintaining your well-being isn't about spoiling yourself. In fact, it is radical, political and crucial for dealing with threats like trauma, cynicism, and burnout. Protesting can be difficult both physically and psychologically, so consider the following before you take action:
+### Setting Up Your Group
 
-- How has your body and mind have tended to react when you reach an unhealthy level of stress? Identify what practices or resources help to bring you back to a healthy state, mentally and physically, and how can you integrate them into your action.
-- Foster a culture in your affinity group where you can share your fears and talk about stress and traumatic experiences openly.
-- Practice [active listening](https://en.wikipedia.org/wiki/Active_listening) and build solidarity and care for one another.
-- During the protest, make sure you have enough access to food and water, and are prepared for different weather conditions. See the next Chapter, [Consider What to Bring](https://holistic-security.tacticaltech.org/chapters/act/4-1-3-protests-consider-what-to-bring.html) for more detail on this.
-- After the protest, make sure to take time to debrief with your affinity group once you have arrived in a safe location. See [Debrief to Evaluate and Learn](https://holistic-security.tacticaltech.org/chapters/act/4-1-11-protests-debrief-evaluate-and-learn.html) for more detail on this.
-- Make time for whatever sharing and support is necessary for the group, but also take some time alone to process the experience and 'arrive' back into your daily life.
+1. **Assign roles** such as:
+   - Facilitator
+   - Representative/spokesperson
+   - Media contact
+   - Medical support
+   - "Good vibe watch" (morale and well-being monitor)
 
-For more on putting well-being at the centre of your security planning, see [Section I \| Prepare](https://holistic-security.tacticaltech.org/chapters/prepare.html).
+2. **Create a decision-making structure** that works for your group
 
-## Build an inclusive movement
+3. **Plan together**:
+   - Discuss and align on security perceptions
+   - Establish communication methods during the action
+   - Agree on emergency response protocols
 
-When we talk about security, we're not just talking about protecting ourselves from tear gas. For many of us, security comes from a sense of belonging, solidarity and mutual respect, especially in a context where we may be discriminated against or subjected to violence because of our gender identity, race, sexual orientation, appearance or other factors.
+4. **Stay together**: Maintain communication during the action, respond to emergencies as a unit, and leave together
 
-Those of us who suffer from less discrimination, or enjoy more privilege, might not even notice that we are reproducing our privilege and contributing to marginalisation with our actions when we plan or take part in a protest. How often are the positions of influence within our movement held by people from a traditionally privileged group (e.g. cis-gendered men)? The privileges and discrimination we inherit on the basis of our gender identity, race, religion, sexual orientation, economic, social or educational status, or other such factors, are often a product of injustice.
+5. **Debrief afterward**: Once in a safe location, process the experience together
 
-If we want to fight injustice in our society, we have to combat it within our human rights movement as well. Take a look at your group and consider whether you need to more equally distribute responsibilities across these lines. Ifsme parts of the group seem to have all the power, challenge this. Consider giving people opportunities they may have traditionally been denied because of who they are.
+> **Tip**: Ideally, one or two members should have first-aid and psycho-social care capabilities for emergencies.
 
-There should be zero tolerance for any discrimination, sexual harassment or violence within your movement. Make it clear that anyone who engages in these acts will be punished or may be removed from the movement as a result. These issues are never material for a 'light-hearted' joke. Be aware that people who face discrimination might also need special protection measures or active inclusion during protests. Raise this issue when making your security plan and consider your tactics in light of it.
+## Manage Your Well-being
 
-[4.1 Protests: Prepare, Analyse and Plan](https://holistic-security.tacticaltech.org/chapters/act/4-1-1-prepare-analyse-and-plan.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/act.html)
-[4.3 Protests: Consider What to Bring](https://holistic-security.tacticaltech.org/chapters/act/4-1-3-protests-consider-what-to-bring.html)
+### Before the Protest
+
+- **Know your stress responses**: How does your body and mind react when you reach an unhealthy level of stress?
+- **Identify your resources**: What practices help bring you back to a healthy state, mentally and physically?
+- **Plan for integration**: How can you build these practices into your action?
+
+### During the Protest
+
+- Ensure access to adequate food and water
+- Prepare for different weather conditions
+- Check in with your affinity group regularly
+
+### After the Protest
+
+- **Debrief with your group** once you've arrived in a safe location
+- **Allow time for sharing and support** within the group
+- **Take personal time** to process the experience and transition back to daily life
+
+### Foster a Supportive Culture
+
+- Create space where members can share fears openly
+- Discuss stress and traumatic experiences without judgment
+- Practice [active listening](https://en.wikipedia.org/wiki/Active_listening)
+- Build solidarity and care for one another
+
+## Build an Inclusive Movement
+
+Security isn't just about physical protection from tear gas. For many people, security comes from a sense of **belonging, solidarity, and mutual respect**—especially for those who face discrimination or violence based on gender identity, race, sexual orientation, appearance, or other factors.
+
+### Recognize and Address Privilege
+
+Those with less experience of discrimination may unknowingly reproduce privilege and contribute to marginalization when planning or participating in protests. Consider:
+
+- Who holds positions of influence within your movement?
+- Are responsibilities distributed equally across different identities and backgrounds?
+- Are some groups holding disproportionate power?
+
+### Take Action
+
+- **Challenge imbalanced power structures** within your group
+- **Create opportunities** for people traditionally denied them
+- **Consider special protection measures** for those who face discrimination during protests
+- **Raise inclusion issues** when making your security plan
+
+### Establish Zero Tolerance
+
+There should be **zero tolerance** for:
+- Discrimination
+- Sexual harassment
+- Violence within your movement
+
+Make clear that anyone engaging in these behaviors will face consequences, including potential removal from the movement. These issues are never appropriate material for jokes.
+
+---
+
+## Related Resources
+
+- [Protests: Prepare, Analyse and Plan](https://holistic-security.tacticaltech.org/chapters/act/4-1-1-prepare-analyse-and-plan.html)
+- [Protests: Consider What to Bring](https://holistic-security.tacticaltech.org/chapters/act/4-1-3-protests-consider-what-to-bring.html)
+- [Debrief to Evaluate and Learn](https://holistic-security.tacticaltech.org/chapters/act/4-1-11-protests-debrief-evaluate-and-learn.html)
+- [Section I: Prepare](https://holistic-security.tacticaltech.org/chapters/prepare.html)

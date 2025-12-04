@@ -1,217 +1,182 @@
-[Skip to content](https://www.privacyguides.org/en/social-networks/#decentralization)
+---
+title: "Privacy-Respecting Social Networks"
+tags: [social-media, privacy, decentralization, mastodon, matrix, federation]
+category: "Digital Security"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, Activists, General Public]
+topics: ["Social Media Privacy", "Decentralized Networks", "Digital Security"]
+summary: "Guide to privacy-respecting social networks including Mastodon and Matrix, covering decentralization, censorship resistance, and recommended privacy settings."
+source: "Privacy Guides"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic computer literacy", "Understanding of social media concepts"]
+estimated_read_time: "12 minutes"
+---
 
-![](https://www.privacyguides.org/en/assets/img/cover/social-networks.webp)
+# Privacy-Respecting Social Networks
 
-# Social Networks
+These privacy-respecting social networks allow you to participate in online communities without giving up your personal information like your full name, phone number, and other data commonly requested by tech companies.
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/social-networks.md?plain=1 "Edit this page")
+## The Problem with Traditional Social Media
 
-Protects against the following threat(s):
+A growing problem among social media platforms is censorship in two forms:
 
-- [Censorship](https://www.privacyguides.org/en/basics/common-threats/#avoiding-censorship)
-- [Surveillance Capitalism](https://www.privacyguides.org/en/basics/common-threats/#surveillance-as-a-business-model)
+1. **External censorship**: Platforms often acquiesce to illegitimate censorship requests from malicious governments or enforce restrictive internal policies
+2. **Access barriers**: Many platforms require accounts to access content that would otherwise be freely available, effectively censoring privacy-conscious users who cannot afford the privacy cost of creating an account
 
-These privacy-respecting **social networks** allow you to participate in online communities without giving up your personal information like your full name, phone number, and other data commonly requested by tech companies.
+The social networks recommended here solve these issues by operating on open, decentralized protocols. They also don't require an account to view publicly available content.
 
-A growing problem among social media platforms is censorship in two different forms. First, they often acquiesce to illegitimate censorship requests, either from malicious governments or their own internal policies. Second, they often require accounts to access walled-off content that would otherwise be published freely on the open internet; this effectively censors the browsing activities of privacy-conscious users who are unable to pay the privacy cost of opening an account on these networks.
+> **Important**: No social networks are appropriate for private or sensitive communications. For direct messaging, use a recommended instant messenger with strong end-to-end encryption. Only use social media direct messages to establish contact before moving to a more secure platform.
 
-The social networks we recommend solve the issue of censorship by operating atop an open and decentralized social networking protocol. They also don't require an account merely to view publicly available content.
+## Understanding Decentralization
 
-You should note that **no** social networks are appropriate for private or sensitive communications. For chatting directly with others, you should use a recommended [instant messenger](https://www.privacyguides.org/en/real-time-communication/) with strong end-to-end encryption, and only use direct messages on social media in order to establish a more private and secure chat platform with your contacts.
+Decentralized social networks use an architecture fundamentally different from mainstream platforms, yet similar to email. Instead of opening an account under a single service like Facebook or Discord, you choose an independent, public server to join. Your server can communicate with and discover other servers—this is known as *federation*.
 
-## Decentralization
+### Benefits of Decentralization
 
-Decentralized social networks are built on an architecture that is fundamentally different than mainstream social media platforms, yet quite similar to the underlying structure of email. Instead of opening an account under a single, unified service like you would for Facebook or Discord, you instead choose an independent, public server to join. The server you join can communicate with and discover other servers; this aspect of decentralization is also known as _federation_.
+- **No central authority** can censor your account across the entire network
+- Greater resistance to platform-wide censorship
+- More control over your data and experience
 
-A significant benefit of this decentralized model is that there is no central authority which can censor your account across the entire network, though it is possible for your account to be banned or silenced by an individual server.
+### Caveats to Consider
 
-A caveat of this decentralized model is that each server is its own legal entity, with its own privacy policy, terms of use, administration team, and moderators. While many of these servers are far _less_ restrictive and more privacy-respecting than traditional social media platforms, some can be far _more_ restrictive or potentially _worse_ for your privacy. Typically, the software on which the social network runs does not discriminate between these administrators or place any limitations on their powers.
+Each server is its own legal entity with its own:
+- Privacy policy and terms of use
+- Administration team and moderators
+- Rules and restrictions
 
-## Censorship Resistance
+While many servers are less restrictive and more privacy-respecting than traditional platforms, some can be more restrictive or potentially worse for your privacy. The underlying software typically doesn't limit administrator powers.
 
-While censorship in decentralized social networks does not exist on a network level, it is very possible to experience censorship on a server level depending on a server's administrator. Administrators have the power to _defederate_ from other servers, which leads to limiting the content you can view and the people you can interact with.
+## Censorship Resistance Strategies
 
-If you are greatly concerned about an existing server censoring your content, the content available to you, or other servers, you generally have two options:
+While network-level censorship doesn't exist in decentralized networks, server-level censorship is possible. Administrators can *defederate* from other servers, limiting the content you can view and people you can interact with.
 
-1. **Host the social network software yourself.** This approach gives you the exact same censorship resistance as any other website you can host yourself, which is fairly high.
+### Options for Maximum Control
 
-2. **Use a managed hosting service.** We don't have any specific recommendations, but there are a variety of hosting services which will create a brand-new server on your own domain (or occasionally a subdomain of their domain, but we recommend against this unless registering your own domain presents too much of a burden to your privacy).
+1. **Self-host the software**: This provides the same censorship resistance as any self-hosted website, which is fairly high.
 
-Typically, hosting providers will handle the _technical_ side of your server, but completely leave the _moderation_ side up to you. This often represents a better approach than self-hosting for most people because you can benefit from greater control over your own server without worrying about technical problems or unpatched security vulnerabilities.
+2. **Use managed hosting**: Various hosting services will create a server on your own domain. They handle technical aspects while leaving moderation to you. This often works better than self-hosting because you get greater control without worrying about technical problems or security vulnerabilities.
 
-You should look closely at your hosting provider's terms of service and acceptable use policies before registering. These are often far more broad than typical hosted server rules, and they are far less likely to be enforced without recourse, but they can still be restrictive in undesirable ways.
+When choosing a hosting provider, review their terms of service and acceptable use policies carefully. These are often broader than typical server rules and can be restrictive in undesirable ways.
 
+---
 
 ## Mastodon
 
-![Mastodon logo](https://www.privacyguides.org/en/assets/img/social-networks/mastodon.svg)
+**Mastodon** is a social network based on open web protocols and free, open-source software using the **ActivityPub** protocol. Like email, users can exist on different servers or platforms while still communicating with each other.
 
-**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the **ActivityPub** protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other.
+- [Homepage](https://joinmastodon.org/)
+- [Documentation](https://docs.joinmastodon.org/)
 
-[Homepage](https://joinmastodon.org/) [Documentation](https://docs.joinmastodon.org/ "Documentation")
+### Why Mastodon?
 
-There are many software platforms which use ActivityPub as their backend social networking protocol, meaning they can talk to servers even when they are running different software. For example, PeerTube is a video publishing software that uses ActivityPub, meaning you can follow channels on PeerTube either with another PeerTube account, _or_ with a Mastodon account because Mastodon also uses ActivityPub.
+1. **Strong security track record**: Quick, coordinated patch releases for vulnerabilities, with backports to older branches for less experienced server hosts. Built-in update notifications help administrators stay current.
 
-We chose to recommend Mastodon over other ActivityPub software as your primary social media platform for these reasons:
+2. **Versatile content handling**: While primarily a microblogging platform, Mastodon handles longer posts, images, videos, and other content types from ActivityPub users on different platforms. Your Mastodon account becomes a central hub for following anyone on the network.
 
-1. Mastodon has a solid history of security updates. In the handful of circumstances where major security vulnerabilities have been found, they coordinate patch releases quickly and cleanly. Historically they have also backported these security patches to older feature branches. This makes it easier for less experienced server hosts who may not feel comfortable upgrading to the latest releases right away to keep their instances secure. Mastodon also has an update notification system built in to the web interface, making it much more likely for server administrators to be aware of critical security patches available for their instance.
-
-2. Mastodon is largely usable with most content types. While it is primarily a microblogging platform, Mastodon easily handles longer posts, image posts, video posts, and most other posts you might encounter when following ActivityPub users who aren't on Mastodon. This makes your Mastodon account an ideal "central hub" for following anyone regardless of the platform they chose to use. In contrast, if you were only using a PeerTube account, you would _only_ be able to follow other video channels, for example.
-
-3. Mastodon has fairly comprehensive privacy controls. It has many built-in features which allow you to limit how and when your data is shared, some of which we'll cover below. They also develop new features with privacy in mind. For example, while other ActivityPub software quickly implemented "quote posts" by merely handling links to other posts with a slightly different embed modal, Mastodon is [developing](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon) a quote post feature which will give you more fine-grained control when your post is quoted.
-
+3. **Comprehensive privacy controls**: Many built-in features limit how and when your data is shared. New features are developed with privacy in mind.
 
 ### Choosing an Instance
 
-To benefit the most from Mastodon, it is critical to choose a server, or "instance," which is well aligned with the type of content you want to post or read about. We do not currently recommend any specific instances, but you may find advice within our communities. We recommend avoiding _mastodon.social_ and _mastodon.online_ because they are operated by the same company which develops Mastodon itself. From the perspective of decentralization, it is better in the long term to separate software developers and server hosts so that no one party can exert too much control over the network as a whole.
+Selecting a well-aligned server is critical for the best Mastodon experience. 
+
+**Recommendation**: Avoid *mastodon.social* and *mastodon.online* as they're operated by the company developing Mastodon. For decentralization's sake, separating software developers from server hosts prevents any single party from controlling too much of the network.
 
 ### Recommended Privacy Settings
 
-From Mastodon's web interface, click the **Administration** link in the right sidebar. Within the administration control panel, you'll find these sections in the left sidebar:
+#### Public Profile Settings
 
-#### Public Profile
+| Setting | Recommendation | Reason |
+|---------|---------------|--------|
+| Automatically accept new followers | **Uncheck** | Creates a private profile; you can still publish public posts but control who follows you |
+| Show follows and followers on profile | **Uncheck** | Hides your social graph; this information rarely benefits others but can present risks to you |
+| Display from which app you sent a post | **Uncheck** | Prevents revealing your computing setup unnecessarily |
 
-There are a number of privacy controls under the **privacy and reach** tab here. Most notably, pay attention to these:
+> **Note**: Profile privacy controls are requests, not technical enforcement. For example, "hide from search engines" doesn't technically prevent indexing—it merely requests search engines not publish your content. The only effective way to hide posts is using followers-only visibility *and* limiting who can follow you.
 
-- **Automatically accept new followers**: You should consider unchecking this box to have a private profile. This will allow you to review who can follow your account before accepting them.
+#### Posting Preferences
 
-In contrast to most social media platforms, if you have a private profile you still have the _option_ to publish posts which are publicly visible to non-followers and can still be boosted by non-followers. Therefore, unchecking this box is the only way to have the _choice_ to publish to either the entire world or a select group of people.
+Set your default posting visibility to **Followers** to prevent accidental over-sharing. Adjust visibility per-post as needed.
 
-- **Show follows and followers on profile**: You should uncheck this box to hide your social graph from the public. It is fairly uncommon for the list of people you follow to have some genuine benefit to others, but that information can present a risk to you.
+#### Automated Post Deletion
 
-- **Display from which app you sent a post**: You should uncheck this box to prevent revealing information about your personal computing setup to others unnecessarily.
+Enable **Automatically delete old posts** with these considerations:
+- Default settings delete posts after 2 weeks unless you favorite (star) them
+- Favoriting provides easy control over which posts persist
+- Adjust timing settings to suit your needs
 
+> **Why delete old posts?** Posts older than a few weeks are rarely read but can build a comprehensive profile about you over time. Default to ephemeral publishing; keep posts longer only intentionally.
 
-The other privacy controls on this page should be read through, but we would stress that they are **not** technical controls—they are merely requests that you make to others. For example, if you choose to hide your profile from search engines on this page, **nothing** is actually stopping a search engine from reading your profile. You are merely requesting search engine indexes not publish your content to their users.
+### Posting Visibility Options
 
-You will likely still wish to make these requests because they can practically reduce your digital footprint. However, they should not be _relied_ upon. The only effective way to hide your posts from search engines and others is to post with non-public (followers only) visibility settings _and_ limit who can follow your account.
+| Visibility | Description | Privacy Level |
+|------------|-------------|---------------|
+| **Public** | Visible to anyone on the internet | None |
+| **Quiet public** | Requests hiding from some feeds (not technically enforced) | Minimal |
+| **Followers** | Only visible to approved followers | Moderate (if followers are restricted) |
+| **Specific people** | Only visible to mentioned users | Limited (no E2EE—don't use for sensitive communications) |
 
-#### Preferences
+With recommended settings, default to **Followers** and choose **Public** only intentionally.
 
-You should change your **posting privacy** setting from public to: **Followers-only - Only show to followers**.
+---
 
-Note that this only changes your default settings to prevent accidental over-sharing. You can always adjust your visibility level when composing a new post.
+## Element (Matrix)
 
-#### Automated post deletion
+**Element** is the flagship client for the **Matrix** protocol, an open standard enabling decentralized communication through federated chat rooms. Users on different homeservers can still communicate.
 
-- Check the **Automatically delete old posts** box.
+- [Homepage](https://element.io/)
+- [Privacy Policy](https://element.io/privacy)
+- [Documentation](https://element.io/help)
+- [Source Code](https://github.com/element-hq)
 
-The default settings here are fine, and will delete any posts you make after 2 weeks, unless you favorite (star) them. This gives you an easy way to control which posts stick around forever, and which ones are only ephemeral. Many settings about how long and when posts are kept can be adjusted here to suit your own needs, however.
-
-It is very rare for social media posts older than a few weeks to be read or relevant to others. These older posts are often ignored because they are challenging to deal with in bulk, but they can build a fairly comprehensive profile about you over time. You should always strive to publish content ephemerally by default, and only keep posts around for longer than that very intentionally.
-
-### Posting Content
-
-When publishing a new post, you will have the option to choose from one of these visibility settings:
-
-- **Public**, which publishes your content to anyone on the internet.
-- **Quiet public**, which you should consider equivalent to publicly posting! This is not a technical guarantee, but merely a request you are making to other servers to hide your post from some feeds.
-- **Followers**, which publishes your content only to your followers. If you did not follow our recommendation of restricting your followers, you should consider this equivalent to publicly posting!
-- **Specific people**, which only shares the post with people who are specifically mentioned within the post. This is Mastodon's version of direct messages, but should never be relied on for private communications as we covered earlier since Mastodon has no E2EE.
-
-If you used our recommended configuration settings above, you should be posting to **Followers** by default, and only posting to **Public** on an intentional and case-by-case basis.
-
-## Element
-
-![Element logo](https://www.privacyguides.org/en/assets/img/social-networks/element.svg)
-
-**Element** is the flagship client for the **[Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** protocol, an [open standard](https://spec.matrix.org/latest) that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other.
-
-[Homepage](https://element.io/) [Privacy Policy](https://element.io/privacy "Privacy Policy") [Documentation](https://element.io/help "Documentation") [Source Code](https://github.com/element-hq "Source Code")
-
-Downloads
-
-- [Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-- [App Store](https://apps.apple.com/app/id1083446067)
-- [GitHub](https://github.com/element-hq/element-android/releases)
-- [Windows](https://element.io/download)
-- [macOS](https://element.io/download)
-- [Linux](https://element.io/download)
-- [Web](https://app.element.io/)
+**Available on**: Web, Windows, macOS, Linux, iOS, Android
 
 ### Choosing a Homeserver
 
-To benefit the most from Matrix, it is critical to choose a homeserver which is well aligned with the subject(s) you want to chat about. We do not currently recommend any specific homeservers, but you may find advice within our communities or third-party resources like [_joinmatrix.org_](https://servers.joinmatrix.org/). We recommend avoiding _matrix.org_ because they are operated by the same company which develops Matrix itself. From the perspective of decentralization, it is better in the long term to separate software developers and server hosts so that no one party can exert too much control over the network as a whole.
+Select a homeserver aligned with your chat topics. Resources like [joinmatrix.org](https://servers.joinmatrix.org/) can help.
+
+**Recommendation**: Avoid *matrix.org* as it's operated by the company developing Matrix. Separating developers from hosts prevents concentrated control over the network.
 
 ### Recommended Privacy Settings
 
-From Element's web or desktop app, go to ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg) → **All settings** to find these sections:
+Access settings via ⚙ → **All settings**:
 
 #### Sessions
-
-By default, when you log in to Element on a new device, the session name will be automatically populated with the Matrix client and platform you used for login. This information may be visible to other users depending on the Matrix client they use.
-
-To prevent revealing information about your personal device to others unnecessarily, consider emptying the session name; this will change the session name to the randomly generated alphanumeric Session ID instead.
+- Consider emptying session names to display only the randomly generated Session ID, preventing exposure of your device information to other users
 
 #### Preferences
+- **Uncheck**: Send read receipts
+- **Uncheck**: Send typing notifications
 
-- Uncheck **Send read receipts**
-- Uncheck **Send typing notifications**
-
-You should uncheck these options to reduce the exposure of metadata to other users when chatting in a public room.
+These reduce metadata exposure when chatting in public rooms.
 
 #### Voice & Video
+- **Uncheck**: Allow Peer-to-Peer for 1:1 calls
+- **Uncheck**: Allow fallback call assist server
 
-- Uncheck **Allow Peer-to-Peer for 1:1 calls**
-- Uncheck **Allow fallback call assist server (turn.matrix.org)**
-
-If you do decide to use Element for one-to-one communication, we recommend unchecking these settings to prevent the exposure of your IP address to the other party.
+These prevent IP address exposure during one-to-one communication.
 
 #### Security & Privacy
 
-##### Manage integrations (scalar.vector.im)
+**Integration Manager**: Consider disabling the integration manager (scalar.vector.im) to limit data sharing with third parties. Review the [Privacy Notice](https://element.io/integration-manager-privacy-notice) for details on collected information.
 
-A Matrix integration manager connects Matrix to third-party services such as bots, bridges, and other enhancements. Element collects information to provide these services to those using an integration manager; you can review its detailed [Privacy Notice](https://element.io/integration-manager-privacy-notice) for the exact information Element collects and the ways it uses such information.
+**Sessions** (Optional): Uncheck client name/version recording if you prefer not to share device details, though this makes managing multiple sessions more difficult.
 
-As an end user on a public homeserver, you can consider unchecking the **Enable the integration manager** option, which does not affect the visibility of bots or other third-party services. As a homeserver administrator, consider whether the additional parties with which you share your data are worth the extra functionality.
+#### Encryption (Optional)
 
-##### Sessions
+Enable **In encrypted rooms, only send messages to verified users** for maximum security. Note: This limits communication with unverified users and devices.
 
-- (Optional) Uncheck **Record the client name, version, and url to recognize sessions for easily in session manager**
+---
 
-Unchecking this option may make it more diffcult to discern your active sessions if you logged in to your Matrix account on multiple devices.
+## Selection Criteria
 
-#### Encryption
+These recommendations follow specific criteria:
 
-- (Optional) Check **In encrypted rooms, only send messages to verified users**
-
-With this setting enabled, unverified users (i.e., those who have not used the **Verify User** function) and unverified devices of verified users will not receive your messages in a room with encryption enabled. This may limit the messages you can view and the people you can interact with.
-
-## Criteria
-
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](https://www.privacyguides.org/en/about/criteria/), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
-
-- Must be free and open-source software.
-- Must use a federated protocol to communicate with other instances of the social networking software.
-- Must not have non-technical restrictions on who can be federated with.
-- Must be usable within a standard [web browser](https://www.privacyguides.org/en/desktop-browsers/).
-- Must make public content accessible to visitors without an account.
-- Must allow you to limit who can follow your profile.
-- Must allow you to post content visible only to your followers.
-- Must support modern web application security standards/features (including [multifactor authentication](https://www.privacyguides.org/en/multi-factor-authentication/)).
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+- **Open source**: Must be free and open-source software
+- **Federated**: Must use a federated protocol for inter-instance communication
+- **No federation restrictions**: Must not have non-technical restrictions on federation
+- **Web accessible**: Must work in standard web browsers
+- **Public content**: Must allow visitors to view public content without an account
+- **Privacy controls**: Must allow limiting followers and posting followers-only content
+- **Modern security**: Must support current web security standards including multifactor authentication

@@ -1,103 +1,89 @@
-[Skip to content](https://www.privacyguides.org/en/os/qubes-overview/#how-does-qubes-os-work)
+```yaml
+---
+title: "Qubes OS Overview: Security Through Compartmentalization"
+tags: [qubes-os, virtualization, compartmentalization, xen-hypervisor, operating-systems, privacy]
+category: "Operating Systems"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, Security Researchers, Activists, Journalists]
+topics: ["Desktop Security", "Virtualization", "Threat Modeling", "Isolation"]
+summary: "Comprehensive overview of Qubes OS, a security-focused operating system using Xen hypervisor and compartmentalized virtual machines (qubes) for strong isolation."
+source: "Privacy Guides"
+content_type: "Educational Guide"
+security_level: "Advanced"
+language: "English"
+prerequisites: ["Basic understanding of operating systems", "Familiarity with virtualization concepts", "Understanding of threat modeling"]
+estimated_read_time: "8 minutes"
+---
+```
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/os/qubes-overview.md?plain=1 "Edit this page")
+# Qubes OS Overview
 
-# Qubes Overview
+[**Qubes OS**](https://www.privacyguides.org/en/desktop/#qubes-os) is an open-source operating system that uses the [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor to provide strong security for desktop computing through isolated *qubes* (virtual machines). You can assign each *qube* a level of trust based on its purpose. Qubes OS provides security through isolation, permitting actions only on a per-case basis—the opposite of [badness enumeration](https://ranum.com/security/computer_security/editorials/dumb).
 
-[**Qubes OS**](https://www.privacyguides.org/en/desktop/#qubes-os) is an open-source operating system which uses the [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor to provide strong security for desktop computing through isolated _qubes_, (which are Virtual Machines). You can assign each _qube_ a level of trust based on its purpose. Qubes OS provides security by using isolation. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://ranum.com/security/computer_security/editorials/dumb).
+## How Qubes OS Works
 
-## How does Qubes OS work?
+Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system secure. Qubes are created from templates, with defaults for Fedora, Debian, and [Whonix](https://www.privacyguides.org/en/desktop/#whonix). The system also supports once-use [disposable](https://qubes-os.org/doc/how-to-use-disposables) *qubes*.
 
-Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system secure. Qubes are created from templates, the defaults being for Fedora, Debian and [Whonix](https://www.privacyguides.org/en/desktop/#whonix). Qubes OS also allows you to create once-use [disposable](https://qubes-os.org/doc/how-to-use-disposables) _qubes_.
-
-The term _qubes_ is gradually being updated to avoid referring to them as "virtual machines".
-
-Some of the information here and on the Qubes OS documentation may contain conflicting language as the "appVM" term is gradually being changed to "qube". Qubes are not entire virtual machines, but maintain similar functionalities to VMs.
+> **Note:** The term *qubes* is gradually replacing "virtual machines" in documentation. Qubes are not entire virtual machines but maintain similar functionalities.
 
 ![Qubes architecture](https://www.privacyguides.org/en/assets/img/qubes/qubes-trust-level-architecture.png)
 
-Qubes Architecture, Credit: What is Qubes OS Intro
+Each qube has a [colored border](https://qubes-os.org/screenshots) to help you track which security domain it belongs to. For example, you might use one color for banking and another for general untrusted browsing.
 
-Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. You could, for example, use a specific color for your banking browser, while using a different color for a general untrusted browser.
+![Colored border example](https://www.privacyguides.org/en/assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
 
-![Colored border](https://www.privacyguides.org/en/assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
+## Why Use Qubes OS?
 
-Qubes window borders, Credit: Qubes Screenshots
+Qubes OS is ideal when your [threat model](https://www.privacyguides.org/en/basics/threat-modeling/) requires strong security and isolation—particularly if you regularly open untrusted files from unknown sources. The core principle: if a single qube is compromised, it won't affect the rest of the system.
 
-## Why Should I use Qubes?
+Qubes OS uses [dom0](https://wiki.xenproject.org/wiki/Dom0) (a Xen VM) to control other *qubes* on the host OS. All qubes display individual application windows within dom0's desktop environment.
 
-Qubes OS is useful if your [threat model](https://www.privacyguides.org/en/basics/threat-modeling/) requires strong security and isolation, such as if you think you'll be opening untrusted files from untrusted sources. A typical reason for using Qubes OS is to open documents from unknown sources, but the idea is that if a single qube is compromised it won't affect the rest of the system.
-
-Qubes OS utilizes [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM for controlling other _qubes_ on the host OS, all of which display individual application windows within dom0's desktop environment. There are many uses for this type of architecture. Here are some tasks you can perform. You can see just how much more secure these processes are made by incorporating multiple steps.
+## Key Operations
 
 ### Copying and Pasting Text
 
-You can [copy and paste text](https://qubes-os.org/doc/how-to-copy-and-paste-text) using `qvm-copy-to-vm` or the below instructions:
+You can [copy and paste text](https://qubes-os.org/doc/how-to-copy-and-paste-text) between qubes using `qvm-copy-to-vm` or these steps:
 
-1. Press **Ctrl+C** to tell the _qube_ you're in that you want to copy something.
-2. Press **Ctrl+Shift+C** to tell the _qube_ to make this buffer available to the global clipboard.
-3. Press **Ctrl+Shift+V** in the destination _qube_ to make the global clipboard available.
-4. Press **Ctrl+V** in the destination _qube_ to paste the contents in the buffer.
+1. **Ctrl+C** — Copy within the current qube
+2. **Ctrl+Shift+C** — Make the buffer available to the global clipboard
+3. **Ctrl+Shift+V** — Access the global clipboard in the destination qube
+4. **Ctrl+V** — Paste the contents
 
 ### File Exchange
 
-To copy and paste files and directories (folders) from one _qube_ to another, you can use the option **Copy to Other AppVM...** or **Move to Other AppVM...**. The difference is that the **Move** option will delete the original file. Either option will protect your clipboard from being leaked to any other _qubes_. This is more secure than air-gapped file transfer. An air-gapped computer will still be forced to parse partitions or file systems. That is not required with the inter-qube copy system.
+To copy or move files between qubes, use **Copy to Other AppVM...** or **Move to Other AppVM...**. The **Move** option deletes the original file. Both options protect your clipboard from being leaked to other qubes.
 
-Qubes do not have their own filesystems.
+This method is more secure than air-gapped file transfer, as air-gapped computers must still parse partitions or file systems—not required with inter-qube copying.
 
-You can [copy and move files](https://qubes-os.org/doc/how-to-copy-and-move-files) between _qubes_. When doing so the changes aren't immediately made and can be easily undone in case of an accident. When you run a _qube_, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
+> **Important:** Qubes do not have persistent filesystems. You can create and delete files, but changes are ephemeral. Modifications aren't immediately committed and can be easily undone.
 
-### Inter-VM Interactions
+Learn more: [Copy and move files](https://qubes-os.org/doc/how-to-copy-and-move-files)
 
-The [qrexec framework](https://qubes-os.org/doc/qrexec) is a core part of Qubes which allows communication between domains. It is built on top of the Xen library _vchan_, which facilitates [isolation through policies](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system).
+### Inter-VM Communication
 
-## Connecting to Tor via a VPN
+The [qrexec framework](https://qubes-os.org/doc/qrexec) enables communication between domains. Built on the Xen library *vchan*, it facilitates [isolation through policies](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system).
 
-We [recommend](https://www.privacyguides.org/en/advanced/tor-overview/) connecting to the Tor network via a [VPN](https://www.privacyguides.org/en/vpn/) provider, and luckily Qubes makes this easy to do with a combination of ProxyVMs and Whonix.
+## Connecting to Tor via VPN
 
-After [creating a new ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
+Privacy Guides [recommends](https://www.privacyguides.org/en/advanced/tor-overview/) connecting to Tor via a [VPN](https://www.privacyguides.org/en/vpn/) provider. Qubes makes this straightforward using ProxyVMs and Whonix.
 
-Your qubes should be configured in a manner similar to this:
+After [creating a ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) connected to your VPN, chain your Whonix qubes to that ProxyVM **before** they connect to Tor by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the new ProxyVM.
 
-| Qube name | Qube description | NetVM |
-| --- | --- | --- |
-| sys-net | _Your default network qube (pre-installed)_ | _n/a_ |
-| sys-firewall | _Your default firewall qube (pre-installed)_ | sys-net |
-| sys-proxyvm | The VPN ProxyVM you [created](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) | sys-firewall |
-| sys-whonix | Your Whonix Gateway VM | sys-proxyvm |
-| anon-whonix | Your Whonix Workstation VM | sys-whonix |
+| Qube Name | Description | NetVM |
+|-----------|-------------|-------|
+| sys-net | Default network qube (pre-installed) | *n/a* |
+| sys-firewall | Default firewall qube (pre-installed) | sys-net |
+| sys-proxyvm | VPN ProxyVM you created | sys-firewall |
+| sys-whonix | Whonix Gateway VM | sys-proxyvm |
+| anon-whonix | Whonix Workstation VM | sys-whonix |
 
 ## Additional Resources
 
-For additional information we encourage you to consult the extensive Qubes OS documentation pages located on the [Qubes OS Website](https://qubes-os.org/doc). Offline copies can be downloaded from the Qubes OS [documentation repository](https://github.com/QubesOS/qubes-doc).
+Consult the extensive [Qubes OS documentation](https://qubes-os.org/doc) for more information. Offline copies are available from the [documentation repository](https://github.com/QubesOS/qubes-doc).
 
-- [Arguably the world's most secure operating system](https://opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard) (Open Technology Fund)
-- [Software compartmentalization vs. physical separation](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
-- [Partitioning my digital life into security domains](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
-- [Related Articles](https://qubes-os.org/news/categories/#articles) (Qubes OS)
+### Recommended Reading
 
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+- [Arguably the world's most secure operating system](https://opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard) — Open Technology Fund
+- [Software compartmentalization vs. physical separation](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) — J. Rutkowska
+- [Partitioning my digital life into security domains](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) — J. Rutkowska
+- [Related Articles](https://qubes-os.org/news/categories/#articles) — Qubes OS

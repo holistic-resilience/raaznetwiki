@@ -1,316 +1,180 @@
-[Skip to content](https://www.privacyguides.org/en/mobile-browsers/#brave)
+---
+title: "Privacy-Respecting Mobile Web Browsers for Android and iOS"
+tags: [privacy, security, mobile-browsers, android, ios, chromium]
+category: "Digital Security"
+difficulty: "Intermediate"
+audience: [General Public, Privacy-Conscious Users, Mobile Users]
+topics: ["Mobile Privacy", "Web Browsers", "Digital Security"]
+summary: "Comprehensive guide to recommended privacy-focused mobile browsers including Brave, Cromite, and Safari with detailed configuration settings."
+source: "Privacy Guides"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic smartphone usage", "Understanding of privacy concepts"]
+estimated_read_time: "12 minutes"
+---
 
-![](https://www.privacyguides.org/en/assets/img/cover/mobile-browsers.webp)
+# Privacy-Respecting Mobile Web Browsers
 
-# Mobile Browsers
+These are the currently recommended **mobile web browsers** and configurations for standard, non-anonymous internet browsing. For anonymous browsing, use [Tor](https://www.privacyguides.org/en/tor/) instead.
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/mobile-browsers.md?plain=1 "Edit this page")
+---
 
-Protects against the following threat(s):
+## Brave Browser
 
-- [Surveillance Capitalism](https://www.privacyguides.org/en/basics/common-threats/#surveillance-as-a-business-model)
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many enabled by default. Built on Chromium, it offers familiar navigation and minimal website compatibility issues.
 
-These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](https://www.privacyguides.org/en/tor/) instead.
-
-## Brave
-
-![Brave logo](https://www.privacyguides.org/en/assets/img/browsers/brave.svg)
-
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
-
-Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
-
-[Homepage](https://brave.com/) [Onion Service](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion/ "Onion Service") [Privacy Policy](https://brave.com/privacy/browser "Privacy Policy") [Documentation](https://support.brave.com/ "Documentation") [Source Code](https://github.com/brave/brave-browser "Source Code")
-
-Downloads
-
-- [Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-- [App Store](https://apps.apple.com/app/id1052879175)
-- [GitHub](https://github.com/brave/brave-browser/releases)
-- [F-Droid](https://brave-browser-apk-release.s3.brave.com/fdroid/repo/index.html)
+**Available on:** [Google Play](https://play.google.com/store/apps/details?id=com.brave.browser) | [App Store](https://apps.apple.com/app/id1052879175) | [F-Droid](https://brave-browser-apk-release.s3.brave.com/fdroid/repo/index.html) | [GitHub](https://github.com/brave/brave-browser/releases)
 
 ### Recommended Brave Configuration
 
-Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](https://www.privacyguides.org/en/tor/#tor-browser) will be traceable by _somebody_ in some regard or another.
+> **Note:** Tor Browser is the only way to truly browse anonymously. All other browsers are traceable to some degree.
 
-[Android](https://www.privacyguides.org/en/mobile-browsers/#__tabbed_1_1)[iOS](https://www.privacyguides.org/en/mobile-browsers/#__tabbed_1_2)
+#### Brave Shields Global Defaults
 
-These options can be found in  → **Settings** → **Brave Shields & privacy**.
+Brave's [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature includes anti-fingerprinting measures. Configure these [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) for all pages.
 
-These options can be found in  → **Settings** → **Shields & Privacy**.
+**Android** (Settings → Brave Shields & privacy):
+- Select **Aggressive** under *Block trackers & ads*
+- Enable **Auto-redirect AMP pages**
+- Enable **Auto-redirect tracking URLs**
+- Select **Require all connections to use HTTPS (strict)**
+- Select **Block third-party cookies**
+- Enable **Block Fingerprinting**
+- Enable **Prevent fingerprinting via language settings**
+- Enable **Forget me when I close this site**
+- (Optional) Enable **Block Scripts**
 
-#### Brave shields global defaults
+**iOS** (Settings → Shields & Privacy):
+- Select **Aggressive** under *Trackers & Ads Blocking*
+- Select **Strict** under *Upgrade Connections to HTTPS*
+- Enable **Auto-Redirect AMP pages**
+- Enable **Auto-Redirect Tracking URLs**
+- Enable **Block Fingerprinting**
+- Select **Site Tabs Closed** under *Auto Shred*
+- (Optional) Enable **Block Scripts**
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+> **Warning:** Avoid adding extra content filter lists beyond defaults. Additional lists make you stand out and may increase attack surface.
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+#### Additional Privacy Settings
 
-[Android](https://www.privacyguides.org/en/mobile-browsers/#__tabbed_2_1)[iOS](https://www.privacyguides.org/en/mobile-browsers/#__tabbed_2_2)
-
-- Select **Aggressive** under _Block trackers & ads_
-- Select **Auto-redirect AMP pages**
-- Select **Auto-redirect tracking URLs**
-- Select **Require all connections to use HTTPS (strict)** under _Upgrade connections to HTTPS_
-- (Optional) Select **Block Scripts**
-- Select **Block third-party cookies** under _Block Cookies_
-- Select **Block Fingerprinting**
-- Select **Prevent fingerprinting via language settings**
-
-Use default filter lists
-
-Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
-
-- Select **Forget me when I close this site**
-
-- Select **Aggressive** under _Trackers & Ads Blocking_
-- Select **Strict** under _Upgrade Connections to HTTPS_
-- Select **Auto-Redirect AMP pages**
-- Select **Auto-Redirect Tracking URLs**
-- (Optional) Select **Block Scripts**
-- Select **Block Fingerprinting**
-- Select **Site Tabs Closed** under _Auto Shred_
-
-Use default filter lists
-
-Brave allows you to select additional content filters within the **Content Filtering** menu. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
-
-##### Clear browsing data (Android only)
-
-- Select **Clear data on exit**
-
-##### Social Media Blocking (Android only)
-
+**Android:**
+- Enable **Clear data on exit** (Clear browsing data section)
 - Uncheck all social media components
-
-#### Other privacy settings
-
-[Android](https://www.privacyguides.org/en/mobile-browsers/#__tabbed_3_1)[iOS](https://www.privacyguides.org/en/mobile-browsers/#__tabbed_3_2)
-
-- Select **Disable non-proxied UDP** under [_WebRTC IP handling policy_](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- (Optional) Select **No protection** under _Safe Browsing_
+- Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- (Optional) Select **No protection** under *Safe Browsing*
 - Uncheck **Allow sites to check if you have payment methods saved**
-- Uncheck **Javascript optimization & security** under the setting with the same name
-- Select **Close tabs on exit**
+- Uncheck **Javascript optimization & security**
+- Enable **Close tabs on exit**
 - Uncheck **Allow privacy-preserving product analytics (P3A)**
 - Uncheck **Automatically send diagnostic reports**
 - Uncheck **Automatically send daily usage ping to Brave**
 
+**iOS:**
 - Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
 - Uncheck **Automatically send daily usage ping to Brave**
 
-#### Leo
+#### Leo & Search Settings
 
-These options can be found in  → **Settings** → **Leo**.
-
-- Uncheck **Show autocomplete suggestions in address bar**
-
-#### Search engines
-
-These options can be found in / → **Settings** → **Search engines**.
-
-- Uncheck **Show search suggestions**
+- Uncheck **Show autocomplete suggestions in address bar** (Leo settings)
+- Uncheck **Show search suggestions** (Search engines settings)
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) enables E2EE synchronization of browsing data across devices without requiring an account.
 
-## Cromite (Android)
+---
 
-![Cromite logo](https://www.privacyguides.org/en/assets/img/browsers/cromite.svg)
+## Cromite (Android Only)
 
-**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and [privacy enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It's a fork of the discontinued Bromite browser.
 
-[Homepage](https://cromite.org/) [Privacy Policy](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md "Privacy Policy") [Documentation](https://github.com/uazo/cromite?tab=readme-ov-file#docs "Documentation") [Source Code](https://github.com/uazo/cromite "Source Code")
-
-Downloads
-
-- [F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
-- [GitHub](https://github.com/uazo/cromite/releases/latest)
+**Available on:** [F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B) | [GitHub](https://github.com/uazo/cromite/releases/latest)
 
 ### Recommended Configuration
 
-These options can be found in  → ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**Settings** → **Privacy and security**.
+Navigate to Settings → Privacy and security:
 
-#### Browsing data
+**Browsing Data:**
+- Enable **Close all open tabs on exit**
 
-- Select **Close all open tabs on exit**
+**Incognito Mode:**
+- Enable **Open external links in incognito**
 
-#### Incognito mode
+**Security:**
+- Enable **Always use secure connections**
 
-- Select **Open external links in incognito**
+**Adblock Plus Settings:**
+- Keep default EasyList enabled
+- (Optional) Enable **Enable anti-circumvention and snippets** for enhanced blocking
+- Avoid adding extra filter lists to prevent fingerprinting
 
-#### Security
+**Legacy Adblock Settings:**
+- Uncheck the autoupdate setting (disables checks for unmaintained Bromite filter)
 
-- Select **Always use secure connections**
+---
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+## Safari (iOS Only)
 
-#### Adblock Plus settings
-
-These options can be found in  → ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**Settings** → **Adblock Plus settings**.
-
-Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **Filter lists** menu.
-
-Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
-
-- (Optional) Select **Enable anti-circumvention and snippets**
-
-This setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking. The warnings about standing out and potentially increasing attack surface apply.
-
-#### Legacy Adblock settings
-
-These options can be found in  → ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**Settings** → **Legacy Adblock settings**.
-
-- Uncheck the autoupdate setting
-
-This disables update checks for the unmaintained Bromite adblock filter.
-
-## Safari (iOS)
-
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](https://www.privacyguides.org/en/mobile-browsers/#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
-
-![Safari logo](https://www.privacyguides.org/en/assets/img/browsers/safari.svg)
-
-**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
-
-[Homepage](https://apple.com/safari) [Privacy Policy](https://apple.com/legal/privacy/data/en/safari "Privacy Policy") [Documentation](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios "Documentation")
+On iOS, all browsers must use Apple's [WebKit framework](https://developer.apple.com/documentation/webkit). Safari includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as Intelligent Tracking Prevention, isolated Private Browsing tabs, and fingerprinting protection.
 
 ### Recommended Safari Configuration
 
-The following privacy/security-related options can be found in ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**Settings** → **Apps** → **Safari**.
+Navigate to Settings → Apps → Safari:
 
-#### Allow Safari to Access
-
-Under **Siri**:
-
+#### Siri & Search
 - Disable **Learn from this App**
 - Disable **Show in App**
 - Disable **Show on Home Screen**
 - Disable **Suggest App**
 
-This prevents Siri from using content from Safari for Siri suggestions.
-
 #### Search
-
 - Disable **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
-
-#### Profiles
-
-Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
-
 #### Privacy & Security
-
 - Enable **Prevent Cross-Site Tracking**
-
-This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
-
 - Enable **Require Face ID/Touch ID to Unlock Private Browsing**
-
-This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
-
-- Disable **Fraudulent Website Warning**
-
-This setting uses Google Safe Browsing (or Tencent Safe Browsing for users in mainland China or Hong Kong) to protect you while you browse. As such, your IP address may be logged by your Safe Browsing provider. Disabling this setting will disable this logging, but you might be more vulnerable to known phishing sites.
-
+- Disable **Fraudulent Website Warning** (prevents IP logging by Safe Browsing)
 - Enable **Not Secure Connection Warning**
-
-This setting shows a warning screen if your connection to a website isn't using HTTPS. Safari will automatically try to upgrade the site to HTTPS, so you should only see this when there is no HTTPS connection available.
-
 - Disable **Highlights**
 
-Apple's privacy policy for Safari states:
+#### Website Settings
+Set Camera, Microphone, and Location to **Ask**
 
-> When visiting a webpage, Safari may send information calculated from the webpage address to Apple over OHTTP to determine if relevant highlights are available.
+#### Advanced Settings (Settings → Apps → Safari → Advanced)
 
-#### Settings for Websites
-
-Under **Camera**
-
-- Select **Ask**
-
-Under **Microphone**
-
-- Select **Ask**
-
-Under **Location**
-
-- Select **Ask**
-
-These settings ensure that websites can only access your camera, microphone, or location after you explicitly grant them access.
-
-#### Other Privacy Settings
-
-These options can be found in ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**Settings** → **Apps** → **Safari** → **Advanced**.
-
-##### Fingerprinting Mitigations
-
-The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
-
+**Fingerprinting Mitigations:**
 - Select **All Browsing** or **Private Browsing**
 
-##### Privacy Preserving Ad Measurement
-
+**Ad Measurement:**
 - Disable **Privacy Preserving Ad Measurement**
 
-Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
+### Always-On Private Browsing
 
-The feature has little privacy concerns on its own, so while you can choose to leave it on, we consider the fact that it's automatically disabled in Private Browsing to be an indicator for disabling the feature.
+1. Open Safari and tap the Tabs button (bottom right)
+2. Expand the Tab Groups list
+3. Select **Private**
 
-#### Always-on Private Browsing
+Private Browsing uses ephemeral sessions for each tab with additional privacy protections. Note: cookies and website data aren't saved, preventing persistent logins.
 
-Open Safari and tap the Tabs button, located in the bottom right. Then, expand the  Tab Groups list.
+### iCloud Sync & Advanced Data Protection
 
-- Select **Private**
+Safari History, Tab Groups, iCloud Tabs, and passwords sync with E2EE. Bookmarks are **not** encrypted by default.
 
-Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are other smaller privacy benefits with Private Browsing too, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+To enable E2EE for bookmarks and downloads:
+1. Go to Settings → iCloud → Advanced Data Protection
+2. Turn on **Advanced Data Protection**
 
-Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed in to sites. This may be an inconvenience.
+If not using Advanced Data Protection, set Safari's default download location to a local folder.
 
-#### iCloud Sync
+---
 
-Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
+## Selection Criteria
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Go to ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**Settings** → **iCloud** → **Advanced Data Protection**.
-
-- Turn on **Advanced Data Protection**
-
-If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**Settings** → **Apps** → **Safari** → **General** → **Downloads**.
-
-## Criteria
-
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](https://www.privacyguides.org/en/about/criteria/), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+These recommendations follow [Privacy Guides' standard criteria](https://www.privacyguides.org/en/about/criteria/):
 
 ### Minimum Requirements
-
-- Must support automatic updates.
-- Must receive engine updates from upstream releases quickly.
-- Must support content blocking.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+- Automatic update support
+- Quick engine updates from upstream releases
+- Content blocking capability
+- Privacy enhancements that don't negatively impact user experience

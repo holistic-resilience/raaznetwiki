@@ -1,17 +1,70 @@
-![Act detail 06](https://holistic-security.tacticaltech.org/media/chapters/images/default/act_detail_06.jpg%3F1460642792)
+---
+title: "Protests: Record and Publish Securely"
+tags: [protests, documentation, mobile-security, metadata, encryption, human-rights]
+category: "Protest Security"
+difficulty: "Intermediate"
+audience: [Activists, Journalists, Human Rights Defenders, Protesters]
+topics: ["Digital Security", "Documentation", "Privacy Protection", "Mobile Security"]
+summary: "Guide for safely recording and publishing evidence of human rights violations during protests while protecting identities."
+source: "Tactical Tech - Holistic Security"
+content_type: "Educational Guide"
+security_level: "Advanced"
+language: "English"
+prerequisites: ["Basic smartphone operation", "Understanding of encryption concepts"]
+estimated_read_time: "4 minutes"
+---
 
-# 4.6 Protests: Record and Publish Securely
+# Protests: Record and Publish Securely
 
-If you witness a human rights violation taking place during a protest or demonstration, the first thing you may want to do is reach for our mobile phone or camera to record it and later share it online or keep it for legal use. However, if you're not careful, recording and sharing abuses could get you or others into trouble, so consider the following before hitting record and share.
+If you witness a human rights violation during a protest or demonstration, your first instinct may be to reach for your mobile phone or camera to record it. However, recording and sharing abuses without proper precautions could endanger you or others. Consider the following before hitting record and share.
 
-First of all, make sure you are in as physically safe a space as possible before you start taking pictures or filming. Ideally have another person recording you, while you film and vice versa, in case you become the object of aggression or harressment by police or adversaries. This tactic can be planned for in advance with your affinity group.
+## Physical Safety First
 
-If you're using a smartphone, there are a number of ways to safely take pictures or video: [Obscuracam](https://guardianproject.info/apps/obscuracam/) allows you to blur faces, and [CameraV](https://guardianproject.info/apps/camerav) gives you control over the meta-data in the images or video. The [eyeWitness to Atrocities](http://www.eyewitnessproject.org/) app allows you to record legally verifiable footage and images and [Mobile Martus](https://play.google.com/store/apps/details?id=org.martus.android) is designed for documenting human rights abuses. Mobile Martus also allows for encrypted transfer of messages, and you can upload content online while protecting your identity by using [Orbot](https://guardianproject.info/apps/orbot). When sending files, avoid MMS messages which are not encrypted. Consider using an end-to-end encrypted messenger like [Signal](https://whispersystems.org/), or [GPG encrypted](https://securityinabox.org/en/guide/thunderbird/windows) mail. If you're storing the content on an SD card, consider encrypting your phone or make the card 'run' – give it to someone else who will take it to safety.
+Ensure you are in as physically safe a space as possible before taking pictures or filming. Ideally, have another person recording you while you film, and vice versa, in case you become the target of aggression or harassment by police or adversaries. Plan this tactic in advance with your affinity group.
 
-If you have recorded any violations during the event and now want to publish or share them, you may want take some measures to protect your identity and the identity of others in the pictures or video. Pictures and videos contain EXIF data, a kind of meta-data that can identify where, when and even by whom the picture was taken. You can remove this metadata using tools like [Metanull](https://securityinabox.org/en/lgbti-mena/metanull/windows), the [Metadata Anonymisation Toolkit](https://mat.boum.org/) or CameraV. CameraV can also be used to add extra metadata to images or video, which can be useful for verification. When uploading or sharing material, cover your tracks by using the [Tor Browser](https://torproject.org/) (or Orbot for your Android smartphone), or a VPN service which will also help you access blocked websites. If you are concerned about the safety and legal implications of sharing the information you’ve gathered, get expert advice and support from lawyers and human rights organisations. Make sure to keep secure backups and consider whether to keep non-anonymised materials (and if so, how).
+## Secure Recording Tools
 
-For more on the use of CameraV for documentation purposes, see the interview [Metadata or it didn't happen](http://exposingtheinvisible.org/resources/taking-care-evidence/harlo-holmes) with Harlo Holmes on [Exposing the Invisible](https://exposingtheinvisible.org/).
+For smartphones, several apps enable safer documentation:
 
-[4.5 Protests: Communicate Often and Safely](https://holistic-security.tacticaltech.org/chapters/act/4-1-5-protests-communicate-often-and-safely.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/act.html)
-[4.7 Protests: Be Mindful of Common Threats](https://holistic-security.tacticaltech.org/chapters/act/4-1-7-protests-be-mindful-of-common-threats.html)
+- **[ObscuraCam](https://guardianproject.info/apps/obscuracam/)** - Blur faces to protect identities
+- **[CameraV](https://guardianproject.info/apps/camerav)** - Control metadata in images and video; can also add verification metadata
+- **[eyeWitness to Atrocities](http://www.eyewitnessproject.org/)** - Record legally verifiable footage and images
+- **[Mobile Martus](https://play.google.com/store/apps/details?id=org.martus.android)** - Document human rights abuses with encrypted transfer capabilities
+
+## Secure Transmission
+
+When sending files:
+
+- **Avoid MMS messages** - They are not encrypted
+- **Use end-to-end encrypted messengers** like [Signal](https://whispersystems.org/)
+- **Use GPG-encrypted email** for sensitive communications
+- **Upload anonymously** using [Orbot](https://guardianproject.info/apps/orbot) (Tor for Android)
+
+If storing content on an SD card, consider encrypting your phone or passing the card to someone who can take it to safety.
+
+## Publishing Safely
+
+Before publishing or sharing recorded violations, protect identities by removing metadata:
+
+### Metadata Removal Tools
+- **[Metanull](https://securityinabox.org/en/lgbti-mena/metanull/windows)**
+- **[Metadata Anonymisation Toolkit](https://mat.boum.org/)**
+- **CameraV** (can both remove and add verification metadata)
+
+Pictures and videos contain EXIF data that can identify where, when, and by whom they were taken.
+
+### Anonymous Uploading
+- Use the **[Tor Browser](https://torproject.org/)** or **Orbot** for Android
+- Consider a **VPN service** to access blocked websites and mask your location
+
+## Legal and Safety Considerations
+
+If you are concerned about safety or legal implications of sharing gathered information:
+
+- Seek expert advice from lawyers and human rights organizations
+- Maintain secure backups of all materials
+- Consider whether to keep non-anonymized versions, and if so, how to store them securely
+
+## Further Resources
+
+For more on using CameraV for documentation, see the interview [Metadata or it didn't happen](http://exposingtheinvisible.org/resources/taking-care-evidence/harlo-holmes) with Harlo Holmes on [Exposing the Invisible](https://exposingtheinvisible.org/).

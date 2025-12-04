@@ -1,51 +1,84 @@
-# Information Ecosystem
+---
+title: "Exercise: Information Ecosystem"
+tags: [information-security, asset-inventory, data-protection, risk-assessment, security-planning]
+category: "Security Planning"
+difficulty: "Intermediate"
+audience: [Human Rights Activists, NGO Staff, Privacy-Conscious Users]
+topics: ["Information Management", "Data Security", "Risk Assessment"]
+summary: "Interactive exercise for inventorying and categorizing information assets to create data protection policies."
+source: "Tactical Tech - Holistic Security"
+content_type: "Exercise"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of data types", "Familiarity with organizational information flows"]
+estimated_read_time: "8 minutes"
+---
 
-![Explore detail 04](https://holistic-security.tacticaltech.org/media/exercises/images/default/explore_detail_04.jpg%3F1465900397)
+# Exercise: Information Ecosystem
 
-## Purpose & Output
+## Purpose
 
-The purpose of this exercise is to take an inventory of the most important information assets you manage, in order to create policies for its safekeeping later on.
+This exercise helps you inventory your most important information assets to create effective safekeeping policies. By mapping what information you handle, where it lives, and who can access it, you can develop targeted protection strategies.
 
-## Input & Materials
+## Materials Needed
 
-It may be helpful to reproduce the example table below, either by printing it or drawing it on a flip-chart or other materials.
+- Spreadsheet software, or
+- Large paper sheet with sticky notes, or
+- Printed copy of the template table below
 
-## Format & Steps
+## Exercise Format
 
-Brainstorming and documentation
+**Type:** Brainstorming and documentation
+**Setting:** Individual or group
 
-To begin the exercise – especially in a group – it may be useful to use a spreadsheet, or a large sheet and sticky notes, or some other means which allow you to brainstorm easily and group things together.
+## Instructions
 
-Brainstorm and make a list of all of the data you manage. If you're not sure where to begin, consider:
+### Step 1: Identify Your Information Assets
 
-- data related to each of your human rights activities
-- personal data and files, especially if stored on your work computer
-- browsing activities online, especially of sensitive data
-- emails, text messages and other communication related to your human rights activities.
+Begin by listing all types of information you manage, including:
 
-Imagine a spreadsheet that has several columns enumerating categories as described below. Your task is to fill the rows with information.
+- Data related to your human rights activities
+- Personal data and files (especially if stored on work devices)
+- Online browsing activities involving sensitive information
+- Emails, text messages, and other communications related to your work
 
-Start with your **information at rest**, and for each type of information, elaborate on the following
+### Step 2: Map Information at Rest
 
-- What information is it?
-- Where does it reside?
-- Who has access to it?
-- How sensitive is it (secret / confidential / public) ?
-- How important is it to keep it?
-- Who has access to it?
-- How should it be protected?
-- How long should it be kept before destroyed?
+For each type of stored information, document the following:
 
-Characterise and qualify the information you have mapped out.
+| Question | Purpose |
+|----------|---------|
+| What information is it? | Identify the data type |
+| Where does it reside? | Physical or digital location |
+| Who has access to it? | Current access permissions |
+| How sensitive is it? | Secret / Confidential / Public |
+| How important is it to keep? | Retention priority |
+| How should it be protected? | Security measures needed |
+| How long before destruction? | Retention period |
 
-You can repeat the same process and expand the spreadsheet with additional entries for your **information in motion**; e.g. data being transferred (physically, electronically), communications over the internet or telecommunications networks.
+### Step 3: Map Information in Motion
 
-The questions and example in Table 2 below may help you with this.
+Expand your inventory to include data being transferred:
 
-Remarks & Tips
+- Physical transfers (documents, storage devices)
+- Electronic transfers (file sharing, uploads)
+- Communications (internet, telecommunications)
 
-This process is iterative. Once you have done the first round, you may detect patterns and groupings. For instance, you may decide that since all financial information (regardless of type) has similar sensitivities and longevity, you can group them and think of them as a financial information category.
+Apply the same questions from Step 2 to each type of information in motion.
 
-Conversely, you might find yourself needing to expand a row into several rows. For instance, a row containing 'email' needs to be expanded to several rows to account for a subset of emails - and their safe-keeping - which is sensitive.
+### Step 4: Identify Patterns and Refine
 
-This should be a live document and will change according to shifts and developments in your situation. So you will benefit from regularly updating this document to account for any of these changes.
+Review your completed inventory and look for:
+
+- **Groupings:** Information with similar sensitivities and retention needs (e.g., all financial data) can be categorized together
+- **Expansions:** Broad categories (e.g., "email") may need subdivision to account for varying sensitivity levels within that category
+
+## Tips for Success
+
+- **Iterate:** Your first pass won't be perfect—refine as patterns emerge
+- **Keep it current:** Treat this as a living document that evolves with your situation
+- **Review regularly:** Update whenever your activities, tools, or circumstances change
+
+## Output
+
+A comprehensive inventory of your information assets with clear categorization, sensitivity ratings, and preliminary protection requirements—forming the foundation for your data security policies.

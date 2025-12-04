@@ -1,76 +1,87 @@
-[Skip to content](https://freedom.press/digisec/blog/data-vampires-we-mean-brokers/#main)
+```yaml
+---
+title: "Data Brokers and Privacy Threats"
+tags: [data-brokers, privacy, surveillance, opt-out, location-tracking, fourth-amendment]
+category: "Privacy Fundamentals"
+difficulty: "Intermediate"
+audience: [Journalists, Activists, Privacy-Conscious Users, General Public]
+topics: ["Data Privacy", "Surveillance", "Consumer Rights", "Digital Security"]
+summary: "Guide to understanding data brokers, their privacy implications, and practical steps to opt out of data collection."
+source: "Freedom of the Press Foundation"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of online privacy concepts"]
+estimated_read_time: "6 minutes"
+---
 
-![Dozens of illustrated bats in flight over a purple background](https://media.freedom.press/media/images/batsbyFPF.2e16d0ba.fill-1920x1080.jpg)
+# Data Brokers and Privacy Threats
 
-Credit: Freedom of the Press Foundation (CC BY 4.0)
+## What Are Data Brokers?
 
-It’s the digital security training team at Freedom of the Press Foundation (FPF), with security news that keeps you, your sources, and your devices safe. If someone shared this newsletter with you, [please subscribe here](https://freedom.press/training/digisec-subscribe/).
+Data brokers are companies that collect and sell consumers' personal information. They obtain data by:
 
-This October, we’re bringing you a twist on our weekly newsletter. Read along as we shine our flashlight into the darker, creepier, more persistent corners of the online world. After all, it’s spooky season, and we all have the potential to be the heroes when it comes to safeguarding our data.
+- Purchasing information from other businesses
+- Scraping public records
+- Aggregating data from various online sources
 
-## Get Weekly Tips & Advice
+That unsettled feeling you get when served an all-too-accurate advertisement? [Data brokers at work](https://www.404media.co/woman-got-cremation-ads-in-the-mail-after-getting-chemotherapy/).
 
-Subscribe for easy and actionable tips that improve your digital security awareness.
+## The Problem with Data Brokers
 
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
+### Public Sentiment
 
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
+Many Americans [feel creeped out](https://www.pewresearch.org/internet/2019/11/15/americans-and-privacy-concerned-confused-and-feeling-lack-of-control-over-their-personal-information/) by this relentless tracking.
 
+### Regulatory Challenges
 
-Let’s start with a threat that isn’t likely to go away any time soon: data brokers. These are companies that collect and sell consumers’ personal information, often obtained by purchasing data from other businesses and scraping public records. That unsettled feeling you get when you are served an all-too-accurate advertisement? [Data brokers at work](https://www.404media.co/woman-got-cremation-ads-in-the-mail-after-getting-chemotherapy/).
+America's relationship with data brokers has been [one step forward](https://www.eff.org/deeplinks/2024/04/fourth-amendment-not-sale-act-passed-house-now-it-should-pass-senate), [two steps back](https://www.wired.com/story/cfpb-quietly-kills-rule-to-shield-americans-from-data-brokers/). Recent regulatory rollbacks have undermined much-needed consumer protections.
 
-While many Americans [feel creeped out](https://www.pewresearch.org/internet/2019/11/15/americans-and-privacy-concerned-confused-and-feeling-lack-of-control-over-their-personal-information/) by this relentless tracking, America’s relationship with data brokers seems to be [one step forward](https://www.eff.org/deeplinks/2024/04/fourth-amendment-not-sale-act-passed-house-now-it-should-pass-senate), [two steps back](https://www.wired.com/story/cfpb-quietly-kills-rule-to-shield-americans-from-data-brokers/). Killing off much-needed regulation is just the latest; the federal government has long been in on the game of [purchasing location data](https://cdt.org/wp-content/uploads/2021/12/2021-12-08-Legal-Loopholes-and-Data-for-Dollars-Report-final.pdf). Is this a violation of our [Fourth Amendment rights](https://constitution.congress.gov/constitution/amendment-4/)? [Probably](https://www.eff.org/deeplinks/2022/06/how-federal-government-buys-our-cell-phone-location-data). As our colleague Caitlin Vogus [wrote](https://freedom.press/issues/data-broker-loophole-threatens-journalists-and-whistleblowers/), this data broker loophole directly affects journalists and whistleblowers.
+### Government Involvement
 
-But we will take glimmers of hope where we can find them. Some states are making [progress](https://www.eff.org/deeplinks/2025/05/montana-becomes-first-state-close-law-enforcement-data-broker-loophole) toward closing the loophole that links data brokers and law enforcement, and [this U.S. senator](https://themarkup.org/privacy/2025/08/18/data-brokers-face-new-pressure-for-hiding-opt-out-pages-from-google) is holding 30-plus brokers’ feet to the fire after news reports found them hiding their opt-out pages from Google search results.
+The federal government has long been [purchasing location data](https://cdt.org/wp-content/uploads/2021/12/2021-12-08-Legal-Loopholes-and-Data-for-Dollars-Report-final.pdf) from data brokers. This practice raises serious questions about [Fourth Amendment rights](https://constitution.congress.gov/constitution/amendment-4/)—and the answer is [probably yes, it's a violation](https://www.eff.org/deeplinks/2022/06/how-federal-government-buys-our-cell-phone-location-data).
 
-In addition to issuing [very good reporting](https://themarkup.org/privacy/2025/08/12/we-caught-companies-making-it-harder-to-delete-your-data), how can journalists keep the positive momentum going?
+### Impact on Journalists and Sources
 
-- [**Learn more about how your data is tracked, bought, and sold**](https://www.eff.org/deeplinks/2025/01/online-behavioral-ads-fuel-surveillance-industry-heres-how). Knowing what’s going on behind the scenes will help you right-size your defenses.
-- **Sign up for an opt-out service**. We like Abine’s DeleteMe, but it comes with a yearly subscription that may be hefty for some. Luckily, Consumer Reports put out this [extremely helpful comparison](https://innovation.consumerreports.org/wp-content/uploads/2024/08/Data-Defense_-Evaluating-People-Search-Site-Removal-Services-.pdf) to help you find an opt-out service that’s right for you.
-- **If you prefer a DIY approach to opting out**, check out Yael Grauer’s [Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List). For those fighting the good fight, reviewing Yael’s list against reports issued by your opt-out will help fill in gaps in coverage.
+This data broker loophole [directly affects journalists and whistleblowers](https://freedom.press/issues/data-broker-loophole-threatens-journalists-and-whistleblowers/), potentially exposing confidential sources and compromising investigative work.
 
-Next week, we’ll chat further about how our private data is used by government entities, this time with our flashlight shining on Customs and Border Patrol.
+## Signs of Progress
 
-Until then,
+Despite the challenges, there are positive developments:
 
-Davis
+- Some states are making [progress](https://www.eff.org/deeplinks/2025/05/montana-becomes-first-state-close-law-enforcement-data-broker-loophole) toward closing the loophole between data brokers and law enforcement
+- [Lawmakers are pressuring](https://themarkup.org/privacy/2025/08/18/data-brokers-face-new-pressure-for-hiding-opt-out-pages-from-google) over 30 data brokers after reports found them hiding opt-out pages from Google search results
+- Investigative journalism continues to expose [deceptive practices](https://themarkup.org/privacy/2025/08/12/we-caught-companies-making-it-harder-to-delete-your-data)
 
-\_
+## How to Protect Yourself
 
-Davis Erin Anderson
+### 1. Understand the Threat
 
-Senior Digital Security Trainer
+[Learn how your data is tracked, bought, and sold](https://www.eff.org/deeplinks/2025/01/online-behavioral-ads-fuel-surveillance-industry-heres-how). Understanding what happens behind the scenes helps you right-size your defenses.
 
-Freedom of the Press Foundation
+### 2. Use an Opt-Out Service
 
-## Related Posts
+**Recommended options:**
 
-1. ## [Defend against phone number theft](https://freedom.press/digisec/blog/defend-against-phone-number-theft/)
+- **DeleteMe by Abine** - Comprehensive but requires yearly subscription
+- **Consumer Reports comparison guide** - [Helpful evaluation](https://innovation.consumerreports.org/wp-content/uploads/2024/08/Data-Defense_-Evaluating-People-Search-Site-Removal-Services-.pdf) of people-search site removal services to find the right fit for your needs and budget
 
-![Electronic Frontier Foundation (CC BY 2.0)](https://media.freedom.press/media/images/EFF_Walk.2e16d0ba.fill-451x254.jpg)
+### 3. DIY Opt-Out Approach
 
-[Account security](https://freedom.press/digisec/blog/account-security/)• [Newsletter](https://freedom.press/digisec/blog/?content-type=newsletter)
+For those who prefer a hands-on approach:
 
-2. ## [How to protect yourself and your information online](https://freedom.press/digisec/blog/how-to-protect-yourself-and-your-information-online/)
+- Use Yael Grauer's [Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List)
+- Review the list against reports from any opt-out service you use to identify coverage gaps
 
-![James Minichello for EWA](https://media.freedom.press/media/images/Digital-safety-NS25_James-Minichel.2e16d0ba.fill-451x254.png)
+## Key Takeaways
 
-[Account security](https://freedom.press/digisec/blog/account-security/)• [Article](https://freedom.press/digisec/blog/?content-type=article)
+- Data brokers collect and sell your personal information, often without your knowledge
+- Government agencies purchase this data, potentially bypassing constitutional protections
+- Journalists and sources face particular risks from data broker practices
+- Both automated services and DIY approaches can help reduce your data footprint
+- Staying informed about the data broker ecosystem is the first step to protecting yourself
 
-3. ## [Lock down those Firefox add-ons](https://freedom.press/digisec/blog/lock-down-those-firefox-add-ons/)
+---
 
-![Electronic Frontier Foundation (CC BY 2.0)](https://media.freedom.press/media/images/AD_4nXfYWJ5vegOvkb1IQ1W2MCziOtySLv.2e16d0ba.fill-451x254.jpg)
-
-[Account security](https://freedom.press/digisec/blog/account-security/)• [Newsletter](https://freedom.press/digisec/blog/?content-type=newsletter)
-
-
-## Sign Up. Take Action.
-
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
-
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
-
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
-
-
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+*Source: Freedom of the Press Foundation Digital Security Training Team*
+```

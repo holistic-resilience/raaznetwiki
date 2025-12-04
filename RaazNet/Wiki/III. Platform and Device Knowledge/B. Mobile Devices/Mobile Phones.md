@@ -1,99 +1,97 @@
-[Skip to content](https://www.privacyguides.org/en/mobile-phones/#purchasing-advice)
+---
+title: "Mobile Phone Security and Purchasing Guide"
+tags: [mobile-security, android, privacy, google-pixel, hardware-security, verified-boot]
+category: "Mobile Security"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, Activists, General Public]
+topics: ["Mobile Device Security", "Hardware Selection", "Android Security"]
+summary: "Guide to selecting secure mobile phones with long-term security updates and custom OS support."
+source: "Privacy Guides"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of mobile devices", "Familiarity with Android ecosystem"]
+estimated_read_time: "6 minutes"
+---
 
-![](https://www.privacyguides.org/en/assets/img/cover/android.webp)
+# Mobile Phone Security and Purchasing Guide
 
-# Mobile Phones
+Most mobile phones receive short or limited windows of security updates from manufacturers. After devices reach the end of their support period, they **cannot** be considered secure as they no longer receive firmware or driver security updates.
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/mobile-phones.md?plain=1 "Edit this page")
+This guide covers mobile devices that provide a long lifespan of guaranteed security updates and allow installation of custom operating systems without compromising the Android security model.
 
-Protects against the following threat(s):
-
-- [Targeted Attacks](https://www.privacyguides.org/en/basics/common-threats/#attacks-against-specific-individuals)
-- [Passive Attacks](https://www.privacyguides.org/en/basics/common-threats/#security-and-privacy)
-
-Most **mobile phones** receive short or limited windows of security updates from OEMs; after these devices reach the end of their support period, they **cannot** be considered secure as they no longer receive firmware or driver security updates.
-
-The mobile devices listed here provide a long lifespan of guaranteed security updates and allow you to install a custom operating system without violating the Android security model.
-
-[Recommended Android Distributions](https://www.privacyguides.org/en/android/distributions/) [Details about Android Security](https://www.privacyguides.org/en/os/android-overview/#security-protections)
-
-Warning
-
-End-of-life devices (such as GrapheneOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
+> [!warning]
+> End-of-life devices (such as GrapheneOS's "extended support" devices) do not have full security patches due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
 
 ## Purchasing Advice
 
-When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
+### Buy New When Possible
 
-Avoid buying phones from mobile network operators. These often have a **locked bootloader** and do not support [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking). These phone variants will prevent you from installing any kind of alternative Android distribution.
+When purchasing a device, get one as new as possible. Mobile device software and firmware are only supported for a limited time, so buying new extends that lifespan.
 
-Be very **careful** about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). There is also a risk involved with you being associated with the activity of the previous owner.
+### Avoid Carrier-Locked Phones
 
-A few more tips regarding Android devices and operating system compatibility:
+Avoid buying phones from mobile network operators. These often have:
+- **Locked bootloaders** that prevent custom OS installation
+- No support for [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking)
 
-- Do not buy devices that have reached or are near their end-of-life; additional firmware updates must be provided by the manufacturer.
-- Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [Verified Boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
-- In short, if a device is not listed here, there is probably a good reason. Check out our [forum](https://discuss.privacyguides.net/) to find details!
+### Second-Hand Device Risks
 
-## Google Pixel
+Be **careful** when buying second-hand phones from online marketplaces:
+- Always verify seller reputation
+- Stolen devices may be flagged in the [IMEI database](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database)
+- You may be associated with the previous owner's activity
 
-Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
+### What to Avoid
 
-![Google Pixel 6](https://www.privacyguides.org/en/assets/img/android/google-pixel.png)
+- **End-of-life devices** — No firmware updates from manufacturer
+- **Preloaded LineageOS or /e/ OS phones** — Lack proper [Verified Boot](https://source.android.com/security/verifiedboot) support and firmware updates; no way to verify they haven't been tampered with
+- **Unlisted devices** — If not recommended here, there's likely a good reason
 
-**Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
+## Recommended Device: Google Pixel
 
-Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
+Google Pixel phones are the **only** devices recommended for purchase. They offer stronger hardware security than other Android devices due to:
 
-[Store](https://store.google.com/category/phones)
+- Proper AVB (Android Verified Boot) support for third-party operating systems
+- Custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element
 
-Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Phones without a Secure Element have to use the TEE for _all_ of those functions, resulting in a larger attack surface.
+### Security Features
 
-Google Pixel phones use a TEEOS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
+**Secure Element Advantage**: The Titan M2 chip handles secrets storage, hardware attestation, and rate limiting separately from the processor's Trusted Execution Environment (TEE). Phones without a dedicated Secure Element must use TEE for all these functions, creating a larger attack surface.
 
-The installation of GrapheneOS on a Pixel phone is easy with their [web installer](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://nitrokey.com/about) company.
+**Open Source TEE**: Pixel phones use Trusty, an [open-source](https://source.android.com/security/trusty#whyTrusty) Trusted Execution Environment OS—unlike many other phones.
 
-A few more tips for purchasing a Google Pixel:
+### Support Timeline
 
-- If you're after a bargain on a Pixel device, we suggest buying an " **a**" model, just after the next flagship is released. Discounts are usually available because Google will be trying to clear their stock.
-- Consider price beating options and specials offered at physical stores.
-- Look at online community bargain sites in your country. These can alert you to good sales.
-- Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as:
-CostEnd of Life Date−Current Date
-, meaning that the longer use of the device the lower cost per day.
-- If the Pixel is unavailable in your region, the [NitroPhone](https://shop.nitrokey.com/shop) can be shipped globally.
+Beginning with the **Pixel 8** and **8 Pro**, devices receive a minimum of **7 years** of guaranteed security updates, compared to the 2-5 years from competing manufacturers.
 
-## Criteria
+### Installation Options
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](https://www.privacyguides.org/en/about/criteria/), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+- Use GrapheneOS's [web installer](https://grapheneos.org/install/web) for easy custom OS installation
+- Consider the [NitroPhone](https://shop.nitrokey.com/shop) from [Nitrokey](https://nitrokey.com/about) if you prefer a pre-configured device with GrapheneOS
 
-- Must support at least one of our recommended custom operating systems.
-- Must be currently sold new in stores.
-- Must receive a minimum of 5 years of security updates.
-- Must have dedicated secure element hardware.
+### Budget Tips
 
-Was this page helpful?
+- Buy an "**a**" model after the next flagship releases for discounts
+- Check physical store specials and price-matching policies
+- Monitor community bargain sites for sales
+- Calculate cost per day using Google's [support cycle](https://support.google.com/nexus/answer/4457705) information:
+  `Cost ÷ (End of Life Date − Current Date)`
+- If unavailable in your region, NitroPhone ships globally
 
+## Selection Criteria
 
+Recommended devices must meet these requirements:
 
+| Criterion | Requirement |
+|-----------|-------------|
+| Custom OS Support | Compatible with at least one recommended distribution |
+| Availability | Currently sold new |
+| Security Updates | Minimum 5 years guaranteed |
+| Hardware Security | Dedicated secure element |
 
+## Related Resources
 
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+- [[Android Distributions]] — Recommended custom operating systems
+- [[Android Security Overview]] — Details about Android security protections
+- [[Common Threats]] — Understanding targeted and passive attacks

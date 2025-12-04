@@ -1,77 +1,132 @@
-[Skip to content](https://www.privacyguides.org/en/basics/email-security/#email-encryption-overview)
+---
+title: "Email Security: Why Email Isn't Ideal for Private Communication"
+tags: [email, encryption, privacy, security, OpenPGP, metadata]
+category: "Digital Security"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, General Public, Security Practitioners]
+topics: ["Email Security", "Encryption", "Privacy Protection", "Digital Communication"]
+summary: "Explains email's inherent security limitations, encryption options like OpenPGP, and why metadata exposure makes email unsuitable for sensitive communications."
+source: "Privacy Guides"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of email", "Familiarity with encryption concepts"]
+estimated_read_time: "6 minutes"
+---
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/basics/email-security.md?plain=1 "Edit this page")
+# Email Security: Why Email Isn't Ideal for Private Communication
 
-# Email Security
+Email is an insecure form of communication by default. While tools like OpenPGP can add end-to-end encryption to your messages, email still has significant drawbacks compared to modern encrypted messaging applications.
 
-Email is an insecure form of communication by default. You can improve your email security with tools such as OpenPGP, which add end-to-end encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
-
-As a result, email is best used for receiving transactional emails (like notifications, verification emails, password resets, etc.) from the services you sign up for online, not for communicating with others.
+**Best practice:** Use email for transactional purposes (notifications, verification emails, password resets) rather than sensitive person-to-person communications.
 
 ## Email Encryption Overview
 
-The standard way to add E2EE to emails between different email providers is by using OpenPGP. There are different implementations of the OpenPGP standard, the most common being [GnuPG](https://www.privacyguides.org/en/encryption/#gnu-privacy-guard) and [OpenPGP.js](https://openpgpjs.org/).
+### OpenPGP
 
-Even if you use OpenPGP, it does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed. This is why we recommend [instant messengers](https://www.privacyguides.org/en/real-time-communication/) which implement forward secrecy over email for person-to-person communications whenever possible.
+The standard method for adding end-to-end encryption (E2EE) between different email providers is OpenPGP. Common implementations include:
 
-There is another standard which is popular with business called [S/MIME](https://en.wikipedia.org/wiki/S/MIME), however it requires a certificate issued from a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (not all of them issue S/MIME certificates, and often a yearly payment is required). In some cases it is more usable than PGP because it has support in popular/mainstream email applications like Apple Mail, [Google Workplace](https://support.google.com/a/topic/9061730), and [Outlook](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480). However, S/MIME does not solve the issue of lack of forward secrecy, and isn't particularly more secure than PGP.
+- **GnuPG** (GNU Privacy Guard)
+- **OpenPGP.js**
 
-## What is the Web Key Directory standard?
+**Critical limitation:** OpenPGP does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy). If your private key or the recipient's key is ever compromised, all previous messages encrypted with that key become exposed.
 
-The [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) standard allows email clients to discover the OpenPGP key for other mailboxes, even those hosted on a different provider. Email clients which support WKD will ask the recipient's server for a key based on the email address' domain name. For example, if you emailed `jonah@privacyguides.org`, your email client would ask `privacyguides.org` for Jonah's OpenPGP key, and if `privacyguides.org` has a key for that account, your message would be automatically encrypted.
+> **Recommendation:** For person-to-person communications, use instant messengers that implement forward secrecy instead of email whenever possible.
 
-In addition to the [email clients we recommend](https://www.privacyguides.org/en/email-clients/) which support WKD, some webmail providers also support WKD. Whether _your own_ key is published to WKD for others to use depends on your domain configuration. If you use an [email provider](https://www.privacyguides.org/en/email/#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox Mail, they can publish your OpenPGP key on their domain for you.
+### S/MIME
 
-If you use your own custom domain, you will need to configure WKD separately. If you control your domain name, you can set up WKD regardless of your email provider. One easy way to do this is to use the " [WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from the `keys.openpgp.org` server: Set a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then upload your key to [keys.openpgp.org](https://keys.openpgp.org/). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
+S/MIME is an alternative encryption standard popular in business environments. Key characteristics:
 
-If you use a shared domain from a provider which doesn't support WKD, like `@gmail.com`, you won't be able to share your OpenPGP key with others via this method.
+- Requires a certificate from a Certificate Authority (often with annual fees)
+- Better integration with mainstream email clients (Apple Mail, Google Workspace, Outlook)
+- **Same limitation:** Does not provide forward secrecy
+- Not inherently more secure than PGP
 
-### What Email Clients Support E2EE?
+## Web Key Directory (WKD)
 
-Email providers which allow you to use standard access protocols like IMAP and SMTP can be used with any of the [email clients we recommend](https://www.privacyguides.org/en/email-clients/). Depending on the authentication method, this may lead to decreased security if either the provider or the email client does not support [OAuth](https://www.privacyguides.org/en/basics/account-creation/#sign-in-with-oauth) or a bridge application as [multifactor authentication](https://www.privacyguides.org/en/basics/multi-factor-authentication/) is not possible with plain password authentication.
+The Web Key Directory standard enables email clients to automatically discover OpenPGP keys for recipients, even across different providers.
 
-### How Do I Protect My Private Keys?
+### How WKD Works
 
-A smart card (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.privacyguides.org/en/security-keys/#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smart card and the decrypted content is sent back to the device.
+When you email someone (e.g., `user@example.org`), your email client queries `example.org` for that user's OpenPGP key. If available, your message is automatically encrypted.
 
-It is advantageous for the decryption to occur on the smart card to avoid possibly exposing your private key to a compromised device.
+### WKD Configuration Options
 
-## Email Metadata Overview
+**Using a supporting email provider:**
+Providers like Proton Mail or Mailbox.org can publish your OpenPGP key on their domain automatically.
 
-Email metadata is stored in the [message header](https://en.wikipedia.org/wiki/Email#Message_header) of the email message and includes some visible headers that you may have seen such as `To`, `From`, `Cc`, `Date`, and `Subject`. There are also a number of hidden headers included by many email clients and providers that can reveal information about your account.
+**Using a custom domain:**
+You can configure WKD independently of your email provider:
 
-Client software may use email metadata to show who a message is from and what time it was received. Servers may use it to determine where an email message must be sent, among [other purposes](https://en.wikipedia.org/wiki/Email#Message_header) which are not always transparent.
+1. Use "WKD as a Service" from `keys.openpgp.org`:
+   - Create a CNAME record for `openpgpkey` subdomain pointing to `wkd.keys.openpgp.org`
+   - Upload your key to keys.openpgp.org
+2. Alternatively, self-host WKD on your own web server
 
-### Who Can View Email Metadata?
+**Limitation:** Shared domains like `@gmail.com` cannot use WKD to share OpenPGP keys.
 
-Email metadata is protected from outside observers with [opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS), but it is still able to be seen by your email client software (or webmail) and any servers relaying the message from you to any recipients including your email provider. Sometimes email servers will also use third-party services to protect against spam, which generally also have access to your messages.
+## Email Client Considerations
 
-### Why Can't Metadata be E2EE?
+### E2EE Support
 
-Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE was not built into standard email protocols originally, instead requiring add-on software like OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt some of this email metadata required for identifying the parties communicating. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, when you're emailing, etc.
+Email providers using standard protocols (IMAP/SMTP) work with most email clients. However, security depends on authentication methods:
 
-Was this page helpful?
+- **OAuth support** is preferred for better security
+- Plain password authentication prevents multi-factor authentication
+- Verify that both your provider and client support secure authentication
 
+### Protecting Private Keys
 
+Hardware security keys (such as YubiKey or Nitrokey) provide enhanced protection:
 
+1. Your device sends the encrypted message to the smart card
+2. Decryption occurs on the smart card itself
+3. Only the decrypted content returns to your device
 
+**Advantage:** Your private key never exists on a potentially compromised device.
 
+## Email Metadata: The Hidden Privacy Risk
 
+### What is Email Metadata?
 
+Email metadata is stored in message headers and includes:
 
+**Visible headers:**
+- To, From, Cc, Date, Subject
 
+**Hidden headers:**
+- Routing information
+- Client and server identifiers
+- Timestamps from relay servers
+- Other provider-specific data
 
+### Metadata Exposure
 
-Thanks for your feedback!
+Even with encryption, metadata remains visible to:
 
+- Your email client software
+- Your email provider
+- All relay servers between sender and recipient
+- Third-party spam protection services
 
+**Protection:** [Opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS) protects metadata from outside observers during transit, but not from the servers handling your email.
 
+### Why Metadata Cannot Be Encrypted
 
+Email metadata is essential for basic functionality—messages must know where to go and where they came from. OpenPGP was designed to work with existing email infrastructure, which requires this metadata to remain readable.
 
+**Result:** Even with OpenPGP encryption, observers can see:
+- Who you're communicating with
+- When you're communicating
+- Communication frequency and patterns
 
+---
 
+## Key Takeaways
 
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+| Aspect | Email Limitation |
+|--------|------------------|
+| Forward secrecy | Not supported by OpenPGP or S/MIME |
+| Metadata protection | Cannot be encrypted; visible to providers and relay servers |
+| Best use case | Transactional emails, not sensitive communications |
+| Better alternative | Encrypted instant messengers with forward secrecy |

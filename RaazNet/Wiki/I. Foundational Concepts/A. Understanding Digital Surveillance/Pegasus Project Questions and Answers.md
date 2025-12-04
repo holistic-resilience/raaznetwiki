@@ -1,97 +1,116 @@
-Blog › Pegasus Project Questions and Answers
+---
+title: "Pegasus Project Questions and Answers"
+tags: [pegasus, spyware, nso-group, mobile-security, surveillance, zero-day-exploits]
+category: "Surveillance Technologies"
+difficulty: "Intermediate"
+audience: [Journalists, Human Rights Defenders, Activists, Privacy-Conscious Users]
+topics: ["Spyware", "Mobile Security", "Government Surveillance", "Digital Forensics"]
+summary: "Q&A guide explaining the Pegasus spyware investigation, how the malware works, and protective measures for potential targets."
+source: "Security in a Box (Tactical Tech)"
+content_type: "Educational Guide"
+security_level: "Critical"
+language: "English"
+prerequisites: ["Basic smartphone usage", "Understanding of malware concepts"]
+estimated_read_time: "8 minutes"
+author: "Mohammed Al-Maskati"
+date_published: 2021-07-23
+---
 
-# [Anchor](https://securityinabox.org/en/blog/pegasus-project-questions-and-answers/\#pegasus-project-questions-and-answers) Pegasus Project Questions and Answers
+# Pegasus Project Questions and Answers
 
-By Mohammed Al-Maskati
+## Overview
 
-Posted 2021.07.23
+Amnesty International and the media platform Forbidden Stories published an investigation into the use of an Israeli surveillance tool to spy on individuals worldwide. The investigation was called the [Pegasus Project](https://forbiddenstories.org/case/the-pegasus-project/).
 
-![](https://securityinabox.org/media/en/blog/black-pegasus-wings.png)
+## Key Facts
 
-**What happened?**
+### What is Pegasus?
 
-Amnesty International and the media platform Forbidden Stories have published an investigation into the use of an Israeli tool to spy on many people in the world. The investigation was called the [Pegasus Project](https://forbiddenstories.org/case/the-pegasus-project/).
+Pegasus is spyware developed by [NSO Group](https://en.wikipedia.org/wiki/NSO_Group), an Israeli company that claims to sell surveillance tools to governments for targeting criminals.
 
-**How was this information obtained?**
+### How was this discovered?
 
-Forbidden Stories and Amnesty International gained access to a leak of more than 50,000 records of phone numbers that were targeted by NSO clients.
+Forbidden Stories and Amnesty International gained access to a leak of more than 50,000 records of phone numbers targeted by NSO clients.
 
-**Who is the Israeli company and what is the tool used?**
+### Who are the victims?
 
-The company is [NSO](https://en.wikipedia.org/wiki/NSO_Group) and the tool that is used is called Pegasus. NSO claims to sell spyware and tools to governments to target criminals around the world.
+According to the [documents](https://cdn.occrp.org/projects/project-p/#/), victims include:
+- Journalists
+- Human rights defenders
+- Political activists
+- Politicians in various countries and international organizations
 
-**Who are the company's clients?**
+### Were all 50,000 people infected?
 
-According to the documents, the company sold these programs to dozens of countries, but the countries that were exposed recently and used Pegasus against journalists and HRDs are: the UAE, Saudi Arabia, Bahrain, Morocco, Mexico, Azerbaijan, India, Hungary, Togo and Rwanda.
+Not necessarily. While 50,000 phone numbers appeared in the targeting list, Amnesty International's Security Lab performed technical analysis on dozens of phones and confirmed that **at least 67 devices** were infected with the software.
 
-**Who are the victims?**
+## How Pegasus Works
 
-According to the [documents](https://cdn.occrp.org/projects/project-p/#/), the victims are: journalists, human rights defenders, political activists, and politicians in countries and international organizations.
+### Infection Methods
 
-**If the number is 50,000, is everyone really infected with malware?**
+NSO has exploited vulnerabilities in operating systems and applications on both iPhones and Android devices, including:
 
-It is impossible to be sure that 50,000 people have been hacked, even if an individual's phone number appears in the list. However, the Amnesty International Security Lab, in partnership with Forbidden Stories, was able to perform technical analysis on dozens of phones and the results showed that at least 67 devices were infected with this software.
+- **Malicious links**: Sending links to fake websites designed to look legitimate; clicking installs the malware
+- **Application vulnerabilities**: Exploiting flaws in apps like [WhatsApp](https://www.theguardian.com/technology/2020/jul/17/us-judge-whatsapp-lawsuit-against-israeli-spyware-firm-nso-can-proceed)
+- **iMessage exploits**: Recent attacks have targeted vulnerabilities in Apple's iMessage application
 
-**How did the hack happen?**
+These attacks use [zero-day vulnerabilities](https://en.wikipedia.org/wiki/Zero-day_(computing))—security flaws unknown to developers and therefore unpatched at the time of exploitation.
 
-NSO has exploited some vulnerabilities in operating systems and applications on both IPhones and Android devices (for example in [WhatsApp](https://www.theguardian.com/technology/2020/jul/17/us-judge-whatsapp-lawsuit-against-israeli-spyware-firm-nso-can-proceed)). Malware was distributed by sending links to fake malicious sites (created to look similar to a legitimate site). Clicking on those links would install the malware on the device.
+### Capabilities
 
-NSO has also recently exploited a vulnerability in the iMessage application available on the iOS operating system.
+Once a device is infected, attackers gain complete access as if they had physical possession of an unlocked phone:
 
-The so-called [zero-day vulnerabilities](https://en.wikipedia.org/wiki/Zero-day_(computing)) are used, which means that the vulnerability that a particular application or program suffers from is not known to developers and is known only to attackers because the vulnerability is not known to developers, no remedy has been developed prior to exploitation.
+- Read phone and email messages
+- View photos
+- Eavesdrop on calls
+- Track location
+- Activate the camera remotely
+- Access all applications and information
 
-**What can Pegasus malware do?**
+Pegasus developers continuously improve the software to hide traces, making detection increasingly difficult.
 
-When a device is infected with Pegasus, attackers can see everything a user does on their device, as if an unlocked phone was given to another person to use, with access to all its information and apps.
+## Detection and Verification
 
-The software can be used to look at victims' phone and email messages, look at photos they took, eavesdrop on their calls, track their location and even take a photo.
+### Can I check if my device is infected?
 
-Pegasus developers are getting better at hiding all traces of the software over time, making it difficult to confirm whether a particular phone has been hacked or not.
+Pegasus is highly sophisticated and difficult to detect using standard anti-malware programs. If you believe you may be a target, contact a digital security expert for assistance, though results may not be definitive.
 
-**Is it possible to check my device to see if I am infected or not?**
+### What about Amnesty's detection tool?
 
-The Pegasus software is very sophisticated and it is difficult to access accurate information about whether your device is infected with it or not. And it is difficult to detect it using anti-malware programs.
+Amnesty International released [Mobile Verification Toolkit (MVT)](https://github.com/mvt-project/mvt), a technical method for checking devices. **Important**: This tool is designed for technical experts, not average users.
 
-If you think you might be a target, it is advised to contact an expert in order to help you try to check your devices, However, the results might not be definitive.
+### Are only iPhone users affected?
 
-**Amnesty International said that it issued a program to check devices?**
+No. Both iPhone and Android users have been targeted and infected.
 
-Indeed, AI has issued [important instructions](https://github.com/mvt-project/mvt) for using a technical method to do this, but this method was intended for technical experts and not the average user.
+## Protective Measures
 
-**Are the victims iPhone users only?**
+### If You Suspect Infection
 
-No, the victims are users of all devices, Both iPhone or Android.
+1. Sign out of all accounts
+2. Change passwords for all accounts
+3. Enable two-factor authentication on all accounts
+4. Stop using the device and disconnect from all internet networks
+5. Contact a digital security expert for assistance
 
-**Has Apple released an update to address these vulnerabilities?**
+### General Protection Practices
 
-No.
+- **Keep systems updated**: Immediately update operating systems and all applications when updates become available
+- **Periodic factory resets**: Reset your phone periodically to erase potential malware
+  - [Android reset instructions](https://support.google.com/android/answer/6088915)
+  - [iOS reset instructions](https://support.apple.com/en-us/HT201252)
+- **Use official app stores only**: Do not download applications from unofficial sources
+- **Use a VPN**: Enable a Virtual Private Network on mobile phones and computers
+- **Verify links before clicking**: Use [VirusTotal.com](https://www.virustotal.com/) to check suspicious links
+- **Use anti-malware software**: Install reputable security applications
+- **Audit installed apps**: Review your phone for unnecessary applications and uninstall or disable them
 
-Apple released an important update on 19/July/2021 with iOS version [14.7](https://support.apple.com/en-gb/HT212601), and this update addresses serious security vulnerabilities that were previously discovered, However, new security vulnerabilities being exploited by NSO are not covered by this update
+### Additional Resources
 
-Nonetheless we strongly recommend updating your device immediately. See [steps for update](https://support.apple.com/en-gb/guide/iphone/iph3e504502/ios).
+- [Security in a Box: Basic Security for Android](https://securityinabox.org/en/guide/basic-security/android/)
+- [Security in a Box: Basic Security for iOS](https://securityinabox.org/en/guide/basic-security/ios/)
+- [iOS update instructions](https://support.apple.com/en-gb/guide/iphone/iph3e504502/ios)
 
-**Should I be worried?**
+## Important Note
 
-We are all worried about the situation, but in the same time we recognise that worrying without taking practical steps to mitigate the risk will not help stop the process of targeting you with malware. So believe that concerns should be turned into motiation to develop digital protection knowledge as well as strengthening the protection of your phones and communications.
-
-**What are the practical steps to take?**
-
-1- If you believe that you are infected with malware:
-
-- Sign out of all accounts
-- Change passwords for all accounts.
-- Enable two-step verification for accounts
-- Stop using the device and disconnect the device from any internet network.
-- Contact an expert in digital protection to get help.
-
-2- To protect your device in general:
-
-- Check Security in-a-Box basic security guides for [Android](https://securityinabox.org/en/guide/basic-security/android/) and [iOS](https://securityinabox.org/en/guide/basic-security/ios/)
-- We recommend to perform a factory reset of your phone from time to time in order to erase what may have been installed in your device. See steps for [Android](https://support.google.com/android/answer/6088915) and [iOS](https://support.apple.com/en-us/HT201252).
-Note: Factory reset will remove all information stored on the phone, make sure that you have a recent, working backup of all information stored on the phone before performing factory reset.
-- Immediately update operating systems and all applications when updates become available.
-- Do not download applications from outside the official application store.
-- Use a Virtual Private Network (VPN) on mobile phones and computers.
-- Check links before opening them. Use [VirusTotal.com](https://www.virustotal.com/)
-- Use anti-malware software.
-- Review phone for unneccessary apps and uninstall if possible. If not possible, try and disable them.
+While the situation is concerning, worry without action does not improve your security. Use this concern as motivation to develop your digital protection knowledge and strengthen the security of your devices and communications.

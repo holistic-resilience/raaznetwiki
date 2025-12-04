@@ -1,20 +1,44 @@
-[Skip to content](https://freedom.press/digisec/blog/whatsapp-security/#main)
+---
+title: "WhatsApp Security Tips - Content Unavailable"
+tags: [security, privacy, whatsapp, messaging, placeholder]
+category: "Messaging Security"
+difficulty: "Beginner"
+audience: [General Public]
+topics: ["Digital Security", "Messaging Apps"]
+summary: "Placeholder document for WhatsApp security content that is no longer available at the original source."
+source: "Freedom of the Press Foundation"
+content_type: "Note"
+security_level: "Informational"
+language: "English"
+prerequisites: []
+estimated_read_time: "1 minute"
+---
 
-# Page not found
+# WhatsApp Security Tips
 
-The page you requested wasn’t found.
+> [!warning] Content Unavailable
+> The original content from Freedom of the Press Foundation is no longer available at the source URL. This document serves as a placeholder.
 
+## Original Source
 
+This document was intended to contain WhatsApp security guidance from **Freedom of the Press Foundation's Digital Security** resources.
 
-[Return Home](https://freedom.press/)
+**Original URL:** `https://freedom.press/digisec/blog/whatsapp-security/`
 
-## Sign Up. Take Action.
+## Recommended Alternatives
 
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
+For current WhatsApp security guidance, consider these resources:
 
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
+- [[EFF Surveillance Self-Defense]] - Comprehensive digital security guides
+- [Freedom of the Press Foundation - Digital Security](https://freedom.press/digisec/) - Main digital security portal
+- [WhatsApp Security Features](https://www.whatsapp.com/security/) - Official WhatsApp security documentation
 
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
+## Action Items
 
+- [ ] Search for archived version of original content
+- [ ] Find updated WhatsApp security guide from FPF
+- [ ] Update this document with current security recommendations
 
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+---
+
+*Last verified: Document source returned 404 error*

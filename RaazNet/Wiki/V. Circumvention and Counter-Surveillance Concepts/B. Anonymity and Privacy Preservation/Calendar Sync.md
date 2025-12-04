@@ -1,93 +1,65 @@
-[Skip to content](https://www.privacyguides.org/en/calendar/#tuta)
+---
+title: "Calendar Sync: Privacy-Respecting Calendar Services"
+tags: [privacy, encryption, calendar, e2ee, cloud-services]
+category: "Privacy Tools"
+difficulty: "Beginner"
+audience: [General Public, Privacy-Conscious Users]
+topics: ["Digital Privacy", "Encrypted Services", "Calendar Applications"]
+summary: "Guide to encrypted calendar services that protect your data with end-to-end encryption."
+source: "Privacy Guides"
+content_type: "Reference"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of cloud services"]
+estimated_read_time: "3 minutes"
+---
 
-![](https://www.privacyguides.org/en/assets/img/cover/calendar.webp)
+# Calendar Sync: Privacy-Respecting Calendar Services
 
-# Calendar Sync
+Calendars contain some of your most sensitive data, including appointments, locations, and personal schedules. Using calendar services that implement end-to-end encryption (E2EE) prevents providers from accessing your information.
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/calendar.md?plain=1 "Edit this page")
+## Recommended Services
 
-Protects against the following threat(s):
+### Tuta Calendar
 
-- [Passive Attacks](https://www.privacyguides.org/en/basics/common-threats/#security-and-privacy)
-- [Service Providers](https://www.privacyguides.org/en/basics/common-threats/#privacy-from-service-providers)
+**Tuta** offers a free encrypted calendar across multiple platforms with the following features:
 
-**Calendars** contain some of your most sensitive data; use products that implement end-to-end encryption at rest to prevent a provider from reading them.
+- **End-to-end encryption** of all calendar data
+- Sharing capabilities
+- Import/export functionality
+- Multi-factor authentication support
+- Available on: Android, iOS, Windows, macOS, Linux, and web
 
-## Tuta
+**Limitations:** Multiple calendars and extended sharing features require a paid subscription.
 
-![Tuta logo](https://www.privacyguides.org/en/assets/img/email/tuta.svg#only-light)![Tuta logo](https://www.privacyguides.org/en/assets/img/email/tuta-dark.svg#only-dark)
+**Links:** [Homepage](https://tuta.com/calendar) | [Privacy Policy](https://tuta.com/privacy) | [Source Code](https://github.com/tutao/tutanota)
 
-**Tuta** offers a free and encrypted calendar across their supported platforms. Features include automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
+---
 
-Multiple calendars and extended sharing functionality are limited to paid subscribers.
+### Proton Calendar
 
-[Homepage](https://tuta.com/calendar) [Privacy Policy](https://tuta.com/privacy "Privacy Policy") [Documentation](https://tuta.com/support "Documentation") [Source Code](https://github.com/tutao/tutanota "Source Code") [Contribute](https://tuta.com/community#donate "Contribute")
+**Proton Calendar** is an encrypted calendar service for Proton account holders with these features:
 
-Downloads
+- **End-to-end encryption** of all calendar data
+- Sharing capabilities
+- Import/export functionality
+- Available on: Android, iOS, and web
 
-- [Google Play](https://play.google.com/store/apps/details?id=de.tutao.calendar)
-- [App Store](https://apps.apple.com/app/id6657977811)
-- [GitHub](https://github.com/tutao/tutanota/releases?q=Calendar)
-- [Windows](https://tuta.com/blog/desktop-clients)
-- [macOS](https://tuta.com/blog/desktop-clients)
-- [Linux](https://tuta.com/blog/desktop-clients)
-- [Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
-- [Web](https://app.tuta.com/)
+**Free tier:** Access to 3 calendars
+**Paid tier:** Up to 25 calendars with extended sharing features
 
-## Proton Calendar
+**Transparency Note:** As of August 2024, Proton has not released the source code for their mobile Calendar apps. The Android app has been audited, while the web client is fully open source and audited.
 
-![Proton](https://www.privacyguides.org/en/assets/img/calendar/proton-calendar.svg)
+**Links:** [Homepage](https://proton.me/calendar) | [Privacy Policy](https://proton.me/calendar/privacy-policy) | [Source Code (Web)](https://github.com/ProtonMail/WebClients)
 
-**Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Features include automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide).
+---
 
-Those on the free tier have access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Extended sharing functionality is also limited to paid subscribers.
+## Selection Criteria
 
-[Homepage](https://proton.me/calendar) [Privacy Policy](https://proton.me/calendar/privacy-policy "Privacy Policy") [Documentation](https://proton.me/support/calendar "Documentation") [Source Code](https://github.com/ProtonMail/WebClients "Source Code")
+### Minimum Requirements
 
-Downloads
+- Must sync and store information with **end-to-end encryption** to ensure data is not visible to the service provider
 
-- [Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
-- [App Store](https://apps.apple.com/app/id1514709943)
-- [Web](https://calendar.proton.me/)
+### Ideal Features
 
-Unfortunately, as of August 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS, and only the former has been [audited](https://proton.me/blog/security-audit-all-proton-apps). Proton Calendar's web client is open source, however, and has been [audited](https://proton.me/community/open-source).
-
-## Criteria
-
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](https://www.privacyguides.org/en/about/criteria/), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
-
-### Minimum Qualifications
-
-- Must sync and store information with E2EE to ensure data is not visible to the service provider.
-
-### Best-Case
-
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
-
-- Should integrate with native OS calendar and contact management apps if applicable.
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+- Integration with native OS calendar and contact management applications

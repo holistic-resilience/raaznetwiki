@@ -1,108 +1,94 @@
-[Skip to content](https://www.privacyguides.org/en/maps/#organic-maps)
-
-![](https://www.privacyguides.org/en/assets/img/cover/maps.webp)
+---
+title: "Recommended Maps and Navigation Apps"
+tags: [privacy, maps, navigation, open-source, offline-maps, location-privacy]
+category: "Privacy Tools"
+difficulty: "Beginner"
+audience: [General Public, Privacy-Conscious Users, Mobile Users]
+topics: ["Digital Privacy", "Mobile Apps", "Navigation"]
+summary: "Privacy-respecting alternatives to Google Maps and Apple Maps that don't track your location or build advertising profiles."
+source: "Privacy Guides"
+content_type: "Reference"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic smartphone usage"]
+estimated_read_time: "4 minutes"
+---
 
 # Maps and Navigation
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/maps.md?plain=1 "Edit this page")
-
-Protects against the following threat(s):
-
-- [Surveillance Capitalism](https://www.privacyguides.org/en/basics/common-threats/#surveillance-as-a-business-model)
-
-Use a **map and navigation app** that doesn't build an advertising profile based on your searches and location history. Instead of using Google Maps, Apple Maps, or Waze, we recommend these privacy-respecting alternatives.
+Use a **map and navigation app** that doesn't build an advertising profile based on your searches and location history. Instead of using Google Maps, Apple Maps, or Waze, consider these privacy-respecting alternatives.
 
 The recommendations here do not collect personally identifying information (PII) based on each application's privacy policy. There is **no guarantee** that these privacy policies are honored.
 
+---
+
 ## Organic Maps
 
-![Organic Maps logo](https://www.privacyguides.org/en/assets/img/maps/organic-maps.svg)
+**Organic Maps** is an open-source, community-developed map display and navigation app for walkers, drivers, and cyclists. The app offers worldwide, offline maps based on OpenStreetMap data, and navigation with privacy—no location tracking, no data collection, and no ads.
 
-**Organic Maps** is an open-source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide, offline maps based on OpenStreetMap data, and navigation with privacy — no location tracking, no data collection, and no ads. The app can be used completely offline.
+### Key Features
+- Completely offline functionality
+- Cycling routes, hiking trails, and walking paths
+- Turn-by-turn navigation with voice guidance
+- Public transport route planning (supported regions only)
 
-Features include cycling routes, hiking trails and walking paths, turn-by-turn navigation with voice guidance, and public transport route planning (only available in supported regions and cities).
+### Limitations
+- No satellite imagery
+- No street view images
+- No real-time traffic information
 
-[Homepage](https://organicmaps.app/) [Privacy Policy](https://organicmaps.app/privacy "Privacy Policy") [Source Code](https://github.com/organicmaps/organicmaps "Source Code")
+### Download Links
+- [Homepage](https://organicmaps.app/) | [Privacy Policy](https://organicmaps.app/privacy) | [Source Code](https://github.com/organicmaps/organicmaps)
+- Available on: Google Play, App Store, GitHub, Linux (Flathub)
 
-Downloads
-
-- [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps)
-- [App Store](https://apps.apple.com/app/organic-maps/id1567437057)
-- [GitHub](https://github.com/organicmaps/organicmaps/releases)
-- [Linux](https://flathub.org/apps/app.organicmaps.desktop)
-
-Please note that Organic Maps is a simple, basic app that lacks certain features many users might expect, such as satellite images, street view images, and real-time traffic information.
+---
 
 ## OsmAnd
 
-![OsmAnd logo](https://www.privacyguides.org/en/assets/img/maps/osmand.svg)
+**OsmAnd** is an open-source, offline map and navigation application based on OpenStreetMap. It offers turn-by-turn navigation for walking, cycling, driving, and public transport.
 
-**OsmAnd** is an open-source, offline map and navigation application based on OpenStreetMap that offers turn-by-turn navigation for walking, cycling, driving, as well as public transport. You can find a detailed overview of OsmAnd's supported [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) on the OpenStreet Map Wiki.
+For a detailed feature overview, see the [OpenStreetMap Wiki](https://wiki.openstreetmap.org/wiki/OsmAnd#Features).
 
-[Homepage](https://osmand.net/) [Privacy Policy](https://osmand.net/docs/legal/privacy-policy "Privacy Policy") [Documentation](https://osmand.net/docs/intro "Documentation") [Source Code](https://github.com/osmandapp "Source Code")
+### Privacy Configuration
 
-Downloads
+#### Disable Unique User Identifier (Android only)
+OsmAnd generates a UUID for each install that rotates every three months, used for internal reports and sent when downloading maps.
 
-- [Google Play](https://play.google.com/store/apps/details?id=net.osmand)
-- [App Store](https://apps.apple.com/us/app/id934850257)
-- [Android](https://osmand.net/docs/versions/free-versions)
+**To disable:**
+1. From home screen, go to ⚙ **Settings**
+2. Select ⚙ **OsmAnd settings** → **Identifiers**
+3. Uncheck **Send Unique User Identifier (UUID)**
 
-Unique User Identifier
+*Note: This setting is not available on iOS.*
 
-OsmAnd generates a [unique user identifier (UUID)](https://osmand.net/docs/legal/terms-of-use/#6-unique-user-indentifier) for each app install that rotates every three months and is used for internal reports and statistics. The UUID is also sent to OsmAnd's servers when downloading maps. On Android, there is a setting that controls whether the UUID is sent with each download request. From the home screen, go to  → ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**Settings** → ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**OsmAnd settings** → **Identifiers**.
+#### Disable Anonymous Data Sharing
+This setting is disabled by default on Android but enabled by default on iOS.
 
-- Uncheck **Send Unique User Identifier (UUID)**
+**To disable on iOS:**
+1. Tap the menu on the home screen
+2. Go to ⚙ **Settings** → ⚙ **OsmAnd settings**
+3. Uncheck **Send anonymous data**
 
-This setting is not available on the iOS app.
+### Additional Features
+- Overlay external map data (satellite images from Microsoft, traffic data from Google)
+- Optional Mapillary street view integration
 
-The app also includes a setting for sharing anonymous data about your downloaded maps and the features you use. This setting is disabled by default on Android, but enabled by default on iOS. To disable it in the iOS app, tap the  on the home screen to find the ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**Settings** menu. Select that, then select ![⚙](https://www.privacyguides.org/en/assets/external/cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2699.svg)**OsmAnd settings**.
+### Download Links
+- [Homepage](https://osmand.net/) | [Privacy Policy](https://osmand.net/docs/legal/privacy-policy) | [Documentation](https://osmand.net/docs/intro) | [Source Code](https://github.com/osmandapp)
+- Available on: Google Play, App Store, Direct Android download
 
-- Uncheck **Send anonymous data**
+---
 
-OsmAnd allows you to overlay or underlay external map data, such as satellite images from Microsoft or [traffic data](https://themm.net/public/osmand_traffic) from Google, although the latter is ignored by the automatic route planning. OsmAnd also has an optional integration of street view images provided by [Mapillary](https://mapillary.com/).
-
-## Criteria
-
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](https://www.privacyguides.org/en/about/criteria/), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+## Selection Criteria
 
 ### Minimum Requirements
+- Must not collect PII per their privacy policy
+- Must not require account creation
+- Must not require location sharing; if opted in, data must be anonymized
+- Must retain core functionality offline with downloadable maps
 
-- Must not collect PII per their privacy policy.
-- Must not require users to create an account with them.
-- Must not require users to share location data. If the user opts in to sharing their location, this data must be anonymized.
-- Must retain core functionality when offline and allow users to download maps for offline use.
-
-### Best-Case
-
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
-
-- Apps should be open source.
-- Should have route planning for public transport.
-- Should have real-time traffic information for route planning.
-- Should support advanced features such as detailed shop/point of interest (POI) information and reviews, topographic maps, and satellite and street view images.
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+### Best-Case Features
+- Open-source code
+- Public transport route planning
+- Real-time traffic information
+- Advanced features: POI details/reviews, topographic maps, satellite and street view images

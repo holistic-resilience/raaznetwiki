@@ -1,107 +1,93 @@
-[Skip to content](https://www.privacyguides.org/en/basics/account-creation/#terms-of-service-privacy-policy)
-
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/basics/account-creation.md?plain=1 "Edit this page")
+---
+title: "How to Create Internet Accounts Privately"
+tags: [privacy, security, account-management, authentication, email-aliases, oauth]
+category: "Digital Security"
+difficulty: "Intermediate"
+audience: [General Public, Privacy-Conscious Users, Security Beginners]
+topics: ["Account Security", "Privacy Protection", "Authentication Methods"]
+summary: "Guide to creating online accounts with privacy in mind, covering authentication methods, email aliases, and security considerations."
+source: "Privacy Guides"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic computer literacy", "Understanding of passwords"]
+estimated_read_time: "8 minutes"
+---
 
 # Account Creation
 
 Often people sign up for services without thinking. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Whatever the case may be, you should consider the implications for your data now and later on down the line.
 
-There are risks associated with every new service that you use. Data breaches; disclosure of customer information to third parties; rogue employees accessing data; all are possibilities that must be considered when giving your information out. You need to be confident that you can trust the service, which is why we don't recommend storing valuable data on anything but the most mature and battle-tested products. That usually means services which provide E2EE and have undergone a cryptographic audit. An audit increases assurance that the product was designed without glaring security issues caused by an inexperienced developer.
+There are risks associated with every new service that you use. Data breaches, disclosure of customer information to third parties, and rogue employees accessing data are all possibilities that must be considered when giving your information out. You need to be confident that you can trust the service, which is why we don't recommend storing valuable data on anything but the most mature and battle-tested products. That usually means services which provide end-to-end encryption (E2EE) and have undergone a cryptographic audit.
 
-It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](https://www.privacyguides.org/en/basics/account-deletion/#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
+It can also be difficult to delete accounts on some services. Sometimes overwriting data associated with an account is possible, but in other cases the service will keep an entire history of changes to the account.
 
 ## Terms of Service & Privacy Policy
 
-The ToS are the rules that you agree to follow when using the service. With larger services these rules are often enforced by automated systems. Sometimes these automated systems can make mistakes. For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. Appealing such bans is often difficult, and involves an automated process too, which isn't always successful. This would be one of the reasons why we wouldn't suggest using Gmail for email as an example. Email is crucial for access to other services you might have signed up for.
+The Terms of Service (ToS) are the rules that you agree to follow when using the service. With larger services, these rules are often enforced by automated systems that can make mistakes. For example, you may be banned or locked out of your account for using a VPN or VoIP number. Appealing such bans is often difficult and involves an automated process that isn't always successful. This is one reason we wouldn't suggest using Gmail for email—email is crucial for access to other services you might have signed up for.
 
-The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. A company or organization might not be legally obligated to follow everything contained in the policy (it depends on the jurisdiction). We would recommend having some idea what your local laws are and what they permit a provider to collect.
+The Privacy Policy explains how the service will use your data. A company or organization might not be legally obligated to follow everything contained in the policy, depending on the jurisdiction. We recommend understanding your local laws and what they permit a provider to collect.
 
-We recommend looking for particular terms such as "data collection", "data analysis", "cookies", "ads" or "3rd-party" services. Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+**Key terms to look for:**
+- "Data collection"
+- "Data analysis"
+- "Cookies"
+- "Ads"
+- "3rd-party" services
 
-Keep in mind you're also placing your trust in the company or organization and that they will comply with their own privacy policy.
+Sometimes you can opt out from data collection or sharing, but it's best to choose a service that respects your privacy from the start.
 
-## Authentication methods
+## Authentication Methods
 
 There are usually multiple ways to sign up for an account, each with their own benefits and drawbacks.
 
-### Email and password
+### Email and Password
 
-The most common way to create a new account is by an email address and password. When using this method, you should use a password manager and follow [best practices](https://www.privacyguides.org/en/basics/passwords-overview/) regarding passwords.
+The most common way to create a new account is with an email address and password. When using this method, you should use a password manager and follow best practices regarding passwords.
 
-Tip
+> **Tip:** You can use your password manager to organize other authentication methods too! Add the new entry and fill the appropriate fields—you can add notes for things like security questions or backup keys.
 
-You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+You will be responsible for managing your login credentials. For added security, set up multi-factor authentication (MFA) on your accounts.
 
-You will be responsible for managing your login credentials. For added security, you can set up [MFA](https://www.privacyguides.org/en/basics/multi-factor-authentication/) on your accounts.
+#### Email Aliases
 
-[Recommended password managers](https://www.privacyguides.org/en/passwords/)
+If you don't want to give your real email address to a service, you can use an alias. Alias services allow you to generate new email addresses that forward all emails to your main address. This can help:
 
-#### Email aliases
+- **Prevent tracking** across services
+- **Manage marketing emails** that come with the sign-up process (filter automatically based on alias)
+- **Identify breaches**—if a service gets hacked, unique aliases help identify exactly which service was compromised
 
-If you don't want to give your real email address to a service, you have the option to use an alias. We describe them in more detail on our email services recommendation page. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Those can be filtered automatically based on the alias they are sent to.
+### Sign in with OAuth ("Sign in with...")
 
-Should a service get hacked, you might start receiving phishing or spam emails to the address you used to sign up. Using unique aliases for each service can assist in identifying exactly what service was hacked.
+[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the provider by using an existing account with another service instead.
 
-[Recommended email aliasing services](https://www.privacyguides.org/en/email-aliasing/)
+When you sign in with OAuth, it opens a login page with your chosen provider, connecting your existing and new accounts. Your password won't be shared, but some basic information typically will (you can review it during the login request).
 
-### "Sign in with..." (OAuth)
+**Advantages:**
+- **Security:** You don't have to trust the security practices of the service you're logging into—credentials are stored with the external OAuth provider
+- **Ease-of-use:** Multiple accounts are managed by a single login
 
-[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with _provider name_" on a registration form, it's typically using OAuth.
+**Disadvantages:**
+- **Privacy:** The OAuth provider will know the services you use
+- **Centralization:** If your OAuth account is compromised or inaccessible, all connected accounts are affected
 
-When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). This process is needed every time you want to log in to the same account.
+**Important considerations:**
+- All services using OAuth will be as secure as your underlying OAuth provider's account
+- If you want hardware key security but a service doesn't support it, you can secure your OAuth account with a hardware key instead
+- OAuth often allows *bidirectional* data sharing—always read the permissions list carefully before granting access
+- Malicious applications can abuse OAuth by hijacking your session—only use OAuth with services you trust
 
-The main advantages are:
+### Phone Number
 
-- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
-- **Ease-of-use**: Multiple accounts are managed by a single login.
+We recommend avoiding services that require a phone number for sign up. A phone number can identify you across multiple services, and depending on data sharing agreements, this makes your usage easier to track—particularly if one service is breached, as phone numbers are often **not** encrypted.
 
-But there are disadvantages:
+**Practical considerations:**
+- Some services allow VoIP numbers, but these often trigger fraud detection systems
+- For international shopping, you may need a number for SMS/call verification
+- Don't get locked out of important accounts by providing fake numbers
 
-- **Privacy**: The OAuth provider you log in with will know the services you use.
-- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+### Username and Password Only
 
-OAuth can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](https://www.privacyguides.org/en/basics/multi-factor-authentication/).
+Some services allow registration without an email address, requiring only a username and password. These services may provide increased anonymity when combined with a VPN or Tor.
 
-All the services that use OAuth will be as secure as your underlying OAuth provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
-
-There is an additional danger when using _Sign in with Google_, _Facebook_, or another service, which is that typically the OAuth process allows for _bidirectional_ data sharing. For example, logging in to a forum with your Twitter account could grant that forum access to do things on your Twitter account such as post, read your messages, or access other personal data. OAuth providers will typically present you with a list of things you are granting the external service access to, and you should always ensure that you read through that list and don't inadvertently grant the external service access to anything it doesn't require.
-
-Malicious applications, particularly on mobile devices where the application has access to the WebView session used for logging in to the OAuth provider, can also abuse this process by hijacking your session with the OAuth provider and gaining access to your OAuth account through those means. Using the _Sign in with_ option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
-
-### Phone number
-
-We recommend avoiding services that require a phone number for sign up. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
-
-You should avoid giving out your real phone number if you can. Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
-
-In many cases you will need to provide a number that you can receive SMS or calls from, particularly when shopping internationally, in case there is a problem with your order at border screening. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
-
-### Username and password
-
-Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+> **Warning:** For these accounts, there will most likely be **no way to recover your account** if you forget your username or password.

@@ -1,107 +1,181 @@
-Police Databases \| Street Level Surveillance [Skip to main content](https://sls.eff.org/technologies/police-databases#main-content)
+---
+title: "Police Databases - Street Level Surveillance"
+tags: [surveillance, law-enforcement, police-databases, gang-databases, data-privacy, criminal-justice]
+category: "Surveillance Technologies"
+difficulty: "Intermediate"
+audience: [General Public, Activists, Privacy-Conscious Users, Legal Professionals]
+topics: ["Law Enforcement Surveillance", "Criminal Justice Data", "Privacy Rights", "Data Sharing"]
+summary: "Comprehensive overview of law enforcement databases, data sharing networks, gang databases, and associated privacy threats."
+source: "Electronic Frontier Foundation (EFF) - Street Level Surveillance"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of law enforcement systems", "Awareness of privacy concerns"]
+estimated_read_time: "12 minutes"
+---
 
-- [Technologies](https://sls.eff.org/)
-- [About](https://sls.eff.org/?class=scrolly#about)
-- [News](https://sls.eff.org/articles)
-- Resources
-  - [Atlas of Surveillance](https://atlasofsurveillance.org/)
-  - [Spot the Surveillance](https://eff.org/spot)
-  - [Surveillance Self Defense](https://ssd.eff.org/)
+# Police Databases
 
-* * *
+Law enforcement agencies maintain extensive data repositories on individuals who have come into contact with the criminal justice system. These range from databases of RAP sheets to alleged gang member lists. This data is frequently shared regionally, across states, and nationally through data switchboards operated by both government and non-government services. Many agencies also purchase data from commercial data brokers catering to the public safety sector.
 
-Follow Us
+## Federal Law Enforcement Networks
 
+The FBI's Criminal Justice Information Services (CJIS) operates at least five distinct criminal justice information systems:
 
-- [Facebook](https://www.facebook.com/eff)
-- [X](https://twitter.com/eff)
-- [RSS](https://www.eff.org/rss)
-- [Subscribe](https://www.eff.org/effector)
+- **National Crime Information Center (NCIC)** - The most commonly accessed system by law enforcement officers
+- **Next Generation Identification (NGI)** - Biometric identification system
+- **National Data Exchange (N-DEx)** - Criminal justice information sharing
+- **National Instant Criminal Background Check System (NICS)** - Background check system
+- **Law Enforcement Enterprise Portal (LEEP)** - Connects to RISSnet, National Gang Intelligence Center, and eGuardian
 
-Share
+### NCIC Overview
 
+NCIC has been the United States' central database of criminal justice information since 1967, when it was founded during the J. Edgar Hoover administration. It contains:
 
-- [Facebook](https://www.facebook.com/share.php?u=https%3A//sls.eff.org&title=EFF%27s%20Street-Level%20Surveillance%20page%20is%20an%20accessible%20resources%20when%20you%20need%20a%20field%20guide%20to%20the%20technology%20used%20by%20police,%20how%20it%20works,%20and%20why%20it%27s%20dangerous.%20Learn%20more%20about%20surveillance%20cameras,%20license%20plate%20readers,%20and%20more. "Share on Facebook")
-- [X](https://twitter.com/intent/tweet?text=EFF%27s%20Street-Level%20Surveillance%20page%20is%20an%20accessible%20resources%20when%20you%20need%20a%20field%20guide%20to%20the%20technology%20used%20by%20police,%20how%20it%20works,%20and%20why%20it%27s%20dangerous.%20Learn%20more%20about%20surveillance%20cameras,%20license%20plate%20readers,%20and%20more.&url=https%3A//sls.eff.org&via=eff&related=eff "Share on Twitter")
-- Copy Link
+- Criminal record history information
+- Fugitive records
+- Stolen property reports
+- Missing persons data
 
-[×](https://sls.eff.org/technologies/police-databases#)
+CJIS establishes security standards for all law enforcement agencies that access or integrate data from these systems, covering everything from password complexity to vetting for maintenance workers.
 
-[≡](https://sls.eff.org/technologies/police-databases#mobile-nav)
+## Nlets (National Law Enforcement Telecommunications System)
 
-[![Electronic Frontier Foundation](https://sls.eff.org/assets/eff-monogram-white-82e096a984dc1f116f80dbea3f0f704d2e1a7407a359a616057f4e7917cd7a26.svg)](https://eff.org/)
+Nlets serves as a switchboard for data across the United States. It is not a government agency but rather a non-profit organization with a board of directors composed of law enforcement officers.
 
-![globe](https://sls.eff.org/assets/globe-54ce3b0c3b43065e07a53826025a3b07657c141b646dc37047e18a7d4622854e.svg)
+**Key Features:**
+- State agencies connect their databases to Nlets for cross-state data sharing
+- Provides access to Canadian entities and Interpol
+- Offers law enforcement access to dozens of data systems
+- Maintains a public, interactive map showing which agencies can send or receive data from each source
 
-- [English](https://sls.eff.org/technologies/police-databases)
-- [Español](https://sls.eff.org/es/technologies/police-databases)
+## State and Local Police Databases
 
-![](https://sls.eff.org/files/sls/technology/banner_attachment/file/41/SLS-database-2-2023.png)
+Most state governments maintain statewide networks, such as:
 
-## Police databases
+- **California**: California Law Enforcement Telecommunications System (CLETS)
+- **Oklahoma**: Oklahoma Law Enforcement Telecommunications System (OLETS)
+- **Florida**: Florida Crime Information Center (FCIC)
 
-Law enforcement agencies maintain silos of data on individuals who have come into contact with the criminal justice and related systems, ranging from databases of RAP sheets to alleged gang members. This data is frequently shared regionally, across states, and nationally through data switchboards operated by both government and non-government services. Many law enforcement agencies also purchase data off the commercial market from a variety of data brokers catering to the public safety sector.
+These systems provide access to state-level databases and connect data sources between local law enforcement agencies, sharing data with out-of-state agencies through Nlets.
 
-### Federal Law Enforcement Networks
+**Local Examples:**
+- San Diego area: Automated Regional Justice Information System (ARJIS)
+- Los Angeles: Network Communications System (NCS)
 
-The FBI's Criminal Justice Information Services (CJIS) operates at least [five distinct criminal justice information systems](https://www.justice.gov/tribal/national-crime-information-systems): National Crime Information Center (NCIC), Next Generation Identification (NGI), National Data Exchange (N-DEx), National Instant Criminal Background Check System (NICS), and Law Enforcement Enterprise Portal (LEEP). However, each of these may be comprised of other database systems. For example, LEEP connects to the Regional Information Sharing Systems Network (RISSnet), the National Gang Intelligence Center, and eGuardian.
+## Threats and Harms
 
-The most common system accessed broadly by law enforcement officers is NCIC. It has been the United States' central database of criminal justice information [since 1967](https://www.fbi.gov/news/stories/ncic-turns-50?), when it was founded by the J. Edgar Hoover administration. It contains data such as criminal record history information, fugitives, stolen properties, missing persons, and other data.
+### Misuse by Personnel
 
-CJIS established security standards for all law enforcement agencies, including local and state agencies, that access or integrate data from these systems, including everything from password complexity to the vetting for maintenance workers.
+Law enforcement personnel are regularly caught accessing criminal justice information inappropriately and illegally. Common patterns include:
 
-### Nlets
+- **Targeting women** for personal purposes (dating, harassment)
+- **Domestic abuse** facilitation
+- **Assisting criminals** with inside information
+- **Adding false information** for retribution
 
-The [National Law Enforcement Telecommunications System](https://nlets.org/) (Nlets) serves as a switchboard for data across the United States. It is not a government agency, but rather a non-profit organization with a board of directors composed of law enforcement officers.
+### Interstate Data Sharing Risks
 
-State agencies, often including motor vehicle departments, connect their databases to Nlets, which allow for sharing of data across state lines. It also allows access to data to and from Canadian entities and Interpol.
+Interstate sharing of police data threatens vulnerable populations:
 
-Nlets provides law enforcement access to dozens of data systems. The organization maintains a [public, interactive map](https://nlets.org/resources/maps/message-keys/key) that allows users to see which agencies are allowed to send or receive data from each source.
+- Prosecutors in abortion-ban states may access data from states with protected abortion rights
+- Federal agencies like ICE may access databases to apprehend undocumented immigrants in "sanctuary" states
 
-### State and Local Police Databases
+### Data Breaches
 
-Most state governments maintain a statewide network, such as the California Law Enforcement Telecommunications System (CLETS), the Oklahoma Law Enforcement Telecommunications System (OLETS), and the Florida Crime Information Center (FCIC). These systems typically provide access to various state-level databases and connect data sources between local law enforcement agencies. These systems also share data with out-of-state agencies, usually through Nlets.
+The more data collected, the greater the breach risk. Recent examples include:
 
-Local and regional law enforcement agencies also maintain their own systems. For example, in the San Diego area, a regional organization called SANDAG maintained the Automated Regional Justice Information System (ARJIS), while the Los Angeles Police Department operates the Network Communications System (NCS)
+- Leak of concealed carry permit holders' personal information in California
+- "BlueLeaks" - massive dump of records from hacked agencies including fusion centers
 
-### Threats and Harms
+### EFF Advocacy
 
-Law enforcement personnel are regularly caught accessing criminal justice information in inappropriate and illegal ways, according to research by the [Associated Press](https://apnews.com/general-news-699236946e3140659fff8a2362e16f43) and [EFF](https://www.eff.org/deeplinks/2018/06/clets-misuse-2017). This often takes the form of an officer [using official data to target women](https://www.wired.com/story/minnesota-police-dmv-database-abuse/), be it for dates, as [was the case in Bradenton, Florida](https://www.nytimes.com/2019/03/11/us/florida-cop-dating-women.html), or as part of a pattern of domestic abuse, such [as an incident in Akron, Ohio](https://www.cleveland.com/akron/2015/09/akron_police_officer_pleads_gu.html). There have also been cases of police officers accessing databases to [assist criminals](https://www.latimes.com/archives/la-xpm-2010-nov-14-la-me-lapd-gang-ties-20101115-story.html) or [adding false information](https://www.justice.gov/usao-sdca/pr/former-supervisory-us-border-patrol-agent-sentenced-following-convictions-civil-rights) to databases to exact retribution.
+Since 2015, EFF has documented abuse of CLETS by California agencies:
 
-Interstate sharing of police data can also threaten vulnerable populations. For example, a prosecutor in a state with an abortion ban may try to access data from a state where abortion access is a protected right to try to identify individuals seeking or assisting with abortion services. Federal agencies, such Immigration and Customs Enforcement (ICE) may attempt to access these databases to apprehend undocumented immigrants in states with “sanctuary” laws.
+- Campaigned for improved misuse data collection by CADOJ
+- Supported the California Values Act banning federal access for immigration enforcement
+- Successfully lobbied for immigration enforcement to be classified as formal misuse
+- ICE's Enforcement and Removal Operations was removed from CLETS in 2019
+- Supported AB 1242 preventing data release to out-of-state agencies investigating abortions
 
-The more data a government agency collects, the greater the risk of a data breach. Recent examples include the [leak of personal information](https://www.nbcnews.com/news/us-news/california-doj-data-breach-exposes-personal-information-concealed-carr-rcna35849) belonging to concealed carry permit holders in California or " [Blueleaks](https://en.wikipedia.org/wiki/BlueLeaks)," the massive dump of records from hacked agencies, including many fusion centers.
+## Gang Databases
 
-Since 2015, EFF has been [documenting abuse](https://www.eff.org/deeplinks/2015/11/misuse-rampant-oversight-lacking-californias-law-enforcement-network) of CLETS by California agencies, including successfully campaigning for the California Department of Justice (CADOJ) to improve how it collects misuse data. EFF also supported the California Values Act, a law that bans federal agencies from accessing certain types of criminal justice data for immigration enforcement. EFF successfully lobbied CADOJ to pass rules classifying [immigration enforcement as formal misuse](https://www.eff.org/deeplinks/2019/05/california-now-classifies-immigration-enforcement-misuse-statewide-law-enforcement) of the data, leading to ICE's deportation arm, Enforcement and Removal Operations, [being removed from CLETS](https://www.eff.org/deeplinks/2019/12/california-doj-cuts-ice-deportation-officers-state-law-enforcement-database) and other data systems in 2019. EFF also [supported AB 1242](https://oag.ca.gov/news/press-releases/governor-newsom-signs-assemblymember-bauer-kahan-and-attorney-general-bonta%E2%80%99s), a bill signed into law by Gov. Gavin Newsom to prevent law enforcement from releasing data to out-of-state agencies investigating abortions.
+Gang databases identify people authorities have connected to gangs, often based on unsubstantiated evidence such as:
 
-### Gang Databases
+- Personal associations
+- Clothing choices
+- Tattoos
+- Falsified information
 
-Gang databases are law enforcement databases that identify people who authorities have connected to gangs, often based on [unsubstantiated evidence](https://www.nytimes.com/2020/02/03/opinion/los-angeles-gang-database.html) such as who someone associates with, what clothing they wear, or what tattoos they have. In some cases, individuals have been entered into a gang database based on [falsified](https://abc7.com/lapd-falsified-records-scandal-moore/6257995/) information. Gang databases are typically [unaudited](https://www.reuters.com/legal/government/dcs-gang-database-highlights-unconstitutional-systems-nationwide-2022-01-19/), and individuals placed on them have no way to challenge their inclusion in a database or [petition for removal](https://voiceofsandiego.org/2019/12/09/few-people-have-successfully-removed-themselves-from-state-gang-database/)–even if there is no evidence linking them to gang activity.
+### Key Problems
 
-In California, activists have pushed local police departments to [dissociate from CalGang](https://www.latimes.com/california/story/2020-06-24/california-police-urged-to-stop-using-gang-database-deemed-biased), the statewide gang database, which, in 2020, contained information on over 90,000 people. In 2020, the LAPD announced it was [discontinuing](https://www.mercurynews.com/2020/06/22/lapd-ending-use-of-calgang-database-after-2-decades/) its use of the database. In 2023, a San Diego city subcommittee [began studying](https://voiceofsandiego.org/2023/07/26/sdpds-use-of-gang-database-is-under-the-microscope/) how the San Diego Police Department used CalGang, prompting debate about whether the Department should cease use of the database amid accusations that it infringes on civil rights and liberties, has been used punitively and arbitrarily, and requires too much staffing to keep updated.
+- **No oversight**: Typically unaudited systems
+- **No recourse**: Individuals cannot challenge inclusion or petition for removal
+- **Inaccurate data**: Hundreds of deceased individuals found in some databases
 
-In 2023, Chicago planned to re-launch its gang database after its [previous iteration](https://www.chicagotribune.com/news/criminal-justice/ct-chicago-police-gang-database-update-20230106-cidgtynd4je4fc6x3rzioqgn3i-story.html) was criticized by the city’s inspector general and became the subject of a federal lawsuit for being racially biased and unconstitutional. Opponents of the program claimed that the 134,000 people on the list, which had little to no oversight or accountability mechanisms, “ [were at risk of severe sentencing, high bond, deportation or losing jobs because of it](https://www.chicagotribune.com/news/criminal-justice/ct-chicago-police-gang-database-update-20230106-cidgtynd4je4fc6x3rzioqgn3i-story.html).”
+### California's CalGang
 
-### Threats and Harms
+In 2020, CalGang contained information on over 90,000 people. Activist pressure led to:
 
-As evidenced above, inclusion in a gang database can have serious repercussions on a person’s life, including leading to stops, interrogations, and use of force by law enforcement; enhanced punishment in the criminal legal system; and ill effects on a person’s employment prospects.  Despite these serious threats, there is often no oversight for these databases. The lists are often so poorly maintained that in Cook County, Illinois, [ProPublica reported](https://www.propublica.org/article/cook-county-sheriffs-office-database-new-ban-law) that hundreds of people in a 25,000-entry gang database managed by the Sheriff’s Office’s  were actually deceased.
+- LAPD discontinuing use of the database in 2020
+- San Diego city subcommittee studying SDPD's use of CalGang in 2023
+- Ongoing debate about civil rights implications
 
-The victims of the exacerbated harassment brought on by gang databases are also disproportionately people of color, making gang databases one of the most pressing racial justice issues at the intersection of technology and the criminal justice system. In 2019, nearly 99% of the 18,000 person [New York City gang database were people of color](https://theappeal.org/spotlight-the-dangers-of-gang-databases-and-gang-policing/), with 88% of people in the database being Black and Latine. ICE has also used gang databases in its deportation efforts, including instances when individuals have been [erroneously entered](https://theappeal.org/spotlight-the-dangers-of-gang-databases-and-gang-policing/) into these wildly unregulated systems.
+### Chicago Gang Database
 
-Given the [serious issues](https://theappeal.org/spotlight-the-dangers-of-gang-databases-and-gang-policing/) with CalGang, EFF supports the abolition of the database. In 2020, EFF joined a coalition of civil rights, immigration, and criminal justice reform organizations in calling for CADOJ to place an [immediate moratorium](https://www.eff.org/deeplinks/2020/06/california-coalition-calls-moratorium-state-gang-database) on the use of the system, and have [supported legislation](https://www.eff.org/es/deeplinks/2017/10/victory-california-just-reformed-its-gang-databases-and-made-them-more-accountable) to reform it.
+Chicago's previous gang database iteration faced criticism for:
 
-Like gang databases, predictive policing algorithms often use amassed or questionable information to label a person a potential threat to public safety and make them vulnerable to police harassment and surveillance. EFF has also advocated for a [ban on predictive policing algorithms](https://www.eff.org/deeplinks/2020/09/technology-cant-predict-crime-it-can-only-weaponize-proximity-policing).
+- Racial bias
+- Unconstitutional practices
+- Containing 134,000 people with minimal oversight
 
-### Commercial Databases
+**Consequences for those listed:**
+- Severe sentencing
+- High bond amounts
+- Deportation risk
+- Employment difficulties
 
-Law enforcement agencies often purchase subscriptions to privately-managed intelligence databases. In addition to law enforcement data, these systems often provide access to commercially acquired data, ranging from consumer records to [utility data](https://www.washingtonpost.com/technology/2021/02/26/ice-private-utility-data/). In some cases, the software claims to use artificial intelligence to develop leads or connections between suspects.
+### Disproportionate Impact
 
-Common products include Thomson Reuters's CLEAR, Lexis-Nexis's Accurint, Transunion's TLOxp, and CoplinkX.
+Gang databases are a pressing racial justice issue:
 
-Police also are able to purchase access to [real-time location databases](https://www.eff.org/deeplinks/2022/08/fog-revealed-guided-tour-how-cops-can-browse-your-location-data), face recognition databases, and automated license plate reader databases from commercial providers.
+- In 2019, nearly 99% of NYC's 18,000-person gang database were people of color
+- 88% were Black and Latine individuals
+- ICE has used gang databases for deportation efforts, including erroneous entries
 
-#### **Suggested Additional Reading**
+### EFF Position
 
-[Spotlight: The Dangers of Gang Databases and Gang Policing](https://theappeal.org/spotlight-the-dangers-of-gang-databases-and-gang-policing/) (The Appeal)
+EFF supports the abolition of CalGang and has:
 
-[Technologies](https://sls.eff.org/)
+- Joined coalitions calling for an immediate moratorium on the system
+- Supported legislation to reform gang databases
+- Advocated for a ban on predictive policing algorithms
+
+## Commercial Databases
+
+Law enforcement agencies purchase subscriptions to privately-managed intelligence databases that provide:
+
+- Law enforcement data
+- Consumer records
+- Utility data
+- AI-generated leads and suspect connections
+
+### Common Products
+
+- Thomson Reuters's CLEAR
+- Lexis-Nexis's Accurint
+- Transunion's TLOxp
+- CoplinkX
+
+### Additional Commercial Access
+
+Police can purchase access to:
+
+- Real-time location databases
+- Face recognition databases
+- Automated license plate reader databases
+
+## Additional Resources
+
+- [Spotlight: The Dangers of Gang Databases and Gang Policing](https://theappeal.org/spotlight-the-dangers-of-gang-databases-and-gang-policing/) (The Appeal)
+- [EFF Street Level Surveillance](https://sls.eff.org/)

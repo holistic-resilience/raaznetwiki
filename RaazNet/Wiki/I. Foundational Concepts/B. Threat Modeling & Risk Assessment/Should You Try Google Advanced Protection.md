@@ -1,82 +1,76 @@
-[Skip to content](https://freedom.press/digisec/blog/should-you-try-google-advanced-protection/#main)
+---
+title: "Should You Try Google Advanced Protection?"
+tags: [android-security, google-advanced-protection, lockdown-mode, device-hardening, journalist-security, mobile-security]
+category: "Mobile Device Security"
+difficulty: "Intermediate"
+audience: [Journalists, Activists, Privacy-Conscious Users, At-Risk Individuals]
+topics: ["Android Security", "Device Hardening", "Advanced Protection", "Mobile Privacy"]
+summary: "Guide to Google's Advanced Protection mode in Android 16 and Apple's Lockdown Mode for at-risk users requiring enhanced device security."
+source: "Freedom of the Press Foundation"
+content_type: "Educational Guide"
+security_level: "Advanced"
+language: "English"
+prerequisites: ["Basic smartphone usage", "Understanding of account security concepts"]
+estimated_read_time: "4 minutes"
+---
 
-![Image of a glowing white lock with a green glowing grid in the background.](https://media.freedom.press/media/images/lock_header.2e16d0ba.fill-1920x1080.png)
+# Should You Try Google Advanced Protection?
 
-Freedom of the Press Foundation (CC BY 4.0)
+Journalists and other at-risk users sometimes need stronger protections than those available in default phone settings. This guide covers hardened security modes available on both Android and iOS devices.
 
-It’s the digital security training team at Freedom of the Press Foundation (FPF), with security news that keeps you, your sources, and your devices safe. If someone shared this newsletter with you, [please subscribe here](https://freedom.press/training/digisec-subscribe/).
+## Android 16: Advanced Protection Mode
 
-#### [Jump link for section](https://freedom.press/digisec/blog/should-you-try-google-advanced-protection/\#android-16-drops-and-with-it-advanced-protection-mode)**Android 16 drops — and with it, Advanced Protection mode**
+Starting with Android 16 (released June 2025), Google has expanded its long-standing Advanced Protection program to include hardened device security settings, similar to Apple's Lockdown Mode.
 
-Journalists and other at-risk users sometimes need stronger protections than those in the phone’s default settings. Starting with the release of iOS 16 back in 2022, Apple has offered users its hardened [Lockdown Mode](https://support.apple.com/en-us/105120), which limits security risks by suspending certain device features known to be exploited in previous attacks, such as link previews in Messages, as well as restricting certain web technologies when browsing.
+### Key Features
 
-## Get Weekly Tips & Advice
+The [full list of Advanced Protection features](https://security.googleblog.com/2025/05/advanced-protection-mobile-devices.html) is extensive, but notable highlights include:
 
-Subscribe for easy and actionable tips that improve your digital security awareness.
+- **End-to-end encrypted security logging** to facilitate investigations of potential device breaches
+- **USB connection blocking** for unknown devices (useful if your device is stolen or seized)
+- **Automatic reboot after 72 hours** of inactivity, which re-encrypts the device
+- **Restricted technologies** in apps, web browsing, messages, calls, and network connections
 
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
+For a detailed analysis, see [this write-up from the Electronic Frontier Foundation](https://www.eff.org/deeplinks/2025/06/googles-advanced-protection-arrives-android-should-you-use-it).
 
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
+## What You Can Do
 
+### Decide If It's Right for You
 
-Now, in Android 16, released this month, Google is expanding its long-standing Advanced Protection program to include hardened security settings as well.
+Advanced Protection may break certain websites and change how some apps function (particularly messaging apps). Evaluate whether enhanced security is worth potential usability trade-offs for your situation.
 
-You can see [the long list of features](https://security.googleblog.com/2025/05/advanced-protection-mobile-devices.html) affected by Advanced Protection. But I want to highlight a couple of things that jumped out at me: Advanced Protection will enable end-to-end encrypted security logging to help facilitate investigations of potential device breaches. It also includes some compelling features if your device is ever stolen or seized, blocking unknown USB connections and rebooting the device after 72 hours, which will also have the benefit of encrypting the device. By default, it further prevents certain technologies from activating in apps, web browsing, messages, calls, and network connections. [Read more in this write-up](https://www.eff.org/deeplinks/2025/06/googles-advanced-protection-arrives-android-should-you-use-it) from Thorin Klosowski at the Electronic Frontier Foundation.
+### Enable Advanced Protection (Android)
 
-#### [Jump link for section](https://freedom.press/digisec/blog/should-you-try-google-advanced-protection/\#what-you-can-do)**What you can do**
+**Note:** Not all Android devices have access to Android 16. The update is being rolled out in phases across manufacturers, starting with Google Pixel phones.
 
-- **Decide if it’s right for you.** It’s important to note that Advanced Protection may break certain websites and the way you prefer to use certain apps, such as your messaging app. But this might be a worthwhile trade-off for the peace of mind of upgrading your device’s security.
-- **Turn on Advanced Protection.** Note that not all Android devices have access to Android 16, and the update will be made available as a phased rollout across manufacturers, starting with Google Pixel phones. If you want to try out Advanced Protection, Google Pixel devices should be able to download Android 16 now by navigating here: _Settings app > Security and Privacy > Advanced Protection_.
-- **iPhone users, consider Lockdown Mode.** [Learn more about this feature](https://www.apple.com/newsroom/2022/07/apple-expands-commitment-to-protect-users-from-mercenary-spyware/) before deciding. But I can speak from experience that it does break certain websites, and has blocked messages from certain people I hadn’t previously contacted, particularly those using Android. It’s otherwise been a surprisingly normal experience, so for me this has been a decent compromise. If you want to try it out, navigate here: _Settings app > Privacy & Security > Lockdown Mode > Turn On Lockdown Mode_.
+**To enable on Pixel devices:**
+1. Open the **Settings** app
+2. Navigate to **Security and Privacy**
+3. Select **Advanced Protection**
+4. Follow the setup prompts
 
-#### [Jump link for section](https://freedom.press/digisec/blog/should-you-try-google-advanced-protection/\#updates-from-our-team)**Updates from our team**
+### Consider Lockdown Mode (iPhone)
 
-- **J-school professors:** We’re thrilled to share the launch of the most recent addition to our [U.S. J-school Digital Security Curriculum](https://freedom.press/digisec/guides/jschool-curriculum-us/)! In collaboration with the Electronic Frontier Foundation, the University of Texas at El Paso, and Borderzine, we’re offering a new digital security module focused on the needs of journalists living and working in the U.S. southern border region. [Read our press release](https://freedom.press/digisec/blog/new-journalism-curriculum-module-teaches-digital-security-for-border-journalists/). If you are a journalism instructor and want any help with questions about the materials, or even just want to share how you are using them in the wild, please be sure to reach out here to tell us all about it!
-- In keeping with the theme of border security readiness, my colleague Davis Erin Anderson released a new advice column examining password management strategies when you are traveling. [Give it a read](https://freedom.press/digisec/blog/advice-column-securing-your-passwords-when-traveling/).
-- **Reminder for U.S.-based southern border journalists:** In partnership with the Centre For Investigative Journalism in the U.K., our Source Protection Program has joined forces with ACOS Alliance and the Electronic Frontier Foundation to offer two opportunities for intensive safety and security training this August for journalists covering immigration, migration, and related issues on the border. This training program is designed to strengthen the safety skills of participants, and will cover digital, physical, psychosocial, and legal safety. Apply by July 3 to be considered for participation. We have two options for training dates and location: Aug. 15 in Albuquerque, New Mexico (one full day), and Aug. 18-19 in El Paso, Texas (two full days). The training is for U.S.-based journalists only. Space will be allocated according to need, training is free to participants, and limited travel grants may be available. Space is limited, so don’t wait! [Apply here](https://eff.org/jstapp).
+Apple has offered [Lockdown Mode](https://support.apple.com/en-us/105120) since iOS 16 (2022). It limits security risks by:
 
-Our team is always ready to assist journalists with digital security concerns. [Reach out here](https://freedom.press/training/request-training/), and stay safe and secure out there.
+- Suspending certain device features known to be exploited in attacks
+- Blocking link previews in Messages
+- Restricting certain web technologies when browsing
 
-Best,
+**To enable Lockdown Mode:**
+1. Open the **Settings** app
+2. Navigate to **Privacy & Security**
+3. Select **Lockdown Mode**
+4. Tap **Turn On Lockdown Mode**
 
-Martin
+**Real-world experience:** Lockdown Mode does break certain websites and may block messages from contacts you haven't previously communicated with (particularly Android users). However, day-to-day usage remains surprisingly normal, making it a reasonable compromise for those who need enhanced protection.
 
-–
+## Additional Resources
 
-Martin Shelton
+- [Apple's announcement on Lockdown Mode](https://www.apple.com/newsroom/2022/07/apple-expands-commitment-to-protect-users-from-mercenary-spyware/)
+- [Google Security Blog: Advanced Protection](https://security.googleblog.com/2025/05/advanced-protection-mobile-devices.html)
+- [EFF Analysis: Should You Use Advanced Protection?](https://www.eff.org/deeplinks/2025/06/googles-advanced-protection-arrives-android-should-you-use-it)
 
-Deputy Director of Digital Security
+---
 
-Freedom of the Press Foundation
-
-## Related Posts
-
-1. ## [AI browsers: the security headache nobody asked for](https://freedom.press/digisec/blog/ai-browsers-the-security-headache-nobody-asked-for/)
-
-![Illustration by the Electronic Frontier Foundation. (CC BY 2.0 DEED)](https://media.freedom.press/media/images/afd67c3f-9252-5490-622a-349cac35a1.2e16d0ba.fill-451x254.jpg)
-
-[Network security](https://freedom.press/digisec/blog/network-security/)• [Newsletter](https://freedom.press/digisec/blog/?content-type=newsletter)
-
-2. ## [Phishing scams are all trick, no treat](https://freedom.press/digisec/blog/phishing-scams-are-all-trick-no-treat/)
-
-![FPF CC BY 40](https://media.freedom.press/media/images/fishing.2e16d0ba.fill-451x254.jpg)
-
-[Expert analysis](https://freedom.press/digisec/blog/expert-analysis/)• [Newsletter](https://freedom.press/digisec/blog/?content-type=newsletter)
-
-3. ## [How to limit exposing your location](https://freedom.press/digisec/blog/how-to-limit-exposing-your-location/)
-
-![CREDIT: Pixabay (CC0 1.0) - https://www.stockvault.net/photo/222798/gps#](https://media.freedom.press/media/images/stockvault-gps2227982.2e16d0ba.fill-451x254.jpg)
-
-[Expert analysis](https://freedom.press/digisec/blog/expert-analysis/)• [Guide](https://freedom.press/digisec/blog/?content-type=guide)
-
-
-## Sign Up. Take Action.
-
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
-
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
-
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
-
-
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+*Source: Freedom of the Press Foundation Digital Security Team*

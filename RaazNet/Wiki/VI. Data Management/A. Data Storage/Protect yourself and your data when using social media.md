@@ -1,50 +1,79 @@
-\_\_('Table of Contents')
+---
+title: "Protect Yourself and Your Data When Using Social Media"
+tags: [social-media, privacy, security, surveillance, digital-rights, activism]
+category: "Communication Security"
+difficulty: "Beginner"
+audience: [General Public, Activists, Human Rights Defenders, Privacy-Conscious Users]
+topics: ["Social Media Security", "Privacy Protection", "Digital Surveillance", "Secure Alternatives"]
+summary: "Guide to understanding social media privacy risks and securing your accounts on major platforms, with privacy-focused alternatives."
+source: "Security in a Box"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic computer literacy", "Active social media accounts"]
+estimated_read_time: "4 minutes"
+---
 
-Communication › Protect yourself and your data when using social media
+# Protect Yourself and Your Data When Using Social Media
 
-# [Anchor](https://securityinabox.org/en/communication/social-media/\#protect-yourself-and-your-data-when-using-social-media) Protect yourself and your data when using social media
+*Updated 11 March 2025*
 
-Updated 11 March 2025
+## Understanding the Risks
 
-## [Anchor](https://securityinabox.org/en/communication/social-media/\#table-of-contents) Table of Contents
+We use social media platforms to connect with others and spread important messages. However, these platforms often profit from our data in ways we don't fully realize.
 
-- [→ Facebook](https://securityinabox.org/en/communication/social-media/#%E2%86%92-facebook)
-- [→ Instagram](https://securityinabox.org/en/communication/social-media/#%E2%86%92-instagram)
-- [→ X (Twitter)](https://securityinabox.org/en/communication/social-media/#%E2%86%92-x-twitter)
-- [→ YouTube](https://securityinabox.org/en/communication/social-media/#%E2%86%92-youtube)
-- [→ TikTok](https://securityinabox.org/en/communication/social-media/#%E2%86%92-tiktok)
-- [Alternatives](https://securityinabox.org/en/communication/social-media/#alternatives)
+**What social media companies do with your data:**
+- Share information with third parties (buying habits, social connections, location, birthday)
+- Collect and monetize data as outlined in terms of service you agree to
+- Make it unclear how public your information will become
 
-We use social media platforms to connect with others and to spread messages we find important. At the same time, the companies managing these platforms often have a business model based on using our communications and contacts to make money. They share with third parties information about us, like our buying habits, social connections, location, birthday and other identifying information, and often we don't even realize this. When you use their services, you agree to their terms, which say it is ok for them to share or sell this information, among other things. Sometimes it is not clear how public that information will become.
+**Government and law enforcement monitoring:**
+- Actively collect publicly available data from social media
+- Gather metadata (when photos were taken, who is connected to whom)
+- Request private information from companies about individuals, often targeting human rights defenders and activists
 
-Furthermore, social media platforms are actively monitored by governments and law enforcement agencies. The authorities collect publicly available data and, when possible, gather "metadata" about that data, which we may not think about them gathering (like when a photo was taken, or who is connected to whom). They may also ask social media companies to turn over private information about individuals of interest, often including human rights defenders or activists.
+## Secure Your Accounts
 
-While we only provide instructions for certain social media platforms in this guide, many companies running social networking platforms will behave in similar ways and offer options like the ones listed here. We recommend looking around your account settings and taking the same steps to protect yourself on each of your social media accounts.
+While this guide covers specific platforms, most social networking services behave similarly and offer comparable security options. We recommend reviewing account settings on all your social media accounts.
 
-If you use any of the services below, click the links to view checklists that can help you secure your account.
+### Platform-Specific Security Guides
 
-## [Anchor](https://securityinabox.org/en/communication/social-media/\#%E2%86%92-facebook)[→ Facebook](https://securityinabox.org/en/tools/facebook)
+- **[Facebook](https://securityinabox.org/en/tools/facebook)** — Account security checklist
+- **[Instagram](https://securityinabox.org/en/tools/instagram)** — Privacy settings guide
+- **[X (Twitter)](https://securityinabox.org/en/tools/x-twitter/)** — Security recommendations
+- **[YouTube](https://securityinabox.org/en/tools/youtube)** — Account protection steps
+- **[TikTok](https://securityinabox.org/en/tools/tiktok)** — Privacy controls guide
 
-## [Anchor](https://securityinabox.org/en/communication/social-media/\#%E2%86%92-instagram)[→ Instagram](https://securityinabox.org/en/tools/instagram)
+## Privacy-Focused Alternatives
 
-## [Anchor](https://securityinabox.org/en/communication/social-media/\#%E2%86%92-x-twitter)[→ X (Twitter)](https://securityinabox.org/en/tools/x-twitter/)
+### For Small Group Organizing
+Move your group to [secure chat apps](https://securityinabox.org/en/communication/tools/#more-secure-text-voice-and-video-chat-applications):
+- **[Signal](https://signal.org/)** — End-to-end encrypted messaging
+- **[Delta Chat](https://delta.chat/)** — Decentralized, email-based chat
 
-## [Anchor](https://securityinabox.org/en/communication/social-media/\#%E2%86%92-youtube)[→ YouTube](https://securityinabox.org/en/tools/youtube)
+### For Larger Private Groups
+- **[Mattermost](https://mattermost.com/)** — Self-hosted team communication
+- **[Rocket.chat](https://www.rocket.chat/)** — Open-source collaboration platform
 
-## [Anchor](https://securityinabox.org/en/communication/social-media/\#%E2%86%92-tiktok)[→ TikTok](https://securityinabox.org/en/tools/tiktok)
+### For Public Broadcasting (X/Twitter Alternatives)
+- **[Mastodon](https://joinmastodon.org/about)** — Decentralized social network
+- **[Bluesky](https://bsky.app/)** — Open protocol social platform
 
-## [Anchor](https://securityinabox.org/en/communication/social-media/\#alternatives) Alternatives
+See also: [Our blog post on leaving X](https://securityinabox.org/en/blog/x-odus)
 
-There are alternatives to commercial social networking platforms that can help you organize and spread messages without leaving your personal information as exposed as it is on mainstream platforms:
+### For Publishing Content
+**Blogs:**
+- [Noblogs](https://noblogs.org/) (run by [Autistici/Inventati](https://autistici.org/))
+- [Blackblogs](https://blackblogs.org/)
+- [Shelter](https://www.shelter.is/services.html)
 
-- For organizing with a carefully chosen group of people, moving your group to [secure chat apps](https://securityinabox.org/en/communication/tools/#more-secure-text-voice-and-video-chat-applications) like [Signal](https://signal.org/) or [Delta Chat](https://delta.chat/) can be one of the easiest options.
-- For a larger private group, look into setting up a [Mattermost](https://mattermost.com/) or a [Rocket.chat](https://www.rocket.chat/) instance.
-- A common alternative to social media platforms is Telegram, which is used both to organize, through the creation of small private groups, and to spread messages to a wider audience through public channels. WhatsApp is also used in a similar way, but in both cases communications cannot be considered secure, as the companies managing these tools have a commercial agenda similar to social media platforms. If you decide to use these chat apps to spread news on your activities, we strongly recommend reading our guides on how to use [Telegram](https://securityinabox.org/en/tools/telegram) or [WhatsApp](https://securityinabox.org/en/tools/whatsapp) more securely.
-  - The shortcoming of chat apps is that they can't support general public outreach the way that mainstream social networking platforms can. However, they provide better support for private groups, as long as they are encrypted, and that may be what you need. Make the decision based on what is best for you and the groups you collaborate with. If you decide to use a chat app to organize, read [our guide on how to chat securely](https://securityinabox.org/en/communication/secure-chat).
-- For spreading news on your activities as you would on X, you might want to explore setting up an account on an alternative platform like [Mastodon](https://joinmastodon.org/about) or [Bluesky](https://bsky.app/). Read about all the possible alternatives in [our blog post on leaving X](https://securityinabox.org/en/blog/x-odus).
-  - If you would like to start a Mastodon account, you can start from [Fedi.Tips](https://fedi.tips/), an unofficial non-technical guide to using Mastodon and the Fediverse.
-  - If you would like to set up your own Mastodon instance, read the guides on [how to run a Mastodon server](https://docs.joinmastodon.org/user/run-your-own/) and on how to [run your own social networking platform](https://runyourown.social/).
-- If you need a public platform to spread news, images, videos and longer contributions, you might consider creating a blog on a platform like [Noblogs](https://noblogs.org/) (run by the autonomous tech collective [Autistici/Inventati](https://autistici.org/)), [Blackblogs](https://blackblogs.org/) or [Shelter](https://www.shelter.is/services.html), or even run your own website.
-- Alternatively, you could organize through a mailing list, which you can create for example on [Riseup](https://riseup.net/en/lists) or [Autistici/Inventati](https://www.autistici.org/services/lists). And if you want to reach a wide audience to spread your messages, you could consider setting up a newsletter, for example on [Autistici/Inventati](https://www.autistici.org/services/lists)'s servers.
+**Mailing Lists & Newsletters:**
+- [Riseup](https://riseup.net/en/lists)
+- [Autistici/Inventati](https://www.autistici.org/services/lists)
 
-For information on more privacy-friendly alternatives to mainstream social networking platforms, see our [list of communications tools](https://securityinabox.org/en/communication/tools/).
+### A Note on Telegram and WhatsApp
+These apps are commonly used for organizing and broadcasting, but **communications cannot be considered fully secure**. Both companies have commercial agendas similar to social media platforms. If you use them, read our security guides for [Telegram](https://securityinabox.org/en/tools/telegram) and [WhatsApp](https://securityinabox.org/en/tools/whatsapp).
+
+---
+
+For more privacy-friendly alternatives, see our complete [list of communications tools](https://securityinabox.org/en/communication/tools/).

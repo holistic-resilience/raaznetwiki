@@ -1,20 +1,38 @@
-[Skip to content](https://freedom.press/digisec/blog/whatsapp-security/#main)
+---
+title: "WhatsApp Security Tips - Page Not Found"
+tags: [placeholder, broken-link, needs-update]
+category: "Digital Security"
+difficulty: "Beginner"
+audience: [General Public]
+topics: ["Digital Security"]
+summary: "Placeholder document for unavailable WhatsApp security content from Freedom of the Press Foundation."
+source: "Freedom of the Press Foundation"
+content_type: "Note"
+security_level: "Informational"
+language: "English"
+prerequisites: []
+estimated_read_time: "1 minute"
+---
 
-# Page not found
+# WhatsApp Security Tips
 
-The page you requested wasn’t found.
+> **Note:** The original content from Freedom of the Press Foundation is no longer available at this URL.
 
+## Status
 
+This document was created from a page that returned a "Page not found" error. The original WhatsApp security guide content needs to be sourced from an alternative location.
 
-[Return Home](https://freedom.press/)
+## Recommended Actions
 
-## Sign Up. Take Action.
+1. **Search for updated content** at [Freedom of the Press Digital Security](https://freedom.press/digisec/)
+2. **Check archive sources** such as the Wayback Machine for the original article
+3. **Find alternative resources** on WhatsApp security best practices
 
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
+## Related Resources
 
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
+- [Freedom of the Press Foundation](https://freedom.press/)
+- [Freedom of the Press Newsletters](https://freedom.press/newsletters/)
 
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
+---
 
-
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+*Last checked: Content unavailable*

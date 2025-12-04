@@ -1,44 +1,83 @@
-![Strategise detail 03](https://holistic-security.tacticaltech.org/media/chapters/images/default/strategise_detail_03.jpg%3F1460642038)
+---
+title: "Creating Security Plans and Agreements"
+tags: [security-planning, threat-prevention, emergency-response, risk-management, organizational-security]
+category: "Security Strategy"
+difficulty: "Intermediate"
+audience: [Human Rights Defenders, Activists, NGO Workers, Privacy-Conscious Users]
+topics: ["Security Planning", "Threat Management", "Emergency Preparedness", "Organizational Security"]
+summary: "Guide to developing security plans that include threat prevention tactics and emergency response protocols for individuals and organizations."
+source: "Tactical Tech - Holistic Security"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of threat assessment", "Familiarity with security concepts"]
+estimated_read_time: "4 minutes"
+---
 
-# 3.3 Creating Security Plans and Agreements
+# Creating Security Plans and Agreements
 
-Once we have clarity about the threats we face during our activities, we can begin to organise our security protocols into security plans or agreements. These plans can be formal, written documents or informal, shared agreements, but either way they should be considered 'live' and subject to regular updating and review.
+Once you have clarity about the threats you face during your activities, you can begin organizing security protocols into formal plans or informal agreements. Regardless of format, these should be considered living documents subject to regular review and updates.
 
-We can organise these plans and agreements according to any logic which suits us, such as by activity, by region in which we work, by person, by day of the week or by any other metric which corresponds to our way of working. However we organise our plans, there are some common elements which all good plans should include.
+You can organize plans according to any logic that suits your needs: by activity, by region, by person, by timeframe, or any other metric corresponding to your way of working. However you organize them, effective plans share common elements.
 
-## Elements of security plans and agreements
+## Core Elements of Security Plans
 
-Most good security plans will serve one or both of the following purposes:
+### Prevention of Threats
 
-- **Prevention of threats:** These are tactics which aim to prevent identified threats from taking place (i.e. reducing their likelihood)
-- **Emergency responses**: Also called contingency plans, these are the actions which we take in response to a threat becoming a reality. They generally have the aim of lessening the impact of the event, reducing further harm in its aftermath and deterring the aggressor (where there is one) from carrying out further harm.
+Preventative tactics aim to reduce the likelihood of identified threats occurring. These measures often reflect strategies of acceptance, deterrence, and protection, and may include:
 
-For each of the threats we've already identified, we should usually have both preventative and response tactics in place (see [Acceptance, Deterrence and Protection Tactics](https://holistic-security.tacticaltech.org/exercises/strategise/acceptance-deterrance-and-protection-tactics.html)). Below we explore in more detail what this can mean in different cases.
+- **Advocacy campaigns** or public engagement to raise awareness and acceptance of your work
+- **Relationship building** with civilian and military authorities
+- **Strengthening ties** with allies and supportive networks
+- **Capacity building** to increase organizational agility and resilience
 
-## Prevention of threats
+Once implemented, preventative measures typically become a normal aspect of work and personal life, though they may require an adjustment period.
 
-Many preventative tactics will reflect our strategies of acceptance, deterrence and protection (or self-defence). They may include advocacy campaigns or other forms of engagement with the public or civilian and military authorities in order to raise consciousness and acceptance of our work. Alternatively they may involve strengthening our ties with allies or other tactics which build our own capacities and agility.
+### Emergency Response
 
-Once implemented, these kinds of measures soon become a 'normal' aspect of our work and personal lives though they might take time to adjust to.
+Even well-designed prevention strategies may fail. Rapidly changing circumstances can lead to security incidents despite best efforts. Emergency response plans—also called contingency plans—allow you to respond in an organized manner and limit harm.
 
-## Emergency response
+**Examples of simple emergency preparations:**
 
-Even the best laid plans may fail. There are the moments when, perhaps due to rapidly changing circumstances, we experience an aggression or accident despite our best efforts to prevent it. Having emergency plans in place allows us to respond to security incidents in an organised manner and limit harm.
+- Keeping contact details for a trusted lawyer readily accessible
+- Agreeing on coded alert messages to send during arrests at protests
+- Maintaining a first aid kit in the office
+- Establishing check-in protocols with trusted contacts
 
-Emergency plans are usually very case-specific. As discussed in Section II: Explore, threats may - but need not always be – targeted; factors such as petty crime or natural disasters can seriously impact our work and are common threats experienced by many human rights defenders, so it's important to have emergency plans in place for such eventualities if you consider that they pose a risk.
+Emergency responses generally aim to:
+- Lessen the immediate impact of an incident
+- Reduce further harm in its aftermath
+- Deter aggressors from carrying out additional harm
 
-Some examples of simple  may be having the contact details of a good lawyer on hand, agreeing on coded alert messages to send in case of an arrest at a protest, or simply having a first aid kit in the office in case of an injury.
+## Additional Considerations
 
-## Well-being and devices
+### Well-being
 
-It is vital to include tactics for our own well-being and for managing our devices and information. We should consider the actions we would take to maintain our physical energy and a mindful approach to our work and our security – e.g. scheduling where and when we eat, sleep, relax and enjoy ourselves and not forgetting that these elements are equally important. We should also consider the devices we depend on in order to carry out our work, and tactics to ensure that we are in control of who has access to our information and communications.
+Include tactics for maintaining physical and mental health:
 
-This example of a simple security plan for a human rights defender will give you an idea of what all of this may look like in practice.
+- Schedule time for eating, sleeping, and relaxation
+- Maintain a mindful approach to work and security
+- Recognize that personal well-being is equally important as operational security
 
-As mentioned in Section I, having solid, up-to-date security plans are a great accompaniment for our resilience and agility – but not a replacement for them. In addition to detailed analysis and planning we must also be prepared for the unexpected. Whilst security plans and agreements are important and useful tools, the ability to be agile and let them go if the situation requires it is equally, if not more important. Developing a sense of centredness and calm is vital for when situations arise that we have not – or could not have – planned for.
+### Device and Information Security
 
-When it comes to groups or organisations, the process of planning may involve a few extra steps to ensure group dynamics are not affected negatively. We'll explore this in more detail in the next Chapter.
+Consider the devices you depend on for your work:
 
-[3.2 Building New Approaches to Security](https://holistic-security.tacticaltech.org/chapters/strategise/3-2-building-new-approaches-to-security.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/strategise.html)
-[3.4 Security in Groups and Organisations](https://holistic-security.tacticaltech.org/chapters/strategise/3-4-security-in-groups-and-organisations.html)
+- Implement tactics to control who accesses your information and communications
+- Establish protocols for device security during travel or high-risk situations
+- Plan for secure data backup and recovery
+
+## Balancing Planning with Agility
+
+Solid, up-to-date security plans complement resilience and agility but cannot replace them. In addition to detailed analysis and planning, prepare for the unexpected. While security plans are important tools, the ability to adapt and deviate from them when situations require is equally—if not more—important.
+
+Developing a sense of calm and centeredness is vital for situations that arise unexpectedly or that you could not have planned for.
+
+> **Note:** When developing plans for groups or organizations, additional steps may be necessary to ensure group dynamics are not negatively affected.
+
+---
+
+**Related Topics:**
+- Building New Approaches to Security
+- Security in Groups and Organizations
+- Acceptance, Deterrence and Protection Tactics

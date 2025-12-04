@@ -1,63 +1,99 @@
-# Non-violent Feedback
+---
+title: "Non-violent Feedback Exercise"
+tags: [communication, team-dynamics, conflict-resolution, feedback, non-violent-communication]
+category: "Communication Skills"
+difficulty: "Beginner"
+audience: [Teams, Facilitators, Activists, Organizational Leaders]
+topics: ["Non-violent Communication", "Team Communication", "Conflict Prevention", "Feedback Techniques"]
+summary: "A practical exercise for practicing non-violent communication techniques to improve feedback effectiveness within teams and groups."
+source: "Holistic Security - Tactical Tech"
+content_type: "Exercise Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["None"]
+estimated_read_time: "4 minutes"
+---
+
+# Non-violent Feedback Exercise
 
 ![Prepare detail 05](https://holistic-security.tacticaltech.org/media/exercises/images/default/prepare_detail_05.jpg%3F1465900278)
 
-## Purpose & Output
+## Purpose
 
-The purpose of this exercise is to practice Non-violent Communication as a means of improving the effectiveness of communication about security within teams and groups. It provides for a reflection on how we can give our feedback in an understandable, clear way and avoid some of the pitfalls which can lead to arguments or ineffective communication.
+This exercise helps participants practice Non-violent Communication (NVC) as a method for improving how security concerns and other sensitive topics are discussed within teams. It provides a structured approach to giving feedback that is clear, understandable, and less likely to trigger defensive reactions or arguments.
 
-The exercise is best carried out in pairs at first, although it can be adapted for larger groups.
+**Output:** Improved feedback skills and awareness of communication patterns that can prevent team conflicts.
 
-## Input & Materials
+## Materials Needed
 
-It may be useful to write the guidelines for non-violent feedback somewhere visible, like on a flip-chart.
+- Flip-chart or visible surface to display the feedback guidelines
+- Space for pairs to conduct private discussions
 
-## Format & Steps
+## Exercise Format
 
-Decide on a setting for conducting a feedback discussion (this can be done in pairs, or with observers, taking turns). The participants should choose a topic (real or imaginary) about which they want to give feedback. This can be a security-related topic, such as an incident which took place already, or something else entirely.
+**Group Size:** Pairs (can include observers who rotate)
 
-Ask the person giving feedback to follow the guidelines below. For each guideline, a small illustrative example is given. Here, we are imagining a scenario in which two colleagues are talking: one of the colleagues often works late and once forgot to lock the door of the office when leaving; the other colleague wants to talk about the incident.
+### Steps
 
-The recipient of the feedback should only ask questions of clarification but not comment, reply, justify or question the content of the feedback.
+1. **Pair up** participants and decide who will give feedback first
+2. **Choose a topic** for feedback—this can be:
+   - A real or imaginary security-related incident
+   - Any workplace or team situation requiring constructive feedback
+3. **Conduct the feedback session** following the guidelines below
+4. **Switch roles** and repeat
+5. **Debrief as a group** about the process (not the content)
 
-* * *
+> **Important:** The person receiving feedback should only ask clarifying questions. They should not comment, reply, justify, or question the content of the feedback.
 
-### Guidelines for Non-violent Feedback
+---
 
-**I speak for myself.** You can only speak from your own subjective experience - not about 'common sense', 'my group', 'we', or 'one', but only 'I'.
+## Guidelines for Non-violent Feedback
 
-_e.g. “I felt unsafe when I found the office unlocked this morning”._
+### 1. Speak for Yourself
 
-Bad practice: _“What you did yesterday put us in danger!”_
+Use "I" statements based on your own subjective experience—not "common sense," "my group," "we," or "one."
 
-**What did you observe?** You should speak only of the facts as you experienced them, so the interlocutor knows what your feedback is referring to (what you saw, heard, etc.).
+> *Example: "I felt unsafe when I found the office unlocked this morning."*
 
-_e.g.: “When I arrived at the office this morning, the front door was unlocked and I could open it without the key”._
+### 2. Describe What You Observed
 
-Bad practice: _“You forgot to lock the door yesterday_!”.
+State only the facts as you experienced them (what you saw, heard, etc.) so the listener understands what your feedback refers to.
 
-**What was your reaction to it?** What were your internal feelings and physical reaction to your experience? Try not to be judgemental towards them, but again, simply speak from your experience as you understand it.
+### 3. Share Your Reaction
 
-_e.g. “I was very worried, because I thought maybe we had been robbed. When I found that everything was OK, I was still quite angry.”_
+Describe your internal feelings and physical reactions without being judgmental. Speak from your experience as you understand it.
 
-**How do you interpret it?** What does your personal interpretation bring to the facts? Although your personal interpretation is indeed subjective, it is still valuable and colours your experience.
+> *Example: "I was very worried because I thought maybe we had been robbed. When I found that everything was OK, I was still quite angry."*
 
-_e.g. “I think it happened because you have been working very late and were tired and simply forgot to close it”_
+### 4. Offer Your Interpretation
 
-**What are your wishes, advice, or interests?** What are your suggestions for change based on this experience? They should be offered without demands, but rather as requests for consideration by the group.
+Share what your personal interpretation adds to the facts. Acknowledge that it is subjective, but recognize that it still shapes your experience.
 
-_e.g. “I would feel better if I knew we were all getting enough rest and not overworking so that we could better take care of things like this, so it would be better if you didn't work so late”._
+> *Example: "I think it happened because you have been working very late and were tired and simply forgot to close it."*
 
-* * *
+### 5. Express Your Wishes or Suggestions
 
-Ask the pairs to then share their insights on the process and manner of giving feedback – not about the content. Did they experience different feelings than when they normally receive feedback?
+Offer suggestions for change as requests for consideration—not demands.
 
-This exercise can also be used to clarify the content and tone of your feedback as a preparation for an actual feedback session or potentially difficult discussion.
+> *Example: "I would feel better if I knew we were all getting enough rest and not overworking, so it would be better if you didn't work so late."*
 
-## Remarks & Tips
+---
 
-It is important to receive feedback with your ears and not with your mouth, and understand it as a personal reflection from your partner, not as 'the truth' or an invitation to justify or defend your actions. You decide yourself if it is valuable to you and how to react to it. Following such an approach might be a preventive step for conflicts within your team. As such, it can contribute to your overall well-being.
+## Debrief Discussion
 
-If you are interested in deepening modes of communication which deal sensitively with conflict, you might want to have a look at non-violent communication approaches.
+After completing the exercise, have pairs share their insights about:
+- The **process and manner** of giving feedback (not the content)
+- Whether they experienced different feelings than during typical feedback situations
+- What they found challenging or helpful about the structure
 
-Be aware that 'speaking for myself only' is not appropriate in many regions around the world. Adapt the methodology so that it fits your needs and setting.
+## Tips for Facilitators
+
+- **For receivers:** Listen with your ears, not your mouth. Understand feedback as a personal reflection from your partner—not as "the truth" or an invitation to defend yourself. You decide whether it's valuable and how to respond.
+
+- **Cultural adaptation:** The "speaking for myself only" approach may not be appropriate in all cultural contexts. Adapt the methodology to fit your group's needs and setting.
+
+- **Extended use:** This exercise can also serve as preparation for actual feedback sessions or potentially difficult discussions by helping clarify content and tone in advance.
+
+## Further Learning
+
+For those interested in deepening communication skills that deal sensitively with conflict, explore formal Non-violent Communication (NVC) training and resources developed by Marshall Rosenberg.

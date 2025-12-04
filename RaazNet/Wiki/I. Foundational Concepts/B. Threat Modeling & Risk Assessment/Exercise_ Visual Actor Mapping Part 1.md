@@ -1,52 +1,83 @@
-# Visual Actor Mapping: Part 1
+---
+title: "Visual Actor Mapping: Part 1"
+tags: [threat-modeling, actor-mapping, security-planning, risk-assessment, visualization]
+category: "Security Planning"
+difficulty: "Beginner"
+audience: [Activists, Human Rights Defenders, NGO Staff, Community Organizers]
+topics: ["Threat Modeling", "Security Assessment", "Stakeholder Analysis"]
+summary: "Hands-on exercise for visualizing relationships with actors in your security context, categorizing them by connection intensity."
+source: "Tactical Tech - Holistic Security"
+content_type: "Exercise"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Understanding of your organization's work and context"]
+estimated_read_time: "8 minutes"
+---
 
-![Explore detail 02](https://holistic-security.tacticaltech.org/media/exercises/images/default/explore_detail_02.jpg%3F1465900328)
+# Visual Actor Mapping: Part 1
 
 ## Purpose & Output
 
-The idea of this exercise is to begin a process of visualising yourself, your group or organisation and your relationships to the other actors around you, including direct, indirect and potential future connections.
+This exercise helps you visualize yourself, your group, or organization and your relationships to other actors around you. You'll map direct, indirect, and potential future connections to build a foundation for threat analysis.
 
-In this part, we suggest that you focus on brainstorming who the actors around you are and the intensity of your relationship with them (direct, indirect, or potential). In the next step of the exercise, you will extend the visualisation or map to include the types of relationship you have with them.
+In this first part, focus on brainstorming who the actors around you are and the intensity of your relationship with them. In Part 2, you'll extend this map to include the types of relationships you have with each actor.
 
-## Input & Materials
-
-If you want to carry out this activity in a group, you will need:
+## Materials Needed
 
 - Butcher-block or flip-chart paper
-- Coloured markers or pens
-- Sticky-notes / Post-its
+- Colored markers or pens
+- Sticky notes / Post-its
 
-## Format & Steps
+## Exercise Steps
 
-Written/drawn visualisation
+Use sticky notes—each with the name of one actor in your context—to visually map them and the relationships between them.
 
-In this exercise we suggest that you use sticky-notes or post-its, each with the name of one actor in your context, to visually map them and the relationships between them.
+### Step 1: Identify Actors
 
-1\. Start with yourself or your organisation as an entity and brainstorm and identify as many actors related to your work as possible. This can include individuals, groups, organisations or institutions. Consider local, regional, national and international actors where necessary.
+Start with yourself or your organization as the central entity. Brainstorm and identify as many actors related to your work as possible, including:
 
-2\. Once you have identified as many of the actors as you can, place them on the wall or sheet, with yourself (and/or your target group, if they are identifiable) in the centre.
+- Individuals
+- Groups
+- Organizations
+- Institutions
 
-3\. Consider the following categorisations for these actors:
+Consider actors at local, regional, national, and international levels.
 
-**Direct**: People, groups, organisations, institutions that have direct contact with you on the issue you are trying to impact. For example, you probably have a direct relationship to the target-group you work for, and some entities directly opposed to your work who directly challenge or confront you.
+### Step 2: Map by Connection Intensity
 
-You may also want to include members of the community around you including your family and friends who may support or oppose your work in one way or another.
+Place actors on the wall or sheet with yourself (and/or your target group) in the center. Organize them by relationship intensity:
 
-**Indirect**: These can include people, groups, organisations or institutions that are one step removed from you. In the example above, if your target group has a direct relationship with you, they may be in direct relationship with others. These become indirectly connected to you.
+**Direct Connections**
+People, groups, organizations, or institutions that have direct contact with you on your work. Examples include:
+- Target groups you serve
+- Entities directly opposed to your work who challenge or confront you
+- Family and friends who support or oppose your work
 
-**Potential/Peripheral**: People, groups, organisations and institutions which relate to the issue, but with whom you don't (yet) have a connection or relationship. Examples of these include international bodies which are supportive of your issue, but aren't (yet) active in your context.
+**Indirect Connections**
+Actors one step removed from you. For example:
+- If your target group has a direct relationship with you, those they connect with directly become your indirect connections
 
-**Note:** _Actors and information_
+**Potential/Peripheral Connections**
+Actors who relate to your issue but with whom you don't yet have a relationship. Examples include:
+- International bodies supportive of your issue but not yet active in your context
+- Organizations working on similar issues in other regions
 
-Although it may not have occurred to you, you may want to include actors on whom you rely to manage your information and communication. These can include:
+### Step 3: Include Information Actors
 
-- your telephone service provider
-- your internet service provider
-- social media account providers
-- email account providers.
+Don't forget actors who handle your information:
+- Telephone service provider
+- Internet service provider
+- Social media platforms
+- Email providers
 
-We will explore these actors in more detail in the next exercise.
+These actors will be explored in greater detail in subsequent exercises.
 
-## Remarks & Tips
+## Tips
 
-In the next and subsequent Chapters, we will expand our knowledge of these actors and use them to build our analysis of threats. Once you have finished this exercise, it's a good idea to keep a list of these actors for future reference and elaboration.
+- Keep your completed actor list for future reference—you'll expand on it in later chapters
+- This map forms the foundation for threat analysis exercises
+- Update your map as relationships and contexts change
+
+---
+
+*This exercise continues in [[Visual Actor Mapping Part 2]], where you'll categorize the types of relationships you have with each actor.*

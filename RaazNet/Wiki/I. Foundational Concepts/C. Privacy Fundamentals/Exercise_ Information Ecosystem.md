@@ -1,51 +1,89 @@
-# Information Ecosystem
+---
+title: "Exercise: Information Ecosystem Mapping"
+tags: [information-security, asset-inventory, risk-assessment, data-classification, security-planning]
+category: "Security Planning"
+difficulty: "Intermediate"
+audience: [Human Rights Activists, NGO Staff, Security Trainers]
+topics: ["Information Security", "Asset Management", "Risk Assessment"]
+summary: "A structured exercise for inventorying and classifying information assets to develop data protection policies."
+source: "Tactical Tech - Holistic Security"
+content_type: "Exercise Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of digital security concepts", "Familiarity with organizational data handling"]
+estimated_read_time: "8 minutes"
+---
 
-![Explore detail 04](https://holistic-security.tacticaltech.org/media/exercises/images/default/explore_detail_04.jpg%3F1465900397)
+# Information Ecosystem Mapping Exercise
 
-## Purpose & Output
+## Purpose
 
-The purpose of this exercise is to take an inventory of the most important information assets you manage, in order to create policies for its safekeeping later on.
+This exercise helps you take inventory of your most important information assets, enabling you to create effective policies for their safekeeping.
 
-## Input & Materials
+## Output
 
-It may be helpful to reproduce the example table below, either by printing it or drawing it on a flip-chart or other materials.
+A comprehensive map of your information ecosystem that categorizes and classifies all significant data you manage.
 
-## Format & Steps
+## Materials Needed
 
-Brainstorming and documentation
+- Spreadsheet software, or
+- Large flip-chart paper with sticky notes, or
+- Printed version of the template table below
 
-To begin the exercise – especially in a group – it may be useful to use a spreadsheet, or a large sheet and sticky notes, or some other means which allow you to brainstorm easily and group things together.
+## Format
 
-Brainstorm and make a list of all of the data you manage. If you're not sure where to begin, consider:
+Brainstorming and documentation session (individual or group)
 
-- data related to each of your human rights activities
-- personal data and files, especially if stored on your work computer
-- browsing activities online, especially of sensitive data
-- emails, text messages and other communication related to your human rights activities.
+---
 
-Imagine a spreadsheet that has several columns enumerating categories as described below. Your task is to fill the rows with information.
+## Instructions
 
-Start with your **information at rest**, and for each type of information, elaborate on the following
+### Step 1: Identify Your Information Assets
 
-- What information is it?
-- Where does it reside?
-- Who has access to it?
-- How sensitive is it (secret / confidential / public) ?
-- How important is it to keep it?
-- Who has access to it?
-- How should it be protected?
-- How long should it be kept before destroyed?
+Begin by brainstorming all types of information you handle. Consider:
 
-Characterise and qualify the information you have mapped out.
+- **Activity-related data**: Information connected to your human rights work
+- **Personal data**: Files stored on work devices
+- **Browsing activities**: Especially research on sensitive topics
+- **Communications**: Emails, text messages, and other correspondence related to your work
 
-You can repeat the same process and expand the spreadsheet with additional entries for your **information in motion**; e.g. data being transferred (physically, electronically), communications over the internet or telecommunications networks.
+### Step 2: Map Information at Rest
 
-The questions and example in Table 2 below may help you with this.
+For each type of stored information, document the following in your spreadsheet:
 
-Remarks & Tips
+| Question | Purpose |
+|----------|---------|
+| What information is it? | Identify the asset |
+| Where does it reside? | Locate storage points |
+| Who has access to it? | Identify stakeholders |
+| How sensitive is it? | Classify as secret, confidential, or public |
+| How important is it to keep? | Assess retention value |
+| How should it be protected? | Determine security measures |
+| How long before destruction? | Set retention period |
 
-This process is iterative. Once you have done the first round, you may detect patterns and groupings. For instance, you may decide that since all financial information (regardless of type) has similar sensitivities and longevity, you can group them and think of them as a financial information category.
+### Step 3: Map Information in Motion
 
-Conversely, you might find yourself needing to expand a row into several rows. For instance, a row containing 'email' needs to be expanded to several rows to account for a subset of emails - and their safe-keeping - which is sensitive.
+Expand your inventory to include data being transferred:
 
-This should be a live document and will change according to shifts and developments in your situation. So you will benefit from regularly updating this document to account for any of these changes.
+- Physical transfers (documents, devices)
+- Electronic transfers (file sharing, uploads)
+- Internet communications (email, messaging)
+- Telecommunications (phone calls, SMS)
+
+Apply the same classification questions from Step 2.
+
+### Step 4: Identify Patterns and Refine
+
+Review your completed inventory and look for:
+
+- **Groupings**: Information with similar sensitivity levels can be categorized together (e.g., all financial data as one category)
+- **Expansions**: Broad categories that need subdivision (e.g., "email" may need separate rows for sensitive versus routine correspondence)
+
+---
+
+## Tips for Success
+
+- **Iterate**: Your first pass won't be perfect. Refine as patterns emerge.
+- **Keep it current**: Treat this as a living document that evolves with your situation.
+- **Review regularly**: Update whenever your circumstances, projects, or threats change.
+- **Be thorough**: Include information you might initially overlook, such as metadata or backup copies.

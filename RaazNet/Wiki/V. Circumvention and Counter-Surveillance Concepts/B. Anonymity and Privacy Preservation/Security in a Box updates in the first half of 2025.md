@@ -1,47 +1,58 @@
-Blog › Security in a Box updates in the first half of 2025
+---
+title: "Security in a Box Updates: First Half of 2025"
+tags: [security-in-a-box, digital-security, privacy-tools, travel-security, social-media-security]
+category: "Digital Security Resources"
+difficulty: "Beginner"
+audience: [Activists, Journalists, Privacy-Conscious Users, General Public]
+topics: ["Digital Security Tools", "Privacy Protection", "Security Guides"]
+summary: "Overview of Security in a Box updates including new search feature, RSS feed, travel security guide, and TikTok privacy guide."
+source: "Security in a Box (Tactical Tech)"
+content_type: "Article"
+security_level: "Informational"
+language: "English"
+prerequisites: ["None"]
+estimated_read_time: "3 minutes"
+---
 
-# [Anchor](https://securityinabox.org/en/blog/2025-Q1-Q2-updates/\#security-in-a-box-updates-in-the-first-half-of-2025) Security in a Box updates in the first half of 2025
+# Security in a Box Updates: First Half of 2025
 
-By Security in a Box
+**Published:** June 5, 2025  
+**Author:** Security in a Box Team
 
-Posted 2025.06.05
+All content in the guides linked from the Security in a Box home page has been completely updated over the past year and a half, with continuous updates and reviews incorporating community feedback via email and GitLab issues.
 
-![](https://securityinabox.org/media/en/blog/IDEO-CVC-2019-Thomas_Grimer7.jpg)
+Content is available in twelve languages: Arabic, Burmese, Chinese, Farsi, French, Indonesian, Pashto (with UN Women support), Portuguese, Russian, Spanish, Turkish, and Vietnamese.
 
-After almost 6 months from our latest blog post announcing news on Security in a Box, here's one more update on what's new in the website, starting with the announcement that at this point all the content in the guides linked from the home page has been completely updated in the past year and a half, and keeps being continuously updated and reviewed also thanks to the suggestions for improvement we receive through emails and Gitlab issues. Thanks to all the people who have taken the time to [give us feedback](https://gitlab.com/securityinabox/securityinabox.gitlab.io/-/blob/main/readme.md#how-to-give-feedback)!
+## New Features
 
-But there is more: we have created new guides, added new features, updated some more tool guides and kept translating all the new and updated content into twelve languages: Arabic, Burmese, Chinese, Farsi, French, Indonesian, Pashto (with the help of [UN Women](https://www.unwomen.org/en)), Portuguese, Russian, Spanish, Turkish and Vietnamese.
+### Site Search
+A search engine is now available—click the lens icon in the top right corner to find resources using keywords.
 
-Here's a complete list of what we added and updated in Security in a Box during the first quarter of 2025:
+### RSS Feed
+The blog now has an [RSS feed](https://securityinabox.org/rss.xml) for staying updated on new posts.
 
-## [Anchor](https://securityinabox.org/en/blog/2025-Q1-Q2-updates/\#new-features) New features
+### Assess & Plan Section
+A new [Assess & Plan section](https://securityinabox.org/en/assess-plan/) consolidates guides on threat assessment and protection planning, including:
+- [Physical security](https://securityinabox.org/en/assess-plan/physical-security)
+- [Safer communications](https://securityinabox.org/en/assess-plan/private-communication)
+- [Protecting information while traveling](https://securityinabox.org/en/assess-plan/safer-travel) (new)
 
-- Security in a Box has now a search engine. This means that you don't have to explore the whole website to find answers to your questions: just click the lens icon in the top right corner of the website and a pop-up window will open where you can enter your key words and find the resources you are looking for.
-- This blog has now an RSS feed that will allow you to keep yourself updated on everything we write here. If you use an RSS reader, click the RSS icon above the list of posts in the home page or just copy [this RSS feed link](https://securityinabox.org/rss.xml) and add it to the RSS feeds in your reader.
-- We have added new [Assess & Plan section](https://securityinabox.org/en/assess-plan/), which include guides on how to assess your needs and threats and get ready for protecting yourself against potential threats. The Assess & Plan section currently includes the guides on [physical security](https://securityinabox.org/en/assess-plan/physical-security) and on [safer communications](https://securityinabox.org/en/assess-plan/private-communication) that were previously located in different sections of the website, as well as the new [guide on how to Protect your information and devices while traveling](https://securityinabox.org/en/assess-plan/safer-travel).
+## New Guides
 
-## [Anchor](https://securityinabox.org/en/blog/2025-Q1-Q2-updates/\#new-guides-in-security-in-a-box) New guides in Security in a Box
+- **[Protect your information and devices while traveling](https://securityinabox.org/en/assess-plan/safer-travel/)** — Addresses current border security control restrictions worldwide
+- **[Protect your data when using TikTok](https://securityinabox.org/en/tools/tiktok/)** — For journalists, activists, and media outlets using the platform
 
-In the first quarter of the year, we added these new resources to Security in a Box:
+## Updated Guides
 
-- [Protect your information and devices while traveling](https://securityinabox.org/en/assess-plan/safer-travel/) \- a guide we felt was highly needed, especially given the current restrictions in border security controls around the world.
-- [Protect your data when using TikTok](https://securityinabox.org/en/tools/tiktok/) \- another guide that was long overdue, given how this platform is being used more and more as a communication channel by journalists, activists and media outlets.
+- [Safer communications section](https://securityinabox.org/en/communication/) (complete section)
+- [Instagram privacy guide](https://securityinabox.org/en/tools/instagram/)
+- [X (Twitter) privacy guide](https://securityinabox.org/en/tools/x-twitter/)
+- [Online communication privacy](https://securityinabox.org/en/assess-plan/private-communication)
 
-## [Anchor](https://securityinabox.org/en/blog/2025-Q1-Q2-updates/\#guides-updated-in-2025) Guides updated in 2025
+## Contributing
 
-In the past 5 months, we have also completely reviewed the following guides:
+Security in a Box is open-source and welcomes feedback. See the [README page](https://gitlab.com/securityinabox/securityinabox.gitlab.io/-/blob/main/readme.md#how-to-give-feedback) for instructions, or track planned updates in [GitLab issue #237](https://gitlab.com/securityinabox/securityinabox.gitlab.io/-/issues/237).
 
-- [The whole section on safer communications](https://securityinabox.org/en/communication/)
-- [Protect yourself and your data when using Instagram](https://securityinabox.org/en/tools/instagram/)
-- [Protect yourself and your data when using X](https://securityinabox.org/en/tools/x-twitter/)
-- [Protect the privacy of your online communication](https://securityinabox.org/en/assess-plan/private-communication)
+---
 
-## [Anchor](https://securityinabox.org/en/blog/2025-Q1-Q2-updates/\#whats-next) What's next
-
-In the next few months, we will keep updating, expanding and restructuring Security in a Box. If you are curious about what we are planning to do, have a look at [this Gitlab issue in particular](https://gitlab.com/securityinabox/securityinabox.gitlab.io/-/issues/237), where we have defined our general update plan and are keeping track of our progress.
-
-## [Anchor](https://securityinabox.org/en/blog/2025-Q1-Q2-updates/\#how-to-contribute) How to contribute
-
-Security in a Box is an open-source resource, and we always welcome comments and suggestions. You can find instructions on how to give us feedback in [our README page](https://gitlab.com/securityinabox/securityinabox.gitlab.io/-/blob/main/readme.md#how-to-give-feedback). We look forward to hearing from you, and to make Security in a Box always a bit more useful thanks to your input!
-
-_Image:_ [_Illustration to promote cybersecurity submitted in the Cybersecurity Visuals Challenge 2019 hosted by OpenIDEO, by Thomas Grimer_](https://commons.wikimedia.org/wiki/File:IDEO-CVC-2019-Thomas_Grimer7.jpg), licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/deed.en).
+*Image: [Cybersecurity Visuals Challenge 2019 illustration by Thomas Grimer](https://commons.wikimedia.org/wiki/File:IDEO-CVC-2019-Thomas_Grimer7.jpg), CC BY 4.0*

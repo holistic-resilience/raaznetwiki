@@ -1,51 +1,78 @@
-# Information Ecosystem
+---
+title: "Exercise: Information Ecosystem Mapping"
+tags: [information-security, asset-management, risk-assessment, data-protection, security-planning]
+category: "Security Planning"
+difficulty: "Intermediate"
+audience: [Human Rights Defenders, Activists, NGO Staff, Security Trainers]
+topics: ["Information Security", "Asset Inventory", "Data Classification", "Security Assessment"]
+summary: "A practical exercise for cataloging and classifying your information assets to develop appropriate protection policies."
+source: "Tactical Tech - Holistic Security"
+content_type: "Exercise"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of digital security concepts", "Familiarity with your organization's data handling practices"]
+estimated_read_time: "8 minutes"
+---
 
-![Explore detail 04](https://holistic-security.tacticaltech.org/media/exercises/images/default/explore_detail_04.jpg%3F1465900397)
+# Information Ecosystem Mapping Exercise
 
-## Purpose & Output
+## Purpose
 
-The purpose of this exercise is to take an inventory of the most important information assets you manage, in order to create policies for its safekeeping later on.
+This exercise helps you take inventory of your most important information assets—creating the foundation for developing effective safekeeping policies.
 
-## Input & Materials
+## What You'll Need
 
-It may be helpful to reproduce the example table below, either by printing it or drawing it on a flip-chart or other materials.
+- Spreadsheet software, or large paper with sticky notes
+- Time for brainstorming (individual or group setting)
 
-## Format & Steps
+## Exercise Steps
 
-Brainstorming and documentation
+### Step 1: Identify Your Information Assets
 
-To begin the exercise – especially in a group – it may be useful to use a spreadsheet, or a large sheet and sticky notes, or some other means which allow you to brainstorm easily and group things together.
+Begin by brainstorming all types of information you manage:
 
-Brainstorm and make a list of all of the data you manage. If you're not sure where to begin, consider:
+- **Activity data**: Information related to your human rights or advocacy work
+- **Personal data**: Files stored on work devices
+- **Browsing history**: Especially research on sensitive topics
+- **Communications**: Emails, text messages, and other correspondence related to your work
 
-- data related to each of your human rights activities
-- personal data and files, especially if stored on your work computer
-- browsing activities online, especially of sensitive data
-- emails, text messages and other communication related to your human rights activities.
+### Step 2: Map Information at Rest
 
-Imagine a spreadsheet that has several columns enumerating categories as described below. Your task is to fill the rows with information.
+For each type of stored information, document the following:
 
-Start with your **information at rest**, and for each type of information, elaborate on the following
+| Question | Purpose |
+|----------|---------|
+| What information is it? | Identify the asset |
+| Where does it reside? | Locate storage points |
+| Who has access to it? | Identify access controls |
+| How sensitive is it? | Classify as secret, confidential, or public |
+| How important is it to keep? | Assess retention value |
+| How should it be protected? | Determine security measures |
+| How long before destruction? | Set retention timeline |
 
-- What information is it?
-- Where does it reside?
-- Who has access to it?
-- How sensitive is it (secret / confidential / public) ?
-- How important is it to keep it?
-- Who has access to it?
-- How should it be protected?
-- How long should it be kept before destroyed?
+### Step 3: Map Information in Motion
 
-Characterise and qualify the information you have mapped out.
+Expand your inventory to include data being transferred:
 
-You can repeat the same process and expand the spreadsheet with additional entries for your **information in motion**; e.g. data being transferred (physically, electronically), communications over the internet or telecommunications networks.
+- Physical transfers (documents, storage devices)
+- Electronic transfers (file sharing, uploads)
+- Communications (internet, telecommunications)
 
-The questions and example in Table 2 below may help you with this.
+Apply the same questions from Step 2 to this category.
 
-Remarks & Tips
+### Step 4: Identify Patterns and Refine
 
-This process is iterative. Once you have done the first round, you may detect patterns and groupings. For instance, you may decide that since all financial information (regardless of type) has similar sensitivities and longevity, you can group them and think of them as a financial information category.
+Review your completed inventory for:
 
-Conversely, you might find yourself needing to expand a row into several rows. For instance, a row containing 'email' needs to be expanded to several rows to account for a subset of emails - and their safe-keeping - which is sensitive.
+- **Groupings**: Similar items may share protection requirements (e.g., all financial data might need the same handling)
+- **Expansions**: Some categories may need subdivision (e.g., "email" might split into sensitive correspondence versus routine messages)
 
-This should be a live document and will change according to shifts and developments in your situation. So you will benefit from regularly updating this document to account for any of these changes.
+## Tips for Success
+
+- **Iterate**: Your first pass won't be perfect—refine as you discover patterns
+- **Keep it current**: Update this document as your situation changes
+- **Be thorough**: Consider both digital and physical information assets
+
+---
+
+*This exercise is part of the Holistic Security framework developed by Tactical Tech.*

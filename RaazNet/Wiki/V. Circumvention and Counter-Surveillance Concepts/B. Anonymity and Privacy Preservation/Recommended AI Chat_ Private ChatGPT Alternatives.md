@@ -1,187 +1,112 @@
-[Skip to content](https://www.privacyguides.org/en/ai-chat/#privacy-concerns-about-llms)
+---
+title: "AI Chat: Private ChatGPT Alternatives"
+tags: [ai, privacy, local-ai, llm, open-source]
+category: "Privacy Tools"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, Technical Users, General Public]
+topics: ["AI Privacy", "Local AI", "Large Language Models"]
+summary: "Guide to running AI chat locally for privacy, including hardware requirements, model selection, and recommended clients."
+source: "Privacy Guides"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic computer literacy", "Command line familiarity helpful"]
+estimated_read_time: "10 minutes"
+---
 
-![](https://www.privacyguides.org/en/assets/img/cover/ai-chatbots.webp)
+# AI Chat: Private Alternatives to Cloud-Based LLMs
 
-# AI Chat
-
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/ai-chat.md?plain=1 "Edit this page")
-
-Protects against the following threat(s):
-
-- [Service Providers](https://www.privacyguides.org/en/basics/common-threats/#privacy-from-service-providers)
-- [Surveillance Capitalism](https://www.privacyguides.org/en/basics/common-threats/#surveillance-as-a-business-model)
-- [Censorship](https://www.privacyguides.org/en/basics/common-threats/#avoiding-censorship)
-
-The use of **AI chat**, also known as Large Language Models (LLMs), has become increasingly common since the release of ChatGPT in 2022. LLMs can help us write better, understand unfamiliar subjects, or answer a wide range of questions. They work by statistically predicting the next word in their responses based on a vast amount of data scraped from the web.
+The use of AI chat, also known as Large Language Models (LLMs), has become increasingly common since ChatGPT's release in 2022. LLMs can help with writing, understanding unfamiliar subjects, and answering a wide range of questions. They work by statistically predicting the next word in responses based on vast amounts of web-scraped data.
 
 ## Privacy Concerns About LLMs
 
-Data used to train AI models, however, includes a massive amount of publicly available data scraped from the web, which can include sensitive information like names and addresses. Cloud-based AI software often [collects your inputs](https://openai.com/policies/row-privacy-policy), meaning your chats are not private from them. This practice also introduces a risk of data breaches. Furthermore, there is a real possibility that an LLM will leak your private chat information in future conversations with other users.
+Data used to train AI models includes massive amounts of publicly available web data, which can contain sensitive information like names and addresses. Cloud-based AI software often [collects your inputs](https://openai.com/policies/row-privacy-policy), meaning your chats are not private. This introduces data breach risks and the possibility that an LLM could leak your private information in future conversations with other users.
 
-If you are concerned about these practices, you can either refuse to use AI, or use [truly open-source models](https://proton.me/blog/how-to-build-privacy-first-ai) which publicly release and allow you to inspect their training datasets. One such model is [OLMoE](https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) made by [Ai2](https://allenai.org/open-data).
+**Privacy-preserving alternatives:**
+- Use [truly open-source models](https://proton.me/blog/how-to-build-privacy-first-ai) with publicly released, inspectable training datasets (e.g., [OLMoE](https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) by [Ai2](https://allenai.org/open-data))
+- Run AI models locally so data never leaves your device
 
-Alternatively, you can run AI models locally so that your data never leaves your device and is therefore never shared with third parties. As such, local models are a more private and secure alternative to cloud-based solutions and allow you to share sensitive information to the AI model without worry.
+Local models are a more private and secure alternative to cloud-based solutions, allowing you to share sensitive information without worry.
 
-## AI Models
+## Hardware Requirements for Local AI
 
-### Hardware for Local AI Models
+Local models are fairly accessible. Smaller models can run on as little as 8 GB of RAM at lower speeds. Dedicated GPUs with sufficient VRAM or systems with fast LPDDR5X memory offer the best experience.
 
-Local models are also fairly accessible. It's possible to run smaller models at lower speeds on as little as 8 GB of RAM. Using more powerful hardware such as a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory offers the best experience.
+Models range from 1.3B to 405B parameters:
+- **Below 6.7B**: Basic tasks like text summaries
+- **7B to 13B**: Good compromise between quality and speed
+- **~70B**: Advanced reasoning capabilities
 
-LLMs can usually be differentiated by the number of parameters, which can vary between 1.3B to 405B for open-source models available for end users. For example, models below 6.7B parameters are only good for basic tasks like text summaries, while models between 7B and 13B are a great compromise between quality and speed. Models with advanced reasoning capabilities are generally around 70B.
+[Quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) offer the best balance between quality and performance for consumer hardware.
 
-For consumer-grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance. Check out the table below for more precise information about the typical requirements for different sizes of quantized models.
+| Model Size | Minimum RAM | Minimum Processor |
+|------------|-------------|-------------------|
+| 7B | 8 GB | Modern CPU (AVX2 support) |
+| 13B | 16 GB | Modern CPU (AVX2 support) |
+| 70B | 72 GB | GPU with VRAM |
 
-| Model Size (in Parameters) | Minimum RAM | Minimum Processor |
-| --- | --- | --- |
-| 7B | 8 GB | Modern CPU (AVX2 support) |
-| 13B | 16 GB | Modern CPU (AVX2 support) |
-| 70B | 72 GB | GPU with VRAM |
+## Choosing a Model
 
-To run AI locally, you need both an AI model and an AI client.
+[Hugging Face](https://huggingface.co/models) lets you browse and download models in formats like [GGUF](https://huggingface.co/docs/hub/en/gguf). Quality open-weights models come from Mistral, Meta, Microsoft, Google, and community fine-tuned versions.
 
-### Choosing a Model
+**Useful benchmarks:**
+- [LM Arena](https://lmarena.ai/) - Community-driven leaderboard
+- [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) - Open-weights model benchmarks
+- Specialized benchmarks for [emotional intelligence](https://eqbench.com/) and other factors
 
-There are many permissively licensed models available to download. [Hugging Face](https://huggingface.co/models) is a platform that lets you browse, research, and download models in common formats like [GGUF](https://huggingface.co/docs/hub/en/gguf). Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. However, there are also many community models and [fine-tuned](https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)) models available. As mentioned above, quantized models offer the best balance between model quality and performance for those using consumer-grade hardware.
+## Recommended AI Chat Clients
 
-To help you choose a model that fits your needs, you can look at leaderboards and benchmarks. The most widely-used leaderboard is the community-driven [LM Arena](https://lmarena.ai/). Additionally, the [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) focuses on the performance of open-weights models on common benchmarks like [MMLU-Pro](https://arxiv.org/abs/2406.01574). There are also specialized benchmarks which measure factors like [emotional intelligence](https://eqbench.com/), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and [many others](https://nebuly.com/blog/llm-leaderboards).
-
-## AI Chat Clients
-
-| Feature | [Kobold.cpp](https://www.privacyguides.org/en/ai-chat/#koboldcpp) | [Ollama](https://www.privacyguides.org/en/ai-chat/#ollama-cli) | [Llamafile](https://www.privacyguides.org/en/ai-chat/#llamafile) |
-| --- | --- | --- | --- |
-| GPU Support |  |  |  |
-| Image Generation |  |  |  |
-| Speech Recognition |  |  |  |
-| Auto-download Models |  |  | Few models available |
-| Custom Parameters |  |  |  |
-| Multi-platform |  |  | Size limitations on Windows |
+| Feature | Kobold.cpp | Ollama | Llamafile |
+|---------|------------|--------|-----------|
+| GPU Support | ✓ | ✓ | ✓ |
+| Image Generation | ✓ | ✗ | ✗ |
+| Speech Recognition | ✓ | ✗ | ✗ |
+| Auto-download Models | ✓ | ✓ | Limited |
+| Custom Parameters | ✓ | ✓ | ✓ |
+| Multi-platform | ✓ | ✓ | Limited on Windows |
 
 ### Kobold.cpp
 
-![Kobold.cpp Logo](https://www.privacyguides.org/en/assets/img/ai-chat/kobold.png)
+Best for heavy customization and role-playing. Supports text models, [Stable Diffusion](https://stability.ai/stable-image) image generation, and [Whisper](https://github.com/ggerganov/whisper.cpp) speech recognition. Allows modifying parameters like temperature and system prompts, plus network tunneling for remote access.
 
-**Kobold.cpp** is an AI client that runs locally on your Windows, Mac, or Linux computer. It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
+**Note**: May not run on computers without AVX/AVX2 support.
 
-In addition to supporting a large range of text models, Kobold.cpp also supports image generators such as [Stable Diffusion](https://stability.ai/stable-image) and automatic speech recognition tools such as [Whisper](https://github.com/ggerganov/whisper.cpp).
-
-[Repository](https://github.com/LostRuins/koboldcpp#readme) [Documentation](https://github.com/LostRuins/koboldcpp/wiki "Documentation") [Source Code](https://github.com/LostRuins/koboldcpp "Source Code") [Security Policy](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md "Security Policy")
-
-Downloads
-
-- [Windows](https://github.com/LostRuins/koboldcpp/releases)
-- [macOS](https://github.com/LostRuins/koboldcpp/releases)
-- [Linux](https://github.com/LostRuins/koboldcpp/releases)
-
-Compatibility Issues
-
-Kobold.cpp might not run on computers without AVX/AVX2 support.
-
-Kobold.cpp allows you to modify parameters such as the AI model temperature and the AI chat's system prompt. It also supports creating a network tunnel to access AI models from other devices such as your phone.
+- [Repository & Downloads](https://github.com/LostRuins/koboldcpp)
 
 ### Ollama (CLI)
 
-![Ollama Logo](https://www.privacyguides.org/en/assets/img/ai-chat/ollama.png)
+Command-line client that's easy-to-use, widely compatible, and fast. No manual setup required—running `ollama run llama3.2` automatically downloads and runs the model. Maintains a [curated model library](https://ollama.com/library) vetted for performance and security. Supports [LLaVA](https://github.com/haotian-liu/LLaVA) and Llama vision capabilities.
 
-**Ollama** is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
-
-In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has experimental support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
-
-[Homepage](https://ollama.com/) [Documentation](https://github.com/ollama/ollama#readme "Documentation") [Source Code](https://github.com/ollama/ollama "Source Code") [Security Policy](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md "Security Policy")
-
-Downloads
-
-- [Windows](https://ollama.com/download/windows)
-- [macOS](https://ollama.com/download/mac)
-- [Linux](https://ollama.com/download/linux)
-
-Ollama simplifies the process of setting up a local AI chat by downloading the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, Ollama maintains their own [model library](https://ollama.com/library) where they host the files of various AI models. This ensures that models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
+- [Homepage](https://ollama.com/) | [Downloads](https://ollama.com/download)
 
 ### Llamafile
 
-![Llamafile Logo](https://www.privacyguides.org/en/assets/img/ai-chat/llamafile.webp)
+Lightweight, single-file executable backed by Mozilla. No setup required. Supports LLaVA but not speech recognition or image generation.
 
-**Llamafile** is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
+**Limitations**: Mozilla provides llamafiles for only some models, and Windows limits `.exe` files to 4 GB. Workaround: [load external weights](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights).
 
-Llamafile also supports LLaVA. However, it doesn't support speech recognition or image generation.
-
-[Repository](https://github.com/Mozilla-Ocho/llamafile#readme) [Documentation](https://github.com/Mozilla-Ocho/llamafile#quickstart "Documentation") [Source Code](https://github.com/Mozilla-Ocho/llamafile "Source Code") [Security Policy](https://github.com/Mozilla-Ocho/llamafile#security "Security Policy")
-
-Downloads
-
-- [Windows](https://github.com/Mozilla-Ocho/llamafile#quickstart)
-- [macOS](https://github.com/Mozilla-Ocho/llamafile#quickstart)
-- [Linux](https://github.com/Mozilla-Ocho/llamafile#quickstart)
-
-Mozilla has made llamafiles available for only some Llama and Mistral models, while there are few third-party llamafiles available. Moreover, Windows limits `.exe` files to 4 GB, and most models are larger than that.
-
-To circumvent these issues, you can [load external weights](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights).
+- [Repository](https://github.com/Mozilla-Ocho/llamafile)
 
 ## Securely Downloading Models
 
-If you use an AI client that maintains their own library of model files (such as [Ollama](https://www.privacyguides.org/en/ai-chat/#ollama-cli) and [Llamafile](https://www.privacyguides.org/en/ai-chat/#llamafile)), you should download it from there. However, if you want to download models not present in their library, or use an AI client that doesn't maintain its library (such as [Kobold.cpp](https://www.privacyguides.org/en/ai-chat/#koboldcpp)), you will need to take extra steps to ensure that the AI model you download is safe and legitimate.
-
-We recommend downloading model files from Hugging Face since it provides several features to verify that your download is genuine and safe to use.
-
-To check the authenticity and safety of the model, look for:
+For clients with built-in libraries (Ollama, Llamafile), download from there. For other sources like Hugging Face, verify:
 
 - Model cards with clear documentation
-- A verified organization badge
+- Verified organization badge
 - Community reviews and usage statistics
-- A "Safe" badge next to the model file (Hugging Face only)
-- Matching checksums[1](https://www.privacyguides.org/en/ai-chat/#fn:1)
-  - On Hugging Face, you can find the hash by clicking on a model file and looking for the **Copy SHA256** button below it. You should compare this checksum with the one from the model file you downloaded.
+- "Safe" badge next to model files
+- Matching checksums (verify with `sha256sum` on Linux/macOS or `certutil -hashfile file SHA256` on Windows)
 
-A downloaded model is generally safe if it satisfies all the above checks.
+## Selection Criteria
 
-## Criteria
+**Minimum Requirements:**
+- Open source
+- No transmission of personal/chat data
+- Multi-platform
+- Works without GPU (GPU support for fast inference)
+- No internet connection required
 
-Please note we are not affiliated with any of the projects we recommend. In addition to [our standard criteria](https://www.privacyguides.org/en/about/criteria/), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project and conduct your own research to ensure it's the right choice for you.
-
-### Minimum Requirements
-
-- Must be open source.
-- Must not transmit personal data, including chat data.
-- Must be multi-platform.
-- Must not require a GPU.
-- Must support GPU-powered, fast inference.
-- Must not require an internet connection.
-
-### Best-Case
-
-Our best-case criteria represent what we _would_ like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
-
-- Should be easy to download and set up, e.g. with a one-click installation process.
-- Should have a built-in model downloader option.
-- The user should be able to modify the LLM parameters, such as its system prompt or temperature.
-
-* * *
-
-1. A file checksum is a type of anti-tampering fingerprint. A developer usually provides a checksum in a text file that can be downloaded separately, or on the download page itself. Verifying that the checksum of the file you downloaded matches the one provided by the developer helps ensure that the file is genuine and wasn't tampered with in transit. You can use commands like `sha256sum` on Linux and macOS, or `certutil -hashfile file SHA256` on Windows to generate the downloaded file's checksum. [↩](https://www.privacyguides.org/en/ai-chat/#fnref:1)
-
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+**Best-Case Features:**
+- One-click installation
+- Built-in model downloader
+- Customizable LLM parameters (system prompt, temperature)

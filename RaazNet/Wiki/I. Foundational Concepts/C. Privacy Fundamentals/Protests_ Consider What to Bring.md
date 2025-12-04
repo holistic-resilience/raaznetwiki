@@ -1,39 +1,70 @@
-![Act detail 03](https://holistic-security.tacticaltech.org/media/chapters/images/default/act_detail_03.jpg%3F1460642672)
+---
+title: "Protests: Consider What to Bring"
+tags: [protests, physical-security, digital-security, activism, privacy, preparedness]
+category: "Protest Security"
+difficulty: "Beginner"
+audience: [Activists, Protesters, Human Rights Defenders]
+topics: ["Protest Safety", "Physical Security", "Digital Privacy", "Risk Mitigation"]
+summary: "Practical guide on what to bring and avoid bringing to protests, including digital security considerations and preparation for police searches."
+source: "Tactical Tech - Holistic Security"
+content_type: "Educational Guide"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic understanding of protest risks", "Completed context and risk analysis"]
+estimated_read_time: "4 minutes"
+---
 
-# 4.3 Protests: Consider What to Bring
+# Protests: Consider What to Bring
 
-It's important to think critically about what you bring with you to the protest. What you have on your person can both be extremely useful in preventing or responding to attacks or accidents, or used as a pretext to harass you. You should consider what to bring only once you've carried out your [context and risk analysis](https://holistic-security.tacticaltech.org/chapters/explore.html). Coordinate with your [affinity group](https://holistic-security.tacticaltech.org/chapters/act/4-1-2-protests-affinity-groups-care-for-yourself-and-others.html) to spread out resources according to each person's responsibility.
+Think critically about what you bring to a protest. Items on your person can be extremely useful for preventing or responding to attacks and accidents—or they can be used as a pretext to harass you. Make these decisions only after completing your context and risk analysis, and coordinate with your affinity group to distribute resources according to each person's responsibility.
 
-While each situation is unique, the following illustrative list may be useful:
+## Items to Avoid
 
-## Don't bring
+**Electronic devices** without first considering what's stored on them. Is there sensitive information? Remember that your mobile phone can track your location—this has been used to identify and harass peaceful protesters.
 
-- Electronic devices without considering what's on them first. Is there sensitive information stored there? Remember also that your mobile phone can be used to track your location and this has been used to identify and harass peaceful protesters in the past.1
-- Anything that might get you into trouble: anything that could be considered a weapon, or any illegal drugs or alcohol.
+**Anything that could cause legal problems**, including items that could be considered weapons, illegal drugs, or alcohol.
 
-## Do bring:
+## Essential Items to Bring
 
-- Any special medication you need.
-- Some cash, in case of emergency.
-- Comfortable clothing that allows you to move easily.
-- If you're bringing a phone, consider getting a new SIM card and new 'burner' phone. Remember to top-up your airtime credit in advance and bring a spare battery.
-- Emergency contacts: consider writing the most important ones on your arm or leg.
-- First aid and hygiene: a first aid kit, toilet roll and sanitary towels.
-- Food and water: bring high-energy food to eat and water both for drinking and washing wounds in emergencies. Bring enough supplies to last longer than the planned duration of your protest in case something changes.
-- Bring swimming goggles and a bandana or scarf in case tear gas is used, and some antacid solution for treating burns caused by it.
-- Consider bringing a camera for documenting abuses.
-- In some countries, not carrying ID could be a pretext for arrest, however in others, there is no obligation to carry it and it may even be used against you. Coordinate with your affinity group on whether to bring ID and if so, what kind.
+### Health and Safety
+- Any special medication you need
+- First aid kit
+- Toilet paper and sanitary products
+- Swimming goggles and bandana or scarf (protection against tear gas)
+- Antacid solution for treating tear gas burns
 
-## Prepare for being searched
+### Sustenance
+- High-energy food
+- Water for both drinking and washing wounds in emergencies
+- Supplies to last longer than the planned protest duration
 
-It's a common practice in many contexts for authorities to stop and search protesters, in order to prevent weapons or other illegal items such as alcohol or drugs being brought to the protest. However, this is also often used as a pretext for the intimidation or sexual harassment of protesters.
+### Practical Items
+- Some cash for emergencies
+- Comfortable clothing that allows easy movement
+- Camera for documenting abuses (optional)
 
-It's likely that there are well-established codes of practice governing how police can search you. Consult a lawyer and know the legal restraints that the police face around this, and what the practiced realities are in each situation. Prepare and practice any verbal resistance to a search (if it is possible to resist under certain circumstances) and ensure that you don't carry anything illegal with you. Let your affinity group know if you encounter this situation so that everyone can be alert.
+### Communication
+- If bringing a phone, consider a new SIM card and "burner" phone
+- Pre-loaded airtime credit
+- Spare battery
+- Emergency contacts written on your arm or leg
 
-* * *
+### Identification
+Coordinate with your affinity group on whether to bring ID. In some countries, not carrying ID could be a pretext for arrest. In others, there's no obligation to carry it and it may be used against you.
 
-1) [http://www.theguardian.com/world/2014/jan/21/ukraine-unrest-text-messages-protesters-mass-riot](http://www.theguardian.com/world/2014/jan/21/ukraine-unrest-text-messages-protesters-mass-riot)
+## Preparing for Searches
 
-[4.2 Protests: Affinity Groups - Care for Yourself and Others](https://holistic-security.tacticaltech.org/chapters/act/4-1-2-protests-affinity-groups-care-for-yourself-and-others.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/act.html)
-[4.4 Protests: Protect Your Identity and Information](https://holistic-security.tacticaltech.org/chapters/act/4-1-4-protests-protect-your-identity-and-information.html)
+Authorities commonly stop and search protesters to prevent weapons or illegal items from being brought to protests. However, this is also often used as a pretext for intimidation or harassment.
+
+**Before the protest:**
+- Consult a lawyer about legal restraints on police searches in your jurisdiction
+- Understand both the legal codes and practiced realities
+- Prepare and practice verbal resistance to searches (where legally possible)
+- Ensure you carry nothing illegal
+
+**During the protest:**
+- Alert your affinity group immediately if you encounter a search situation so everyone can stay alert
+
+---
+
+*Reference: [Ukraine protest text message surveillance case (2014)](http://www.theguardian.com/world/2014/jan/21/ukraine-unrest-text-messages-protesters-mass-riot)*

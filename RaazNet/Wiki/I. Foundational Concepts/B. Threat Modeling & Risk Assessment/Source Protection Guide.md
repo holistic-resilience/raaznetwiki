@@ -1,105 +1,127 @@
-[Skip to content](https://freedom.press/digisec/guides/source-protection/#main)
+```yaml
+---
+title: "Source Protection Guide for Journalists"
+tags: [journalism, source-protection, whistleblowers, secure-communication, digital-security, privacy]
+category: "Journalism Security"
+difficulty: "Intermediate"
+audience: [Journalists, Investigative Reporters, News Organizations, Media Professionals]
+topics: ["Source Protection", "Secure Communication", "Whistleblower Safety", "Journalistic Ethics"]
+summary: "Comprehensive guide for journalists on protecting confidential sources through secure communication channels and proactive security practices."
+source: "Freedom of the Press Foundation"
+content_type: "Educational Guide"
+security_level: "Advanced"
+language: "English"
+prerequisites: ["Basic understanding of journalism ethics", "Familiarity with digital communication tools"]
+estimated_read_time: "8 minutes"
+---
+```
 
-# Source protection
+# Source Protection Guide for Journalists
 
-![Header image of two women speaking to each other on a couch](https://media.freedom.press/media/images/source_protection_header.2e16d0ba.fill-1152x864.png)
+Journalists working on sensitive subjects must prioritize source protection before any contact occurs. This guide provides essential resources and strategies to ensure both you and your sources remain safe from surveillance and legal threats.
 
-Are you a journalist working on sensitive subjects? The effort to protect your sources needs to start before they contact you. These guides will help you create the processes that you need to make sure that both you and your sources stay safe from unwanted threats.
+## Why Source Protection Matters
 
-1. ![Header image, a close-up shot of recording equipment.](https://media.freedom.press/media/images/4769302765_330058be2e_z.2e16d0ba.fill-330x220.jpg)
+The effort to protect confidential sources cannot begin after they reach out—it must be built into your workflow from the start. Proactive security measures help prevent the exposure of source identities through metadata, communication records, or inadvertent digital traces.
 
+---
 
+## Essential Guides for Source Protection
 
+### 1. Addressing the First Contact Problem
 
+**[The First Time They Reach Out: Protect Sources from Themselves](https://freedom.press/digisec/blog/first-time-they-reach-out-protect-sources-themselves/)**
 
-## [The first time they reach out, protect sources from themselves](https://freedom.press/digisec/blog/first-time-they-reach-out-protect-sources-themselves/)
+One of the most significant challenges when working with sensitive sources is the "first contact problem"—when a source reaches out over a channel that could immediately compromise their confidentiality. This guide examines how to:
 
+- Proactively advertise secure tip channels
+- Reach out more safely in advance
+- Minimize risks during initial communication
 
+---
 
-One of the most significant challenges when working with sensitive sources is the “first contact problem” — when a source reaches out over a channel that could immediately compromise their confidentiality. In this guide, we examine how to get ahead of the first contact problem by proactively advertising secure tip channels and how to reach out more safely in advance.
+### 2. Secure Messaging with Signal
 
-2. ![Header image reading "Signal for beginners".](https://media.freedom.press/media/images/signal_for_beginners_2x.2e16d0ba.fill-330x220.png)
+**[Signal, the Secure Messaging App: A Guide for Beginners](https://freedom.press/digisec/blog/signal-beginners/)**
 
+A step-by-step walkthrough for setting up and using Signal, the industry-standard secure messaging application for confidential communications.
 
+---
 
+### 3. Building Effective Tip Pages
 
+**[Security Considerations for Confidential Tip Pages](https://freedom.press/digisec/blog/security-confidential-tip-pages/)**
 
-## [Signal, the secure messaging app: A guide for beginners](https://freedom.press/digisec/blog/signal-beginners/)
+Not all tip pages offer equal protection. This guide covers:
 
+- Comparing security properties of different tip channels (email, phone, Signal, SecureDrop)
+- Explaining source safety for those seeking anonymity
+- Common pitfalls to avoid when designing your tip page
 
+---
 
-In this guide, we walk you through how to set up and get started messaging with Signal, the secure messaging app.
+### 4. Working with Whistleblowers
 
-3. ![Header image showing pattern of mail envelope icons](https://media.freedom.press/media/images/secure_tip_page.2e16d0ba.fill-330x220.png)
+**[Working with Whistleblowers: A Guide for Journalists](https://whistleblower.org/resources/guides/working-with-whistleblowers-a-guide-for-journalists/)**
 
+Published by the Government Accountability Project, this comprehensive resource covers:
 
+- Common psychological and behavioral trends among whistleblowers
+- Legal threats whistleblowers face
+- Best practices for effective and secure engagement
 
+---
 
+### 5. Protecting Your Address Book
 
-## [Security considerations for confidential tip pages](https://freedom.press/digisec/blog/security-confidential-tip-pages/)
+**[To Protect Your Sources, Protect Your Address Book](https://freedom.press/digisec/blog/to-protect-your-sources-protect-your-address-book/)**
 
+Your contact list can become a liability. This guide examines:
 
+- How address books leak through cloud backups
+- Vulnerabilities to law enforcement requests
+- Strategies to minimize contact-related risks
 
-Not all tip pages are created equal! Some support the humble email and phone number, while others support a number of encrypted messaging channels such as Signal and SecureDrop. In this guide, we walk you through the strategy surrounding how to explain the varying security properties of these tip channels with, how to unpack source safety for those who desire anonymity, and pitfalls to avoid when crafting your tip page.
+---
 
-4. ![Header image reading, "Working with Whistleblowers: A Guide for Journalists](https://media.freedom.press/media/images/whistleblowers_header.2e16d0ba.fill-330x220.png)
+### 6. Reporting on Sensitive Health Topics
 
+**[Taking Care with Source Security When Reporting on Abortion](https://freedom.press/digisec/blog/abortion-reporting/)**
 
+Since the U.S. Supreme Court overturned *Roe v. Wade* in 2022, journalists covering reproductive health may encounter sources targeted by law enforcement. This guide addresses:
 
+- Types of data at risk in reproductive health reporting
+- Methods to minimize exposure when speaking with sensitive sources
 
+---
 
-## [Working with Whistleblowers: A Guide for Journalists](https://whistleblower.org/resources/guides/working-with-whistleblowers-a-guide-for-journalists/)
+### 7. Guidance for Potential Sources
 
+**[Here's How to Share Sensitive Leaks with the Press](https://freedom.press/digisec/blog/sharing-sensitive-leaks-press/)**
 
+A resource designed to share with potential sources, covering:
 
-This guide from the Government Accountability Project provides an in-depth look at common trends among whistleblowers, the legal threats they face, and tips for journalists on how to engage with them effectively and securely.
+- Security strategy before reaching out
+- Legal considerations for whistleblowers
+- How to use widely supported secure tip channels
 
-5. ![Little Black Book Address Book](https://media.freedom.press/media/images/little_black_book_address_book.2e16d0ba.fill-330x220.jpg)
+---
 
+## Key Takeaways
 
+1. **Be proactive**: Establish secure communication channels before sources need them
+2. **Advertise security options**: Make it easy for sources to find your secure tip page
+3. **Protect metadata**: Address books and communication logs can reveal source identities
+4. **Understand legal risks**: Both you and your sources face potential legal exposure
+5. **Use appropriate tools**: Match security measures to the sensitivity of the story
 
+---
 
+## Additional Resources
 
-## [To protect your sources, protect your address book](https://freedom.press/digisec/blog/to-protect-your-sources-protect-your-address-book/)
+- [Freedom of the Press Foundation Digital Security Guides](https://freedom.press/digisec/)
+- [SecureDrop](https://securedrop.org/) - Open-source whistleblower submission system
 
+---
 
-
-In this guide, we examine the many ways address books can be leaked, particularly through cloud backups that may be vulnerable to law enforcement requests, and how to minimize related risks.
-
-6. ![Photo of pro-choice protesters at a rally holding signs](https://media.freedom.press/media/images/51546401431_63ab41c862_b.2e16d0ba.fill-330x220.jpg)
-
-
-
-
-
-## [Taking care with source security when reporting on abortion](https://freedom.press/digisec/blog/abortion-reporting/)
-
-
-
-Since the U.S. Supreme Court overturned Roe v. Wade in 2022, journalists reporting on abortion may find themselves speaking to sources in reproductive health spaces targeted by law enforcement. In this guide, we examine several types of data at issue and how to minimize risk when speaking to sensitive sources.
-
-7. ![Screenshot from the New York Times tip page](https://media.freedom.press/media/images/nyt_tip_page.2e16d0ba.fill-330x220.png)
-
-
-
-
-
-## [Here's how to share sensitive leaks with the press](https://freedom.press/digisec/blog/sharing-sensitive-leaks-press/)
-
-
-
-If you’re looking for language to help you communicate best practices for reaching the press securely, our guide can help. We walk you through the security strategy and legal considerations that potential sources may want to think through before reaching out. We also introduce how to use widely supported tip channels.
-
-
-Image credit: [WOCinTech Chat](https://flic.kr/p/EkZ1KQ). CC-BY-2.0
-
-## Sign Up. Take Action.
-
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
-
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
-
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
-
-
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+*Header image credit: [WOCinTech Chat](https://flic.kr/p/EkZ1KQ). CC-BY-2.0*

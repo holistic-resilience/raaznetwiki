@@ -1,72 +1,121 @@
-![Strategise detail 05](https://holistic-security.tacticaltech.org/media/chapters/images/default/strategise_detail_05.jpg%3F1460642092)
+---
+title: "Assessing Organisational Security"
+tags: [organizational-security, security-assessment, security-planning, human-rights-defenders, capacity-building]
+category: "Organizational Security"
+difficulty: "Intermediate"
+audience: [Human Rights Defenders, NGO Staff, Security Managers, Activists]
+topics: ["Security Assessment", "Organizational Development", "Security Planning"]
+summary: "Framework for evaluating and improving security practices within organizations, including assessment criteria and strategies for overcoming resistance."
+source: "Tactical Tech - Holistic Security Guide"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of organizational structures", "Familiarity with security concepts"]
+estimated_read_time: "8 minutes"
+---
 
-# 3.5 Assessing Organisational Security
+# Assessing Organisational Security
 
-As an organisation, its likely that you already have some security measures in place. At the same time you probably feel if there is room for improvement – there usually is! Knowing where to start may seem overwhelming so it’s a good idea to carry out an assessment to get a realistic overview of your existing organisational security first.
+Most organizations already have some security measures in place, yet there's almost always room for improvement. Knowing where to start can feel overwhelming, so conducting a structured assessment provides a realistic overview of your existing organizational security.
 
-There are key people we should include in this process. These may differ from organisation to organisation and it might be helpful to include external advisers to help guide the process too. For example:
+## Who Should Be Involved
 
-- **Internal**\- Board of directors, executive directors, management and senior staff, regular staff and volunteers
+### Internal Stakeholders
+- Board of directors
+- Executive directors
+- Management and senior staff
+- Regular staff and volunteers
 
-- **External**\- Donors, external consultants and trainers
+### External Stakeholders
+- Donors
+- External consultants and trainers
 
+Each group brings different perspectives, advantages, and challenges to the assessment process. The process must be:
+- **Inclusive** — involving voices from all levels
+- **Participative** — encouraging active engagement
+- **Transparent** — sharing findings openly
+- **Non-judgmental** — creating psychological safety
 
-Involving each of these actors has advantages and disadvantages1 and it is important that the process is carried out in an inclusive, participative, transparent and non-judgemental manner. Formal hierarchies within organisations need to remain sensitive to the needs of their programme and 'field' staff or volunteers who may face greater risk in their day to day work. Staff and volunteers should also respect the fact that management face a difficult task in standardising an approach to security.
+> **Important:** Formal hierarchies must remain sensitive to programme and field staff who may face greater daily risks. Simultaneously, staff should recognize that management faces challenges in standardizing security approaches across the organization.
 
-## Criteria for assessment
+## Assessment Criteria
 
-We can begin by looking at some concrete issues and indicators to help assess how security protocols are observed by staff. Consider the following points:2
+Evaluate your organization across these key dimensions:
 
-- **Acquired security experience:** Do staff have experience of implementing security practices? Is this experience spread evenly across staff, or concentrated among a few individuals?
+### Acquired Security Experience
+- Do staff have experience implementing security practices?
+- Is this experience distributed across the team or concentrated among a few individuals?
 
-- **Attitudes and awareness:** Are people aware of the importance of security and protection? Are their attitudes towards it positive and open to making improvements? What barriers do they perceive? Are attitudes and awareness regarding digital security, physical security and psycho-social well-being shared across the organisation?
+### Attitudes and Awareness
+- Are people aware of the importance of security and protection?
+- Are attitudes positive and open to improvement?
+- What barriers do staff perceive?
+- Is awareness consistent across digital security, physical security, and psycho-social well-being?
 
-- **Skills, knowledge and training:** Resources, time and space need to be made available for training (either formal or informal). Is such training available to members of the organisation? Does this include training on psycho-social well-being and digital security?
+### Skills, Knowledge, and Training
+- Are resources, time, and space available for training (formal or informal)?
+- Does training include psycho-social well-being and digital security components?
 
-- **Security planning:** To what extent is security planning integrated into our work? How often are context analyses carried out and security plans created? Are plans updated regularly, and do they include digital device management and stress management?
+### Security Planning Integration
+- To what extent is security planning integrated into daily work?
+- How often are context analyses conducted and security plans created?
+- Are plans updated regularly?
+- Do plans include digital device management and stress management?
 
-- **Assignment of responsibilities:** Is there a clear division of responsibilities for implementation of our security practices? To what extent are these responsibilities observed, and what are the potential blockages?
+### Assignment of Responsibilities
+- Is there a clear division of security implementation responsibilities?
+- Are these responsibilities observed in practice?
+- What blockages exist?
 
-- **Ownership and compliance:** How are people involved in the organisational security planning, and to what extent do they observe the plans that exist? What are the problems which arise here, and how can they be overcome? How can the process be made more participative?
+### Ownership and Compliance
+- How are people involved in organizational security planning?
+- To what extent do staff observe existing plans?
+- What problems arise, and how can they be overcome?
+- How can the process become more participative?
 
-- **Response to indicators and incidents:** How often are security indicators shared? How often are they analysed and subsequently acted upon if necessary?
+### Response to Indicators and Incidents
+- How often are security indicators shared and analyzed?
+- Are indicators acted upon when necessary?
 
-- **Regular evaluation:** How often are security strategies and plans updated? Is there a concrete process in place for this, or is it ad- _hoc_? How can it be made more regular? What other problems exist and how can they be overcome?
+### Regular Evaluation
+- How often are security strategies and plans updated?
+- Is there a concrete process for updates, or is it ad-hoc?
+- What barriers exist to regular evaluation?
 
+## Creating an Improvement Plan
 
-Try completing the below exercise with your organisation to explore the extent to which security plans are observed and to lean what barriers people identify in cases of poor implementation.
+After assessment, develop an improvement plan that includes:
 
-> [Exercise: Assessment of Organisational Security Performance](https://holistic-security.tacticaltech.org/exercises/strategise/assessment-of-organisational-security-performance.html)
+1. **Clear objectives** — Define specific new best practices to implement
+2. **Timeline** — Specify who needs to be involved, when, and what's expected
+3. **Resource allocation** — Identify resources needed for each improvement
+4. **Capacity building** — Ensure staff and volunteers have time for required training
 
-When assessing our current situation we're likely to come up against areas which need improvement. These should provide the basis for updating and expanding our security plans and agreements. This process should:
+## Overcoming Resistance to Security Planning
 
-- have a clear objective in terms of new best practices to be implemented
+When introducing new security protocols, expect some resistance from management, staff, or volunteers. Understanding the sources of resistance helps address it effectively.
 
-- include a time-line, indicating who needs to be involved, when and what is expected of them
+### Common Sources of Resistance
 
-- clearly stipulate the resources needed for each improvement to be made.
+| Factor | Description |
+|--------|-------------|
+| **Personal concerns** | Security is deeply personal; individuals may have private reasons for resisting certain protocols |
+| **Learning curve** | New measures often require learning new skills, which can feel challenging |
+| **Power dynamics** | Poor handling of hierarchies can create friction |
+| **Lack of understanding** | Staff may not see the relevance to their specific role |
 
+### Strategies for Addressing Resistance
 
-In order for improvements to take place, we must make sure that staff and volunteers are granted time to undergo any required training or other capacity building necessary.
+- **Create safe spaces** where individuals can comfortably voice concerns about new policies or operational changes
+- **Listen actively** to understand underlying concerns rather than dismissing objections
+- **Explain the "why"** behind new protocols to build understanding
+- **Involve staff in planning** to increase ownership and buy-in
+- **Provide adequate support** during transitions to new practices
 
-## Overcoming resistance to security planning3
+## Additional Resources
 
-When introducing new security protocols, we may be confronted with resistance from management, staff, or volunteers. Remember that security is a deeply personal concept and people may have personal reasons for resisting certain protocols. New measures can require having to learn new skills which can be challenging and poor handling of power dynamics and hierarchies can pay a role too.
+- [Exercise: Assessment of Organisational Security Performance](https://holistic-security.tacticaltech.org/exercises/strategise/assessment-of-organisational-security-performance.html)
 
-Take a look at this chart to learn about common resistance stereotypes, the underlying causes and possible responses to help overcome resistance in your group, organisation or community, or download the full-length chapter for a detailed look as overcoming resistance.
+---
 
-When dealing with resistance to security planning, it's always important to create a safe space in which individuals can comfortably voice their concerns around any new policies or operational changes. Check back to [Section I \| Prepare](https://holistic-security.tacticaltech.org/chapters/prepare.html) to read more about creating safe spaces.
-
-Now read on to learn about improving the positive impact of your security measures and reducing possible negative impact with the Do-No-Harm approach.
-
-* * *
-
-1)  For more detail on this see Chapter 1.3 “Managing organisational shift towards an improved security policy” in the _New Protection Manual for Human Rights Defenders_(2009) Protection International.
-
-2)  Based on Chapter 2.1 “Assessing organisational security performance: the security wheel” in the _New Protection Manual for Human Rights Defenders_(2009) Protection international.
-
-3)  Based on material from Chapter 2.3, _New Protection Manual for Human Rights Defenders_ (2009) Protection International, p.153.
-
-[3.4 Security in Groups and Organisations](https://holistic-security.tacticaltech.org/chapters/strategise/3-4-security-in-groups-and-organisations.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/strategise.html)
-[3.6 Security and the Do-No-Harm Approach](https://holistic-security.tacticaltech.org/chapters/strategise/3-6-security-and-the-do-no-harm-approach.html)
+*Based on material from the New Protection Manual for Human Rights Defenders (2009), Protection International.*

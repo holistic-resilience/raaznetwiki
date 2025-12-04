@@ -1,175 +1,135 @@
-[Skip to content](https://www.privacyguides.org/en/device-integrity/#general-advice)
+# Enhanced Document
 
-![](https://www.privacyguides.org/en/assets/img/cover/device-integrity.webp)
+```yaml
+---
+title: "Device Integrity: Detecting Spyware and Malware on Mobile Devices"
+tags: [device-security, spyware-detection, mobile-security, forensics, privacy-tools]
+category: "Mobile Security"
+difficulty: "Advanced"
+audience: [Security Researchers, Privacy-Conscious Users, Journalists, Activists]
+topics: ["Device Integrity", "Spyware Detection", "Mobile Forensics", "Digital Security"]
+summary: "Guide to tools and techniques for validating mobile device integrity and detecting indicators of compromise from spyware like Pegasus."
+source: "Privacy Guides"
+content_type: "Educational Guide"
+security_level: "Advanced"
+language: "English"
+prerequisites: ["Basic understanding of mobile operating systems", "Familiarity with command-line tools", "Understanding of threat modeling"]
+estimated_read_time: "12 minutes"
+---
+```
 
 # Device Integrity
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/device-integrity.md?plain=1 "Edit this page")
+These tools validate the integrity of mobile devices and check for indicators of compromise from spyware such as Pegasus, Predator, or KingsPawn. This guide focuses on **mobile security** because mobile devices typically have read-only systems with well-known configurations, making malicious modifications easier to detect than on desktop systems.
 
-These tools can be used to validate the integrity of your mobile devices and check them for indicators of compromise by spyware and malware such as Pegasus, Predator, or KingsPawn. This page focuses on **mobile security**, because mobile devices typically have read-only systems with well-known configurations, so detecting malicious modifications is easier than on traditional desktop systems. We may expand the focus of this page in the future.
+> **Note:** This is an advanced topic. These tools provide functionality most people don't need and often require in-depth technical knowledge to use effectively.
 
-This is an advanced topic
-
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to use effectively.
-
-It is **critical** to understand that scanning your device for public indicators of compromise is **not sufficient** to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on these publicly-available scanning tools can miss recent security developments and give you a false sense of security.
+> **Critical Warning:** Scanning your device for public indicators of compromise is **not sufficient** to determine a device is "clean." These publicly-available tools can miss recent security developments and may provide a false sense of security.
 
 ## General Advice
 
-The majority of system-level exploits on modern mobile devices—especially zero-click compromises—are non-persistent, meaning they will not remain or run automatically after a reboot. For this reason, we highly recommend rebooting your device regularly. We recommend everybody reboot their devices once a week at minimum, but if non-persistent malware is of particular concern for you, we and many security experts recommend a daily reboot schedule.
+Most system-level exploits on modern mobile devices—especially zero-click compromises—are **non-persistent**, meaning they don't remain active after a reboot. For this reason:
 
-This means an attacker would have to regularly re-infect your device to retain access, although we'll note this is not impossible. Rebooting your device also will not protect you against _persistent_ malware, but this is less common on mobile devices due to modern security features like secure/verified boot.
+- **Minimum recommendation:** Reboot your device weekly
+- **Higher-risk individuals:** Consider daily reboots
 
-## Post-Compromise Information & Disclaimer
+Rebooting means attackers must regularly re-infect your device to maintain access. However, rebooting won't protect against *persistent* malware, though this is less common on mobile devices due to secure/verified boot features.
 
-If any of the following tools indicate a potential compromise by spyware such as Pegasus, Predator, or KingsPawn, we advise that you contact:
+## If You Suspect Compromise
 
-- If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
-- If a business or government device is compromised: the appropriate security liaison at your enterprise, department, or agency
-- Local law enforcement
+### Who to Contact
 
-**We are unable to help you directly beyond this.** We are happy to discuss your specific situation or circumstances and review your results in our [community](https://discuss.privacyguides.net/) spaces, but it is unlikely we can assist you beyond what is written on this page.
+| Situation | Contact |
+|-----------|---------|
+| Human rights defenders, journalists, civil society | [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us) or [Access Now's Digital Security Helpline](https://accessnow.org/help) |
+| Business or government devices | Your organization's security liaison |
+| Personal devices | Local law enforcement (if appropriate) |
 
-The tools on this page are only capable of detecting indicators of compromise, not removing them. If you are concerned about having been compromised, we advise that you:
+### Immediate Steps
 
-- Consider replacing the device completely
-- Consider changing your SIM/eSIM number
-- Not restore from a backup, because that backup may be compromised
+1. Consider replacing the device completely
+2. Consider changing your SIM/eSIM number
+3. **Do not restore from backup**—the backup may be compromised
 
-These tools provide analysis based on the information they have the ability to access from your device, and publicly-accessible indicators of compromise. It is important to keep in mind two things:
+### Important Limitations
 
-1. Indicators of compromise are just that: _indicators_. They are not a definitive finding, and may occasionally be **false positives**. If an indicator of compromise is detected, it means you should do additional research into the _potential_ threat.
-2. The indicators of compromise these tools look for are published by threat research organizations, but not all indicators are made available to the public! This means that these tools can present a **false negative**, if your device is infected with spyware which is not detected by any of the public indicators. Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
+Indicators of compromise published by threat research organizations don't include all known indicators. These tools can present **false negatives** if your device is infected with spyware not detected by public indicators. Comprehensive forensic support requires access to non-public indicators and threat intelligence.
 
 ## External Verification Tools
 
-Protects against the following threat(s):
+External verification tools run on your computer and scan your mobile device for forensic traces that may indicate compromise.
 
-- [Targeted Attacks](https://www.privacyguides.org/en/basics/common-threats/#attacks-against-specific-individuals)
+> **Warning:** These tools can trigger false positives. If indicators of compromise are found, investigate further to determine actual risk. Findings that are years old likely indicate either false positives or previous (no longer active) compromise.
 
-External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
+### Mobile Verification Toolkit (MVT)
 
-Danger
+**Mobile Verification Toolkit (MVT)** is a collection of utilities that automates scanning mobile devices for traces of known spyware campaigns. Developed by Amnesty International, it was released in 2021 during the Pegasus Project investigation.
 
-Public indicators of compromise are insufficient to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on public indicators alone can miss recent forensic traces and give a false sense of security.
+- **Platforms:** macOS, Linux
+- **Homepage:** [mvt.re](https://mvt.re/)
+- **Source:** [GitHub](https://github.com/mvt-project/mvt)
 
-Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
+**Key Points:**
 
-Such support is available to civil society through [Amnesty International's Security Lab](https://amnesty.org/en/tech) or [Access Now’s Digital Security Helpline](https://accessnow.org/help).
+- MVT is most useful for **iOS devices**—Android stores limited diagnostic information
+- Encrypted iOS iTunes backups provide sufficient data to detect suspicious artifacts
+- MVT is a command-line tool designed for technologists and forensic investigators
 
-These tools can trigger false-positives. If any of these tools finds indicators of compromise, you need to dig deeper to determine your actual risk. Some reports may be false positives based on websites you've visited in the past, and findings which are many years old are likely either false-positives or indicate previous (and no longer active) compromise.
+**Best Practices for iOS Users:**
 
-### Mobile Verification Toolkit
+1. Create regular (monthly) encrypted iTunes backups to enable future analysis
+2. Trigger and externally backup *sysdiagnose* logs regularly (hold Power + Volume Up + Volume Down until vibration)
+3. Enable [Lockdown Mode](https://support.apple.com/en-us/HT212650)
 
-![MVT logo](https://www.privacyguides.org/en/assets/img/device-integrity/mvt.webp#only-light)![MVT logo](https://www.privacyguides.org/en/assets/img/device-integrity/mvt-dark.png#only-dark)
-
-**Mobile Verification Toolkit** ( **MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project).
-
-[Homepage](https://mvt.re/) [Source Code](https://github.com/mvt-project/mvt "Source Code")
-
-Downloads
-
-- [macOS](https://docs.mvt.re/en/latest/install)
-- [Linux](https://docs.mvt.re/en/latest/install)
-
-Warning
-
-Using MVT is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
-
-MVT is _most_ useful for scanning iOS devices. Android stores very little diagnostic information useful to triage potential compromises, and because of this, `mvt-android` capabilities are limited as well. On the other hand, encrypted iOS iTunes backups provide a large enough subset of files stored on the device to detect suspicious artifacts in many cases. This being said, MVT does still provide fairly useful tools for both iOS and Android analysis.
-
-If you use iOS and are at high-risk, we have three additional suggestions for you:
-
-1. Create and keep regular (monthly) iTunes backups. This allows you to find and diagnose past infections later with MVT, if new threats are discovered in the future.
-2. Trigger _sysdiagnose_ logs often and back them up externally. These logs can provide invaluable data to future forensic investigators if need be.
-
-The process to do so varies by model, but you can trigger it on newer phones by holding down _Power_ \+ _Volume Up_ \+ _Volume Down_ until you feel a brief vibration. After a few minutes, the timestamped _sysdiagnose_ log will appear in **Settings** \> **Privacy & Security** \> **Analytics & Improvements** \> **Analytics Data**.
-
-3. Enable [Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode).
-
-
-MVT allows you to perform deeper scans/analysis if your device is jailbroken. Unless you know what you are doing, **do not jailbreak or root your device.** Jailbreaking your device exposes it to considerable security risks.
+> **Warning:** Do not jailbreak or root your device unless you understand the security risks involved.
 
 ### iMazing (iOS)
 
-![iMazing logo](https://www.privacyguides.org/en/assets/img/device-integrity/imazing.png)
+**iMazing** provides a free spyware analyzer with a graphical interface that wraps MVT functionality, making it more accessible for non-technical users.
 
-**iMazing** provides a free spyware analyzer tool for iOS devices which acts as a GUI-wrapper for [MVT](https://www.privacyguides.org/en/device-integrity/#mobile-verification-toolkit). This can be much easier to run compared to MVT itself, which is a command-line tool designed for technologists and forensic investigators.
+- **Platforms:** Windows, macOS
+- **Homepage:** [imazing.com](https://imazing.com/)
 
-[Homepage](https://imazing.com/) [Privacy Policy](https://imazing.com/privacy-policy "Privacy Policy") [Documentation](https://imazing.com/spyware-analyzer "Documentation")
-
-Downloads
-
-- [Windows](https://imazing.com/download)
-- [macOS](https://imazing.com/download)
-
-iMazing automates and interactively guides you through the process of using [MVT](https://www.privacyguides.org/en/device-integrity/#mobile-verification-toolkit) to scan your device for publicly-accessible indicators of compromise published by various threat researchers. All the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
+All warnings and limitations that apply to MVT also apply to iMazing.
 
 ## On-Device Verification
 
-Protects against the following threat(s):
-
-- [Targeted Attacks](https://www.privacyguides.org/en/basics/common-threats/#attacks-against-specific-individuals)
-- [Passive Attacks](https://www.privacyguides.org/en/basics/common-threats/#security-and-privacy)
-
-These are apps you can install which check your device and operating system for signs of tampering, and validate the identity of your device.
-
-Warning
-
-Using these apps is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
+These apps check your device and operating system for signs of tampering and validate device identity.
 
 ### Auditor (Android)
 
-![Auditor logo](https://www.privacyguides.org/en/assets/img/device-integrity/auditor.svg#only-light)![Auditor logo](https://www.privacyguides.org/en/assets/img/device-integrity/auditor-dark.svg#only-dark)
+**Auditor** leverages hardware security features to provide device integrity monitoring. It validates device identity and operating system integrity using hardware-backed attestation.
 
-**Auditor** is an app which leverages hardware security features to provide device integrity monitoring by actively validating the identity of a device and the integrity of its operating system. Currently, it only works with GrapheneOS or the stock operating system for [supported devices](https://attestation.app/about#device-support).
+- **Compatibility:** GrapheneOS or stock OS on [supported devices](https://attestation.app/about#device-support)
+- **Homepage:** [attestation.app](https://attestation.app/)
 
-[Homepage](https://attestation.app/) [Privacy Policy](https://attestation.app/privacy-policy "Privacy Policy") [Documentation](https://attestation.app/about "Documentation") [Source Code](https://attestation.app/source "Source Code") [Contribute](https://attestation.app/donate "Contribute")
+**How Auditor Works:**
 
-Downloads
+Auditor uses a Trust On First Use (TOFU) model with two devices:
+- **Auditee:** The device being verified (must be a supported device)
+- **Auditor:** The device performing verification (any Android 10+ device or GrapheneOS's remote service)
 
-- [Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
-- [GitHub](https://github.com/GrapheneOS/Auditor/releases)
-- [GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+The process:
+1. Devices establish a private key in the hardware-backed keystore
+2. The auditor records the auditee's current state and configuration
+3. Any subsequent tampering triggers an alert
 
-Auditor is not a scanning/analysis tool like some other tools on this page. Rather, it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. This provides a very robust integrity check of your device itself, but doesn't necessarily check whether the user-level apps running on your device are malicious.
+**Important Considerations:**
 
-Auditor performs attestation and intrusion detection with **two** devices, an _auditee_ (the device being verified) and an _auditor_ (the device performing the verification). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](https://www.privacyguides.org/en/android/distributions/#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor works by:
+- Auditor detects changes **after** initial pairing, not before
+- Perform local attestation immediately after device installation, before connecting to the internet
+- No personally identifiable information is submitted to the attestation service
+- Sign up with an anonymous account for continuous remote attestation
+- Consider using Orbot or a VPN if your threat model requires hiding your IP address
 
-- Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an _auditor_ and _auditee_, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore) of the _Auditor_.
-- The _auditor_ can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app/).
-- The _auditor_ records the current state and configuration of the _auditee_.
-- Should tampering with the operating system of the _auditee_ happen after the pairing is complete, the auditor will be aware of the change in the device state and configurations.
-- You will be alerted to the change.
+---
 
-It is important to note that Auditor can only effectively detect changes **after** the initial pairing, not necessarily during or before due to its TOFU model. To make sure that your hardware and operating system is genuine, [perform local attestation](https://grapheneos.org/install/web#verifying-installation) immediately after the device has been installed and prior to any internet connection.
+## Summary
 
-No personally identifiable information is submitted to the attestation service. We recommend that you sign up with an anonymous account and enable remote attestation for continuous monitoring.
+| Tool | Platform | Best For | Skill Level |
+|------|----------|----------|-------------|
+| MVT | macOS/Linux | iOS forensic analysis | Advanced |
+| iMazing | Windows/macOS | iOS analysis (GUI) | Intermediate |
+| Auditor | Android | Device integrity verification | Intermediate |
 
-If your [threat model](https://www.privacyguides.org/en/basics/threat-modeling/) requires hiding your IP address from the attestation service, you could consider using [Orbot](https://www.privacyguides.org/en/alternative-networks/#orbot) or a [VPN](https://www.privacyguides.org/en/vpn/).
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+Remember: No tool can guarantee your device is completely clean. These tools detect *known* indicators and should be part of a broader security strategy, not relied upon exclusively.

@@ -1,68 +1,68 @@
-[Skip to content](https://www.privacyguides.org/en/router/#openwrt)
-
-![](https://www.privacyguides.org/en/assets/img/cover/router.webp)
+---
+title: "Router Firmware"
+tags: [router, firmware, openwrt, opnsense, network-security, open-source]
+category: "Network Security"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, Home Network Administrators, Technical Users]
+topics: ["Router Security", "Network Privacy", "Open-Source Firmware"]
+summary: "Alternative open-source operating systems for routers and firewalls to enhance network privacy and security."
+source: "Privacy Guides"
+content_type: "Reference"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic networking knowledge", "Familiarity with router configuration"]
+estimated_read_time: "3 minutes"
+---
 
 # Router Firmware
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/router.md?plain=1 "Edit this page")
-
-Protects against the following threat(s):
-
-- [Surveillance Capitalism](https://www.privacyguides.org/en/basics/common-threats/#surveillance-as-a-business-model)
-- [Passive Attacks](https://www.privacyguides.org/en/basics/common-threats/#security-and-privacy)
-
-Below are a few alternative operating systems that can be used on routers, Wi-Fi access points, etc.
+Alternative open-source operating systems for routers, Wi-Fi access points, and firewalls that provide enhanced privacy and security features.
 
 ## OpenWrt
 
-![OpenWrt logo](https://www.privacyguides.org/en/assets/img/router/openwrt.svg#only-light)![OpenWrt logo](https://www.privacyguides.org/en/assets/img/router/openwrt-dark.svg#only-dark)
+**OpenWrt** is a Linux-based operating system primarily used on embedded devices for routing network traffic. It includes util-linux, uClibc, and BusyBox, with all components optimized for home routers.
 
-**OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. It includes util-linux, uClibc, and BusyBox. All the components have been optimized for home routers.
+**Key Features:**
+- Lightweight Linux distribution for embedded devices
+- Extensive customization options
+- Active community and regular updates
 
-[Homepage](https://openwrt.org/) [Documentation](https://openwrt.org/docs/start "Documentation") [Source Code](https://github.com/openwrt/openwrt "Source Code") [Contribute](https://openwrt.org/donate "Contribute")
+**Resources:**
+- [Homepage](https://openwrt.org/)
+- [Documentation](https://openwrt.org/docs/start)
+- [Hardware Compatibility Table](https://openwrt.org/toh/start)
+- [Source Code](https://github.com/openwrt/openwrt)
 
-You can consult OpenWrt's [table of hardware](https://openwrt.org/toh/start) to check if your device is supported.
+> **Tip:** Consult OpenWrt's [table of hardware](https://openwrt.org/toh/start) to verify your device is supported before installation.
 
 ## OPNsense
 
-![OPNsense logo](https://www.privacyguides.org/en/assets/img/router/opnsense.svg)
+**OPNsense** is an open-source, FreeBSD-based firewall and routing platform with advanced features including:
 
-**OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and VPN endpoint.
+- Traffic shaping
+- Load balancing
+- VPN capabilities
+- Extensible plugin system
 
-[Homepage](https://opnsense.org/) [Documentation](https://docs.opnsense.org/index.html "Documentation") [Source Code](https://github.com/opnsense "Source Code") [Contribute](https://opnsense.org/donate "Contribute")
+OPNsense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and VPN endpoint.
 
-OPNsense was originally developed as a fork of [pfSense](https://en.wikipedia.org/wiki/PfSense), and both projects are noted for being free and reliable firewall distributions which offer features often only found in expensive commercial firewalls. Launched in 2015, the developers of OPNsense [cited](https://docs.opnsense.org/history/thefork.html) a number of security and code-quality issues with pfSense which they felt necessitated a fork of the project, as well as concerns about Netgate's majority acquisition of pfSense and the future direction of the pfSense project.
+**Resources:**
+- [Homepage](https://opnsense.org/)
+- [Documentation](https://docs.opnsense.org/index.html)
+- [Source Code](https://github.com/opnsense)
 
-## Criteria
+### Background
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](https://www.privacyguides.org/en/about/criteria/), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+OPNsense was developed in 2015 as a fork of [pfSense](https://en.wikipedia.org/wiki/PfSense). Both projects offer free, reliable firewall distributions with features typically found only in expensive commercial firewalls. The fork was motivated by security and code-quality concerns, as well as questions about pfSense's future direction following Netgate's majority acquisition.
 
-- Must be open source.
-- Must receive regular updates.
-- Must support a wide variety of hardware.
+## Selection Criteria
 
-Was this page helpful?
+Privacy Guides recommends router firmware that meets these requirements:
 
+- **Open source** — Code must be publicly auditable
+- **Regular updates** — Active maintenance and security patches
+- **Wide hardware support** — Compatible with various devices
 
+---
 
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+*Source: [Privacy Guides](https://www.privacyguides.org/en/router/)*

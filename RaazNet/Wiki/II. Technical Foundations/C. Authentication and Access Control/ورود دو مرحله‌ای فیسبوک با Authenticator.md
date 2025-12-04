@@ -1,23 +1,36 @@
-# آموزش گام به گام فعال‌سازی ورود دو مرحله‌ای فیسبوک با استفاده از برنامه‌های تولید رمز یکبار مصرف
+---
+title: "آموزش فعال‌سازی ورود دو مرحله‌ای فیسبوک با Authenticator"
+tags: [two-factor-authentication, facebook, authenticator-app, social-media-security, 2fa]
+category: "امنیت شبکه‌های اجتماعی"
+difficulty: "Beginner"
+audience: [General Public, Activists, Privacy-Conscious Users]
+topics: ["احراز هویت دو عاملی", "امنیت فیسبوک", "رمز یکبار مصرف"]
+summary: "راهنمای گام به گام فعال‌سازی ورود دو مرحله‌ای فیسبوک با برنامه‌های تولید رمز یکبار مصرف مانند Google Authenticator"
+source: "Certfa"
+content_type: "Tutorial"
+security_level: "Basic"
+language: "Persian"
+prerequisites: ["داشتن حساب کاربری فیسبوک", "نصب برنامه Authenticator روی گوشی"]
+estimated_read_time: "۳ دقیقه"
+---
 
-در این آموزش کوتاه، سعی شده است مراحل فعال‌سازی احراز هویت دو عاملی در فیسبوک، از طریق برنامه‌های تولید رمز یکبار مصرف، مانند Google Authenticator به‌صورت گام به گام به شما آموزش داده شود.
+# آموزش فعال‌سازی ورود دو مرحله‌ای فیسبوک با Authenticator
 
-1. [سرتفا](https://certfa.com/)»
-2. [دانشنامه](https://certfa.com/info/)»
-3. [امنیت شبکه‌های اجتماعی](https://certfa.com/info/social-network-security/)
+در این آموزش، مراحل فعال‌سازی احراز هویت دو عاملی در فیسبوک از طریق برنامه‌های تولید رمز یکبار مصرف مانند **Google Authenticator** به‌صورت گام به گام توضیح داده شده است.
 
-۲۰ بهمن ۱۳۹۹
+## چرا از Authenticator استفاده کنیم؟
 
-##### آموزش‌های مرتبط:
+استفاده از برنامه‌های Authenticator نسبت به پیامک امن‌تر است، زیرا:
+- رمزها به‌صورت آفلاین تولید می‌شوند
+- امکان رهگیری پیامک وجود ندارد
+- حتی بدون اینترنت کار می‌کند
 
-- [آموزش گام به گام فعال‌سازی ورود دو مرحله‌ای فیسبوک با استفاده از پیامک](https://certfa.com/info/social-network-security/how-to-enable-facebook-two-step-verfication-via-sms)
+## آموزش‌های مرتبط
 
-- [آموزش گام به گام تغییر رمز عبور حساب کاربری در فیسبوک](https://certfa.com/info/social-network-security/how-to-chage-facebook-password)
+- [[ورود دو مرحله‌ای فیسبوک با پیامک]]
+- [[تغییر رمز عبور فیسبوک]]
+- [[مدیریت دستگاه‌های متصل به فیسبوک]]
 
-- [آموزش گام به گام مدیریت دستگاه‌های فعال و متصل به حساب کاربری فیسبوک](https://certfa.com/info/social-network-security/how-to-manage-and-teminate-facebook-sessions)
+---
 
-[احراز هویت چند عاملی](https://certfa.com/topic/Multi-factor-Authentication/) \| [شبکه‌های اجتماعی](https://certfa.com/topic/social-networks/) \| [فیسبوک](https://certfa.com/topic/facebook/)
-
-[مدیریت دسترسی‌ها به حساب فیسبوک](https://certfa.com/info/social-network-security/how-to-manage-and-teminate-facebook-sessions/)
-
-[ورود دو مرحله‌ای فیسبوک با پیامک](https://certfa.com/info/social-network-security/how-to-enable-facebook-two-step-verfication-via-sms/)
+**منبع:** [Certfa](https://certfa.com/info/social-network-security/)

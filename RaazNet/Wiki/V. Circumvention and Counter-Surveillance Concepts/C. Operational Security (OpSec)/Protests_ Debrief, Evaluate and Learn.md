@@ -1,26 +1,41 @@
-![Act 03](https://holistic-security.tacticaltech.org/media/chapters/images/default/act_03.jpg%3F1460643197)
+---
+title: "Protests: Debrief, Evaluate and Learn"
+tags: [protests, activism, security, debriefing, threat-assessment]
+category: "Protest Security"
+difficulty: "Beginner"
+audience: [Activists, Organizers, Protest Participants]
+topics: ["Protest Safety", "Group Security", "Post-Action Review"]
+summary: "Guide to conducting effective post-protest debriefs for learning and safety improvement."
+source: "Tactical Tech - Holistic Security"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of protest participation"]
+estimated_read_time: "2 minutes"
+---
 
-# 4.11 Protests: Debrief, Evaluate and Learn
+# Protests: Debrief, Evaluate and Learn
 
-After a protest, it's a good idea to have a 'check out' or debrief meeting with your affinity group. This should take place in a safe space.
+After a protest, hold a debrief meeting with your affinity group in a safe space. This session serves three key purposes:
 
-Such a debrief is important as it helps in:
+## Core Objectives
 
-- Preventing further harm and doing a final threat assessment after the protest
-- Caring for people who are in distress
-- Learning lessons to improve future protests or actions.
+- **Prevent further harm** by conducting a final threat assessment
+- **Care for participants** who may be in distress
+- **Capture lessons learned** to improve future actions
 
-The debrief should take place soon after the protest. It's a good idea to agree on the questions to ask beforehand. A sample agenda might look like this:
+## Communication Guidelines
 
-1. **Feelings check in:** Everyone updates the group on how they are. Any urgent necessities (medical or emotional) should be taken care of first.
-2. **Threat assessment:** Share indicators about the current security situation, assessing any threats the group may face following the protest and how they should be dealt with (i.e. updating security plans)
-3. **Opportunities for learning and improving:** What went well during this protest, what should be improved for next time? Didi any security indicators or threats emerge which were not expected or planned for?
-4. **Next steps:** What decisions have to be made now before the group splits up again?
+Practice patience and [active listening](https://en.wikipedia.org/wiki/Active_listening) during your debrief. Ensure everyone understands the lessons learned and agrees on next steps.
 
-Ensure that you are patient in communicating with each other, and practice [active listening](https://en.wikipedia.org/wiki/Active_listening) to make sure everyone is clear on the lessons learned and next steps.
+## Addressing Unjust Treatment
 
-If you or your group have been treated unjustly, consider complaining to the relevant authorities or civil society groups. Get legal advice and support from your lawyer or local human rights groups before doing so. If you are concerned about the safety and legal implications of sharing information you’ve gathered, get expert advice on how best to proceed.
+If you or your group experienced unjust treatment:
 
-[4.10 Protests: Leave Safely](https://holistic-security.tacticaltech.org/chapters/act/4-1-10-protests-leave-safely.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/act.html)
-[1.1 What is Holistic Security?](https://holistic-security.tacticaltech.org/chapters/prepare/chapter-1-1-what-is-holistic-security.html)
+1. **Seek legal advice** from your lawyer or local human rights organizations before taking action
+2. **Consider filing complaints** with relevant authorities or civil society groups
+3. **Get expert guidance** on safely sharing any information you've gathered, particularly if you have concerns about safety or legal implications
+
+---
+
+*This guide is part of the [Holistic Security](https://holistic-security.tacticaltech.org/) resource from Tactical Tech.*

@@ -1,113 +1,143 @@
-Blog › Quick security recommendations for your devices
+---
+title: "Quick Security Recommendations for Your Devices"
+tags: [security, privacy, device-security, passwords, two-factor-authentication, operating-systems]
+category: "Digital Security"
+difficulty: "Beginner"
+audience: [General Public, Activists, Privacy-Conscious Users]
+topics: ["Device Security", "Privacy Protection", "Account Security"]
+summary: "Essential first steps for protecting your devices across Android, iOS, Windows, macOS, and Linux platforms."
+source: "Security in a Box"
+content_type: "Educational Guide"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic computer literacy", "Access to your devices"]
+estimated_read_time: "8 minutes"
+---
 
-# [Anchor](https://securityinabox.org/en/blog/quick-security-recommendations-for-your-devices/\#quick-security-recommendations-for-your-devices-1) Quick security recommendations for your devices
+# Quick Security Recommendations for Your Devices
 
-By Security in a Box
+People often ask where they can start and what minimum steps they should consider taking to better protect their devices. This guide shares the first, often most effective, and most important security measures.
 
-Posted 2024.11.28
+## General Recommendations
 
-![](https://securityinabox.org/media/en/blog/polygonal-hand-holding-smartphone.png)
+1. **Use unique, strong passwords** for each account, storing them safely with a [password manager](https://securityinabox.org/en/passwords/password-managers/).
 
-# [Anchor](https://securityinabox.org/en/blog/quick-security-recommendations-for-your-devices/\#quick-security-recommendations-for-your-devices) Quick security recommendations for your devices
+2. **Enable two-factor authentication (2FA)** on [supported accounts](https://2fa.directory/):
+   - **First choice**: Hardware security keys (see recommendations below)
+   - **Alternative**: TOTP apps that generate time-based one-time passwords
+   - **Avoid**: SMS-based 2FA when possible
 
-People often ask us where they can start, what are minimum steps they should consider taking in an effort to better protect their devices. In this post we share what we are recommending as the first, often most effective and most important items.
+3. **Avoid biometric authentication** (Face ID, fingerprint) as your primary method. [Learn why in the password guide](https://securityinabox.org/en/passwords/passwords/#avoid-fingerprint-or-face-unlock-biometrics).
 
-## [Anchor](https://securityinabox.org/en/blog/quick-security-recommendations-for-your-devices/\#general) General
+4. **Delete unnecessary files** including old documents, pictures, screenshots, and chat history. [Back up](https://securityinabox.org/en/files/backup/) important data before removal.
 
-1. Use [unique and strong passwords](https://securityinabox.org/en/passwords/passwords) for each account, using a [password manager](https://securityinabox.org/en/passwords/password-managers/) to safely store them.
-2. Use [two-factor authentication (2FA)](https://securityinabox.org/en/passwords/2fa) on [supported accounts](https://2fa.directory/). As a first choice, consider using [hardware devices (also called security keys)](https://securityinabox.org/en/blog/quick-security-recommendations-for-your-devices/#hardware). Otherwise you can also use apps or programs that generate time-based one-time passwords (TOTP). Avoid using SMS for 2FA if you can.
-3. Avoid using biometrics (face ID, fingerprint scan) as an authentication method. [We explain why in the guide on passwords](https://securityinabox.org/en/passwords/passwords/#avoid-fingerprint-or-face-unlock-biometrics).
-4. Delete old files, documents, pictures, screenshots and chat history that you do not need on your device. Securely [back up](https://securityinabox.org/en/files/backup/) as necessary before removal.
-5. If you can, avoid installing social media apps: you can use them by accessing their website with your browser instead.
-6. Restart your device frequently. This ensures updates are applied properly and reduces the risk for cases of non-persistent malware.
+5. **Restart your device frequently** to ensure updates are applied and reduce risks from non-persistent malware.
 
-- 2FA hardware token recommendations:
+### 2FA Hardware Token Recommendations
+- YubiKey
+- SoloKeys
+- Nitrokey
 
-  - [Yubikey](https://www.yubico.com/products/)
-  - [Nitrokey](https://www.nitrokey.com/products/nitrokeys)
-  - [Solokeys](https://solokeys.com/)
-  - [Thetis Key](https://thetis.io/)
-  - [Google Titan Key](https://cloud.google.com/security/products/titan-security-key)
-- 2FA TOTP recommendations:
+### 2FA TOTP App Recommendations
+- Aegis Authenticator (Android)
+- Raivo OTP (iOS)
+- KeePassXC (Desktop)
 
-  - Computers: [KeePassXC](https://keepassxc.org/)
-  - Android: [Aegis](https://getaegis.app/)
-  - iOS/iPhone: [Raivo OTP](https://github.com/raivo-otp/ios-application/blob/master/README.md)
-  - Android and iOS: [FreeOTP](https://freeotp.github.io/)
+### Further Reading
+- [Creating Strong Passwords](https://ssd.eff.org/module/creating-strong-passwords) - EFF
+- [Threat Modeling](https://www.privacyguides.org/en/basics/threat-modeling/) - Privacy Guides
+- [Security Planner](https://securityplanner.consumerreports.org/recommendations) - Consumer Reports
+- [Digital Security Guidance](https://openbriefing.gitbook.io/defenders-protocol/digital) - Open Briefing
+- [Your Security Plan](https://ssd.eff.org/module/your-security-plan) - EFF
 
-**Further reading:**
+---
 
-- [Creating Strong Passwords](https://ssd.eff.org/module/creating-strong-passwords)
-- [Privacy Guides - Threat modeling article](https://www.privacyguides.org/en/basics/threat-modeling/)
-- [Security Planner recommendations](https://securityplanner.consumerreports.org/recommendations)
-- [Open Brienfing - Digital security guidance](https://openbriefing.gitbook.io/defenders-protocol/digital)
-- [Surveillance Self-defense - Security plan](https://ssd.eff.org/module/your-security-plan)
+## Android
 
-## [Anchor](https://securityinabox.org/en/blog/quick-security-recommendations-for-your-devices/\#android) Android
+1. **Verify your Android is up to date** and that both your [Android version](https://endoflife.date/android) and device are still supported. Check manufacturer support pages: [Samsung](https://security.samsungmobile.com/workScope.smsb) | [Google Pixel](https://support.google.com/pixelphone/answer/4457705) | [Nokia](https://www.hmd.com/en_int/security-updates) | [Motorola](https://en-us.support.motorola.com/app/software-security-update) | [Other manufacturers](https://www.androidauthority.com/phone-update-policies-1658633/)
 
-1. Check that your [Android is up to date](https://support.google.com/android/answer/7680439) and that both your [version of Android](https://endoflife.date/android) and your device are still supported (check [Samsung](https://security.samsungmobile.com/workScope.smsb), [Google Pixel](https://support.google.com/pixelphone/answer/4457705), [Nokia](https://www.hmd.com/en_int/security-updates) or [Motorola](https://en-us.support.motorola.com/app/software-security-update). For other models, see [C. Scott Brown's article on the phone update policies from every major Android manufacturer](https://www.androidauthority.com/phone-update-policies-1658633/)).
-2. Automatically [update your apps](https://support.google.com/googleplay/answer/113412).
-3. Enable [Play protect](https://support.google.com/googleplay/answer/2812853).
-4. [Review the permissions](https://support.google.com/android/answer/9431959) your apps have access to.
-5. Review [installed apps](https://securityinabox.org/en/phones-and-computers/android/#remove-apps-that-you-do-not-need-and-do-not-use) and uninstall any unneeded/unknown ones.
-6. Ensure apps can only be installed from [trusted sources](https://securityinabox.org/en/phones-and-computers/android/#use-apps-from-trusted-sources).
-7. Set a longer password (not a PIN or a pattern) to [protect access to your device](https://support.google.com/android/answer/9079129#zippy=%2Cstandard-locks).
-8. Consider enrolling in [Google's Advanced Protection program](https://support.google.com/android/answer/16339980).
+2. **Enable automatic app updates** via [Google Play](https://support.google.com/googleplay/answer/113412).
 
-**Further reading:**
+3. **Enable [Play Protect](https://support.google.com/googleplay/answer/2812853)** for malware scanning.
 
-- [Protect your Android device](https://securityinabox.org/en/phones-and-computers/android/)
+4. **[Review app permissions](https://support.google.com/android/answer/9431959)** and revoke unnecessary access.
 
-## [Anchor](https://securityinabox.org/en/blog/quick-security-recommendations-for-your-devices/\#iosiphone) iOS/iPhone
+5. **[Review installed apps](https://securityinabox.org/en/phones-and-computers/android/#remove-apps-that-you-do-not-need-and-do-not-use)** and uninstall unneeded or unknown applications.
 
-1. Check that your [iOS version](https://endoflife.date/ios) and [device](https://endoflife.date/iphone) are still supported and [up-to-date](https://support.apple.com/en-gb/guide/iphone/iph3e504502/ios).
-2. Automatically [update your apps](https://support.apple.com/en-gb/102629).
-3. Review the [permissions your apps have access to](https://support.apple.com/en-ie/guide/iphone/iph251e92810/ios).
-4. Review installed apps and [uninstall any unneeded ones](https://support.apple.com/en-gb/guide/iphone/iph248b543ca/ios).
-5. Switch on the [lockdown mode](https://support.apple.com/en-us/105120), which will also make it harder to compromise your device.
-6. Set a long [passcode](https://support.apple.com/en-us/119586) to protect access to your device.
+6. **Restrict app installations** to [trusted sources](https://securityinabox.org/en/phones-and-computers/android/#use-apps-from-trusted-sources) only.
 
-**Further reading:**
+7. **Set a strong password** (not a PIN or pattern) to [protect device access](https://support.google.com/android/answer/9079129).
 
-- [Protect your iOS device](https://securityinabox.org/en/phones-and-computers/ios/)
+8. **Consider [Google's Advanced Protection program](https://support.google.com/android/answer/16339980)** for enhanced security.
 
-## [Anchor](https://securityinabox.org/en/blog/quick-security-recommendations-for-your-devices/\#windows) Windows
+**Further reading**: [Protect your Android device](https://securityinabox.org/en/phones-and-computers/android/)
 
-1. Ensure you are using a [supported version of Windows](https://endoflife.date/windows) with [automatic updates enabled](https://support.microsoft.com/en-au/topic/how-to-change-your-automatic-updates-settings-by-using-windows-security-center-804009cd-7931-fc07-5ada-6b157a854201).
-2. Make sure that any software installed via the [Microsoft store is set to automatically update](https://support.microsoft.com/en-us/windows/turn-on-automatic-app-updates-70634d32-4657-dc76-632b-66048978e51b).
-3. Ensure [Windows Defender is turned on](https://support.microsoft.com/en-us/windows/stay-protected-with-windows-security-2ae0363d-0ada-c064-8b56-6a39afb6a963). Activate Microsoft Defender rather than using a third-party antivirus.
-4. Consider using [Hardentools](https://github.com/securitywithoutborders/hardentools#readme) to disable some often abused features.
-5. Consider using [Simplewall](https://github.com/henrypp/simplewall) to monitor where your computer is connecting to.
-6. Ensure [Bitlocker - or Device Encryption - is turned on](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838).
-7. Ensure your computer [requires a strong password](https://support.microsoft.com/en-us/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c) to log in.
-8. [Review installed programs](https://support.microsoft.com/en-us/windows/how-to-check-if-an-app-or-program-is-installed-in-windows-10-5af73cea-f875-dfa0-4cd1-72a02aa06436) and [remove any that are no longer needed](https://securityinabox.org/en/phones-and-computers/windows/#remove-apps-that-you-do-not-need-and-do-not-use).
+---
 
-**Further reading:**
+## iOS/iPhone
 
-- [Protect your Windows computer](https://securityinabox.org/en/phones-and-computers/windows/)
-- [Manage updates in Windows](https://support.microsoft.com/en-us/windows/manage-updates-in-windows-643e9ea7-3cf6-7da6-a25c-95d4f7f099fe)
+1. **Verify your [iOS version](https://endoflife.date/ios) and [device](https://endoflife.date/iphone) are supported** and [up-to-date](https://support.apple.com/en-gb/guide/iphone/iph3e504502/ios).
 
-## [Anchor](https://securityinabox.org/en/blog/quick-security-recommendations-for-your-devices/\#macos) macOS
+2. **Enable [automatic app updates](https://support.apple.com/en-gb/102629)**.
 
-1. Ensure macOS [automatic updates are enabled](https://support.apple.com/guide/mac-help/keep-your-mac-up-to-date-mchlpx1065/mac#aria-mchlpa64b4a7) and that you use a [supported version of macOS](https://endoflife.date/macos).
-2. Consider using [LuLu](https://objective-see.org/products/lulu.html) to monitor where you computer is connecting to.
-3. Make sure [FileVault is enabled](https://support.apple.com/en-vn/guide/mac-help/mh11785/mac).
-4. Ensure your computer [requires a strong password](https://support.apple.com/en-vn/guide/mac-help/mchlp1550/14.0/mac/14.0) to log in.
-5. Review installed programs and [uninstall any that are not needed](https://securityinabox.org/en/phones-and-computers/mac/#remove-apps-that-you-do-not-need-and-do-not-use).
+3. **[Review app permissions](https://support.apple.com/en-ie/guide/iphone/iph251e92810/ios)** and revoke unnecessary access.
 
-**Further reading:**
+4. **Review installed apps** and [uninstall unneeded ones](https://support.apple.com/en-gb/guide/iphone/iph248b543ca/ios).
 
-- [Protect your Mac computer](https://securityinabox.org/en/phones-and-computers/mac/)
-- [About background updates in macOS](https://support.apple.com/en-us/101591)
-- [Set up your Mac to be secure](https://support.apple.com/en-ie/guide/mac-help/flvlt003/mac)
+5. **Enable [Lockdown Mode](https://support.apple.com/en-us/105120)** for enhanced protection against sophisticated attacks.
 
-## [Anchor](https://securityinabox.org/en/blog/quick-security-recommendations-for-your-devices/\#ubuntu-linux) Ubuntu Linux
+6. **Set a long [passcode](https://support.apple.com/en-us/119586)** to protect device access.
 
-1. Ensure that your version of Ubuntu is [still supported](https://endoflife.date/ubuntu) and that you are keeping it and the [installed software up-to-date](https://wiki.ubuntu.com/SoftwareUpdates).
-2. Enable the [Firewall](https://help.ubuntu.com/community/Gufw) or consider using [OpenSnitch to monitor](https://github.com/evilsocket/opensnitch/wiki/Installation) where you computer is connecting to.
-3. Ensure [LUKS encryption is enabled](https://www.tecmint.com/encrypt-ubuntu-24-04-installation/) when you install the operating system.
-4. Ensure automatic login is disabled and [your account is set up with a strong password](https://help.ubuntu.com/stable/ubuntu-help/user-changepassword.html).
+**Further reading**: [Protect your iOS device](https://securityinabox.org/en/phones-and-computers/ios/)
 
-**Further reading:**
+---
 
-- [Protect your Linux Device](https://securityinabox.org/en/phones-and-computers/linux/)
+## Windows
+
+1. **Use a [supported Windows version](https://endoflife.date/windows)** with [automatic updates enabled](https://support.microsoft.com/en-au/topic/how-to-change-your-automatic-updates-settings-by-using-windows-security-center-804009cd-7931-fc07-5ada-6b157a854201).
+
+2. **Enable [automatic updates for Microsoft Store apps](https://support.microsoft.com/en-us/windows/turn-on-automatic-app-updates-70634d32-4657-dc76-632b-66048978e51b)**.
+
+3. **[Enable Windows Defender](https://support.microsoft.com/en-us/windows/stay-protected-with-windows-security-2ae0363d-0ada-c064-8b56-6a39afb6a963)** rather than third-party antivirus software.
+
+4. **Consider [Hardentools](https://github.com/securitywithoutborders/hardentools#readme)** to disable commonly abused Windows features.
+
+5. **Consider [Simplewall](https://github.com/henrypp/simplewall)** to monitor network connections.
+
+6. **Enable [BitLocker or Device Encryption](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838)**.
+
+7. **Set a [strong login password](https://support.microsoft.com/en-us/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)**.
+
+8. **[Review installed programs](https://support.microsoft.com/en-us/windows/how-to-check-if-an-app-or-program-is-installed-in-windows-10-5af73cea-f875-dfa0-4cd1-72a06aa06436)** and [remove unneeded ones](https://securityinabox.org/en/phones-and-computers/windows/#remove-apps-that-you-do-not-need-and-do-not-use).
+
+**Further reading**: [Protect your Windows computer](https://securityinabox.org/en/phones-and-computers/windows/) | [Manage updates in Windows](https://support.microsoft.com/en-us/windows/manage-updates-in-windows-643e9ea7-3cf6-7da6-a25c-95d4f7f099fe)
+
+---
+
+## macOS
+
+1. **Use a [supported macOS version](https://endoflife.date/macos)** with [automatic updates enabled](https://support.apple.com/guide/mac-help/keep-your-mac-up-to-date-mchlpx1065/mac).
+
+2. **Consider [LuLu](https://objective-see.org/products/lulu.html)** to monitor network connections.
+
+3. **[Enable FileVault](https://support.apple.com/en-vn/guide/mac-help/mh11785/mac)** for disk encryption.
+
+4. **Set a [strong login password](https://support.apple.com/en-vn/guide/mac-help/mchlp1550/14.0/mac/14.0)**.
+
+5. **Review installed programs** and [uninstall unneeded ones](https://securityinabox.org/en/phones-and-computers/mac/#remove-apps-that-you-do-not-need-and-do-not-use).
+
+**Further reading**: [Protect your Mac computer](https://securityinabox.org/en/phones-and-computers/mac/) | [Background updates in macOS](https://support.apple.com/en-us/101591) | [Set up your Mac to be secure](https://support.apple.com/en-ie/guide/mac-help/flvlt003/mac)
+
+---
+
+## Ubuntu Linux
+
+1. **Use a [supported Ubuntu version](https://endoflife.date/ubuntu)** and keep [software up-to-date](https://wiki.ubuntu.com/SoftwareUpdates).
+
+2. **Enable the [Firewall](https://help.ubuntu.com/community/Gufw)** or use [OpenSnitch](https://github.com/evilsocket/opensnitch/wiki/Installation) to monitor network connections.
+
+3. **[Enable LUKS encryption](https://www.tecmint.com/encrypt-ubuntu-24-04-installation/)** during installation.
+
+4. **Disable automatic login** and set a [strong account password](https://help.ubuntu.com/stable/ubuntu-help/user-changepassword.html).
+
+**Further reading**: [Protect your Linux Device](https://securityinabox.org/en/phones-and-computers/linux/)

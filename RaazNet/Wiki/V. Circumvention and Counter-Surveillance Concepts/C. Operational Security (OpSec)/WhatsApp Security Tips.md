@@ -1,20 +1,40 @@
-[Skip to content](https://freedom.press/digisec/blog/whatsapp-security/#main)
+---
+title: "WhatsApp Security Tips - Page Not Available"
+tags: [security, privacy, whatsapp, messaging, digital-security]
+category: "Digital Security"
+difficulty: "Beginner"
+audience: [General Public, Privacy-Conscious Users]
+topics: ["Messaging Security", "Privacy Protection"]
+summary: "Placeholder for WhatsApp security guide content from Freedom of the Press Foundation."
+source: "Freedom of the Press Foundation"
+content_type: "Note"
+security_level: "Informational"
+language: "English"
+prerequisites: []
+estimated_read_time: "1 minute"
+---
 
-# Page not found
+# WhatsApp Security Tips
 
-The page you requested wasn’t found.
+> [!warning] Content Unavailable
+> The original article from Freedom of the Press Foundation is no longer available at the source URL.
 
+## About This Document
 
+This file was created to capture a WhatsApp security guide from Freedom of the Press Foundation's Digital Security resources. The original content has been removed or relocated.
 
-[Return Home](https://freedom.press/)
+## Recommended Actions
 
-## Sign Up. Take Action.
+- Visit [Freedom of the Press Foundation's Digital Security Hub](https://freedom.press/digisec/) for current security guides
+- Check the [Internet Archive Wayback Machine](https://web.archive.org/) for archived versions
+- Review alternative WhatsApp security resources from trusted sources like EFF or Access Now
 
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
+## Related Topics
 
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
+- [[End-to-End Encryption]]
+- [[Secure Messaging Apps]]
+- [[Mobile Device Security]]
 
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
+---
 
-
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+*Last verified: Content unavailable at source*

@@ -1,147 +1,91 @@
-[Skip to content](https://freedom.press/digisec/guides/#main)
+---
+title: "Freedom of the Press Foundation: Digital Security Guides & Resources"
+tags: [digital-security, privacy, journalism, source-protection, online-safety, press-freedom]
+category: "Digital Security"
+difficulty: "Beginner"
+audience: [Journalists, Activists, Privacy-Conscious Users, Media Professionals]
+topics: ["Digital Security", "Source Protection", "Online Privacy", "Secure Communication"]
+summary: "Comprehensive hub of digital security resources from Freedom of the Press Foundation, covering source protection, secure communication, and online safety for journalists."
+source: "Freedom of the Press Foundation"
+content_type: "Reference"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic computer literacy"]
+estimated_read_time: "4 minutes"
+---
 
-# Guides & Resources
+# Digital Security Guides & Resources
 
 Strong digital security practices enable more secure reporting.
 
+**Protect yourself and your sources** with advice on digital security from the Freedom of the Press Foundation's expert training team.
 
-![Harlo Holmes gives a training at the Whitney Museum](https://media.freedom.press/media/images/Harlo_at_Whitney.2e16d0ba.fill-1152x864.jpg)
+These guides and resources empower you with the knowledge and tools needed to stay ahead in the ever-evolving landscape of digital security. Topics range from encrypting text messages and locking down social media accounts to protecting against hackers and mitigating online harassment—suitable for beginners to experts.
 
-Patrick MacLeod
+---
 
-**Protect yourself and your sources** with our advice on digital security
+## Featured Guides & Articles
 
-Our guides and resources are designed to empower you with the knowledge and tools needed to stay ahead in the ever-evolving landscape of digital security. Dive in to explore topics ranging from encrypting your text messages and locking down your social media accounts to protecting yourself against hackers and mitigating online harassment. For beginners to experts, stay informed with the latest best practices.
+### Recent Content
 
-## Guides & Articles
+- **[Ask a security trainer: Can I trust public Wi-Fi networks?](https://freedom.press/digisec/blog/ask-a-security-trainer-can-i-trust-public-wi-fi-networks/)** — Network security guidance
+- **[How to limit exposing your location](https://freedom.press/digisec/blog/how-to-limit-exposing-your-location/)** — Expert analysis on location privacy
+- **[Ask a security trainer: How do I get secure phone backups?](https://freedom.press/digisec/blog/ask-a-security-trainer-how-do-i-get-secure-phone-backups/)** — Device safety best practices
 
-[EXPLORE THE LATEST](https://freedom.press/digisec/blog/?content-type=article%2Cguide)
+### Newsletter Highlights
 
-1. ## [Ask a security trainer: Can I trust public Wi-Fi networks?](https://freedom.press/digisec/blog/ask-a-security-trainer-can-i-trust-public-wi-fi-networks/)
+- **[AI browsers: the security headache nobody asked for](https://freedom.press/digisec/blog/ai-browsers-the-security-headache-nobody-asked-for/)** — Analysis of AI browser security risks
+- **[Phishing scams are all trick, no treat](https://freedom.press/digisec/blog/phishing-scams-are-all-trick-no-treat/)** — Identifying and avoiding phishing attacks
+- **[Great for costume ideas, bad for cybersecurity](https://freedom.press/digisec/blog/great-for-costume-ideas-bad-for-cybersecurity/)** — Network security awareness
 
-![Header image reading "Ask a security trainer" featuring the faces of our digital security training team](https://media.freedom.press/media/images/advice_column_header_expanded.2e16d0ba.fill-451x254.png)
+[Explore all guides and articles →](https://freedom.press/digisec/blog/?content-type=article%2Cguide)
 
-[Network security](https://freedom.press/digisec/blog/network-security/)• [Article](https://freedom.press/digisec/blog/?content-type=article)
+---
 
-2. ## [How to limit exposing your location](https://freedom.press/digisec/blog/how-to-limit-exposing-your-location/)
+## Resource Collections
 
-![CREDIT: Pixabay (CC0 1.0) - https://www.stockvault.net/photo/222798/gps#](https://media.freedom.press/media/images/stockvault-gps2227982.2e16d0ba.fill-451x254.jpg)
+### For Educators
+**[U.S. J-School Curriculum](https://freedom.press/digisec/guides/jschool-curriculum-us/)** — Digital security curriculum designed to support journalism schools in teaching security fundamentals.
 
-[Expert analysis](https://freedom.press/digisec/blog/expert-analysis/)• [Guide](https://freedom.press/digisec/blog/?content-type=guide)
+### For Personal Safety
+**[Preparing for Online Harassment](https://freedom.press/digisec/guides/preparing-for-online-harassment/)** — Resources from global experts to help journalists build defenses before experiencing harassment, covering digital security and psychological safety.
 
-3. ## [Ask a security trainer: How do I get secure phone backups?](https://freedom.press/digisec/blog/ask-a-security-trainer-how-do-i-get-secure-phone-backups/)
+### For Source Protection
+**[Source Protection](https://freedom.press/digisec/blog/source-protection/)** — Essential guides for journalists working on sensitive subjects, covering processes to protect both you and your sources.
 
-![Header image reading "Ask a security trainer" featuring the faces of our digital security training team](https://media.freedom.press/media/images/advice_column_header_expanded.2e16d0ba.fill-451x254.png)
+### For Account Security
+**[Online Account Security](https://freedom.press/digisec/guides/online-account-security/)** — Comprehensive resources for securing online accounts and protecting stored information.
 
-[Device safety](https://freedom.press/digisec/blog/device-safety/)• [Article](https://freedom.press/digisec/blog/?content-type=article)
+### For Field Reporting
+**[Reporting in the Field](https://freedom.press/digisec/guides/reporting-in-the-field/)** — Guides for staying safe while covering protests, meeting sources, or crossing borders.
 
+### For Spanish Speakers
+**[Guías en Español](https://freedom.press/digisec/guides/guias-en-espanol/)** — Selected guides translated and adapted for Spanish-speaking audiences.
 
-## Newsletters from the Digital Security Team
+### For Advanced Users
+**[Beyond the Basics](https://freedom.press/digisec/guides/beyond-the-basics/)** — Deep-dive resources for those ready to advance their security knowledge.
 
-[EXPLORE THE LATEST](https://freedom.press/digisec/blog/?content-type=newsletter%2Crelease)
+### For Private Communication
+**[Secure Communication](https://freedom.press/digisec/guides/secure-communication/)** — Resources for encrypting messages and maintaining online conversation privacy.
 
-1. ## [AI browsers: the security headache nobody asked for](https://freedom.press/digisec/blog/ai-browsers-the-security-headache-nobody-asked-for/)
+---
 
-![Illustration by the Electronic Frontier Foundation. (CC BY 2.0 DEED)](https://media.freedom.press/media/images/afd67c3f-9252-5490-622a-349cac35a1.2e16d0ba.fill-451x254.jpg)
+## Programs & Services
 
-[Network security](https://freedom.press/digisec/blog/network-security/)• [Newsletter](https://freedom.press/digisec/blog/?content-type=newsletter)
+Freedom of the Press Foundation offers personalized digital security support including:
 
-2. ## [Phishing scams are all trick, no treat](https://freedom.press/digisec/blog/phishing-scams-are-all-trick-no-treat/)
+- **Training sessions** — Customized for your organization's needs
+- **Security consultations** — Expert advice for specific situations
+- **Comprehensive audits** — Full security assessments
 
-![FPF CC BY 40](https://media.freedom.press/media/images/fishing.2e16d0ba.fill-451x254.jpg)
+[Learn more about programs & services →](https://freedom.press/digisec/programs/)
 
-[Expert analysis](https://freedom.press/digisec/blog/expert-analysis/)• [Newsletter](https://freedom.press/digisec/blog/?content-type=newsletter)
+[Request a training →](https://freedom.press/digisec/programs/training-request-form/)
 
-3. ## [Great for costume ideas, bad for cybersecurity](https://freedom.press/digisec/blog/great-for-costume-ideas-bad-for-cybersecurity/)
+---
 
-![FPF CC](https://media.freedom.press/media/images/FPF_Cameras.2e16d0ba.fill-451x254.jpg)
+## Stay Updated
 
-[Network security](https://freedom.press/digisec/blog/network-security/)• [Newsletter](https://freedom.press/digisec/blog/?content-type=newsletter)
+Subscribe to the Freedom of the Press Foundation newsletter for weekly tips and actionable advice to improve your digital security awareness.
 
-
-## Get Weekly Tips & Advice
-
-Subscribe for easy and actionable tips that improve your digital security awareness.
-
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
-
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
-
-
-## Collections
-
-1. ## U.S. J-School Curriculum
-
-![Header image titled, "U.S. Journalism School Security Curriculum"](https://media.freedom.press/media/images/curriculum_header.2e16d0ba.fill-451x254.png)
-
-Digital security should start in the classroom, yet we know many university and college-level programs feel underprepared for education of this kind. So we built this curriculum to better support J-schools’ goals for digital security education.
-
-    [Explore the curriculum](https://freedom.press/digisec/guides/jschool-curriculum-us/)
-2. ## Preparing for Online Harassment
-
-![Two women in front of their computers, sharing a desk.](https://media.freedom.press/media/images/online_harassment_header.2e16d0ba.fill-451x254.png)
-
-When it comes to online harassment, it's better for journalists to prepare defenses in advance than while experiencing the stress of it. We've gathered resources from global experts so journalists can take steps to cultivate digital security and psychological safety.
-
-    [Cultivate Harassment Readiness](https://freedom.press/digisec/guides/preparing-for-online-harassment/)
-3. ## Source Protection
-
-![Header image of two women speaking to each other on a couch](https://media.freedom.press/media/images/source_protection_header.2e16d0ba.fill-451x254.png)
-
-Are you a journalist working on sensitive subjects? The effort to protect your sources needs to start before they contact you. These guides will help you create the processes that you need to make sure that both you and your sources stay safe from unwanted threats.
-
-    [Protect Your Sources](https://freedom.press/digisec/blog/source-protection/)
-4. ## Online Account Security
-
-![Header image of a woman sitting in front of her computer in an office.](https://media.freedom.press/media/images/online_account_security_header.2e16d0ba.fill-451x254.png)
-
-You have countless online accounts, but how do you protect the information you store there? Our digital security team gathered a list of resources for keeping your online accounts more secure, written by our team and others.
-
-    [Keep Your Accounts More Secure](https://freedom.press/digisec/guides/online-account-security/)
-5. ## Reporting in the Field
-
-![Header image of a woman typing on her computer](https://media.freedom.press/media/images/reporting_field_header.2e16d0ba.fill-451x254.png)
-
-We know that you don’t do all of your work from behind a desk. Whether you’re covering a protest, meeting with a source, or flying across borders to pursue a big story, we have bespoke guides that will give you the resources to stay safe while on the go.
-
-    [Stay Safe on the Go](https://freedom.press/digisec/guides/reporting-in-the-field/)
-6. ## Guías en Español
-
-![Periodistas con una cámara en primer plano](https://media.freedom.press/media/images/guias_espanol_header_8Fc29M6.2e16d0ba.fill-451x254.png)
-
-Entre nuestras guías sobre diversos temas relacionados con la seguridad digital en inglés, hemos traducido una selección de manuales al español y adaptado su alcance en ambos idiomas. We've translated a selection of our guides into Spanish.
-
-    [Leer en Español](https://freedom.press/digisec/guides/guias-en-espanol/)
-7. ## Beyond the Basics
-
-![Header image of a woman coding and using her phone at a desk](https://media.freedom.press/media/images/beyond_basics_header.2e16d0ba.fill-451x254.png)
-
-You’ve gone through the basics, you’re feeling pretty secure, and you want more. These guides are meant for you if you want to dig deeper and really boost your understanding of these topics.
-
-    [Go to the Next Level](https://freedom.press/digisec/guides/beyond-the-basics/)
-8. ## Secure Communication
-
-![Three women sitting at an office table in front of computers and tablets.](https://media.freedom.press/media/images/Secure_commmunication_header.2e16d0ba.fill-451x254.png)
-
-In the digital age, encrypting your messages is a must. Our digital security team gathered you a list of resources we've written to help you keep your online conversations more safe and private.
-
-    [Build Your Online Privacy](https://freedom.press/digisec/guides/secure-communication/)
-
-## **Explore Our Services**
-
-Ready to take your digital security to the next level? Our range of services is designed to provide personalized support tailored to your needs. Whether you're looking for training, advice, or a comprehensive audit, we have the right solution for you.
-
-## LEARN MORE
-
-[Programs & Services](https://freedom.press/digisec/programs/) [Request a Training](https://freedom.press/digisec/programs/training-request-form/)
-
-## Sign Up. Take Action.
-
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
-
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
-
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
-
-
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+[View all newsletters →](https://freedom.press/newsletters/)

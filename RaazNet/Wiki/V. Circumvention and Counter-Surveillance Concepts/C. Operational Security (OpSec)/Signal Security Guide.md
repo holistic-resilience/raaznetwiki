@@ -1,20 +1,44 @@
-[Skip to content](https://freedom.press/digisec/blog/signal-security/#main)
+---
+title: "Signal Security Guide - Page Not Found"
+tags: [placeholder, broken-link, needs-update]
+category: "Incomplete Content"
+difficulty: "N/A"
+audience: [N/A]
+topics: ["Digital Security"]
+summary: "Placeholder document for a Signal security guide that is no longer available at the original source."
+source: "Freedom of the Press Foundation"
+content_type: "Note"
+security_level: "Informational"
+language: "English"
+prerequisites: []
+estimated_read_time: "1 minute"
+---
 
-# Page not found
+# Signal Security Guide
 
-The page you requested wasn’t found.
+> [!warning] Content Unavailable
+> The original Signal Security Guide from Freedom of the Press Foundation is no longer available at the source URL. This document serves as a placeholder.
 
+## Status
 
+- **Original Source**: Freedom of the Press Foundation (freedom.press)
+- **Current Status**: Page not found (404 error)
+- **Action Needed**: Locate updated content or alternative resource
 
-[Return Home](https://freedom.press/)
+## Recommended Alternatives
 
-## Sign Up. Take Action.
+For Signal security guidance, consider these resources:
 
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
+- [Signal's Official Support Documentation](https://support.signal.org/)
+- [EFF's Surveillance Self-Defense Guide on Signal](https://ssd.eff.org/)
+- Freedom of the Press Foundation's [Digital Security Resources](https://freedom.press/digisec/)
 
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
+## Related Topics
 
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
+- [[Secure Messaging]]
+- [[End-to-End Encryption]]
+- [[Mobile Security]]
 
+---
 
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+*This note should be updated when valid Signal security content is located.*

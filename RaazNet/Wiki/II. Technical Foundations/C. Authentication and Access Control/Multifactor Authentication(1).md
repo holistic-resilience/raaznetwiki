@@ -1,181 +1,172 @@
-[Skip to content](https://www.privacyguides.org/en/basics/multi-factor-authentication/#mfa-method-comparison)
-
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/basics/multi-factor-authentication.md?plain=1 "Edit this page")
+---
+title: "Multifactor Authentication"
+tags: [mfa, authentication, security, hardware-security-keys, totp, fido2]
+category: "Authentication Security"
+difficulty: "Intermediate"
+audience: [General Public, Privacy-Conscious Users, System Administrators]
+topics: ["Digital Security", "Account Protection", "Authentication Methods"]
+summary: "Comprehensive guide to multifactor authentication methods, comparing security levels from SMS to hardware keys."
+source: "Privacy Guides"
+content_type: "Educational Guide"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic computer literacy", "Understanding of passwords and account security"]
+estimated_read_time: "12 minutes"
+---
 
 # Multifactor Authentication
 
-**Multifactor Authentication** ( **MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method is time limited codes you might receive from SMS or an app.
+**Multifactor Authentication (MFA)** is a security mechanism that requires additional steps beyond entering your username and password. The most common method is time-limited codes received from SMS or an authenticator app.
 
-Normally, if a hacker (or adversary) is able to figure out your password then they’d gain access to the account that password belongs to. An account with MFA forces the hacker to have both the password (something you _know_) and a device that you own (something you _have_), like your phone.
+If a hacker obtains your password, they would normally gain access to that account. An account with MFA forces the hacker to have both the password (something you *know*) and a device you own (something you *have*), like your phone.
 
-MFA methods vary in security, but are based on the premise that the more difficult it is for an attacker to gain access to your MFA method, the better. Examples of MFA methods (from weakest to strongest) include SMS, Email codes, app push notifications, TOTP, Yubico OTP and FIDO.
+MFA methods vary in security based on how difficult it is for an attacker to gain access to your MFA method. Methods range from weakest to strongest: SMS, Email codes, app push notifications, TOTP, Yubico OTP, and FIDO.
 
 ## MFA Method Comparison
 
 ### SMS or Email MFA
 
-Receiving OTP codes via SMS or email are one of the weaker ways to secure your accounts with MFA. Obtaining a code by email or SMS takes away from the "something you _have_" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. If an unauthorized person gained access to your email, they would be able to use that access to both reset your password and receive the authentication code, giving them full access to your account.
+Receiving OTP codes via SMS or email is one of the weaker ways to secure accounts with MFA. These methods undermine the "something you *have*" principle because hackers can [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without physical access to your devices.
+
+If an unauthorized person gains access to your email, they can reset your password and receive the authentication code, giving them full account access.
 
 ### Push Notifications
 
-Push notification MFA takes the form of a message being sent to an app on your phone asking you to confirm new account logins. This method is a lot better than SMS or email, since an attacker typically wouldn't be able to get these push notifications without having an already logged-in device, which means they would need to compromise one of your other devices first.
+Push notification MFA sends a message to an app on your phone asking you to confirm new account logins. This method is better than SMS or email since an attacker typically needs an already logged-in device first.
 
-We all make mistakes, and there is the risk that you might accept the login attempt by accident. Push notification login authorizations are typically sent to _all_ your devices at once, widening the availability of the MFA code if you have many devices.
-
-The security of push notification MFA is dependent on both the quality of the app, the server component and the trust of the developer who produces it. Installing an app may also require you to accept invasive privileges that grant access to other data on your device. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
+**Limitations:**
+- Risk of accidentally accepting login attempts
+- Notifications sent to all devices, widening MFA code availability
+- Security depends on app quality, server component, and developer trust
+- Apps may require invasive permissions
+- Requires a specific app for each service
 
 ### Time-based One-time Password (TOTP)
 
-TOTP is one of the most common forms of MFA available. When you set up TOTP, you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a " [shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
+TOTP is one of the most common MFA forms. Setup involves scanning a QR code that establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service. The time-limited code derives from this shared secret and current time.
 
-The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret, an adversary cannot generate new codes.
+**Hardware TOTP Storage:** If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), store your shared secrets on the hardware. A YubiKey makes the shared secret difficult to extract and isn't connected to the Internet.
 
-If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), we recommend that you store your "shared secrets" on the hardware. Hardware such as the YubiKey was developed with the intention of making the "shared secret" difficult to extract and copy. A YubiKey is also not connected to the Internet, unlike a phone with a TOTP app.
+**TOTP Limitations:**
+- No protection against [phishing](https://en.wikipedia.org/wiki/Phishing) or reuse attacks
+- Valid codes can be used multiple times until expiration (typically 60 seconds)
+- Adversaries can create fake websites to capture credentials and TOTP codes
 
-Unlike [WebAuthn](https://www.privacyguides.org/en/basics/multi-factor-authentication/#fido-fast-identity-online), TOTP offers no protection against [phishing](https://en.wikipedia.org/wiki/Phishing) or reuse attacks. If an adversary obtains a valid code from you, they may use it as many times as they like until it expires (generally 60 seconds).
+Despite limitations, TOTP is secure enough for most people and remains a good option when hardware security keys aren't supported.
 
-An adversary could set up a website to imitate an official service in an attempt to trick you into giving out your username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
+### Hardware Security Keys
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](https://www.privacyguides.org/en/security-keys/) are not supported [authenticator apps](https://www.privacyguides.org/en/multi-factor-authentication/) are still a good option.
+Hardware security keys like YubiKey store data on a tamper-resistant solid-state chip that is [impossible to access](https://security.stackexchange.com/a/245772) non-destructively without expensive forensic processes.
 
-### Hardware security keys
-
-The YubiKey stores data on a tamper-resistant solid-state chip which is [impossible to access](https://security.stackexchange.com/a/245772) non-destructively without an expensive process and a forensics laboratory.
-
-These keys are generally multi-function and provide a number of methods to authenticate. Below are the most common ones.
+These keys are generally multi-function and provide several authentication methods.
 
 #### Yubico OTP
 
-Yubico OTP is an authentication protocol typically implemented in hardware security keys. When you decide to use Yubico OTP, the key will generate a public ID, private ID, and a Secret Key which is then uploaded to the Yubico OTP server.
+Yubico OTP uses a public ID, private ID, and Secret Key uploaded to the Yubico OTP server. When logging into a website, physically touching the security key generates a one-time password that the service validates with Yubico's server.
 
-When logging into a website, all you need to do is to physically touch the security key. The security key will emulate a keyboard and print out a one-time password into the password field.
+A counter increments on both the key and validation server, preventing OTP reuse. See Yubico's [detailed documentation](https://developers.yubico.com/OTP/OTPs_Explained.html) for more information.
 
-The service will then forward the one-time password to the Yubico OTP server for validation. A counter is incremented both on the key and Yubico's validation server. The OTP can only be used once, and when a successful authentication occurs, the counter is increased which prevents reuse of the OTP. Yubico provides a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
-
-![Yubico OTP](https://www.privacyguides.org/en/assets/img/multi-factor-authentication/yubico-otp.png)
-
-There are some benefits and disadvantages to using Yubico OTP when compared to TOTP.
-
-The Yubico validation server is a cloud based service, and you're placing trust in Yubico that they are storing data securely and not profiling you. The public ID associated with Yubico OTP is reused on every website and could be another avenue for third-parties to profile you. Like TOTP, Yubico OTP does not provide phishing resistance.
-
-If your threat model requires you to have different identities on different websites, **do not** use Yubico OTP with the same hardware security key across those websites as public ID is unique to each security key.
+**Considerations:**
+- Requires trust in Yubico's cloud-based validation server
+- Public ID is reused across websites, potentially enabling third-party profiling
+- Does not provide phishing resistance
+- If your threat model requires different identities across websites, **do not** use Yubico OTP with the same hardware security key
 
 #### FIDO (Fast IDentity Online)
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes several standards: [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project), and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
-U2F and FIDO2 refer to the [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), which is the protocol between the security key and the computer, such as a laptop or phone. It complements WebAuthn which is the component used to authenticate with the website (the "Relying Party") you're trying to log in on.
+WebAuthn is the most secure and private form of second-factor authentication. Instead of printing one-time passwords, it uses [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) for authentication.
 
-WebAuthn is the most secure and private form of second factor authentication. While the authentication experience is similar to Yubico OTP, the key does not print out a one-time password and validate with a third-party server. Instead, it uses [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) for authentication.
+**How it works:**
+1. When creating an account, the public key is sent to the service
+2. When logging in, the service requires you to "sign" data with your private key
+3. No password data is stored by the service—nothing for adversaries to steal
 
-![FIDO](https://www.privacyguides.org/en/assets/img/multi-factor-authentication/fido.png)
+**WebAuthn Advantages:**
+- Uses public key authentication (more secure than shared secrets)
+- Includes origin name (domain) during authentication
+- Provides attestation to protect against phishing
+- No public ID used—key isn't identifiable across websites
+- No third-party cloud server required
+- Uses a counter to prevent session reuse and cloned keys
 
-When you create an account, the public key is sent to the service, then when you log in, the service will require you to "sign" some data with your private key. The benefit of this is that no password data is ever stored by the service, so there is nothing for an adversary to steal.
-
-This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and the standards for FIDO2 and [WebAuthn](https://webauthn.guide/):
-
-- [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao)(YouTube)
-
-FIDO2 and WebAuthn have superior security and privacy properties when compared to any MFA methods.
-
-Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). It uses public key authentication and is more secure than shared secrets used in Yubico OTP and TOTP methods, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect you from phishing attacks, as it helps you to determine that you are using the authentic service and not a fake copy.
-
-Unlike Yubico OTP, WebAuthn does not use any public ID, so the key is **not** identifiable across different websites. It also does not use any third-party cloud server for authentication. All communication is completed between the key and the website you are logging into. FIDO also uses a counter which is incremented upon use in order to prevent session reuse and cloned keys.
-
-If a website or service supports WebAuthn for the authentication, it is highly recommended that you use it over any other form of MFA.
+**If a website supports WebAuthn, it is highly recommended over any other MFA form.**
 
 ## General Recommendations
 
-We have these general recommendations:
-
 ### Which Method Should I Use?
 
-When configuring your MFA method, keep in mind that it is only as secure as your weakest authentication method you use. This means it is important that you only use the best MFA method available. For instance, if you are already using TOTP, you should disable email and SMSMFA. If you are already using FIDO2/WebAuthn, you should not be using Yubico OTP or TOTP on your account.
+Your MFA is only as secure as your weakest authentication method. Use only the best MFA method available:
+
+- If using TOTP, disable email and SMS MFA
+- If using FIDO2/WebAuthn, don't use Yubico OTP or TOTP on the same account
 
 ### Backups
 
-You should always have backups for your MFA method. Hardware security keys can get lost, stolen or simply stop working over time. It is recommended that you have a pair of hardware security keys with the same access to your accounts instead of just one.
+Always have backups for your MFA method. Hardware security keys can get lost, stolen, or stop working. Keep a pair of hardware security keys with the same account access.
 
-When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](https://www.privacyguides.org/en/encryption/#veracrypt-disk)).
+For TOTP with an authenticator app:
+- Back up recovery keys or the app itself
+- Copy shared secrets to another app instance on a different phone
+- Store in an encrypted container (e.g., [VeraCrypt](https://www.privacyguides.org/en/encryption/#veracrypt-disk))
 
 ### Initial Set Up
 
-When buying a security key, it is important that you change the default credentials, set up password protection for the key, and enable touch confirmation if your key supports it. Products such as the YubiKey have multiple interfaces with separate credentials for each one of them, so you should go over each interface and set up protection as well.
+When buying a security key:
+- Change default credentials
+- Set up password protection
+- Enable touch confirmation if supported
+- Configure protection for each interface (products like YubiKey have multiple interfaces with separate credentials)
 
 ### Email and SMS
 
-If you have to use email for MFA, make sure that the email account itself is secured with a proper MFA method.
+If you must use email for MFA, ensure the email account itself is secured with a proper MFA method.
 
-If you use SMSMFA, use a carrier who will not switch your phone number to a new SIM card without account access, or use a dedicated VoIP number from a provider with similar security to avoid a [SIM swap attack](https://en.wikipedia.org/wiki/SIM_swap_scam).
-
-[MFA tools we recommend](https://www.privacyguides.org/en/multi-factor-authentication/)
+For SMS MFA:
+- Use a carrier that won't switch your phone number to a new SIM without account access
+- Consider a dedicated VoIP number from a provider with similar security to avoid [SIM swap attacks](https://en.wikipedia.org/wiki/SIM_swap_scam)
 
 ## More Places to Set Up MFA
 
-Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
+Beyond website logins, MFA can secure local logins, SSH keys, and password databases.
 
 ### macOS
 
-macOS has [native support](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) for authentication with smart cards (PIV). If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
+macOS has [native support](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) for authentication with smart cards (PIV). Follow your hardware security vendor's documentation to set up second-factor authentication.
 
-Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
+Yubico provides a guide: [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059)
 
-After your smart card/security key is set up, we recommend running this command in the Terminal:
+To prevent adversaries from bypassing MFA when the computer boots:
 
-```
+```bash
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
 ```
 
-The command will prevent an adversary from bypassing MFA when the computer boots.
-
 ### Linux
 
-Warning
+> **Warning:** If your system's hostname changes (such as due to DHCP), you would be unable to login. Set up a proper hostname before following this guide.
 
-If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
+The `pam_u2f` module provides two-factor authentication for logging in on most popular Linux distributions. Yubico's [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) works on most distributions (package manager commands and package names may differ).
 
-The `pam_u2f` module on Linux can provide two-factor authentication for logging in on most popular Linux distributions. If you have a hardware security key that supports U2F, you can set up MFA authentication for your login. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. The package manager commands—such as `apt-get`—and package names may however differ. This guide does **not** apply to Qubes OS.
+**Note:** This guide does not apply to Qubes OS.
 
 ### Qubes OS
 
-Qubes OS has support for Challenge-Response authentication with YubiKeys. If you have a YubiKey with Challenge-Response authentication support, take a look at the Qubes OS [YubiKey documentation](https://qubes-os.org/doc/yubikey) if you want to set up MFA on Qubes OS.
+Qubes OS supports Challenge-Response authentication with YubiKeys. See the [Qubes OS YubiKey documentation](https://qubes-os.org/doc/yubikey) for setup instructions.
 
 ### SSH
 
 #### Hardware Security Keys
 
-SSHMFA could be set up using multiple different authentication methods that are popular with hardware security keys. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
+SSH MFA can be set up using hardware security keys. See Yubico's [SSH documentation](https://developers.yubico.com/SSH) for setup instructions.
 
 #### TOTP
 
-SSHMFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Most things should be the same regardless of distribution, however the package manager commands—such as `apt-get`—and package names may differ.
+SSH MFA can also use TOTP. DigitalOcean provides a tutorial: [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Steps are similar across distributions, though package manager commands may differ.
 
-### KeePass (and KeePassXC)
+### KeePass and KeePassXC
 
-KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second-factor of authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second factor. See:
+- Yubico: [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass)
+- [KeePassXC YubiKey FAQ](https://keepassxc.org/docs/#faq-yubikey-2fa)

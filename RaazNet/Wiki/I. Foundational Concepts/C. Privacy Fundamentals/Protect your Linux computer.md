@@ -1,242 +1,191 @@
-\_\_('Table of Contents')
+---
+title: "Protect Your Linux Computer"
+tags: [linux, security, privacy, ubuntu, system-hardening, digital-security]
+category: "Operating System Security"
+difficulty: "Intermediate"
+audience: [Linux Users, Privacy-Conscious Users, Activists, IT Administrators]
+topics: ["Linux Security", "Ubuntu", "System Hardening", "Privacy Protection"]
+summary: "Comprehensive security guide for Ubuntu Linux covering system updates, app management, user accounts, encryption, and privacy settings."
+source: "Security in a Box"
+content_type: "Educational Guide"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic Linux/Ubuntu familiarity", "Understanding of system settings"]
+estimated_read_time: "15 minutes"
+---
 
-Phones & Computers › Protect your Linux computer
+# Protect Your Linux Computer
 
-# [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#protect-your-linux-computer) Protect your Linux computer
+*Updated 13 June 2024*
 
-Updated 13 June 2024
+If you use Linux, you may have heard the myth that it is more secure than Windows. This is not necessarily true. Security depends on a combination of how we use our devices and their software, which can have vulnerabilities discovered at any time. While most malware targets more widespread operating systems like Windows or Android, you can still encounter malware as a Linux user—for example, by clicking an infected link or opening a malicious attachment.
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#table-of-contents) Table of Contents
+This guide specifically covers **Ubuntu Linux**. If you use another Linux distribution, the concepts apply but specific steps may differ.
 
-- [If you have just decided to switch to Linux](https://securityinabox.org/en/phones-and-computers/linux/#if-you-have-just-decided-to-switch-to-linux)
-- [Use the latest version of your device's operating system (OS)](https://securityinabox.org/en/phones-and-computers/linux/#use-the-latest-version-of-your-devices-operating-system-os)
-- [Regularly update all installed apps](https://securityinabox.org/en/phones-and-computers/linux/#regularly-update-all-installed-apps)
-- [Use apps from trusted sources](https://securityinabox.org/en/phones-and-computers/linux/#use-apps-from-trusted-sources)
-- [Remove apps that you do not need and do not use](https://securityinabox.org/en/phones-and-computers/linux/#remove-apps-that-you-do-not-need-and-do-not-use)
-- [Check your app permissions and connected accounts](https://securityinabox.org/en/phones-and-computers/linux/#check-your-app-permissions-and-connected-accounts)
-- [Turn off location and wipe history](https://securityinabox.org/en/phones-and-computers/linux/#turn-off-location-and-wipe-history)
-- [Create separate user accounts on your devices](https://securityinabox.org/en/phones-and-computers/linux/#create-separate-user-accounts-on-your-devices)
-- [Remove unneeded users associated with your device](https://securityinabox.org/en/phones-and-computers/linux/#remove-unneeded-users-associated-with-your-device)
-- [Protect your user account with a strong passphrase](https://securityinabox.org/en/phones-and-computers/linux/#protect-your-user-account-with-a-strong-passphrase)
-- [Set your screen to sleep and lock](https://securityinabox.org/en/phones-and-computers/linux/#set-your-screen-to-sleep-and-lock)
-- [Control what can be seen when your device is locked](https://securityinabox.org/en/phones-and-computers/linux/#control-what-can-be-seen-when-your-device-is-locked)
-- [Use a physical privacy filter that prevents others from seeing your screen](https://securityinabox.org/en/phones-and-computers/linux/#use-a-physical-privacy-filter-that-prevents-others-from-seeing-your-screen)
-- [Use a camera cover](https://securityinabox.org/en/phones-and-computers/linux/#use-a-camera-cover)
-- [Turn off connectivity you're not using](https://securityinabox.org/en/phones-and-computers/linux/#turn-off-connectivity-youre-not-using)
-- [Clear your saved wifi networks](https://securityinabox.org/en/phones-and-computers/linux/#clear-your-saved-wifi-networks)
-- [Turn off sharing you're not using](https://securityinabox.org/en/phones-and-computers/linux/#turn-off-sharing-youre-not-using)
-- [Use a firewall](https://securityinabox.org/en/phones-and-computers/linux/#use-a-firewall)
-- [See also](https://securityinabox.org/en/phones-and-computers/linux/#see-also)
+---
 
-If you use Linux, you may have heard the myth that it is more secure than Windows. This is not necessarily true. Security depends on a combination of how we use our devices and their own software, which can be found to have vulnerabilities at any time. While most malware does target more wide-spread operating systems like Windows or Android, you can still get malware as a Linux user if, for example, you click on an infected link or open a malicious attachment. [Read our guide on how to protect yourself against malware](https://securityinabox.org/en/phones-and-computers/malware/).
+## Table of Contents
 
-Follow the steps in this guide to make your device more secure. Get in the habit of checking these settings from time to time, to make sure nothing has changed.
+- [Setting Up a New Linux Installation](#setting-up-a-new-linux-installation)
+- [Keep Your System Updated](#keep-your-system-updated)
+- [Manage Applications Securely](#manage-applications-securely)
+- [User Account Security](#user-account-security)
+- [Screen Lock and Physical Security](#screen-lock-and-physical-security)
+- [Location and Privacy Settings](#location-and-privacy-settings)
+- [Network and Connectivity Security](#network-and-connectivity-security)
+- [Additional Resources](#additional-resources)
 
-This guide specifically covers [Ubuntu Linux](https://ubuntu.com/desktop). If you are using Ubuntu, this guide should be of use. If you are using another variety of Linux, this guide may be of use but you may want to look up comparable topics in the help or support section for the Linux distribution you are using.
+---
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#if-you-have-just-decided-to-switch-to-linux) If you have just decided to switch to Linux
+## Setting Up a New Linux Installation
 
-- [Follow the steps in the official Ubuntu installation guide](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).
-- Possibly encrypt your whole device by choosing the [Erase disk and install Ubuntu option and checking "Use LVM and encryption" in the Advanced features during Disk setup](https://ubuntu.com/tutorials/install-ubuntu-desktop#6-type-of-installation). When prompted, choose a [strong disk passphrase](https://securityinabox.org/en/passwords/passwords).
-- When [creating your login details](https://ubuntu.com/tutorials/install-ubuntu-desktop#7-create-your-login-details) make sure to set a [strong passphrase](https://securityinabox.org/en/passwords/passwords) and keep “Require my password to log in” enabled.
+When installing Ubuntu fresh:
 
-Learn why we recommend this
+1. Follow the [official Ubuntu installation guide](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
+2. **Enable full-disk encryption** by selecting "Erase disk and install Ubuntu" and checking "Use LVM and encryption" in Advanced features during disk setup
+3. Choose a [strong disk passphrase](https://securityinabox.org/en/passwords/passwords) when prompted
+4. When [creating login details](https://ubuntu.com/tutorials/install-ubuntu-desktop#7-create-your-login-details), set a strong passphrase and keep "Require my password to log in" enabled
 
-While technical attacks can be particularly worrying, your device may as well be confiscated or stolen, which may allow someone to break into it. For this reason, it is smart to set a strong passphrase to encrypt your computer and another strong passphrase to protect your user account, so that nobody can access your device or your sensitive files just by turning it on and guessing a short password.
+> **Why this matters:** Your device may be confiscated or stolen. Strong encryption and passphrases prevent unauthorized access to your data.
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#use-the-latest-version-of-your-devices-operating-system-os) Use the latest version of your device's operating system (OS)
+---
 
-- When updating software, do it from a trusted location and internet connection, like your home or office, not at an internet cafe or coffee shop.
-- Updating to the latest version of your operating system may require you to download software and restart a number of times. You will want to set aside time for this where you do not need to do work on your device.
-- After updating, check again if there are any further updates available until you do not see any additional new updates.
-- Linux systems are generally known for being less demanding in terms of computer hardware, so if you use Linux you can generally use a device for a longer time than with other operating systems. Nevertheless, Ubuntu does have [minimum system requirements](https://help.ubuntu.com/community/Installation/SystemRequirements#Recommended_Minimum_System_Requirements) that are higher than other Linux distributions.
-  - Ubuntu offers [long term support for 5 years for its main LTS versions](https://ubuntu.com/blog/what-is-an-ubuntu-lts-release). To keep receiving security updates on your Ubuntu version for up to 10 years, you can subscribe to [Ubuntu Pro](https://ubuntu.com/pro) (free for individuals).
-  - If the latest version of Ubuntu will not run on your device and Ubuntu Pro is not an option for you, you can switch to a Linux distribution specially created for older hardware, like [Lubuntu](https://lubuntu.me/).
-  - If you would like to upgrade to the newest version of Ubuntu, to use all of its functionalities, consider buying a new device.
-- [Find out which is the most updated version of Ubuntu available](https://wiki.ubuntu.com/Releases).
-- [Compare it to the version your device has installed](https://help.ubuntu.com/community/CheckingYourUbuntuVersion).
-- Check the [minimum system requirements for the current stable Ubuntu version](https://help.ubuntu.com/community/Installation/SystemRequirements#Recommended_Minimum_System_Requirements) or test Ubuntu on your computer with a [LiveCD](https://help.ubuntu.com/community/LiveCD).
-- [Upgrade Ubuntu](https://ubuntu.com/tutorials/upgrading-ubuntu-desktop#1-before-you-start).
-- To make sure an update is fully installed, always restart your computer when prompted to do so after the update process is completed.
+## Keep Your System Updated
 
-Learn why we recommend this
+### Operating System Updates
 
-New vulnerabilities in the code that runs in your devices and apps are found every day. The developers who write that code cannot predict where they will be found, because the code is so complex. Malicious attackers may exploit these vulnerabilities to get into your devices. But software developers do regularly release code that fixes those vulnerabilities. That is why it is very important to install updates and use the latest version of the operating system for each device you use. We recommend setting your device to automatically update so you have one less task to remember to do.
+- Update from a trusted location (home or office), not public wifi
+- Set aside time for updates—they may require downloads and restarts
+- Check for additional updates after each round until none remain
+- Always restart when prompted after updates complete
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#regularly-update-all-installed-apps) Regularly update all installed apps
+**Steps:**
+1. [Check which Ubuntu version you have](https://help.ubuntu.com/community/CheckingYourUbuntuVersion)
+2. [Find the latest available version](https://wiki.ubuntu.com/Releases)
+3. Verify your hardware meets [minimum system requirements](https://help.ubuntu.com/community/Installation/SystemRequirements#Recommended_Minimum_System_Requirements)
+4. [Upgrade Ubuntu](https://ubuntu.com/tutorials/upgrading-ubuntu-desktop#1-before-you-start)
 
-- [Make sure that your system updates all packages automatically](https://help.gnome.org/users/gnome-packagekit/stable/prefs.html.en).
+### Application Updates
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#use-apps-from-trusted-sources) Use apps from trusted sources
+[Configure automatic package updates](https://help.gnome.org/users/gnome-packagekit/stable/prefs.html.en) to keep all installed software current.
 
-- [Install software using Ubuntu Software](https://help.ubuntu.com/lts/ubuntu-help/addremove-install.html.en).
+> **Why this matters:** Vulnerabilities are discovered daily. Developers release patches to fix them, making updates essential for security.
 
-Learn why we recommend this
+---
 
-Ubuntu Software is the program to use for installing applications and programs in Ubuntu. Install apps only from software repositories managed by these Linux distribution developers.
+## Manage Applications Securely
 
-If you decide that the benefit of a particular app outweighs the risk, take additional steps to protect yourself, like planning to keep sensitive or personal information off that device. Even in this case, only install apps from the websites of the developers themselves. "Mirror" download sites may be untrustworthy unless you know and trust the people who provide those services.
+### Install from Trusted Sources
 
-To learn how to decide whether you should use a certain app, see [how Security in a Box chooses the tools and services we recommend](https://securityinabox.org/en/about/how/#how-we-choose-the-tools-and-services-we-recommend).
+Use [Ubuntu Software](https://help.ubuntu.com/lts/ubuntu-help/addremove-install.html.en) for installing applications. Only install from repositories managed by distribution developers or directly from developer websites.
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#remove-apps-that-you-do-not-need-and-do-not-use) Remove apps that you do not need and do not use
+### Remove Unused Applications
 
-- [Learn how to remove applications](https://help.ubuntu.com/stable/ubuntu-help/addremove-remove).
+[Remove applications](https://help.ubuntu.com/stable/ubuntu-help/addremove-remove) you don't need. Each installed app is a potential vulnerability.
 
-Learn why we recommend this
+### Review App Permissions
 
-New vulnerabilities in the code that runs in your devices and apps are found every day. The developers who write that code cannot predict where they will be found, because the code is so complex. Malicious attackers may exploit these vulnerabilities to get into your devices. Removing apps you do not use helps limit the number of apps that might be vulnerable. Apps you do not use may also transmit information about you that you may not want to share with others, like your location.
+- Go to **Settings > Applications** and review each app's permissions
+- [Review connected online accounts](https://help.ubuntu.com/stable/ubuntu-help/accounts.html) (Google, Facebook, NextCloud)
+- Check which [services they can access](https://help.ubuntu.com/stable/ubuntu-help/accounts-which-application.html)
+- [Remove accounts](https://help.ubuntu.com/stable/ubuntu-help/accounts-remove.html) you don't use
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#check-your-app-permissions-and-connected-accounts) Check your app permissions and connected accounts
+> **Why this matters:** Apps with access to sensitive information (location, microphone, camera) can leak data or be exploited by attackers.
 
-- Review permissions and access to information of installed apps by going to Settings > Applications and clicking on each application in the left-hand menu.
-- [Review online accounts you may have connected to your device (like Google, Facebook, and NextCloud)](https://help.ubuntu.com/stable/ubuntu-help/accounts.html) and check which [services](https://help.ubuntu.com/stable/ubuntu-help/accounts-which-application.html) they can [access](https://help.ubuntu.com/stable/ubuntu-help/accounts-disable-service.html). [Remove accounts](https://help.ubuntu.com/stable/ubuntu-help/accounts-remove.html) you do not use.
+---
 
-Learn why we recommend this
+## User Account Security
 
-Apps that access sensitive digital details or services — like your location, microphone, camera or device settings — can also leak that information or be exploited by attackers. So if you do not need an app to use a particular service, turn that permission off.
+### Create Separate User Accounts
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#turn-off-location-and-wipe-history) Turn off location and wipe history
+- Create one account with administrative privileges
+- Create standard (non-admin) accounts for daily work
+- [Manage user accounts](https://help.ubuntu.com/stable/ubuntu-help/user-accounts.html)
+- [Manage administrative privileges](https://help.ubuntu.com/stable/ubuntu-help/user-admin-change.html)
 
-- Get in the habit of turning off location services overall, or when you are not using them, for your whole device as well as for individual apps.
-- Regularly check and clear your location history if you have it turned on.
-- [Turn location services off](https://help.ubuntu.com/stable/ubuntu-help/privacy-location.html).
-- Regularly check and clear your location history in Google Maps if you use it. To delete past location history and set it so Google Maps does not save your location activity, follow the instructions [for your Google Maps Timeline](https://support.google.com/accounts/answer/3118687?#delete) and [your Maps activity](https://support.google.com/maps/answer/3137804).
+### Remove Unnecessary Users
 
-Learn why we recommend this
+[Remove unneeded accounts](https://help.ubuntu.com/stable/ubuntu-help/user-delete.html) to reduce your attack surface. Check for accounts you didn't create.
 
-Many of our devices keep track of where we are, using GPS, cell phone towers and the wifi networks we connect to. If your device is keeping a record of your physical location, it makes it possible for someone to find you or use that record to prove that you have been in certain places or associated with specific people who were somewhere at the same time as you.
+### Use Strong Passphrases
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#create-separate-user-accounts-on-your-devices) Create separate user accounts on your devices
+- Use passphrases longer than 16 characters
+- [Change your password](https://help.ubuntu.com/stable/ubuntu-help/user-changepassword.html) if needed
 
-- Create more than one user account on your device, with one having "admin" (administrative) privileges and the others "standard" (non-admin) privileges.
-  - Only you should have access to the admin account.
-  - Standard users should not be allowed to access every app, file or setting on your device.
-- Consider using a standard user for your day-to-day work:
-  - Use the admin user only when you need to make changes that affect your device security, like installing software.
-  - Using a standard user daily can limit how much your device is exposed to security threats from malware.
-  - When you [cross borders](https://securityinabox.org/en/assess-plan/safer-travel/), having a "travel" user open could help hide your more sensitive files. Use your judgment: will the border authorities confiscate your device for a thorough search, or will they force you to log in to your account so they can take a quick look? If you expect they won't look too deeply into your device, being logged in as a standard user for work that is not sensitive provides you some plausible deniability.
-- [Manage user accounts](https://help.ubuntu.com/stable/ubuntu-help/user-accounts.html).
-- [Manage who has administrative privileges to change sensitive settings](https://help.ubuntu.com/stable/ubuntu-help/user-admin-change.html).
+> **Why this matters:** Separate accounts protect sensitive information from other users. Strong passphrases prevent unauthorized access if your device is stolen.
 
-Learn why we recommend this
+---
 
-We strongly recommend not sharing devices you use for sensitive work with anyone else. However, if you must share your devices with co-workers or family, you can better protect your device and sensitive information by setting up separate users on your devices in order to keep your administrative permissions and sensitive files protected from other people.
+## Screen Lock and Physical Security
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#remove-unneeded-users-associated-with-your-device) Remove unneeded users associated with your device
+### Configure Screen Lock
 
-- [Remove unneeded accounts](https://help.ubuntu.com/stable/ubuntu-help/user-delete.html).
-- [Manage who has administrative privileges to change sensitive settings](https://help.ubuntu.com/stable/ubuntu-help/user-admin-change.html).
+[Set your screen to lock](https://help.ubuntu.com/stable/ubuntu-help/privacy-screen-lock.html) after 1-5 minutes of inactivity.
 
-Learn why we recommend this
+**Important:** Avoid fingerprint or face unlock. These can be used against you under duress. A passphrase is the safest option.
 
-If you don't intend for someone else to access your device, it is better to not leave that additional "door" open on your machine (this is called "reducing your attack surface"). Additionally, checking what users can access your device could reveal accounts that have been created on your device without your knowledge.
+### Hide Lock Screen Notifications
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#protect-your-user-account-with-a-strong-passphrase) Protect your user account with a strong passphrase
+[Hide notifications on the lock screen](https://help.ubuntu.com/stable/ubuntu-help/shell-notifications.html#lock-screen-notifications) to prevent information leakage.
 
-- Use a [long passphrase](https://securityinabox.org/en/passwords/passwords) (longer than 16 characters), not a short password.
-- To learn how to change your passphrase, see [the Ubuntu guide on changing passwords](https://help.ubuntu.com/stable/ubuntu-help/user-changepassword.html).
+### Physical Privacy Measures
 
-Learn why we recommend this
+- **Privacy filter:** Use a screen privacy filter to prevent shoulder surfing. See the [Security Planner guide](https://securityplanner.consumerreports.org/tool/use-a-privacy-filter-screen)
+- **Camera cover:** Use a sliding cover or small bandage over your webcam. Advanced users can [disable camera access entirely](https://askubuntu.com/questions/166809/how-can-i-disable-my-webcam)
 
-While technical attacks can be particularly worrying, your device may as well be confiscated or stolen, which may allow someone to break into it. For this reason, it is smart to set a strong passphrase to protect your user account, so that nobody can access your device just by turning it on and guessing a short password.
+---
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#set-your-screen-to-sleep-and-lock) Set your screen to sleep and lock
+## Location and Privacy Settings
 
-- [Set your screen to lock a short time after you stop using it (try setting it to 1 minute or 5 minutes and see which works for you)](https://help.ubuntu.com/stable/ubuntu-help/privacy-screen-lock.html). To unlock your screen, you will need your user passphrase.
-- Making it possible to use your fingerprint or face to unlock your computer can be used against you by force; do not use these options unless you have a disability which makes typing impossible.
-  - If you have already entered your fingerprints in your device, you can remove them: go to Settings > Users, then click "Enabled" beside "Fingerprint Login" and select "Delete Fingerprints".
+[Turn off location services](https://help.ubuntu.com/stable/ubuntu-help/privacy-location.html) when not needed.
 
-Learn why we recommend this
+If you use Google Maps, regularly clear your location history:
+- [Google Maps Timeline](https://support.google.com/accounts/answer/3118687#delete)
+- [Maps activity](https://support.google.com/maps/answer/3137804)
 
-We do not recommend screen lock options other than passphrases. If you are arrested, detained or searched, you might easily be forced to unlock your device with your face or fingerprint. Someone who has your device in their possession may use software to guess short passwords. Someone who has dusted for your fingerprints can make a fake version of your finger to unlock your device if you set a fingerprint lock and similar hacks have been demonstrated for face unlock.
+> **Why this matters:** Location records can prove where you've been and who you've been near—information that could be used against you.
 
-For these reasons, a long passphrase is the safest way to protect your user account.
+---
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#control-what-can-be-seen-when-your-device-is-locked) Control what can be seen when your device is locked
+## Network and Connectivity Security
 
-- See ["Hiding lock screen notifications" in the Ubuntu documentation on notifications](https://help.ubuntu.com/stable/ubuntu-help/shell-notifications.html#lock-screen-notifications) to learn how to configure the lock screen to hide notifications.
+### Disable Unused Connections
 
-Learn why we recommend this
+- Power off devices completely at night
+- Keep wifi, Bluetooth, and network sharing off when not in use
+- Use [Airplane mode](https://help.ubuntu.com/stable/ubuntu-help/net-wireless-airplane.html) to quickly disable all wireless connections
+- [Turn off Bluetooth](https://help.ubuntu.com/stable/ubuntu-help/bluetooth-turn-on-off.html) when not needed
+- Disable [wireless hotspot](https://help.ubuntu.com/stable/ubuntu-help/net-wireless-adhoc.html.en) if enabled
+- Turn off wifi in **Settings > Wi-Fi**
 
-A strong screen lock will give you some protection if your device is stolen or seized — but if you don't turn off notifications that show up on your lock screen, whoever has your device can see information that might leak when your contacts send you messages or you get new email.
+> **Why this matters:** When wifi or Bluetooth is on, your device broadcasts names of previously connected networks—creating a unique fingerprint that can identify you.
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#use-a-physical-privacy-filter-that-prevents-others-from-seeing-your-screen) Use a physical privacy filter that prevents others from seeing your screen
+### Manage Saved Networks
 
-- For more information on this topic, see [the Security Planner guide on privacy filters](https://securityplanner.consumerreports.org/tool/use-a-privacy-filter-screen).
+- Store network credentials in a [password manager](https://securityinabox.org/en/passwords/tools/#keepassxc) rather than your device
+- Regularly clear saved networks you no longer use
 
-Learn why we recommend this
+### Disable Unused Sharing
 
-While we often think of attacks on our digital security as highly technical, you might be surprised to learn that some human rights defenders have had their information stolen or their accounts compromised when someone looked over their shoulder at their screen or used a security camera to do so. A privacy filter makes this kind of attack, often called shoulder surfing, less likely to succeed. You should be able to find privacy filters in the same shops where you find other accessories for your devices.
+Turn off any sharing features you don't actively use:
+- [File sharing](https://help.ubuntu.com/stable/ubuntu-help/sharing-personal.html)
+- [Media sharing](https://help.ubuntu.com/stable/ubuntu-help/sharing-media.html)
+- [Bluetooth sharing](https://help.ubuntu.com/stable/ubuntu-help/sharing-bluetooth.html)
+- [Desktop sharing](https://help.ubuntu.com/stable/ubuntu-help/sharing-desktop.html)
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#use-a-camera-cover) Use a camera cover
+### Enable a Firewall
 
-- First of all, figure out whether and where your device has cameras. Your computer might have more than one if you use a plug-in camera as well as one built into your device.
-- You can create a low-tech camera cover: apply a small adhesive bandage on your camera and peel it off when you need to use the camera. A bandage works better than a sticker because the middle part has no adhesive, so your lens won't get sticky.
-- Alternatively, search your preferred store for the model of your computer and "webcam privacy cover thin slide" to find the most suitable sliding cover for your device.
-- Advanced Linux users could also consider [disabling altogether camera access on their device](https://askubuntu.com/questions/166809/how-can-i-disable-my-webcam).
+[Use Gufw](https://help.ubuntu.com/community/Gufw) to manage your firewall. The default configuration provides adequate protection for most users.
 
-Learn why we recommend this
+> **Why this matters:** Firewalls monitor incoming and outgoing connections, blocking unauthorized access attempts. They can alert you to suspicious activity from malicious software.
 
-Malicious software may turn on the camera on your device in order to spy on you and the people around you, or to find out where you are, without you knowing it.
+---
 
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#turn-off-connectivity-youre-not-using) Turn off connectivity you're not using
+## Additional Resources
 
-- Completely power off your devices at night.
-- Get into habit of keeping wifi, Bluetooth and/or network sharing off and only enable them when you need to use them.
-- Airplane mode can be a quick way to turn off connectivity on your computer. Learn how to enable Airplane mode to turn off all wireless connections, including wifi, 3G and Bluetooth connections in [the Ubuntu guide on how to turn off wireless](https://help.ubuntu.com/stable/ubuntu-help/net-wireless-airplane.html).
-- [Make sure Bluetooth is off](https://help.ubuntu.com/stable/ubuntu-help/bluetooth-turn-on-off.html) unless you need to use it.
-- Make sure your device is not providing an internet connection to someone else. Learn how to turn this setting off in the [Ubuntu guide on creating a wireless hotspot](https://help.ubuntu.com/stable/ubuntu-help/net-wireless-adhoc.html.en).
-- To turn off wifi, go to Settings > Wi-Fi and turn off the wifi switch in the top right corner.
+- [Security in a Box: Malware Guide](https://securityinabox.org/en/phones-and-computers/malware)
+- [Linux Privacy Tips from Spread Privacy](https://spreadprivacy.com/linux-privacy-tips/)
 
-Learn why we recommend this
+---
 
-All wireless communication channels (like wifi, NFC or Bluetooth) could be abused by attackers around us who may try to get to our devices and sensitive information by exploiting weak spots in these networks.
-
-When you turn Bluetooth or wifi connectivity on, your device tries to look for any Bluetooth device or wifi network it remembers you have connected to before. Essentially, it "shouts" the names of every device or network on its list to see if they are available to connect to. Someone snooping nearby can use this "shout" to identify your device, because your list of devices or networks is usually unique. This fingerprint-like identification makes it easy for someone snooping close to you to target your device.
-
-For these reasons, it is a good idea to turn off these connections when you are not using them, particularly wifi and Bluetooth. This limits the time an attacker might have to access your valuables without you noticing that something strange is happening on your device.
-
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#clear-your-saved-wifi-networks) Clear your saved wifi networks
-
-- Save network names and passwords in your [password manager](https://securityinabox.org/en/passwords/tools/#keepassxc) instead of in your device's list of networks.
-- If you do save network names and passwords in your list of saved wifi networks, make sure to:
-  - uncheck the "Connect automatically" and "Make available to other users" options in the network configuration window: go to Settings > Wi-Fi, click the options button in the top right corner and select "Known Wi-Fi Networks". Then select the networks you want to configure.
-  - get in the habit of regularly erasing saved wifi networks when you aren't using them anymore. To delete your saved wifi networks, go to Settings > Wi-Fi, click the options button in the top right corner and select "Known Wi-Fi Networks". Then select the networks you want to delete and click the "Forget" button.
-
-Learn why we recommend this
-
-When you turn wifi connectivity on, your device tries to look for any wifi network it remembers you have connected to before. Essentially, it "shouts" the names of every network on its list to see if they are available to connect to. Someone snooping nearby can use this "shout" to identify your device, because your list is usually unique: you have probably at least connected to your home network and your office network, not to mention networks at friends' houses, favorite cafes, etc. This fingerprint-like identification makes it easy for someone snooping in your area to target your device or identify where you have been.
-
-To protect yourself from this identification, erase wifi networks your device has saved and tell your device not to look for networks all the time. This will make it harder to connect quickly, but saving that information in your password manager instead will keep it available to you when you need it.
-
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#turn-off-sharing-youre-not-using) Turn off sharing you're not using
-
-Ubuntu may not automatically make it possible to share files, media or your desktop. If you know sharing is available on your device, check and see if you need to turn the following settings off. If you cannot find the settings using the instructions described here, you probably do not have these sharing options installed.
-
-- [Sharing files](https://help.ubuntu.com/stable/ubuntu-help/sharing-personal.html)
-- [Sharing media](https://help.ubuntu.com/stable/ubuntu-help/sharing-media.html)
-- [Sharing through Bluetooth](https://help.ubuntu.com/stable/ubuntu-help/sharing-bluetooth.html)
-- [Sharing your desktop](https://help.ubuntu.com/stable/ubuntu-help/sharing-desktop.html)
-
-Learn why we recommend this
-
-Many devices give us the option to easily share files or services with others around us — a useful feature. However, if you leave this feature on when you are not using it, malicious people may exploit it to get at files on your device.
-
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#use-a-firewall) Use a firewall
-
-- [Use Gufw](https://help.ubuntu.com/community/Gufw).
-  - As a default, set "Incoming" to "Deny" and "Outgoing" to "Allow."
-
-Learn why we recommend this
-
-Firewalls are a security option that stops unwanted connections to your device. Like a security guard posted at the door of a building to decide who can enter and who can leave, a firewall receives, inspects and makes decisions about communications going in and out of your device. We recommend turning yours on to prevent malicious code from trying to access your device. The default firewall configuration should be enough protection for most people.
-
-Not all devices come with a firewall turned on. This does not mean these systems are wide open to all network connections. It just means they trust their software not to be listening when it shouldn't. They are like building owners that do not bother with guards and cameras because they are confident about which doors are unlocked, which are barricaded and which will open only for people with certain keys.
-
-Firewalls help us protect our devices in situations where a piece of software starts listening to information we weren't expecting it to — where a door is left open, in other words, either by accident or by a malicious person within the building. Firewalls that monitor outgoing connections are sometimes able to let us know when malicious software is trying to steal data or "phone home" for instructions. If you install a firewall that is specifically designed to limit outgoing connections, or if you configure your built-in firewall to work this way, you should be prepared to spend some time "training" it so that it only alerts you when it observes something unusual.
-
-## [Anchor](https://securityinabox.org/en/phones-and-computers/linux/\#see-also) See also
-
-- [Security in a Box malware guide](https://securityinabox.org/en/phones-and-computers/malware)
-- [Linux privacy tips from Spread Privacy](https://spreadprivacy.com/linux-privacy-tips/)
+*Get in the habit of checking these settings periodically to ensure nothing has changed.*

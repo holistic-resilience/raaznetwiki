@@ -1,93 +1,83 @@
-[Skip to content](https://freedom.press/digisec/guides/beyond-the-basics/#main)
+# Enhanced Document
 
-# Beyond the basics
+```markdown
+---
+title: "Beyond the Basics - Advanced Digital Security Guides"
+tags: [digital-security, encryption, privacy, metadata, vpn, signal, pgp]
+category: "Digital Security"
+difficulty: "Intermediate"
+audience: [Journalists, Activists, Privacy-Conscious Users, Media Makers]
+topics: ["Advanced Security", "Encryption", "Privacy Tools", "Data Protection"]
+summary: "Curated collection of advanced security guides covering encryption, metadata management, software verification, VPNs, and secure messaging."
+source: "Freedom of the Press Foundation"
+content_type: "Resource Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic digital security knowledge", "Completion of introductory security guides"]
+estimated_read_time: "3 minutes"
+---
 
-![Header image of a woman coding and using her phone at a desk](https://media.freedom.press/media/images/beyond_basics_header.2e16d0ba.fill-1152x864.png)
+# Beyond the Basics: Advanced Security Guides
 
-[WOCinTech Chat](https://www.flickr.com/photos/wocintechchat/25388715424/). CC-BY-2.0
+This collection of guides is designed for users who have mastered fundamental security practices and want to deepen their understanding of digital privacy and protection techniques.
 
-You’ve gone through the basics, you’re feeling pretty secure, and you want more. These guides are meant for you if you want to dig deeper and really boost your understanding of these topics.
+## Available Guides
 
-1. ![Encryption toolkit for media makers: An introduction](https://media.freedom.press/media/images/MediaEncryptionToolkit-01.2e16d0ba.fill-330x220.png)
+### 1. Encryption Toolkit for Media Makers
 
+Learn how to encrypt external storage devices including USB thumb drives and external hard drives. Covers platform-specific tools:
+- **Windows**: BitLocker To Go
+- **macOS**: Disk Utility
+- **Cross-platform**: VeraCrypt
 
+### 2. Understanding Media Metadata
 
+Explore what metadata really means—the data about your data. This guide covers:
+- What metadata looks like in practice
+- How to view metadata in your files
+- Techniques for controlling and manipulating metadata
 
+### 3. Verifying Open Source Software
 
-## [Encryption toolkit for media makers: An introduction](https://freedom.press/digisec/guides/encryption-toolkit-media-makers/)
+Leverage the transparency benefits of open source software by learning to verify its authenticity. Covers using encryption techniques to confirm file legitimacy and trustworthiness.
 
+### 4. PGP Smart Cards for Enhanced Privacy
 
+Take Pretty Good Privacy (PGP) security to the next level by storing encryption keys on hardware smart cards like YubiKey. Learn how to transmit keys to your computer only when necessary for maximum protection.
 
-If you want to encrypt external storage, we’ve got you covered. This collection of guides will walk you through how to encrypt your data using a USB thumb drive or external hard drive, with BitLocker To Go for Windows, Disk Utility for macOS, or VeraCrypt.
+### 5. Choosing a VPN
 
-2. ![A photo of a man looking at the details of his camera's digital screen.](https://media.freedom.press/media/images/Metadata3.2e16d0ba.fill-330x220.jpg)
+Cut through marketing hype with an in-depth analysis of Virtual Private Network considerations. Includes:
+- Security factors to evaluate when selecting a VPN
+- Curated recommendations for hardened options
 
+### 6. Locking Down Signal
 
+Maximize the security of the Signal encrypted messaging app by exploring advanced settings and features that minimize risk beyond default configurations.
 
+---
 
+## Next Steps
 
-## [Everything you wanted to know about media metadata, but were afraid to ask](https://freedom.press/digisec/blog/everything-you-wanted-know-about-media-metadata-were-afraid-ask/)
+After completing these guides, consider exploring additional resources from Freedom of the Press Foundation's digital security training materials.
+```
 
+## Changes Made
 
+### Content Enhancements
+- **Removed**: Newsletter signup form, image references/credits, navigation elements, and promotional content
+- **Reorganized**: Converted linked guide cards into a clean, scannable list format
+- **Clarified**: Added brief descriptions of what each guide covers
+- **Formatted**: Used consistent heading hierarchy and bullet points for tool lists
 
-Sometimes people say metadata is the data about your data — but what does that really mean? What does it look like, how do you see it and control it? This guide walks you through the basics of metadata and how to manipulate it.
-
-3. ![A header image of a handshake](https://media.freedom.press/media/images/handshake.2e16d0ba.fill-330x220.jpg)
-
-
-
-
-
-## [Verifying open source software](https://freedom.press/digisec/blog/verifying-open-source-software/)
-
-
-
-One of the benefits of open source software is that you can ensure it’s trustworthy. Our guide shows you how to use encryption to verify the legitimacy of files.
-
-4. ![YubiKey plugged into a laptop with a Swedish keyboard layout](https://media.freedom.press/media/images/YubiKey-4-laptop-above-1030x687.2e16d0ba.fill-330x220.png)
-
-
-
-
-
-## [Pretty great privacy with PGP smart cards](https://freedom.press/digisec/blog/pretty-great-privacy-pgp-smartcards/)
-
-
-
-Pretty Good Privacy, or PGP), has been used for decades to encrypt email, text, and files. If you want to ensure your PGP information is as safe as possible, you can store it on a smart card, such as a YubiKey, and transmit it to your computer only when necessary. This guide shows you how.
-
-5. ![Dimly lit tunnel under a Titan-1 missile silo at Toorcamp 2009](https://media.freedom.press/media/images/vpn_guide_rect.2e16d0ba.fill-330x220.jpg)
-
-
-
-
-
-## [An in-depth guide to choosing a VPN](https://freedom.press/digisec/blog/choosing-a-vpn/)
-
-
-
-If you’ve ever listened to a sponsored podcast or YouTube video, you’ve heard promises about the privacy properties of Virtual Private Networks, or VPNs, which encrypt and tunnel your traffic through a remote server. Our team walks you through security considerations when choosing a VPN and provides a short list to pick a hardened option.
-
-6. ![Header image titled, "Locking down Signal."](https://media.freedom.press/media/images/locking_down_signal_2x.2e16d0ba.fill-330x220.png)
-
-
-
-
-
-## [Locking down Signal](https://freedom.press/digisec/blog/locking-down-signal/)
-
-
-
-So you’re already familiar with the encrypted messaging app Signal. This guide walks you through Signal’s settings to take advantage of advanced security features to minimize risk even further.
-
-
-## Sign Up. Take Action.
-
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
-
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
-
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
-
-
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+### Metadata Updates
+- **Title**: Made more descriptive to reflect the resource guide nature
+- **Tags**: Expanded to include specific topics covered (encryption, metadata, vpn, signal, pgp)
+- **Category**: Changed from "Surveillance Technologies" to "Digital Security" (more accurate)
+- **Audience**: Added "Journalists" and "Media Makers" based on content focus
+- **Topics**: Updated to reflect advanced security focus
+- **Summary**: Rewritten to accurately describe the curated guide collection
+- **Source**: Corrected to "Freedom of the Press Foundation"
+- **Content Type**: Changed to "Resource Guide" (collection of links to other guides)
+- **Prerequisites**: Updated to reflect this is for users beyond basics
+- **Read Time**: Adjusted to 3 minutes (this is an index page, not deep content)

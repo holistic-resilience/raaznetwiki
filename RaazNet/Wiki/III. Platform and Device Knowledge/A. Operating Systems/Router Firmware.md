@@ -1,68 +1,85 @@
-[Skip to content](https://www.privacyguides.org/en/router/#openwrt)
+---
+title: "Router Firmware: Privacy-Focused Alternatives"
+tags: [router, firmware, openwrt, opnsense, network-security, open-source]
+category: "Network Security"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, Home Network Administrators, Tech Enthusiasts]
+topics: ["Router Security", "Network Privacy", "Open-Source Firmware"]
+summary: "Alternative open-source operating systems for routers and firewalls to enhance network privacy and security."
+source: "Privacy Guides"
+content_type: "Reference"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic networking knowledge", "Familiarity with router configuration"]
+estimated_read_time: "3 minutes"
+---
 
-![](https://www.privacyguides.org/en/assets/img/cover/router.webp)
+# Router Firmware: Privacy-Focused Alternatives
 
-# Router Firmware
+Alternative open-source operating systems for routers, Wi-Fi access points, and firewalls that provide enhanced privacy and security compared to stock manufacturer firmware.
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/router.md?plain=1 "Edit this page")
+## Why Replace Stock Router Firmware?
 
-Protects against the following threat(s):
+Stock router firmware often:
+- Receives infrequent security updates
+- May include telemetry or surveillance capabilities
+- Offers limited customization and features
+- Can be vulnerable to passive network attacks
 
-- [Surveillance Capitalism](https://www.privacyguides.org/en/basics/common-threats/#surveillance-as-a-business-model)
-- [Passive Attacks](https://www.privacyguides.org/en/basics/common-threats/#security-and-privacy)
+## Recommended Firmware Options
 
-Below are a few alternative operating systems that can be used on routers, Wi-Fi access points, etc.
+### OpenWrt
 
-## OpenWrt
+**OpenWrt** is a Linux-based operating system primarily used on embedded devices for routing network traffic. It includes util-linux, uClibc, and BusyBox, all optimized for home routers.
 
-![OpenWrt logo](https://www.privacyguides.org/en/assets/img/router/openwrt.svg#only-light)![OpenWrt logo](https://www.privacyguides.org/en/assets/img/router/openwrt-dark.svg#only-dark)
+**Key Features:**
+- Lightweight and efficient
+- Extensive hardware support
+- Active community and regular updates
+- Highly customizable
 
-**OpenWrt** is a Linux-based operating system; it's primarily used on embedded devices to route network traffic. It includes util-linux, uClibc, and BusyBox. All the components have been optimized for home routers.
+**Resources:**
+- [Homepage](https://openwrt.org/)
+- [Documentation](https://openwrt.org/docs/start)
+- [Hardware Compatibility Table](https://openwrt.org/toh/start)
+- [Source Code](https://github.com/openwrt/openwrt)
 
-[Homepage](https://openwrt.org/) [Documentation](https://openwrt.org/docs/start "Documentation") [Source Code](https://github.com/openwrt/openwrt "Source Code") [Contribute](https://openwrt.org/donate "Contribute")
+### OPNsense
 
-You can consult OpenWrt's [table of hardware](https://openwrt.org/toh/start) to check if your device is supported.
+**OPNsense** is an open-source, FreeBSD-based firewall and routing platform with advanced features including traffic shaping, load balancing, and VPN capabilities.
 
-## OPNsense
+**Common Use Cases:**
+- Perimeter firewall
+- Router and wireless access point
+- DHCP and DNS server
+- VPN endpoint
 
-![OPNsense logo](https://www.privacyguides.org/en/assets/img/router/opnsense.svg)
+**Background:** OPNsense originated as a fork of pfSense in 2015, developed to address security and code-quality concerns. Both projects offer enterprise-grade firewall features typically found only in expensive commercial solutions.
 
-**OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and VPN endpoint.
+**Resources:**
+- [Homepage](https://opnsense.org/)
+- [Documentation](https://docs.opnsense.org/index.html)
+- [Source Code](https://github.com/opnsense)
 
-[Homepage](https://opnsense.org/) [Documentation](https://docs.opnsense.org/index.html "Documentation") [Source Code](https://github.com/opnsense "Source Code") [Contribute](https://opnsense.org/donate "Contribute")
+## Selection Criteria
 
-OPNsense was originally developed as a fork of [pfSense](https://en.wikipedia.org/wiki/PfSense), and both projects are noted for being free and reliable firewall distributions which offer features often only found in expensive commercial firewalls. Launched in 2015, the developers of OPNsense [cited](https://docs.opnsense.org/history/thefork.html) a number of security and code-quality issues with pfSense which they felt necessitated a fork of the project, as well as concerns about Netgate's majority acquisition of pfSense and the future direction of the pfSense project.
+These recommendations are based on the following requirements:
 
-## Criteria
+| Criterion | Requirement |
+|-----------|-------------|
+| **Licensing** | Must be open source |
+| **Maintenance** | Must receive regular updates |
+| **Compatibility** | Must support a wide variety of hardware |
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](https://www.privacyguides.org/en/about/criteria/), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+## Choosing Between Options
 
-- Must be open source.
-- Must receive regular updates.
-- Must support a wide variety of hardware.
+| Feature | OpenWrt | OPNsense |
+|---------|---------|----------|
+| **Best For** | Home routers, embedded devices | Dedicated firewall appliances |
+| **Base System** | Linux | FreeBSD |
+| **Resource Requirements** | Low | Moderate to High |
+| **Complexity** | Moderate | Higher |
 
-Was this page helpful?
+---
 
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+*Source: [Privacy Guides](https://www.privacyguides.org/en/router/)*

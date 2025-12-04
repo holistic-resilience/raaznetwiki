@@ -1,106 +1,117 @@
-[Skip to content](https://www.privacyguides.org/en/cryptocurrency/#monero)
+---
+title: "Private Cryptocurrency: Monero Guide"
+tags: [cryptocurrency, privacy, monero, blockchain, financial-privacy, anonymity]
+category: "Financial Privacy"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, Cryptocurrency Users, Activists]
+topics: ["Cryptocurrency", "Financial Privacy", "Anonymous Transactions"]
+summary: "Guide to privacy-focused cryptocurrency Monero, covering wallets, nodes, and acquisition methods for anonymous transactions."
+source: "Privacy Guides"
+content_type: "Educational Guide"
+security_level: "Advanced"
+language: "English"
+prerequisites: ["Basic cryptocurrency knowledge", "Understanding of digital wallets"]
+estimated_read_time: "8 minutes"
+---
 
-![](https://www.privacyguides.org/en/assets/img/cover/cryptocurrency.webp)
+# Private Cryptocurrency: Monero Guide
 
-# Cryptocurrency
+> **Warning:** Many cryptocurrency projects are scams. Make transactions carefully with only projects you trust.
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/cryptocurrency.md?plain=1 "Edit this page")
+## Why Privacy Matters in Cryptocurrency
 
-Protects against the following threat(s):
-
-- [Mass Surveillance](https://www.privacyguides.org/en/basics/common-threats/#mass-surveillance-programs)
-- [Censorship](https://www.privacyguides.org/en/basics/common-threats/#avoiding-censorship)
-
-Making payments online is one of the biggest challenges to privacy. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
-
-[Making Private Payments](https://www.privacyguides.org/en/advanced/payments/)
-
-Danger
-
-Many if not most cryptocurrency projects are scams. Make transactions carefully with only projects you trust.
+Most cryptocurrencies like Bitcoin have transparent blockchains where transactions can be traced. For those seeking financial privacy, specialized privacy-focused cryptocurrencies offer enhanced anonymity features.
 
 ## Monero
 
-![Monero logo](https://www.privacyguides.org/en/assets/img/cryptocurrency/monero.svg)
+**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve anonymity. Every Monero transaction hides:
 
-**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [Anonymity](https://www.privacyguides.org/en/basics/common-threats/#anonymity-vs-privacy). Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
+- Transaction amounts
+- Sending and receiving addresses
+- Source of funds
 
-[Homepage](https://getmonero.org/) [Documentation](https://getmonero.org/resources/user-guides "Documentation") [Source Code](https://github.com/monero-project/monero "Source Code") [Contribute](https://getmonero.org/get-started/contributing "Contribute")
+This happens automatically without any additional steps, making it an ideal choice for cryptocurrency novices seeking privacy.
+
+### Privacy Capabilities and Limitations
 
 With Monero, outside observers cannot decipher addresses trading Monero, transaction amounts, address balances, or transaction histories.
 
-Monero's resilience to mass surveillance
+**Important Considerations:**
 
-In August 2021, CipherTrace [announced](https://web.archive.org/web/20240223224846/https://ciphertrace.com/enhanced-monero-tracing) enhanced Monero tracing capabilities for government agencies. Public postings show that the US Department of the Treasury's Financial Crimes Enforcement Network [licensed](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace's "Monero Module" in late 2022.
+In August 2021, CipherTrace announced enhanced Monero tracing capabilities for government agencies. The US Department of the Treasury's Financial Crimes Enforcement Network licensed CipherTrace's "Monero Module" in late 2022.
 
-Monero transaction graph privacy is limited by its relatively small ring signatures, especially against targeted attacks. Monero's privacy features have also been [called into question](https://web.archive.org/web/20180331203053/https://wired.com/story/monero-privacy) by some security researchers, and a number of severe vulnerabilities have been found and patched in the past, so the claims made by organizations like CipherTrace are not out of the question. While it's unlikely that Monero mass surveillance tools exist like they do for Bitcoin and others, it's certain that tracing tools assist with targeted investigations.
+Monero's privacy features have some limitations:
 
-Ultimately, Monero is the strongest contender for a privacy-friendly cryptocurrency, but its privacy claims have **not** been definitively proven one way or the other. More time and research is needed to assess whether Monero is resilient enough to attacks to always provide adequate privacy.
+- Transaction graph privacy is limited by relatively small ring signatures
+- Vulnerability to targeted attacks exists
+- Some security researchers have questioned privacy claims
+- Several severe vulnerabilities have been found and patched historically
 
-### Monero wallets
+**Bottom Line:** Monero is the strongest contender for a privacy-friendly cryptocurrency, but its privacy claims have **not** been definitively proven. While mass surveillance tools likely don't exist for Monero as they do for Bitcoin, tracing tools can assist with targeted investigations.
 
-For optimal privacy, make sure to use a self-custody wallet where the [view key](https://getmonero.org/resources/moneropedia/viewkey.html) stays on the device. This means that only you will have the ability to spend your funds and see incoming and outgoing transactions. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your view key, the provider can see almost everything you do (but not spend your funds). Some self-custody wallets where the view key does not leave your device include:
+## Monero Wallets
 
-- [Official Monero client](https://getmonero.org/downloads) (Desktop)
-- [Cake Wallet](https://cakewallet.com/) (iOS, Android, Desktop)
-  - Cake Wallet supports multiple cryptocurrencies. A Monero-only version of Cake Wallet for iOS and Android is available at [Monero.com](https://monero.com/).
-- [Feather Wallet](https://featherwallet.org/) (Desktop)
-- [Monerujo](https://monerujo.io/) (Android)
+For optimal privacy, use a **self-custody wallet** where the view key stays on your device. This ensures only you can:
 
-### Monero nodes
+- Spend your funds
+- See incoming and outgoing transactions
 
-For maximum privacy (even with a self-custody wallet), you should run your own Monero node called the [Monero daemon](https://docs.getmonero.org/interacting/monerod-reference), which is included in the [CLI wallet](https://getmonero.org/downloads/#cli). Using another person’s node will expose some information to them, such as the IP address that you connect to it from, the timestamps that you sync your wallet, and the transactions that you send from your wallet (though no other details about those transactions). Alternatively, you can connect to someone else’s Monero node over [Tor](https://www.privacyguides.org/en/alternative-networks/#tor), [I2P](https://www.privacyguides.org/en/alternative-networks/#i2p-the-invisible-internet-project), or a [VPN](https://www.privacyguides.org/en/vpn/).
+**Wallet Types to Avoid:**
+- **Custodial wallets:** Provider can see everything you do
+- **Lightweight wallets:** Provider retains your view key and can see almost all activity
 
-### Buying Monero
+### Recommended Self-Custody Wallets
 
-[General tips for acquiring Monero](https://www.privacyguides.org/en/advanced/payments/#acquisition)
+| Wallet | Platform | Notes |
+|--------|----------|-------|
+| [Official Monero Client](https://getmonero.org/downloads) | Desktop | Full-featured official wallet |
+| [Cake Wallet](https://cakewallet.com/) | iOS, Android, Desktop | Cross-platform with exchange features |
+| [Feather Wallet](https://featherwallet.org/) | Desktop | Lightweight desktop option |
+| [Monerujo](https://monerujo.io/) | Android | Mobile-focused |
 
-There are numerous centralized exchanges (CEX) as well as P2P marketplaces where you can buy and sell Monero. Some of them require identifying yourself (KYC) to comply with anti-money laundering regulations. However, due to Monero's privacy features, the only thing known to the seller is _that_ you bought Monero, but not how much you own or where you spend it (after it leaves the exchange). Some reputable places to buy Monero include:
+## Running Your Own Node
 
-- [Kraken](https://kraken.com/): A well-known CEX. Registration and KYC are mandatory. Card payments and bank transfers accepted. Make sure not to leave your newly purchased Monero on Kraken's platform after the purchase; withdraw them to a self-custody wallet. Monero is not available in all jurisdictions that Kraken operates in.[1](https://www.privacyguides.org/en/cryptocurrency/#fn:1)
-- [Cake Wallet](https://cakewallet.com/): A self-custody cross-platform wallet for Monero and other cryptocurrencies. You can buy Monero directly in the app using card payments or bank transfers (through third-party providers such as [Guardarian](https://guardarian.com/) or [DFX](https://dfx.swiss/)).[2](https://www.privacyguides.org/en/cryptocurrency/#fn:2)KYC is usually not required, but it depends on your country and the amount you are purchasing. In countries where directly purchasing Monero is not possible, you can also use a provider within Cake Wallet to first buy another cryptocurrency such as Bitcoin, Bitcoin Cash, or Litecoin and then exchange it to Monero in-app.
-  - [Monero.com](https://monero.com/) is an associated website where you can buy Monero and other cryptocurrencies without having to download an app. The funds will simply be sent to the wallet address of your choice.
-- [RetoSwap](https://retoswap.com/) (formerly known as Haveno-Reto) is a self-custody, decentralized P2P exchange platform based on the [Haveno](https://haveno.exchange/) project which is available for Linux, Windows, and macOS. Monero can be bought and sold with maximum privacy, since most trading counterparties do not require KYC, trades are made directly between users (P2P), and all connections run through the Tor network. It is possible to buy Monero via bank transfer, PayPal, or even by paying in cash (meeting in person or sending by mail). Arbitrators can step in to resolve disputes between buyer and seller, but be careful when sharing your bank account or other sensitive information with your trading counterparty. Trading with some accounts may be against those accounts' terms of service.
+For maximum privacy, run your own Monero node (the Monero daemon), included in the CLI wallet.
 
-## Criteria
+**Why run your own node?**
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](https://www.privacyguides.org/en/about/criteria/), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+Using someone else's node exposes:
+- Your IP address
+- Wallet sync timestamps
+- Transactions you send (though not transaction details)
 
-- Cryptocurrency must provide private/untraceable transactions by default.
+**Alternative:** Connect to another person's node over Tor, I2P, or a VPN to mitigate these risks.
 
-Important notices
+## Acquiring Monero
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](https://www.privacyguides.org/en/about/notices/).
+### Centralized Exchange: Kraken
 
-* * *
+- Registration and KYC mandatory
+- Accepts card payments and bank transfers
+- **Important:** Withdraw to self-custody wallet immediately after purchase
+- Monero availability varies by jurisdiction
 
-1. You may refer to the following pages for up-to-date information on countries in which Kraken does **not** allow the purchase of Monero: [Where is Kraken licensed or regulated?](https://support.kraken.com/hc/en-us/articles/where-is-kraken-licensed-or-regulated) and [Support for Monero (XMR) in Europe](https://support.kraken.com/hc/en-us/articles/support-for-monero-xmr-in-europe). [↩](https://www.privacyguides.org/en/cryptocurrency/#fnref:1)
+### Self-Custody Option: Cake Wallet
 
-2. You may refer to the following pages for up-to-date information on countries in which Cake Wallet and Monero.com **only** allow the direct purchase of Monero (through third-party providers): [Which countries are served by DFX?](https://docs.dfx.swiss/en/faq.html#which-countries-are-served-by-dfx) and [What are the supported countries/regions? (Guardarian)](https://guardarian.freshdesk.com/support/solutions/articles/80001151826-what-are-the-supported-countries-regions). [↩](https://www.privacyguides.org/en/cryptocurrency/#fnref:2)
+- Buy Monero directly in-app via card or bank transfer
+- Uses third-party providers (Guardarian, DFX)
+- KYC usually not required (varies by country and amount)
+- Can exchange other cryptocurrencies for Monero in-app
 
+### Decentralized P2P: RetoSwap
 
-Was this page helpful?
+- Self-custody, decentralized exchange based on Haveno project
+- Available for Linux, Windows, macOS
+- Maximum privacy: most counterparties don't require KYC
+- All connections run through Tor
+- Payment methods: bank transfer, PayPal, cash
+- Arbitrators available for dispute resolution
+- **Caution:** Sharing bank details may violate some accounts' terms of service
 
+## Selection Criteria
 
+Privacy Guides recommends cryptocurrencies that provide **private/untraceable transactions by default**.
 
+---
 
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+> **Disclaimer:** This content is not legal or financial advice. We do not endorse illicit activities or violations of terms of service. Verify these recommendations are legal in your jurisdiction with a professional.

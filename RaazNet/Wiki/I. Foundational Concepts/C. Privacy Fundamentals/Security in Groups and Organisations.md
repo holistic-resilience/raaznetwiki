@@ -1,59 +1,126 @@
-![Strategise detail 04](https://holistic-security.tacticaltech.org/media/chapters/images/default/strategise_detail_04.jpg%3F1460642065)
+---
+title: "Security in Groups and Organisations"
+tags: [organizational-security, security-planning, emergency-response, group-dynamics, risk-management]
+category: "Organizational Security"
+difficulty: "Intermediate"
+audience: [Activists, NGO Workers, Community Organizers, Security Managers]
+topics: ["Security Planning", "Emergency Preparedness", "Group Security Management"]
+summary: "Guide to building security strategies within groups, including buy-in, emergency planning, and ongoing security management."
+source: "Tactical Tech - Holistic Security"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic security awareness", "Understanding of risk assessment concepts"]
+estimated_read_time: "8 minutes"
+---
 
-# 3.4 Security in Groups and Organisations
+# Security in Groups and Organisations
 
-Groups and organisations have complex internal dynamics and cultures which influence the ways we interact and plan for our security. This can be further complicated when we consider, as a group, the genuine possibility of unpleasant things happening to us in the course of our work. Security planning in a group can be stressful and emotional and fears about appearing overly concerned or paranoid are common. Practically speaking, it can also be difficult to carry out analyses in a group and come to agreements. For a security plan to be successful, everyone needs to be on board with it, but in groups this can be a tall order!
+Groups and organisations have complex internal dynamics and cultures that influence how we interact and plan for our security. This complexity increases when we consider, as a group, the genuine possibility of threats materialising during our work.
 
-Here we'll explore some of the key issues around building and improving security strategies and plans within groups and organisations.
+Security planning in a group can be stressful and emotional. Fears about appearing overly concerned or paranoid are common. Practically, it can be difficult to carry out analyses collectively and reach agreements. For a security plan to succeed, everyone needs to be on board—but in groups, this can be challenging.
 
-## Creating and maintaining security plans
+This guide explores key issues around building and improving security strategies within groups and organisations.
 
-Once the group has carried out a risk analysis (using the tools outlined in Section II), there are a number of factors you can keep in mind when creating security plans:
+## Creating and Maintaining Security Plans
 
-- **Achieving buy-in**: Introduce your plan logically and talk your colleagues through each step. Security is an issue which can be very emotional and we all have different perceptions of it, meaning that talking about it is a subject which demands time and a safe space. Try not to scare people but do give them the facts and create a calm space for questions and concerns.
+### Achieving Buy-In
 
-- **Participatory design**: Some people may not welcome a security plan which was decided upon without their consultation. High-risk activities and emergencies can be distressing and it's important that everyone is comfortable with the role they are assigned and has a space to express their concerns in advance if not. Try to get input from many people as you can while the plan is still in development.
+Introduce your plan logically and walk colleagues through each step. Security can be emotional, and we all perceive it differently—discussing it requires time and a safe space.
 
-- **Role-playing**: In some cases, it may be useful to design a role-play so that members of the organisation can practice how to respond to a certain situation or emergency. Nevertheless, exercise caution and make sure everyone is content to take part as role-playing can trigger emotional responses from people who have experienced trauma in the past.
+- Present facts calmly without creating unnecessary fear
+- Create space for questions and concerns
+- Allow time for processing and discussion
 
-- **Re-planning and consideration**: Remember that all security plans should be considered ' **live**' and should be re-evaluated and discussed regularly, especially when new members join the group. Include fixed dates to review your security practices and plans and make sure security is not an afterthought, but central to your strategic plan.
+### Participatory Design
 
+People may resist security plans created without their input. High-risk activities and emergencies can be distressing, so everyone should be comfortable with their assigned role and have space to express concerns beforehand.
 
-## Emergency planning in groups and organisations
+- Gather input from as many people as possible during development
+- Ensure everyone understands and accepts their responsibilities
+- Document concerns and address them transparently
 
-It is vital to have emergency or contingency plans in place as no preventative measures are 100% effective all of the time. When creating such a plan, consider these key elements:
+### Role-Playing Exercises
 
-**Definition of emergency**
+Role-playing can help members practice responding to specific situations or emergencies. However, exercise caution:
 
-Decide what an 'emergency' is – i.e. the point at which we should begin to implement the actions and contingency measures planned. This is important as sometimes it will be unclear – if you imagine a scenario such as losing contact with a colleague on a field mission; how long would you wait before declaring an emergency?
+- Ensure everyone consents to participate
+- Be aware that role-playing can trigger emotional responses in people who have experienced trauma
+- Provide support resources for those who need them
 
-**Roles and responsibilities**
+### Regular Review and Re-Planning
 
-Assign each person a clear role that they are aware of and have agreed to in advance – this will reduce disorganisation and panic in the event of an incident. In the case of each threat, consider the different roles that you may have to assume and the practicalities involved in responding to an emergency.
+All security plans should be considered **live documents** requiring regular re-evaluation, especially when:
 
-Within this an important strategy for emergencies is the **activation of a support network** – a broad network of our allies, which may include friends and family, community, local allies, elements of the State, and national or international allies like NGOs and journalists. How can your allies support you? Should you contact them in advance to verify that they will be willing to help you in an emergency and let them know what you expect of them?
+- New members join the group
+- The operational context changes
+- After any security incident
 
-**Channels of communication**
+Schedule fixed dates to review security practices and ensure security remains central to your strategic planning—not an afterthought.
 
-Coordinating a response to an emergency always involves coordinating actions so digital communication is increasingly important. Decide what the most secure and effective means of communicating with each actor is in different scenarios and identify a back-up means too. Be aware that for emergencies, it might be useful to have clear guidelines on:
+## Emergency Planning
 
-- what to communicate
+### Defining an Emergency
 
-- which channels to use
+Establish clear criteria for what constitutes an emergency—the point at which planned actions and contingency measures should be activated.
 
-- to whom.
+This clarity matters because situations are often ambiguous. For example: if you lose contact with a colleague on a field mission, how long do you wait before declaring an emergency?
 
+### Roles and Responsibilities
 
-**Early Alert and Response System**
+Assign each person a clear role they understand and have agreed to in advance. This reduces disorganisation and panic during incidents.
 
-This is a useful tool for coordinating our response to an emergency or an imminent high-risk situation. The Early Alert and Response System is essentially a centralised document (electronic or otherwise) to be opened in the event of an emergency which should be used to record all the details about the security indicators and incidents which have occurred on a timeline, provide a clear description of the actions and sequence for the planned response, and indicators to be achieved which will signify that the risk has once again decreased. It should also include after-care actions to be taken in order to protect those involved from further harm and help them to recover physically and emotionally.
+For each identified threat, consider:
 
-The Early Alert and Response System provides useful documentation for subsequent analysis of what has happened and how to improve our prevention tactics and responses to threats in the future.
+- What roles need to be assumed
+- Practical requirements for responding
+- Who serves as backup for each role
 
-## Improving organisational security management
+### Activating Support Networks
 
-Organisations have to consider security management and its implementation by managers, staff and volunteers as a process of consistent re-evaluation. It's a good idea to regularly evaluate the extent to which our security strategy and plans are not only consistent with the context in which we're operating but also that they are accepted and implemented by our members. Read on to the next Chapter to learn more about assessing our security as an organisation.
+A critical emergency strategy involves activating your **support network**—a broad network of allies that may include:
 
-[3.3 Creating Security Plans and Agreements](https://holistic-security.tacticaltech.org/chapters/strategise/3-3-creating-security-plans-and-agreements.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/strategise.html)
-[3.5 Assessing Organisational Security](https://holistic-security.tacticaltech.org/chapters/strategise/3-5-assessing-organisational-security.html)
+- Friends and family
+- Community members
+- Local allies
+- Sympathetic elements within government
+- National and international allies (NGOs, journalists, diplomatic contacts)
+
+**Preparation steps:**
+
+- Contact potential allies in advance
+- Verify their willingness to help during emergencies
+- Clarify what you expect of them and what they can realistically provide
+
+### Communication Protocols
+
+Establish clear protocols covering:
+
+- **What** to communicate (and what to withhold)
+- **Which channels** to use (primary and backup)
+- **To whom** information should flow
+
+### Early Alert and Response System
+
+An Early Alert and Response System is a centralised document (electronic or physical) to be activated during emergencies. It should include:
+
+1. **Incident Timeline**: Record all security indicators and incidents chronologically
+2. **Response Actions**: Clear description of planned actions and their sequence
+3. **De-escalation Indicators**: Markers signifying when risk has decreased
+4. **After-Care Actions**: Steps to protect those involved from further harm and support physical and emotional recovery
+
+This system provides valuable documentation for subsequent analysis, helping improve prevention tactics and threat responses.
+
+## Improving Organisational Security Management
+
+Security management requires consistent re-evaluation by managers, staff, and volunteers. Regularly assess whether your security strategy and plans:
+
+- Remain consistent with your current operational context
+- Are accepted by all members
+- Are actually being implemented in practice
+
+Security management is an ongoing process, not a one-time exercise.
+
+---
+
+*This guide is part of the Holistic Security framework by Tactical Tech.*

@@ -1,120 +1,101 @@
-[Skip to content](https://www.privacyguides.org/en/browser-extensions/#content-blockers)
+---
+title: "Browser Extensions for Privacy"
+tags: [privacy, security, browser-extensions, content-blocking, ad-blocking, fingerprinting]
+category: "Browser Security"
+difficulty: "Intermediate"
+audience: [General Public, Privacy-Conscious Users, Security Practitioners]
+topics: ["Browser Privacy", "Content Blocking", "Digital Security"]
+summary: "Guide to essential privacy-focused browser extensions, focusing on content blockers like uBlock Origin and AdGuard."
+source: "Privacy Guides"
+content_type: "Reference"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic browser usage", "Understanding of online tracking"]
+estimated_read_time: "8 minutes"
+---
 
-![](https://www.privacyguides.org/en/assets/img/cover/browser-extensions.webp)
+# Browser Extensions for Privacy
 
-# Browser Extensions
+## General Principles
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/browser-extensions.md?plain=1 "Edit this page")
+We recommend keeping browser extensions to a minimum to decrease your attack surface. Extensions have privileged access within your browser, require you to trust the developer, can make you [stand out through fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and can [weaken site isolation](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ).
 
-Protects against the following threat(s):
+However, some extensions provide functionality that outweighs these downsides, particularly for content blocking.
 
-- [Surveillance Capitalism](https://www.privacyguides.org/en/basics/common-threats/#surveillance-as-a-business-model)
-
-In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface. They have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
-
-However, some provide functionality which can outweigh these downsides in certain situations, particularly when it comes to [content blocking](https://www.privacyguides.org/en/basics/common-threats/#mass-surveillance-programs).
-
-Don't install extensions which you don't immediately have a need for, or ones that duplicate the functionality of your browser. For example, [Brave](https://www.privacyguides.org/en/desktop-browsers/#brave) users don't need to install uBlock Origin, because Brave Shields already provides the same functionality.
+**Key guidelines:**
+- Don't install extensions you don't immediately need
+- Avoid extensions that duplicate browser functionality (e.g., Brave users don't need uBlock Origin since Brave Shields provides similar functionality)
 
 ## Content Blockers
 
 ### uBlock Origin
 
-![uBlock Origin logo](https://www.privacyguides.org/en/assets/img/browsers/ublock_origin.svg)
+**uBlock Origin** is a popular content blocker that helps block ads, trackers, and fingerprinting scripts.
 
-**uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
+**Resources:**
+- [GitHub Repository](https://github.com/gorhill/uBlock#readme)
+- [Privacy Policy](https://github.com/gorhill/uBlock/wiki/Privacy-policy)
+- [Documentation](https://github.com/gorhill/uBlock/wiki)
 
-[Repository](https://github.com/gorhill/uBlock#readme) [Privacy Policy](https://github.com/gorhill/uBlock/wiki/Privacy-policy "Privacy Policy") [Documentation](https://github.com/gorhill/uBlock/wiki "Documentation") [Source Code](https://github.com/gorhill/uBlock "Source Code")
+**Available for:** Firefox, Chrome, Edge
 
-Downloads
+**Configuration recommendations:**
+- Follow the [developer's documentation on blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode)
+- Be cautious with additional filter lists—they can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css)
 
-- [Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
-- [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-- [Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
-
-We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
-
-These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
-
-- Check **Privacy** \> **AdGuard URL Tracking Protection**
+**Recommended additional filter lists:**
+- Enable **Privacy > AdGuard URL Tracking Protection**
 - Add [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 ### uBlock Origin Lite
 
-uBlock Origin also has a "Lite" version of their extension, which offers a very limited feature-set compared to the original extension. However, it has a few distinct advantages over its full-fledged sibling, so you may want to consider it if...
+A "Lite" version with limited features but distinct advantages:
 
-- ...you don't want to grant full "read/modify website data" permissions to any extensions (even a trusted one like uBlock Origin)
-- ...you want a more resource (memory/CPU) efficient content blocker[1](https://www.privacyguides.org/en/browser-extensions/#fn:1)
-- ...your browser only supports Manifest V3 extensions
+**Consider uBlock Origin Lite if:**
+- You don't want to grant full "read/modify website data" permissions to any extension
+- You want a more resource-efficient content blocker
+- Your browser only supports Manifest V3 extensions
 
-![uBlock Origin Lite logo](https://www.privacyguides.org/en/assets/img/browsers/ublock_origin_lite.svg)
+**Key differences from uBlock Origin:**
+- Manifest V3 compatible
+- Doesn't require broad "read/modify data" permissions
+- Lower risk of passive attacks if malicious rules are added to filter lists
+- Only supports pre-selected filter lists with no manual element blocking
+- Filter list updates only occur when the extension updates (typically every 2-7 days)
 
-**uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original _uBlock Origin_, this extension does not require broad "read/modify data" permissions to function, which lowers the risk of [Passive Attacks](https://www.privacyguides.org/en/basics/common-threats/#security-and-privacy) on your browser if a malicious rule is added to a filter list.
+**Available for:** Chrome, Edge, Safari
 
-[Repository](https://github.com/uBlockOrigin/uBOL-home#readme) [Privacy Policy](https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy "Privacy Policy") [Documentation](https://github.com/uBlockOrigin/uBOL-home/wiki "Documentation") [Source Code](https://github.com/gorhill/uBlock/tree/master/platform/mv3 "Source Code")
+**Permission configuration:**
+- Default "Basic" mode requires no special permissions
+- "Optimal" or "Complete" modes request read/modify access
+- You can adjust filtering level per-site to minimize permissions
 
-Downloads
+### AdGuard for iOS
 
-- [Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
-- [Edge](https://microsoftedge.microsoft.com/addons/detail/cimighlppcgcoapaliogpjjdehbnofhn)
-- [Safari](https://apps.apple.com/app/id6745342698)
+For Safari users on iOS, AdGuard provides an adequate alternative since uBlock Origin doesn't support Safari.
 
-We only recommend this version of uBlock Origin if you never want to make any changes to your filter lists, because it only supports a few pre-selected lists and offers no additional customization options, including the ability to select elements to block manually. These restrictions are due to limitations in Manifest V3's design.
+**AdGuard for iOS** is a free and open-source content-blocking extension using Safari's native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
 
-This version offers three levels of blocking: "Basic" works without requiring any special privileges to view and modify site content, while the "Optimal" and "Complete" levels do require that broad permission, but offer a better filtering experience with additional cosmetic rules and scriptlet injections.
+**Resources:**
+- [Homepage](https://adguard.com/en/adguard-ios/overview.html)
+- [Privacy Policy](https://adguard.com/privacy/ios.html)
+- [Documentation](https://kb.adguard.com/ios)
+- [Source Code](https://github.com/AdguardTeam/AdguardForiOS)
 
-If you set the default filtering mode to "Optimal" or "Complete" the extension will request read/modify access to **all** websites you visit. However, you also have the option to change the setting to "Optimal" or "Complete" on a **per-site** basis by adjusting the slider in the extension's pop-up panel on any given site. When you do so, the extension will request read/modify access to that site only. Therefore, if you want to take advantage of uBlock Origin Lite's "permission-less" configuration, you should probably leave the default setting as "Basic" and only adjust it higher on sites where that level is not adequate.
+**Available on:** App Store
 
-uBlock Origin Lite only receives block list updates whenever the extension is updated from your browser's extension marketplace, as opposed to on demand. Google has an [expedited review process](https://developer.chrome.com/docs/webstore/skip-review) for filter updates, which means you still typically receive filter list updates as frequently as uBlock Origin Lite chooses to publish a release (historically every 2-7 days). However, only so-called " [safe rules](https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest#safe_rules)" can be updated, which may limit the update frequency of lists using advanced techniques.
+**Notes:**
+- Standard Safari content blocking is free
+- Additional filter lists slow performance and increase attack surface—only apply what you need
+- Premium features available but not required for basic functionality
 
-### AdGuard
+## Extension Selection Criteria
 
-We recommend [Safari](https://www.privacyguides.org/en/mobile-browsers/#safari-ios) for iOS users, which unfortunately is not supported by uBlock Origin. Luckily, AdGuard provides an adequate alternative:
+When evaluating browser extensions for privacy:
 
-![AdGuard logo](https://www.privacyguides.org/en/assets/img/browsers/adguard.svg)
+1. **Must not replicate built-in browser or OS functionality**
+2. **Must directly impact user privacy** (not simply provide information)
 
-**AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+---
 
-[Homepage](https://adguard.com/en/adguard-ios/overview.html) [Privacy Policy](https://adguard.com/privacy/ios.html "Privacy Policy") [Documentation](https://kb.adguard.com/ios "Documentation") [Source Code](https://github.com/AdguardTeam/AdguardForiOS "Source Code")
-
-Downloads
-
-- [App Store](https://apps.apple.com/app/id1047223162)
-
-Additional filter lists do slow things down and may increase your attack surface, so only apply what you need. AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
-
-## Criteria
-
-- Must not replicate built-in browser or OS functionality.
-- Must directly impact user privacy, i.e. must not simply provide information.
-
-* * *
-
-1. uBlock Origin Lite _itself_ will consume no resources, because it uses newer APIs which make the browser process the filter lists natively, instead of running JavaScript code within the extension to handle the filtering. However, this resource advantage is only [theoretical](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), because it's possible that standard uBlock Origin's filtering code is more efficient than your browser's native filtering code. This has not yet been benchmarked. [↩](https://www.privacyguides.org/en/browser-extensions/#fnref:1)
-
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+*Source: [Privacy Guides](https://www.privacyguides.org/en/browser-extensions/)*

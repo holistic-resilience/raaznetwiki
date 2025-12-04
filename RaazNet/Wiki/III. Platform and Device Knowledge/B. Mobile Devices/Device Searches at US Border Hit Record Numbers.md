@@ -1,78 +1,86 @@
-[Skip to content](https://freedom.press/digisec/blog/device-searches-hit-record-numbers-at-us-border/#main)
+```yaml
+---
+title: "Device Searches at US Border Hit Record Numbers"
+tags: [border-security, device-search, cbp, travel-security, journalism-safety, privacy]
+category: "Border Security"
+difficulty: "Intermediate"
+audience: [Journalists, Activists, International Travelers, Privacy-Conscious Users]
+topics: ["Border Crossings", "Device Searches", "Digital Security", "Press Freedom"]
+summary: "CBP device searches reached record highs in Q2 2025, with guidance on preparing devices for international travel and understanding search risks."
+source: "Freedom of the Press Foundation"
+content_type: "Newsletter"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of device security", "Awareness of border crossing procedures"]
+estimated_read_time: "4 minutes"
+---
 
-![Photo from a United States point of entry with an American flag hanging from the ceiling, as well as a line of travelers leading to an officer screening zone.](https://media.freedom.press/media/images/25987797318_f04522f54e_k_1.2e16d0ba.fill-1920x1080.jpg)
+# Device Searches at US Border Hit Record Numbers
 
-U.S. Customs and Border Protection/Glenn Fawcett
+*From the digital security training team at Freedom of the Press Foundation (FPF)*
 
-It’s the digital security training team at Freedom of the Press Foundation (FPF), with security news that keeps you, your sources, and your devices safe. If someone shared this newsletter with you, [please subscribe here](https://freedom.press/training/digisec-subscribe/).
+## Record-Breaking Device Searches
 
-### [Jump link for section](https://freedom.press/digisec/blog/device-searches-hit-record-numbers-at-us-border/\#travelers-to-the-us-face-more-device-searches-than-ever) Travelers to the U.S. face more device searches than ever
+According to U.S. Customs and Border Protection, the number of device searches conducted between April and June reached an all-time high: **14,899 devices** were searched during this quarter.
 
-As a person who grew up loving the “Guinness Book of World Records,” there are certain records I don’t love to see broken.
+### Search Types Breakdown
 
-## Get Weekly Tips & Advice
+| Search Type | Percentage | Description |
+|-------------|------------|-------------|
+| **Basic** | ~93% | Border official manually examines device |
+| **Advanced** | ~7% | Uses forensic tools to copy and process device data |
 
-Subscribe for easy and actionable tips that improve your digital security awareness.
+This represents a **16.7% increase** over the previous record of 12,766 devices searched from January through March 2022.
 
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
+**Source:** [Wired](https://www.wired.com/story/phone-searches-at-the-us-border-hit-a-record-high/) | [CBP Statistics](https://www.cbp.gov/travel/cbp-search-authority/border-search-electronic-devices)
 
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
+---
 
+## What You Can Do
 
-According to U.S. Customs and Border Protection, the number of device searches the agency conducted between April and June this year has reached an all-time high. According to [statistics published on its website](https://www.cbp.gov/travel/cbp-search-authority/border-search-electronic-devices), CBP searched 14,899 devices. Of those, CBP reports nearly 93% were “basic” searches, meaning that a border official looked through a device manually. A little over 7% are labelled as “advanced” searches, meaning that a border official is likely using more invasive tools, such as a forensic device designed to copy and process data on mobile devices. Wired reports, “The April-June spike tops the previous highest quarterly figure of at least 12,766 devices, which were searched by CBP officials from January through March 2022, by 16.7 percent.” [Learn more](https://www.wired.com/story/phone-searches-at-the-us-border-hit-a-record-high/).
+### Prepare Your Devices for Search
 
-### [Jump link for section](https://freedom.press/digisec/blog/device-searches-hit-record-numbers-at-us-border/\#what-you-can-do) What you can do
+Americans returning from abroad cannot be denied entry, but you may still be asked to unlock devices. Potential consequences include:
 
-- **Preparing devices for search.** Americans returning to the U.S. from abroad cannot be denied entry into the country, but you may still be asked to unlock your devices. Regardless, you risk delays, extended detention, or having your device seized for search. Non-U.S. citizens are in an especially tough position, as they may be denied entry or even face deportation. [Read our guide on how to prepare your devices](https://freedom.press/digisec/blog/border-security/) in anticipation of international travel.
-- **It’s not just what’s on your devices.** Your online posts and reporting may be scrutinized ahead of a visit. The example of the Australian journalist Alistair Kitchen is telling here. After being pulled from a customs line, he recounts a federal officer telling him explicitly, “It’s because of what you wrote online about the protests at Columbia University.” Depending on your citizenship or visa status and what kind of reporting you conduct, this may represent an elevated risk for you as well. [Read the U.S. Press Freedom Tracker’s reporting](https://pressfreedomtracker.us/all-incidents/australian-writer-deported-after-interrogation-over-reporting-phone-search/) on this incident.
-- **Our trainers are here to help.** We’ve been getting more questions about border searches than ever before. That’s why, in collaboration with our friends at the Electronic Frontier Foundation, we have built a [J-school digital security course](https://freedom.press/digisec/blog/new-journalism-curriculum-module-teaches-digital-security-for-border-journalists/) and conducted related digital security trainings for journalists. [Please reach out](https://freedom.press/digisec/programs/) if you would like to pursue training for yourself or your newsroom.
+- Extended delays at the border
+- Prolonged detention
+- Device seizure for further examination
 
-### [Jump link for section](https://freedom.press/digisec/blog/device-searches-hit-record-numbers-at-us-border/\#updates-from-our-team) Updates from our team
+**Non-U.S. citizens face additional risks**, including potential denial of entry or deportation.
 
-- In our latest “Ask a security trainer” column, we break down how mobile phones can expose a user’s location, then help journalists consider when this type of tracking is and isn’t a real cause for concern. [Check it out](https://freedom.press/digisec/blog/ask-a-security-trainer-is-mobile-device-location-tracking-a-real-risk).
+📖 **Read:** [FPF Guide on Preparing Devices for Border Crossings](https://freedom.press/digisec/blog/border-security/)
 
-Our team is always ready to assist journalists with digital security concerns. [Reach out here](https://freedom.press/training/request-training/), and stay safe and secure out there.
+### Understand Online Scrutiny Risks
 
-Best,
+Your online posts and published reporting may be reviewed before your arrival. 
 
-Martin
+**Case Example:** Australian journalist Alistair Kitchen was pulled from a customs line and told explicitly by a federal officer: *"It's because of what you wrote online about the protests at Columbia University."*
 
-–
+Depending on your citizenship, visa status, and reporting focus, this may represent an elevated risk.
 
-Martin Shelton
+📖 **Read:** [U.S. Press Freedom Tracker Report on Kitchen Incident](https://pressfreedomtracker.us/all-incidents/australian-writer-deported-after-interrogation-over-reporting-phone-search/)
 
-Deputy Director of Digital Security
+### Request Training Support
 
+FPF has partnered with the Electronic Frontier Foundation to develop:
+
+- A [J-school digital security course](https://freedom.press/digisec/blog/new-journalism-curriculum-module-teaches-digital-security-for-border-journalists/)
+- Digital security trainings specifically for journalists
+
+📧 **Contact:** [Request training for yourself or your newsroom](https://freedom.press/digisec/programs/)
+
+---
+
+## Related Resources
+
+- **[Ask a Security Trainer: Is Mobile Device Location Tracking a Real Risk?](https://freedom.press/digisec/blog/ask-a-security-trainer-is-mobile-device-location-tracking-a-real-risk)** — How mobile phones expose location data and when tracking is a genuine concern for journalists.
+
+---
+
+## Contact
+
+For digital security concerns, [reach out to the FPF training team](https://freedom.press/training/request-training/).
+
+*Martin Shelton*  
+Deputy Director of Digital Security  
 Freedom of the Press Foundation
-
-## Related Posts
-
-1. ## [AI browsers: the security headache nobody asked for](https://freedom.press/digisec/blog/ai-browsers-the-security-headache-nobody-asked-for/)
-
-![Illustration by the Electronic Frontier Foundation. (CC BY 2.0 DEED)](https://media.freedom.press/media/images/afd67c3f-9252-5490-622a-349cac35a1.2e16d0ba.fill-451x254.jpg)
-
-[Network security](https://freedom.press/digisec/blog/network-security/)• [Newsletter](https://freedom.press/digisec/blog/?content-type=newsletter)
-
-2. ## [Phishing scams are all trick, no treat](https://freedom.press/digisec/blog/phishing-scams-are-all-trick-no-treat/)
-
-![FPF CC BY 40](https://media.freedom.press/media/images/fishing.2e16d0ba.fill-451x254.jpg)
-
-[Expert analysis](https://freedom.press/digisec/blog/expert-analysis/)• [Newsletter](https://freedom.press/digisec/blog/?content-type=newsletter)
-
-3. ## [How to limit exposing your location](https://freedom.press/digisec/blog/how-to-limit-exposing-your-location/)
-
-![CREDIT: Pixabay (CC0 1.0) - https://www.stockvault.net/photo/222798/gps#](https://media.freedom.press/media/images/stockvault-gps2227982.2e16d0ba.fill-451x254.jpg)
-
-[Expert analysis](https://freedom.press/digisec/blog/expert-analysis/)• [Guide](https://freedom.press/digisec/blog/?content-type=guide)
-
-
-## Sign Up. Take Action.
-
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
-
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
-
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
-
-
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)

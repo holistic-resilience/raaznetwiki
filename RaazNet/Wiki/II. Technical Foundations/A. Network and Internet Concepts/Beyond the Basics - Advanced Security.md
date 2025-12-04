@@ -1,93 +1,62 @@
-[Skip to content](https://freedom.press/digisec/guides/beyond-the-basics/#main)
+```yaml
+---
+title: "Beyond the Basics - Advanced Digital Security"
+tags: [security, privacy, encryption, advanced-security, digital-tools, media-security]
+category: "Digital Security"
+difficulty: "Intermediate"
+audience: [Journalists, Activists, Privacy-Conscious Users, Media Makers]
+topics: ["Advanced Security Practices", "Encryption Tools", "Privacy Protection", "Software Verification"]
+summary: "Collection of advanced digital security guides covering encryption, metadata management, software verification, VPNs, and secure messaging."
+source: "Freedom of the Press Foundation"
+content_type: "Educational Guide"
+security_level: "Advanced"
+language: "English"
+prerequisites: ["Basic digital security knowledge", "Familiarity with encryption concepts", "Completion of introductory security guides"]
+estimated_read_time: "3 minutes"
+---
+```
 
-# Beyond the basics
+# Beyond the Basics: Advanced Digital Security
 
-![Header image of a woman coding and using her phone at a desk](https://media.freedom.press/media/images/beyond_basics_header.2e16d0ba.fill-1152x864.png)
+You've mastered the fundamentals and you're ready to take your digital security to the next level. These guides are designed for users who want to deepen their understanding and implement more sophisticated protection measures.
 
-[WOCinTech Chat](https://www.flickr.com/photos/wocintechchat/25388715424/). CC-BY-2.0
+## Advanced Security Guides
 
-You’ve gone through the basics, you’re feeling pretty secure, and you want more. These guides are meant for you if you want to dig deeper and really boost your understanding of these topics.
+### 1. Encryption Toolkit for Media Makers
 
-1. ![Encryption toolkit for media makers: An introduction](https://media.freedom.press/media/images/MediaEncryptionToolkit-01.2e16d0ba.fill-330x220.png)
+Learn how to encrypt external storage devices including USB thumb drives and external hard drives. This collection covers:
+- **BitLocker To Go** for Windows
+- **Disk Utility** for macOS
+- **VeraCrypt** for cross-platform encryption
 
+### 2. Understanding Media Metadata
 
+Metadata is often described as "data about your data"—but what does that actually mean in practice? This guide explains:
+- What metadata looks like
+- How to view and inspect it
+- Methods for controlling and removing sensitive metadata
 
+### 3. Verifying Open Source Software
 
+Open source software offers the advantage of verifiability. Learn how to use cryptographic methods to confirm that software downloads are legitimate and haven't been tampered with.
 
-## [Encryption toolkit for media makers: An introduction](https://freedom.press/digisec/guides/encryption-toolkit-media-makers/)
+### 4. PGP with Smart Cards
 
+Pretty Good Privacy (PGP) has been a cornerstone of encrypted communication for decades. Enhance your PGP security by storing keys on hardware devices like YubiKeys, keeping sensitive cryptographic material isolated from your main system.
 
+### 5. Choosing a VPN
 
-If you want to encrypt external storage, we’ve got you covered. This collection of guides will walk you through how to encrypt your data using a USB thumb drive or external hard drive, with BitLocker To Go for Windows, Disk Utility for macOS, or VeraCrypt.
+Cut through the marketing noise surrounding Virtual Private Networks. This guide provides:
+- Security considerations when evaluating VPN providers
+- What VPNs actually protect (and what they don't)
+- Recommendations for hardened options
 
-2. ![A photo of a man looking at the details of his camera's digital screen.](https://media.freedom.press/media/images/Metadata3.2e16d0ba.fill-330x220.jpg)
+### 6. Locking Down Signal
 
+Already using Signal for encrypted messaging? This guide walks through advanced settings and security features to minimize risk and maximize protection.
 
+---
 
+## Next Steps
 
-
-## [Everything you wanted to know about media metadata, but were afraid to ask](https://freedom.press/digisec/blog/everything-you-wanted-know-about-media-metadata-were-afraid-ask/)
-
-
-
-Sometimes people say metadata is the data about your data — but what does that really mean? What does it look like, how do you see it and control it? This guide walks you through the basics of metadata and how to manipulate it.
-
-3. ![A header image of a handshake](https://media.freedom.press/media/images/handshake.2e16d0ba.fill-330x220.jpg)
-
-
-
-
-
-## [Verifying open source software](https://freedom.press/digisec/blog/verifying-open-source-software/)
-
-
-
-One of the benefits of open source software is that you can ensure it’s trustworthy. Our guide shows you how to use encryption to verify the legitimacy of files.
-
-4. ![YubiKey plugged into a laptop with a Swedish keyboard layout](https://media.freedom.press/media/images/YubiKey-4-laptop-above-1030x687.2e16d0ba.fill-330x220.png)
-
-
-
-
-
-## [Pretty great privacy with PGP smart cards](https://freedom.press/digisec/blog/pretty-great-privacy-pgp-smartcards/)
-
-
-
-Pretty Good Privacy, or PGP), has been used for decades to encrypt email, text, and files. If you want to ensure your PGP information is as safe as possible, you can store it on a smart card, such as a YubiKey, and transmit it to your computer only when necessary. This guide shows you how.
-
-5. ![Dimly lit tunnel under a Titan-1 missile silo at Toorcamp 2009](https://media.freedom.press/media/images/vpn_guide_rect.2e16d0ba.fill-330x220.jpg)
-
-
-
-
-
-## [An in-depth guide to choosing a VPN](https://freedom.press/digisec/blog/choosing-a-vpn/)
-
-
-
-If you’ve ever listened to a sponsored podcast or YouTube video, you’ve heard promises about the privacy properties of Virtual Private Networks, or VPNs, which encrypt and tunnel your traffic through a remote server. Our team walks you through security considerations when choosing a VPN and provides a short list to pick a hardened option.
-
-6. ![Header image titled, "Locking down Signal."](https://media.freedom.press/media/images/locking_down_signal_2x.2e16d0ba.fill-330x220.png)
-
-
-
-
-
-## [Locking down Signal](https://freedom.press/digisec/blog/locking-down-signal/)
-
-
-
-So you’re already familiar with the encrypted messaging app Signal. This guide walks you through Signal’s settings to take advantage of advanced security features to minimize risk even further.
-
-
-## Sign Up. Take Action.
-
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
-
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
-
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
-
-
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+These guides build upon foundational security knowledge. Work through them systematically to develop a comprehensive security practice tailored to your threat model.

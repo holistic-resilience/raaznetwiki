@@ -1,165 +1,228 @@
-Drones and Robots \| Street Level Surveillance [Skip to main content](https://sls.eff.org/technologies/drones-and-robots#main-content)
+---
+title: "Drones and Robots - Street Level Surveillance"
+tags: [surveillance, drones, robots, law-enforcement, privacy, unmanned-aerial-vehicles]
+category: "Surveillance Technologies"
+difficulty: "Intermediate"
+audience: [General Public, Activists, Privacy-Conscious Users, Journalists]
+topics: ["Surveillance Technology", "Law Enforcement", "Privacy Rights", "Civil Liberties"]
+summary: "EFF guide on police use of drones and robots for surveillance, including capabilities, data collection, and privacy threats."
+source: "Electronic Frontier Foundation (EFF) - Street Level Surveillance"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of surveillance concepts"]
+estimated_read_time: "12 minutes"
+---
 
-- [Technologies](https://sls.eff.org/)
-- [About](https://sls.eff.org/?class=scrolly#about)
-- [News](https://sls.eff.org/articles)
-- Resources
-  - [Atlas of Surveillance](https://atlasofsurveillance.org/)
-  - [Spot the Surveillance](https://eff.org/spot)
-  - [Surveillance Self Defense](https://ssd.eff.org/)
+# Drones and Robots
 
-* * *
+Police departments and law enforcement agencies are increasingly collecting personal information with remote-controlled, and sometimes autonomous, robots and drones (also called unmanned aerial vehicles or UAVs). While these devices—especially patrol robots—might appear to be harmless photo opportunities, they are often equipped with sophisticated surveillance technologies, including:
 
-Follow Us
+- High definition, live-feed video cameras
+- Thermal infrared video cameras
+- Heat sensors
+- WiFi ping detection for cellular devices
+- Automated license plate readers
+- Cell-phone interception technology
 
+This enables persistent and sophisticated surveillance. Captured data can later be analyzed with backend software tools like license plate readers and facial recognition technology. There have even been proposals to attach lethal and less-lethal weapons to drones and robots.
 
-- [Facebook](https://www.facebook.com/eff)
-- [X](https://twitter.com/eff)
-- [RSS](https://www.eff.org/rss)
-- [Subscribe](https://www.eff.org/effector)
+## How Drones and Robots Work
 
-Share
+Drones and robots vary greatly in size, shape, and movement capabilities. They include:
 
+- Tiny quadrotors
+- Small treaded vehicles
+- Robotic dogs
+- Large rolling cylinders
+- Large fixed-wing aircraft
 
-- [Facebook](https://www.facebook.com/share.php?u=https%3A//sls.eff.org&title=EFF%27s%20Street-Level%20Surveillance%20page%20is%20an%20accessible%20resources%20when%20you%20need%20a%20field%20guide%20to%20the%20technology%20used%20by%20police,%20how%20it%20works,%20and%20why%20it%27s%20dangerous.%20Learn%20more%20about%20surveillance%20cameras,%20license%20plate%20readers,%20and%20more. "Share on Facebook")
-- [X](https://twitter.com/intent/tweet?text=EFF%27s%20Street-Level%20Surveillance%20page%20is%20an%20accessible%20resources%20when%20you%20need%20a%20field%20guide%20to%20the%20technology%20used%20by%20police,%20how%20it%20works,%20and%20why%20it%27s%20dangerous.%20Learn%20more%20about%20surveillance%20cameras,%20license%20plate%20readers,%20and%20more.&url=https%3A//sls.eff.org&via=eff&related=eff "Share on Twitter")
-- Copy Link
+### Aerial Drones
 
-[×](https://sls.eff.org/technologies/drones-and-robots#)
+Drones in flight are harder to spot than airplane or helicopter surveillance and can sometimes remain airborne for extended periods. Some drones are tethered to the ground with a very thin wire, eliminating the need to land for battery recharging.
 
-[≡](https://sls.eff.org/technologies/drones-and-robots#mobile-nav)
+### Ground-Based Robots
 
-[![Electronic Frontier Foundation](https://sls.eff.org/assets/eff-monogram-white-82e096a984dc1f116f80dbea3f0f704d2e1a7407a359a616057f4e7917cd7a26.svg)](https://eff.org/)
+Robots can be deployed for specific police operations. Autonomous units, like Knightscope robots, can patrol areas such as parks or parking garages continuously.
 
-![globe](https://sls.eff.org/assets/globe-54ce3b0c3b43065e07a53826025a3b07657c141b646dc37047e18a7d4622854e.svg)
+### Non-Law Enforcement Uses
 
-- [English](https://sls.eff.org/technologies/drones-and-robots)
-- [Español](https://sls.eff.org/es/technologies/drones-and-robots)
+- **Civil agencies**: Land surveys, animal population monitoring, training exercises
+- **Academic institutions**: Educational and research purposes
+- **Private parties**: Recreation, research, and journalism
+- **Concerning uses**: Private individuals have used drones to spy on people through windows
 
-![](https://sls.eff.org/files/sls/technology/banner_attachment/file/30/SLS-Drone-2023.png)
+## What Data Drones and Robots Collect
 
-## Drones and robots
+Drones and robots can be equipped with surveillance technology that collects:
 
-Police departments and law enforcement agencies are increasingly collecting our personal information with remote-controlled, and sometimes autonomous, Robots and Drones (also called unmanned aerial vehicles). While these devices, especially patrol robots, might look like a fun photo op, they often are equipped with myriad spying technologies, including high definition, live-feed video cameras, thermal infrared video cameras, heat sensors, devices that register wifi pings for cellular devices, and automated license plate readers. This enables sophisticated and persistent surveillance. They can also be equipped with cell-phone interception technology. Captured data can later be scrutinized with backend software tools like license plate readers and face recognition technology. There even have been proposals for law enforcement to attach lethal and less-lethal weapons to drones and robots.
+- **Visual data**: High definition video and still images, day and night
+- **Thermal imaging**: Heat signatures of individuals
+- **Communications**: Cell phone call interception and GPS location data
+- **Vehicle identification**: License plate information
+- **Weapons detection**: Experimental technology to identify individuals carrying guns
+- **Environmental changes**: Synthetic-aperture radar can detect footprints and tire tracks
+- **Biometric data**: Some drones are equipped with facial recognition
 
-### How Drones and Robots Work
+### Autonomous Vehicle Data
 
-![A police office operates a quadrotor drone with a remote control](https://sls.eff.org/files/sls/wysiwyg/pictures/25/content_santa_clara_drone.jpg)
+Autonomous drones and robots collect vast amounts of data just to navigate safely. This creates massive new data streams that police seek to access. For example, San Francisco police obtain footage from autonomous vehicles operating in the city.
 
-Source: City of Santa Clara
+## How Law Enforcement Uses Drones and Robots
 
-A Santa Clara Police Officer in California flies a quadrotor drone.
+### Federal Agencies
 
-Drones and robots vary greatly in size, shape, and movement. They include tiny quadrotors, small treaded vehicles, robotic dogs, large rolling cylinders, and large fixed-wing aircraft. Drones in flight are harder to spot than airplane or helicopter surveillance and can sometimes stay in the sky for a longer duration. Some drones are tethered to the ground with a very thin wire so that they [do not need to land](https://www.technologyreview.com/s/543196/this-surveillance-drone-never-needs-to-land/) to recharge their batteries. Robots can be deployed by police for specific operations. Autonomous units, like Knightscope robots, can be set to [patrol areas](https://www.businesswire.com/news/home/20220531005983/en/Knightscope-Deploys-K5-Autonomous-Security-Robot-ASR-in-California-Park) like parks or parking garages.
+Drones were originally used by military and intelligence agencies but are now regularly used by:
 
-Drones and robots are substantially different from manned aircraft and landcraft. They are generally smaller, less expensive, and faster to deploy. Drones are more able to fly at low altitudes, and some can fly indoors. Drones and robots usually have a video camera attached to them, not just for surveillance, but for the operator to view through the camera to control the device. Some drones and robots are also autonomous:  they can roll or fly, and perform certain functions, without continuous operator engagement.
+- FBI
+- ICE
+- Customs and Border Protection (CBP)
+- U.S. Marshals
+- Coast Guard
 
-![](https://sls.eff.org/files/sls/wysiwyg/pictures/39/content_four-legged_robot.jpg)
+### State and Local Agencies
 
-Source: EFF
+According to the Atlas of Surveillance, more than **1,200 law enforcement agencies** in the United States operate drone programs. Drones are also used by fire departments, code enforcement agencies, and other government entities.
 
-A Boston Dynamics quadripedal robot at the International Association of Chiefs of Police 2023 conference.
+### Common Law Enforcement Applications
 
-Civil agencies often use drones to survey land, monitor animal populations, or in training exercises with employees. Many academic institutions acquire drones for educational purposes. Private parties often use drones for recreation, research, and journalism. On some occasions, private individuals have used drones to spy on people through windows.
+- Mass surveillance
+- Crime investigation
+- Search and rescue operations
+- Locating stolen goods
+- Land and infrastructure surveys
+- Suspect tracking (including thermal imaging to locate hiding suspects)
+- 3-D imaging (using paired drones)
 
-Police are using robots in situations deemed potentially dangerous, like raids or handling suspected explosive devices. Police and others also are using robots as rolling surveillance for situational awareness, or to ease the fears of pedestrians in remote areas with limited foot traffic.
+### Minnesota Case Study
 
-The disconcerting surveillance technologies that can be attached to drones and robots allow highly advanced and near-constant surveillance.
+A 2020 report from Minnesota provides insight into police drone usage:
 
-### What Kinds Of Data Drones and Robots Collect
+| Use Category | Number of Deployments |
+|-------------|----------------------|
+| Training officers | 506 |
+| Emergency response | 352 |
+| Information collection (reasonable suspicion) | 185 |
+| Requests from other agencies | 41 |
+| Road crash investigation | 39 |
+| Disaster response | 27 |
+| Monitoring public events | 12 |
+| Preparation for public events | 6 |
+| Counter-terrorism | 0 |
 
-![A cone-shapped robot with the word Hayward on it](https://sls.eff.org/files/sls/wysiwyg/pictures/24/content_Robot_7.jpg)
+**Total**: 1,171 deployments by 93 agencies at a cost of almost $1 million
 
-Source: City of Hayward
+### Border Surveillance
 
-A Knighscope robot operated by the City of Hayward.
+U.S. Customs and Border Protection uses drones to patrol borders and has explored drones with facial recognition. CBP has used the Vehicle and Dismount Exploitation Radar (VADER) surveillance system—originally created for Afghanistan—to detect people from as high as 25,000 feet.
 
-Drones and robots can be equipped with many types of surveillance equipment that can collect high definition video and still images day and night. They also can be equipped with technology allowing them to intercept cell phone calls, determine GPS locations, and gather license plate information. Authorities are experimenting with ways that drones [can be used](https://www.cnet.com/news/dhs-built-domestic-surveillance-tech-into-predator-drones/) to determine whether individuals are carrying guns. Synthetic-aperture radar [can identify](https://www.csmonitor.com/USA/2014/0205/Drones-on-the-US-border-Are-they-worth-the-price) changes in the landscape, such as footprints and tire tracks. Some drones are even equipped with [facial recognition](https://slate.com/technology/2020/07/police-drone-facial-recognition.html).
+CBP frequently loans drones to other agencies. In 2013, EFF reported that CBP had loaned its drones to external agencies approximately 500 times in three years. CBP drones were also used to surveil racial justice protests in Minneapolis in 2020.
 
-Autonomous drones and robots collect a vast amount of data just to safely move around. This creates massive new data streams that police will seek to tap into. For example, police in San Francisco [get footage collected](https://www.vice.com/en/article/v7dw8x/san-francisco-police-are-using-driverless-cars-as-mobile-surveillance-cameras) from autonomous vehicles.
+### Armed Robots and Drones
 
-### How Law Enforcement Uses Drones and Robots
+There are increasing calls to arm remote-controlled drones and robots:
 
-Drones were originally used by military and intelligence agencies, but are now regularly used by federal, state, and local public safety agencies. Federal users include the FBI, ICE, CBP, U.S. Marshals, and the Coast Guard.
+- **2016**: Dallas Police strapped an improvised explosive to a bomb disposal robot to kill a suspect during an armed standoff
+- **2022**: Drone manufacturer Axon paused development of a taser-armed drone for school shooting scenarios after widespread backlash
+- **Ongoing proposals**: Drones armed with pepper spray and other crowd control weapons
 
-Remote-controlled robots also became commonplace. For example, military and police bomb disposal robots pick up or investigate suspicious and possibly explosive packages. In 2016, the Dallas Police Department [strapped an improvised explosive](https://www.texastribune.org/2016/07/08/use-robot-kill-dallas-suspect-first-experts-say/) to one of these robots in order to kill a suspect during an armed standoff. This opened the door for a number of police proposals to deploy [similar deadly force with their robots](https://www.themarshallproject.org/2022/12/10/san-francisco-killer-robots-policing-debate). Others seek to arm robots with [firearms intended to break down doors](https://theintercept.com/2022/10/17/police-robot-gun-oakland/), but which are also capable of firing live rounds at people.
+## Drones as First Responders
 
-According to the [Atlas of Surveillance](https://atlasofsurveillance.org/search?utf8=%E2%9C%93&location=&technologies%5B88%5D=on), more than 1,200 law enforcement agencies in the United States operate a drone program. Drones are also used by fire departments, code enforcement agencies, and other government agencies.
+Some agencies are developing programs to deploy drones to service calls before police arrive. This "drone as first responder" model requires drone stations throughout an area.
 
-Law enforcement agencies use drones for mass surveillance, crime investigation, search and rescue operations, [locating stolen goods](http://www.cecildaily.com/police_and_fire_beat/article_17f96dfb-1c94-5d8f-9a65-9429a79cf75c.html), and surveying land and infrastructure. [In one 2017 case](https://www.staffordsheriff.com/apps/public/news/newsView.cfm?News_ID=1129), Virginia police used a drone equipped with thermal imaging to locate a suspect hiding in the woods.  Some police departments may purchase [pairs of drones](https://www.newsday.com/long-island/suffolk/suffolk-police-to-invest-in-drones-as-part-of-tech-upgrade-1.13110051), which can be used to create 3-D images.
+### Chula Vista Case Study
 
-One [report from the state of Minnesota](https://www.eff.org/deeplinks/2022/01/how-are-police-using-drones) may be a window into how police departments use drones. It found that 93 law enforcement agencies from across the state deployed drones 1,171 times in 2020—with an accumulative price tag of almost $1 million. The vast majority of the drone deployments were not for the [public safety disasters](https://www.nytimes.com/2021/09/08/nyregion/nypd-9-11-police-surveillance.html) that so many departments cite to justify drone use. Rather, almost half (506) were just for “training officers.” Other uses included information collection based on reasonable suspicion of unspecified crimes (185), requests from other government agencies unrelated to law enforcement (41), road crash investigation (39), and preparation for and monitoring of public events (6 and 12, respectively). There were zero deployments to counter the risk of terrorism.  Police deployed drones 352 times in the aftermath of an “emergency” and 27 times for “disaster” response.
+Data from Chula Vista Police Department in Southern California shows drones frequently respond to:
 
-There are increasing numbers of calls by police departments and drone manufacturers to arm remote-controlled drones. After wide-spread backlash including resignations from its ethics board, drone manufacturer Axon in 2022 said it would pause a program to [develop a drone armed with a taser](https://www.eff.org/deeplinks/2022/06/axon-must-not-arm-drones-tasers) to be deployed in school shooting scenarios. We’re likely to see more proposals like this, including drones armed with [pepper spray](https://www.cnet.com/science/pepper-spray-and-laser-armed-drone-receives-first-orders/) and other crowd control weapons.
+- Domestic violence calls
+- Unspecified disturbances
+- Requests for psychological evaluations
+- Crimes related to homelessness
 
-![A large drone emerging from a a hangar](https://sls.eff.org/files/sls/wysiwyg/pictures/28/content_UAV.jpg)
+Other departments adopting this model include Brookhaven Police Department (Georgia) and Clark County Sheriff (Nevada), which planned to purchase 400 drones for this purpose.
 
-Source: Sandia National Laboratories
+## Who Sells Drones
 
-A Predator drone used to patrol the U.S.-Mexico border.
+### Commercial Market
 
-U.S. Customs and Border Protections (CBP) uses drones to patrol the borders, and [is looking into drones with facial recognition](https://www.theverge.com/2017/4/6/15208820/customs-border-patrol-drone-facial-recognition-silicon-valley-dhs). CBP also has used a sophisticated [Vehicle and Dismount Exploitation Radar (VADER) surveillance system](http://www.latintimes.com/border-patrol-vader-4-things-know-about-new-drone-surveillance-radar-system-128584), initially created for use in the war in Afghanistan, to detect people from as high as 25,000 feet.
+Major manufacturers include:
 
-In 2017, the U.S. Secret Service announced that it would [incorporate drones into its overhead security-monitoring efforts](http://news.trust.org/item/20170802201124-ikfod/). It planned to use a drone with electro-optical and infrared cameras on a microfilament tether during then-President Trump's visits to his golf club in New Jersey, in spite of the risk of privacy violations of residences located within range.
+- **DJI** (world's largest commercial drone maker)
+- **AeroVironment** (largest military manufacturer)
+- **3D Robotics**
+- **Sensefly**
+- **Yuneec**
+- **Aerial Imaging Solutions**
+- **Draganfly**
 
-Agencies with drones lend them to other law enforcement bodies. For example, [in 2013 EFF reported](https://www.eff.org/deeplinks/2013/09/500-cbp-drone-flights-other-agencies) that CBP had loaned its drones to external agencies some 500 times in three years. Similarly, police used CBP drones [surveil racial justice protests](https://www.cnn.com/2020/05/29/politics/cbp-drone-minneapolis/index.html) in Minneapolis.
+### Military/Federal Market
 
-#### "Drones as First Responders"
+Major defense contractors selling to the federal government:
 
-Some law enforcement agencies and vendors are developing plans to deploy a drone to the site of all service calls before police or other emergency personnel arrive. Doing so may require installation of drone stations every few miles throughout an area. Marketed as a "drone as first responder" program, the system ostensibly allows police to assess a situation–whether it's dangerous or requires police response at all–before officers arrive at the scene.
+- General Dynamics
+- Boeing
+- L3
+- Lockheed Martin
+- General Atomics (manufactures Predator drones used for border patrol)
 
-[Data](https://www.chulavistaca.gov/departments/police-department/programs/uas-drone-program) from the Chula Vista Police Department in Southern California, which pioneered the model, shows that drones frequently respond to domestic violence, unspecified disturbances, and requests for psychological evaluations. Likewise, [flight logs](https://www.chulavistaca.gov/?splash=https%3a%2f%2fapp.airdata.com%2fu%2fcvpd&____isexternal=true) indicate the drones are often used to investigate crimes related to homelessness. The [Brookhaven Police Department](https://www.brookhavenga.gov/police/page/brookhaven-drone-program) in Georgia also has adopted this model. As of late 2022, [the Clark County Sheriff](https://www.policemag.com/648308/new-las-vegas-sheriff-plans-to-use-drones-for-first-response) in Nevada planned to purchase 400 drones for this use.
+### Funding Sources
 
-### Who Sells Drones
+Federal pandemic relief funds created a significant influx of drone purchases, with many departments using CARES Act money to acquire surveillance equipment.
 
-According to  [Business Insider](http://www.businessinsider.com/top-drone-manufacturers-companies-invest-stocks-2017-07) in 2017, the world’s largest commercial drone maker was [DJI](https://www.dji.com/), while [AeroVironment](https://www.avinc.com/) was the largest manufacturer for the military.  Since then the industry has been booming. The flood of money to municipalities from the federal government to contend with both the COVID-19 pandemic and its economic fallout meant a large influx of departments [using relief money to buy equipment](https://www.rollingstone.com/politics/politics-features/cares-act-covid-pandemic-funds-police-surveillance-1153439/), including requesting drones.  Other popular drone manufacturers include [3D Robotics](https://3dr.com/), [Sensefly](https://www.sensefly.com/drones/ebee.html), [Yuneec](http://us.yuneec.com/), [Aerial Imaging Solutions](https://aerialimagingsolutions.com/), and [Draganfly](http://www.draganfly.com/). According to FAA records, these are the most common brands used by domestic government agencies.
+## Threats Posed by Drones and Robots
 
-Many major defense contractors—including General Dynamics, Boeing, L3, and Lockheed Martin—sell drones to the federal government. Federal agencies patrolling the border have often used Predator drones manufactured by General Atomics, which have in turn been loaned to local and state law enforcement agencies.
+### Privacy Risks
 
-### Threats Posed by Drones and Robots
+Drones and robots pose significant privacy risks because they:
 
-Drones and robots pose a multitude of privacy risks because they amass large amounts of personal data about identifiable people, including those engaging in constitutionally protected activity, even though they are not suspected of any crime.
+- Amass large amounts of personal data about identifiable people
+- Capture information on those engaging in constitutionally protected activity
+- Collect data on individuals not suspected of any crime
 
-Some cities and states have responded by passing [laws that limit](https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3520&ChapterID=54) government use of drones. Some require police to get a warrant in most circumstances, and limit police retention and disclosure of collected information. Unfortunately, most states lack such protections.
+### Legal Protections
 
-However, the concern remains that drones might be used for more generalized surveillance. This includes the possibility that video of bystanders collected incidentally to search and rescue operations, land surveying, or police chase operations may be subjected to face recognition or other forms of biometric analysis.
+Some cities and states have passed laws limiting government drone use:
 
-In relation to aerial surveillance, though not necessarily drones, the U.S. Fourth Circuit in 2021 ruled in [_Leaders of a Beautiful Struggle v Baltimore Police Department_](https://harvardlawreview.org/2022/01/leaders-of-a-beautiful-struggle-v-baltimore-police-department/) that perpetual aerial surveillance of an entire city violated the Fourth Amendment.
+- Warrant requirements for most circumstances
+- Limits on data retention and disclosure
 
-### EFF's Work on Drones and Robots
+**However, most states lack such protections.**
 
-We began sounding the alarm about the government's domestic use of drones back in 2011, and more recently began to object to various law enforcement uses of robots.
+### Concerning Trends
 
-#### Transparency
+- Video of bystanders collected during routine operations may be subjected to facial recognition or biometric analysis
+- Potential for generalized mass surveillance
 
-We sued the U.S. Department of Transportation and the Federal Aviation Administration for data on drone certifications and authorizations, including information on applicants, the types of drones agencies wanted to fly, and the types of purposes. This prompted the FAA to release [thousands of pages of records](https://www.eff.org/deeplinks/2012/07/faa-releases-thousands-pages-drone-records), giving us insight on the surveillance capabilities of drones, and even how drones are used by universities.
+### Legal Precedent
 
-We also [sued the U.S. Department of Homeland Security](https://www.eff.org/press/releases/eff-demands-answers-about-predator-drone-flights-us) to learn more about CBP’s drone lending program, where it provides drones to other agencies with little or no oversight.
+In 2021, the U.S. Fourth Circuit ruled in *Leaders of a Beautiful Struggle v. Baltimore Police Department* that perpetual aerial surveillance of an entire city violated the Fourth Amendment.
 
-In 2012, we partnered with MuckRock and launched the [2012 Drone Census](https://www.muckrock.com/drone-census/), encouraging people to file public records requests with their own police agencies. 375 public records requests were filed.
+## EFF's Work on Drones and Robots
 
-#### Legislation
+EFF began raising concerns about domestic government drone use in 2011 and has since expanded to address law enforcement robot use.
 
-We have supported legislation in various states, including [California](https://www.eff.org/deeplinks/2014/09/tell-governor-brown-no-warrantless-drone-use-california-cops) and [Washington](https://www.eff.org/deeplinks/2014/03/eff-supports-washington-drone-bill), restricting drone use to protect people’s privacy.
+### Transparency Efforts
 
-#### Opposition to Police Use of Armed Robots and Drones
+- **FAA Lawsuit**: Sued the Department of Transportation and FAA for drone certification data, resulting in the release of thousands of pages of records
+- **DHS Lawsuit**: Sued the Department of Homeland Security to learn about CBP's drone lending program
+- **2012 Drone Census**: Partnered with MuckRock to encourage public records requests, resulting in 375 requests filed
 
-EFF [strongly opposes](https://www.eff.org/deeplinks/2021/07/dont-let-police-arm-autonomous-or-remote-controlled-robots-and-drones) police use of armed robots and drones. History shows that technologies slated to be used only in rare emergency situations end up becoming a permanent fixture of everyday policing. We vocally opposed Axon’s proposal to [arm drones with tasers](https://www.eff.org/deeplinks/2022/06/axon-must-not-arm-drones-tasers), as well as Oakland, California’s police proposal to deploy deadly force via a robot armed with a firearm. We were instrumental in pushing San Francisco to [temporarily ban](https://www.eff.org/deeplinks/2022/12/victory-san-francisco-bans-killer-robotsfor-now) police from deploying deadly force via armed robot.
+### Legislative Support
 
-### EFF Cases
+EFF has supported legislation restricting drone use in California, Washington, and other states.
 
-[EFF v. U.S. Department of Transportation, U.S. Department of Homeland Security](https://www.eff.org/foia/faa-drone-authorizations)
+### Opposition to Armed Robots and Drones
 
-### **Suggested Additional Reading**
+EFF strongly opposes police use of armed robots and drones, arguing that technologies designated for rare emergencies inevitably become fixtures of everyday policing. EFF was instrumental in pushing San Francisco to temporarily ban police from deploying deadly force via armed robots.
 
-[EFF Surveillance Drones Archive](https://www.eff.org/issues/surveillance-drones)
+## Additional Resources
 
-[Current Unmanned Aircraft State Law Landscape](http://www.ncsl.org/research/transportation/current-unmanned-aircraft-state-law-landscape.aspx) (National Conference of State Legislatures)
+- [EFF Surveillance Drones Archive](https://www.eff.org/issues/surveillance-drones)
+- [Current Unmanned Aircraft State Law Landscape](http://www.ncsl.org/research/transportation/current-unmanned-aircraft-state-law-landscape.aspx) (National Conference of State Legislatures)
+- [Drone Law Journal](http://dronelawjournal.com/) (Peter Sachs)
+- [Drones At Home: Public Safety Drones](http://dronecenter.bard.edu/public-safety-drones-update/) (Center for the Study of the Drone at Bard College)
+- [Atlas of Surveillance](https://atlasofsurveillance.org/search?technologies%5B88%5D=on)
 
-[Drone Law Journal](http://dronelawjournal.com/) (Peter Sachs)
+---
 
-[Drones At Home: Public Safety Drones](http://dronecenter.bard.edu/public-safety-drones-update/)(Center for the Study of the Drone at Bard College)
-
-_Most recently updated October 1, 2023_
-
-[Technologies](https://sls.eff.org/)
+*Most recently updated October 1, 2023*

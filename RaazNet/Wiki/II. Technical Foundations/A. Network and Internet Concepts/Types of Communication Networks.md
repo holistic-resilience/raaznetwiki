@@ -1,129 +1,119 @@
-[Skip to content](https://www.privacyguides.org/en/advanced/communication-network-types/#centralized-networks)
-
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/advanced/communication-network-types.md?plain=1 "Edit this page")
+---
+title: "Types of Communication Networks"
+tags: [privacy, security, networking, encryption, messaging, communication]
+category: "Digital Security"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, Activists, Security Researchers]
+topics: ["Network Architecture", "Privacy Protection", "Secure Communication"]
+summary: "Overview of communication network types—centralized, federated, P2P, and anonymous routing—with privacy implications for each."
+source: "Privacy Guides"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of networking concepts", "Familiarity with threat modeling"]
+estimated_read_time: "8 minutes"
+---
 
 # Types of Communication Networks
 
-There are several network architectures commonly used to relay messages between people. These networks can provide different privacy guarantees, which is why it's worth considering your [threat model](https://www.privacyguides.org/en/basics/threat-modeling/) when deciding which app to use.
-
-[Recommended Instant Messengers](https://www.privacyguides.org/en/real-time-communication/) [Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why)
+There are several network architectures commonly used to relay messages between people. These networks provide different privacy guarantees, making it important to consider your [[threat-modeling|threat model]] when deciding which messaging app to use.
 
 ## Centralized Networks
 
 ![Centralized networks diagram](https://www.privacyguides.org/en/assets/img/layout/network-centralized.svg)
 
-Centralized messengers are those where all participants are on the same server or network of servers controlled by the same organization.
+Centralized messengers are those where all participants communicate through the same server or network of servers controlled by a single organization.
 
-Some self-hosted messengers allow you to set up your own server. Self-hosting can provide additional privacy guarantees, such as no usage logs or limited access to metadata (data about who is talking to whom). Self-hosted centralized messengers are isolated and everyone must be on the same server to communicate.
+Some self-hosted messengers allow you to set up your own server, providing additional privacy guarantees such as no usage logs or limited access to metadata. However, self-hosted centralized messengers are isolated—everyone must be on the same server to communicate.
 
-**Advantages:**
+### Advantages
 
-- New features and changes can be implemented more quickly.
-- Easier to get started with and to find contacts.
-- Most mature and stable features ecosystems, as they are easier to program in a centralized software.
-- Privacy issues may be reduced when you trust a server that you're self-hosting.
+- New features and changes can be implemented quickly
+- Easier to get started with and find contacts
+- Most mature and stable feature ecosystems
+- Privacy issues may be reduced when self-hosting a trusted server
 
-**Disadvantages:**
+### Disadvantages
 
-- Can include [restricted control or access](https://drewdevault.com/2018/08/08/Signal.html). This can include things like:
-- Being [forbidden from connecting third-party clients](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) to the centralized network that might provide for greater customization or a better experience. Often defined in Terms and Conditions of usage.
-- Poor or no documentation for third-party developers.
-- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
-- Self-hosting requires effort and knowledge of how to set up a service.
+- May include restricted control or access:
+  - Third-party clients may be forbidden from connecting
+  - Poor or no documentation for third-party developers
+- Ownership, privacy policy, and operations can change when a single entity controls the service
+- Self-hosting requires effort and technical knowledge
 
 ## Federated Networks
 
 ![Federated networks diagram](https://www.privacyguides.org/en/assets/img/layout/network-decentralized.svg)
 
-Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.
+Federated messengers use multiple independent, decentralized servers that can communicate with each other. Email is a common example of federation. This allows system administrators to control their own server while participating in a larger communications network.
 
-When self-hosted, members of a federated server can discover and communicate with members of other servers, although some servers may choose to remain private by being non-federated (e.g., work team server).
+When self-hosted, members of a federated server can discover and communicate with members of other servers, though some servers may remain private by being non-federated (e.g., work team servers).
 
-**Advantages:**
+### Advantages
 
-- Allows for greater control over your own data when running your own server.
-- Allows you to choose whom to trust your data with by choosing between multiple "public" servers.
-- Often allows for third-party clients which can provide a more native, customized, or accessible experience.
-- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
+- Greater control over your own data when running your own server
+- Choice of whom to trust with your data by selecting between multiple "public" servers
+- Often allows third-party clients for a more customized experience
+- Server software can be verified against public source code
 
-**Disadvantages:**
+### Disadvantages
 
-- Adding new features is more complex because these features need to be standardized and tested to ensure they work with all servers on the network.
-- Due to the previous point, features can be lacking, or incomplete or working in unexpected ways compared to centralized platforms, such as message relay when offline or message deletion.
-- Some metadata may be available (e.g., information like "who is talking to whom," but not actual message content if E2EE is used).
-- Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is used.
-- Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with members of those servers.
+- Adding new features is complex due to standardization requirements across servers
+- Features may be lacking or work unexpectedly compared to centralized platforms
+- Some metadata may be available (e.g., "who is talking to whom") even with E2EE
+- Requires trusting your server's administrator, who may not be a security professional
+- Server administrators may block other servers, hindering communication with their members
 
 ## Peer-to-Peer Networks
 
 ![P2P diagram](https://www.privacyguides.org/en/assets/img/layout/network-distributed.svg)
 
-P2P messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay a message to the recipient without a third-party server.
+P2P messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay messages without third-party servers.
 
-Clients (peers) usually find each other through the use of a [distributed computing](https://en.wikipedia.org/wiki/Distributed_computing) network. Examples of this include [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), used by [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) and [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) for example. Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz/) social network protocol).
+Clients (peers) typically find each other through distributed computing networks such as [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), used by torrents and IPFS. Another approach uses proximity-based networks over Wi-Fi or Bluetooth (e.g., Briar or the Scuttlebutt protocol).
 
-Once a peer has found a route to its contact via any of these methods, a direct connection between them is made. Although messages are usually encrypted, an observer can still deduce the location and identity of the sender and recipient.
+Once a peer finds a route to its contact, a direct connection is established. Although messages are usually encrypted, an observer can still deduce the location and identity of the sender and recipient.
 
-P2P networks do not use servers, as peers communicate directly between each other and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as user discovery or relaying offline messages, which can benefit from self-hosting.
+### Advantages
 
-**Advantages:**
+- Minimal information exposed to third parties
+- Modern P2P platforms implement E2EE by default with no servers to intercept transmissions
 
-- Minimal information is exposed to third-parties.
-- Modern P2P platforms implement E2EE by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
+### Disadvantages
 
-**Disadvantages:**
-
-- Reduced feature set:
-- Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.
-- Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.
-- Some common messenger features may not be implemented or incompletely, such as message deletion.
-- Your IP address and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](https://www.privacyguides.org/en/vpn/) or [Tor](https://www.privacyguides.org/en/tor/). Many countries have some form of mass surveillance and/or metadata retention.
+- Messages can only be sent when both peers are online
+- Increased battery usage on mobile devices due to constant network connection
+- Some common features may be incomplete, such as message deletion
+- IP addresses may be exposed without using a VPN or Tor
 
 ## Anonymous Routing
 
 ![Anonymous routing diagram](https://www.privacyguides.org/en/assets/img/layout/network-anonymous-routing.svg)
 
-A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
+A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
 
-There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. One of the most famous is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (i.e. [Tor](https://www.privacyguides.org/en/advanced/tor-overview/)), which communicates encrypted messages through a virtual [overlay network](https://en.wikipedia.org/wiki/Overlay_network) that hides the location of each node as well as the recipient and sender of each message. The sender and recipient never interact directly and only meet through a secret rendezvous node so that there is no leak of IP addresses nor physical location. Nodes cannot decrypt messages, nor the final destination; only the recipient can. Each intermediary node can only decrypt a part that indicates where to send the still encrypted message next, until it arrives at the recipient who can fully decrypt it, hence the "onion layers."
+One of the most well-known implementations is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (i.e., Tor), which communicates encrypted messages through a virtual overlay network. The sender and recipient never interact directly—they meet only through a secret rendezvous node, preventing IP address or physical location leaks. Each intermediary node can only decrypt information about where to send the still-encrypted message next, until it reaches the recipient who can fully decrypt it.
 
-Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
+Self-hosting a node in an anonymous routing network doesn't provide the host with additional privacy benefits but contributes to the network's overall resilience against identification attacks.
 
-**Advantages:**
+### Advantages
 
-- Minimal to no information is exposed to other parties.
-- Messages can be relayed in a decentralized manner even if one of the parties is offline.
+- Minimal to no information exposed to other parties
+- Messages can be relayed in a decentralized manner even when one party is offline
 
-**Disadvantages:**
+### Disadvantages
 
-- Slow message propagation.
-- Often limited to fewer media types, mostly text, since the network is slow.
-- Less reliable if nodes are selected by randomized routing, some nodes may be very far from the sender and receiver, adding latency or even failing to transmit messages if one of the nodes goes offline.
-- More complex to get started, as the creation and secured backup of a cryptographic private key is required.
-- Just like other decentralized platforms, adding features is more complex for developers than on a centralized platform. Hence, features may be lacking or incompletely implemented, such as offline message relaying or message deletion.
+- Slow message propagation
+- Often limited to text due to network speed constraints
+- Less reliable if randomized routing selects distant nodes, adding latency or causing transmission failures
+- More complex to start, requiring creation and secure backup of cryptographic private keys
+- Features may be lacking or incompletely implemented
 
-Was this page helpful?
+## Summary Comparison
 
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+| Network Type | Privacy Level | Ease of Use | Feature Maturity | Self-Hosting Benefit |
+|--------------|---------------|-------------|------------------|----------------------|
+| Centralized | Low-Medium | High | High | Moderate |
+| Federated | Medium | Medium | Medium | High |
+| Peer-to-Peer | Medium-High | Low | Low | N/A |
+| Anonymous Routing | High | Low | Low | Network-wide |

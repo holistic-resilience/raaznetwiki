@@ -1,59 +1,43 @@
-[Skip to content](https://www.privacyguides.org/en/about/services/#privacy-guides-services)
-
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/about/services.md?plain=1 "Edit this page")
+---
+title: "Privacy Guides Services"
+tags: [privacy, open-source, decentralized, federated, web-services]
+category: "Privacy Tools"
+difficulty: "Beginner"
+audience: [Privacy-Conscious Users, Developers, Community Members]
+topics: ["Privacy Infrastructure", "Open-Source Services"]
+summary: "Overview of public and invite-only web services operated by Privacy Guides for community use."
+source: "Privacy Guides"
+content_type: "Reference"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic internet literacy"]
+estimated_read_time: "2 minutes"
+---
 
 # Privacy Guides Services
 
-We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects. Many of these services are available to the public and are detailed below.
+Privacy Guides operates several web services to test features and promote decentralized, federated, and open-source projects. Many are publicly available.
 
-[Report an issue](https://discuss.privacyguides.net/c/services/2)
+**Report issues:** [discuss.privacyguides.net/c/services/2](https://discuss.privacyguides.net/c/services/2)
 
-## Discourse
+## Public Services
 
-- Domain: [discuss.privacyguides.net](https://discuss.privacyguides.net/)
-- Availability: Public
-- Source: [github.com/discourse/discourse](https://github.com/discourse/discourse)
+### Discourse Forum
+- **Domain:** [discuss.privacyguides.net](https://discuss.privacyguides.net/)
+- **Source:** [github.com/discourse/discourse](https://github.com/discourse/discourse)
 
-## Gitea
+### SearXNG Search
+- **Domain:** [search.privacyguides.net](https://search.privacyguides.net/)
+- **Source:** [github.com/searxng/searxng-docker](https://github.com/searxng/searxng-docker)
 
-- Domain: [code.privacyguides.dev](https://code.privacyguides.dev/)
-- Availability: Invite-Only. Access may be granted upon request to any team working on _Privacy Guides_-related development or content.
-- Source: [snapcraft.io/gitea](https://snapcraft.io/gitea)
+## Invite-Only Services
 
-## Matrix
+### Gitea
+- **Domain:** [code.privacyguides.dev](https://code.privacyguides.dev/)
+- **Access:** Available upon request for teams working on Privacy Guides-related development or content
+- **Source:** [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
-- Domain: [matrix.privacyguides.org](https://matrix.privacyguides.org/)
-- Availability: Invite-Only. Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
-- Source: [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
-
-## SearXNG
-
-- Domain: [search.privacyguides.net](https://search.privacyguides.net/)
-- Availability: Public
-- Source: [github.com/searxng/searxng-docker](https://github.com/searxng/searxng-docker)
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+### Matrix
+- **Domain:** [matrix.privacyguides.org](https://matrix.privacyguides.org/)
+- **Access:** Available upon request for Privacy Guides team members, Matrix moderators, third-party community administrators, bot operators, and others needing a reliable Matrix presence
+- **Source:** [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)

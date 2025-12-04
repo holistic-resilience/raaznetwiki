@@ -1,23 +1,49 @@
-بخش دوم
+---
+title: "مدیریت کلیدهای PGP با Mailvelope"
+tags: [pgp, mailvelope, email-security, encryption, key-management, privacy]
+category: "Email Security"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, Activists, Journalists]
+topics: ["PGP Key Management", "Email Encryption", "Browser Extensions"]
+summary: "آموزش مدیریت کلیدهای PGP شامل افزودن ایمیل جدید و تغییر گذرواژه با افزونه Mailvelope"
+source: "Certfa"
+content_type: "Tutorial"
+security_level: "Basic"
+language: "Persian"
+prerequisites: ["آشنایی با مفاهیم رمزنگاری", "نصب افزونه Mailvelope", "ایجاد کلید PGP"]
+estimated_read_time: "3 minutes"
+related_links:
+  - title: "ایجاد کلید PGP از طریق Mailvelope"
+    url: "https://certfa.com/info/email-security/generate-pgp-key-with-mailvelope/"
+  - title: "امنیت ایمیل - Certfa"
+    url: "https://certfa.com/info/email-security/"
+---
 
 # آموزش مدیریت کلیدهای PGP با استفاده از افزونه Mailvelope
 
-در بخش اول آموزش استفاده از افزونه Mailvelope به شیوه ایجاد کلید PGP اشاره کردیم. در این ویدیو کوتاه، نحوه مدیریت کلید PGP (مانند افزودن نشانی ایمیل جدید، تغییر گذرواژه و...) با استفاده از افزونه Mailvelope را برای شما آماده کرده‌ایم که بخش دوم از آموزش‌های مربوط به افزونه Mailvelope است.
+## مقدمه
 
-1. [سرتفا](https://certfa.com/)»
-2. [دانشنامه](https://certfa.com/info/)»
-3. [امنیت ایمیل](https://certfa.com/info/email-security/)
+در بخش اول آموزش استفاده از افزونه Mailvelope به شیوه ایجاد کلید PGP اشاره کردیم. در این آموزش، نحوه مدیریت کلید PGP را با استفاده از افزونه Mailvelope بررسی می‌کنیم.
 
-۱۵ شهریور ۱۳۹۸
+### قابلیت‌های مدیریت کلید
 
-**لینک‌های راهنما:**
+- افزودن نشانی ایمیل جدید به کلید موجود
+- تغییر گذرواژه کلید
+- صادر کردن و وارد کردن کلیدها
+- مدیریت کلیدهای عمومی مخاطبین
 
-\- افزونه Mailvelope برای [مرورگر فایرفاکس](https://addons.mozilla.org/en-US/firefox/addon/mailvelope/)
+## دانلود افزونه Mailvelope
 
-\- افزونه Mailvelope برای [مرورگر کروم](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke?hl=en)
+| مرورگر | لینک دانلود |
+|--------|-------------|
+| Firefox | [دانلود از Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/mailvelope/) |
+| Chrome | [دانلود از Chrome Web Store](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke?hl=en) |
 
-[امنیت ایمیل](https://certfa.com/topic/email-security/) \| [رمزگذاری](https://certfa.com/topic/encryption/)
+## منابع مرتبط
 
-[حملات تعویض سیم‌کارت](https://certfa.com/info/basic-information/sim-swap-attack-defend-phone/)
+- [[ایجاد کلید PGP از طریق Mailvelope]]
+- [[حملات تعویض سیم‌کارت]]
 
-[ایجاد کلید PGP از طریق Mailvelope](https://certfa.com/info/email-security/generate-pgp-key-with-mailvelope/)
+---
+
+> **منبع:** [Certfa](https://certfa.com/) - ۱۵ شهریور ۱۳۹۸

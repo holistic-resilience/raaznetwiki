@@ -1,29 +1,50 @@
-![Act detail 10](https://holistic-security.tacticaltech.org/media/chapters/images/default/act_detail_10.jpg%3F1460643013)
+```yaml
+---
+title: "Protests: Leave Safely"
+tags: [protests, physical-security, counter-surveillance, activism, operational-security]
+category: "Physical Security"
+difficulty: "Beginner"
+audience: [Activists, Protesters, Human Rights Defenders]
+topics: ["Protest Safety", "Counter-Surveillance", "Personal Security"]
+summary: "Practical guidance for safely leaving a protest while maintaining security awareness and protecting sensitive materials."
+source: "Tactical Tech - Holistic Security"
+content_type: "Educational Guide"
+security_level: "Basic"
+language: "English"
+prerequisites: ["None"]
+estimated_read_time: "3 minutes"
+---
+```
 
-# 4.10 Protests: Leave Safely
+# Protests: Leave Safely
 
-At the end of a protest or if we leave early, our first instinct may be to relax and we can become distracted. This moment can be used as an opportunity by authorities or opponents to identify and harass protesters, especially as people divide into smaller groups or go off alone. Consider the following in order to stay safe:
+Leaving a protest safely requires the same vigilance as participating in one. The period immediately after a demonstration can present unique risks, including surveillance and identification by authorities or hostile actors.
 
-- Stay alert: continue to monitor the situation around you until you are in a safer space.
-- Don't leave alone: leave in pairs or with your affinity group.
-- Communicate: let someone outside the protest know you are leaving, and when they should expect you to arrive. Try to use a secure channel for this.
-- Counter-surveillance: if you feel you're being followed, don't take a direct path but rather try to confuse whoever is following you.
-- Don't linger: don't stick around too long in the area where the protest happened.
-- Consider how to deal with materials: banners, flyers and other material may link you to the protest. Try to dispose of them safely or pack them out of sight.
-- Take care of the photos and audio or video recordings you took: hide them on your person or have an inconspicuous 'runner' take them to safety immediately after recording.
+## Key Practices for Safe Departure
 
-Once you are in a safe space, debrief with your affinity group, and try to take some time alone to 'transition' psychologically out of the event (e.g. by having a shower, praying, changing your clothes, exercising).
+### Maintain Situational Awareness
+- **Stay alert** and continue monitoring your surroundings until you reach a secure location
+- **Don't leave alone**—depart in pairs or with your affinity group
+- **Communicate your departure** to a trusted contact outside the protest, including your expected arrival time (use a secure channel when possible)
 
-## Getting to safety during emergencies
+### Counter-Surveillance Measures
+- If you suspect you're being followed, avoid taking a direct route—vary your path to identify or lose potential followers
+- **Don't linger** in the area where the protest occurred
 
-Planning a safe space to go to can save valuable time in an emergency. The process of choosing a safe place can also develop your skills in case you have to improvise. When deciding on a location consider the following:
+### Handle Sensitive Materials
+- **Protest materials** (banners, flyers, signage) may link you to the event—dispose of them safely or conceal them from view
+- **Protect recordings**—photos, audio, and video should be hidden on your person or given to an inconspicuous "runner" who can transport them to safety immediately
 
-1. **Why you are going**: what are you escaping from, and in what way will this place protect you? Try to avoid it if it will disconnect you from your network or increase the risk for others.
-2. **Where you are going**: consider where you can get to from the protest location, whether you can be easily found there, whether you can or should bring your devices (which may track you), what duties you can or can't carry out there, and what medical or emotional support you will be able to receive when you get there.
-3. **How to get there**: consider who you are escaping from, their resources, and yours (knowledge, vehicles, friends, money): how and with whom is it best to travel?
-4. **Contact and support structure**: try to let someone know in advance where you are likely to go in an emergency, so you don't have to communicate it over an insecure channel. If you have to tell someone where you are, try to do it over a secure channel and have them spread the word to whoever needs to know securely.
-5. **Minimum resources**: what are the minimum resources you would need to get to the place of safety?
+## Post-Protest Recovery
 
-[4.9 Protests: Report Emergencies Accurately](https://holistic-security.tacticaltech.org/chapters/act/4-1-9-protests-report-emergencies-accurately.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/act.html)
-[4.11 Protests: Debrief, Evaluate and Learn](https://holistic-security.tacticaltech.org/chapters/act/4-1-11-protests-debrief-evaluate-and-learn.html)
+Once you've reached a safe location:
+
+1. **Debrief** with your affinity group to share observations and address concerns
+2. **Transition psychologically** by taking time alone to decompress—consider activities like showering, changing clothes, exercising, or prayer to help shift out of the heightened state of the event
+
+---
+
+## Related Resources
+
+- [[Protests - Report Emergencies Accurately|Reporting Emergencies During Protests]]
+- [[Protests - Debrief Evaluate and Learn|Post-Protest Debriefing and Evaluation]]

@@ -1,71 +1,65 @@
-[Skip to content](https://freedom.press/digisec/blog/defend-against-phone-number-theft/#main)
+```yaml
+---
+title: "Defend Against Phone Number Theft (SIM Swapping)"
+tags: [sim-swapping, two-factor-authentication, mobile-security, account-security, phone-carriers]
+category: "Account Security"
+difficulty: "Beginner"
+audience: [General Public, Journalists, Privacy-Conscious Users]
+topics: ["Mobile Security", "Two-Factor Authentication", "Identity Protection"]
+summary: "Guide to protecting your phone number from SIM swap attacks and strengthening account security with carrier protections."
+source: "Freedom of the Press Foundation"
+content_type: "Educational Guide"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic smartphone usage", "Understanding of two-factor authentication"]
+estimated_read_time: "3 minutes"
+---
+```
 
-![Header image of figures walking with cellphones in their pockets.](https://media.freedom.press/media/images/EFF_Walk.2e16d0ba.fill-1920x1080.jpg)
+# Defend Against Phone Number Theft (SIM Swapping)
 
-Electronic Frontier Foundation (CC BY 2.0)
+Your phone number is more valuable to attackers than you might realize. Because it's commonly used to log into financial services and receive two-factor authentication codes, criminals actively target phone numbers for fraud and cryptocurrency theft.
 
-It’s the digital security training team at Freedom of the Press Foundation (FPF), with security news that keeps you, your sources, and your devices safe. If someone shared this newsletter with you, [please subscribe here](https://freedom.press/training/digisec-subscribe/).
+## Understanding SIM Swapping
 
-#### [Jump link for section](https://freedom.press/digisec/blog/defend-against-phone-number-theft/\#att-now-offers-more-defense-against-phone-number-theft) AT&T now offers more defense against phone number theft
+**SIM swapping** is an attack where criminals impersonate you to your phone carrier. They convince a customer service representative that they've gotten a new phone and need their number transferred to a new device. Once successful, the attacker can:
 
-AT&T just implemented a new feature called [Wireless Account Lock](https://www.att.com/support/article/wireless/000102016/), which allows users to disable several changes to their accounts to lower the risk of phone number hijacking. Because you likely use your phone number to log into financial services, your phone number is extremely valuable for fraud and even stealing cryptocurrency. Attackers will typically impersonate a targeted customer and convince someone working for the company that they have just gotten a new phone and would like their phone number ported over to their new device. This attack, sometimes called SIM swapping, allows an attacker to also intercept two-factor authentication codes sent via text messages, allowing them to more easily break into online accounts. [Read more](https://arstechnica.com/security/2025/07/att-rolls-out-wireless-account-lock-protection-to-curb-the-sim-swap-scourge/).
+- Intercept two-factor authentication codes sent via text message
+- Break into online accounts that rely on SMS verification
+- Access financial services and cryptocurrency wallets
 
-## Get Weekly Tips & Advice
+## What You Can Do
 
-Subscribe for easy and actionable tips that improve your digital security awareness.
+### Enable Carrier Protection Against Phone Number Theft
 
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
+Most major carriers now offer features to prevent unauthorized SIM swaps:
 
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
+| Carrier | Protection Feature | How to Enable |
+|---------|-------------------|---------------|
+| **AT&T** | [Wireless Account Lock](https://www.att.com/support/article/wireless/000102016/) | Via AT&T website or app |
+| **T-Mobile** | [SIM Swap Protection](https://www.t-mobile.com/support/plans-features/help-with-t-mobile-account-fraud) | Via T-Mobile website or app |
+| **Verizon** | [Number Lock](https://www.verizon.com/about/account-security/sim-swapping) | Via Verizon website or app |
 
+If your carrier doesn't offer a dedicated feature, contact customer service to manually add a PIN to your account.
 
-#### [Jump link for section](https://freedom.press/digisec/blog/defend-against-phone-number-theft/\#what-you-can-do) What you can do
+> [!warning] PIN Protection Limitations
+> Account PINs aren't bulletproof—customer service representatives can sometimes override them. Use this as one layer of defense, not your only protection.
 
-- **Enable protection against phone number theft.** Search to learn if your phone carrier supports a feature to disrupt SIM swapping. AT&T users, [follow the instructions here](https://www.att.com/support/article/wireless/000102016/) to get started with Wireless Account Lock. [T-Mobile users](https://www.t-mobile.com/support/plans-features/help-with-t-mobile-account-fraud) and [Verizon users](https://www.verizon.com/about/account-security/sim-swapping) can similarly enable SIM swap protection from their respective websites or apps. If your phone provider does not offer this feature, you may also be able to ask a customer service representative to manually add a PIN to your account. Note that this isn’t bulletproof because they can still override your PIN.
-- **Use stronger two-factor authentication methods.** If your phone number can be hijacked, so can the 2FA codes you use to log into websites. [Read our guide](https://freedom.press/digisec/blog/2fa-beginners/) to compare a few different methods and how to set them up.
+### Use Stronger Two-Factor Authentication Methods
 
-Our team is always ready to assist journalists with digital security concerns. [Reach out here](https://freedom.press/training/request-training/), and stay safe and secure out there.
+Since SMS-based codes can be intercepted through SIM swapping, consider upgrading to more secure 2FA methods:
 
-Best,
+- **Authentication apps** (like Authy or Google Authenticator)
+- **Hardware security keys** (like YubiKey)
+- **Passkeys** (when available)
 
-Martin
+For detailed setup instructions, see the [FPF guide to two-factor authentication](https://freedom.press/digisec/blog/2fa-beginners/).
 
-–
+## Additional Resources
 
-Martin Shelton
+- [Request digital security training from Freedom of the Press Foundation](https://freedom.press/training/request-training/)
+- [Subscribe to the FPF digital security newsletter](https://freedom.press/training/digisec-subscribe/)
 
-Deputy Director of Digital Security
+---
 
-Freedom of the Press Foundation
-
-## Related Posts
-
-1. ## [Data vampires … we mean, brokers](https://freedom.press/digisec/blog/data-vampires-we-mean-brokers/)
-
-![FPF](https://media.freedom.press/media/images/batsbyFPF.2e16d0ba.fill-451x254.jpg)
-
-[Account security](https://freedom.press/digisec/blog/account-security/)• [Newsletter](https://freedom.press/digisec/blog/?content-type=newsletter)
-
-2. ## [How to protect yourself and your information online](https://freedom.press/digisec/blog/how-to-protect-yourself-and-your-information-online/)
-
-![James Minichello for EWA](https://media.freedom.press/media/images/Digital-safety-NS25_James-Minichel.2e16d0ba.fill-451x254.png)
-
-[Account security](https://freedom.press/digisec/blog/account-security/)• [Article](https://freedom.press/digisec/blog/?content-type=article)
-
-3. ## [Lock down those Firefox add-ons](https://freedom.press/digisec/blog/lock-down-those-firefox-add-ons/)
-
-![Electronic Frontier Foundation (CC BY 2.0)](https://media.freedom.press/media/images/AD_4nXfYWJ5vegOvkb1IQ1W2MCziOtySLv.2e16d0ba.fill-451x254.jpg)
-
-[Account security](https://freedom.press/digisec/blog/account-security/)• [Newsletter](https://freedom.press/digisec/blog/?content-type=newsletter)
-
-
-## Sign Up. Take Action.
-
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
-
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
-
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
-
-
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+*Source: Freedom of the Press Foundation Digital Security Team*

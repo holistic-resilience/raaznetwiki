@@ -1,139 +1,160 @@
-\_\_('Table of Contents')
+---
+title: "Destroy Identifying Information from Photos, Videos, and Files"
+tags: [privacy, metadata, digital-security, anonymity, photos, videos]
+category: "Digital Security"
+difficulty: "Intermediate"
+audience: [Activists, Journalists, Privacy-Conscious Users]
+topics: ["Metadata Removal", "Photo Privacy", "Video Privacy", "Digital Anonymity"]
+summary: "Guide to removing identifying information and metadata from photos, videos, and documents to protect privacy when sharing files online."
+source: "Security in a Box"
+content_type: "Educational Guide"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic computer literacy", "Understanding of file sharing risks"]
+estimated_read_time: "8 minutes"
+---
 
-Files › Destroy identifying information
+# Destroy Identifying Information
 
-# [Anchor](https://securityinabox.org/en/files/destroy-identifying-information/\#destroy-identifying-information) Destroy identifying information
+This guide explains how to remove identifying information from photos, videos, PDFs, and other files before sharing them online. Protecting this information helps safeguard your privacy and the privacy of others who may appear in your media.
 
-Updated 20 March 2024
+## Why This Matters
 
-## [Anchor](https://securityinabox.org/en/files/destroy-identifying-information/\#table-of-contents) Table of Contents
+Pictures and videos can reveal significant information about you and others:
+- **Visual details**: Faces of participants at events, street signs revealing locations, identifying landmarks
+- **Metadata**: Hidden information embedded in files including GPS coordinates, timestamps, device information, and creator details
 
-- [Take identifying information out of your photos and other files](https://securityinabox.org/en/files/destroy-identifying-information/#take-identifying-information-out-of-your-photos-and-other-files)
-- [Remove identifying details from pictures](https://securityinabox.org/en/files/destroy-identifying-information/#remove-identifying-details-from-pictures)
-- [Remove identifying details from videos](https://securityinabox.org/en/files/destroy-identifying-information/#remove-identifying-details-from-videos)
-- [Disable geolocation in your device](https://securityinabox.org/en/files/destroy-identifying-information/#disable-geolocation-in-your-device)
-- [Remove metadata from pictures, videos and other files](https://securityinabox.org/en/files/destroy-identifying-information/#remove-metadata-from-pictures-videos-and-other-files)
+Metadata can be useful for organizing files, but it can also expose sensitive information to anyone who accesses the file—potentially revealing your physical location, daily patterns, or the identities of people you're with.
 
-## [Anchor](https://securityinabox.org/en/files/destroy-identifying-information/\#take-identifying-information-out-of-your-photos-and-other-files) Take identifying information out of your photos and other files
+---
 
-Pictures and videos can reveal a lot of information on you and the people you are with. For example, a photo could show the faces of participants in a demonstration, and a selfie could reveal the exact address where you are located at a specific time if you don't pay attention to the street sign you include in it.
+## Remove Identifying Details from Pictures
 
-But this is not all you can reveal about yourself when you publish a picture, a video or more. By default, photos, videos, PDFs and many other files include metadata, which is information on data. Metadata provides details on when a file was created, as well as where, by whom, with what device and so on. This information can be useful to find a particular file in a folder or to archive it, but it can also give away details to someone who wants to find out more about the person who created or published that file. For example, it could include GPS data and a timestamp, showing where you were when you made a picture and letting someone find your physical location that you were trying to hide.
+When sharing photos, you may need to blur or obscure faces and other identifying details. **Avoid using social media platform editing tools** (Instagram, Facebook, Snapchat) for this purpose—these platforms receive your original, unedited image and may share it if requested.
 
-This guide includes instructions on how to remove identifying information out of your photos, videos, PDFs, and other files.
+> **Important**: Check if your original images are automatically backed up. Either disable backup for photos or delete originals from your backup service after editing.
 
-## [Anchor](https://securityinabox.org/en/files/destroy-identifying-information/\#remove-identifying-details-from-pictures) Remove identifying details from pictures
+### Mobile Devices (Android & iOS)
 
-If you are taking pictures with your phone and would like to pixelate or obscure faces or other identifying details before you publish the photos online, you can use several tools.
+**Signal** (Free, open-source)
+- Use Signal's built-in camera to take photos and blur faces
+- Send edited photos to yourself via "Note to Self" for downloading
+- Learn more: [Signal Blur Tools](https://signal.org/blog/blur-tools/)
 
-Social networking platforms like Instagram, Facebook or Snapchat offer the possibility of editing images before you publish them, but this implies uploading the images to the platform before you remove the identifying details. This means that the platform will also have the original picture and will be able to choose to share it with others if requested to do so. So it is best to remove any identifying images with tools built into your phone, rather than through online apps.
+### Android
 
-Be aware that your original images could be automatically backed up. If you do not want this to happen, be sure to deactivate backup for your pictures or to delete the original images from your backup platform.
+**Obscuracam** (Free, open-source)
+- Automatically detects and blurs faces
+- Removes camera and location metadata
+- [Download Obscuracam](https://securityinabox.org/en/files/tools#obscuracam)
 
-- For more information on removing identifying information from pictures on Android and iOS, see [Redacting photos on the go: A field guide](https://freedom.press/training/redacting-photos-on-the-go/).
+**Built-in Photo App**
+- Use the **pen tool** (not the marker) to obscure details
+- Run the pen over identifying details at least twice
+- [Google Photos editing guide](https://support.google.com/photos/answer/6128850)
 
-**Android and iOS**
+### iOS
 
-- [Signal](https://signal.org/) is a free and open source privacy-friendly messaging app that you can also use to take a picture and blur faces included in it. See [Blur tools for Signal](https://signal.org/blog/blur-tools/) to learn how to do this.
+**Photos App Markup**
+- Use fully opaque shapes rather than semi-transparent markers
+- Add black rectangles or emojis over sensitive areas
+- [Apple's photo editing guide](https://support.apple.com/guide/iphone/edit-photos-and-videos-iphb08064d57/ios)
 
-Signal also makes it possible to take a picture [sending it to yourself](https://support.signal.org/hc/en-us/articles/360043272451-Note-to-Self) and then download it and upload it to an online platform or send it through a different communication tool.
+**Markup in Other Apps**
+- Available in Messages, Mail, Notes, and Books
+- [Draw in apps with Markup](https://support.apple.com/guide/iphone/draw-in-apps-iph893c6f8bf/ios)
 
+### Desktop (Linux, Windows, macOS)
 
-**Android**
+**GIMP** (Free, open-source)
+- Professional-grade photo editing
+- [GIMP blur tool documentation](https://docs.gimp.org/2.10/en/gimp-tool-convolve.html)
 
-- Use the free and open-source [Obscuracam](https://securityinabox.org/en/files/tools#obscuracam) to blur faces and remove camera and location metadata.
-- Alternatively, you can also use the [built-in Photo app to edit a photo](https://support.google.com/photos/answer/6128850#zippy=%2Cuse-tools). To be sure that your edit cannot be undone with deobfuscating techniques, use the pen tool rather than the marker and run it over the identifying details at least twice.
+> **Security Note**: Simple pixelation may be reversible through deobfuscation techniques. Use solid color overlays or proper blur tools designed for redaction. See [Why You Should Never Use Pixelation To Hide Sensitive Text](https://dheera.net/posts/20140725-why-you-should-never-use-pixelation) and [Redacting photos on the go: A field guide](https://freedom.press/training/redacting-photos-on-the-go/).
 
-**iOS**
+---
 
-- Use the Photo app to [Write or draw on a photo](https://support.apple.com/guide/iphone/edit-photos-and-videos-iphb08064d57/ios#iph1c7564dba). Note that a fully opaque shape is more effective than the marker tools, which are not fully opaque. Consider redacting images by adding black rectangles or even using the text tool to add emojis.
-- In apps such as Messages, Mail, Notes, and Books, you can draw on photos, screenshots, PDFs and more. See [Draw in apps with Markup on iPhone](https://support.apple.com/guide/iphone/draw-in-apps-iph893c6f8bf/13.0/ios/13.0) to learn how to do this.
+## Remove Identifying Details from Videos
 
-**Linux, Windows, macOS**
+### Android
 
-- If you are taking pictures with a camera and are planning to upload them through a computer, you can blur identifying details with photo editing software like the free and open-source [Gimp](https://www.gimp.org/). Learn how to do this in the [Gimp official guide](https://docs.gimp.org/2.10/en/gimp-tool-convolve.html).
+**Putmask**
+- Automatic face detection and blurring
+- [Face track tutorial](https://putmask.com/face-track-tutorial)
 
-Learn why we recommend this
+**YouTube Studio**
+- Blur faces or areas in uploaded videos
+- [YouTube blurring guide](https://support.google.com/youtube/answer/9057652)
 
-It may seem like simply using a face blur feature or covering sensitive details will protect the people or places in your images. However, it may still be possible for someone with the file to see what you are covering up if the blur is not done in a specific way. Obscuracam for Android ensures the blur is done securely.
+### iOS
 
-Certain blurring techniques may be vulnerable to deobfuscation methods. Read more on this in [Why You Should Never Use Pixelation To Hide Sensitive Text](https://dheera.net/posts/20140725-why-you-should-never-use-pixelation). You can find some recommendations on what blurring techniques work best in [Redacting photos on the go: A field guide](https://freedom.press/training/redacting-photos-on-the-go/).
+**Blur-Video**
+- Blur faces, logos, or background objects
+- [Download from App Store](https://apps.apple.com/us/app/blur-video/id1555770514)
 
-## [Anchor](https://securityinabox.org/en/files/destroy-identifying-information/\#remove-identifying-details-from-videos) Remove identifying details from videos
+### Desktop (Linux, Windows, macOS)
 
-**Android**
+**Shotcut** (Free, open-source)
+- Full-featured video editor with blur capabilities
+- [Video tutorial: How to blur in Shotcut](https://www.youtube.com/watch?v=k6eyh1UaRYI)
 
-- Use [Putmask](https://putmask.com/) to blur faces in videos. See their [face track tutorial](https://putmask.com/face-track-tutorial) to learn how to obscure faces automatically.
-- You can blur parts of your video on a computer in YouTube Studio. Learn how in [the Youtube guide on blurring videos](https://support.google.com/youtube/answer/9057652).
+---
 
-**iOS**
+## Disable Geolocation on Your Device
 
-- Use [Blur-Video](https://apps.apple.com/us/app/blur-video/id1555770514) to blur faces, logos or objects in the background of your videos.
+The most effective approach is to prevent location data from being recorded in the first place. Disable location services before creating photos, videos, or audio files.
 
-**Linux, Windows, macOS**
+### By Platform
 
-- Use the free and open-source [Shotcut](https://shotcut.org/) video editing software to blur identifying details in your videos. See the Youtube video tutorial [How To Blur Part Of Video in Shotcut](https://www.youtube.com/watch?v=k6eyh1UaRYI) to learn how to do this.
+| Platform | Instructions |
+|----------|-------------|
+| **Android** | [Manage location settings](https://support.google.com/accounts/answer/3467281) • [Security in a Box guide](https://securityinabox.org/en/phones-and-computers/android/#turn-off-location-and-wipe-history) |
+| **iOS** | [Turn off Location Services](https://support.apple.com/en-us/102647) • [Security in a Box guide](https://securityinabox.org/en/phones-and-computers/ios/#turn-off-location-and-wipe-history) |
+| **macOS** | [Location Services settings](https://support.apple.com/guide/mac-help/allow-apps-to-detect-the-location-of-your-mac-mh35873/mac) • [Security in a Box guide](https://securityinabox.org/en/phones-and-computers/mac/#turn-off-location-and-wipe-history) |
+| **Windows** | [Location service and privacy](https://support.microsoft.com/en-us/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088) • [Security in a Box guide](https://securityinabox.org/en/phones-and-computers/windows/#turn-off-location-and-wipe-history) |
+| **Linux (Ubuntu)** | [Ubuntu location services](https://help.ubuntu.com/stable/ubuntu-help/privacy-location.html) • [Security in a Box guide](https://securityinabox.org/en/phones-and-computers/linux/#turn-off-location-and-wipe-history) |
+| **Linux (GNOME)** | [GNOME geolocation settings](https://help.gnome.org/users/empathy/stable/geolocation-turn.html.en) |
 
-## [Anchor](https://securityinabox.org/en/files/destroy-identifying-information/\#disable-geolocation-in-your-device) Disable geolocation in your device
+### Review App Permissions
 
-Removing metadata from files other than pictures can be hard on some operating systems, so it is a good idea to prevent the need to remove information on geolocation by turning off the location services in your devices before you create pictures, videos or audio files.
-
-**Android**
-
-- To turn geolocation off in your Android device, see [Manage your Android device’s location settings](https://support.google.com/accounts/answer/3467281).
-- Also learn [how to turn off location and wipe history in our guide on how to protect your Android device](https://securityinabox.org/en/phones-and-computers/android/#turn-off-location-and-wipe-history).
-
-**iOS**
-
-- To turn geolocation off in your iPhone or iPad, see [Turn Location Services and GPS on or off on your iPhone, iPad, or iPod touch](https://support.apple.com/en-us/102647).
-- Also learn [how to turn off location and wipe history in our guide on how to protect your iOS device](https://securityinabox.org/en/phones-and-computers/ios/#turn-off-location-and-wipe-history).
-
-**macOS**
-
-- To turn off Location Services on your Mac, see [Turn Location Services off in the official guide on allowing apps to detect the location of your Mac](https://support.apple.com/guide/mac-help/allow-apps-to-detect-the-location-of-your-mac-mh35873/mac#apda5e7d8a845e64).
-- Also learn [how to turn off location and wipe history in our guide on how to protect your macOS device](https://securityinabox.org/en/phones-and-computers/mac/#turn-off-location-and-wipe-history).
-
-**Windows**
-
-- To stop apps from accessing your location settings, see [the official guide on Windows location service and privacy](https://support.microsoft.com/en-us/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088).
-- Also learn [how to turn off location and wipe history in our guide on how to protect your Windows device](https://securityinabox.org/en/phones-and-computers/windows/#turn-off-location-and-wipe-history).
-
-**Linux**
-
-- To turn off location services in Ubuntu, see [the official documentation on controlling location services](https://help.ubuntu.com/stable/ubuntu-help/privacy-location.html).
-- To disable geolocation in Gnome-based operating systems, see [the official guide on activating and deactivating geolocation](https://help.gnome.org/users/empathy/stable/geolocation-turn.html.en).
-- Also learn [how to turn off location and wipe history in our guide on how to protect your Linux device](https://securityinabox.org/en/phones-and-computers/linux/#turn-off-location-and-wipe-history).
-
-It is also worth checking your apps permissions and disabling geolocation whenever possible. To learn how to do this, see our guides on how to protect your devices:
-
+Regularly check which apps have access to your location:
 - [Android](https://securityinabox.org/en/phones-and-computers/android/#check-your-app-permissions)
-- [iOS](https://securityinabox.org/en/phones-and-computers/ios/#check-your-app-permissions).
-- [macOS](https://securityinabox.org/en/phones-and-computers/mac/#check-your-app-permissions).
-- [Windows](https://securityinabox.org/en/phones-and-computers/windows/#check-your-app-permissions).
-- [Linux](https://securityinabox.org/en/phones-and-computers/linux/#check-your-app-permissions).
+- [iOS](https://securityinabox.org/en/phones-and-computers/ios/#check-your-app-permissions)
+- [macOS](https://securityinabox.org/en/phones-and-computers/mac/#check-your-app-permissions)
+- [Windows](https://securityinabox.org/en/phones-and-computers/windows/#check-your-app-permissions)
+- [Linux](https://securityinabox.org/en/phones-and-computers/linux/#check-your-app-permissions)
 
-## [Anchor](https://securityinabox.org/en/files/destroy-identifying-information/\#remove-metadata-from-pictures-videos-and-other-files) Remove metadata from pictures, videos and other files
+---
 
-If you need to remove metadata from pictures, videos, audio files, PDF etc., you can use the tools listed in this section. But be aware that in some operating systems it is only possible to delete or edit metadata in videos and pictures.
+## Remove Metadata from Files
 
-**Android**
+Metadata removal tools can strip identifying information from photos, videos, audio files, and documents.
 
-- Use [Scrambled Exif](https://securityinabox.org/en/files/tools#scrambled-exif) to remove identifying information from the metadata in your photos.
-- Use [ExifTool for Android](https://play.google.com/store/apps/details?id=com.exiftool.free) to view, edit and delete metadata in photos and videos.
+> **Tip**: View a file's metadata by right-clicking and selecting **Properties** (Windows/Linux) or **Get Info** (macOS).
 
-**iOS**
+### Android
 
-- Use [MetaX](https://securityinabox.org/en/files/tools#metax) to check, edit and delete the metadata of your photos.
-- Use the [Photo & Video Metadata Remover](https://apps.apple.com/us/app/photo-video-metadata-remover/id1079710135) app to remove metadata from your photos and videos. Be aware that this app doesn’t change the original image or video but creates a copy without the metadata.
+| Tool | Purpose |
+|------|---------|
+| **[Scrambled Exif](https://securityinabox.org/en/files/tools#scrambled-exif)** | Remove metadata from photos |
+| **[ExifTool for Android](https://play.google.com/store/apps/details?id=com.exiftool.free)** | View, edit, and delete metadata in photos and videos |
 
-**Linux, Windows and macOS**
+### iOS
 
-- Use [Exifcleaner](https://securityinabox.org/en/files/tools#exifcleaner) to clean metadata from images, videos, PDFs and other files.
+| Tool | Purpose |
+|------|---------|
+| **[MetaX](https://securityinabox.org/en/files/tools#metax)** | Check, edit, and delete photo metadata |
+| **[Photo & Video Metadata Remover](https://apps.apple.com/us/app/photo-video-metadata-remover/id1079710135)** | Creates metadata-free copies (preserves originals) |
 
-Learn why we recommend this
+### Desktop (Linux, Windows, macOS)
 
-Images contain more information than just what is visible in the picture. All files contain metadata about where and how they were created. You can usually get a look at some of a file's metadata on a computer by right-clicking the file and selecting **Properties** or **Get info**.
+**[ExifCleaner](https://securityinabox.org/en/files/tools#exifcleaner)** (Free, open-source)
+- Supports images, videos, PDFs, and other file types
+- Batch processing capability
 
-Some metadata may include your location or the model of the device the file was made with: information that someone looking at the file could use to identify you. The apps recommended in this section help you securely erase metadata.
+---
 
-To learn more about metadata and how you can clean it from your files, see [Everything you wanted to know about media metadata, but were afraid to ask](https://freedom.press/training/everything-you-wanted-know-about-media-metadata-were-afraid-ask/).
+## Further Reading
+
+- [Everything you wanted to know about media metadata, but were afraid to ask](https://freedom.press/training/everything-you-wanted-know-about-media-metadata-were-afraid-ask/) — Freedom of the Press Foundation
+- [Redacting photos on the go: A field guide](https://freedom.press/training/redacting-photos-on-the-go/) — Freedom of the Press Foundation

@@ -1,117 +1,202 @@
-[Skip to content](https://www.privacyguides.org/en/advanced/payments/#cash)
-
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/advanced/payments.md?plain=1 "Edit this page")
+---
+title: "Private Payments: A Guide to Anonymous Transactions"
+tags: [privacy, payments, cryptocurrency, cash, gift-cards, anonymity, financial-privacy]
+category: "Financial Privacy"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, Activists, Security Researchers]
+topics: ["Financial Privacy", "Anonymous Payments", "Cryptocurrency", "Digital Security"]
+summary: "Comprehensive guide to making private payments using cash, gift cards, virtual cards, and cryptocurrency while minimizing personal data exposure."
+source: "Privacy Guides"
+content_type: "Educational Guide"
+security_level: "Advanced"
+language: "English"
+prerequisites: ["Basic understanding of payment methods", "Familiarity with cryptocurrency concepts"]
+estimated_read_time: "12 minutes"
+related_topics: ["Cryptocurrency Privacy", "Tor Network", "VPN Usage", "Identity Protection"]
+---
 
 # Private Payments
 
-Data about your buying habits is considered the holy grail of ad targeting: Your purchases can leak a veritable treasure trove of data about you. Unfortunately, the current financial system is anti-privacy by design, enabling banks, other companies, and governments to easily trace transactions. Nevertheless, you have plenty of options when it comes to making payments privately.
+This guide covers methods for making payments while minimizing the exposure of personal information to merchants, financial institutions, and third parties.
 
 ## Cash
 
-For centuries, **cash** has functioned as the primary form of private payment. Cash has excellent privacy properties in most cases, is widely accepted in most countries, and is **fungible**, meaning it is non-unique and completely interchangeable.
+Cash has functioned as the primary form of private payment for centuries. It offers excellent privacy properties in most cases, is widely accepted, and is **fungible**—meaning it is non-unique and completely interchangeable.
 
-Cash payment laws vary by country. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Regulated exchanges, banks, and money services businesses must collect an ID for transactions exceeding $3,000. Cash contains serial numbers to assist law enforcement in targeted investigations.
+### Legal Considerations (United States)
 
-Despite the above, cash is typically the best option when available.
+- **Transactions over $10,000**: Require special disclosure to the IRS via [Form 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000)
+- **Receiving business obligations**: Must verify payee's name, address, occupation, date of birth, and SSN/TIN (with some exceptions)
+- **Regulated exchanges and banks**: Must collect ID for transactions exceeding $3,000
+- **Serial numbers**: Cash contains serial numbers that can assist law enforcement in targeted investigations
+
+Despite these considerations, **cash remains the best option for private payments when available**.
+
+---
 
 ## Prepaid Cards & Gift Cards
 
-You can easily purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. Gift cards usually don’t have a fee, though prepaid cards often do, so pay close attention to these fees and expiry dates. Some stores may ask to see your ID at checkout in an effort to reduce fraud.
+Gift cards and prepaid cards can be purchased at most grocery and convenience stores with cash.
 
-Gift cards usually have limits of up to $200 per card, but some offer limits of up to $2,000 per card. Prepaid cards (e.g. from Visa or Mastercard) usually have limits of up to $1,000 per card.
+### Key Differences
 
-Gift cards have the downside of being subject to merchant policies, which can have terrible terms and restrictions. For example, some merchants don’t accept payment in gift cards exclusively, or they may cancel the value of the card if they consider you to be a high-risk user. Once you have merchant credit, the merchant has a strong degree of control over this credit.
+| Feature | Gift Cards | Prepaid Cards (Visa/Mastercard) |
+|---------|------------|--------------------------------|
+| **Fees** | Usually none | Often have fees |
+| **Limits** | Up to $200-$2,000 per card | Up to $1,000 per card |
+| **ATM Withdrawals** | N/A | Usually not allowed |
+| **Peer-to-peer payments** | N/A | Usually not allowed |
 
-Prepaid cards usually don’t allow cash withdrawals from ATMs or “peer-to-peer” payments in Venmo and similar apps.
+### Considerations
 
-Cash remains the best option for in-person purchases for most people. Gift cards are often sold at a discount, which make them attractive. Prepaid cards can be useful for places that don’t accept cash. Gift cards and prepaid cards are easier to use online than cash, and they are easier to acquire with cryptocurrencies than cash.
+- Some stores may request ID at checkout to reduce fraud
+- Gift cards are subject to merchant policies, which may include:
+  - Restrictions on exclusive gift card payments
+  - Value cancellation for "high-risk" users
+- Once converted to merchant credit, the merchant controls that credit
+- Gift cards are often sold at a discount, making them attractive
+- Both are easier to use online than cash and easier to acquire with cryptocurrency
 
-### Online Marketplaces
+### Online Gift Card Marketplaces
 
-If you have [cryptocurrency](https://www.privacyguides.org/en/cryptocurrency/), you can purchase gift cards with an online gift card marketplace. Some of these services offer high limits (with ID verification), but they usually allow basic, low-limit accounts with just an email address. Expect limits under $10,000 for basic accounts and significantly higher limits for ID verified accounts (if offered).
+If you have cryptocurrency, you can purchase gift cards through online marketplaces:
 
-When buying gift cards online, there is usually a slight discount. Prepaid cards are usually sold online at face value or with a fee. If you buy prepaid cards and gift cards with cryptocurrencies, you should strongly prefer to pay with Monero which provides strong privacy (more on this below). Paying for a gift card with a traceable payment method negates the benefits a gift card can provide when purchased with cash or Monero.
+- **Basic accounts** (email only): Limits typically under $10,000
+- **ID-verified accounts**: Significantly higher limits
+- **Pricing**: Gift cards often have slight discounts; prepaid cards are usually at face value or with fees
 
-- [Online Gift Card Marketplaces](https://www.privacyguides.org/en/financial-services/#gift-card-marketplaces)
+> **Important**: If purchasing gift cards with cryptocurrency, strongly prefer **Monero** for its privacy features. Paying with a traceable method negates the privacy benefits of the gift card.
+
+---
 
 ## Virtual Cards
 
-Another way to protect your information from merchants online is to use virtual, single-use cards which mask your actual banking or billing information. This is primarily useful for protecting you from merchant data breaches, less sophisticated tracking or purchase correlation by marketing agencies, and online data theft. They do **not** assist you in making a purchase completely anonymously, nor do they hide any information from the banking institution themselves. Regular financial institutions which offer virtual cards are subject to "Know Your Customer" (KYC) laws, meaning they may require your ID or other identifying information.
+Virtual, single-use cards mask your actual banking or billing information from merchants online.
 
-- [Recommended Payment Masking Services](https://www.privacyguides.org/en/financial-services/#payment-masking-services)
+### What Virtual Cards Protect Against
 
-These tend to be good options for recurring/subscription payments online, while prepaid gift cards are preferred for one-time transactions.
+- Merchant data breaches
+- Less sophisticated tracking by marketing agencies
+- Purchase correlation
+- Online data theft
+
+### Limitations
+
+Virtual cards do **not**:
+- Enable completely anonymous purchases
+- Hide information from the issuing banking institution
+- Bypass "Know Your Customer" (KYC) requirements
+
+### Best Use Cases
+
+| Use Case | Recommended Method |
+|----------|-------------------|
+| Recurring/subscription payments | Virtual cards |
+| One-time transactions | Prepaid gift cards |
+
+---
 
 ## Cryptocurrency
 
-Cryptocurrencies are a digital form of currency designed to work without central authorities such as a government or bank. While _some_ cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. As such, we generally don't recommend using cryptocurrency as a long-term store of value. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only purchase amounts which would not be disastrous to lose.
+Cryptocurrencies are digital currencies designed to operate without central authorities like governments or banks. While some projects enable private transactions, many use transparent blockchains that provide no transaction privacy.
 
-Danger
+### Important Warnings
 
-The vast majority of cryptocurrencies operate on a **transparent** blockchain, meaning that every transaction's details are public knowledge. This includes most well-known cryptocurrencies like Bitcoin and Ethereum. Transactions with these cryptocurrencies should not be considered private and will not protect your anonymity.
+> **Danger**: The vast majority of cryptocurrencies operate on a **transparent** blockchain, meaning every transaction's details are public knowledge. This includes Bitcoin and Ethereum. Transactions with these cryptocurrencies should not be considered private.
 
-Additionally, many if not most cryptocurrencies are scams. Make transactions carefully with only projects you trust. Transactions are irreversible and do not include any consumer protections.
+> **Caution**: Many cryptocurrencies are scams. Only transact with projects you trust. Transactions are irreversible and lack consumer protections.
 
-### Privacy Coins
+### Volatility Consideration
 
-There are a number of cryptocurrency projects which purport to provide privacy by making transactions anonymous. We recommend using one which provides transaction anonymity **by default** to avoid operational errors.
+Cryptocurrencies tend to be highly volatile assets. We generally don't recommend using cryptocurrency as a long-term store of value. Only purchase amounts you can afford to lose.
 
-- [Recommended Cryptocurrency](https://www.privacyguides.org/en/cryptocurrency/#monero)
+---
 
-Privacy coins have been subject to increasing scrutiny by government agencies. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can trace (at least to some extent) Bitcoin Lightning Network and/or Monero transactions. They ultimately [paid two companies](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) a combined $1.25 million to further develop tools to do so. Due to the secrecy surrounding tools like these, none of these methods of tracing cryptocurrencies have been independently confirmed. However, it is quite likely that tools which assist targeted investigations into private coin transactions exist, and that privacy coins in their current form only succeed in thwarting mass surveillance.
+## Privacy Coins
 
-### Other Coins (Bitcoin, Ethereum, etc.)
+Privacy coins aim to provide anonymity by making transactions untraceable. **Use one that provides transaction anonymity by default** to avoid operational errors.
 
-The vast majority of cryptocurrency projects use a transparent blockchain, meaning that all transactions are both easily traceable and permanent. As such, we strongly discourage the use of most cryptocurrency for privacy-related reasons.
+### Government Scrutiny
 
-Anonymous transactions on a transparent blockchain are _theoretically_ possible, and the Bitcoin wiki [gives one example of a "completely anonymous" transaction](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). However, this example requires a complicated setup involving Tor and "solo-mining" a block to generate completely independent cryptocurrency, a practice which has not been practical (even for enthusiasts) for many years.
+Privacy coins face increasing government attention:
 
-Your best option is to avoid these cryptocurrencies entirely and stick with one which provides privacy by default. Attempting to use other cryptocurrency is outside the scope of this site and strongly discouraged.
+- **2020**: IRS published a $625,000 bounty for tools to trace Bitcoin Lightning Network and/or Monero transactions
+- **Result**: Two companies (Chainalysis and Integra Fec) received a combined $1.25 million to develop tracing tools
 
-### Wallet Custody
+Due to the secrecy surrounding these tools, their effectiveness hasn't been independently confirmed. However:
+- Tools for targeted investigations likely exist
+- Privacy coins in their current form primarily thwart **mass surveillance** rather than targeted investigations
 
-With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. Custodial wallets are operated by centralized companies/exchanges, where the private key for your wallet is held by that company, and you can access them anywhere typically with a regular username and password. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. Key custody is especially important when it comes to privacy coins: Custodial wallets grant the operating company the ability to view your transactions, negating the privacy benefits of those cryptocurrencies.
+---
 
-### Acquisition
+## Other Cryptocurrencies (Bitcoin, Ethereum, etc.)
 
-Acquiring [cryptocurrencies](https://www.privacyguides.org/en/cryptocurrency/) like Monero privately can be difficult. P2P marketplaces (platforms which facilitate trades between people) are one option, though the user experience typically suffers. If using an exchange which requires KYC is acceptable for you as long as subsequent transactions can't be traced, it's much easier to purchase Monero on a centralized exchange or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own self-custody wallet to use privately from that point forward.
+Most cryptocurrency projects use transparent blockchains where all transactions are easily traceable and permanent. **We strongly discourage their use for privacy-related purposes.**
 
-[Recommended places to buy Monero](https://www.privacyguides.org/en/cryptocurrency/#buying-monero)
+### Theoretical vs. Practical Privacy
 
-If you go this route, make sure to purchase Monero at different times and in different amounts than where you will spend it. If you purchase $5000 of Monero at an exchange and make a $5000 purchase in Monero an hour later, those actions could potentially be correlated by an outside observer regardless of which path the Monero took. Staggering purchases and purchasing larger amounts of Monero in advance to later spend on multiple smaller transactions can avoid this pitfall.
+While anonymous transactions on transparent blockchains are theoretically possible (the Bitcoin wiki describes a "completely anonymous" transaction), the required setup involves:
+- Tor usage
+- "Solo-mining" a block to generate independent cryptocurrency
+
+This approach has been impractical even for enthusiasts for many years.
+
+**Recommendation**: Avoid these cryptocurrencies for privacy purposes and use one that provides privacy by default.
+
+---
+
+## Acquiring Cryptocurrency Privately
+
+Acquiring privacy-focused cryptocurrencies like Monero privately can be challenging.
+
+### Options
+
+1. **P2P Marketplaces**: Platforms facilitating trades between individuals
+   - Drawback: User experience typically suffers
+
+2. **KYC Exchange Method** (if KYC is acceptable):
+   - Purchase Monero directly on a centralized exchange, OR
+   - Purchase Bitcoin/Litecoin from a KYC exchange, then swap for Monero
+   - Withdraw to your own self-custody wallet
+   - Use privately from that point forward
+
+### Avoiding Correlation
+
+If using exchanges, prevent transaction correlation by:
+- Purchasing Monero at **different times** than when you spend it
+- Purchasing in **different amounts** than your spending
+- Buying larger amounts in advance for multiple smaller transactions later
+
+> **Example to avoid**: Purchasing $5,000 of Monero and making a $5,000 purchase an hour later could be correlated by outside observers regardless of the Monero's path.
+
+---
 
 ## Additional Considerations
 
-When you're making a payment in person with cash, make sure to keep your in-person privacy in mind. Security cameras are ubiquitous. Consider wearing non-distinct clothing and a face mask (such as a surgical mask or N95). Don’t sign up for rewards programs or provide any other information about yourself.
+### In-Person Privacy
 
-When purchasing online, ideally you should do so over [Tor](https://www.privacyguides.org/en/advanced/tor-overview/). However, many merchants don’t allow purchases with Tor. You can consider using a [recommended VPN](https://www.privacyguides.org/en/vpn/) (paid for with cash, gift card, or Monero), or making the purchase from a coffee shop or library with free Wi-Fi. If you are ordering a physical item that needs to be delivered, you will need to provide a delivery address. You should consider using a PO box, private mailbox, or work address.
+When making cash payments in person:
+- **Clothing**: Wear non-distinct clothing
+- **Face covering**: Consider a surgical mask or N95
+- **Rewards programs**: Don't sign up or provide personal information
+- **Awareness**: Security cameras are ubiquitous
 
-Important notices
+### Online Privacy
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](https://www.privacyguides.org/en/about/notices/).
+When purchasing online:
+- **Preferred**: Use [Tor](https://www.privacyguides.org/en/advanced/tor-overview/) (though many merchants block Tor)
+- **Alternative**: Use a VPN (paid with cash, gift card, or Monero)
+- **Another option**: Make purchases from coffee shops or libraries with free Wi-Fi
 
-Was this page helpful?
+### Physical Delivery Considerations
 
+If ordering items requiring delivery, consider using:
+- PO box
+- Private mailbox service
+- Work address
 
+---
 
+## Disclaimer
 
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+> **Important**: The content here is not legal or financial advice. We do not endorse illicit activities or violations of company terms of service. Confirm these recommendations are legal and available in your jurisdiction with a qualified professional.

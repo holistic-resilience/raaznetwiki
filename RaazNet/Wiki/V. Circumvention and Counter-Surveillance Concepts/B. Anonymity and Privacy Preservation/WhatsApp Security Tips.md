@@ -1,20 +1,60 @@
-[Skip to content](https://freedom.press/digisec/blog/whatsapp-security/#main)
+Looking at this markdown file, I can see it's actually a **404 error page** from Freedom of the Press Foundation, not actual WhatsApp security content. The front matter suggests it was intended to be a WhatsApp security guide, but the actual content is just a "Page not found" message with a newsletter signup form.
 
-# Page not found
+Here's my assessment and recommendation:
 
-The page you requested wasn’t found.
+## Analysis
 
+**Current State:**
+- The front matter describes "WhatsApp Security Tips"
+- The actual content is a 404 error page with no substantive security information
+- There's a newsletter signup form and an unrelated image
 
+**Options:**
 
-[Return Home](https://freedom.press/)
+1. **Delete the file** - Since there's no actual content, this file provides no value
+2. **Create a placeholder** - Mark it as incomplete with a note to find the original content
+3. **Replace with actual content** - If you can locate the original WhatsApp security guide from Freedom of the Press
 
-## Sign Up. Take Action.
+## Recommended Action: Placeholder Version
 
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
+If you want to keep the file as a reminder to find the actual content:
 
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
+```markdown
+---
+title: "WhatsApp Security Tips"
+tags: [security, privacy, messaging, whatsapp, encryption]
+category: "Messaging Security"
+difficulty: "Beginner"
+audience: [General Public, Activists, Journalists]
+topics: ["Digital Security", "Secure Messaging"]
+summary: "PLACEHOLDER - Original content not captured; page returned 404 error"
+source: "Freedom of the Press Foundation"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic smartphone literacy"]
+estimated_read_time: "TBD"
+status: "incomplete"
+original_url: "https://freedom.press/digisec/blog/whatsapp-security/"
+---
 
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
+# WhatsApp Security Tips
 
+> [!warning] Content Missing
+> This document was intended to contain WhatsApp security guidance from Freedom of the Press Foundation, but the original page was unavailable (404 error) when captured.
 
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+## Action Needed
+
+- [ ] Locate archived version via Wayback Machine
+- [ ] Find alternative WhatsApp security guide from FPF
+- [ ] Or delete this placeholder file
+
+## Related Resources
+
+- [Freedom of the Press Foundation Digital Security](https://freedom.press/digisec/)
+- [Signal Messenger](https://signal.org/) - Alternative secure messaging app
+```
+
+---
+
+**My recommendation:** Delete this file entirely since it contains no actual content. Would you like me to help you find the actual WhatsApp security guide content, or would you prefer the placeholder version above?

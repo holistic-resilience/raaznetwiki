@@ -1,17 +1,51 @@
+```yaml
+---
+title: "کنترل، ردیابی و یافتن دستگاه‌های موبایلی متصل به حساب گوگل"
+tags: [google, find-my-device, mobile-security, device-tracking, account-security]
+category: "Mobile Security"
+difficulty: "Beginner"
+audience: [General Public, Android Users, Privacy-Conscious Users]
+topics: ["Device Management", "Google Account Security", "Mobile Tracking"]
+summary: "راهنمای استفاده از قابلیت Find My Device گوگل برای ردیابی، قفل کردن و مدیریت دستگاه‌های متصل به حساب گوگل"
+source: "Certfa"
+content_type: "Tutorial"
+security_level: "Basic"
+language: "Persian"
+prerequisites: ["داشتن حساب گوگل", "دسترسی به اینترنت"]
+estimated_read_time: "2 minutes"
+related_links:
+  - title: "Find your phone - Google"
+    url: "https://myaccount.google.com/find-your-phone"
+  - title: "مدیریت گذرواژه‌‌ها در کروم"
+    url: "https://certfa.com/info/basic-information/how-to-import-and-backup-saved-passwords-in-google-chrome/"
+  - title: "مدیریت سوابق در گوگل"
+    url: "https://certfa.com/info/email-security/manage-my-google-activity/"
+---
+```
+
 # کنترل، ردیابی و یافتن دستگاه‌های موبایلی متصل به حساب گوگل
 
-قابلیت Find My Device به‌منظور یافتن دستگاه‌های موبایلی متصل به حساب گوگل، یکی از امکانات کاربردی و بسیار خوب این سرویس محسوب می‌شود که به شما امکان ردیابی دستگاه‌هایی که در آن از حساب گوگل خود استفاده کرده‌اید، همچین قفل کردن دستگاه و خروج از حساب را فراهم می‌سازد. در این آموزش مراحل بررسی این موضوع به‌صورت گام‌به‌گام می‌توانید مشاهده کنید.
+## معرفی
 
-1. [سرتفا](https://certfa.com/)»
-2. [دانشنامه](https://certfa.com/info/)»
-3. [امنیت ایمیل](https://certfa.com/info/email-security/)
+قابلیت **Find My Device** یکی از امکانات کاربردی گوگل است که به شما امکان می‌دهد:
 
-۲۵ تیر ۱۳۹۹
+- **ردیابی** دستگاه‌های متصل به حساب گوگل
+- **قفل کردن** دستگاه از راه دور
+- **خروج از حساب** در صورت گم شدن یا سرقت دستگاه
 
-\- لینک مستقیم بخش [Find your phone](https://myaccount.google.com/find-your-phone)
+## دسترسی مستقیم
 
-[امنیت ایمیل](https://certfa.com/topic/email-security/) \| [امنیت موبایل](https://certfa.com/topic/mobile-security/)
+🔗 [Find your phone - Google Account](https://myaccount.google.com/find-your-phone)
 
-[مدیریت گذرواژه‌‌ها در کروم](https://certfa.com/info/basic-information/how-to-import-and-backup-saved-passwords-in-google-chrome/)
+---
 
-[مدیریت سوابق در گوگل](https://certfa.com/info/email-security/manage-my-google-activity/)
+## منابع مرتبط
+
+- [امنیت ایمیل](https://certfa.com/info/email-security/)
+- [امنیت موبایل](https://certfa.com/topic/mobile-security/)
+- [مدیریت گذرواژه‌‌ها در کروم](https://certfa.com/info/basic-information/how-to-import-and-backup-saved-passwords-in-google-chrome/)
+- [مدیریت سوابق در گوگل](https://certfa.com/info/email-security/manage-my-google-activity/)
+
+---
+
+> **منبع:** [Certfa](https://certfa.com/) | تاریخ انتشار: ۲۵ تیر ۱۳۹۹

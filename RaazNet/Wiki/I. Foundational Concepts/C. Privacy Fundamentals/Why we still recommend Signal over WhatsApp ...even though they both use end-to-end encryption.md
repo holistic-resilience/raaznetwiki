@@ -1,61 +1,122 @@
-Blog › Why we still recommend Signal over WhatsApp ...even though they both use end-to-end encryption
+---
+title: "Why We Still Recommend Signal Over WhatsApp"
+tags: [signal, whatsapp, encryption, metadata, privacy, secure-messaging]
+category: "Secure Communications"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, Activists, General Public]
+topics: ["End-to-End Encryption", "Messaging Security", "Metadata Privacy", "Open Source Software"]
+summary: "Analysis of why Signal remains the recommended secure messaging app over WhatsApp despite both using the same encryption protocol."
+source: "Security in a Box (Tactical Tech)"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of encryption concepts", "Familiarity with messaging apps"]
+estimated_read_time: "7 minutes"
+authors: ["Maria Xynou", "Chris Walker"]
+date_published: "2016-05-23"
+---
 
-# [Anchor](https://securityinabox.org/en/blog/why-we-still-recommend-signal-over-whatsapp/\#why-we-still-recommend-signal-over-whatsapp-even-though-they-bot) Why we still recommend Signal over WhatsApp ...even though they both use end-to-end encryption
+# Why We Still Recommend Signal Over WhatsApp
 
-By Maria Xynou & Chris Walker
+*Even though they both use end-to-end encryption*
 
-Posted 2016.05.23
+WhatsApp's collaboration with Open Whisper Systems brought *end-to-end encryption* to a billion people worldwide. When WhatsApp integrated the encryption protocol developed for Signal, many users began using end-to-end encryption without even realizing it.
 
-If you're using the latest version of WhatsApp, then you might have noticed the following notification:
+This is an important development that helps protect user privacy globally. However, there are several reasons why Signal remains the recommended choice over WhatsApp, even though they use the *same protocol* for end-to-end encryption.
 
-![](https://securityinabox.org/media/en/blog/whatsapp-crypto.png)
+## Source Code Transparency
 
-WhatsApp Crypto message
+WhatsApp deserves credit for adopting an open encryption protocol vetted by security experts rather than creating a proprietary encryption scheme with little external review.
 
-Or you might have read about this when it was all over the [news](https://www.theguardian.com/technology/2016/apr/05/whatsapp-rolls-out-full-encryption-to-a-billion-messenger-users).
+However, cryptography is not the only aspect of security. The security of an app also depends on how an encryption protocol is integrated. When software is **open source**, we can:
 
-WhatsApp's collaboration with Open Whisper Systems recently brought _end-to-end encryption_ to the lives of a billion people around the world. (Open Whisper Systems develops Signal, an open source mobile messaging and VoIP app.) When WhatsApp integrated the encryption protocol developed for Signal, many of us began using end-to-end encryption without even realizing it.
+- Review the implementation
+- Verify it does not contain malicious code
+- Identify potential security issues
 
-Undoubtedly, this is an exciting and important development that will help protect the privacy of users all over the world. In this post, however, we would like to explain why we recommend Signal over WhatsApp, even though they both use the _same protocol_ for end-to-end encryption.
+**Closed source** software requires trusting the claims of its developers without verification.
 
-## [Anchor](https://securityinabox.org/en/blog/why-we-still-recommend-signal-over-whatsapp/\#source-code) Source code
+While WhatsApp relies on the Signal protocol (an open standard), the app itself is closed source. We trust Open Whisper Systems to have properly integrated the Signal protocol into WhatsApp, but the closed source nature prevents us from identifying other aspects that could impact security.
 
-We would like to start off by congratulating WhatsApp, not only for taking significant measures to protect the privacy of their users, but also for choosing to adopt an open encryption protocol that has been vetted by security experts rather than coming up with yet another proprietary encryption scheme with little or no external review.
+**Signal is fully open source**, allowing verification that communications are properly encrypted and enabling review of the overall security of the app.
 
-Crypto is not the only aspect of security, however. Among other factors, the security of an app also depends on how an encryption protocol is integrated. When software is open source, we are able to review it, see how it has been implemented and verify that it does not contain malicious code. Closed source software, on the other hand, requires that we trust the claims of its developers.
+## Secure Data Storage
 
-While WhatsApp relies on the Signal protocol, which is an open standard, to encrypt its users' communications, the app itself is closed source. We trust Open Whisper Systems to have properly integrated the Signal protocol into WhatsApp, but the closed source nature of the app prevents us from identifying other aspects of the app that could impact our security.
+The Signal protocol is a *communications* protocol—it only encrypts data *in transit*. It does *not* encrypt data stored on devices, such as messaging history.
 
-Signal, on the other hand, is open source. As a result, we can verify that our communications are properly encrypted and review the overall security of the app.
+| Feature | Signal | WhatsApp |
+|---------|--------|----------|
+| Local message encryption | ✓ (passphrase option) | ✗ |
+| Protection from physical access | ✓ | ✗ |
 
-## [Anchor](https://securityinabox.org/en/blog/why-we-still-recommend-signal-over-whatsapp/\#secure-data-storage) Secure data storage
+Signal addresses this by providing users the option to encrypt messages stored on their phones with a passphrase, protecting those messages from anyone who gains physical access to their device. WhatsApp does not currently allow users to secure locally stored messages.
 
-The Signal protocol that was recently integrated into WhatsApp is a _communications_ protocol, which means that it only encrypts data _in transit_. It does _not_ encrypt data, such as our messaging history, that is stored on our phones.
+## Identity Verification
 
-Signal addresses this by providing its users with the option to (encrypt messages stored on their phones with a [passphrase](https://github.com/WhisperSystems/Signal-Android/wiki/Using-Signal#secure-storage), thus protecting those messages from anyone who gains physical access to their device. WhatsApp, on the other hand, [does not currently allow users to secure the messages stored on their phones](https://www.whatsapp.com/security/).
+An essential component of digital security is verifying that we are communicating with the intended person. Without this ability, someone could execute a **man-in-the-middle attack**:
 
-## [Anchor](https://securityinabox.org/en/blog/why-we-still-recommend-signal-over-whatsapp/\#verification) Verification
+1. Intercept communications when two parties first connect
+2. Decrypt and record messages
+3. Re-encrypt and relay messages between parties
 
-An essential component of digital security is the ability to verify that we are actually sending data to, and receiving data from, the person with whom we believe we are communicating. Without this ability, it is possible for someone to sit between us on the network when we first get in touch, decrypt our messages, record them, re-encrypt them and relay them back and forth. This is called a _man-in-the-middle_ attack.
+In this scenario, merely recognizing a correspondent's voice is not enough to guarantee properly encrypted communication. A cryptographic identity verification mechanism is required. Both apps provide verification features, but Signal's implementation is more straightforward and privacy-focused.
 
-In this scenario, merely recognizing our correspondent's voice is not enough to guarantee that our communication is properly encrypted. For that, we need some kind of cryptographic identity verification mechanism.
+## Business Model Differences
 
-Both WhatsApp and Signal support identity verification for messages and voice calls. For messages, they rely on the same mechanism: users compare identity key fingerprints, then flag a contact as verified. For voice calls, however, the two apps work differently. Signal’s voice encryption protocol makes it easy for users to verify each call by reading off two words and making sure they match. WhatsApp’s voice call verification, however, depends on users having previously verified one another for messaging by comparing fingerprints.
+| Aspect | Signal | WhatsApp |
+|--------|--------|----------|
+| Owner | Open Whisper Systems | Facebook (Meta) |
+| Type | Non-profit | Commercial |
+| Funding | Grants | Advertising ecosystem |
+| Mission | Advance secure communication | Part of Facebook's data ecosystem |
 
-## [Anchor](https://securityinabox.org/en/blog/why-we-still-recommend-signal-over-whatsapp/\#business-model) Business model
+### The Metadata Question
 
-WhatsApp is owned by Facebook, while Signal is owned by [Open Whisper Systems](https://whispersystems.org/). They have very different business models.
+While the Signal protocol encrypts the *content* of communications, it does not encrypt **metadata**—information such as:
 
-It's well-known that advertising is at the heart of Facebook's business model, which is fueled by the vast quantities of data that users hand over to the company through its various services. Open Whisper Systems, on the other hand, is a _non-profit_, grant-funded group of free software developers whose [mission](https://whispersystems.org/) is to _“advance the state of the art for secure communication, while simultaneously making it easy for everyone to use”_.
+- Who you contact
+- When you communicate
+- Your location during communication
 
-It’s important to note that while the Signal protocol encrypts the content of our communications, it does not encrypt _metadata_ – information about information - such as who we contact, when and from where. Given Facebook’s willingness to implement end-to-end encryption in WhatsApp, which prevents even the company itself from accessing some of its users’ data, one can't help but wonder if the value has been in the metadata all along.
+Unlike content data, metadata is:
 
-Unlike content data, which is harder and more expensive to process and retain, metadata is ideally suited to automated analysis by a computer. It can be stored in large quantities and reveals information (such as who you contacted, when and where) that is very difficult – if not impossible – to deny. Using metadata, analysts can map out an individual’s [political affiliation, interests, economic background, location and habits](http://www.theatlantic.com/technology/archive/2013/03/armed-with-facebook-likes-alone-researchers-can-tell-your-race-gender-and-sexual-orientation/273963/), as well as the network of people with whom that individual communicates. This information can be used to create group and individual profiles that are in great demand by an advertising industry desperate to know its audience.
+- Easier and cheaper to process and retain
+- Ideally suited to automated analysis
+- Storable in large quantities
+- Difficult or impossible to deny
 
-Advertising might seem harmless, but it's important to remember that we are rarely in control of the profiles being created about us. As a result, these profiles may or may not be accurate. And regardless of the accuracy of our profiles, [research](http://www.newamerica.org/downloads/OTI-Data-an-Discrimination-FINAL-small.pdf) has shown that profiling can lead to various forms of discrimination. While it's not clear whether and to what extent WhatsApp users' metadata feeds into Facebook's advertising business model, it remains an important question. As Open Whisper Systems is not in the data business, we believe Signal is more likely to protect our metadata.
+Using metadata, analysts can map out an individual's political affiliation, interests, economic background, location, habits, and social network. This information is valuable for advertising and profiling.
 
-That said, it’s worth noting that Signal’s reliance on the Google Cloud Messaging platform means that Google — which is, of course, in the data business — does have access to some of the metadata produced by Signal. They know the current _IP address_ of any device that receives a Signal message, for example, but Signal’s architecture hides as much of this metadata as possible. The Signal protocol can be used independently from Google Play Services via [LibreSignal](https://libraries.io/github/LibreSignal/LibreSignal), a fork of Signal, which can be installed from [F-Droid](https://f-droid.org/), a free and open source Android app repository.
+Given Facebook's willingness to implement end-to-end encryption (which prevents access to content), one must consider whether the value has been in the metadata all along.
 
-## [Anchor](https://securityinabox.org/en/blog/why-we-still-recommend-signal-over-whatsapp/\#using-signal) Using Signal
+### Signal's Metadata Handling
 
-Today we are releasing a new [tool guide](https://securityinabox.org/en/guide/signal/android) that explains, step-by-step, how to install and use Signal, if you're not already doing so.
+As Open Whisper Systems is not in the data business, Signal is more likely to protect metadata. However, Signal's reliance on Google Cloud Messaging means Google has access to some metadata (such as IP addresses of devices receiving messages).
+
+**Alternative**: LibreSignal, a fork of Signal, can be installed from F-Droid (a free and open source Android app repository) and operates independently from Google Play Services.
+
+## Summary Comparison
+
+| Consideration | Signal | WhatsApp |
+|---------------|--------|----------|
+| Encryption Protocol | Signal Protocol | Signal Protocol |
+| Source Code | Open | Closed |
+| Local Storage Encryption | Available | Not available |
+| Business Model | Non-profit | Advertising-driven |
+| Metadata Protection | Prioritized | Unclear |
+| Identity Verification | Robust | Available |
+
+## Conclusion
+
+While both Signal and WhatsApp use the same encryption protocol for message content, Signal offers several advantages:
+
+1. **Full transparency** through open source code
+2. **Local data protection** with passphrase encryption
+3. **Non-profit mission** focused on security rather than data monetization
+4. **Better metadata protection** by design
+
+For users prioritizing privacy and security, Signal remains the recommended choice for secure messaging.
+
+---
+
+*For detailed installation and usage instructions, see the [Signal tool guide](https://securityinabox.org/en/guide/signal/android).*

@@ -1,15 +1,38 @@
-# فعال‌سازی احراز هویت دو مرحله‌‌ای برای حساب کاربری توییتر با استفاده از برنامه Authenticator
+---
+title: "فعال‌سازی احراز هویت دو مرحله‌ای توییتر با Authenticator"
+tags: [two-factor-authentication, twitter, authenticator-app, account-security, social-media-security]
+category: "Social Media Security"
+difficulty: "Beginner"
+audience: [General Public, Activists, Privacy-Conscious Users]
+topics: ["Two-Factor Authentication", "Twitter Security", "Account Protection"]
+summary: "آموزش ویدیویی فعال‌سازی احراز هویت دو مرحله‌ای توییتر با برنامه Authenticator"
+source: "Certfa"
+content_type: "Tutorial"
+security_level: "Basic"
+language: "Persian"
+prerequisites: ["حساب کاربری توییتر", "نصب برنامه Authenticator"]
+estimated_read_time: "2 minutes"
+related_links:
+  - "[[ورود دو مرحله‌ای توییتر با پیامک]]"
+  - "[[غیرفعال‌سازی Discoverability در توییتر]]"
+---
 
-در این آموزش ویدیویی کوتاه، می‌توانید نحوه فعال‌سازی احراز هویت دو مرحله‌‌ای برای حساب کاربری توییتر با استفاده از برنامه Authenticator را دنبال کنید. توجه داشته باشید پس از فعال‌سازی ورود دو مرحله‌ای، حتما باید کد پشتیبان خود را در یک جای امن و مطمئن نگهداری کنید.
+# فعال‌سازی احراز هویت دو مرحله‌ای توییتر با Authenticator
 
-1. [سرتفا](https://certfa.com/)»
-2. [دانشنامه](https://certfa.com/info/)»
-3. [امنیت شبکه‌های اجتماعی](https://certfa.com/info/social-network-security/)
+## معرفی
 
-۲۷ اردیبهشت ۱۴۰۰
+در این آموزش ویدیویی کوتاه، نحوه فعال‌سازی احراز هویت دو مرحله‌ای برای حساب کاربری توییتر با استفاده از برنامه Authenticator را یاد می‌گیرید.
 
-[احراز هویت چند عاملی](https://certfa.com/topic/Multi-factor-Authentication/) \| [شبکه‌های اجتماعی](https://certfa.com/topic/social-networks/)
+## نکته مهم
 
-[ورود دو مرحله‌ای توییتر با پیامک](https://certfa.com/info/social-network-security/enable-twitter-2fa-via-sms/)
+> [!warning] کد پشتیبان
+> پس از فعال‌سازی ورود دو مرحله‌ای، **حتماً کد پشتیبان خود را در یک جای امن و مطمئن نگهداری کنید.**
 
-[غیرفعال‌سازی Discoverability در توییتر](https://certfa.com/info/social-network-security/disable-twitter-account-discoverability-with-phone-email/)
+## منابع مرتبط
+
+- [امنیت شبکه‌های اجتماعی - Certfa](https://certfa.com/info/social-network-security/)
+- [احراز هویت چند عاملی](https://certfa.com/topic/Multi-factor-Authentication/)
+
+---
+
+*منبع: [Certfa](https://certfa.com/) | تاریخ انتشار: ۲۷ اردیبهشت ۱۴۰۰*

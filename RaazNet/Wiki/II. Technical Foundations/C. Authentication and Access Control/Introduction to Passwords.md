@@ -1,6 +1,18 @@
-[Skip to content](https://www.privacyguides.org/en/basics/passwords-overview/#best-practices)
-
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/basics/passwords-overview.md?plain=1 "Edit this page")
+---
+title: "Introduction to Passwords"
+tags: [security, privacy, authentication, passwords, password-managers, diceware]
+category: "Authentication"
+difficulty: "Beginner"
+audience: [General Public, Privacy-Conscious Users]
+topics: ["Digital Security", "Password Management", "Authentication"]
+summary: "Comprehensive guide to creating, managing, and storing strong passwords using best practices and password managers."
+source: "Privacy Guides"
+content_type: "Educational Guide"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic computer literacy"]
+estimated_read_time: "8 minutes"
+---
 
 # Introduction to Passwords
 
@@ -8,131 +20,105 @@ Passwords are an essential part of our everyday digital lives. We use them to pr
 
 ## Best Practices
 
-### Use unique passwords for every service
+### Use Unique Passwords for Every Service
 
-Imagine this: You sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
+**Credential stuffing** is one of the most common ways that accounts are compromised by bad actors. This attack occurs when criminals obtain username/password combinations from one data breach and automatically try them on thousands of other websites.
 
-This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
+To protect yourself, **never re-use your passwords** across different services.
 
-### Use randomly generated passwords
+### Use Randomly Generated Passwords
 
-You should **never** rely on yourself to come up with a good password. We recommend using [randomly generated passwords](https://www.privacyguides.org/en/basics/passwords-overview/#passwords) or [diceware passphrases](https://www.privacyguides.org/en/basics/passwords-overview/#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
+You should **never** rely on yourself to come up with a good password. Human-created passwords tend to follow predictable patterns that attackers can exploit.
 
-All of our [recommended password managers](https://www.privacyguides.org/en/passwords/) include a built-in password generator that you can use.
+Instead, use:
+- **Randomly generated passwords** for accounts stored in your password manager
+- **Diceware passphrases** for passwords you need to memorize
+
+All recommended password managers include built-in password generators.
 
 ### Rotating Passwords
 
-You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
+**Passwords you must remember** (like your password manager's master password):
+- Avoid changing too frequently unless you suspect compromise
+- Changing too often increases the risk of forgetting
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](https://www.privacyguides.org/en/basics/threat-modeling/) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
+**Passwords stored in your password manager**:
+- Consider changing important account passwords every few months
+- Prioritize accounts without multifactor authentication
+- Use your password manager's expiry date feature to track rotation
 
-Checking for data breaches
+> [!tip] Checking for Data Breaches
+> If your password manager supports checking for compromised passwords, use this feature regularly. Promptly change any password exposed in a data breach. You can also monitor [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) using a news aggregator.
 
-If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](https://www.privacyguides.org/en/news-aggregators/).
+## Creating Strong Passwords
 
-## Creating strong passwords
+### Generated Passwords
 
-### Passwords
+Many services impose criteria for passwords, including minimum/maximum length and allowed special characters. Use your password manager's built-in generator to create passwords that are:
 
-A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+- As long as the service allows
+- Include uppercase and lowercase letters
+- Include numbers and special characters
 
-If you need a password you can memorize, we recommend a [diceware passphrase](https://www.privacyguides.org/en/basics/passwords-overview/#diceware-passphrases).
+For passwords you need to memorize, use a diceware passphrase instead.
 
 ### Diceware Passphrases
 
-Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
+Diceware is a method for creating passphrases that are **easy to remember but hard to guess**. They're ideal for:
 
-Diceware passphrases are a great option when you need to memorize or manually input your credentials, such as for your password manager's master password or your device's encryption password.
+- Password manager master passwords
+- Device encryption passwords
+- Any credential you must memorize or manually input
 
-An example of a diceware passphrase is `viewable fastness reluctant squishy seventeen shown pencil`.
+**Example passphrase:** `viewable fastness reluctant squishy seventeen shown pencil`
 
-To generate a diceware passphrase using real dice, follow these steps:
+#### How to Generate a Diceware Passphrase
 
-Note
+These instructions use the [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt), which requires five dice rolls per word.
 
-These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other word lists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+1. Roll a six-sided die five times, noting each number
+2. Look up the five-digit number in the EFF word list (e.g., `25266` = `encrypt`)
+3. Write down the corresponding word
+4. Repeat until you have at least 6-7 words
+5. Separate words with spaces
 
-1. Roll a six-sided die five times, noting down the number after each roll.
+> [!warning] Important
+> **Do not re-roll words** to get combinations that appeal to you. The process must be completely random to maintain security.
 
-2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+**Alternative method:** Use your password manager's built-in diceware generator with a minimum of 6 words.
 
-3. You will find the word `encrypt`. Write that word down.
+#### Why Diceware Works
 
-4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
+The EFF's large word list contains 7,776 unique words. A seven-word passphrase provides approximately **90.47 bits of entropy** (log₂(7776⁷)), resulting in roughly 1.7 septillion possible combinations.
 
+This remains secure even when an adversary knows:
+- You used the diceware method
+- Which word list you used
+- How many words your passphrase contains
 
-Important
-
-You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
-
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
-
-We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
-
-Explanation of entropy and strength of diceware passphrases
-
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
-
-One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as log2(WordsInList) and the overall entropy of the passphrase is calculated as: log2(WordsInListWordsInPhrase)
-
-Therefore, each word in the aforementioned list results in ~12.9 bits of entropy (log2(7776)), and a seven word passphrase derived from it has ~90.47 bits of entropy (log2(77767)).
-
-The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is WordsInListWordsInPhrase, or in our case, 77767.
-
-Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
-
-On average, it takes trying 50% of all the possible combinations to guess your phrase. With that in mind, even if your adversary is capable of ~1,000,000,000,000 guesses per second, it would still take them ~27,255,689 years to guess your passphrase. That is the case even if the following things are true:
-
-- Your adversary knows that you used the diceware method.
-- Your adversary knows the specific word list that you used.
-- Your adversary knows how many words your passphrase contains.
-
-To sum it up, diceware passphrases are your best option when you need something that is both easy to remember _and_ exceptionally strong.
+Word lists are available in [multiple languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline) if you prefer a non-English passphrase.
 
 ## Storing Passwords
 
 ### Password Managers
 
-The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
+Password managers store your passwords in an encrypted file or cloud service, protected by a single master password. This approach means you only need to remember one strong password to access all others.
 
-There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](https://www.privacyguides.org/en/basics/passwords-overview/#diceware-passphrases) comprised of at least seven words.
+**Recommendations:**
+- Choose a reputable password manager (cloud-based or local)
+- Secure it with a diceware passphrase of at least seven words
+- Use it to generate and store strong, unique passwords for all accounts
 
-[List of recommended password managers](https://www.privacyguides.org/en/passwords/)
+> [!warning] Separate Your TOTP Tokens
+> When using TOTP codes for multifactor authentication, store them in a **separate app** from your password manager. Keeping passwords and TOTP codes together reduces security to a single factor if your password manager is compromised.
 
-Don't place your passwords and TOTP tokens inside the same password manager
-
-When using [TOTP codes as multifactor authentication](https://www.privacyguides.org/en/basics/multi-factor-authentication/#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](https://www.privacyguides.org/en/multi-factor-authentication/).
-
-Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
-
-Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
+> [!tip] Recovery Codes
+> Store single-use recovery codes separately from your password manager—ideally in an encrypted container on an offline storage device.
 
 ### Backups
 
-You should store an [encrypted](https://www.privacyguides.org/en/encryption/) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
+Store an **encrypted backup** of your passwords on:
+- Multiple storage devices
+- A cloud storage provider
 
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+This ensures access to your passwords if something happens to your primary device or service.

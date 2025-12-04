@@ -1,41 +1,96 @@
-![Prepare detail 04](https://holistic-security.tacticaltech.org/media/chapters/images/default/prepare_detail_04.jpg%3F1460641467)
+---
+title: "Team and Peer Responses to Threat"
+tags: [group-dynamics, security-culture, infiltration, organizational-security, activism, trust]
+category: "Organizational Security"
+difficulty: "Intermediate"
+audience: [Activists, Human Rights Defenders, Community Organizers, NGO Staff]
+topics: ["Group Behavior Under Threat", "Security Culture", "Infiltration Prevention", "Team Dynamics"]
+summary: "Examines how groups change under threat and provides strategies for maintaining healthy dynamics while addressing infiltration risks."
+source: "Tactical Tech - Holistic Security Guide"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of group dynamics", "Familiarity with activist or organizational contexts"]
+estimated_read_time: "4 minutes"
+---
 
-# 1.4 Team and Peer Responses to Threat
+# Team and Peer Responses to Threat
 
-As human rights defenders, we rarely work alone: in developing a holistic approach to security, it is helpful to recognise how our groups, organisations and communities collectively respond to threats and how group dynamics change in the face of danger. This will help us to identify difficult aspects of our group dynamics and strategies for improving our communication in order to build solidarity, trust and better security practices.
+Understanding how groups behave under pressure is essential for maintaining healthy organizational dynamics and effective security practices. This guide examines predictable changes in group behavior during threatening situations and offers strategies for addressing common challenges like mistrust and infiltration.
 
-## What happens to groups in times of threat?
+## How Groups Change Under Threat
 
-Like individuals, group dynamics also change when one, some, or all of the members find themselves under threat, marginalisation, or violence (including economic, gender-based, institutional, or structural violence). Exactly how the group dynamics change depends greatly on the group in question. Some predictable group responses include the following:
+When facing external threats, groups typically exhibit three predictable behavioral changes:
 
-**Harder group boundaries**
+### Hardened Group Boundaries
 
-The group hardens boundaries, making it more difficult for members to leave or others to join. This shutting down can also restrict members' access to information or reduce their opportunities to compare their perception of events with those of outside parties.
+Groups under threat tend to restrict membership—making it harder for people to join or leave. This defensive response can:
 
-**Fixed patterns**
+- Limit members' access to information
+- Reduce opportunities to compare perceptions with outside parties
+- Create isolation that may distort understanding of events
 
-A second predictable change is that patterns of behaviour become more fixed and harder to change. Thus it becomes harder for members to question the status quo. It is important that groups regularly revisit and discuss their shared values in an honest way in order to stay fair and inclusive.
+### Fixed Behavioral Patterns
 
-**Authoritarianism**
+Established routines and norms become increasingly rigid, making it difficult for members to:
 
-A third predictable change relates to leadership and power dynamics within groups. When groups feel unsafe, members tolerate greater authoritarianism from leaders or other more powerful members of the group. In extreme cases, powerful members of the group may become abusive, and the increased rigidity of group boundaries may prevent victims from leaving.
+- Question the status quo
+- Propose alternative approaches
+- Adapt to changing circumstances
 
-Looking at the links between decision-making and security, we should not underestimate the positive effects of having fair and transparent decision-making processes. The danger of adversaries targeting leaders of a group is less pronounced if a group has shared responsibilities and knowledge.
+**Recommendation:** Regularly revisit and openly discuss shared values to maintain fairness and inclusivity within the group.
 
-It may be that you can recognise some of these behaviours in your own group – or perhaps your group responds entirely differently. In any case it's a good idea to reflect on any changes your group experiences when under threat – keeping in mind that peoples' perceptions of this may differ greatly – and identify any common issues which you may be able to improve. Maintaining open channels for conversation and communication will improve your chances of avoiding these and other damaging behaviours. We will go into more detail on fostering a healthy culture of communication about security in the next Chapter.
+### Increased Authoritarianism
 
-## Mistrust and infiltration1
+Groups feeling unsafe often tolerate greater concentration of power among leaders or influential members. In extreme cases:
 
-Infiltration is unfortunately a common problem for activist groups or organisations. Similarly, stress and trauma can increase feelings of mistrust between human rights defenders. In our work, we have to consider the possibility that some members of our group or community are or become informants. Demonising them is not helpful; in a context of oppression they are often victims too. Our best bet in these cases is to adopt measures to keep our community safe rather than contributing to an atmosphere of suspicion and mistrust which can lead to a 'witch-hunts' and negatively affect ourselves and our cause. Creating open group discussions and agreeing on a transparent process for how we treat sensitive information, as well as reviewing decisions on secrecy and the transparency of group activities can be helpful.
+- Powerful members may become abusive
+- Rigid boundaries can prevent victims from leaving
+- Decision-making becomes centralized and opaque
 
-Infiltrators and informants often seek to document or even provoke illegal activity among the group. We can reduce the risk of these tactics affecting us by ensuring all of our activities are sanctioned by International Law and standards such as the Universal Declaration of Human Rights (UDHR), the International Covenant on Civil and Political Rights (ICCPR), and the International Covenant on Economic, Social and Cultural Rights (ICESCR) among others. Members agitating for illegal or violent methods should be treated with caution and their membership reviewed.
+**Recommendation:** Distribute responsibilities and knowledge across the group. Fair and transparent decision-making processes reduce the risk of adversaries targeting individual leaders and help prevent power abuses.
 
-In the next Chapter, we will learn some helpful strategies for creating and implementing useful spaces for talking about security within organisations.
+## Reflection Questions
 
-* * *
+Consider how your group responds to threat:
 
-1)  Based on: Ruckus Society: Security Culture for Activists. [www.ruckus.org](http://www.ruckus.org/)
+- Do you recognize any of these behaviors in your organization?
+- How do different members perceive changes in group dynamics?
+- What common issues could be improved through open discussion?
 
-[1.3 Inner Beliefs and Values](https://holistic-security.tacticaltech.org/chapters/prepare/1-3-inner-beliefs-and-values.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/prepare.html)
-[1.5 Communicating About Security in Teams and Organisations](https://holistic-security.tacticaltech.org/chapters/prepare/1-5-communicating-about-threats-in-teams-and-organisations.html)
+Maintaining open channels for conversation significantly improves your ability to avoid damaging behaviors.
+
+## Addressing Mistrust and Infiltration
+
+Infiltration is an unfortunate reality for many activist groups and organizations. Additionally, stress and trauma can heighten feelings of mistrust among human rights defenders.
+
+### A Constructive Approach
+
+Rather than demonizing potential informants—who are often victims of oppression themselves—focus on protective measures:
+
+- **Create open group discussions** about security concerns
+- **Establish transparent processes** for handling sensitive information
+- **Regularly review decisions** about secrecy and transparency of activities
+
+Avoid contributing to an atmosphere of suspicion that can lead to destructive "witch-hunts" harming both individuals and your cause.
+
+### Reducing Infiltration Risks
+
+Infiltrators and informants often attempt to document or provoke illegal activity. Protect your group by:
+
+1. **Ensuring all activities comply with international law** and human rights standards, including:
+   - Universal Declaration of Human Rights (UDHR)
+   - International Covenant on Civil and Political Rights (ICCPR)
+   - International Covenant on Economic, Social and Cultural Rights (ICESCR)
+
+2. **Exercising caution** with members who advocate for illegal or violent methods—review their membership if necessary
+
+## Moving Forward
+
+Building a healthy security culture requires ongoing attention to group dynamics and open communication. The key is balancing necessary security measures with maintaining trust and inclusivity within your organization.
+
+---
+
+**Reference:** Based in part on Ruckus Society: Security Culture for Activists ([www.ruckus.org](http://www.ruckus.org/))
+
+**Source:** [Tactical Tech Holistic Security Guide](https://holistic-security.tacticaltech.org/) - Chapter 1.4

@@ -1,27 +1,42 @@
-# فعال‌سازی قابلیت Relay Calls در پیام‌رسان سیگنال برای امنیت بیشتر
+---
+title: "فعال‌سازی قابلیت Relay Calls در پیام‌رسان سیگنال"
+tags: [signal, privacy, ip-protection, relay-calls, mobile-security, messenger]
+category: "امنیت پیام‌رسان"
+difficulty: "Beginner"
+audience: [General Public, Activists, Privacy-Conscious Users]
+topics: ["Signal Messenger", "Privacy Protection", "IP Security"]
+summary: "آموزش فعال‌سازی Relay Calls در سیگنال برای جلوگیری از افشای آدرس IP به مخاطبین"
+source: "Certfa"
+content_type: "Tutorial"
+security_level: "Basic"
+language: "Persian"
+prerequisites: ["نصب پیام‌رسان سیگنال"]
+estimated_read_time: "2 minutes"
+---
 
-فعال‌سازی قابلیت Relay Calls در پیام‌رسان سیگنال باعث می‌شود که ارتباط شما از طریق سرورهای این پیام‌رسان با مخاطبان‌تان برقرار شود که همین مساله، در جلوگیری از مشخص شدن آی‌پی برای مخاطب ارتباط، تاثیر بسزایی دارد. در این آموزش ویدیویی کوتاه، می‌توانید مراحل فعال‌سازی قابلیت Relay Calls را مشاهده کنید.
+# فعال‌سازی قابلیت Relay Calls در پیام‌رسان سیگنال
 
-1. [سرتفا](https://certfa.com/)»
-2. [دانشنامه](https://certfa.com/info/)»
-3. [پیام‌رسان‌های کوتاه](https://certfa.com/info/instant-messengers/)
+## چرا Relay Calls مهم است؟
 
-۰۸ مهر ۱۳۹۹
+فعال‌سازی قابلیت **Relay Calls** در پیام‌رسان سیگنال باعث می‌شود که تماس‌های صوتی و تصویری شما از طریق سرورهای سیگنال با مخاطبان‌تان برقرار شود. این ویژگی از افشای آدرس IP شما به مخاطب جلوگیری می‌کند.
 
-**مطالب مرتبط:**
+> **نکته امنیتی:** بدون این قابلیت، در تماس‌های مستقیم (peer-to-peer)، آدرس IP شما برای طرف مقابل قابل مشاهده است.
 
-- [نحوه فعال‌سازی حذف خودکار پیام‌ها در پیام‌رسان سیگنال](https://certfa.com/info/instant-messengers/how-to-enable-auto-disappearing-messages-in-signal)
+## مراحل فعال‌سازی
 
-- [نحوه کنترل بیشتر حریم خصوصی در پیام‌رسان سیگنال](https://certfa.com/info/instant-messengers/privacy-control-and-how-to-disable-seen-and-typing-in-signal)
+برای فعال‌سازی این قابلیت، آموزش ویدیویی کوتاه در منبع اصلی موجود است.
 
-- [فعال‌سازی محافظ صفحه و غیرفعال‌سازی امکان گرفتن اسکرین‌شات در پیام‌رسان سیگنال](https://certfa.com/info/instant-messengers/how-to-enable-screenshot-protection-in-signal-and-auto-lock-screen)
+---
 
-- [نحوه فعال‌سازی رمز ثبت‌نام در پیام‌رسان سیگنال](https://certfa.com/info/instant-messengers/how-to-emable-pin-in-signal)
+## منابع مرتبط
 
-\- [نحوه فعال‌سازی و مدیریت رمز دسترسی (Pin Code) در پیام‌رسان سیگنال](https://certfa.com/info/instant-messengers/how-to-enable-signal-pin-and-how-to-change-it)
+- [نحوه فعال‌سازی حذف خودکار پیام‌ها در سیگنال](https://certfa.com/info/instant-messengers/how-to-enable-auto-disappearing-messages-in-signal)
+- [کنترل حریم خصوصی در سیگنال](https://certfa.com/info/instant-messengers/privacy-control-and-how-to-disable-seen-and-typing-in-signal)
+- [فعال‌سازی محافظ صفحه در سیگنال](https://certfa.com/info/instant-messengers/how-to-enable-screenshot-protection-in-signal-and-auto-lock-screen)
+- [فعال‌سازی و مدیریت PIN در سیگنال](https://certfa.com/info/instant-messengers/how-to-enable-signal-pin-and-how-to-change-it)
 
-[امنیت موبایل](https://certfa.com/topic/mobile-security/) \| [پیام‌رسان](https://certfa.com/topic/messenger/) \| [حریم خصوصی](https://certfa.com/topic/privacy/)
+---
 
-[حذف خودکار پیام‌ها در سیگنال](https://certfa.com/info/instant-messengers/how-to-enable-auto-disappearing-messages-in-signal/)
+**منبع اصلی:** [Certfa - دانشنامه امنیت دیجیتال](https://certfa.com/info/)
 
-[تنظیمات حریم خصوصی در سیگنال](https://certfa.com/info/instant-messengers/privacy-control-and-how-to-disable-seen-and-typing-in-signal/)
+**تاریخ انتشار:** ۰۸ مهر ۱۳۹۹

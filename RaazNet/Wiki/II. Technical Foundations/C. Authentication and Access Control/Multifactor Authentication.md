@@ -1,81 +1,68 @@
-[Skip to content](https://www.privacyguides.org/en/multi-factor-authentication/#ente-auth)
-
-![](https://www.privacyguides.org/en/assets/img/cover/multi-factor-authentication.webp)
+---
+title: "Multifactor Authentication"
+tags: [security, privacy, authentication, TOTP, 2FA, mobile-apps]
+category: "Authentication & Access Control"
+difficulty: "Beginner"
+audience: [General Public, Privacy-Conscious Users, Security Beginners]
+topics: ["Digital Security", "Two-Factor Authentication", "Mobile Security"]
+summary: "Guide to TOTP authenticator apps for secure multifactor authentication, featuring Ente Auth and Aegis recommendations."
+source: "Privacy Guides"
+content_type: "Reference"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic smartphone usage", "Understanding of account security"]
+estimated_read_time: "3 minutes"
+---
 
 # Multifactor Authentication
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/multi-factor-authentication.md?plain=1 "Edit this page")
+**Multifactor Authentication (MFA) Apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords (TOTP)**. This method works by having websites share a secret with you, which your authenticator app uses to generate a six-digit code based on the current time. You enter this code while logging in for the website to verify.
 
-Protects against the following threat(s):
+These codes typically regenerate every 30 seconds, and once a new code is generated, the old one becomes useless. Even if an attacker obtains one six-digit code, they cannot reverse-engineer the original secret or predict future codes.
 
-- [Targeted Attacks](https://www.privacyguides.org/en/basics/common-threats/#attacks-against-specific-individuals)
+> [!tip] Hardware Security Keys
+> For hardware-based authentication options, see the dedicated [hardware security key recommendations](https://www.privacyguides.org/en/security-keys/).
 
-Hardware Keys
+> [!important] Mobile Apps Recommended
+> We highly recommend using mobile TOTP apps instead of desktop alternatives, as Android and iOS have better security and app isolation than most desktop operating systems.
 
-[Hardware security key recommendations](https://www.privacyguides.org/en/security-keys/) have been moved to their own category.
+## Recommended Apps
 
-**Multifactor Authentication Apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. This is a method where websites share a secret with you which is used by your authenticator app to generate a six (usually) digit code based on the current time, which you enter while logging in for the website to check. Typically, these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret or otherwise be able to predict what any future codes might be.
+### Ente Auth
 
-We highly recommend that you use mobile TOTP apps instead of desktop alternatives as Android and iOS have better security and app isolation than most desktop operating systems.
+**Ente Auth** is a free and open-source app that stores and generates TOTP tokens.
 
-## Ente Auth
+**Key Features:**
+- End-to-end encrypted cloud backup and sync (optional)
+- Cross-device access via web interface
+- Can be used offline on a single device without an account
+- Available on Android, iOS, and web
 
-![Ente Auth logo](https://www.privacyguides.org/en/assets/img/multi-factor-authentication/ente-auth.svg)
+**Links:** [Homepage](https://ente.io/auth) | [Privacy Policy](https://ente.io/privacy) | [Documentation](https://help.ente.io/auth) | [Source Code](https://github.com/ente-io/ente/tree/main/auth#readme)
 
-**Ente Auth** is a free and open-source app which stores and generates TOTP tokens. It can be used with an online account to back up and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
+**Downloads:** [Google Play](https://play.google.com/store/apps/details?id=io.ente.auth) | [App Store](https://apps.apple.com/app/id6444121398) | [GitHub](https://github.com/ente-io/ente/releases?q=auth) | [Web](https://auth.ente.io/)
 
-[Homepage](https://ente.io/auth) [Privacy Policy](https://ente.io/privacy "Privacy Policy") [Documentation](https://help.ente.io/auth "Documentation") [Source Code](https://github.com/ente-io/ente/tree/main/auth#readme "Source Code")
+### Aegis Authenticator (Android)
 
-Downloads
+**Aegis Authenticator** is a free and open-source Android app for managing 2-step verification tokens.
 
-- [Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
-- [App Store](https://apps.apple.com/app/id6444121398)
-- [GitHub](https://github.com/ente-io/ente/releases?q=auth)
-- [Web](https://auth.ente.io/)
+**Key Features:**
+- Operates completely offline/locally
+- Includes token export option for backup
+- Android-only
 
-## Aegis Authenticator (Android)
+**Links:** [Homepage](https://getaegis.app/) | [Privacy Policy](https://getaegis.app/aegis/privacy.html) | [Documentation](https://github.com/beemdevelopment/Aegis/wiki) | [Source Code](https://github.com/beemdevelopment/Aegis)
 
-![Aegis logo](https://www.privacyguides.org/en/assets/img/multi-factor-authentication/aegis.png)
+**Downloads:** [Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis) | [GitHub](https://github.com/beemdevelopment/Aegis/releases)
 
-**Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
+## Selection Criteria
 
-[Homepage](https://getaegis.app/) [Privacy Policy](https://getaegis.app/aegis/privacy.html "Privacy Policy") [Documentation](https://github.com/beemdevelopment/Aegis/wiki "Documentation") [Source Code](https://github.com/beemdevelopment/Aegis "Source Code") [Contribute](https://buymeacoffee.com/beemdevelopment "Contribute")
+These recommendations are based on the following requirements:
 
-Downloads
+- **Open Source:** Source code must be publicly available
+- **Offline Capability:** Must not require internet connectivity for basic operation
+- **Secure Sync:** Cloud syncing must be optional, and if available, must be end-to-end encrypted (E2EE)
 
-- [Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
-- [GitHub](https://github.com/beemdevelopment/Aegis/releases)
+---
 
-## Criteria
-
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](https://www.privacyguides.org/en/about/criteria/), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
-
-- Source code must be publicly available.
-- Must not require internet connectivity.
-- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+*Source: [Privacy Guides](https://www.privacyguides.org/en/multi-factor-authentication/)*

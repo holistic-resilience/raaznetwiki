@@ -1,113 +1,83 @@
-[Skip to content](https://www.privacyguides.org/en/android/general-apps/#shelter)
+---
+title: "Android General Apps for Privacy and Security"
+tags: [android, privacy, security, apps, grapheneos, work-profile]
+category: "Mobile Security"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, Android Users, Security Enthusiasts]
+topics: ["Android Apps", "Privacy Protection", "App Isolation", "Metadata Removal"]
+summary: "Privacy-focused Android apps that enhance system functionality, including work profile isolation, secure camera, and PDF viewing."
+source: "Privacy Guides"
+content_type: "Reference"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic Android knowledge", "Understanding of app permissions"]
+estimated_read_time: "4 minutes"
+---
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/android/general-apps.md?plain=1 "Edit this page")
+# Android General Apps for Privacy and Security
 
-# General Apps
+This guide covers Android-exclusive applications that enhance or replace key system functionality with privacy and security in mind.
 
-Protects against the following threat(s):
+## Shelter - Work Profile Isolation
 
-- [Passive Attacks](https://www.privacyguides.org/en/basics/common-threats/#security-and-privacy)
+> **Note:** If your device runs Android 15 or later, consider using the native [Private Space](https://www.privacyguides.org/en/os/android-overview/#private-space) feature instead, which provides similar functionality without requiring third-party app permissions.
 
-We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+**Shelter** leverages Android's Work Profile functionality to isolate or duplicate apps on your device.
 
-### Shelter
+### Key Features
+- Block contact search across profiles
+- Share files across profiles via the default file manager (DocumentsUI)
+- Supports contact search blocking (advantage over alternatives like Insular and Island)
 
-If your device is on Android 15 or greater, we recommend using the native [Private Space](https://www.privacyguides.org/en/os/android-overview/#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
+### Important Considerations
+- Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile
+- The developer has extensive access to data stored within the Work Profile
+- Requires placing complete trust in the developer
 
-![Shelter logo](https://www.privacyguides.org/en/assets/img/android/shelter.svg)
+**Links:** [Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter) | [Source Code](https://gitea.angry.im/PeterCxy/Shelter) | [Support](https://patreon.com/PeterCxy)
 
-**Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
+---
 
-Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ( [DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
+## Secure Camera
 
-[Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter) [Source Code](https://gitea.angry.im/PeterCxy/Shelter "Source Code") [Contribute](https://patreon.com/PeterCxy "Contribute")
+**Secure Camera** is a privacy-focused camera app from GrapheneOS that captures images, videos, and QR codes.
 
-Warning
+### Key Features
+- **Automatic Exif metadata removal** (enabled by default)
+- Uses modern Media API—no storage permissions required
+- Microphone permission only needed for audio recording
+- CameraX vendor extensions supported (Portrait, HDR, Night Sight, Face Retouch, Auto)
 
-When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
+### Current Limitations
+- Metadata is not yet deleted from video files (planned feature)
+- Image orientation metadata is not removed
+- Location data (if enabled) is preserved—use [ExifEraser](https://www.privacyguides.org/en/data-redaction/#exiferaser-android) for removal
 
-Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
+**Downloads:** [Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play) | [GitHub](https://github.com/GrapheneOS/Camera/releases) | [GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
-### Secure Camera
+**Links:** [Repository](https://github.com/GrapheneOS/Camera#readme) | [Documentation](https://grapheneos.org/usage#camera)
 
-Protects against the following threat(s):
+---
 
-- [Public Exposure](https://www.privacyguides.org/en/basics/common-threats/#limiting-public-information)
+## Secure PDF Viewer
 
-![Secure camera logo](https://www.privacyguides.org/en/assets/img/android/secure_camera.svg#only-light)![Secure camera logo](https://www.privacyguides.org/en/assets/img/android/secure_camera-dark.svg#only-dark)
+**Secure PDF Viewer** is a permission-free PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) from GrapheneOS.
 
-**Secure Camera** is a camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
+### Security Architecture
+- PDFs are rendered in a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [WebView](https://developer.android.com/guide/webapps/webview)
+- No direct file access permissions required
+- [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) enforces static JavaScript and styling
 
-[Repository](https://github.com/GrapheneOS/Camera#readme) [Documentation](https://grapheneos.org/usage#camera "Documentation") [Source Code](https://github.com/GrapheneOS/Camera "Source Code") [Contribute](https://grapheneos.org/donate "Contribute")
+**Downloads:** [Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play) | [GitHub](https://github.com/GrapheneOS/PdfViewer/releases) | [GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
-Downloads
+**Links:** [Repository](https://github.com/GrapheneOS/PdfViewer#readme) | [Source Code](https://github.com/GrapheneOS/PdfViewer)
 
-- [Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
-- [GitHub](https://github.com/GrapheneOS/Camera/releases)
-- [GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+---
 
-Main privacy features include:
+## Selection Criteria
 
-- Auto removal of [Exif](https://en.wikipedia.org/wiki/Exif) metadata (enabled by default)
-- Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
-- Microphone permission not required unless you want to record sound
+These recommendations follow Privacy Guides' [standard criteria](https://www.privacyguides.org/en/about/criteria/):
 
-Note
-
-Metadata is not currently deleted from video files, but that is planned.
-
-The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](https://www.privacyguides.org/en/data-redaction/#exiferaser-android).
-
-### Secure PDF Viewer
-
-Protects against the following threat(s):
-
-- [Targeted Attacks](https://www.privacyguides.org/en/basics/common-threats/#attacks-against-specific-individuals)
-
-![Secure PDF Viewer logo](https://www.privacyguides.org/en/assets/img/android/secure_pdf_viewer.svg#only-light)![Secure PDF Viewer logo](https://www.privacyguides.org/en/assets/img/android/secure_pdf_viewer-dark.svg#only-dark)
-
-**Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [WebView](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
-
-[Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) is used to enforce that the JavaScript and styling properties within the WebView are entirely static content.
-
-[Repository](https://github.com/GrapheneOS/PdfViewer#readme) [Source Code](https://github.com/GrapheneOS/PdfViewer "Source Code") [Contribute](https://grapheneos.org/donate "Contribute")
-
-Downloads
-
-- [Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
-- [GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
-- [GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
-
-## Criteria
-
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](https://www.privacyguides.org/en/about/criteria/), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
-
-- Applications on this page must not be applicable to any other software category on the site.
-- General applications should extend or replace core system functionality.
-- Applications should receive regular updates and maintenance.
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+- Must extend or replace core system functionality
+- Not applicable to other software categories on the site
+- Must receive regular updates and maintenance

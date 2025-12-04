@@ -1,71 +1,77 @@
-[Skip to content](https://www.privacyguides.org/en/pastebins/#privatebin)
+---
+title: "Pastebins: Privacy-Focused Code Sharing Services"
+tags: [privacy, security, encryption, pastebin, open-source, e2ee]
+category: "Privacy Tools"
+difficulty: "Beginner"
+audience: [Developers, Privacy-Conscious Users, General Public]
+topics: ["Privacy Tools", "Encrypted Services", "Code Sharing"]
+summary: "Guide to privacy-focused pastebins with client-side encryption and zero-knowledge architecture."
+source: "Privacy Guides"
+content_type: "Reference"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic internet usage"]
+estimated_read_time: "3 minutes"
+---
 
-![](https://www.privacyguides.org/en/assets/img/cover/pastebins.webp)
+# Pastebins: Privacy-Focused Code Sharing Services
 
-# Pastebins
+[Pastebins](https://en.wikipedia.org/wiki/Pastebin) are online services commonly used to share large blocks of code or text conveniently. The services listed here employ **client-side encryption** and **password protection** for pasted content, preventing the website operator from reading or accessing paste contents.
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/pastebins.md?plain=1 "Edit this page")
+## Recommended Services
 
-Protects against the following threat(s):
-
-- [Service Providers](https://www.privacyguides.org/en/basics/common-threats/#privacy-from-service-providers)
-
-[**Pastebins**](https://en.wikipedia.org/wiki/Pastebin) are online services most commonly used to share large blocks of code in a convenient and efficient manner. The pastebins listed here employ client-side encryption and password protection for pasted content; both of these features prevent the website or server operator from reading or accessing the contents of any paste.
-
-## PrivateBin
+### PrivateBin
 
 ![PrivateBin logo](https://www.privacyguides.org/en/assets/img/pastebins/privatebin.svg)
 
-**PrivateBin** is a minimalist, open-source, online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin.
+**PrivateBin** is a minimalist, open-source pastebin where the server has zero knowledge of pasted data. Data is encrypted and decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin.
 
-[Homepage](https://privatebin.info/) [Public Instances](https://privatebin.info/directory "Public Instances") [Documentation](https://github.com/PrivateBin/PrivateBin/wiki/FAQ "Documentation") [Source Code](https://github.com/PrivateBin/PrivateBin "Source Code")
+**Key Features:**
+- Zero-knowledge architecture
+- 256-bit AES encryption
+- Self-hostable
 
-## Paaster
+**Resources:** [Homepage](https://privatebin.info/) | [Public Instances](https://privatebin.info/directory) | [Source Code](https://github.com/PrivateBin/PrivateBin)
+
+---
+
+### Paaster
 
 ![Paaster logo](https://www.privacyguides.org/en/assets/img/pastebins/paaster.svg)
 
-**Paaster** is a secure and user-friendly pastebin application that prioritizes privacy and simplicity. With end-to-end encryption and paste history, Paaster ensures that your pasted code remains confidential and accessible.
+**Paaster** is a secure, user-friendly pastebin application prioritizing privacy and simplicity. Features end-to-end encryption and paste history.
 
-[Homepage](https://paaster.io/) [Privacy Policy](https://paaster.io/privacy-policy "Privacy Policy") [Documentation](https://github.com/WardPearce/paaster#security "Documentation") [Source Code](https://github.com/WardPearce/paaster "Source Code") [Contribute](https://github.com/sponsors/WardPearce "Contribute")
+**Key Features:**
+- End-to-end encryption
+- Paste history functionality
+- User-friendly interface
 
-## Criteria
+**Resources:** [Homepage](https://paaster.io/) | [Privacy Policy](https://paaster.io/privacy-policy) | [Source Code](https://github.com/WardPearce/paaster)
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](https://www.privacyguides.org/en/about/criteria/), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+---
+
+## Selection Criteria
 
 ### Minimum Requirements
 
-- Must be open source.
-- Must implement "zero-trust" E2EE.
-- Must support password-protected files.
+- Must be **open source**
+- Must implement **zero-trust end-to-end encryption (E2EE)**
+- Must support **password-protected files**
 
-### Best-Case
+### Ideal Features
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+- Published audit from a reputable, independent third party
 
-- Should have a published audit from a reputable, independent third party.
+---
 
-Was this page helpful?
+## Why Use Encrypted Pastebins?
 
+Standard pastebins store your content in plaintext, accessible to service operators and potentially exposed in data breaches. Privacy-focused alternatives ensure:
 
+- **Confidentiality**: Only recipients with the decryption key can read content
+- **Zero-knowledge**: Server operators cannot access your data
+- **Protection from surveillance**: Encrypted content resists third-party monitoring
 
+---
 
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+*Source: [Privacy Guides](https://www.privacyguides.org/en/pastebins/)*

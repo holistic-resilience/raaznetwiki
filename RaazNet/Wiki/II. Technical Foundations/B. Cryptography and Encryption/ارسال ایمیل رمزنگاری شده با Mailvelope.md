@@ -1,23 +1,48 @@
-بخش سوم
+---
+title: "آموزش ارسال ایمیل رمزنگاری شده با Mailvelope"
+tags: [pgp, email-encryption, mailvelope, privacy, digital-security]
+category: "Email Security"
+difficulty: "Intermediate"
+audience: [Privacy-Conscious Users, Activists, Journalists]
+topics: ["Email Encryption", "PGP", "Browser Extensions"]
+summary: "آموزش گام به گام ارسال ایمیل‌های رمزنگاری شده با استفاده از کلید PGP و افزونه Mailvelope"
+source: "Certfa"
+content_type: "Tutorial"
+security_level: "Basic"
+language: "Persian"
+prerequisites: ["آشنایی با ایجاد کلید PGP در Mailvelope", "آشنایی با مدیریت کلیدهای PGP", "نصب افزونه Mailvelope"]
+estimated_read_time: "3 minutes"
+related_articles: ["ایجاد کلید PGP با Mailvelope", "مدیریت کلیدهای PGP"]
+---
 
-# آموزش ارسال ایمیل رمزنگاری شده با استفاده از PGP و از طریق افزونه Mailvelope
+# آموزش ارسال ایمیل رمزنگاری شده با Mailvelope
 
-در دو بخش قبل از آموزش‌های افزونه Mailvelope، به نحوه ایجاد کلید PGP و همینطور شیوه مدیریت کلیدهای PGP اشاره کردیم. در این ویدیو کوتاه، آموزش ارسال ایمیل‌های رمزنگاری شاده با استفاده از کلید PGP و از طریق افزونه Mailvelope را برای شما آماده کرده‌ایم که با دنبال کردن این مجموعه آموزش‌ها،‌ می‌توانید امنیت ارتباطات ایمیلی خود را تا حد قابل قبولی افزایش دهید.
+## مقدمه
 
-1. [سرتفا](https://certfa.com/)»
-2. [دانشنامه](https://certfa.com/info/)»
-3. [امنیت ایمیل](https://certfa.com/info/email-security/)
+این راهنما بخش سوم از مجموعه آموزش‌های افزونه Mailvelope است. در بخش‌های قبلی، نحوه ایجاد و مدیریت کلیدهای PGP را آموختید. در این بخش، نحوه ارسال ایمیل‌های رمزنگاری شده را یاد می‌گیرید.
 
-۱۷ شهریور ۱۳۹۸
+با دنبال کردن این مجموعه آموزش‌ها، می‌توانید امنیت ارتباطات ایمیلی خود را تا حد قابل قبولی افزایش دهید.
 
-**لینک‌های راهنما:**
+## پیش‌نیازها
 
-\- افزونه Mailvelope برای [مرورگر فایرفاکس](https://addons.mozilla.org/en-US/firefox/addon/mailvelope/)
+قبل از شروع، مطمئن شوید که:
 
-\- افزونه Mailvelope برای [مرورگر کروم](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke?hl=en)
+- افزونه Mailvelope را نصب کرده‌اید
+- کلید PGP خود را ایجاد کرده‌اید
+- کلید عمومی گیرنده را در Mailvelope وارد کرده‌اید
 
-[امنیت ایمیل](https://certfa.com/topic/email-security/) \| [رمزگذاری](https://certfa.com/topic/encryption/)
+## دانلود افزونه Mailvelope
 
-[مقابله با هرزنامه‌های تقویم گوگل](https://certfa.com/info/email-security/google-calendar-spam-got-you-down-a-fix-is-on-the-way/)
+- [افزونه برای مرورگر Firefox](https://addons.mozilla.org/en-US/firefox/addon/mailvelope/)
+- [افزونه برای مرورگر Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke?hl=en)
 
-[حملات تعویض سیم‌کارت](https://certfa.com/info/basic-information/sim-swap-attack-defend-phone/)
+## مطالب مرتبط
+
+- [[مقابله با هرزنامه‌های تقویم گوگل]]
+- [[حملات تعویض سیم‌کارت]]
+
+---
+
+*منبع: [Certfa](https://certfa.com/) - دانشنامه امنیت ایمیل*
+
+*تاریخ انتشار: ۱۷ شهریور ۱۳۹۸*

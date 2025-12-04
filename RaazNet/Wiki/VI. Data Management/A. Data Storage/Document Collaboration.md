@@ -1,69 +1,52 @@
-[Skip to content](https://www.privacyguides.org/en/document-collaboration/#cryptpad)
-
-![](https://www.privacyguides.org/en/assets/img/cover/document-collaboration.webp)
+---
+title: "Document Collaboration"
+tags: [privacy, encryption, cloud-storage, collaboration, end-to-end-encryption, open-source]
+category: "Privacy Tools"
+difficulty: "Beginner"
+audience: [General Public, Privacy-Conscious Users, Remote Workers, Teams]
+topics: ["Document Collaboration", "Cloud Privacy", "End-to-End Encryption"]
+summary: "Guide to privacy-respecting document collaboration tools with end-to-end encryption as alternatives to mainstream cloud platforms."
+source: "Privacy Guides"
+content_type: "Reference"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic computer literacy", "Understanding of cloud storage concepts"]
+estimated_read_time: "3 minutes"
+---
 
 # Document Collaboration
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/document-collaboration.md?plain=1 "Edit this page")
+Most online document collaboration platforms like Google Drive do not support end-to-end encryption, meaning the cloud provider has access to everything you do. While a provider's privacy policy may legally protect your rights, it does not provide technical access constraints.
 
-Protects against the following threat(s):
+This guide covers privacy-respecting alternatives that offer true end-to-end encryption for collaborative document work.
 
-- [Service Providers](https://www.privacyguides.org/en/basics/common-threats/#privacy-from-service-providers)
+## Recommended Tool
 
-Most online **document collaboration** platforms like Google Drive do not support end-to-end encryption, meaning the cloud provider has access to everything you do. The provider's privacy policy may legally protect your rights, but it does not provide technical access constraints.
+### CryptPad
 
-## CryptPad
+**CryptPad** is a private-by-design alternative to popular office suites. All content on this web service is end-to-end encrypted (E2EE) and can be shared with other users easily.
 
-![CryptPad logo](https://www.privacyguides.org/en/assets/img/document-collaboration/cryptpad.svg)
+**Resources:**
+- [Homepage](https://cryptpad.fr/)
+- [Privacy Policy](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE)
+- [Public Instances](https://cryptpad.org/instances)
+- [Documentation](https://docs.cryptpad.fr/)
+- [Source Code](https://github.com/xwiki-labs/cryptpad)
 
-**CryptPad** is a private-by-design alternative to popular, full-fledged office suites. All content on this web service is E2EE and can be shared with other users easily.
+## Selection Criteria
 
-[Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review)
-
-[Homepage](https://cryptpad.fr/) [Privacy Policy](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE "Privacy Policy") [Public Instances](https://cryptpad.org/instances "Public Instances") [Documentation](https://docs.cryptpad.fr/ "Documentation") [Source Code](https://github.com/xwiki-labs/cryptpad "Source Code") [Contribute](https://opencollective.com/cryptpad "Contribute")
-
-## Criteria
-
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](https://www.privacyguides.org/en/about/criteria/), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+The following criteria are used to evaluate document collaboration tools for privacy.
 
 ### Minimum Requirements
 
-- Must be open source.
-- Must make files accessible via WebDAV unless it is impossible due to E2EE.
-- Must have sync clients for Linux, macOS, and Windows.
-- Must support document and spreadsheet editing.
-- Must support real-time document collaboration.
-- Must support exporting documents to standard document formats (e.g. ODF).
+- Must be open source
+- Must make files accessible via WebDAV unless impossible due to E2EE
+- Must have sync clients for Linux, macOS, and Windows
+- Must support document and spreadsheet editing
+- Must support real-time document collaboration
+- Must support exporting documents to standard formats (e.g., ODF)
 
-### Best-Case
+### Best-Case Features
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
-
-- Should store files in a conventional filesystem.
-- Should support TOTP or FIDO2 multifactor authentication support, or passkey logins.
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+- Should store files in a conventional filesystem
+- Should support TOTP or FIDO2 multifactor authentication, or passkey logins

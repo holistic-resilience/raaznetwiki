@@ -1,279 +1,283 @@
-\_\_('Table of Contents')
+```yaml
+---
+title: "Browse the Web More Securely"
+tags: [browser-security, privacy, web-browsing, firefox, tracking-protection, digital-security]
+category: "Internet Security"
+difficulty: "Intermediate"
+audience: [General Public, Privacy-Conscious Users, Activists]
+topics: ["Browser Configuration", "Privacy Protection", "Web Security"]
+summary: "Comprehensive guide to choosing secure browsers and configuring them for enhanced privacy and security protection."
+source: "Security in a Box"
+content_type: "Educational Guide"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic computer literacy", "Familiarity with web browsers"]
+estimated_read_time: "15 minutes"
+related_guides: ["malware-protection", "anonymity-tools", "password-managers"]
+---
+```
 
-Internet Connection › Browse the web more securely
+# Browse the Web More Securely
 
-# [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#browse-the-web-more-securely) Browse the web more securely
+A web browser is one of the digital tools most of us use daily. It is the main way many people access the internet. Because we rely so much on browsers, they are often targets for people who want to compromise your privacy or security. Follow the steps below to choose a more secure browser and strengthen its protection.
 
-Updated 12 September 2024
+## Table of Contents
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#table-of-contents) Table of Contents
+- [Choose a Web Browser](#choose-a-web-browser)
+- [Change Your Default Browser](#change-your-default-browser)
+- [Keep Your Browser Updated](#keep-your-browser-updated)
+- [Use the Address Bar Properly](#use-the-address-bar-properly)
+- [Set a Privacy-Focused Search Engine](#set-a-privacy-focused-search-engine)
+- [Review Site Permissions](#review-site-permissions)
+- [Secure Your Connections with HTTPS](#secure-your-connections-with-https)
+- [Enable Tracking Protection](#enable-tracking-protection)
+- [Disable the Built-in Password Manager](#disable-the-built-in-password-manager)
+- [Install Protective Browser Extensions](#install-protective-browser-extensions)
+- [Remove Unwanted Extensions](#remove-unwanted-extensions)
+- [Delete Your Browsing History](#delete-your-browsing-history)
+- [Use Private Browsing Mode](#use-private-browsing-mode)
+- [Configure Startup Settings](#configure-startup-settings)
+- [Recognize and Report Malicious Websites](#recognize-and-report-malicious-websites)
 
-- [Choose a web browser... or two!](https://securityinabox.org/en/internet-connection/safer-browsing/#choose-a-web-browser-or-two)
-- [Change your device's default browser](https://securityinabox.org/en/internet-connection/safer-browsing/#change-your-devices-default-browser)
-- [Make sure your browser is up to date](https://securityinabox.org/en/internet-connection/safer-browsing/#make-sure-your-browser-is-up-to-date)
-- [Enter web addresses in the address bar](https://securityinabox.org/en/internet-connection/safer-browsing/#enter-web-addresses-in-the-address-bar)
-- [Set your default search engine](https://securityinabox.org/en/internet-connection/safer-browsing/#set-your-default-search-engine)
-- [Review the camera, microphone and other site permissions](https://securityinabox.org/en/internet-connection/safer-browsing/#review-the-camera-microphone-and-other-site-permissions)
-- [Secure your connections](https://securityinabox.org/en/internet-connection/safer-browsing/#secure-your-connections)
-- [Enable Tracking Protection settings](https://securityinabox.org/en/internet-connection/safer-browsing/#enable-tracking-protection-settings)
-- [Turn off the browser's built-in password manager](https://securityinabox.org/en/internet-connection/safer-browsing/#turn-off-the-browsers-built-in-password-manager)
-- [Use protective browser add-ons/extensions](https://securityinabox.org/en/internet-connection/safer-browsing/#use-protective-browser-add-onsextensions)
-- [Remove unwanted add-ons/extensions and manage pop-ups](https://securityinabox.org/en/internet-connection/safer-browsing/#remove-unwanted-add-onsextensions-and-manage-pop-ups)
-- [Delete your browsing history](https://securityinabox.org/en/internet-connection/safer-browsing/#delete-your-browsing-history)
-- [Use private browsing or Incognito mode](https://securityinabox.org/en/internet-connection/safer-browsing/#use-private-browsing-or-incognito-mode)
-- [Consider not showing what you last viewed on startup or your most visited sites](https://securityinabox.org/en/internet-connection/safer-browsing/#consider-not-showing-what-you-last-viewed-on-startup-or-your-most-visited-sites)
-- [\[Advanced\] How to recognize and report a malicious website](https://securityinabox.org/en/internet-connection/safer-browsing/#advanced-how-to-recognize-and-report-a-malicious-website)
+---
 
-A web browser is one of the digital tools most of us use daily. It is the main way many people access the internet. Many people are familiar with Edge, Safari and Chrome – browsers that come installed with our devices.
+## Choose a Web Browser
 
-Because we rely so much on browsers, they are often targets for people who want to compromise your privacy or security. Follow the steps below to choose a more secure browser and make its protection stronger.
+Most operating systems come with pre-installed browsers like Safari (macOS/iOS) or Edge (Windows). These browsers are not designed with a primary focus on privacy and security. We recommend using more security-oriented alternatives.
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#choose-a-web-browser-or-two) Choose a web browser... or two!
+### Recommended Browsers
 
-- Install [Firefox for your platform and in your language](https://www.mozilla.org/en-US/firefox/all/) (available for Windows, macOS, Linux, Android and iOS).
-  - On Android and iOS, consider installing [Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/), a light-weight browser which comes with privacy-oriented settings by default.
-- Install Chrome [for Windows, macOS, Linux](https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DDesktop&oco=0), [Android](https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DAndroid&oco=0) or [iOS](https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DiOS&oco=0).
-- Consider installing the free and open-source [Chromium](https://www.chromium.org/) instead of Chrome. On Linux, you can install Chromium through your software installer in many distributions. On Android, you can install it through [FFUpdater](https://github.com/Tobi823/ffupdater), a free and open-source installer and updater app that you can get from [F-Droid](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/).
-- Optionally consider installing the [DuckDuckGo Privacy Browser](https://duckduckgo.com/duckduckgo-help-pages/get-duckduckgo/browser/) for Windows, macOS, iOS and Android.
-- For advanced privacy and to access websites that are not accessible in the institution or country you connect from, you can consider using the [Tor Browser](https://www.torproject.org/download/) (for Windows, macOS, Linux or Android), but consider this may change your browsing experience dramatically. Read more on this in [our guide on anonymization tools](https://securityinabox.org/en/internet-connection/anonymity).
-- On Android, you can install a selection of secure and privacy-oriented web browsers through [FFUpdater](https://github.com/Tobi823/ffupdater), a free and open-source installer and updater app that you can get from [F-Droid](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/).
+| Browser | Platform | Key Features |
+|---------|----------|--------------|
+| **[Firefox](https://www.mozilla.org/en-US/firefox/all/)** | Windows, macOS, Linux, Android, iOS | Free, open-source, strong built-in security |
+| **[Chromium](https://www.chromium.org/)** | Windows, macOS, Linux, Android | Free, open-source alternative to Chrome |
+| **[DuckDuckGo Privacy Browser](https://duckduckgo.com/duckduckgo-help-pages/get-duckduckgo/browser/)** | Windows, macOS, iOS, Android | Auto-blocks trackers, upgrades to HTTPS |
+| **[Tor Browser](https://www.torproject.org/download/)** | Windows, macOS, Linux, Android | Maximum anonymity through Tor network |
 
-Learn why we recommend this
+> **Tip:** Consider installing two browsers—one for sensitive activities and another for everyday browsing. This helps compartmentalize your online identity.
 
-Most operating systems come with pre-installed browsers. For example the default macOS and iOS browser is Safari, and the default Windows browser is Edge. These web browsers are not designed with a focus on privacy and security, and we strongly suggest to use more security and privacy-oriented software as your default browsers.
+### Why These Recommendations?
 
-- We recommend the [Firefox](https://www.mozilla.org/en-US/firefox/new/) web browser, made by Mozilla. Firefox is free and open-source software and has better built-in security than others browsers.
-  - Firefox Focus is a light-weight, privacy-oriented web browser for mobile devices. Read [Mozilla's blog post on the differences between Firefox Focus and other browsers](https://blog.mozilla.org/en/products/firefox/firefox-focus-or-firefox/).
-- [Chrome](https://www.google.com/chrome/) and [Chromium](https://www.chromium.org/Home/), both developed by Google, also have high-quality security. While Chromium is free and open-source, Chrome is proprietary freeware based on open-source components. Since Chrome is developed by Google, consider whether it might send more data about you to Google than you are comfortable with and consider not logging in to your Google account when using it.
-  - Read [Google's documentation on privacy in Chrome](https://support.google.com/chrome/answer/14225066?hl=en)
-- The [DuckDuckGo Privacy Browser](https://duckduckgo.com/duckduckgo-help-pages/get-duckduckgo/does-duckduckgo-make-a-browser/) is a privacy-oriented browser that automatically blocks web trackers and upgrades insecure HTTP connections to HTTPS when possible.
-- The [Tor Browser](https://www.torproject.org/) is a modified version of Mozilla Firefox that allows you to anonymize your connections by browsing the web through the Tor network. Read more on this in [our guide on anonymity tools](https://securityinabox.org/en/internet-connection/anonymity).
+- **Firefox** is free, open-source software with better built-in security than most browsers
+- **Chrome/Chromium** offer high-quality security, though Chrome may send more data to Google than you're comfortable with
+- **DuckDuckGo Privacy Browser** automatically blocks web trackers and upgrades insecure connections
+- **Tor Browser** anonymizes your connections but significantly changes your browsing experience
 
-It can be a good idea to install more than one browser, and use one for more sensitive activities and the other for your everyday needs. Read more on this in [our guide on multiple identity management](https://securityinabox.org/en/communication/multiple-identities/#different-devices).
+> **Android Users:** Install secure browsers through [FFUpdater](https://github.com/Tobi823/ffupdater), a free and open-source installer available on [F-Droid](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/).
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#change-your-devices-default-browser) Change your device's default browser
+---
 
-- Avoid using less secure and less privacy-friendly browsers like Edge or Safari as your primary web browser. Deactivate or uninstall browsers you don't use.
-- Learn [how to change your default browser to Firefox](https://support.mozilla.org/en-US/kb/make-firefox-your-default-browser) on Linux, macOS and Windows. Use the "Customize this article" drop-down menu in the right-hand side of the window to find the right instructions for your device. For Android and iOS read the following instructions.
-  - [Make Firefox the default browser on Android](https://support.mozilla.org/en-US/kb/make-firefox-default-browser-android).
-  - [Set Firefox as the default browser for iOS](https://support.mozilla.org/en-US/kb/set-firefox-default-browser-ios).
-- You can also decide to make Chrome your default browser on [Windows, macOS](https://support.google.com/chrome/answer/95417?hl=en&co=GENIE.Platform%3DDesktop) and [iOS](https://support.google.com/chrome/answer/95417?hl=en&co=GENIE.Platform%3DiOS&oco=0). But we strongly recommend not to log in with your Google account.
-  - To avoid signing into your Google account on Chrome, go to the browser Settings, select Google services and make sure Allow Chrome sign-in is unchecked.
-- [Change which web browser opens websites by default on Ubuntu](https://help.ubuntu.com/stable/ubuntu-help/net-default-browser.html).
-- [Stop the Edge browser from automatically starting when you start Windows](https://support.microsoft.com/microsoft-edge/stop-microsoft-edge-from-starting-automatically-c341c879-799a-dccd-d6be-bc51ecdd5804).
+## Change Your Default Browser
 
-Learn why we recommend this
+By setting a privacy-focused browser as your default, links you click in other apps will open directly in a more secure browser.
 
-Not all web browsers are created equal. Some protect your privacy and security more effectively than others.
+### How to Change Your Default Browser
 
-By setting a browser focused on privacy and security as your default browser, the links you click in other apps will open directly in a more secure browser. In any case, always think twice before you open a link you receive through messages or emails.
+- **Firefox:** Follow [Mozilla's guide](https://support.mozilla.org/en-US/kb/make-firefox-your-default-browser) for Linux, macOS, and Windows
+- **Chrome:** Instructions for [Windows/macOS](https://support.google.com/chrome/answer/95417?hl=en&co=GENIE.Platform%3DDesktop) and [iOS](https://support.google.com/chrome/answer/95417?hl=en&co=GENIE.Platform%3DiOS&oco=0)
+- **Ubuntu:** [Change default browser settings](https://help.ubuntu.com/stable/ubuntu-help/net-default-browser.html)
+- **Windows:** [Stop Edge from starting automatically](https://support.microsoft.com/microsoft-edge/stop-microsoft-edge-from-starting-automatically-c341c879-799a-dccd-d6be-bc51ecdd5804)
 
-Read more on why you should [pause before you click when you receive a link in our guide on malware](https://securityinabox.org/en/phones-and-computers/malware/#pause-before-you-click-and-be-cautious-when-you-receive-a-link).
+> **Important:** Deactivate or uninstall browsers you don't use. If using Chrome, avoid logging in with your Google account.
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#make-sure-your-browser-is-up-to-date) Make sure your browser is up to date
+---
 
-- Firefox should update automatically, but it is important to periodically [check whether you have the latest version of the browser](https://support.mozilla.org/kb/update-firefox-latest-release).
-- Chrome/Chromium should also update automatically, but it is important to periodically check for updates. Learn how to do this in the [official guide on how to update Chrome](https://www.google.com/chrome/update/).
-- [Learn how to set up the Tor Browser to update automatically and how to update it manually](https://tb-manual.torproject.org/updating/).
+## Keep Your Browser Updated
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#enter-web-addresses-in-the-address-bar) Enter web addresses in the address bar
+Browser updates often contain critical security patches. Ensure automatic updates are enabled and periodically verify you have the latest version.
 
-If you know the complete web address of a website (for example `securityinabox.org`), type it in the address bar to avoid going through a search engine to access it.
+- **Firefox:** [Check for updates](https://support.mozilla.org/kb/update-firefox-latest-release)
+- **Chrome/Chromium:** [Update Chrome](https://www.google.com/chrome/update/)
+- **Tor Browser:** [Configure automatic updates](https://tb-manual.torproject.org/updating/)
 
-If you just type the name of the website (Security in a Box) without its extension (`.org`), the browser will open your default search engine with several results, some of which may be malicious.
+---
 
-If you use the address bar to search the web, consider [replacing Google with a more privacy-friendly option as your default search engine](https://securityinabox.org/en/internet-connection/safer-browsing/#set_your_default_search_engine).
+## Use the Address Bar Properly
 
-- **Firefox**
+The address bar displays the URL of your current page and can be used to navigate directly to websites.
 
-  - Learn more on the Firefox address bar in the [Mozilla guide on how to search with the address bar](https://support.mozilla.org/en-US/kb/search-firefox-address-bar).
-  - Consider whether you want to change what Firefox suggests when you type in the address bar.
-    - [Change your address bar settings so it does not suggest pages from your browsing history or other unwanted results](https://support.mozilla.org/kb/address-bar-autocomplete-firefox#w_how-can-i-control-what-results-the-address-bar-shows-me).
-    - [Remove autocomplete results](https://support.mozilla.org/kb/address-bar-autocomplete-firefox#w_removing-autocomplete-results).
-    - [Disable search suggestions](https://support.mozilla.org/en-US/kb/search-suggestions-firefox#w_enabling-or-disabling-search-suggestions).
-- **Chrome**/ **Chromium**
+### Best Practices
 
-  - [Manage Google autocomplete predictions and turn off personal results](https://support.google.com/websearch/answer/106230?sjid=17730964962312313254-EU).
+- **Type complete addresses** (e.g., `securityinabox.org`) rather than just website names to avoid potentially malicious search results
+- **Disable unwanted suggestions** from browsing history
 
-Learn why we recommend this
+### Configuration
 
-The address bar is the familiar text field at the top of a web browser’s interface. When you browse the web, the address bar displays the address of the web page you are visiting (in our current case, this is `https://securityinabox.org/en/internet-connection/safer-browsing`). By typing a web address into the address bar, you'll request a website or a specific page of a website.
+**Firefox:**
+- [Control address bar suggestions](https://support.mozilla.org/kb/address-bar-autocomplete-firefox#w_how-can-i-control-what-results-the-address-bar-shows-me)
+- [Remove autocomplete results](https://support.mozilla.org/kb/address-bar-autocomplete-firefox#w_removing-autocomplete-results)
+- [Disable search suggestions](https://support.mozilla.org/en-US/kb/search-suggestions-firefox#w_enabling-or-disabling-search-suggestions)
 
-Address bars also offer additional functionalities, like performing web searches or providing suggestions for websites.
+---
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#set-your-default-search-engine) Set your default search engine
+## Set a Privacy-Focused Search Engine
 
-- Choose a default search engine that does not track you:
+Search engines like Google and Bing build profiles of users and share personal information with third parties. Choose a search engine that doesn't track you:
 
-  - [**DuckDuckGo**](https://duckduckgo.com/about) (our top recommendation)
-  - [**StartPage**](https://www.startpage.com/)
-- **Firefox**
+- **[DuckDuckGo](https://duckduckgo.com/)** — No tracking, no profiling
+- **[Startpage](https://www.startpage.com/)** — Google results without tracking
+- **[Ecosia](https://www.ecosia.org/)** — Privacy-focused with environmental mission
 
-  - [Set your default search engine on your computer](https://support.mozilla.org/kb/change-your-default-search-settings-firefox#w_default-search-engine).
-  - [Add or remove search engines on your computer](https://support.mozilla.org/kb/change-your-default-search-settings-firefox#w_remove-or-add-search-engines).
-  - [Manage your default search engines in Firefox for Android](https://support.mozilla.org/en-US/kb/manage-my-default-search-engines-firefox-android).
-  - [Change your default search engine in Firefox for iOS](https://support.mozilla.org/en-US/kb/change-your-default-search-engine-firefox-ios).
-- **Chrome**/ **Chromium**
+Configure your default search engine in your browser settings to use one of these alternatives.
 
-  - [Set your default search engine](https://support.google.com/chrome/answer/95426).
+---
 
-Learn why we recommend this
+## Review Site Permissions
 
-Search engines like Google and Bing build profiles of people who use them, track your device specifically and share their users' personal information with third parties. Your browser uses one search engine by default when you use the address bar to perform a web search or when you right-click a selected string of text and click Search.
+Websites may request access to your camera, microphone, location, and other sensitive features. Regularly review and restrict these permissions in your browser settings.
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#review-the-camera-microphone-and-other-site-permissions) Review the camera, microphone and other site permissions
+- **Firefox:** Settings → Privacy & Security → Permissions
+- **Chrome/Chromium:** Settings → Privacy and security → Site Settings
 
-- **Firefox**
-  - [Learn how to manage your camera and microphone permissions in Firefox](https://support.mozilla.org/kb/how-manage-your-camera-and-microphone-permissions).
-  - [Grant camera access to Firefox for Android](https://support.mozilla.org/en-US/kb/camera-permissions).
-  - [Learn about functions and permissions on Firefox Focus for Android and iOS](https://support.mozilla.org/en-US/kb/how-does-firefox-focus-ios-use-permissions-it-requests#w_firefox-focus-functions-and-permissions).
-- **Chrome**/ **Chromium**
-  - [Use your camera and microphone in Chrome](https://support.google.com/chrome/answer/2693767?hl=en).
+---
 
-Learn why we recommend this
+## Secure Your Connections with HTTPS
 
-Permissions can be like a door or window you leave open in your house: if one website can get in, others may be able to as well. Make sure only websites you use and trust have permission to use sensitive features like your camera or microphone. Malware might use those permissions to let someone see or hear where you are.
+HTTPS encrypts data between your device and websites, protecting sensitive information from surveillance.
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#secure-your-connections) Secure your connections
+### Enable HTTPS-Only Mode
 
-- Activate HTTPS-Only mode.
-  - [Set your preferences to HTTPS-Only in Firefox](https://support.mozilla.org/en-US/kb/https-only-prefs#w_enabledisable-https-only-mode).
-  - [Turn on Always use secure connections in Chrome/Chromium](https://support.google.com/chrome/answer/10468685?hl=en&co=GENIE.Platform%3DDesktop&oco=0#zippy=%2Cturn-on-always-use-secure-connections).
-  - Read the [Security planner guide on how to set up HTTPS-Only mode in other browsers](https://securityplanner.consumerreports.org/tool/install-https-everywhere).
-- When you visit websites, look at the address at the top of your browser. Make sure the address begins with `https://`, not just `http://`.
+Always verify that website addresses begin with `https://` (not just `http://`). Enable HTTPS-Only mode in your browser to automatically upgrade connections when possible.
 
-Learn why we recommend this
+> **What does the "S" mean?** The S in HTTPS stands for "secure." This protocol encrypts what you're viewing as it travels between your device and the website.
 
-The S in HTTPS stands for "secure." This is the protocol you should use to access web pages in your browser. HTTPS encrypts and protects what you are looking at as it travels between your device and the website, making it harder for people trying to spy on you to see, for example, sensitive data you enter or what pages you visit in that site.
+---
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#enable-tracking-protection-settings) Enable Tracking Protection settings
+## Enable Tracking Protection
 
-- Enable strict privacy protection in your browser to avoid being tracked by third parties when browsing the web.
-  - **Firefox**:
-    - [Set Enhanced Tracking Protection at least to Standard](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_adjust-your-global-enhanced-tracking-protection-settings); consider whether you want to set it to Strict (more sites will look like they are broken).
-  - **Chrome**/ **Chromium**:
-    - [Enable Tracking Protection](https://support.google.com/chrome/answer/95647?sjid=10772239645414681785-EU#tracking_protection).
-    - [Set your Safe Browsing protection level to Enhanced protection](https://support.google.com/chrome/answer/9890866?hl=en&co=GENIE.Platform%3DDesktop&sjid=10772239645414681785-EU&oco=0#zippy=%2Cenhanced-protection).
-- Set your browser to delete data when you end your browsing session.
-  - [Delete cookies and site data when Firefox is closed](https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox#w_clear-cookies-for-any-website).
-  - [Learn how to automatically clear browsing data when closing Chrome/Chromium](https://support.google.com/chrome/community-guide/245444314/how-to-automatically-clear-browsing-data-when-closing-google-chrome-window-a-step-by-step-guide?hl=en).
-- Sometimes, a website may not work correctly with enhanced tracking protection settings. In such case, you can disable tracking protection temporarily for that particular website.
-  - [Temporarily disable tracking protection in Firefox](https://support.mozilla.org/ta/kb/introducing-total-cookie-protection-standard-mode#w_what-do-i-do-if-a-site-seems-broken).
-  - [Allow third-party cookies temporarily for a specific site in Chrome/Chromium](https://support.google.com/chrome/answer/95647?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Callow-third-party-cookies-temporarily-for-a-specific-site).
+When you browse the web, cookies and trackers gather details about who you are, where you are, and what you've viewed online.
 
-Learn why we recommend this
+### Configuration Steps
 
-When you browse the web, cookies and trackers gather details of who you are, where you are, and what you have looked at online. Consider what might happen if these fell into the hands of your adversary, and take these steps to limit tracking.
+**Firefox:**
+- [Set Enhanced Tracking Protection to Standard or Strict](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_adjust-your-global-enhanced-tracking-protection-settings)
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#turn-off-the-browsers-built-in-password-manager) Turn off the browser's built-in password manager
+**Chrome/Chromium:**
+- [Enable Tracking Protection](https://support.google.com/chrome/answer/95647?sjid=10772239645414681785-EU#tracking_protection)
+- [Set Safe Browsing to Enhanced protection](https://support.google.com/chrome/answer/9890866?hl=en&co=GENIE.Platform%3DDesktop&sjid=10772239645414681785-EU&oco=0#zippy=%2Cenhanced-protection)
 
-- Remove all saved logins.
-  - [**Firefox**](https://support.mozilla.org/en-US/kb/password-manager-remember-delete-edit-logins#w_remove-all-saved-logins)
-  - [**Chrome**/ **Chromium**](https://support.mozilla.org/en-US/kb/password-manager-remember-delete-edit-logins#w_remove-all-saved-logins)
-- Disable the password manager.
-  - [**Firefox**](https://support.mozilla.org/en-US/kb/password-manager-remember-delete-edit-logins#w_disable-the-firefox-password-management-feature)
-  - [**Chrome**/ **Chromium**](https://support.google.com/chrome/answer/95606?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Cstart-or-stop-saving-passwords)
+### Additional Recommendations
 
-Learn why we recommend this
+- Configure your browser to delete data when you end your browsing session
+- If a website doesn't work correctly with enhanced protection, disable it temporarily for that specific site only
 
-Most browsers can generate, save and encrypt passwords for you. However, we recommend you turn this feature off and [use a separate password manager like KeePassXC](https://securityinabox.org/en/passwords/password-managers/#use-a-password-manager-installed-in-your-device) instead. Browser-based password managers put you at greater risk of an attacker tricking your browser into giving up your passwords.
+---
 
-If you decide to use a browser-based password manager, avoid using it to store passwords for highly sensitive accounts and [read our recommendations on how to protect the passwords you store in your browser](https://securityinabox.org/en/passwords/password-managers/#if-you-decide-to-store-some-passwords-in-your-browser-or-email-client).
+## Disable the Built-in Password Manager
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#use-protective-browser-add-onsextensions) Use protective browser add-ons/extensions
+Most browsers can save passwords, but browser-based password managers put you at greater risk of attackers tricking your browser into revealing your credentials.
 
-- You can choose which add-ons/extensions to install and decide how to configure them, depending on your circumstances.
-- If you are using a device that is managed by someone else (for example in a public library or at your workplace), you might have to make these adjustments repeatedly.
-- Install and configure:
-  - [Privacy Badger](https://privacybadger.org/) (for Firefox, Chrome/Chromium and Firefox on Android)
-    - **Why?** _Prevents tracking and collection of metadata through your browser._
-  - [uBlock Origin](https://ublockorigin.com/) (for Firefox and Firefox on Android) and [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh) for Chrome/Chromium
-    - **Why?** _Blocks advertising and trackers, some of which might be malicious._
-  - [Facebook Container](https://addons.mozilla.org/firefox/addon/facebook-container/), if you use Facebook or Instagram (Firefox only, only for computers)
-    - **Why?** _Keeps Facebook from gathering data on where you have been online and associating it with your profile._
-  - [Zoom Redirector for Firefox](https://addons.mozilla.org/firefox/addon/zoom-redirector/) and [Xoom Redirector for Chrome/Chromium](https://chromewebstore.google.com/detail/xoom-redirector/ocabkmapohekeifbkoelpmppmfbcibna) (only for computers)
-    - **Why?** _By making Zoom links open in your browser, this add-on keeps the call within your browser's protections._
-  - [NoScript](https://noscript.net/) (for Firefox, Chrome/Chromium and other Chromium-based browsers like Edge, Brave or Vivaldi) (optional, but recommended; available for computers and for Firefox on Android)
-    - Note that NoScript will often make websites look empty or broken. [Learn how to configure NoScript so this happens less often](https://noscript.net/features).
-    - **Why?** _It may be possible for an adversary to get to your device using malicious code in a script downloaded along with a webpage you are viewing. NoScript blocks all code from unknown websites, protecting your device from infection._
+### Recommended Action
 
-Learn why we recommend this
+1. Remove all saved logins from your browser
+2. Disable the password manager feature
+3. Use a dedicated password manager like [KeePassXC](https://securityinabox.org/en/passwords/password-managers/#use-a-password-manager-installed-in-your-device) instead
 
-When you browse the web, you come into contact with a great deal of code from unknown sources. This is one reason why the overwhelming majority of malware and spyware infections originate from web pages.
+> **If you must use browser password storage:** Avoid storing passwords for highly sensitive accounts and follow [best practices for browser password protection](https://securityinabox.org/en/passwords/password-managers/#if-you-decide-to-store-some-passwords-in-your-browser-or-email-client).
 
-We recommend installing these browser extensions or add-ons to protect against these security and privacy issues.
+---
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#remove-unwanted-add-onsextensions-and-manage-pop-ups) Remove unwanted add-ons/extensions and manage pop-ups
+## Install Protective Browser Extensions
 
-- Remove all add-ons/extensions that you do not use or recognise.
-  - [**Firefox**](https://support.mozilla.org/kb/disable-or-remove-add-ons#w_removing-extensions)
-  - [**Chrome**/ **Chromium**](https://support.google.com/chromebook/answer/2589434?hl=en)
-- Make sure your browser is set to block pop-ups.
-  - [Read the Firefox guide on how to block pop-ups](https://support.mozilla.org/kb/pop-blocker-settings-exceptions-troubleshooting#w_pop-up-blocker-settings).
-  - [Learn how to block pop-ups and redirects in Chrome/Chromium](https://support.google.com/chrome/answer/95472?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Cblock-pop-ups-and-redirects-from-a-site).
+When you browse the web, you encounter code from unknown sources—this is why most malware infections originate from web pages.
 
-Learn why we recommend this
+### Recommended Extensions
 
-Malicious people may try to trick you into installing malware through your browser. They may do this using a pop-up window. Make sure your browser is set to protect you from these tricks. Additionally, remove add-ons/extensions you are not using to be sure you only use pieces of software that you really need.
+| Extension | Purpose |
+|-----------|---------|
+| **[Privacy Badger](https://privacybadger.org/)** | Prevents tracking and metadata collection |
+| **[uBlock Origin](https://ublockorigin.com/)** | Blocks advertising and potentially malicious trackers |
+| **[Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/)** (Firefox) | Prevents Facebook from tracking your activity across the web |
+| **[Zoom Redirector](https://addons.mozilla.org/en-US/firefox/addon/zoom-redirector/)** | Keeps Zoom calls within browser protections |
+| **[NoScript](https://noscript.net/)** | Blocks potentially malicious scripts (advanced users) |
 
-Browser add-ons/extensions can be malicious and could be used to spy on you just as any other program or app. It is therefore important to only install add-ons/extensions that you can trust, possibly only from trusted sources, like the [Mozilla add-ons repository for Firefox](https://addons.mozilla.org/en-US/firefox/) or the [Chrome web store for Chrome/Chromium extensions](https://chromewebstore.google.com/category/extensions). If you really need to install an add-on/extension from a different source than the official repositories, read [Mozilla's tips for assessing the safety of an extension](https://support.mozilla.org/en-US/kb/tips-assessing-safety-extension) before you proceed.
+> **Note:** NoScript may cause websites to appear broken. [Learn to configure it properly](https://noscript.net/features).
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#delete-your-browsing-history) Delete your browsing history
+### Extension Safety
 
-- **Firefox**
+- Only install extensions from trusted sources like the [Mozilla Add-ons repository](https://addons.mozilla.org/en-US/firefox/) or [Chrome Web Store](https://chromewebstore.google.com/category/extensions)
+- Read [Mozilla's tips for assessing extension safety](https://support.mozilla.org/en-US/kb/tips-assessing-safety-extension) before installing from other sources
 
-  - Set up a button that makes it easy to [quickly delete your recent cookies and the history of pages you visited](https://support.mozilla.org/kb/forget-button-quickly-delete-your-browsing-history).
-  - Tell Firefox to [clear your history automatically](https://support.mozilla.org/kb/delete-browsing-search-download-history-firefox#w_how-do-i-make-firefox-clear-my-history-automatically) or [remove single websites from your history](https://support.mozilla.org/en-US/kb/delete-browsing-search-download-history-firefox#w_remove-a-single-website-from-your-history).
-  - You can also [delete your browser history manually](https://support.mozilla.org/kb/delete-browsing-search-download-history-firefox#w_how-do-i-clear-my-history).
-- **Chrome**/ **Chromium**
+---
 
-  - [Delete the history of pages you visited](https://support.google.com/chrome/answer/95589?hl=en&co=GENIE.Platform=Desktop).
-  - If you are logged in with your Google account when you use Chrome or Chromium, [learn how to delete all your Google activity](https://support.google.com/accounts/answer/465).
+## Remove Unwanted Extensions
 
-Learn why we recommend this
+Extensions can be malicious and used to spy on you like any other software.
 
-Your browsing history is a list of websites you have visited. The default option in Firefox and Chrome/Chromium is to remember your browsing, download, form and search histories.
+### Best Practices
 
-Browser history can be helpful to you: your browser will suggest pages you have visited before, so you don't have to re-type addresses or get sent by mistake to sites that are malicious. But there are trade-offs. If someone had access to the history of what you viewed on the internet, there is a lot they could learn about you, the people you work with and the things you have been reading about.
+- Remove all extensions you don't use or recognize
+- Ensure your browser blocks pop-ups (a common malware delivery method)
+- Regularly audit your installed extensions
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#use-private-browsing-or-incognito-mode) Use private browsing or Incognito mode
+---
 
-If you would like to avoid saving your history just for one browsing session, you can use the private browsing, or Incognito mode feature.
+## Delete Your Browsing History
 
-- [Understand more about what private browsing (or Incognito mode) will NOT protect you from](https://support.mozilla.org/kb/common-myths-about-private-browsing), including your IP address not changing, leaving traces in the device you are using or being spied upon through malware in your computer.
+Your browsing history is a list of websites you've visited. By default, browsers remember your browsing, download, form, and search histories.
 
-**Firefox**
+Regularly clear this data or configure your browser to delete it automatically when closing.
 
-- [Turn on private browsing for one session](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history#w_how-do-i-open-a-new-private-window).
-- Consider [turning private browsing on at all times](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history#w_can-i-set-firefox-to-always-use-private-browsing).
+- **Firefox:** [Clear browsing history](https://support.mozilla.org/kb/delete-browsing-search-download-history-firefox)
+- **Chrome/Chromium:** Settings → Privacy and security → Clear browsing data
 
-**Chrome**/ **Chromium**
+---
 
-- [Browse in Incognito mode](https://support.google.com/chrome/answer/95464).
+## Use Private Browsing Mode
 
-Learn why we recommend this
+Private browsing (Firefox) or Incognito mode (Chrome) prevents your browser from saving cookies or history for that session.
 
-If you open a browser window in "Private browsing" or "Incognito mode", the browser does not track cookies or save your browser history. Using it is a quick way to hide some of your activity if you otherwise tell your browser it is ok to keep a record of the pages you have searched. It can be especially useful if you need to better protect your privacy from somebody with access to your device.
+### What Private Browsing Does NOT Protect
 
-Note that private browsing/Incognito mode will not protect you from malware or surveillance. Read our guides on [malware](https://securityinabox.org/en/phones-and-computers/malware/) and [anonymity](https://securityinabox.org/en/internet-connection/anonymity) to learn how to address such risks.
+- Your IP address remains visible to websites
+- Traces may remain on your device
+- Malware on your computer can still monitor activity
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#consider-not-showing-what-you-last-viewed-on-startup-or-your-most-visited-sites) Consider not showing what you last viewed on startup or your most visited sites
+### How to Enable
 
-- **Firefox**
-  - [Make sure that Firefox is not set to restore the previous session at startup](https://support.mozilla.org/en-US/kb/restore-previous-session#w_when-youve-set-firefox-to-restore-the-previous-session-at-startup).
-  - [Configure Firefox to open new tabs as blank pages](https://support.mozilla.org/en-US/kb/customize-your-new-tab-page#w_blank-new-tab-page).
-- **Chrome**/ **Chromium**
-  - [Make sure your startup page is set to open with a new tab, not where you left off](https://support.google.com/chrome/answer/95314?sjid=17730964962312313254-EU#zippy=%2Chave-a-new-tab-open).
-  - [Customize your New Tab Page](https://support.google.com/chrome/answer/11032183?sjid=17730964962312313254-EU#zippy=) unchecking My shortcuts and Most visited sites.
+- **Firefox:** [Open private browsing](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history#w_how-do-i-open-a-new-private-window) or [enable it permanently](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history#w_can-i-set-firefox-to-always-use-private-browsing)
+- **Chrome/Chromium:** [Browse in Incognito mode](https://support.google.com/chrome/answer/95464)
 
-Learn why we recommend this
+> **Important:** Private browsing is useful for hiding activity from someone with physical access to your device, but it won't protect you from malware or network surveillance.
 
-If you are worried that somebody else will have access to your browser, turn off the feature that shows the webpages you had open when you last closed your browser and stop your browser from suggesting to open your most visited sites.
+---
 
-## [Anchor](https://securityinabox.org/en/internet-connection/safer-browsing/\#advanced-how-to-recognize-and-report-a-malicious-website)\[Advanced\] How to recognize and report a malicious website
+## Configure Startup Settings
 
-Most modern browsers recognize malicious and unsafe websites by default and will warn you if you try to access phishing, malware or social engineering sites. If you see such a warning, it's best not to visit that website. If, on the other hand, you open such a website without being warned, consider reporting it to improve spam detection systems that protect Google's search results.
+If you're concerned about others accessing your browser, disable features that reveal your browsing habits.
 
-- Learn more about the [built-in Phishing and Malware Protection feature in Firefox](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work).
-- Learn more on [warnings about unsafe sites in Chrome/Chromium](https://support.google.com/chrome/answer/99020?hl=en&co=GENIE.Platform%3DDesktop).
-- [Report spam, phishing, or malware to the Google Safe Browsing program](https://developers.google.com/search/help/report-quality-issues).
+### Recommended Settings
+
+- Don't restore previous session tabs on startup
+- Disable "most visited sites" suggestions on new tabs
+
+Configure these options in your browser's settings under Startup or Home page preferences.
+
+---
+
+## Recognize and Report Malicious Websites
+
+Modern browsers can detect and warn you about malicious websites. If you see a warning, avoid visiting that site.
+
+### Learn More
+
+- **Firefox:** [Phishing and Malware Protection](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work)
+- **Chrome/Chromium:** [Warnings about unsafe sites](https://support.google.com/chrome/answer/99020?hl=en&co=GENIE.Platform%3DDesktop)
+
+### Report Suspicious Sites
+
+If you encounter a malicious website without receiving a warning, [report it to Google Safe Browsing](https://developers.google.com/search/help/report-quality-issues) to help protect others.
+
+---
+
+## Additional Resources
+
+- [Malware Protection Guide](https://securityinabox.org/en/phones-and-computers/malware/)
+- [Anonymity Tools Guide](https://securityinabox.org/en/internet-connection/anonymity)
+- [Password Manager Guide](https://securityinabox.org/en/passwords/password-managers/)
+- [Multiple Identity Management](https://securityinabox.org/en/communication/multiple-identities/)
+
+---
+
+*Last updated: 12 September 2024*
+*Source: [Security in a Box](https://securityinabox.org/en/internet-connection/safer-browsing/)*

@@ -1,32 +1,82 @@
-![Explore detail 02](https://holistic-security.tacticaltech.org/media/chapters/images/default/explore_detail_02.jpg%3F1460641602)
+---
+title: "Situation Monitoring and Analysis"
+tags: [security, situational-awareness, threat-analysis, risk-assessment, activism]
+category: "Security Planning"
+difficulty: "Intermediate"
+audience: [Activists, Human Rights Defenders, Civil Society Organizations]
+topics: ["Security Strategy", "Threat Assessment", "Situational Awareness"]
+summary: "Framework for monitoring environmental changes and analyzing security situations using structured approaches like PESTLE and SWOT."
+source: "Tactical Tech - Holistic Security Guide"
+content_type: "Educational Guide"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic understanding of security concepts", "Familiarity with organizational planning"]
+estimated_read_time: "4 minutes"
+---
 
-# 2.2 Situation Monitoring and Analysis
+# Situation Monitoring and Analysis
 
-We will begin this process with the broadest kind of analysis of our context: observing the political, economic, social, technological, legal and environmental developments in society which are relevant to our work, and may impact our security situation.
+Effective security planning requires ongoing awareness of your environment. Situation monitoring can range from informal conversations with trusted sources and reading news to conducting focused research and investigations. While this type of analysis often informs activism, taking a more organized approach helps guide security decisions.
 
-This can take the form of simply talking to trusted sources and reading the news or undertaking our own, more focused research and investigations. This kind of analysis is common and often informs our activism; by taking a more organised approach to it, it can also inform the decisions we make in relation to our security.
+## Key Changes to Monitor
 
-As part of our strategic planning, we should carry out regular and in-depth situational analyses: that is, deliberately identifying the recent developments which are relevant to our work and analysing what they may mean. This will help us position our work and activism within ongoing local, regional, national and global developments, and identify those which may point to changes in our security situation.
+Pay attention to developments that may affect your security situation:
 
-It is helpful to think of situational monitoring and analysis as the 'engine' of our security planning, from which we can identify **key developments** which impact our strategy. Examples of such developments could include:
+- **New actors** — such as newly elected politicians or appointed officials
+- **Emerging technology** — including new surveillance methods or privacy-enhancing tools
+- **Shifting discourse** — changes in how key actors perceive or discuss your work
 
-- the appearance of new actors, such as newly elected politicians;
+## Benefits of Regular Analysis
 
-- the emergence of new technology, such as methods of electronic surveillance or ways to avoid it;
+Regularly analyzing developments with trusted partners serves two purposes:
 
-- a change in the discourse of key actors regarding how they view our work.
+1. **Validates perceptions** — checking your assessments against those you trust
+2. **Reduces blind spots** — helping avoid both unfounded fears and unrecognized threats
 
+## Evaluating Information Sources
 
-Regularly analysing such developments with trusted partners is a vital security practice, and also helps us to **check our perceptions** with those we trust so that we are less likely to suffer from **unfounded fears** or **unrecognised threats.**
+Consider the reliability and diversity of your information sources:
 
-However we carry out situational monitoring, we should critically consider the sources of our information. Are we getting all our information from one source? If so, can we be sure that source is reliable? If we are relying solely on media reports to determine our security situation, would it benefit us to diversify our sources? Colleagues, friends and partner organisations, as well as academics, experts, friendly authorities and embassies, among others, can be rich sources of contextual information which may be relevant to our strategy and our security
+- Are you depending on a single source?
+- Can you verify that source is reliable?
+- Would diversifying sources strengthen your analysis?
 
-There are a number of frameworks which can be used for situational analysis. Two common types of situation analysis which are often undertaken in the context of strategic planning are a PESTLE (Political, Economic, Social, Technological, Legal and Environmental) analysis, or a SWOT (Strengths, Weaknesses, Opportunities and Threats) analysis.
+**Potential information sources include:**
+- Colleagues and friends
+- Partner organizations
+- Academics and subject experts
+- Friendly authorities
+- Embassies and diplomatic contacts
+- Media reports (as one source among many)
 
-Try completing a quick PESTLE analysis in the exercise linked below and consider some of the dominant trends and developments in the last 12 months which may impact your security.
+## Analytical Frameworks
+
+Two common frameworks for situational analysis in strategic planning:
+
+### PESTLE Analysis
+Examines factors across six domains:
+- **P**olitical
+- **E**conomic
+- **S**ocial
+- **T**echnological
+- **L**egal
+- **E**nvironmental
+
+### SWOT Analysis
+Evaluates your position through:
+- **S**trengths
+- **W**eaknesses
+- **O**pportunities
+- **T**hreats
+
+## Practical Exercise
+
+Consider completing a PESTLE analysis to identify dominant trends and developments from the past 12 months that may impact your security.
 
 > [Exercise: Situational Monitoring: a quick PESTLE analysis](https://holistic-security.tacticaltech.org/exercises/explore/situational-monitoring-a-quick-pestle-analysis.html)
 
-[2.1 Overall Framework for Context Analysis](https://holistic-security.tacticaltech.org/chapters/explore/2-1-overall-framework-for-context-analysis.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/explore.html)
-[2.3 Vision, Strategy and Actors](https://holistic-security.tacticaltech.org/chapters/explore/2-3-vision-strategy-and-actors.html)
+---
+
+**Related Resources:**
+- [Overall Framework for Context Analysis](https://holistic-security.tacticaltech.org/chapters/explore/2-1-overall-framework-for-context-analysis.html)
+- [Vision, Strategy and Actors](https://holistic-security.tacticaltech.org/chapters/explore/2-3-vision-strategy-and-actors.html)

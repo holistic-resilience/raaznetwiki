@@ -1,83 +1,51 @@
-[Skip to content](https://www.privacyguides.org/en/office-suites/#libreoffice)
+---
+title: "Office Suites: Privacy-Focused Alternatives"
+tags: [office-suites, productivity, open-source, privacy-tools, software-alternatives]
+category: "Software Recommendations"
+difficulty: "Beginner"
+audience: [General Public, Privacy-Conscious Users, Open Source Advocates]
+topics: ["Productivity Software", "Privacy Tools", "Open Source Software"]
+summary: "Privacy-respecting office suite alternatives that work offline without requiring account login."
+source: "Privacy Guides"
+content_type: "Reference"
+security_level: "Informational"
+language: "English"
+prerequisites: ["Basic computer literacy"]
+estimated_read_time: "3 minutes"
+---
 
-![](https://www.privacyguides.org/en/assets/img/cover/office-suites.webp)
+# Office Suites: Privacy-Focused Alternatives
 
-# Office Suites
+Choose an office suite that does not require logging in to an account to access its full functionality. The tools listed here can be used offline and serve as privacy-respecting replacements for Microsoft Office.
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/office-suites.md?plain=1 "Edit this page")
+## Recommended Options
 
-Protects against the following threat(s):
-
-- [Service Providers](https://www.privacyguides.org/en/basics/common-threats/#privacy-from-service-providers)
-
-Choose an **office suite** that does not require logging in to an account to access its full functionality. The tools listed here can be used offline and could reasonably act as a replacement for Microsoft Office for most needs.
-
-## LibreOffice
-
-![LibreOffice logo](https://www.privacyguides.org/en/assets/img/office-suites/libreoffice.svg)
+### LibreOffice
 
 **LibreOffice** is a free and open-source office suite with extensive functionality.
 
-[Homepage](https://libreoffice.org/) [Privacy Policy](https://libreoffice.org/about-us/privacy/privacy-policy-en "Privacy Policy") [Documentation](https://documentation.libreoffice.org/en/english-documentation "Documentation") [Source Code](https://libreoffice.org/about-us/source-code "Source Code") [Contribute](https://libreoffice.org/donate "Contribute")
+- **Website:** [libreoffice.org](https://libreoffice.org/)
+- **Source Code:** [Available](https://libreoffice.org/about-us/source-code)
+- **Platforms:** Windows, macOS, Linux, Android, iOS, Flathub
 
-Downloads
-
-- [Google Play](https://libreoffice.org/download/android-and-ios)
-- [App Store](https://libreoffice.org/download/android-and-ios)
-- [Windows](https://libreoffice.org/download/download)
-- [macOS](https://libreoffice.org/download/download)
-- [Linux](https://libreoffice.org/download/download)
-- [Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
-
-## OnlyOffice
-
-![OnlyOffice logo](https://www.privacyguides.org/en/assets/img/office-suites/onlyoffice.svg)
+### OnlyOffice
 
 **OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
 
-[Homepage](https://onlyoffice.com/) [Privacy Policy](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0 "Privacy Policy") [Documentation](https://helpcenter.onlyoffice.com/userguides.aspx "Documentation") [Source Code](https://github.com/ONLYOFFICE "Source Code")
+- **Website:** [onlyoffice.com](https://onlyoffice.com/)
+- **Source Code:** [GitHub](https://github.com/ONLYOFFICE)
+- **Platforms:** Windows, macOS, Linux, Android, iOS, Flathub
 
-Downloads
+## Selection Criteria
 
-- [Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
-- [App Store](https://apps.apple.com/app/id944896972)
-- [Windows](https://onlyoffice.com/download-desktop.aspx)
-- [macOS](https://onlyoffice.com/download-desktop.aspx)
-- [Linux](https://onlyoffice.com/download-desktop.aspx)
-- [Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
+The recommended office suites meet the following requirements:
 
-## Criteria
+- **Cross-platform:** Available on multiple operating systems
+- **Open-source:** Source code is publicly available for review
+- **Offline functionality:** Works without internet connection
+- **Full editing capabilities:** Supports documents, spreadsheets, and slideshows
+- **Standard export formats:** Files can be exported to widely-used document formats
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](https://www.privacyguides.org/en/about/criteria/), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+---
 
-- Must be cross-platform.
-- Must be open-source software.
-- Must function offline.
-- Must support editing documents, spreadsheets, and slideshows.
-- Must export files to standard document formats.
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+*Source: [Privacy Guides](https://www.privacyguides.org/en/office-suites/)*

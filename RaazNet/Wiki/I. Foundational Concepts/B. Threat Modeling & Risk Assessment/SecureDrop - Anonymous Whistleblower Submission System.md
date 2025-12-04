@@ -1,133 +1,90 @@
-[Skip to content](https://securedrop.org/#title)
+---
+title: "SecureDrop - Anonymous Whistleblower Submission System"
+tags: [whistleblowing, anonymity, tor, encryption, journalism, secure-communications]
+category: "Secure Communications"
+difficulty: "Intermediate"
+audience: [Whistleblowers, Journalists, Activists, Privacy-Conscious Users]
+topics: ["Anonymous Document Sharing", "Whistleblower Protection", "Secure Communications"]
+summary: "Overview of SecureDrop, an open-source whistleblower submission system that enables anonymous document sharing with news organizations via Tor."
+source: "Freedom of the Press Foundation"
+content_type: "Reference"
+security_level: "Advanced"
+language: "English"
+prerequisites: ["Basic computer literacy", "Understanding of Tor Browser", "Awareness of operational security concepts"]
+estimated_read_time: "4 minutes"
+---
 
-## Latest News
+# SecureDrop - Anonymous Whistleblower Submission System
 
-[SecureDrop Workstation 1.5.0 Released](https://securedrop.org/news/securedrop-workstation-1_5_0-released/)
+SecureDrop is an open-source whistleblower submission system managed by the Freedom of the Press Foundation. It enables sources to securely and anonymously share documents with journalists and news organizations.
 
-## Latest Release
+## How to Use SecureDrop Anonymously
 
-### [SecureDrop 2.12.10](https://github.com/freedomofpress/securedrop/releases/tag/2.12.10 "SecureDrop 2.12.10 on GitHub")
+### Step 1: Prepare Your Environment
+- **Use a safe location** — never use a work computer or network
+- **Download Tor Browser** from [https://www.torproject.org](https://www.torproject.org/)
 
-September 24, 2025
+### Step 2: Configure Tor Browser Security
+1. Launch Tor Browser
+2. Click the **shield icon** in the browser toolbar
+3. Click **Advanced Security Settings**
+4. Select **Safest** for maximum protection
+5. Close the Preferences tab
 
-[GitHub](https://github.com/freedomofpress/securedrop/releases/tag/2.12.10)
+### Step 3: Access SecureDrop
+- Return to the SecureDrop website using Tor Browser
+- Navigate to the directory to find your target news organization
 
-\| [Documentation](https://docs.securedrop.org/en/stable/)
+## Participating News Organizations
 
-# Have a document to share?
+SecureDrop is used by major news organizations worldwide, including:
 
-## You are not anonymous while using this browser!
+| Organization | Description |
+|--------------|-------------|
+| **The Washington Post** | American daily newspaper (Washington, DC) |
+| **The Guardian** | British daily newspaper |
+| **Der Spiegel** | German media company |
+| **The Globe and Mail** | Canadian newspaper |
+| **Disclose** | French non-profit investigative media |
+| **Greekleaks** | Greek investigative journalism network |
 
-Here's what you need to do to download Tor Browser to be anonymous online:
+A complete directory of SecureDrop instances is available at [securedrop.org/directory](https://securedrop.org/directory/).
 
-1. Go to [https://www.torproject.org](https://www.torproject.org/).
+## Key Security Features
 
-2. Download and install Tor Browser.
+### No Third Parties
+- Servers are completely owned by and physically located inside the news organization
+- No external parties can be secretly subpoenaed for your data
 
-3. Launch Tor Browser and return to this site. You are now anonymous online.
+### Metadata Minimization
+- Does not log IP addresses
+- Does not track browser or computer information
+- Minimizes the digital trail associated with submissions
 
+### End-to-End Encryption
+- All data is encrypted in transit
+- All data is encrypted at rest
+- Air-gapped systems protect against network-based attacks
 
-# Your Tor security settings are too low!
+### Protection Against Hackers
+- Enforces security best practices for journalists
+- Designed for use in high-risk environments
+- Regular security audits and updates
 
-## Set your Tor security level to "Safest" for maximum protection
+### Open Source
+- Licensed as free and open source software
+- Code is publicly auditable
+- Community-reviewed for security vulnerabilities
 
-1. Click the **shield** **icon** in the browser toolbar
-2. Click **Advanced Security Settings**
-3. Select **Safest** and close the **Preferences** tab
-4. Refresh the page
+## Technical Information
 
-# Have a document to share?
+- **Latest Release**: SecureDrop 2.12.10 (September 24, 2025)
+- **Workstation Version**: SecureDrop Workstation 1.5.0
+- **Source Code**: [GitHub Repository](https://github.com/freedomofpress/securedrop)
+- **Documentation**: [docs.securedrop.org](https://docs.securedrop.org/en/stable/)
 
-## Follow these steps to protect your anonymity:
+## Additional Resources
 
-1. Choose a safe location, not a work computer.
-2. Download the desktop version of Tor Browser from [https://www.torproject.org/](https://www.torproject.org/)
-3. Launch Tor Browser and return to this site. You are are now anonymous online.
-
-
-## Share documents securely with these organizations
-
-[![Washington Post logo](https://media.securedrop.org/media/images/wapo.max-96x96.png)\\
-**The Washington Post**\\
-\\
-The Washington Post is an American daily newspaper published in Washington, DC.\\
-\\
-View in the directory](https://securedrop.org/directory/washington-post/) [![Guardian small logo](https://media.securedrop.org/media/images/Guardian_roundel.max-96x96.png)\\
-**The Guardian**\\
-\\
-The Guardian is a British daily newspaper.\\
-\\
-View in the directory](https://securedrop.org/directory/guardian/) [![Disclose (transparent)](https://media.securedrop.org/media/images/disclose.max-96x96.png)\\
-**Disclose**\\
-\\
-A French non-profit investigative media organization\\
-\\
-View in the directory](https://securedrop.org/directory/disclose/) [![Der Spiegel](https://media.securedrop.org/media/images/der_spiegel_logo.max-96x96.png)\\
-**Der Spiegel**\\
-\\
-The SPIEGEL Group is a German media company that publishes print magazines, online news and TV\\
-\\
-View in the directory](https://securedrop.org/directory/der-spiegel/) [![Greekleaks Logo Dark](https://media.securedrop.org/media/images/greekleaks-dark.max-96x96.png)\\
-**Greekleaks**\\
-\\
-Greekleaks is run by the Greek investigative journalism network Reporters United\\
-\\
-View in the directory](https://securedrop.org/directory/greekleaks/) [![TGAM-Square-RGB.png](https://media.securedrop.org/media/images/TGAM-Square-RGB.max-96x96.png)\\
-**The Globe and Mail**\\
-\\
-The Globe and Mail is a Canadian newspaper.\\
-\\
-View in the directory](https://securedrop.org/directory/globe-and-mail/)
-
-[![Washington Post logo](https://media.securedrop.org/media/images/wapo.max-96x96.png)\\
-**The Washington Post**\\
-\\
-The Washington Post is an American daily newspaper published in Washington, DC.\\
-\\
-View in the directory](https://securedrop.org/directory/washington-post/) [![Guardian small logo](https://media.securedrop.org/media/images/Guardian_roundel.max-96x96.png)\\
-**The Guardian**\\
-\\
-The Guardian is a British daily newspaper.\\
-\\
-View in the directory](https://securedrop.org/directory/guardian/) [![Disclose (transparent)](https://media.securedrop.org/media/images/disclose.max-96x96.png)\\
-**Disclose**\\
-\\
-A French non-profit investigative media organization\\
-\\
-View in the directory](https://securedrop.org/directory/disclose/)
-
-[See all SecureDrop instances in the directory](https://securedrop.org/directory/)
-
-## What SecureDrop does
-
-[![Courthouse with "no" symbol](https://media.securedrop.org/media/images/no-courthouse.max-200x200.png)\\
-\\
-**No third parties** \\
-\\
-Server is completely owned by and sits inside news organization.](https://securedrop.org/overview/no-third-parties-can-secretly-be-subpoenaed/)
-
-[![Click](https://media.securedrop.org/media/images/click.max-200x200.png)\\
-\\
-**Minimizes Metadata** \\
-\\
-Does not log your IP addresses, browser, or computer.](https://securedrop.org/overview/limits-metadata-trail-much-possible/)
-
-[![Laptop](https://media.securedrop.org/media/images/laptop.max-200x200.png)\\
-\\
-**Encryption** \\
-\\
-Encrypts your data in transit and at rest.](https://securedrop.org/overview/encrypted-and-air-gapped/)
-
-[![Shield with lock](https://media.securedrop.org/media/images/shield.max-200x200.png)\\
-\\
-**Protects against hackers** \\
-\\
-Forces security best practices for journalists & can be used in high-risk environments.](https://securedrop.org/overview/protects-against-hackers/)
-
-[![Computer window with code](https://media.securedrop.org/media/images/code-window.max-200x200.png)\\
-\\
-**Free Software** \\
-\\
-Licensed as free and open source software.](https://securedrop.org/overview/free-and-open-source-software/)
-
-[Learn more about SecureDrop](https://securedrop.org/overview/)
+- [SecureDrop Overview](https://securedrop.org/overview/)
+- [Tor Project](https://www.torproject.org/)
+- [Freedom of the Press Foundation](https://freedom.press/)

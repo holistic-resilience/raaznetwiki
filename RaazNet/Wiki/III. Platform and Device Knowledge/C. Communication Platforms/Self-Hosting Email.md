@@ -1,72 +1,67 @@
-[Skip to content](https://www.privacyguides.org/en/self-hosting/email-servers/#stalwart)
-
-![](https://www.privacyguides.org/en/assets/img/cover/email.webp)
+---
+title: "Self-Hosting Email Servers"
+tags: [email, self-hosting, privacy, security, mail-server]
+category: "Self-Hosting"
+difficulty: "Advanced"
+audience: [System Administrators, Privacy-Conscious Users, Technical Users]
+topics: ["Email Infrastructure", "Self-Hosting", "Privacy Protection"]
+summary: "Guide to self-hosted email server solutions including Stalwart, Mailcow, and Mail-in-a-Box."
+source: "Privacy Guides"
+content_type: "Reference"
+security_level: "Advanced"
+language: "English"
+prerequisites: ["Linux administration", "DNS configuration", "Server management", "Docker (for some solutions)"]
+estimated_read_time: "4 minutes"
+---
 
 # Email Servers
 
-[Edit this page](https://github.com/privacyguides/privacyguides.org/blob/main/docs/self-hosting/email-servers.md?plain=1 "Edit this page")
+Self-hosting your own email server gives you complete control over your email data and privacy, removing dependence on third-party service providers.
 
-Protects against the following threat(s):
-
-- [Service Providers](https://www.privacyguides.org/en/basics/common-threats/#privacy-from-service-providers)
-
-Advanced system administrators may consider setting up their own **email server**. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable. In addition to the "all-in-one" solutions below, we've picked out a few articles that cover a more manual approach:
+## Additional Resources
 
 - [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
 - [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide) (August 2017)
 
 ## Stalwart
 
-![Stalwart logo](https://www.privacyguides.org/en/assets/img/self-hosting/stalwart.svg)
+**Stalwart** is a modern mail server written in Rust that supports JMAP in addition to standard IMAP, POP3, and SMTP protocols. It features sensible security defaults and is easy to deploy immediately.
 
-**Stalwart** is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP. It has a wide variety of configuration options, but also defaults to very reasonable settings in terms of both security and features, making it easy to use immediately. It has web-based administration with TOTP2FA support and allows you to enter your public PGP key to encrypt **all** incoming messages.
+**Key Features:**
+- Web-based administration with TOTP 2FA support
+- PGP key integration to encrypt all incoming messages
+- Zero-knowledge message storage capability
+- Web Key Directory (WKD) support for E2EE compatibility with Proton Mail users
 
-[Homepage](https://stalw.art/) [Documentation](https://stalw.art/docs/get-started "Documentation") [Source Code](https://github.com/stalwartlabs "Source Code") [Contribute](https://github.com/sponsors/stalwartlabs "Contribute")
+**Note:** Stalwart does not include integrated webmail. You'll need a [dedicated email client](https://www.privacyguides.org/en/email-clients/) or self-hosted webmail solution like Nextcloud Mail.
 
-Stalwart's [PGP implementation](https://stalw.art/docs/encryption/overview) is unique among our self-hosted recommendations and allows you to operate your own mail server with zero-knowledge message storage. If you additionally configure Web Key Directory (WKD) on your domain, and if you use an email client which supports PGP and WKD for outgoing mail (like Thunderbird), then this is the easiest way to get self-hosted E2EE compatibility with all [Proton Mail](https://www.privacyguides.org/en/email/#proton-mail) users.
-
-Stalwart does **not** have an integrated webmail, so you will need to use it with a [dedicated email client](https://www.privacyguides.org/en/email-clients/) or find an open-source webmail to self-host, like Nextcloud's Mail app.
-
-We use Stalwart for our own internal email at _Privacy Guides_.
+- [Homepage](https://stalw.art/)
+- [Documentation](https://stalw.art/docs/get-started)
+- [Source Code](https://github.com/stalwartlabs)
 
 ## Mailcow
 
-![Mailcow logo](https://www.privacyguides.org/en/assets/img/self-hosting/mailcow.svg)
+**Mailcow** is a comprehensive mail server solution designed for users with Linux experience. It runs entirely in Docker containers.
 
-**Mailcow** is an advanced mail server perfect for those with Linux experience. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
+**Key Features:**
+- DKIM support
+- Antivirus and spam monitoring
+- Webmail and ActiveSync via SOGo
+- Web-based administration with 2FA support
 
-[Homepage](https://mailcow.email/) [Documentation](https://docs.mailcow.email/ "Documentation") [Source Code](https://github.com/mailcow/mailcow-dockerized "Source Code") [Contribute](https://servercow.de/mailcow?lang=en#sal "Contribute")
+- [Homepage](https://mailcow.email/)
+- [Documentation](https://docs.mailcow.email/)
+- [Source Code](https://github.com/mailcow/mailcow-dockerized)
 
 ## Mail-in-a-Box
 
-![Mail-in-a-Box logo](https://www.privacyguides.org/en/assets/img/self-hosting/mail-in-a-box.svg)
+**Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu, designed to simplify the self-hosting process.
 
-**Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
+**Key Features:**
+- Automated installation and configuration
+- Simplified setup for beginners to self-hosting
+- Ubuntu-based deployment
 
-[Homepage](https://mailinabox.email/) [Documentation](https://mailinabox.email/guide.html "Documentation") [Source Code](https://github.com/mail-in-a-box/mailinabox "Source Code")
-
-Was this page helpful?
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback!
-
-
-
-
-
-
-
-
-
-
-
-Thanks for your feedback! If you want to let us know more, please leave a post on our [forum](https://discuss.privacyguides.net/c/site-development/7).
+- [Homepage](https://mailinabox.email/)
+- [Documentation](https://mailinabox.email/guide.html)
+- [Source Code](https://github.com/mail-in-a-box/mailinabox)

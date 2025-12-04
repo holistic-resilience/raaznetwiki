@@ -1,20 +1,47 @@
-[Skip to content](https://freedom.press/digisec/blog/signal-security/#main)
+---
+title: "Signal Security Guide - Content Unavailable"
+tags: [security, privacy, signal, messaging, placeholder]
+category: "Digital Security"
+difficulty: "Beginner"
+audience: [General Public]
+topics: ["Digital Security", "Secure Messaging"]
+summary: "Placeholder document for a Signal security guide that is no longer available at the original source."
+source: "Freedom of the Press Foundation"
+content_type: "Note"
+security_level: "Informational"
+language: "English"
+prerequisites: []
+estimated_read_time: "1 minute"
+status: "incomplete"
+original_url: "https://freedom.press/digisec/blog/signal-security/"
+---
 
-# Page not found
+# Signal Security Guide
 
-The page you requested wasn’t found.
+> [!warning] Content Unavailable
+> The original content from Freedom of the Press Foundation is no longer available at the source URL. This document serves as a placeholder.
 
+## Original Source
 
+This guide was intended to be sourced from:
+- **Publisher:** Freedom of the Press Foundation
+- **URL:** `https://freedom.press/digisec/blog/signal-security/`
+- **Status:** Page not found (404)
 
-[Return Home](https://freedom.press/)
+## Recommended Alternatives
 
-## Sign Up. Take Action.
+For Signal security guidance, consider these authoritative sources:
 
-Join our email list to stay up to date on the issues and learn how you can help protect journalists and sources everywhere.
+- **Signal's Official Support:** [support.signal.org](https://support.signal.org)
+- **EFF's Surveillance Self-Defense:** [ssd.eff.org](https://ssd.eff.org)
+- **Freedom of the Press Foundation Digital Security:** [freedom.press/digisec](https://freedom.press/digisec/)
 
-Full NameEmail AddressSubscribe [See all newsletters](https://freedom.press/newsletters/)
+## Next Steps
 
-Thanks for subscribing to Freedom of the Press Foundation's mailing list. We'll send you opportunities to take action on combating government secrecy, protesting mass surveillance, and protecting reporter's rights.
+- [ ] Locate archived version of original content
+- [ ] Find updated Signal security guide from Freedom of the Press Foundation
+- [ ] Replace this placeholder with complete content
 
+---
 
-![Photo Credit: Rainmaker Photo/MediaPunch/IPX via AP](https://media.freedom.press/media/images/AP665211927868.2e16d0ba.fill-626x494.jpg)
+*Document flagged for content retrieval or removal.*

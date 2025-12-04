@@ -1,35 +1,78 @@
-![Act detail 07](https://holistic-security.tacticaltech.org/media/chapters/images/default/act_detail_07.jpg%3F1460642868)
+---
+title: "Protests: Be Mindful of Common Threats"
+tags: [protests, physical-security, crowd-control, tear-gas, safety, activism]
+category: "Protest Safety"
+difficulty: "Intermediate"
+audience: [Activists, Protesters, Community Organizers]
+topics: ["Physical Security", "Protest Preparation", "Threat Awareness"]
+summary: "Practical guidance on common physical threats at protests including tear gas, water cannons, and mounted police, plus strategies for collective safety monitoring."
+source: "Tactical Tech - Holistic Security"
+content_type: "Educational Guide"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic understanding of protest participation"]
+estimated_read_time: "4 minutes"
+---
 
-# 4.7 Protests: Be Mindful of Common Threats
+# Protests: Be Mindful of Common Threats
 
-There are some common threats and tactics which are regularly used against activists during protests so it's always a good idea to be prepared for them. You can also observe the movements of anyone who may be a threat to the protest and share indicators you observe (e.g. changes in their behaviour) with your affinity group or the wider protest.
+Certain threats and tactics are regularly used against activists during protests. Being prepared for them—and sharing observations with your affinity group or the wider protest—can help everyone stay safer.
 
-Tear gas is particularly common for "crowd control" and increasingly used to stifle protests. However, the types of chemicals used in tear gas constantly change, meaning effective remedies do too. Try to find out which type of tear gas is used by the authorities in your area. If you can get a gas mask, this will help, but avoid using old ones as they may themselves be harmful.
+## Common Crowd Control Tactics
 
-Swimming goggles can help to protect your eyes, but if affected, in most cases eyes can be treated with cigarette smoke or water. But be careful, warm or hot water can increase pain from [CS gas](http://www.eco-action.org/dod/no7/cs_gas.html). Antacids diluted with water or diphoterine solution (a first aid product for chemical splashes) can also help.
+### Tear Gas
 
-Water cannons are also very commonly used in violence against protesters. At close range, these can be extremely dangerous, so if you see the police about to use them close to you, move away as quickly as possible.
+Tear gas is one of the most common "crowd control" measures and is increasingly used to suppress protests. The chemicals used vary by region and change over time, which means effective remedies also change.
 
-There may also be mounted police at the protest. While police horses are usually well behaved, they can be temperamental and could seriously injure you by kicking. Avoid approaching horses from behind, or standing or crouching directly in front of them.
+**Preparation:**
+- Research which type of tear gas authorities use in your area
+- Obtain a gas mask if possible (avoid old masks, as they may be harmful)
+- Swimming goggles can help protect your eyes
 
-## Monitor and share security indicators
+**If exposed:**
+- Eyes can often be treated with water (avoid warm or hot water with CS gas, as it increases pain)
+- Antacids diluted with water may help
+- Diphoterine solution (a first aid product for chemical splashes) is also effective
 
-The security situation at a protest can change very quickly. It's important to share and analyse anything out of the ordinary that you notice which may affect your security. These [indicators](https://holistic-security.tacticaltech.org/chapters/explore/2-7-security-indicators.html) – sometimes called 'security incidents' – can help you make a decision early to avoid a threatening situation.
+### Water Cannons
 
-Try to maintain awareness and mindfulness of the situation around you at all times. It may be useful to create a security group within the protest (or designate a security person in your affinity group), who can take responsibility for monitoring any security indicators and coordinate actions based on them.
+Water cannons are commonly used against protesters and can be extremely dangerous at close range.
 
-Be on the look-out for indicators inside your group as well as externally, such as someone carrying a weapon or illegal substances, someone attempting to use violence (they may be an agent provocateur), or someone becoming fatigued, tired etc. Observe the behaviour of the police: what kind of equipment are they carrying? Are there plain-clothed police nearby? If you notice them, take note of who they are and observe their behaviour. When you notice anything strange, share it either verbally or over a secure communication channel with your friends, affinity group or the orgnisers of the protest. You can then analyse whether it represents a threat, and take action together if needed.
+**Safety guidance:**
+- If police prepare to use water cannons near you, move away as quickly as possible
+- Maintain distance whenever possible
 
-For more on monitoring and analysing security indicators, see the Chapter, [Security Indicators](https://holistic-security.tacticaltech.org/chapters/explore/2-7-security-indicators.html).
+### Mounted Police
 
-## Take care of fellow protesters
+Police horses are generally well-trained but can be unpredictable and could cause serious injury.
 
-Everyone has an equal right to take part in protests, including children, elderly people or people with disabilities. Everyone who wishes to peacefully protest deserves support and respect.
+**Safety guidance:**
+- Never approach horses from behind
+- Avoid standing or crouching directly in front of them
 
-However, while protests can be dangerous for everyone, some people face particular challenges due to factors like their age or abilities. It's especially important that those who can do so, offer whatever help or protection possible to others who may be at more risk of harm during the protest.
+## Monitor and Share Security Indicators
 
-Ensure that people of all ages and body types are represented in meetings about the protest and decisions about security. Take their needs into consideration when implementing a security plan, and be attentive to them during the protest. It may be an idea to create a group which is tasked with caring for fellow protesters with special needs (such as visual impairment, hearing problems, or reduced mobility). However – avoid making decisions for anyone: listen to their needs and design a plan together.
+The security situation at a protest can change rapidly. Sharing and analyzing anything unusual that might affect safety helps everyone make informed decisions early.
 
-[4.6 Protests: Record and Publish Securely](https://holistic-security.tacticaltech.org/chapters/act/4-1-6-protests-record-and-publish-securely.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/act.html)
-[4.8 Protests: Manage Stress and Fear](https://holistic-security.tacticaltech.org/chapters/act/4-1-8-protests-manage-stress-and-fear.html)
+**Strategies for collective awareness:**
+- Maintain awareness of your surroundings at all times
+- Create a dedicated security group within the protest
+- Designate a security person in your affinity group to monitor indicators and coordinate responses
+- Share observations about changes in police behavior or positioning
+
+For more on monitoring and analyzing security indicators, see [Security Indicators](https://holistic-security.tacticaltech.org/chapters/explore/2-7-security-indicators.html).
+
+## Take Care of Fellow Protesters
+
+Everyone has an equal right to participate in protests—including children, elderly people, and people with disabilities. While protests carry risks for everyone, some individuals face particular challenges.
+
+**Collective responsibility:**
+- Offer help or protection to those who may be at greater risk
+- Support anyone who wishes to peacefully protest
+- Look out for people who may need assistance during rapidly changing situations
+
+---
+
+**Related guides:**
+- [Protests: Record and Publish Securely](https://holistic-security.tacticaltech.org/chapters/act/4-1-6-protests-record-and-publish-securely.html)
+- [Protests: Manage Stress and Fear](https://holistic-security.tacticaltech.org/chapters/act/4-1-8-protests-manage-stress-and-fear.html)

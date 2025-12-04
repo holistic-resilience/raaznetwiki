@@ -1,35 +1,64 @@
-![Act detail 07](https://holistic-security.tacticaltech.org/media/chapters/images/default/act_detail_07.jpg%3F1460642868)
+---
+title: "Protests: Be Mindful of Common Threats"
+tags: [protests, physical-security, crowd-control, activism, safety]
+category: "Physical Security"
+difficulty: "Intermediate"
+audience: [Activists, Protesters, Organizers]
+topics: ["Protest Safety", "Threat Awareness", "Collective Security"]
+summary: "Guide to recognizing and responding to common physical threats at protests, including tear gas, water cannons, and mounted police."
+source: "Tactical Tech - Holistic Security"
+content_type: "Educational Guide"
+security_level: "Basic"
+language: "English"
+prerequisites: ["Basic understanding of protest participation"]
+estimated_read_time: "4 minutes"
+---
 
-# 4.7 Protests: Be Mindful of Common Threats
+# Protests: Be Mindful of Common Threats
 
-There are some common threats and tactics which are regularly used against activists during protests so it's always a good idea to be prepared for them. You can also observe the movements of anyone who may be a threat to the protest and share indicators you observe (e.g. changes in their behaviour) with your affinity group or the wider protest.
+There are common threats and tactics regularly used against activists during protests. Being prepared for them improves your safety and that of others around you. You can also observe the movements of anyone who may be a threat and share indicators you notice (such as changes in their behaviour) with your affinity group or the wider protest.
 
-Tear gas is particularly common for "crowd control" and increasingly used to stifle protests. However, the types of chemicals used in tear gas constantly change, meaning effective remedies do too. Try to find out which type of tear gas is used by the authorities in your area. If you can get a gas mask, this will help, but avoid using old ones as they may themselves be harmful.
+## Tear Gas
 
-Swimming goggles can help to protect your eyes, but if affected, in most cases eyes can be treated with cigarette smoke or water. But be careful, warm or hot water can increase pain from [CS gas](http://www.eco-action.org/dod/no7/cs_gas.html). Antacids diluted with water or diphoterine solution (a first aid product for chemical splashes) can also help.
+Tear gas is particularly common for "crowd control" and increasingly used to stifle protests. However, the types of chemicals used constantly change, meaning effective remedies do too.
 
-Water cannons are also very commonly used in violence against protesters. At close range, these can be extremely dangerous, so if you see the police about to use them close to you, move away as quickly as possible.
+**Preparation:**
+- Find out which type of tear gas is used by authorities in your area
+- If you can get a gas mask, this will help—but avoid old ones as they may themselves be harmful
+- Swimming goggles can help protect your eyes
 
-There may also be mounted police at the protest. While police horses are usually well behaved, they can be temperamental and could seriously injure you by kicking. Avoid approaching horses from behind, or standing or crouching directly in front of them.
+**If affected:**
+- Eyes can often be treated with water (avoid warm or hot water, which can increase pain from [CS gas](http://www.eco-action.org/dod/no7/cs_gas.html))
+- Antacids diluted with water can help
+- Diphoterine solution (a first aid product for chemical splashes) is also effective
 
-## Monitor and share security indicators
+## Water Cannons
 
-The security situation at a protest can change very quickly. It's important to share and analyse anything out of the ordinary that you notice which may affect your security. These [indicators](https://holistic-security.tacticaltech.org/chapters/explore/2-7-security-indicators.html) – sometimes called 'security incidents' – can help you make a decision early to avoid a threatening situation.
+Water cannons are very commonly used against protesters. At close range, these can be extremely dangerous.
 
-Try to maintain awareness and mindfulness of the situation around you at all times. It may be useful to create a security group within the protest (or designate a security person in your affinity group), who can take responsibility for monitoring any security indicators and coordinate actions based on them.
+**If you see police about to use water cannons close to you, move away as quickly as possible.**
 
-Be on the look-out for indicators inside your group as well as externally, such as someone carrying a weapon or illegal substances, someone attempting to use violence (they may be an agent provocateur), or someone becoming fatigued, tired etc. Observe the behaviour of the police: what kind of equipment are they carrying? Are there plain-clothed police nearby? If you notice them, take note of who they are and observe their behaviour. When you notice anything strange, share it either verbally or over a secure communication channel with your friends, affinity group or the orgnisers of the protest. You can then analyse whether it represents a threat, and take action together if needed.
+## Mounted Police
 
-For more on monitoring and analysing security indicators, see the Chapter, [Security Indicators](https://holistic-security.tacticaltech.org/chapters/explore/2-7-security-indicators.html).
+Police horses are usually well behaved but can be temperamental and could seriously injure you by kicking.
 
-## Take care of fellow protesters
+**Safety guidelines:**
+- Avoid approaching horses from behind
+- Don't stand or crouch directly in front of them
 
-Everyone has an equal right to take part in protests, including children, elderly people or people with disabilities. Everyone who wishes to peacefully protest deserves support and respect.
+## Monitor and Share Security Indicators
 
-However, while protests can be dangerous for everyone, some people face particular challenges due to factors like their age or abilities. It's especially important that those who can do so, offer whatever help or protection possible to others who may be at more risk of harm during the protest.
+The security situation at a protest can change very quickly. It's important to share and analyse anything out of the ordinary that may affect your security. These [indicators](https://holistic-security.tacticaltech.org/chapters/explore/2-7-security-indicators.html)—sometimes called "security incidents"—can help you make early decisions to avoid threatening situations.
 
-Ensure that people of all ages and body types are represented in meetings about the protest and decisions about security. Take their needs into consideration when implementing a security plan, and be attentive to them during the protest. It may be an idea to create a group which is tasked with caring for fellow protesters with special needs (such as visual impairment, hearing problems, or reduced mobility). However – avoid making decisions for anyone: listen to their needs and design a plan together.
+**Best practices:**
+- Maintain awareness and mindfulness of your surroundings at all times
+- Consider creating a security group within the protest, or designate a security person in your affinity group
+- This person can take responsibility for monitoring security indicators and coordinating responses
 
-[4.6 Protests: Record and Publish Securely](https://holistic-security.tacticaltech.org/chapters/act/4-1-6-protests-record-and-publish-securely.html)
-[Back to section](https://holistic-security.tacticaltech.org/chapters/act.html)
-[4.8 Protests: Manage Stress and Fear](https://holistic-security.tacticaltech.org/chapters/act/4-1-8-protests-manage-stress-and-fear.html)
+For more on monitoring and analysing security indicators, see [Security Indicators](https://holistic-security.tacticaltech.org/chapters/explore/2-7-security-indicators.html).
+
+## Take Care of Fellow Protesters
+
+Everyone has an equal right to take part in protests, including children, elderly people, and people with disabilities. Everyone who wishes to peacefully protest deserves support and respect.
+
+While protests can be dangerous for everyone, some people face particular challenges due to factors like age or abilities. Those who can should offer whatever help or protection possible to others who may be at more risk of harm during the protest.
