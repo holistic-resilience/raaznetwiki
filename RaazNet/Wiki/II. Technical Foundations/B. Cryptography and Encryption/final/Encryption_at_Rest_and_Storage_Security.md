@@ -37,7 +37,7 @@ last_updated: "2026-02-06"
 
 # Encryption at Rest and Storage Security
 
-In the context of digital security in Iran, the threat is not limited to remote interception of data over the internet. Physical seizure of devices—whether during a street checkpoint, a house raid by security forces, or confiscation at borders—is a primary risk.
+The threat is not limited to remote interception of data over the internet. Physical seizure of devices—whether during a street checkpoint, a house raid by security forces, or confiscation at borders—is a primary risk.
 
 **Encryption at Rest** ensures that even if your laptop, phone, or hard drive is physically stolen or seized by the Cyber Police (FATA) or other agents, the data remains unreadable without the decryption key (passphrase).
 

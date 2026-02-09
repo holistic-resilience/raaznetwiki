@@ -37,7 +37,7 @@ estimated_read_time: "12 minutes"
 
 # Email Encryption and OpenPGP
 
-In the context of the Iranian internet landscape, standard email is one of the most vulnerable forms of communication. Traditional email functions like a postcard: it travels through multiple servers (ISPs, backbone providers, and email hosts), and at any point, the content can be read by administrators or surveillance systems.
+Standard email is one of the most vulnerable forms of communication. Traditional email functions like a postcard: it travels through multiple servers (ISPs, backbone providers, and email hosts), and at any point, the content can be read by administrators or surveillance systems.
 
 For Iranian users, relying on domestic email providers or unencrypted international services poses a significant risk. This guide focuses on **End-to-End Encryption (E2EE)** and **OpenPGP** as the standards for securing email content against interception by the Islamic Republic's surveillance apparatus.
 

@@ -32,7 +32,7 @@ estimated_read_time: "15 minutes"
 
 # End-to-End Encryption (E2EE) Messaging
 
-In the landscape of the Iranian internet—characterized by extensive surveillance, deep packet inspection (DPI), and potential cooperation between ISPs and security agencies—how you communicate is a matter of critical safety.
+Deep packet inspection (DPI), and potential cooperation between ISPs and security agencies—how you communicate is a matter of critical safety.
 
 **End-to-End Encryption (E2EE)** is the gold standard for digital communication. It ensures that a message is turned into an unreadable code (encrypted) on your device and only turned back into a readable message (decrypted) on the recipient's device.
 

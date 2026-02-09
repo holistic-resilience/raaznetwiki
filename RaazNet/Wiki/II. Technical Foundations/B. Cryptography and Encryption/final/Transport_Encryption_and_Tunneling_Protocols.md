@@ -39,7 +39,7 @@ estimated_read_time: "12 minutes"
 
 # Transport Encryption and Tunneling Protocols
 
-In the context of digital security in Iran, understanding how data moves across the internet is a matter of safety and accessibility. **Transport Encryption** ensures that data moving between your device and a server cannot be read by intermediaries (like the Telecommunication Company of Iran - TCI, or mobile operators like MCI and Irancell). **Tunneling Protocols** allow you to encapsulate that traffic to bypass censorship filters and hide your destination.
+Understanding how data moves across the internet is a matter of safety and accessibility. **Transport Encryption** ensures that data moving between your device and a server cannot be read by intermediaries (like the Telecommunication Company of Iran - TCI, or mobile operators like MCI and Irancell). **Tunneling Protocols** allow you to encapsulate that traffic to bypass censorship filters and hide your destination.
 
 This guide details the mechanisms of secure data transport and the specific protocols required to circumvent the Islamic Republic's Deep Packet Inspection (DPI) systems.
 

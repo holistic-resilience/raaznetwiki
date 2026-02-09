@@ -34,7 +34,7 @@ estimated_read_time: "15 minutes"
 
 # Transactional Privacy and Cryptocurrency
 
-In the Iranian context, financial privacy is not merely about hiding wealth; it is a critical safety measure. Iranian citizens face a dual threat: **internal surveillance** by the Islamic Republic's financial monitoring systems and **external exclusion** due to international sanctions.
+Financial privacy is not merely about hiding wealth; it is a critical safety measure. Iranian citizens face a dual threat: **internal surveillance** by the Islamic Republic's financial monitoring systems and **external exclusion** due to international sanctions.
 
 Traditional banking systems (Shetab) allow the state to track every transaction. Furthermore, international platforms frequently freeze assets belonging to Iranians. This guide focuses on using cryptocurrency to reclaim financial autonomy, bypass censorship, and protect your identity.
 

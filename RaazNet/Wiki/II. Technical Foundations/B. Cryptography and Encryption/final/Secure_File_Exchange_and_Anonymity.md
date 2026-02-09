@@ -33,7 +33,7 @@ last_updated: "2026-02-06"
 
 # Secure File Exchange and Anonymity
 
-In the context of the Iranian internet (internally known as the National Information Network), transferring files is not merely a matter of convenience—it is a security operation. The regime employs Deep Packet Inspection (DPI) to analyze traffic, blocks major file-sharing platforms, and monitors domestic servers.
+Transferring files is not merely a matter of convenience—it is a security operation. The Iranian regime employs Deep Packet Inspection (DPI) to analyze traffic, blocks major file-sharing platforms, and monitors domestic servers.
 
 This guide outlines methods to share files while maintaining **confidentiality** (only the recipient can read it) and **anonymity** (no one knows who sent it).
 
