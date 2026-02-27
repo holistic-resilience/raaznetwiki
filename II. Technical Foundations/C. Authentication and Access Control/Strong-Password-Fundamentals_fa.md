@@ -1,5 +1,5 @@
 ---
-title: "Strong Password Fundamentals"
+title: "مبانی رمز عبور قوی"
 tags:
   [
     passwords,
@@ -20,7 +20,7 @@ topics:
     "Account Protection",
     "Threat Mitigation",
   ]
-summary: "A comprehensive guide to understanding, creating, and maintaining strong passwords, tailored to the Iranian digital security context."
+summary: "راهنمای جامع درک، ایجاد و نگهداری رمزهای عبور قوی، متناسب با بافت امنیت دیجیتال ایران."
 source: "Raaznet Aggregated Resources"
 content_type: "Educational Guide"
 security_level: "Basic"

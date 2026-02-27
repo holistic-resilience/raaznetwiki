@@ -1,5 +1,5 @@
 ---
-title: "Internet Privacy: Browsers, VPNs, and Tor"
+title: "حریم خصوصی اینترنت: مرورگرها، VPN و Tor"
 tags:
   [
     حریم خصوصی اینترنت,

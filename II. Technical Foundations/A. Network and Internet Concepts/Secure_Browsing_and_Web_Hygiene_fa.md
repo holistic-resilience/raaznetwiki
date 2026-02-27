@@ -1,5 +1,5 @@
 ---
-title: "Secure Browsing and Web Hygiene"
+title: "مرور امن وب و بهداشت اینترنتی"
 tags:
   [
     browser-security,
@@ -15,7 +15,7 @@ difficulty: "Intermediate"
 audience: [General Public, Activists, Journalists, Privacy-Conscious Users]
 topics:
   ["Web Browser Security", "Digital Hygiene", "Tracking Prevention", "Phishing"]
-summary: "Comprehensive guide to securing web browsers, configuring privacy settings, and maintaining digital hygiene to protect against surveillance and tracking in Iran."
+summary: "راهنمای جامع ایمن‌سازی مرورگرهای وب، پیکربندی تنظیمات حریم خصوصی، و حفظ بهداشت دیجیتال برای محافظت در برابر نظارت و ردیابی در ایران."
 source: "RaazNet Aggregation"
 content_type: "Educational Guide"
 security_level: "Basic"

@@ -1,5 +1,5 @@
 ---
-title: "Digital Footprint and Metadata"
+title: "ردپای دیجیتال و فراداده"
 tags:
   [
     ردپای-دیجیتال,

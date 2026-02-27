@@ -1,5 +1,5 @@
 ---
-title: "iOS Security and Hardening"
+title: "امنیت و ایمن‌سازی iOS"
 tags: [ios, اپل, امنیت-موبایل, حریم-خصوصی, نظارت, ایران, مقاوم‌سازی, رمزنگاری]
 category: "Platform and Device Knowledge"
 difficulty: "Intermediate"

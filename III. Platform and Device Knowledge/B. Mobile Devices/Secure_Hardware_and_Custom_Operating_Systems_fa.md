@@ -1,5 +1,5 @@
 ---
-title: "Secure Hardware and Custom Operating Systems"
+title: "سخت‌افزار امن و سیستم‌عامل‌های سفارشی"
 tags:
   [
     امنیت-موبایل,

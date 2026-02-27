@@ -1,5 +1,5 @@
 ---
-title: "Account Deletion and Digital Footprint Reduction"
+title: "حذف حساب کاربری و کاهش ردپای دیجیتال"
 tags:
   [
     حریم خصوصی,

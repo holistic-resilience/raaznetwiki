@@ -1,5 +1,5 @@
 ---
-title: "Internet Censorship Mechanisms in Iran"
+title: "سازوکارهای سانسور اینترنت در ایران"
 tags: [سانسور, شبکه ملی اطلاعات, dpi, فیلترینگ, زیرساخت, قطعی اینترنت]
 category: "Foundational Concepts"
 difficulty: "Intermediate"

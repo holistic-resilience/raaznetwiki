@@ -1,5 +1,5 @@
 ---
-title: "Security Strategy and Response Planning"
+title: "راهبرد امنیتی و برنامه‌ریزی واکنش"
 tags:
   [
     استراتژی-امنیت,

@@ -1,5 +1,5 @@
 ---
-title: "Risk Assessment and Threat Identification"
+title: "ارزیابی ریسک و شناسایی تهدید"
 tags:
   [
     ارزیابی-ریسک,

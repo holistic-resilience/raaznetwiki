@@ -1,5 +1,5 @@
 ---
-title: "Advanced Mobile Threats and Countermeasures"
+title: "تهدیدات پیشرفته موبایل و اقدامات مقابله‌ای"
 tags:
   [
     امنیت-موبایل,

@@ -1,5 +1,5 @@
 ---
-title: "Encryption at Rest and Storage Security"
+title: "رمزنگاری داده‌های ذخیره‌شده و امنیت ذخیره‌سازی"
 tags:
   [
     encryption,
@@ -21,7 +21,7 @@ topics:
     "Mobile Device Security",
     "Plausible Deniability",
   ]
-summary: "A comprehensive guide to protecting digital data stored on devices against physical seizure and forensic analysis, tailored for the Iranian threat landscape."
+summary: "راهنمای جامع حفاظت از داده‌های دیجیتال ذخیره‌شده بر روی دستگاه‌ها در برابر توقیف فیزیکی و تحلیل فارنزیک، متناسب با فضای تهدید ایران."
 source: "Raaznet Aggregation"
 content_type: "Educational Guide"
 security_level: "High"

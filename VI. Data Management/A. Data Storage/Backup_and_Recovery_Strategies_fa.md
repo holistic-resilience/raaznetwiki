@@ -1,5 +1,5 @@
 ---
-title: "Backup and Recovery Strategies"
+title: "راهبردهای پشتیبان‌گیری و بازیابی"
 tags:
   [
     پشتیبان‌گیری,

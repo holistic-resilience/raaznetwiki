@@ -1,5 +1,5 @@
 ---
-title: "Secure Whistleblowing and Data Submission"
+title: "افشاگری امن و ارسال داده"
 tags:
   [
     افشاگری,

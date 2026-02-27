@@ -1,5 +1,5 @@
 ---
-title: "macOS Privacy and Hardening"
+title: "حریم خصوصی و ایمن‌سازی macOS"
 tags:
   [
     مک‌اواس,

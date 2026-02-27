@@ -1,5 +1,5 @@
 ---
-title: "Anti-Doxing and Social Footprint Reduction"
+title: "مقابله با داکسینگ و کاهش ردپای اجتماعی"
 tags:
   [
     داکسینگ,

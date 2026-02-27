@@ -1,5 +1,5 @@
 ---
-title: "Secure Messaging: Fundamentals & Alternatives"
+title: "پیام‌رسانی امن: مبانی و جایگزین‌ها"
 tags: [پیام‌رسانی امن, رمزنگاری, ایران, نظارت, سیگنال, سیمپلکس, برایر, تلگرام]
 category: "Communication Platforms"
 difficulty: "Intermediate"

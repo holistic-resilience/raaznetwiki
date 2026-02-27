@@ -1,5 +1,5 @@
 ---
-title: "Web Tracking Technologies and Browser Security"
+title: "فناوری‌های ردیابی وب و امنیت مرورگر"
 tags:
   [
     امنیت-مرورگر,

@@ -1,5 +1,5 @@
 ---
-title: "iOS Security and Hardening"
+title: "امنیت و ایمن‌سازی iOS"
 tags:
   [
     آی‌او‌اس,

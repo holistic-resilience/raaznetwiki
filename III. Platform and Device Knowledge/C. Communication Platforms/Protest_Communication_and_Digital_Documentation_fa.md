@@ -1,5 +1,5 @@
 ---
-title: "Protest Communication and Digital Documentation"
+title: "ارتباطات اعتراضی و مستندسازی دیجیتال"
 tags:
   [
     امنیت-اعتراضات,

@@ -1,5 +1,5 @@
 ---
-title: "Organizational Security and Group Dynamics"
+title: "امنیت سازمانی و پویایی گروهی"
 tags:
   [
     امنیت-سازمانی,

@@ -1,5 +1,5 @@
 ---
-title: "Holistic and Organizational Security Strategy"
+title: "راهبرد جامع و سازمانی امنیت"
 tags:
   [
     امنیت-جامع,

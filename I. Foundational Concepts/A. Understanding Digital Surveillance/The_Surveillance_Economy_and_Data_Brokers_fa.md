@@ -1,5 +1,5 @@
 ---
-title: "The Surveillance Economy and Data Brokers"
+title: "اقتصاد نظارتی و دلالان داده"
 tags:
   [
     سرمایه‌داری نظارتی,

@@ -1,5 +1,5 @@
 ---
-title: "Email Security: Providers and Client Configuration"
+title: "امنیت ایمیل: ارائه‌دهندگان و پیکربندی کلاینت"
 tags: [امنیت ایمیل, حریم خصوصی, رمزگذاری, openpgp, کلاینت‌ها, نظارت, ایران]
 category: "Communication Platforms"
 difficulty: "Intermediate"

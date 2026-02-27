@@ -1,5 +1,5 @@
 ---
-title: "Google Services Privacy and Hardening"
+title: "حریم خصوصی و ایمن‌سازی سرویس‌های گوگل"
 tags:
   [
     گوگل,

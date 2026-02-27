@@ -1,5 +1,5 @@
 ---
-title: "WhatsApp Security Guide"
+title: "راهنمای امنیت واتس‌اپ"
 tags:
   [
     واتس‌اپ,

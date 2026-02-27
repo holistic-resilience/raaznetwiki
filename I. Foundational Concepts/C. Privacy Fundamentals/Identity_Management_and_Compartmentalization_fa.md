@@ -1,5 +1,5 @@
 ---
-title: "Identity Management and Compartmentalization"
+title: "مدیریت هویت و بخش‌بندی"
 tags:
   [
     حریم خصوصی,

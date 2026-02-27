@@ -1,5 +1,5 @@
 ---
-title: "Router Firmware and Self-Hosting"
+title: "فریمور روتر و میزبانی شخصی"
 tags:
   [
     امنیت-روتر,

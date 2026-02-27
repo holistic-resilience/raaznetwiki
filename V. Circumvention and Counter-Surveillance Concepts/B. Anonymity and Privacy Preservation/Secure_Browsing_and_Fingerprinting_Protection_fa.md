@@ -1,5 +1,5 @@
 ---
-title: "Secure Browsing and Fingerprinting Protection"
+title: "مرور امن و محافظت در برابر اثرانگشت مرورگر"
 tags:
   [
     حریم خصوصی,

@@ -1,5 +1,5 @@
 ---
-title: "Transactional Privacy and Cryptocurrency"
+title: "حریم خصوصی تراکنش‌ها و رمزارز"
 tags:
   [
     cryptocurrency,
@@ -22,7 +22,7 @@ topics:
     "Sanctions Evasion",
     "Blockchain Analysis",
   ]
-summary: "A comprehensive guide to financial privacy in the Iranian context, focusing on minimizing surveillance risks using cryptocurrencies, understanding the dangers of transparent blockchains, and navigating sanctions."
+summary: "راهنمای جامع حریم خصوصی مالی در بافت ایران، با تمرکز بر کاهش خطرات نظارتی با استفاده از رمزارزها، درک خطرات بلاک‌چین‌های شفاف، و پیمایش تحریم‌ها."
 source: "Raaznet Aggregation (Privacy Guides, Certfa, Freedom of the Press)"
 content_type: "Educational Guide"
 security_level: "High"

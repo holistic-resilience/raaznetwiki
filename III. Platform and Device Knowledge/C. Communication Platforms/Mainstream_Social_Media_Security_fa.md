@@ -1,5 +1,5 @@
 ---
-title: "Mainstream Social Media Security"
+title: "امنیت شبکه‌های اجتماعی رایج"
 tags:
   [
     شبکه‌های-اجتماعی,

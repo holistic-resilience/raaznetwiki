@@ -1,5 +1,5 @@
 ---
-title: "Commercial Platform Hardening and Data Minimization"
+title: "ایمن‌سازی پلتفرم‌های تجاری و کمینه‌سازی داده‌ها"
 tags:
   [
     ایمن‌سازی,

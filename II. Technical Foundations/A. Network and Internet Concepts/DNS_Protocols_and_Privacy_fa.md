@@ -1,5 +1,5 @@
 ---
-title: "DNS Protocols and Privacy"
+title: "پروتکل‌های DNS و حریم خصوصی"
 tags:
   [dns, doh, dot, encryption, privacy, censorship-circumvention, iran-internet]
 category: "Network and Internet Concepts"
@@ -12,7 +12,7 @@ topics:
     "Censorship Circumvention",
     "Network Privacy",
   ]
-summary: "A comprehensive guide to understanding DNS, its role in censorship and surveillance in Iran, and how to use encrypted protocols (DoH, DoT) to protect your digital footprint."
+summary: "راهنمای جامع درک DNS، نقش آن در سانسور و نظارت در ایران، و نحوه استفاده از پروتکل‌های رمزنگاری‌شده (DoH، DoT) برای محافظت از ردپای دیجیتال شما."
 source: "RaazNet Aggregation"
 content_type: "Educational Guide"
 security_level: "Essential"

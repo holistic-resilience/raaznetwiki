@@ -1,5 +1,5 @@
 ---
-title: "Biometric and Facial Recognition Systems"
+title: "سامانه‌های بیومتریک و تشخیص چهره"
 tags:
   [
     بیومتریک,

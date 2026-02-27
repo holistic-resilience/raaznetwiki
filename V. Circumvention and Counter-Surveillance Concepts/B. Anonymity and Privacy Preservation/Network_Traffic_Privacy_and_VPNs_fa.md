@@ -1,5 +1,5 @@
 ---
-title: "Network Traffic Privacy and VPNs"
+title: "حریم خصوصی ترافیک شبکه و VPN"
 tags:
   [
     وی‌پی‌ان,

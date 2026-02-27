@@ -1,5 +1,5 @@
 ---
-title: "Digital Hygiene and Account Lifecycle"
+title: "بهداشت دیجیتال و چرخه عمر حساب کاربری"
 tags:
   [
     بهداشت-دیجیتال,

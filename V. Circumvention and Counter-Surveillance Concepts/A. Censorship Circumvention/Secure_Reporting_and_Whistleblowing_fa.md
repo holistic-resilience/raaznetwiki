@@ -1,5 +1,5 @@
 ---
-title: "Secure Reporting and Whistleblowing"
+title: "گزارش‌دهی امن و افشاگری"
 tags:
   [
     افشاگری,

@@ -1,5 +1,5 @@
 ---
-title: "Browser Privacy and Extensions"
+title: "حریم خصوصی مرورگر و افزونه‌ها"
 tags:
   [
     حریم خصوصی,

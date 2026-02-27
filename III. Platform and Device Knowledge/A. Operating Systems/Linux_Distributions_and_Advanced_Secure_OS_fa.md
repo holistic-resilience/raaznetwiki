@@ -1,5 +1,5 @@
 ---
-title: "Linux Distributions and Advanced Secure OS"
+title: "توزیع‌های لینوکس و سیستم‌عامل‌های امن پیشرفته"
 tags:
   [
     لینوکس,

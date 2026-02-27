@@ -1,5 +1,5 @@
 ---
-title: "Self-Hosting and Decentralized Infrastructure"
+title: "میزبانی شخصی و زیرساخت غیرمتمرکز"
 tags:
   [
     self-hosting,
@@ -22,7 +22,7 @@ topics:
     "Privacy Frontends",
     "P2P Sync",
   ]
-summary: "A comprehensive guide to regaining digital sovereignty through self-hosting, router firmware upgrades, and decentralized infrastructure, tailored for the Iranian context."
+summary: "راهنمای جامع بازپس‌گیری حاکمیت دیجیتال از طریق میزبانی شخصی، ارتقای فریمور روتر، و زیرساخت غیرمتمرکز، متناسب با بافت ایران."
 source: "Aggregated from Privacy Guides, OpenWrt, and Security Analysis"
 content_type: "Technical Guide"
 security_level: "Advanced"

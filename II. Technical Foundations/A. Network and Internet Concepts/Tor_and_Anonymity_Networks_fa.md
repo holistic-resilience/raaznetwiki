@@ -1,5 +1,5 @@
 ---
-title: "Tor and Anonymity Networks"
+title: "Tor و شبکه‌های ناشناس‌سازی"
 tags:
   [
     tor,
@@ -17,7 +17,7 @@ difficulty: "Intermediate"
 audience: [General Public, Activists, Journalists, Privacy-Conscious Users]
 topics:
   ["Tor Network", "Anonymity", "Censorship Circumvention", "I2P", "Bridges"]
-summary: "Comprehensive guide to using Tor and I2P for anonymity and censorship circumvention in Iran, including bridge configuration and mobile tools."
+summary: "راهنمای جامع استفاده از Tor و I2P برای ناشناسی و دور زدن سانسور در ایران، شامل پیکربندی پل و ابزارهای موبایل."
 source: "Aggregated from Privacy Guides, Tor Project, and Security in a Box"
 content_type: "Educational Guide"
 security_level: "High"

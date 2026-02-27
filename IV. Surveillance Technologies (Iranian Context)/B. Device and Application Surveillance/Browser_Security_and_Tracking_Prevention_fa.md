@@ -1,5 +1,5 @@
 ---
-title: "Browser Security and Tracking Prevention"
+title: "امنیت مرورگر و جلوگیری از ردیابی"
 tags:
   [
     امنیت-مرورگر,

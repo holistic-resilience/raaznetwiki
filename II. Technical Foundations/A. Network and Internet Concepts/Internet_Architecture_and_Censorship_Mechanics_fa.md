@@ -1,5 +1,5 @@
 ---
-title: "Internet Architecture and Censorship Mechanics"
+title: "معماری اینترنت و سازوکارهای سانسور"
 tags:
   [
     internet-infrastructure,
@@ -21,7 +21,7 @@ topics:
     "Surveillance Mechanisms",
     "National Information Network",
   ]
-summary: "A technical overview of how the internet functions, how the Iranian regime intercepts and blocks traffic, and the theoretical foundations of circumvention."
+summary: "مروری فنی بر نحوه عملکرد اینترنت، چگونگی رهگیری و مسدودسازی ترافیک توسط حکومت ایران، و مبانی نظری دور زدن سانسور."
 source: "RaazNet Aggregated Knowledge"
 content_type: "Educational Guide"
 security_level: "Essential"

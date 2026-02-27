@@ -1,5 +1,5 @@
 ---
-title: "Decentralized Social Networks"
+title: "شبکه‌های اجتماعی غیرمتمرکز"
 tags:
   [
     تمرکززدایی,
