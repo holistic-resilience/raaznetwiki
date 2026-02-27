@@ -1,5 +1,5 @@
 ---
-title: "IoT and Smart Device Security Risks"
+title: "خطرات امنیتی اینترنت اشیاء و دستگاه‌های هوشمند"
 tags:
   [
     اینترنت-اشیاء,

@@ -1,5 +1,5 @@
 ---
-title: "Device Integrity and Advanced Spyware Defense"
+title: "یکپارچگی دستگاه و دفاع در برابر جاسوس‌افزارهای پیشرفته"
 tags:
   - یکپارچگی-دستگاه
   - جاسوس‌افزار

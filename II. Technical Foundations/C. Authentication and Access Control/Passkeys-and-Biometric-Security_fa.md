@@ -1,5 +1,5 @@
 ---
-title: "Passkeys and Biometric Security"
+title: "کلیدهای عبور و امنیت بیومتریک"
 tags:
   [
     passkeys,
@@ -22,7 +22,7 @@ topics:
     "Anti-Censorship",
     "Physical Security",
   ]
-summary: "A guide to understanding Passkeys and Biometrics in the Iranian context, focusing on phishing resistance, the risks of forced biometric unlock, and secure implementation strategies."
+summary: "راهنمای درک کلیدهای عبور و بیومتریک در بافت ایران، با تمرکز بر مقاومت در برابر فیشینگ، خطرات باز کردن اجباری بیومتریک، و راهبردهای پیاده‌سازی امن."
 source: "Raaznet"
 content_type: "Educational Guide"
 security_level: "High"

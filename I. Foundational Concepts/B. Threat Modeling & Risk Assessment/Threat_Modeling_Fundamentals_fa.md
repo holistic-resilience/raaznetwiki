@@ -1,5 +1,5 @@
 ---
-title: "Threat Modeling Fundamentals"
+title: "مبانی مدل‌سازی تهدید"
 tags:
   [
     مدل‌سازی-تهدید,

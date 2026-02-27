@@ -1,5 +1,5 @@
 ---
-title: "Mobile Security for High-Risk Scenarios"
+title: "امنیت موبایل برای شرایط پرخطر"
 tags:
   [
     امنیت-موبایل,

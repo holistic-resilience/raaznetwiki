@@ -1,5 +1,5 @@
 ---
-title: "Secure File Exchange and Anonymity"
+title: "تبادل امن فایل و ناشناسی"
 tags:
   [
     file-sharing,
@@ -21,7 +21,7 @@ topics:
     "Peer-to-Peer Sync",
     "Zero-Knowledge Cloud",
   ]
-summary: "A comprehensive guide on transferring files securely and anonymously within the Iranian internet landscape, bypassing censorship and surveillance mechanisms."
+summary: "راهنمای جامع انتقال امن و ناشناس فایل‌ها در فضای اینترنت ایران، با دور زدن سازوکارهای سانسور و نظارت."
 source: "Raaznet Aggregation (Privacy Guides, Freedom of the Press Foundation, Tactical Tech)"
 content_type: "Technical Guide"
 security_level: "High"

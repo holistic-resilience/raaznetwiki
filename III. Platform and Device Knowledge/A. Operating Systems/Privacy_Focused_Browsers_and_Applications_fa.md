@@ -1,5 +1,5 @@
 ---
-title: "Privacy-Focused Browsers and Applications"
+title: "مرورگرها و برنامه‌های متمرکز بر حریم خصوصی"
 tags:
   [
     حریم خصوصی,

@@ -1,5 +1,5 @@
 ---
-title: "Core Concepts: Privacy vs. Security"
+title: "مفاهیم پایه: حریم خصوصی در برابر امنیت"
 tags: [حریم خصوصی, امنیت, ناشناس بودن, نام مستعار, حقوق دیجیتال, مفاهیم پایه]
 category: "Privacy Fundamentals"
 difficulty: "Beginner"

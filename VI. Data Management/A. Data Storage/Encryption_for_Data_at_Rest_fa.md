@@ -1,5 +1,5 @@
 ---
-title: "Encryption for Data at Rest"
+title: "رمزنگاری داده‌های ذخیره‌شده"
 tags:
   [
     رمزنگاری,

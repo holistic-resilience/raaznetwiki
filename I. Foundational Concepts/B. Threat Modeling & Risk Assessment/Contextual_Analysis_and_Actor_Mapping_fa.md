@@ -1,5 +1,5 @@
 ---
-title: "Contextual Analysis and Actor Mapping"
+title: "تحلیل بافتاری و نقشه‌برداری بازیگران"
 tags:
   [
     تحلیل-بافتار,

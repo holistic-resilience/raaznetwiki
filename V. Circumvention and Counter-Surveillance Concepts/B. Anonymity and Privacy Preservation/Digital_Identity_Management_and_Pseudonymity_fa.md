@@ -1,5 +1,5 @@
 ---
-title: "Digital Identity Management and Pseudonymity"
+title: "مدیریت هویت دیجیتال و استفاده از نام مستعار"
 tags: [مدیریت هویت, نام مستعار, گمنامی, امنیت عملیاتی, ضد نظارت, بخش‌بندی]
 category: "Circumvention and Counter-Surveillance Concepts"
 difficulty: "Intermediate"

@@ -1,5 +1,5 @@
 ---
-title: "Multi-Factor Authentication Strategies"
+title: "راهبردهای احراز هویت چندعاملی"
 tags:
   [
     authentication,
@@ -15,7 +15,7 @@ category: "Authentication and Access Control"
 difficulty: "Intermediate"
 audience: [General Public, Activists, Journalists, At-Risk Users]
 topics: ["Digital Security", "Access Control", "Surveillance Resistance"]
-summary: "A comprehensive guide to Multi-Factor Authentication (MFA) tailored for the Iranian context, prioritizing methods resistant to state-level interception and SIM compromise."
+summary: "راهنمای جامع احراز هویت چندعاملی (MFA) متناسب با بافت ایران، با اولویت‌بندی روش‌های مقاوم در برابر رهگیری دولتی و نفوذ سیم‌کارت."
 source: "Raaznet Aggregated Resources"
 content_type: "Operational Guide"
 security_level: "High"

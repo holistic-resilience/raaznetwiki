@@ -1,5 +1,5 @@
 ---
-title: "Secure Device Wiping and File Shredding"
+title: "پاک‌سازی امن دستگاه و نابودی فایل"
 tags:
   [
     امحای داده,

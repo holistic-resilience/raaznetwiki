@@ -1,5 +1,5 @@
 ---
-title: "Alternative Access and Self-Hosting"
+title: "دسترسی جایگزین و میزبانی شخصی"
 tags:
   [
     میزبانی-شخصی,

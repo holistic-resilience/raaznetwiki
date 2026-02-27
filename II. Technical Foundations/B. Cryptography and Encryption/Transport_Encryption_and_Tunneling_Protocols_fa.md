@@ -1,5 +1,5 @@
 ---
-title: "Transport Encryption and Tunneling Protocols_fa"
+title: "رمزنگاری انتقال و پروتکل‌های تونل‌زنی"
 tags:
   [
     encryption,
@@ -24,7 +24,7 @@ topics:
     "Censorship Circumvention",
     "Deep Packet Inspection",
   ]
-summary: "A comprehensive guide to how data is secured in transit, covering TLS/SSL, standard VPN protocols, and advanced obfuscation methods (V2Ray, Reality, Shadowsocks) necessary to bypass Iranian censorship."
+summary: "راهنمای جامع نحوه ایمن‌سازی داده‌ها در حین انتقال، شامل TLS/SSL، پروتکل‌های استاندارد VPN، و روش‌های پیشرفته مبهم‌سازی (V2Ray، Reality، Shadowsocks) ضروری برای دور زدن سانسور ایران."
 source: "Raaznet Aggregation"
 content_type: "Technical Guide"
 security_level: "Essential"

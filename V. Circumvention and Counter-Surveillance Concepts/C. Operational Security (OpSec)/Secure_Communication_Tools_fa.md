@@ -1,5 +1,5 @@
 ---
-title: "Secure Communication Tools"
+title: "ابزارهای ارتباطی امن"
 tags:
   [
     پیام‌رسانی-امن,

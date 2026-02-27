@@ -1,5 +1,5 @@
 ---
-title: "Privacy-Preserving Software Alternatives"
+title: "جایگزین‌های نرم‌افزاری حافظ حریم خصوصی"
 tags: [حریم خصوصی, متن‌باز, ضد نظارت, امنیت ایران, دور زدن سانسور, فاس]
 category: "Device and Application Surveillance"
 difficulty: "Intermediate"

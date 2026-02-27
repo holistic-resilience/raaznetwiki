@@ -1,5 +1,5 @@
 ---
-title: "Visual, Audio, and Aerial Surveillance Systems"
+title: "سامانه‌های نظارت تصویری، صوتی و هوایی"
 tags:
   [
     "نظارت",

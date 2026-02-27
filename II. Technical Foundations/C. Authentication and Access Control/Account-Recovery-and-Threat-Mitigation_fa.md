@@ -1,5 +1,5 @@
 ---
-title: "Account Recovery and Threat Mitigation"
+title: "بازیابی حساب کاربری و کاهش تهدید"
 tags:
   [
     account-recovery,
@@ -14,7 +14,7 @@ category: "Authentication and Access Control"
 difficulty: "Intermediate"
 audience: [Journalists, Activists, General Public]
 topics: ["Digital Security", "Incident Response", "Threat Mitigation"]
-summary: "A comprehensive guide on detecting account compromise, executing immediate recovery steps, and mitigating high-risk threats like SIM swapping and state-sponsored surveillance in the Iranian context."
+summary: "راهنمای جامع تشخیص نفوذ به حساب کاربری، اجرای گام‌های فوری بازیابی، و کاهش تهدیدات پرخطر مانند جابه‌جایی سیم‌کارت و نظارت دولتی در بافت ایران."
 source: "Raaznet Aggregated Resources"
 content_type: "Guide"
 security_level: "High"

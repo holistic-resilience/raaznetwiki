@@ -1,5 +1,5 @@
 ---
-title: "Windows Privacy and Hardening"
+title: "حریم خصوصی و ایمن‌سازی ویندوز"
 tags:
   [
     امنیت-ویندوز,

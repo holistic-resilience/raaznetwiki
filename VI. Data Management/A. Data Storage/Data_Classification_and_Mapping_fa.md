@@ -1,5 +1,5 @@
 ---
-title: "Data Classification and Mapping"
+title: "طبقه‌بندی و نقشه‌برداری داده‌ها"
 tags:
   [
     حریم خصوصی داده‌ها,

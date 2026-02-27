@@ -1,5 +1,5 @@
 ---
-title: "Video Conferencing and Remote Collaboration Security"
+title: "امنیت ویدئوکنفرانس و همکاری از راه دور"
 tags:
   [
     ویدیو-کنفرانس,

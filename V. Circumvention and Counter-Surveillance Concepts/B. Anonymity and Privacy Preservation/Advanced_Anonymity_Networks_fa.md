@@ -1,5 +1,5 @@
 ---
-title: "Advanced Anonymity Networks: Tor, I2P, and Censorship Circumvention"
+title: "شبکه‌های پیشرفته ناشناس‌سازی: Tor، I2P و دور زدن سانسور"
 tags:
   [
     تور,

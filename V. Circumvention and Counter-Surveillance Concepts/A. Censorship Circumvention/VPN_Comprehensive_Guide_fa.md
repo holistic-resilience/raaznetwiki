@@ -1,5 +1,5 @@
 ---
-title: "VPN Comprehensive Guide: Privacy and Circumvention in Iran"
+title: "راهنمای جامع VPN: حریم خصوصی و دور زدن سانسور در ایران"
 tags: [وی‌پی‌ان, دور زدن سانسور, حریم خصوصی, رمزنگاری, امنیت دیجیتال, مبهم‌سازی]
 category: "Circumvention Tools"
 difficulty: "Intermediate"

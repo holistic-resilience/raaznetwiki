@@ -1,5 +1,5 @@
 ---
-title: "Device Security Fundamentals and Hardware"
+title: "مبانی امنیت دستگاه و سخت‌افزار"
 tags:
   [
     امنیت سخت‌افزار,

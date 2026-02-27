@@ -1,5 +1,5 @@
 ---
-title: "Doxxing Prevention and Response"
+title: "پیشگیری و واکنش به داکسینگ"
 tags:
   [
     داکسینگ,

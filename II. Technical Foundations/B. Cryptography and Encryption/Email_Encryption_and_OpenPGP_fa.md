@@ -1,5 +1,5 @@
 ---
-title: "Email Encryption and OpenPGP"
+title: "رمزنگاری ایمیل و OpenPGP"
 tags:
   [
     email-security,
@@ -22,7 +22,7 @@ topics:
     "Secure Email Providers",
     "Email Clients",
   ]
-summary: "A comprehensive guide to securing email communications in high-risk environments. Covers the limitations of standard email, the implementation of OpenPGP, and recommended providers and tools for Iranian users."
+summary: "راهنمای جامع ایمن‌سازی ارتباطات ایمیلی در محیط‌های پرخطر. شامل محدودیت‌های ایمیل استاندارد، پیاده‌سازی OpenPGP، و ارائه‌دهندگان و ابزارهای پیشنهادی برای کاربران ایرانی."
 source: "Raaznet Wiki"
 content_type: "Guide"
 security_level: "High"

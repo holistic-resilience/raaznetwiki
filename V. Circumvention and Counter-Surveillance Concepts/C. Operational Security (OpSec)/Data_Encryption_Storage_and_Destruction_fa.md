@@ -1,5 +1,5 @@
 ---
-title: "Data Encryption, Storage, and Destruction"
+title: "رمزنگاری، ذخیره‌سازی و نابودی داده‌ها"
 tags:
   [
     امنیت-داده,

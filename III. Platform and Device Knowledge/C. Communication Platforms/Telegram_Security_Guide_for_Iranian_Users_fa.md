@@ -1,5 +1,5 @@
 ---
-title: "Telegram Security Guide for Iranian Users"
+title: "راهنمای امنیت تلگرام برای کاربران ایرانی"
 tags:
   [
     تلگرام,

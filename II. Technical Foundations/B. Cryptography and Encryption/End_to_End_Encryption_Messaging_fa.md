@@ -1,5 +1,5 @@
 ---
-title: "End-to-End Encryption (E2EE) Messaging"
+title: "پیام‌رسانی با رمزنگاری سرتاسری (E2EE)"
 tags:
   [
     end-to-end-encryption,
@@ -21,7 +21,7 @@ topics:
     "Metadata Protection",
     "Account Security",
   ]
-summary: "A comprehensive guide to secure messaging in Iran, focusing on End-to-End Encryption (E2EE), bypassing censorship with Signal proxies, and understanding the risks of metadata and domestic applications."
+summary: "راهنمای جامع پیام‌رسانی امن در ایران، با تمرکز بر رمزنگاری سرتاسری (E2EE)، دور زدن سانسور با پراکسی سیگنال، و درک خطرات فراداده و برنامه‌های داخلی."
 source: "Raaznet Aggregation"
 content_type: "Educational Guide"
 security_level: "High"

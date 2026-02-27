@@ -1,5 +1,5 @@
 ---
-title: "Biometrics and Identity Profiling"
+title: "بیومتریک و نمایه‌سازی هویت"
 tags:
   [
     بیومتریک,

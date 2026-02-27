@@ -1,5 +1,5 @@
 ---
-title: "Physical Security and Crisis Preparedness"
+title: "امنیت فیزیکی و آمادگی برای بحران"
 tags:
   [
     امنیت-فیزیکی,

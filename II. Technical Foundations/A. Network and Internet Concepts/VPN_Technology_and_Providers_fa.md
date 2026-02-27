@@ -1,5 +1,5 @@
 ---
-title: "VPN Technology and Providers"
+title: "فناوری VPN و ارائه‌دهندگان"
 tags:
   [
     vpn,
@@ -21,7 +21,7 @@ topics:
     "Censorship Circumvention",
     "Secure Communications",
   ]
-summary: "Comprehensive guide to VPN technology, its role in privacy and censorship circumvention (specifically for Iran), selection criteria, and recommended providers with obfuscation capabilities."
+summary: "راهنمای جامع فناوری VPN، نقش آن در حریم خصوصی و دور زدن سانسور (به‌ویژه برای ایران)، معیارهای انتخاب، و ارائه‌دهندگان پیشنهادی با قابلیت مبهم‌سازی."
 source: "RaazNet Aggregated Resources"
 content_type: "Educational Guide"
 security_level: "Informational"

@@ -1,5 +1,5 @@
 ---
-title: "Self-Hosted Storage Solutions"
+title: "راه‌حل‌های ذخیره‌سازی خودمیزبان"
 tags: [میزبانی-شخصی, حاکمیت-دیجیتال, نکست‌کلاد, سینک‌تینگ, آنیون‌شیر, رمزنگاری]
 category: "Data Storage"
 difficulty: "Intermediate"

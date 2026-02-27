@@ -1,5 +1,5 @@
 ---
-title: "Social Media Security and Migration"
+title: "امنیت شبکه‌های اجتماعی و مهاجرت"
 tags:
   [
     شبکه‌های اجتماعی,

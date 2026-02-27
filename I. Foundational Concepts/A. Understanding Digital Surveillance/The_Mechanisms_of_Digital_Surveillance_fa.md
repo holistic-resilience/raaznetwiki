@@ -1,5 +1,5 @@
 ---
-title: "The Mechanisms of Digital Surveillance"
+title: "سازوکارهای نظارت دیجیتال"
 tags:
   [
     نظارت,

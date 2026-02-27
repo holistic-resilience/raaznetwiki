@@ -1,5 +1,5 @@
 ---
-title: "Anonymity Networks: Tor and I2P"
+title: "شبکه‌های ناشناس‌سازی: Tor و I2P"
 tags: [تور, i2p, ناشناس‌ماندن, دور-زدن-سانسور, پل‌ها, وب‌تانل, اسنوفلیک]
 category: "Circumventing Censorship"
 difficulty: "Intermediate"

@@ -1,5 +1,5 @@
 ---
-title: "Location Tracking and Mobile Telemetry"
+title: "ردیابی موقعیت مکانی و تله‌متری موبایل"
 tags:
   [
     ردیابی موقعیت مکانی,

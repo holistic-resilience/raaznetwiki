@@ -1,5 +1,5 @@
 ---
-title: "Metadata Management and File Sanitization"
+title: "مدیریت فراداده و پاکسازی فایل‌ها"
 tags:
   [
     متادیتا,

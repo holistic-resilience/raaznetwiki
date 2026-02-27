@@ -1,5 +1,5 @@
 ---
-title: "Hardware Isolation and Secondary Devices"
+title: "جداسازی سخت‌افزاری و دستگاه‌های ثانویه"
 tags:
   [
     امنیت سخت‌افزار,

@@ -1,5 +1,5 @@
 ---
-title: "Secure Password Storage and Managers"
+title: "ذخیره‌سازی امن رمز عبور و مدیران رمز عبور"
 tags:
   [
     password-manager,
@@ -14,7 +14,7 @@ category: "Authentication"
 difficulty: "Intermediate"
 audience: [General Public, Activists, Journalists]
 topics: ["Digital Security", "Password Management", "Data Protection"]
-summary: "A comprehensive guide to securely storing credentials using password managers, tailored for the Iranian context of internet shutdowns and device seizure risks."
+summary: "راهنمای جامع ذخیره‌سازی امن اعتبارنامه‌ها با استفاده از مدیران رمز عبور، متناسب با بافت ایران شامل قطعی اینترنت و خطر توقیف دستگاه."
 source: "Raaznet Wiki"
 content_type: "Technical Guide"
 security_level: "High"

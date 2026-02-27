@@ -1,5 +1,5 @@
 ---
-title: "Android Security Hardening and Customization"
+title: "ایمن‌سازی و سفارشی‌سازی امنیت اندروید"
 tags:
   [
     اندروید,

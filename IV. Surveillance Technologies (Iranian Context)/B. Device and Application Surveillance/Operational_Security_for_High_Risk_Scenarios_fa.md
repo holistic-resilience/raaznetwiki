@@ -1,5 +1,5 @@
 ---
-title: "Operational Security for High-Risk Scenarios"
+title: "امنیت عملیاتی برای شرایط پرخطر"
 tags:
   [
     امنیت عملیاتی,

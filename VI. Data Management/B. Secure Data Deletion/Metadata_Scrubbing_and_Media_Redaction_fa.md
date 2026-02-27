@@ -1,5 +1,5 @@
 ---
-title: "Metadata Scrubbing and Media Redaction"
+title: "پاکسازی فراداده و ویرایش رسانه‌ها"
 tags:
   [حریم خصوصی, متادیتا, exif, ویرایش امنیتی, گمنامی, اعتراضات, امنیت دیجیتال]
 category: "Data Management"

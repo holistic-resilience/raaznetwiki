@@ -1,5 +1,5 @@
 ---
-title: "Privacy-Focused Mobile Apps and Stores"
+title: "برنامه‌ها و فروشگاه‌های موبایل متمرکز بر حریم خصوصی"
 tags:
   [
     امنیت-موبایل,

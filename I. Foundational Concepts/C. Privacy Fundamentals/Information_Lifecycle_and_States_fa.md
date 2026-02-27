@@ -1,5 +1,5 @@
 ---
-title: "Information Lifecycle and States"
+title: "چرخه عمر اطلاعات و حالت‌های آن"
 tags:
   [
     امنیت-اطلاعات,

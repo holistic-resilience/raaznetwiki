@@ -1,5 +1,5 @@
 ---
-title: "Secure Cloud Storage and Sharing"
+title: "ذخیره‌سازی و اشتراک‌گذاری امن ابری"
 tags:
   [
     ذخیره‌سازی-ابری,

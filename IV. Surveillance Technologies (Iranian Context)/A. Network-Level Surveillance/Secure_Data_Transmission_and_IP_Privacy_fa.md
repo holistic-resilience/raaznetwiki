@@ -1,5 +1,5 @@
 ---
-title: "Secure Data Transmission and IP Privacy"
+title: "انتقال امن داده و حریم خصوصی IP"
 tags:
   [
     حریم-خصوصی-آی‌پی,

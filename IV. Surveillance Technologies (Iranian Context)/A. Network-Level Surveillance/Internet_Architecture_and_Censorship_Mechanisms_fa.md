@@ -1,5 +1,5 @@
 ---
-title: "Internet Architecture and Censorship Mechanisms"
+title: "معماری اینترنت و سازوکارهای سانسور"
 tags:
   [
     اینترنت-ایران,
