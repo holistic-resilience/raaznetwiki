@@ -173,4 +173,4 @@ estimated_read_time: "15 minutes"
 5.  [ ] **فعال‌سازی HTTPS-Only Mode** برای تشخیص تلاش‌های شنود.
 6.  [ ] **استفاده از فرانت‌اندها** برای استفاده سنگین از مدیا (یوتیوب/تیک‌تاک).
 
-**موضوعات مرتبط:** [[VPN Security]] | [[DNS over HTTPS]] | [[Tor Browser and Bridges]]
+**موضوعات مرتبط:** [VPN Security](../../مبانی-فنی/مفاهیم-شبکه-و-اینترنت/vpn-technology-and-providers) | [DNS over HTTPS](../../مبانی-فنی/مفاهیم-شبکه-و-اینترنت/dns-protocols-and-privacy) | [Tor Browser and Bridges](../../مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/دور-زدن-سانسور-و-فیلترینگ/anonymity-networks-tor-and-i2p)

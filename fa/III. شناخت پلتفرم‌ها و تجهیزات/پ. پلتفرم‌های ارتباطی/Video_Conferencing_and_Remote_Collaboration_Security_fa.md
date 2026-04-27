@@ -160,6 +160,6 @@ last_updated: "2026-02-18"
 
 **موضوعات مرتبط:**
 
-- [[Signal_Messenger_Comprehensive_Guide]]
-- [[Google_Services_Privacy_and_Hardening]]
-- [[VPN_and_Censorship_Circumvention_Strategies]]
+- [Signal_Messenger_Comprehensive_Guide](signal-messenger-comprehensive-guide)
+- [Google_Services_Privacy_and_Hardening](google-services-privacy-and-hardening)
+- [VPN_and_Censorship_Circumvention_Strategies](../../مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/دور-زدن-سانسور-و-فیلترینگ/vpn-comprehensive-guide)

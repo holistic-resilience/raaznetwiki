@@ -135,4 +135,4 @@ Once you have recovered your account, ensure it cannot be breached again easily.
 
 ---
 
-_Related Topics:_ [[Strong-Password-Fundamentals]], [[Multi-Factor-Authentication-Strategies]], [[Secure-Password-Storage-and-Managers]]
+_Related Topics:_ [Strong-Password-Fundamentals](strong-password-fundamentals), [Multi-Factor-Authentication-Strategies](multi-factor-authentication-strategies), [Secure-Password-Storage-and-Managers](secure-password-storage-and-managers)

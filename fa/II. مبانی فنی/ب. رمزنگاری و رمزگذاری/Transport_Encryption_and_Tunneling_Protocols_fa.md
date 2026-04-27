@@ -185,6 +185,6 @@ estimated_read_time: "12 minutes"
 
 ## موضوعات مرتبط
 
-- [[Understanding Digital Surveillance]]
-- [[Network and Internet Concepts]]
-- [[Censorship Circumvention]]
+- [Understanding Digital Surveillance](../../مفاهیم-بنیادین/شناخت-نظارت-و-پایش-دیجیتال)
+- [Network and Internet Concepts](../مفاهیم-شبکه-و-اینترنت)
+- [Censorship Circumvention](../../مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/دور-زدن-سانسور-و-فیلترینگ)

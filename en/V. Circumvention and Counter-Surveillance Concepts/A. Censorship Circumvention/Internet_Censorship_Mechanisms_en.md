@@ -135,6 +135,6 @@ The Iranian censorship system is not a static wall but a dynamic, intelligent ad
 
 **Related Concepts:**
 
-- [[VPN_Comprehensive_Guide|Comprehensive VPN Guide]]
-- [[Anonymity_Networks_Tor_and_I2P|Tor and Anonymity Networks]]
-- [[Alternative_Access_and_Self_Hosting|Alternative Access Methods]]
+- [Comprehensive VPN Guide](vpn-comprehensive-guide)
+- [Tor and Anonymity Networks](anonymity-networks-tor-and-i2p)
+- [Alternative Access Methods](alternative-access-and-self-hosting)

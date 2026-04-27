@@ -170,5 +170,5 @@ Mobile security is critical as smartphones are the primary access point in Iran.
 
 **Related Topics:**
 
-- [[Internet_Architecture_and_Censorship_Mechanisms]]
-- [[Secure_Data_Transmission_and_IP_Privacy]]
+- [Internet_Architecture_and_Censorship_Mechanisms](internet-architecture-and-censorship-mechanisms)
+- [Secure_Data_Transmission_and_IP_Privacy](secure-data-transmission-and-ip-privacy)

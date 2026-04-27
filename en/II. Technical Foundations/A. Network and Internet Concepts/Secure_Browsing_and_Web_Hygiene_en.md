@@ -31,7 +31,7 @@ The web browser is the primary window to the internet and, consequently, the mos
 
 This guide focuses on hardening your browsing environment, minimizing your digital footprint, and adopting hygiene habits that protect your identity and data.
 
-> **Note:** While this guide covers secure browsing on the "clearnet," for high-risk activities requiring anonymity, you must use the **Tor Browser**. Please refer to the [Tor and Anonymity Networks](Tor_and_Anonymity_Networks.md) guide.
+> **Note:** While this guide covers secure browsing on the "clearnet," for high-risk activities requiring anonymity, you must use the **Tor Browser**. Please refer to the [Tor and Anonymity Networks](tor-and-anonymity-networks) guide.
 
 ---
 

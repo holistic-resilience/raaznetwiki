@@ -118,6 +118,6 @@ Biometric surveillance in Iran is rapidly evolving from a forensic tool into a m
 
 **Related Topics:**
 
-- [[The_Mechanisms_of_Digital_Surveillance]]
-- [[The_Surveillance_Economy_and_Data_Brokers]]
-- [[Mobile_Device_Security]]
+- [The_Mechanisms_of_Digital_Surveillance](the-mechanisms-of-digital-surveillance)
+- [The_Surveillance_Economy_and_Data_Brokers](the-surveillance-economy-and-data-brokers)
+- [Mobile_Device_Security](../../platform-and-device-knowledge/mobile-devices)

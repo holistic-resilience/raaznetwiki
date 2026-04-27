@@ -173,6 +173,6 @@ If your VPN fails to connect:
 
 ## References & Further Reading
 
-- [[Internet_Censorship_Mechanisms]] - Understanding how the filtering works.
-- [[Anonymity_Networks_Tor_and_I2P]] - For higher anonymity needs.
-- [[Alternative_Access_and_Self_Hosting]] - Setting up your own VPN server.
+- [Internet_Censorship_Mechanisms](internet-censorship-mechanisms) - Understanding how the filtering works.
+- [Anonymity_Networks_Tor_and_I2P](anonymity-networks-tor-and-i2p) - For higher anonymity needs.
+- [Alternative_Access_and_Self_Hosting](alternative-access-and-self-hosting) - Setting up your own VPN server.

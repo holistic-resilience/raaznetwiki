@@ -185,6 +185,6 @@ The digital battlefield in Iran changes daily. A protocol that works today may b
 
 ## Related Topics
 
-- [[Understanding Digital Surveillance]]
-- [[Network and Internet Concepts]]
-- [[Censorship Circumvention]]
+- [Understanding Digital Surveillance](../../foundational-concepts/understanding-digital-surveillance)
+- [Network and Internet Concepts](../network-and-internet-concepts)
+- [Censorship Circumvention](../../circumvention-and-counter-surveillance-concepts/censorship-circumvention)

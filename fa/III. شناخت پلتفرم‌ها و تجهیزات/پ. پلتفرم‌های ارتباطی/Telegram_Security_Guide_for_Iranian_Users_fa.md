@@ -198,6 +198,6 @@ estimated_read_time: "15 minutes"
 
 **منابع مرتبط:**
 
-- [[Signal_Messenger_Comprehensive_Guide]] - برای یک جایگزین امن‌تر.
-- [[VPN_and_Censorship_Circumvention]] - برای روش‌های اتصال قابل اعتماد.
-- [[Mobile_Device_Security_Android]] - برای ایمن‌سازی دستگاهی که تلگرام روی آن اجرا می‌شود.
+- [Signal_Messenger_Comprehensive_Guide](signal-messenger-comprehensive-guide) - برای یک جایگزین امن‌تر.
+- [VPN_and_Censorship_Circumvention](../../مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/دور-زدن-سانسور-و-فیلترینگ/vpn-comprehensive-guide) - برای روش‌های اتصال قابل اعتماد.
+- [Mobile_Device_Security_Android](../دستگاههای-موبایل-تلفن-همراه/android-security-and-hardening) - برای ایمن‌سازی دستگاهی که تلگرام روی آن اجرا می‌شود.

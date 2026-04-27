@@ -187,5 +187,5 @@ If MVT confirms an infection, or if your device behaves erratically (rapid batte
 
 **Related Topics:**
 
-- [[Operational_Security_for_High_Risk_Scenarios]]
-- [[Commercial_Platform_Hardening_and_Data_Minimization]]
+- [Operational_Security_for_High_Risk_Scenarios](operational-security-for-high-risk-scenarios)
+- [Commercial_Platform_Hardening_and_Data_Minimization](commercial-platform-hardening-and-data-minimization)

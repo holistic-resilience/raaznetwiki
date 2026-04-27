@@ -163,7 +163,7 @@ A security plan transforms analysis into action. It should cover prevention, res
 When prevention fails (e.g., an arrest or raid), you need an immediate, pre-rehearsed plan.
 
 - **The Panic Button:** Is there a mechanism to alert the team immediately if a raid begins?
-- **Data Destruction:** Who is responsible for wiping devices? (See `Data_Encryption_Storage_and_Destruction.md`).
+- **Data Destruction:** Who is responsible for wiping devices? (See [Data Encryption, Storage, and Destruction](data-encryption-storage-and-destruction)).
 - **Legal Support:** Do you have a lawyer's number memorized or written on your body?
 - **Communication Tree:** Who calls whom? Ensure family members know what to do without revealing sensitive info.
 

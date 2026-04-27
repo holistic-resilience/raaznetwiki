@@ -187,5 +187,5 @@ last_updated: "2026-02-17"
 
 **موضوعات مرتبط:**
 
-- [[Operational_Security_for_High_Risk_Scenarios]]
-- [[Commercial_Platform_Hardening_and_Data_Minimization]]
+- [Operational_Security_for_High_Risk_Scenarios](operational-security-for-high-risk-scenarios)
+- [Commercial_Platform_Hardening_and_Data_Minimization](commercial-platform-hardening-and-data-minimization)

@@ -178,6 +178,6 @@ last_updated: "2026-02-19"
 
 ## منابع مرتبط
 
-- [[Core_Concepts_Privacy_vs_Security]] - درک تفاوت بین پنهان کردن محتوا و پنهان کردن هویت.
-- [[Information_Lifecycle_and_States]] - نحوه ماندگاری داده‌ها از زمان ایجاد تا حذف.
-- [[How to Choose a Secure and Reliable VPN Service]] - جلوگیری از نشت IP (آدرس اینترنتی).
+- [Core_Concepts_Privacy_vs_Security](core-concepts-privacy-vs-security) - درک تفاوت بین پنهان کردن محتوا و پنهان کردن هویت.
+- [Information_Lifecycle_and_States](information-lifecycle-and-states) - نحوه ماندگاری داده‌ها از زمان ایجاد تا حذف.
+- [How to Choose a Secure and Reliable VPN Service](../../مبانی-فنی/مفاهیم-شبکه-و-اینترنت/vpn-technology-and-providers) - جلوگیری از نشت IP (آدرس اینترنتی).

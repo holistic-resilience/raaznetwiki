@@ -166,4 +166,4 @@ A backup is a failure until you have successfully restored from it.
 
 ## Emergency Deletion
 
-If you are in immediate danger of a raid, you may need to destroy your data rather than save it. Please refer to **[[Secure_Data_Deletion]]** for instructions on wiping drives and destroying physical media.
+If you are in immediate danger of a raid, you may need to destroy your data rather than save it. Please refer to **[Secure_Data_Deletion](../secure-data-deletion)** for instructions on wiping drives and destroying physical media.

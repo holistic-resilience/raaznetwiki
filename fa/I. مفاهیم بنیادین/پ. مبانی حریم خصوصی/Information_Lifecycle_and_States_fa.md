@@ -170,7 +170,7 @@ estimated_read_time: "10 minutes"
 
 ## موضوعات مرتبط
 
-- **[[Core_Concepts_Privacy_vs_Security|حریم خصوصی در برابر امنیت]]**
-- **[[Digital_Footprint_and_Metadata|ردپای دیجیتال و فراداده]]**
-- **[[Information_at_Rest|محافظت از اطلاعات در حال استراحت]]**
-- **[[Secure_Communication_Guide|ارتباطات امن]]**
+- **[حریم خصوصی در برابر امنیت](core-concepts-privacy-vs-security)**
+- **[ردپای دیجیتال و فراداده](digital-footprint-and-metadata)**
+- **[محافظت از اطلاعات در حال استراحت](../../مبانی-فنی/رمزنگاری-و-رمزگذاری/encryption-at-rest-and-storage-security)**
+- **[ارتباطات امن](../../مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/امنیت-عملیاتی-opsec/secure-communication-tools)**

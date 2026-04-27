@@ -198,6 +198,6 @@ Many users use "Saved Messages" as personal cloud storage for photos and documen
 
 **Related Resources:**
 
-- [[Signal_Messenger_Comprehensive_Guide]] - For a more secure alternative.
-- [[VPN_and_Censorship_Circumvention]] - For reliable connection methods.
-- [[Mobile_Device_Security_Android]] - For securing the device running Telegram.
+- [Signal_Messenger_Comprehensive_Guide](signal-messenger-comprehensive-guide) - For a more secure alternative.
+- [VPN_and_Censorship_Circumvention](../../circumvention-and-counter-surveillance-concepts/censorship-circumvention/vpn-comprehensive-guide) - For reliable connection methods.
+- [Mobile_Device_Security_Android](../mobile-devices/android-security-and-hardening) - For securing the device running Telegram.

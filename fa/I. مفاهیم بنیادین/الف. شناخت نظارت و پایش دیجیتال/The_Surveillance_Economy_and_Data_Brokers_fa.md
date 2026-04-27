@@ -140,6 +140,6 @@ estimated_read_time: "10 minutes"
 
 **منابع مرتبط:**
 
-- [[The_Mechanisms_of_Digital_Surveillance|مکانیزم‌های نظارت دیجیتال]]
-- [[Biometrics_and_Identity_Profiling|بیومتریک و نمایه‌سازی هویت]]
-- [[Network-Level Surveillance|نظارت در سطح شبکه]]
+- [مکانیزم‌های نظارت دیجیتال](the-mechanisms-of-digital-surveillance)
+- [بیومتریک و نمایه‌سازی هویت](biometrics-and-identity-profiling)
+- [نظارت در سطح شبکه](../../فناوریهای-نظارتی-ویژه-شرایط-ایران/پایش-و-نظارت-در-سطح-شبکه)

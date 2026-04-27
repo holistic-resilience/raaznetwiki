@@ -148,6 +148,6 @@ estimated_read_time: "15 minutes"
 
 ## منابع مرتبط
 
-- [[Malware_and_Social_Engineering_Fundamentals]]
-- [[Mobile_Security_Spyware_and_Advanced_Protections]]
-- [[Identity_and_Access_Management]]
+- [Malware_and_Social_Engineering_Fundamentals](malware-and-social-engineering-fundamentals)
+- [Mobile_Security_Spyware_and_Advanced_Protections](mobile-security-spyware-and-advanced-protections)
+- [Identity_and_Access_Management](../احراز-هویت-و-کنترل-دسترسی)

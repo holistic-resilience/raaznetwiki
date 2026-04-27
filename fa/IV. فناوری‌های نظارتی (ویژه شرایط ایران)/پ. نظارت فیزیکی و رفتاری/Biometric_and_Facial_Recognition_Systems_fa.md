@@ -141,6 +141,6 @@ estimated_read_time: "15 minutes"
 
 **همچنین ببینید:**
 
-- [[Location_Tracking_and_Mobile_Telemetry|ردیابی موقعیت مکانی و تله‌متری موبایل]]
-- [[Visual_Audio_and_Aerial_Surveillance_Systems|سیستم‌های نظارت تصویری، صوتی و هوایی]]
-- [[Operational_Security_(OpSec)|امنیت عملیاتی (OpSec)]]
+- [ردیابی موقعیت مکانی و تله‌متری موبایل](location-tracking-and-mobile-telemetry)
+- [سیستم‌های نظارت تصویری، صوتی و هوایی](visual-audio-and-aerial-surveillance-systems)
+- [امنیت عملیاتی (OpSec)](../../مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/امنیت-عملیاتی-opsec)

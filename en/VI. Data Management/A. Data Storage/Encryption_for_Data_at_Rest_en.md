@@ -157,6 +157,6 @@ We only recommend tools that meet these standards:
 
 **Related Topics:**
 
-- [[Backup_and_Recovery_Strategies]]
-- [[Secure_Cloud_Storage_and_Sharing]]
-- [[Secure_Data_Deletion]]
+- [Backup_and_Recovery_Strategies](backup-and-recovery-strategies)
+- [Secure_Cloud_Storage_and_Sharing](secure-cloud-storage-and-sharing)
+- [Secure_Data_Deletion](../secure-data-deletion)

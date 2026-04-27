@@ -177,6 +177,6 @@ Before sharing files, especially evidence of human rights violations, you must s
 
 ## Related Resources
 
-- [[Core_Concepts_Privacy_vs_Security]] - Understanding the difference between hiding content vs. hiding identity.
-- [[Information_Lifecycle_and_States]] - How data persists from creation to deletion.
-- [[How to Choose a Secure and Reliable VPN Service]] - Preventing IP leakage.
+- [Core_Concepts_Privacy_vs_Security](core-concepts-privacy-vs-security) - Understanding the difference between hiding content vs. hiding identity.
+- [Information_Lifecycle_and_States](information-lifecycle-and-states) - How data persists from creation to deletion.
+- [How to Choose a Secure and Reliable VPN Service](../../technical-foundations/network-and-internet-concepts/vpn-technology-and-providers) - Preventing IP leakage.

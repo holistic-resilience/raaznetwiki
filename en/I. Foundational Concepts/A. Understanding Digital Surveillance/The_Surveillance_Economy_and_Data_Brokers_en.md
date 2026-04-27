@@ -140,6 +140,6 @@ The surveillance economy transforms your daily digital life into a commodity sol
 
 **Related Resources:**
 
-- [[The_Mechanisms_of_Digital_Surveillance|The Mechanisms of Digital Surveillance]]
-- [[Biometrics_and_Identity_Profiling|Biometrics and Identity Profiling]]
-- [[Network-Level Surveillance]]
+- [The Mechanisms of Digital Surveillance](the-mechanisms-of-digital-surveillance)
+- [Biometrics and Identity Profiling](biometrics-and-identity-profiling)
+- [Network-Level Surveillance](../../surveillance-technologies-iranian-context/network-level-surveillance)

@@ -74,7 +74,7 @@ For almost all your accounts (Twitter, Email, Digikala, Snapp), you should **not
 - **Why:** It is mathematically impossible to guess and protects you from dictionary attacks.
 
 > [!INFO]
-> See our guide on [[Secure-Password-Storage-and-Managers]] to choose the right tool for this.
+> See our guide on [Secure-Password-Storage-and-Managers](secure-password-storage-and-managers) to choose the right tool for this.
 
 ### Strategy B: Diceware Passphrases (For Master Passwords)
 
@@ -191,4 +191,4 @@ Regularly check if your email or phone number has been part of a data breach.
 5.  [ ] **Do not rotate** passwords unless a breach occurs.
 6.  [ ] **Enable Multi-Factor Authentication (MFA)** wherever possible to add a layer beyond the password.
 
-> **Next Step:** Now that you understand the fundamentals, you need a secure way to store these unique credentials. Proceed to [[Secure-Password-Storage-and-Managers]].
+> **Next Step:** Now that you understand the fundamentals, you need a secure way to store these unique credentials. Proceed to [Secure-Password-Storage-and-Managers](secure-password-storage-and-managers).

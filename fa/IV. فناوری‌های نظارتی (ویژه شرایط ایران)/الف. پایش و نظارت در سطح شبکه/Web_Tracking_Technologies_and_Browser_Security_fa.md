@@ -168,5 +168,5 @@ last_updated: "2026-02-17"
 
 **موضوعات مرتبط:**
 
-- [[Internet_Architecture_and_Censorship_Mechanisms]]
-- [[Secure_Data_Transmission_and_IP_Privacy]]
+- [Internet_Architecture_and_Censorship_Mechanisms](internet-architecture-and-censorship-mechanisms)
+- [Secure_Data_Transmission_and_IP_Privacy](secure-data-transmission-and-ip-privacy)

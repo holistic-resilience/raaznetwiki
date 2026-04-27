@@ -164,6 +164,6 @@ estimated_read_time: "15 minutes"
 
 ## مراجع و مطالعه بیشتر
 
-- [[Internet_Censorship_Mechanisms]] - درک نحوه عملکرد فیلترینگ.
-- [[Anonymity_Networks_Tor_and_I2P]] - برای نیازهای گمنامی بالاتر.
-- [[Alternative_Access_and_Self_Hosting]] - راه‌اندازی سرور VPN شخصی.
+- [Internet_Censorship_Mechanisms](internet-censorship-mechanisms) - درک نحوه عملکرد فیلترینگ.
+- [Anonymity_Networks_Tor_and_I2P](anonymity-networks-tor-and-i2p) - برای نیازهای گمنامی بالاتر.
+- [Alternative_Access_and_Self_Hosting](alternative-access-and-self-hosting) - راه‌اندازی سرور VPN شخصی.

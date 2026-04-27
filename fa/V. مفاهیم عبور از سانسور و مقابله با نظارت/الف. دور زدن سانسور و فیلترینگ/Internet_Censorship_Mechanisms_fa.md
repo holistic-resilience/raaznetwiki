@@ -135,6 +135,6 @@ estimated_read_time: "15 minutes"
 
 **مفاهیم مرتبط:**
 
-- [[VPN_Comprehensive_Guide|راهنمای جامع VPN]]
-- [[Anonymity_Networks_Tor_and_I2P|تور و شبکه‌های ناشناس]]
-- [[Alternative_Access_and_Self_Hosting|روش‌های دسترسی جایگزین و سلف-هاستینگ]]
+- [راهنمای جامع VPN](vpn-comprehensive-guide)
+- [تور و شبکه‌های ناشناس](anonymity-networks-tor-and-i2p)
+- [روش‌های دسترسی جایگزین و سلف-هاستینگ](alternative-access-and-self-hosting)

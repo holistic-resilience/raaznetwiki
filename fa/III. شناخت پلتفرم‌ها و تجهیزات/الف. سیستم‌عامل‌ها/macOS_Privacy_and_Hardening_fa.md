@@ -173,7 +173,7 @@ last_updated: "2026-02-18"
 
 - **حریم خصوصی عمومی:** مرورگر **Mullvad Browser** یا **Brave** (نسخه مقاوم‌سازی شده).
 - **ناشناسی:** مرورگر **Tor Browser** (ضروری برای دور زدن سانسور).
-- _ارجاع:_ به فایل `Privacy_Focused_Browsers_and_Applications.md` مراجعه کنید.
+- _ارجاع:_ به [مرورگرها و اپلیکیشن‌های متمرکز بر حریم خصوصی](privacy-focused-browsers-and-applications) مراجعه کنید.
 
 ---
 

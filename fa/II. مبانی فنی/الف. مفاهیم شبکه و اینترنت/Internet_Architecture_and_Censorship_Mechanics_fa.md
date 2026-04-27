@@ -167,7 +167,7 @@ last_updated: "2026-02-12"
 
 ## موضوعات مرتبط
 
-- [[DNS_Protocols_and_Privacy]]
-- [[Tor_and_Anonymity_Networks]]
-- [[VPN_Technology_and_Providers]]
-- [[Secure_Browsing_and_Web_Hygiene]]
+- [DNS_Protocols_and_Privacy](dns-protocols-and-privacy)
+- [Tor_and_Anonymity_Networks](tor-and-anonymity-networks)
+- [VPN_Technology_and_Providers](vpn-technology-and-providers)
+- [Secure_Browsing_and_Web_Hygiene](secure-browsing-and-web-hygiene)

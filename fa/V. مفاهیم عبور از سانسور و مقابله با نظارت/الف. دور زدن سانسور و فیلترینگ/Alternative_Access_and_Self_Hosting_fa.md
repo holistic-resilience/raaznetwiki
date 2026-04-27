@@ -33,7 +33,7 @@ prerequisites:
     "Crypto payment knowledge (for VPS)",
   ]
 estimated_read_time: "12 minutes"
-related: "[[Internet_Censorship_Mechanisms]] [[VPN_Comprehensive_Guide]] [[Anonymity_Networks_Tor_and_I2P]]"
+related: "[Internet_Censorship_Mechanisms](internet-censorship-mechanisms) [VPN_Comprehensive_Guide](vpn-comprehensive-guide) [Anonymity_Networks_Tor_and_I2P](anonymity-networks-tor-and-i2p)"
 ---
 
 # دسترسی جایگزین و میزبانی شخصی (Self-Hosting)

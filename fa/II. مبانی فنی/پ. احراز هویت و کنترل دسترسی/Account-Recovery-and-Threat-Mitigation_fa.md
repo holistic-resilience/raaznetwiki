@@ -135,4 +135,4 @@ estimated_read_time: "10 minutes"
 
 ---
 
-_موضوعات مرتبط:_ [[Strong-Password-Fundamentals]], [[Multi-Factor-Authentication-Strategies]], [[Secure-Password-Storage-and-Managers]]
+_موضوعات مرتبط:_ [Strong-Password-Fundamentals](strong-password-fundamentals), [Multi-Factor-Authentication-Strategies](multi-factor-authentication-strategies), [Secure-Password-Storage-and-Managers](secure-password-storage-and-managers)

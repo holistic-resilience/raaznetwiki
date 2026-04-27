@@ -117,6 +117,6 @@ This mindset is dangerous, particularly in authoritarian contexts.
 
 **Related Topics:**
 
-- [[Threat_Modeling_and_Risk_Assessment|Threat Modeling & Risk Assessment]]
-- [[Network_and_Internet_Concepts|Network and Internet Concepts]]
-- [[Censorship_Circumvention|Censorship Circumvention]]
+- [Threat Modeling & Risk Assessment](../threat-modeling-and-risk-assessment)
+- [Network and Internet Concepts](../../technical-foundations/network-and-internet-concepts)
+- [Censorship Circumvention](../../circumvention-and-counter-surveillance-concepts/censorship-circumvention)

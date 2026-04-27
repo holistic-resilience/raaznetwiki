@@ -171,7 +171,7 @@ Do not use Safari for sensitive browsing, as its traffic can be correlated with 
 
 - **General Privacy:** **Mullvad Browser** or **Brave** (Hardened).
 - **Anonymity:** **Tor Browser** (Essential for circumvention).
-- _Reference:_ See `Privacy_Focused_Browsers_and_Applications.md`.
+- _Reference:_ See [Privacy-Focused Browsers and Applications](privacy-focused-browsers-and-applications).
 
 ---
 

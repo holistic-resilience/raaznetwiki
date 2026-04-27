@@ -149,6 +149,6 @@ In Iran, the likelihood of a phone being physically inspected by Basij or securi
 
 **Related Articles:**
 
-- [[Advanced_Mobile_Threats_and_Countermeasures]]
-- [[Android_Security_and_Hardening]]
-- [[Privacy_Focused_Mobile_Apps_and_Stores]]
+- [Advanced_Mobile_Threats_and_Countermeasures](advanced-mobile-threats-and-countermeasures)
+- [Android_Security_and_Hardening](android-security-and-hardening)
+- [Privacy_Focused_Mobile_Apps_and_Stores](privacy-focused-mobile-apps-and-stores)

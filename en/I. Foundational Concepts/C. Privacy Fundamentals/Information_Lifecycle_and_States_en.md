@@ -170,7 +170,7 @@ Not all data requires the same level of protection. Classifying data helps prior
 
 ## Related Topics
 
-- **[[Core_Concepts_Privacy_vs_Security|Privacy vs. Security]]**
-- **[[Digital_Footprint_and_Metadata|Digital Footprint and Metadata]]**
-- **[[Information_at_Rest|Protecting Information at Rest]]**
-- **[[Secure_Communication_Guide|Secure Communication]]**
+- **[Privacy vs. Security](core-concepts-privacy-vs-security)**
+- **[Digital Footprint and Metadata](digital-footprint-and-metadata)**
+- **[Protecting Information at Rest](../../technical-foundations/cryptography-and-encryption/encryption-at-rest-and-storage-security)**
+- **[Secure Communication](../../circumvention-and-counter-surveillance-concepts/operational-security-opsec/secure-communication-tools)**

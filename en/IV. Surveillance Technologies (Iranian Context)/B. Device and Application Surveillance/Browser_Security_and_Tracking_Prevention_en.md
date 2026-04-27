@@ -174,4 +174,4 @@ Many popular platforms (YouTube, Reddit, TikTok) require heavy JavaScript and ag
 5.  [ ] **Enable HTTPS-Only Mode** to detect interception attempts.
 6.  [ ] **Use Frontends** for heavy media consumption (YouTube/TikTok).
 
-**Related Topics:** [[VPN Security]] | [[DNS over HTTPS]] | [[Tor Browser and Bridges]]
+**Related Topics:** [VPN Security](../../technical-foundations/network-and-internet-concepts/vpn-technology-and-providers) | [DNS over HTTPS](../../technical-foundations/network-and-internet-concepts/dns-protocols-and-privacy) | [Tor Browser and Bridges](../../circumvention-and-counter-surveillance-concepts/censorship-circumvention/anonymity-networks-tor-and-i2p)

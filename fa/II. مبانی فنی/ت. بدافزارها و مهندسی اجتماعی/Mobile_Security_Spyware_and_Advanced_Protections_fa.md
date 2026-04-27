@@ -191,6 +191,6 @@ last_updated: "2026-02-15"
 
 ### منابع مرتبط
 
-- [[Desktop_OS_Hardening_and_Malware_Prevention]]
-- [[Countering_Social_Engineering_Phishing_and_Scams]]
-- [[Operational_Security_OpSec]]
+- [Desktop_OS_Hardening_and_Malware_Prevention](desktop-os-hardening-and-malware-prevention)
+- [Countering_Social_Engineering_Phishing_and_Scams](countering-social-engineering-phishing-and-scams)
+- [Operational_Security_OpSec](../../مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/امنیت-عملیاتی-opsec)

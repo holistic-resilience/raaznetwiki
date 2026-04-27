@@ -81,7 +81,7 @@ Extensions can introduce risks, but a few open-source ones are essential for sec
 
 - **Update Regularly:** Outdated browsers are the easiest target for malware. Enable automatic updates.
 - **Manage Cookies:** Configure your browser to delete cookies when you close it (or use an extension like Cookie AutoDelete).
-- **Do Not Save Passwords:** Browsers are not secure vaults. Use a dedicated [Password Manager](Data_Encryption_Storage_and_Destruction.md) (like KeePassXC or Bitwarden) instead of the browser's built-in password saver.
+- **Do Not Save Passwords:** Browsers are not secure vaults. Use a dedicated [Password Manager](../../technical-foundations/authentication-and-access-control/secure-password-storage-and-managers) (like KeePassXC or Bitwarden) instead of the browser's built-in password saver.
 
 ---
 
