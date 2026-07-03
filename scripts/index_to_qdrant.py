@@ -26,6 +26,9 @@ import yaml
 OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 QDRANT_URL = os.environ["QDRANT_URL"].rstrip("/")
 QDRANT_API_KEY = os.environ["QDRANT_API_KEY"]
+# Cloudflare Access service token — Qdrant is behind CF Access; these get us past the edge.
+CF_ACCESS_CLIENT_ID = os.environ.get("CF_ACCESS_CLIENT_ID", "")
+CF_ACCESS_CLIENT_SECRET = os.environ.get("CF_ACCESS_CLIENT_SECRET", "")
 
 COLLECTION = "raaznet_wiki"
 EMBED_MODEL = "text-embedding-3-small"
@@ -58,8 +61,11 @@ def _req(method, url, headers, body=None, timeout=120):
 
 
 def qdrant(method, path, body=None):
-    return _req(method, f"{QDRANT_URL}{path}",
-                {"api-key": QDRANT_API_KEY, "Content-Type": "application/json"}, body)
+    headers = {"api-key": QDRANT_API_KEY, "Content-Type": "application/json"}
+    if CF_ACCESS_CLIENT_ID and CF_ACCESS_CLIENT_SECRET:
+        headers["CF-Access-Client-Id"] = CF_ACCESS_CLIENT_ID
+        headers["CF-Access-Client-Secret"] = CF_ACCESS_CLIENT_SECRET
+    return _req(method, f"{QDRANT_URL}{path}", headers, body)
 
 
 def embed(texts):
