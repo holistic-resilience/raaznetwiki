@@ -61,7 +61,12 @@ def _req(method, url, headers, body=None, timeout=120):
 
 
 def qdrant(method, path, body=None):
-    headers = {"api-key": QDRANT_API_KEY, "Content-Type": "application/json"}
+    headers = {
+        "api-key": QDRANT_API_KEY,
+        "Content-Type": "application/json",
+        # Cloudflare blocks the default "Python-urllib" User-Agent as a bot; use a plain one.
+        "User-Agent": "raaznet-wiki-indexer/1.0",
+    }
     if CF_ACCESS_CLIENT_ID and CF_ACCESS_CLIENT_SECRET:
         headers["CF-Access-Client-Id"] = CF_ACCESS_CLIENT_ID
         headers["CF-Access-Client-Secret"] = CF_ACCESS_CLIENT_SECRET
