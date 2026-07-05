@@ -113,7 +113,7 @@ Based on privacy audits, transparency, and resistance to censorship, we recommen
   - Supports **Shadowsocks** and **V2Ray** bridges (via app settings) to bypass blocking.
   - **UDP-over-TCP** obfuscation.
 - **Pros:** Highly transparent, flat pricing, strong audit history.
-- **Cons:** Port forwarding recently removed (affects some P2P).
+- **Cons:** Port forwarding removed (affects some P2P). **Note:** Mullvad is phasing out OpenVPN entirely — its servers stop accepting OpenVPN connections in January 2026, leaving WireGuard (used inside its obfuscation modes) as the only option.
 
 ### 2. IVPN
 
@@ -140,7 +140,7 @@ Based on privacy audits, transparency, and resistance to censorship, we recommen
 ### Protocols
 
 - **WireGuard:** Modern, fast, and secure. However, its distinct traffic fingerprint is easily blocked in Iran. Use it only inside an obfuscated tunnel (e.g., Shadowsocks).
-- **OpenVPN (TCP):** Slower but harder to distinguish from regular HTTPS traffic, especially on port 443.
+- **OpenVPN (TCP):** Slower but harder to distinguish from regular HTTPS traffic, especially on port 443. Note that some providers (e.g., Mullvad) are dropping OpenVPN support, so verify your provider still offers it if you rely on this.
 - **Stealth/Obfuscated:** Always enable this in Iran to avoid DPI blocking.
 
 ### Kill Switch

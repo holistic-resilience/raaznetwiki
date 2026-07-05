@@ -52,6 +52,7 @@ Despite the irony of recommending a Google product for privacy, **Google Pixel**
 
 - **Titan M2 Security Chip:** A dedicated hardware component that handles encryption keys and verified boot. It isolates your most sensitive data (like your passcode) from the main processor, making it extremely difficult for forensic tools (like Cellebrite used by Iranian authorities) to brute-force your password.
 - **Verified Boot with Custom Keys:** Unlike other brands, Pixels allow you to lock the bootloader with _custom_ cryptographic keys. This ensures that only your trusted operating system (e.g., GrapheneOS) can run on the device. If an attacker tries to tamper with the OS, the phone will refuse to boot.
+- **Memory Tagging Extension (MTE):** The **Pixel 8 and newer** support ARM's Memory Tagging Extension, a hardware feature that drastically lowers the probability of exploits that rely on memory-corruption bugs — the same class of vulnerability used by advanced mobile spyware. GrapheneOS enables MTE far more broadly than stock Android (in the kernel, system components, and its Vanadium browser by default, with a global toggle for user-installed apps). For high-risk users buying new hardware, this makes the Pixel 8 series or later the preferred choice.
 - **Hardware Microphone/Camera Kill Switches:** Not physical switches, but deep hardware-level software toggles in Android 12+ (enhanced by GrapheneOS) allow you to completely cut power to sensors.
 
 ### Hardware to Avoid
@@ -105,7 +106,7 @@ If you cannot afford a Pixel or already own a supported device (like an older On
 
 ### Step 1: Procurement
 
-- Buy a **Google Pixel 6a, 7, or 8** (series). "a" series are cheaper and offer identical security features.
+- Buy a **Google Pixel 6a, 7, or 8** (series). "a" series are cheaper and offer identical security features. If your budget allows, prefer the **Pixel 8 or newer**, which add Memory Tagging Extension (MTE) support for stronger exploit resistance.
 - Ideally, buy with cash or cryptocurrency. If buying in Iran, try to avoid linking the purchase to your primary identity if possible.
 
 ### Step 2: Installation
@@ -138,7 +139,7 @@ In Iran, the likelihood of a phone being physically inspected by Basij or securi
 
 ## Summary Checklist
 
-- [ ] **Hardware:** Google Pixel 6 or newer.
+- [ ] **Hardware:** Google Pixel 6 or newer (Pixel 8 or newer preferred for MTE support).
 - [ ] **OS:** GrapheneOS installed and bootloader LOCKED.
 - [ ] **Connectivity:** Wi-Fi only (preferred) or data-only SIM in a separate MiFi router.
 - [ ] **Apps:** Installed via Obtainium or Aurora Store (No Google Account signed in).
