@@ -1,0 +1,55 @@
+name: Upstream sync (privacyguides → wiki)
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "privacyguides release tag to sync (blank = latest release)"
+        required: false
+        default: ""
+      upstream_repo:
+        description: "upstream repo (owner/name)"
+        required: false
+        default: "privacyguides/privacyguides.org"
+  # Weekly poll of the latest release — enable once the flow is trusted.
+  # schedule:
+  #   - cron: "0 8 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: upstream-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet anthropic pyyaml
+      - name: Review upstream release against the wiki
+        id: sync
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ inputs.release_tag }}
+          UPSTREAM_REPO: ${{ inputs.upstream_repo }}
+          PR_BODY_PATH: ${{ runner.temp }}/upstream_sync_body.md
+        run: python scripts/upstream_sync.py
+      - name: Open draft PR with proposed edits
+        if: steps.sync.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: ${{ steps.sync.outputs.branch }}
+          title: ${{ steps.sync.outputs.pr_title }}
+          body-path: ${{ steps.sync.outputs.body_path }}
+          draft: true
+          labels: upstream-sync
+          commit-message: ${{ steps.sync.outputs.pr_title }}
+          add-paths: |
+            en/**
