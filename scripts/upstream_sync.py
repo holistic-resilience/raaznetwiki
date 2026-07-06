@@ -6,11 +6,14 @@ Given a privacyguides.org release, this:
   1. resolves the release + its predecessor and fetches the markdown diff
      (the GitHub compare view) between the two tags,
   2. builds a compact index of the English wiki (`en/**/*.md` frontmatter),
-  3. asks Claude which wiki pages the upstream changes plausibly affect (triage),
-  4. asks Claude to draft a concrete edit for each affected page,
+  3. asks an LLM which wiki pages the upstream changes plausibly affect (triage),
+  4. asks the LLM to draft a concrete edit for each affected page,
   5. writes the revised files into the working tree and emits a PR body,
 
 so a GitHub Action can open a *draft* PR for human review. English only.
+
+The LLM is called through OpenRouter (any OpenAI-compatible model), so the only
+credential is an org-owned OpenRouter key — no per-vendor SDK, no personal key.
 
 Runs in CI (see .github/workflows/upstream-sync.yml) or locally as a dry run:
 
@@ -18,30 +21,30 @@ Runs in CI (see .github/workflows/upstream-sync.yml) or locally as a dry run:
     git diff        # inspect the proposed changes, then `git checkout .` to revert
 
 Env:
-  ANTHROPIC_API_KEY  required
-  GITHUB_TOKEN       GitHub API auth (optional locally, higher rate limits)
-  UPSTREAM_REPO      default "privacyguides/privacyguides.org"
-  RELEASE_TAG        release to sync; blank = latest release
-  ANTHROPIC_MODEL    default "claude-opus-4-8"
-  PR_BODY_PATH       where to write the PR body (default: <scratch>/pr_body.md)
-  GITHUB_OUTPUT      workflow outputs file (set by Actions; ignored locally)
+  OPENROUTER_API_KEY  required (org-owned key)
+  OPENROUTER_MODEL    default "deepseek/deepseek-chat"
+  GITHUB_TOKEN        GitHub API auth (optional locally, higher rate limits)
+  UPSTREAM_REPO       default "privacyguides/privacyguides.org"
+  RELEASE_TAG         release to sync; blank = latest release
+  PR_BODY_PATH        where to write the PR body (default: <scratch>/pr_body.md)
+  GITHUB_OUTPUT       workflow outputs file (set by Actions; ignored locally)
 """
 
 import glob
 import json
 import os
 import re
-import sys
 import urllib.error
 import urllib.request
 
 import yaml
-import anthropic
 
 UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "privacyguides/privacyguides.org")
 RELEASE_TAG = os.environ.get("RELEASE_TAG", "").strip()
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-opus-4-8")
+OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
+OPENROUTER_MODEL = os.environ.get("OPENROUTER_MODEL", "deepseek/deepseek-chat")
+OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 PR_BODY_PATH = os.environ.get("PR_BODY_PATH") or os.path.join(
     os.environ.get("RUNNER_TEMP", "/tmp"), "upstream_sync_body.md"
 )
@@ -51,7 +54,7 @@ MAX_TOTAL_PATCH = 60_000       # chars of upstream patch text total
 MAX_SINGLE_PATCH = 15_000      # chars per file before truncation
 
 WIKI_ROOT = "en"
-# raaznetwiki's mission — shared, stable prefix for both Claude stages (cached).
+# raaznetwiki's mission — shared, stable prefix for both LLM stages.
 MISSION = """\
 You maintain the English content of the Raaznet wiki (raaznetwiki), a digital-security
 and privacy knowledge base written for people in the Iranian context: activists,
@@ -62,10 +65,14 @@ tradeoffs — not a product-recommendation catalog.
 You are given changes from privacyguides.org, an upstream privacy project. privacyguides
 is a useful signal for what changed in the wider privacy landscape (a tool was
 recommended/deprecated, a technique's guidance shifted, a new threat emerged), but it is
-a Western, general-audience tool directory. Do NOT copy it verbatim. Only propose a wiki
-change when the upstream change reflects something that genuinely matters for the Raaznet
-audience and belongs in the affected page. When in doubt, prefer NOT changing content —
-false positives waste reviewer time. All output is reviewed by a human before merge."""
+a Western, general-audience tool directory. Do NOT copy it verbatim.
+
+Ground every proposal STRICTLY in facts contained in the provided upstream diff. Do not
+introduce information from your own knowledge, and do not propose a change the diff itself
+does not support — even if you believe it is true. Only propose a wiki change when the
+upstream diff reflects something that genuinely matters for the Raaznet audience and
+belongs in the affected page. When in doubt, prefer NOT changing content — false positives
+waste reviewer time. All output is reviewed by a human before merge."""
 
 log = lambda m: print(m, flush=True)
 
@@ -177,33 +184,70 @@ def wiki_index():
 
 
 # --------------------------------------------------------------------------- #
-# Claude
+# LLM (OpenRouter, OpenAI-compatible)
 # --------------------------------------------------------------------------- #
 
-client = anthropic.Anthropic()
+def _extract_json(text):
+    """Tolerant JSON extraction — strips code fences / surrounding prose."""
+    text = text.strip()
+    text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text, flags=re.MULTILINE).strip()
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        pass
+    start, end = text.find("{"), text.rfind("}")
+    if start != -1 and end != -1 and end > start:
+        return json.loads(text[start:end + 1])
+    raise ValueError("no JSON object found in model output")
 
 
-def ask_claude(user_text, schema, max_tokens):
-    """One structured-output call. Streams (avoids HTTP timeouts) and returns parsed JSON."""
-    system = [{"type": "text", "text": MISSION, "cache_control": {"type": "ephemeral"}}]
-    with client.messages.stream(
-        model=MODEL,
-        max_tokens=max_tokens,
-        system=system,
-        thinking={"type": "adaptive"},
-        output_config={"effort": "high", "format": {"type": "json_schema", "schema": schema}},
-        messages=[{"role": "user", "content": user_text}],
-    ) as stream:
-        msg = stream.get_final_message()
-    u = msg.usage
-    log(f"    tokens: in={u.input_tokens} out={u.output_tokens} "
-        f"cache_read={getattr(u, 'cache_read_input_tokens', 0)}")
-    if msg.stop_reason == "refusal":
-        raise RuntimeError("Claude refused the request")
-    text = next((b.text for b in msg.content if b.type == "text"), None)
-    if text is None:
-        raise RuntimeError("no text block in Claude response")
-    return json.loads(text)
+def ask_llm(user_text, schema, max_tokens):
+    """One structured call via OpenRouter. Returns parsed JSON (json_object mode)."""
+    system = (
+        MISSION
+        + "\n\nRespond with a SINGLE JSON object conforming to this JSON schema "
+        "(no markdown, no commentary):\n" + json.dumps(schema)
+    )
+    body = {
+        "model": OPENROUTER_MODEL,
+        "messages": [
+            {"role": "system", "content": system},
+            {"role": "user", "content": user_text},
+        ],
+        "response_format": {"type": "json_object"},
+        "temperature": 0,
+        "max_tokens": max_tokens,
+    }
+    for attempt in range(2):
+        req = urllib.request.Request(
+            OPENROUTER_URL,
+            data=json.dumps(body).encode(),
+            headers={
+                "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+                "Content-Type": "application/json",
+                "X-Title": "raaznet-upstream-sync",
+            },
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=300) as resp:
+                data = json.loads(resp.read())
+        except urllib.error.HTTPError as e:
+            raise RuntimeError(f"OpenRouter {e.code}: {e.read().decode()[:300]}")
+        u = data.get("usage") or {}
+        log(f"    tokens: in={u.get('prompt_tokens')} out={u.get('completion_tokens')} "
+            f"model={data.get('model')}")
+        content = data["choices"][0]["message"]["content"]
+        try:
+            return _extract_json(content)
+        except (ValueError, json.JSONDecodeError):
+            if attempt == 0:
+                body["messages"] += [
+                    {"role": "assistant", "content": content},
+                    {"role": "user", "content": "That was not valid JSON. Reply with ONLY the JSON object."},
+                ]
+                continue
+            raise RuntimeError("model did not return valid JSON after retry")
 
 
 TRIAGE_SCHEMA = {
@@ -255,7 +299,7 @@ def triage(changes, index):
         "List at most one candidate per wiki page. Return an empty list if nothing is "
         "relevant to the Raaznet audience. Be conservative."
     )
-    return ask_claude(user, TRIAGE_SCHEMA, max_tokens=8000)["candidates"]
+    return ask_llm(user, TRIAGE_SCHEMA, max_tokens=4000)["candidates"]
 
 
 def draft_edit(wiki_path, files_for_page, current):
@@ -273,7 +317,7 @@ def draft_edit(wiki_path, files_for_page, current):
         "voice, and do not invent facts. Otherwise set action=\"no_change\" (new_content "
         "empty). Put a one-to-three sentence justification in rationale either way."
     )
-    return ask_claude(user, EDIT_SCHEMA, max_tokens=32000)
+    return ask_llm(user, EDIT_SCHEMA, max_tokens=8000)
 
 
 # --------------------------------------------------------------------------- #
@@ -328,7 +372,7 @@ def build_pr_body(tag, prev, edits, new_topics, dropped):
 def main():
     tag, body = resolve_release()
     prev = previous_tag(tag, body)
-    log(f"Syncing {UPSTREAM_REPO} {prev} -> {tag}")
+    log(f"Syncing {UPSTREAM_REPO} {prev} -> {tag}  (model: {OPENROUTER_MODEL})")
 
     changes, dropped = upstream_changes(prev, tag)
     log(f"{len(changes)} upstream markdown content file(s) changed")
