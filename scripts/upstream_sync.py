@@ -22,7 +22,7 @@ Runs in CI (see .github/workflows/upstream-sync.yml) or locally as a dry run:
 
 Env:
   OPENROUTER_API_KEY  required (org-owned key)
-  OPENROUTER_MODEL    default "deepseek/deepseek-chat"
+  OPENROUTER_MODEL    default "google/gemini-2.5-flash"
   GITHUB_TOKEN        GitHub API auth (optional locally, higher rate limits)
   UPSTREAM_REPO       default "privacyguides/privacyguides.org"
   RELEASE_TAG         release to sync; blank = latest release
@@ -43,7 +43,7 @@ UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "privacyguides/privacyguides.org
 RELEASE_TAG = os.environ.get("RELEASE_TAG", "").strip()
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
-OPENROUTER_MODEL = os.environ.get("OPENROUTER_MODEL", "deepseek/deepseek-chat")
+OPENROUTER_MODEL = os.environ.get("OPENROUTER_MODEL", "google/gemini-2.5-flash")
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 PR_BODY_PATH = os.environ.get("PR_BODY_PATH") or os.path.join(
     os.environ.get("RUNNER_TEMP", "/tmp"), "upstream_sync_body.md"
@@ -278,9 +278,20 @@ EDIT_SCHEMA = {
     "properties": {
         "action": {"type": "string", "enum": ["edit", "no_change"]},
         "rationale": {"type": "string"},
-        "new_content": {"type": "string"},
+        "edits": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": False,
+                "properties": {
+                    "old_string": {"type": "string"},
+                    "new_string": {"type": "string"},
+                },
+                "required": ["old_string", "new_string"],
+            },
+        },
     },
-    "required": ["action", "rationale", "new_content"],
+    "required": ["action", "rationale", "edits"],
 }
 
 
@@ -312,12 +323,17 @@ def draft_edit(wiki_path, files_for_page, current):
         f"-----\n{current}\n-----\n\n"
         f"RELEVANT UPSTREAM CHANGES:\n{patches}\n\n"
         "If the page genuinely warrants an update for the Raaznet audience, set "
-        "action=\"edit\" and return the COMPLETE revised file in new_content — make the "
-        "smallest change that does the job, preserve the YAML frontmatter and the page's "
-        "voice, and do not invent facts. Otherwise set action=\"no_change\" (new_content "
-        "empty). Put a one-to-three sentence justification in rationale either way."
+        "action=\"edit\" and return a list of surgical `edits`, each a find/replace pair:\n"
+        "  - `old_string`: copied VERBATIM from the page above (exact characters, "
+        "whitespace, and punctuation) and long enough to occur exactly once.\n"
+        "  - `new_string`: the replacement.\n"
+        "Change ONLY what the update requires — do not reflow, re-indent, or reformat any "
+        "surrounding text, and do not touch the YAML frontmatter unless the change is to a "
+        "frontmatter field. Keep the page's voice; do not invent facts. If nothing warrants "
+        "changing, set action=\"no_change\" with an empty `edits` list. Put a one-to-three "
+        "sentence justification in rationale either way."
     )
-    return ask_llm(user, EDIT_SCHEMA, max_tokens=8000)
+    return ask_llm(user, EDIT_SCHEMA, max_tokens=4000)
 
 
 # --------------------------------------------------------------------------- #
@@ -350,6 +366,8 @@ def build_pr_body(tag, prev, edits, new_topics, dropped):
         lines += ["| Wiki page | Why (from upstream) |", "| --- | --- |"]
         for e in edits:
             reason = e["rationale"].replace("\n", " ").replace("|", "\\|")
+            if e.get("skipped"):
+                reason += f" _({e['skipped']} suggested edit(s) could not be auto-applied)_"
             lines.append(f"| `{e['wiki_path']}` | {reason} |")
     else:
         lines.append("_No page edits proposed._")
@@ -405,13 +423,30 @@ def main():
         log(f"  drafting edit for {wp}…")
         current = open(wp, encoding="utf-8").read()
         result = draft_edit(wp, files_for_page, current)
-        if result["action"] != "edit" or not result["new_content"].strip():
+        proposed = result.get("edits") or []
+        if result["action"] != "edit" or not proposed:
             log(f"    no change: {result['rationale']}")
             continue
+        # Apply each find/replace deterministically; require a unique match so we can
+        # never corrupt untouched text (a bad/paraphrased old_string is skipped, not forced).
+        updated, applied, skipped = current, 0, 0
+        for ed in proposed:
+            old, new = ed.get("old_string", ""), ed.get("new_string", "")
+            if old and updated.count(old) == 1:
+                updated = updated.replace(old, new, 1)
+                applied += 1
+            else:
+                skipped += 1
+                why = "not found" if not old or updated.count(old) == 0 else "not unique"
+                log(f"    skip one edit: old_string {why}")
+        if applied == 0:
+            log(f"    no applicable edits (all {skipped} skipped)")
+            continue
         with open(wp, "w", encoding="utf-8") as fh:
-            fh.write(result["new_content"])
-        edits.append({"wiki_path": wp, "rationale": result["rationale"]})
-        log(f"    proposed edit written")
+            fh.write(updated)
+        edits.append({"wiki_path": wp, "rationale": result["rationale"],
+                      "applied": applied, "skipped": skipped})
+        log(f"    applied {applied} edit(s)" + (f", skipped {skipped}" if skipped else ""))
 
     os.makedirs(os.path.dirname(PR_BODY_PATH) or ".", exist_ok=True)
     with open(PR_BODY_PATH, "w", encoding="utf-8") as fh:

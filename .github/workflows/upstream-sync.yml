@@ -36,7 +36,7 @@ jobs:
         id: sync
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          OPENROUTER_MODEL: deepseek/deepseek-chat
+          OPENROUTER_MODEL: google/gemini-2.5-flash
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RELEASE_TAG: ${{ inputs.release_tag }}
           UPSTREAM_REPO: ${{ inputs.upstream_repo }}
