@@ -11,9 +11,9 @@ on:
         description: "upstream repo (owner/name)"
         required: false
         default: "privacyguides/privacyguides.org"
-  # Weekly poll of the latest release — enable once the flow is trusted.
-  # schedule:
-  #   - cron: "0 8 * * 1"
+  # Weekly poll of the latest release (Mondays 08:00 UTC).
+  schedule:
+    - cron: "0 8 * * 1"
 
 permissions:
   contents: write
