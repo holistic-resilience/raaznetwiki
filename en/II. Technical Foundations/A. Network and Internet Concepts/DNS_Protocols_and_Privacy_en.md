@@ -24,6 +24,7 @@ prerequisites:
   ]
 estimated_read_time: "10 minutes"
 last_updated: "2026-02-12"
+other_language_path: "/fa/wiki/مبانی-فنی/مفاهیم-شبکه-و-اینترنت/dns-protocols-and-privacy"
 ---
 
 # DNS Protocols and Privacy

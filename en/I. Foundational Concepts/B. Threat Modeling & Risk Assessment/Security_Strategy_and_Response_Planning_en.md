@@ -30,6 +30,7 @@ prerequisites:
     "I.B. Risk Assessment and Threat Identification",
   ]
 estimated_read_time: "15 minutes"
+other_language_path: "/fa/wiki/مفاهیم-بنیادین/مدلسازی-تهدید-و-ارزیابی-ریسک/security-strategy-and-response-planning"
 ---
 
 # Security Strategy and Response Planning

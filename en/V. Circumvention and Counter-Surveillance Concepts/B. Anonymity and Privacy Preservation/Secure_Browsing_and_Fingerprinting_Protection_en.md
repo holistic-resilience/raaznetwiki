@@ -30,6 +30,7 @@ language: "English"
 prerequisites: ["Basic computer literacy", "Ability to install software"]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-17"
+other_language_path: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/ناشناسماندن-و-حفظ-حریم-خصوصی/secure-browsing-and-fingerprinting-protection"
 ---
 
 # Secure Browsing and Fingerprinting Protection

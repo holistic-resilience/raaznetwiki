@@ -33,6 +33,7 @@ prerequisites:
   ]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-15"
+other_language_path: "/en/wiki/technical-foundations/malware-and-social-engineering/mobile-security-spyware-and-advanced-protections"
 ---
 
 # امنیت موبایل، جاسوس‌افزارها و محافظت‌های پیشرفته

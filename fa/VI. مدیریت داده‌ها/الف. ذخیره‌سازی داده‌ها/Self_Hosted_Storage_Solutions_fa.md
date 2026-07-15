@@ -23,6 +23,7 @@ prerequisites:
     "Hardware (Laptop/Raspberry Pi)",
   ]
 estimated_read_time: "12 minutes"
+other_language_path: "/en/wiki/data-management/data-storage/self-hosted-storage-solutions"
 ---
 
 # راهکارهای ذخیره‌سازی با میزبانی شخصی (Self-Hosted)

@@ -29,6 +29,7 @@ prerequisites:
   ]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-18"
+other_language_path: "/en/wiki/platform-and-device-knowledge/mobile-devices/mobile-security-for-high-risk-scenarios"
 ---
 
 # امنیت موبایل برای سناریوهای پرخطر

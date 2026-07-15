@@ -29,6 +29,7 @@ content_type: "Guide"
 security_level: "High"
 language: "Persian"
 last_updated: "2026-02-18"
+other_language_path: "/en/wiki/platform-and-device-knowledge/communication-platforms/mainstream-social-media-security"
 ---
 
 # امنیت در شبکه‌های اجتماعی اصلی

@@ -25,6 +25,7 @@ security_level: "Foundational"
 language: "Persian"
 prerequisites: ["Basic understanding of file management"]
 estimated_read_time: "10 minutes"
+other_language_path: "/en/wiki/data-management/data-storage/data-classification-and-mapping"
 ---
 
 # طبقه‌بندی و نقشه‌برداری داده‌ها

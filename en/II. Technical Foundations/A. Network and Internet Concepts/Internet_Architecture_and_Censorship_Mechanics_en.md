@@ -29,6 +29,7 @@ language: "English"
 prerequisites: ["Basic Computer Literacy"]
 estimated_read_time: "12 minutes"
 last_updated: "2026-02-12"
+other_language_path: "/fa/wiki/مبانی-فنی/مفاهیم-شبکه-و-اینترنت/internet-architecture-and-censorship-mechanics"
 ---
 
 # Internet Architecture and Censorship Mechanics

@@ -33,6 +33,7 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-17"
+other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/anonymity-and-privacy-preservation/network-traffic-privacy-and-vpns"
 ---
 
 # حریم خصوصی ترافیک شبکه و وی‌پی‌ان‌ها (VPNs)

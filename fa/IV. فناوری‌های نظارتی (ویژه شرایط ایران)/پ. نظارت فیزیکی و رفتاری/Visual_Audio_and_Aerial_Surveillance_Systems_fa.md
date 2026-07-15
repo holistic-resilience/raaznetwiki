@@ -34,6 +34,7 @@ prerequisites:
     "Familiarity with Iranian security context",
   ]
 estimated_read_time: "20 minutes"
+other_language_path: "/en/wiki/surveillance-technologies-iranian-context/physical-and-behavioral-surveillance/visual-audio-and-aerial-surveillance-systems"
 ---
 
 # سامانه‌های نظارت تصویری، صوتی و هوایی

@@ -21,6 +21,7 @@ security_level: "High"
 language: "Persian"
 prerequisites: ["Basic browser usage", "Understanding of extensions"]
 estimated_read_time: "10 minutes"
+other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/censorship-circumvention/browser-privacy-and-extensions"
 ---
 
 # حریم خصوصی در مرورگر و افزونه‌ها

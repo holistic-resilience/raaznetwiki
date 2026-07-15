@@ -34,6 +34,7 @@ prerequisites:
     "VPN/Circumvention tool",
   ]
 estimated_read_time: "20 minutes"
+other_language_path: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/پلتفرمهای-ارتباطی/google-services-privacy-and-hardening"
 ---
 
 # Google Services Privacy and Hardening

@@ -28,6 +28,7 @@ language: "English"
 prerequisites:
   ["Working VPN/Circumvention Tool", "Basic understanding of encryption"]
 estimated_read_time: "15 minutes"
+other_language_path: "/en/wiki/data-management/data-storage/secure-cloud-storage-and-sharing"
 ---
 
 # ذخیره‌سازی و اشتراک‌گذاری امن ابری

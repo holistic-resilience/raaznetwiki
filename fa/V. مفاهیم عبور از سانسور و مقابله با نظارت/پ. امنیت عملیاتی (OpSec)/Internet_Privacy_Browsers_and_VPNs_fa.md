@@ -23,6 +23,7 @@ language: "English"
 prerequisites:
   ["Basic understanding of internet usage", "Ability to install software"]
 estimated_read_time: "15 minutes"
+other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/operational-security-opsec/internet-privacy-browsers-and-vpns"
 ---
 
 # حریم خصوصی در اینترنت: مرورگرها، وی‌پی‌ان‌ها و تور

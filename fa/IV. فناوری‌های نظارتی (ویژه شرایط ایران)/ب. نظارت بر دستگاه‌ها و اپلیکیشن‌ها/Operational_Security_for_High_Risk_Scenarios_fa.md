@@ -28,6 +28,7 @@ language: "Persian"
 prerequisites:
   ["Basic digital security knowledge", "Familiarity with Signal and VPNs"]
 estimated_read_time: "15 minutes"
+other_language_path: "/en/wiki/surveillance-technologies-iranian-context/device-and-application-surveillance/operational-security-for-high-risk-scenarios"
 ---
 
 # امنیت عملیاتی برای شرایط پرخطر

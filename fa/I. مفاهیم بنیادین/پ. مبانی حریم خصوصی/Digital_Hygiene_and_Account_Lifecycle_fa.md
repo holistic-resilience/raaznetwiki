@@ -28,6 +28,7 @@ language: "English"
 prerequisites:
   ["Basic understanding of account settings", "Password Manager installed"]
 estimated_read_time: "15 minutes"
+other_language_path: "/en/wiki/foundational-concepts/privacy-fundamentals/digital-hygiene-and-account-lifecycle"
 ---
 
 # بهداشت دیجیتال و چرخه حیات حساب کاربری

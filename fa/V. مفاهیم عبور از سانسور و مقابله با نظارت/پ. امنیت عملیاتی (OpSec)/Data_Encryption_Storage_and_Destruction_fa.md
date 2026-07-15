@@ -33,6 +33,7 @@ prerequisites:
     "Understanding of file systems",
   ]
 estimated_read_time: "20 minutes"
+other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/operational-security-opsec/data-encryption-storage-and-destruction"
 ---
 
 # رمزنگاری، ذخیره‌سازی و امحای داده‌ها

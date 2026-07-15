@@ -28,6 +28,7 @@ language: "English"
 prerequisites:
   ["Basic digital literacy", "Understanding of encryption concepts"]
 estimated_read_time: "10 minutes"
+other_language_path: "/fa/wiki/مفاهیم-بنیادین/مبانی-حریم-خصوصی/information-lifecycle-and-states"
 ---
 
 # Information Lifecycle and States

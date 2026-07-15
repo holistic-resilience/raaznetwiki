@@ -32,6 +32,7 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-18"
+other_language_path: "/en/wiki/platform-and-device-knowledge/operating-systems/device-security-fundamentals-and-hardware"
 ---
 
 # مبانی امنیت دستگاه و سخت‌افزار

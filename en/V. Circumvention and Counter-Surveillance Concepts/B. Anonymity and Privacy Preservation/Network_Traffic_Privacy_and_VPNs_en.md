@@ -34,6 +34,7 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-17"
+other_language_path: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/ناشناسماندن-و-حفظ-حریم-خصوصی/network-traffic-privacy-and-vpns"
 ---
 
 # Network Traffic Privacy and VPNs

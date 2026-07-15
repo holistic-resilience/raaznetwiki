@@ -31,6 +31,7 @@ language: "Persian"
 last_updated: "2026-02-18"
 prerequisites: ["Basic Android familiarity", "Access to device settings"]
 estimated_read_time: "20 minutes"
+other_language_path: "/en/wiki/platform-and-device-knowledge/mobile-devices/android-security-and-hardening"
 ---
 
 # امنیت و امن‌سازی اندروید (Android Hardening)

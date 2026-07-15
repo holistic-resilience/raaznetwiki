@@ -33,6 +33,7 @@ prerequisites:
     "Familiarity with local threat landscape",
   ]
 estimated_read_time: "20 minutes"
+other_language_path: "/en/wiki/surveillance-technologies-iranian-context/physical-and-behavioral-surveillance/physical-security-and-crisis-preparedness"
 ---
 
 # امنیت فیزیکی و آمادگی در برابر بحران

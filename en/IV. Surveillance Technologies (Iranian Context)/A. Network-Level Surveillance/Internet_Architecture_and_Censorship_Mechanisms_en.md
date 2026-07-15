@@ -35,6 +35,7 @@ prerequisites:
   ]
 estimated_read_time: "12 minutes"
 last_updated: "2026-02-17"
+other_language_path: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/پایش-و-نظارت-در-سطح-شبکه/internet-architecture-and-censorship-mechanisms"
 ---
 
 # Internet Architecture and Censorship Mechanisms

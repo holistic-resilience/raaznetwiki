@@ -21,6 +21,7 @@ language: "English"
 prerequisites: ["Basic internet literacy"]
 estimated_read_time: "6 minutes"
 last_updated: "2026-02-19"
+other_language_path: "/fa/wiki/مفاهیم-بنیادین/مبانی-حریم-خصوصی/core-concepts-privacy-vs-security"
 ---
 
 # Core Concepts: Privacy vs. Security

@@ -30,6 +30,7 @@ prerequisites:
   ["iOS device running iOS 17 or later", "Basic familiarity with Settings"]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-18"
+other_language_path: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/دستگاههای-موبایل-تلفن-همراه/ios-security-and-hardening"
 ---
 
 # iOS Security and Hardening

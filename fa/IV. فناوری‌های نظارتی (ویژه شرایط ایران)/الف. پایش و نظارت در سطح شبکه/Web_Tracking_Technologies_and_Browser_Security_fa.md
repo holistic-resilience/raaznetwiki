@@ -33,6 +33,7 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-17"
+other_language_path: "/en/wiki/surveillance-technologies-iranian-context/network-level-surveillance/web-tracking-technologies-and-browser-security"
 ---
 
 # فناوری‌های ردیابی وب و امنیت مرورگر

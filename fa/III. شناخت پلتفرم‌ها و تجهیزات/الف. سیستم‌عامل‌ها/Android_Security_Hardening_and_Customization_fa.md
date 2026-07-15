@@ -33,6 +33,7 @@ prerequisites:
   ]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-17"
+other_language_path: "/en/wiki/platform-and-device-knowledge/operating-systems/android-security-hardening-and-customization"
 ---
 
 # مقاوم‌سازی امنیتی و شخصی‌سازی اندروید

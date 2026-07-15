@@ -33,6 +33,7 @@ prerequisites:
   ]
 estimated_read_time: "12 minutes"
 last_updated: "2026-02-19"
+other_language_path: "/en/wiki/foundational-concepts/threat-modeling-risk-assessment/risk-assessment-and-threat-identification"
 ---
 
 # ارزیابی ریسک و شناسایی تهدید

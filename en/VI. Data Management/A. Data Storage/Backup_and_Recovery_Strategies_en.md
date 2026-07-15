@@ -22,6 +22,7 @@ security_level: "High"
 language: "English"
 prerequisites: ["Basic file management", "Familiarity with encryption tools"]
 estimated_read_time: "15 minutes"
+other_language_path: "/fa/wiki/مدیریت-دادهها/ذخیرهسازی-دادهها/backup-and-recovery-strategies"
 ---
 
 # Backup and Recovery Strategies

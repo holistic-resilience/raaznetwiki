@@ -35,6 +35,7 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-18"
+other_language_path: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/سیستمعاملها/router-firmware-and-self-hosting"
 ---
 
 # Router Firmware and Self-Hosting

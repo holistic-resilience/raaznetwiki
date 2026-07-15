@@ -22,6 +22,7 @@ prerequisites:
     "Familiarity with network terms (IP, DNS)",
   ]
 estimated_read_time: "15 minutes"
+other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/censorship-circumvention/internet-censorship-mechanisms"
 ---
 
 # مکانیزم‌های سانسور اینترنت در ایران

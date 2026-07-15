@@ -27,6 +27,7 @@ prerequisites:
   ["Basic computer literacy", "Ability to create bootable USB drives"]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-18"
+other_language_path: "/en/wiki/platform-and-device-knowledge/operating-systems/linux-distributions-and-advanced-secure-os"
 ---
 
 # توزیع‌های لینوکس و سیستم‌عامل‌های امن پیشرفته

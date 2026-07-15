@@ -34,6 +34,7 @@ prerequisites:
     "Risk Assessment",
   ]
 estimated_read_time: "20 minutes"
+other_language_path: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/نظارت-فیزیکی-و-رفتاری/travel-security-and-border-crossing-protocols"
 ---
 
 # Travel Security and Border Crossing Protocols

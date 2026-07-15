@@ -33,6 +33,7 @@ prerequisites:
     "Installed Tor Browser or Orbot",
   ]
 estimated_read_time: "15 minutes"
+other_language_path: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/دور-زدن-سانسور-و-فیلترینگ/anonymity-networks-tor-and-i2p"
 ---
 
 # Anonymity Networks: Tor and I2P

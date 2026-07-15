@@ -29,6 +29,7 @@ language: "English"
 prerequisites:
   ["Basic smartphone usage", "Signal installed", "Briar installed (optional)"]
 estimated_read_time: "15 minutes"
+other_language_path: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/پلتفرمهای-ارتباطی/protest-communication-and-digital-documentation"
 ---
 
 # Protest Communication and Digital Documentation

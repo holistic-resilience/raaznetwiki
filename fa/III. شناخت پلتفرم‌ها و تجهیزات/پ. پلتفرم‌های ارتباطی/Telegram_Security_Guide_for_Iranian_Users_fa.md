@@ -28,6 +28,7 @@ security_level: "High"
 language: "English"
 prerequisites: ["Telegram account", "Basic understanding of VPNs"]
 estimated_read_time: "15 minutes"
+other_language_path: "/en/wiki/platform-and-device-knowledge/communication-platforms/telegram-security-guide-for-iranian-users"
 ---
 
 # راهنمای امنیت تلگرام برای کاربران ایرانی

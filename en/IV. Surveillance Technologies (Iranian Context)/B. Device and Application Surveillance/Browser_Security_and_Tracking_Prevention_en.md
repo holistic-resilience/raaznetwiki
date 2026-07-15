@@ -28,6 +28,7 @@ language: "English"
 prerequisites:
   ["Basic understanding of browser settings", "Familiarity with extensions"]
 estimated_read_time: "15 minutes"
+other_language_path: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/نظارت-بر-دستگاهها-و-اپلیکیشنها/browser-security-and-tracking-prevention"
 ---
 
 # Browser Security and Tracking Prevention

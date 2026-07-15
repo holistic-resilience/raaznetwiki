@@ -33,6 +33,7 @@ prerequisites:
     "Basic knowledge of mobile networks",
   ]
 estimated_read_time: "15 minutes"
+other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/anonymity-and-privacy-preservation/hardware-isolation-and-secondary-devices"
 ---
 
 # جداسازی سخت‌افزاری و دستگاه‌های ثانویه

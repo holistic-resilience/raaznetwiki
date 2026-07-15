@@ -17,6 +17,7 @@ content_type: "Guide"
 security_level: "High"
 language: "Persian"
 last_updated: "2026-02-17"
+other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/anonymity-and-privacy-preservation/digital-identity-management-and-pseudonymity"
 ---
 
 # مدیریت هویت دیجیتال و فعالیت با نام مستعار (Pseudonymity)

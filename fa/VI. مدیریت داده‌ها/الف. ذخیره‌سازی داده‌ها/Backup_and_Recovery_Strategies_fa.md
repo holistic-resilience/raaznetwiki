@@ -22,6 +22,7 @@ security_level: "High"
 language: "Persian"
 prerequisites: ["Basic file management", "Familiarity with encryption tools"]
 estimated_read_time: "15 minutes"
+other_language_path: "/en/wiki/data-management/data-storage/backup-and-recovery-strategies"
 ---
 
 # استراتژی‌های پشتیبان‌گیری و بازیابی اطلاعات

@@ -29,6 +29,7 @@ language: "English"
 prerequisites:
   ["Understanding Digital Surveillance", "Basic Account Management"]
 estimated_read_time: "20 minutes"
+other_language_path: "/fa/wiki/مفاهیم-بنیادین/مبانی-حریم-خصوصی/identity-management-and-compartmentalization"
 ---
 
 # Identity Management and Compartmentalization

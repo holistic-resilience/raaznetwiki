@@ -28,6 +28,7 @@ security_level: "Foundational"
 language: "English"
 prerequisites: ["Basic understanding of how the internet works"]
 estimated_read_time: "12 minutes"
+other_language_path: "/fa/wiki/مفاهیم-بنیادین/شناخت-نظارت-و-پایش-دیجیتال/the-mechanisms-of-digital-surveillance"
 ---
 
 # The Mechanisms of Digital Surveillance

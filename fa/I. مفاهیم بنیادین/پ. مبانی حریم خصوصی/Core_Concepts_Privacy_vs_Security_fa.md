@@ -13,6 +13,7 @@ language: "English"
 prerequisites: ["Basic internet literacy"]
 estimated_read_time: "6 minutes"
 last_updated: "2026-02-19"
+other_language_path: "/en/wiki/foundational-concepts/privacy-fundamentals/core-concepts-privacy-vs-security"
 ---
 
 # مفاهیم پایه: حریم خصوصی در برابر امنیت

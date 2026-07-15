@@ -31,6 +31,7 @@ language: "English"
 last_updated: "2026-02-18"
 prerequisites: ["Basic Android familiarity", "Access to device settings"]
 estimated_read_time: "20 minutes"
+other_language_path: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/دستگاههای-موبایل-تلفن-همراه/android-security-and-hardening"
 ---
 
 # Android Security and Hardening

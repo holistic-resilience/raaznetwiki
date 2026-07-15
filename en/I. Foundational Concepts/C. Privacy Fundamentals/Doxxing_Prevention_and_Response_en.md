@@ -31,6 +31,7 @@ prerequisites:
     "Familiarity with privacy concepts",
   ]
 estimated_read_time: "15 minutes"
+other_language_path: "/fa/wiki/مفاهیم-بنیادین/مبانی-حریم-خصوصی/doxxing-prevention-and-response"
 ---
 
 # Doxxing Prevention and Response

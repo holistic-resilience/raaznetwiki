@@ -20,6 +20,7 @@ language: "English"
 prerequisites:
   ["Basic understanding of email", "Access to a VPN or Tor Browser"]
 estimated_read_time: "20 minutes"
+other_language_path: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/پلتفرمهای-ارتباطی/email-security-providers-and-client-configuration"
 ---
 
 # Email Security: Providers and Client Configuration

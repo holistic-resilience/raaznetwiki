@@ -34,6 +34,7 @@ prerequisites:
     "Familiarity with Mobile Security",
   ]
 estimated_read_time: "25 minutes"
+other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/operational-security-opsec/high-risk-operations-protests-and-travel"
 ---
 
 # عملیات‌های پرخطر: امنیت در اعتراضات و سفر

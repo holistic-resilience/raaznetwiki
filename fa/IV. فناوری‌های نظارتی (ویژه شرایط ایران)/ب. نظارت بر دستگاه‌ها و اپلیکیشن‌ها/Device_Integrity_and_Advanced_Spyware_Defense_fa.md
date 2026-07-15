@@ -32,6 +32,7 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-17"
+other_language_path: "/en/wiki/surveillance-technologies-iranian-context/device-and-application-surveillance/device-integrity-and-advanced-spyware-defense"
 ---
 
 # یکپارچگی دستگاه و دفاع در برابر جاسوس‌افزارهای پیشرفته

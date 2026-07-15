@@ -35,6 +35,7 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-17"
+other_language_path: "/en/wiki/surveillance-technologies-iranian-context/network-level-surveillance/cellular-network-surveillance-and-imsi-catchers"
 ---
 
 # نظارت بر شبکه تلفن همراه و دکل‌های مخابراتی جعلی (IMSI Catchers)

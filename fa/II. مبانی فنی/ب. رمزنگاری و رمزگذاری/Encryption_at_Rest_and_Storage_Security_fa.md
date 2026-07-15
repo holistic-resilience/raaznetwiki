@@ -33,6 +33,7 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-06"
+other_language_path: "/en/wiki/technical-foundations/cryptography-and-encryption/encryption-at-rest-and-storage-security"
 ---
 
 # رمزگذاری در حالت سکون و امنیت ذخیره‌سازی

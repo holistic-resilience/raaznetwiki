@@ -28,6 +28,7 @@ content_type: "Guide"
 security_level: "High"
 language: "English"
 last_updated: "2026-02-17"
+other_language_path: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/امنیت-عملیاتی-opsec/secure-communication-tools"
 ---
 
 # Secure Communication Tools

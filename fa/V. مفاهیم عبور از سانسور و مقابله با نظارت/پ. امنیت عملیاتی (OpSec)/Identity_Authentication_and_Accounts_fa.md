@@ -28,6 +28,7 @@ prerequisites:
   ["Basic digital literacy", "Access to circumvention tools (VPN/Tor)"]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-17"
+other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/operational-security-opsec/identity-authentication-and-accounts"
 ---
 
 # هویت، احراز هویت و امنیت حساب‌های کاربری
