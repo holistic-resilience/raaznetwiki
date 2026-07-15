@@ -22,7 +22,8 @@ security_level: "High"
 language: "English"
 prerequisites: ["Basic account management", "Understanding of passwords"]
 estimated_read_time: "10 minutes"
-other_language_path: "/fa/wiki/مبانی-فنی/احراز-هویت-و-کنترل-دسترسی/multi-factor-authentication-strategies"
+other_languages:
+  fa: "/fa/wiki/مبانی-فنی/احراز-هویت-و-کنترل-دسترسی/multi-factor-authentication-strategies"
 ---
 
 # Multi-Factor Authentication Strategies

@@ -34,7 +34,8 @@ prerequisites:
     "Understanding of server administration",
   ]
 estimated_read_time: "12 minutes"
-other_language_path: "/en/wiki/technical-foundations/network-and-internet-concepts/self-hosting-and-decentralized-infrastructure"
+other_languages:
+  en: "/en/wiki/technical-foundations/network-and-internet-concepts/self-hosting-and-decentralized-infrastructure"
 ---
 
 # خودمیزبانی (Self-Hosting) و زیرساخت غیرمتمرکز

@@ -32,7 +32,8 @@ prerequisites:
     "Awareness of Iran's security apparatus",
   ]
 estimated_read_time: "15 minutes"
-other_language_path: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/نظارت-فیزیکی-و-رفتاری/biometric-and-facial-recognition-systems"
+other_languages:
+  fa: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/نظارت-فیزیکی-و-رفتاری/biometric-and-facial-recognition-systems"
 ---
 
 # Biometric and Facial Recognition Systems

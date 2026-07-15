@@ -33,7 +33,8 @@ prerequisites:
     "Familiarity with public/private key concepts",
   ]
 estimated_read_time: "12 minutes"
-other_language_path: "/fa/wiki/مبانی-فنی/رمزنگاری-و-رمزگذاری/email-encryption-and-openpgp"
+other_languages:
+  fa: "/fa/wiki/مبانی-فنی/رمزنگاری-و-رمزگذاری/email-encryption-and-openpgp"
 ---
 
 # Email Encryption and OpenPGP

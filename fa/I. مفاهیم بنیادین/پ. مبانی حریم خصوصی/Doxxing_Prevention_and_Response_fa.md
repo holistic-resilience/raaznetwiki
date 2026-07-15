@@ -31,7 +31,8 @@ prerequisites:
     "Familiarity with privacy concepts",
   ]
 estimated_read_time: "15 minutes"
-other_language_path: "/en/wiki/foundational-concepts/privacy-fundamentals/doxxing-prevention-and-response"
+other_languages:
+  en: "/en/wiki/foundational-concepts/privacy-fundamentals/doxxing-prevention-and-response"
 ---
 
 # پیشگیری و واکنش به داکسینگ (Doxxing)

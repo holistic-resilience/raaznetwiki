@@ -32,7 +32,8 @@ prerequisites:
     "Hardware (Laptop/Raspberry Pi)",
   ]
 estimated_read_time: "12 minutes"
-other_language_path: "/fa/wiki/مدیریت-دادهها/ذخیرهسازی-دادهها/self-hosted-storage-solutions"
+other_languages:
+  fa: "/fa/wiki/مدیریت-دادهها/ذخیرهسازی-دادهها/self-hosted-storage-solutions"
 ---
 
 # Self-Hosted Storage Solutions

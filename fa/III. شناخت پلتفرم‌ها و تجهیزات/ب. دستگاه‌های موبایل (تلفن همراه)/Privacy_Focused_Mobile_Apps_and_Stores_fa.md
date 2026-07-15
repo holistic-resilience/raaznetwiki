@@ -33,7 +33,8 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-18"
-other_language_path: "/en/wiki/platform-and-device-knowledge/mobile-devices/privacy-focused-mobile-apps-and-stores"
+other_languages:
+  en: "/en/wiki/platform-and-device-knowledge/mobile-devices/privacy-focused-mobile-apps-and-stores"
 ---
 
 # برنامه‌ها و فروشگاه‌های موبایل متمرکز بر حریم خصوصی

@@ -27,7 +27,8 @@ security_level: "Basic"
 language: "English"
 prerequisites: ["Basic computer literacy"]
 estimated_read_time: "10 minutes"
-other_language_path: "/en/wiki/technical-foundations/authentication-and-access-control/strong-password-fundamentals"
+other_languages:
+  en: "/en/wiki/technical-foundations/authentication-and-access-control/strong-password-fundamentals"
 ---
 
 # اصول و مبانی رمز عبور قوی

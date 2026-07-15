@@ -29,7 +29,8 @@ language: "English"
 prerequisites: ["Basic Computer Literacy"]
 estimated_read_time: "12 minutes"
 last_updated: "2026-02-12"
-other_language_path: "/en/wiki/technical-foundations/network-and-internet-concepts/internet-architecture-and-censorship-mechanics"
+other_languages:
+  en: "/en/wiki/technical-foundations/network-and-internet-concepts/internet-architecture-and-censorship-mechanics"
 ---
 
 # معماری اینترنت و مکانیزم‌های سانسور

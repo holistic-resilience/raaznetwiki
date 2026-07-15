@@ -23,7 +23,8 @@ prerequisites:
     "Familiarity with mobile/desktop app installation",
   ]
 estimated_read_time: "15 minutes"
-other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/censorship-circumvention/vpn-comprehensive-guide"
+other_languages:
+  en: "/en/wiki/circumvention-and-counter-surveillance-concepts/censorship-circumvention/vpn-comprehensive-guide"
 ---
 
 # راهنمای جامع VPN

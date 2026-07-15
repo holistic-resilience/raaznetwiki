@@ -26,7 +26,8 @@ content_type: "Guide"
 security_level: "High"
 language: "English"
 last_updated: "2026-02-17"
-other_language_path: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/ناشناسماندن-و-حفظ-حریم-خصوصی/digital-identity-management-and-pseudonymity"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/ناشناسماندن-و-حفظ-حریم-خصوصی/digital-identity-management-and-pseudonymity"
 ---
 
 # Digital Identity Management and Pseudonymity

@@ -34,7 +34,8 @@ prerequisites:
     "Basic encryption knowledge",
   ]
 estimated_read_time: "15 minutes"
-other_language_path: "/en/wiki/platform-and-device-knowledge/communication-platforms/secure-whistleblowing-and-data-submission"
+other_languages:
+  en: "/en/wiki/platform-and-device-knowledge/communication-platforms/secure-whistleblowing-and-data-submission"
 ---
 
 # افشاگری امن و ارسال داده‌ها

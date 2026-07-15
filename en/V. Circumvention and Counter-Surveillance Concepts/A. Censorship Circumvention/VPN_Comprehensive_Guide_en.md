@@ -32,7 +32,8 @@ prerequisites:
     "Familiarity with mobile/desktop app installation",
   ]
 estimated_read_time: "15 minutes"
-other_language_path: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/دور-زدن-سانسور-و-فیلترینگ/vpn-comprehensive-guide"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/دور-زدن-سانسور-و-فیلترینگ/vpn-comprehensive-guide"
 ---
 
 # VPN Comprehensive Guide

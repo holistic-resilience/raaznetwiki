@@ -31,7 +31,8 @@ language: "English"
 prerequisites: ["Administrator access to Mac", "Apple Silicon Mac recommended"]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-18"
-other_language_path: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/سیستمعاملها/macos-privacy-and-hardening"
+other_languages:
+  fa: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/سیستمعاملها/macos-privacy-and-hardening"
 ---
 
 # macOS Privacy and Hardening

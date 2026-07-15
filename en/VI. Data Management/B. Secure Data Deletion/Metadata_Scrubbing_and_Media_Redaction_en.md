@@ -29,7 +29,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of file types", "Access to F-Droid or App Store"]
 estimated_read_time: "12 minutes"
-other_language_path: "/fa/wiki/مدیریت-دادهها/امحا-و-حذف-امن-دادهها/metadata-scrubbing-and-media-redaction"
+other_languages:
+  fa: "/fa/wiki/مدیریت-دادهها/امحا-و-حذف-امن-دادهها/metadata-scrubbing-and-media-redaction"
 ---
 
 # Metadata Scrubbing and Media Redaction

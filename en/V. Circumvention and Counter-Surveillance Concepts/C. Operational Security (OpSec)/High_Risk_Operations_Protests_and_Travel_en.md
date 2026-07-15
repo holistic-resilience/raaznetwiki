@@ -35,7 +35,8 @@ prerequisites:
     "Familiarity with Mobile Security",
   ]
 estimated_read_time: "25 minutes"
-other_language_path: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/امنیت-عملیاتی-opsec/high-risk-operations-protests-and-travel"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/امنیت-عملیاتی-opsec/high-risk-operations-protests-and-travel"
 ---
 
 # High-Risk Operations: Protests and Travel Security

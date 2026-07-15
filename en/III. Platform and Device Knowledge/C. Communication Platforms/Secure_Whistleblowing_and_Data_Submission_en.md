@@ -34,7 +34,8 @@ prerequisites:
     "Basic encryption knowledge",
   ]
 estimated_read_time: "15 minutes"
-other_language_path: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/پلتفرمهای-ارتباطی/secure-whistleblowing-and-data-submission"
+other_languages:
+  fa: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/پلتفرمهای-ارتباطی/secure-whistleblowing-and-data-submission"
 ---
 
 # Secure Whistleblowing and Data Submission

@@ -28,7 +28,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of home networking", "Familiarity with Wi-Fi settings"]
 estimated_read_time: "15 minutes"
-other_language_path: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/نظارت-بر-دستگاهها-و-اپلیکیشنها/iot-and-smart-device-security-risks"
+other_languages:
+  fa: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/نظارت-بر-دستگاهها-و-اپلیکیشنها/iot-and-smart-device-security-risks"
 ---
 
 # IoT and Smart Device Security Risks

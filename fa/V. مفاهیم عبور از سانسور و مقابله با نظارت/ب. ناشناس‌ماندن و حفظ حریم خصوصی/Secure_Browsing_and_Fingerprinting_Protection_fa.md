@@ -29,7 +29,8 @@ language: "English"
 prerequisites: ["Basic computer literacy", "Ability to install software"]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-17"
-other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/anonymity-and-privacy-preservation/secure-browsing-and-fingerprinting-protection"
+other_languages:
+  en: "/en/wiki/circumvention-and-counter-surveillance-concepts/anonymity-and-privacy-preservation/secure-browsing-and-fingerprinting-protection"
 ---
 
 # مرور امن و محافظت در برابر انگشت‌نگاری (Fingerprinting)

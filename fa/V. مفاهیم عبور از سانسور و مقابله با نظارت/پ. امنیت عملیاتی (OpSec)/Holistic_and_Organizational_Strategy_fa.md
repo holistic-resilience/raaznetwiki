@@ -36,7 +36,8 @@ prerequisites:
   ["Basic understanding of threat modeling", "Experience working in groups"]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-17"
-other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/operational-security-opsec/holistic-and-organizational-strategy"
+other_languages:
+  en: "/en/wiki/circumvention-and-counter-surveillance-concepts/operational-security-opsec/holistic-and-organizational-strategy"
 ---
 
 # استراتژی امنیت جامع و سازمانی

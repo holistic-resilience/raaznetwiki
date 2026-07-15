@@ -32,7 +32,8 @@ prerequisites:
   ]
 estimated_read_time: "10 minutes"
 last_updated: "2026-02-17"
-other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/anonymity-and-privacy-preservation/metadata-management-and-file-sanitization"
+other_languages:
+  en: "/en/wiki/circumvention-and-counter-surveillance-concepts/anonymity-and-privacy-preservation/metadata-management-and-file-sanitization"
 ---
 
 # مدیریت متادیتا و پاک‌سازی فایل

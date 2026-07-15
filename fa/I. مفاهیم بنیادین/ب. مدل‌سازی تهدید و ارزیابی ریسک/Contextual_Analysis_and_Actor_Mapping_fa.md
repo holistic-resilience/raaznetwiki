@@ -27,7 +27,8 @@ security_level: "Essential"
 language: "English"
 prerequisites: ["Basic understanding of digital surveillance"]
 estimated_read_time: "10 minutes"
-other_language_path: "/en/wiki/foundational-concepts/threat-modeling-risk-assessment/contextual-analysis-and-actor-mapping"
+other_languages:
+  en: "/en/wiki/foundational-concepts/threat-modeling-risk-assessment/contextual-analysis-and-actor-mapping"
 ---
 
 # تحلیل بافتار و نقشه‌برداری از کنشگران

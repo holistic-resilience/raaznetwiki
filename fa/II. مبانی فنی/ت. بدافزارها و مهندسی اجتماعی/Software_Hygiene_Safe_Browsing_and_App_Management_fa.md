@@ -12,7 +12,8 @@ security_level: "Basic to Intermediate"
 language: "English"
 prerequisites: ["Basic understanding of operating systems", "Familiarity with app installation"]
 estimated_read_time: "15 minutes"
-other_language_path: "/en/wiki/technical-foundations/malware-and-social-engineering/software-hygiene-safe-browsing-and-app-management"
+other_languages:
+  en: "/en/wiki/technical-foundations/malware-and-social-engineering/software-hygiene-safe-browsing-and-app-management"
 ---
 
 # بهداشت نرم‌افزار، مرور امن و مدیریت برنامه‌ها

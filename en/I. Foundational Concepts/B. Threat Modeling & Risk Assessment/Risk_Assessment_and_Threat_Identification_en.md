@@ -33,7 +33,8 @@ prerequisites:
   ]
 estimated_read_time: "12 minutes"
 last_updated: "2026-02-19"
-other_language_path: "/fa/wiki/مفاهیم-بنیادین/مدلسازی-تهدید-و-ارزیابی-ریسک/risk-assessment-and-threat-identification"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-بنیادین/مدلسازی-تهدید-و-ارزیابی-ریسک/risk-assessment-and-threat-identification"
 ---
 
 # Risk Assessment and Threat Identification

@@ -28,7 +28,8 @@ language: "English"
 prerequisites:
   ["Basic digital literacy", "Understanding of encryption concepts"]
 estimated_read_time: "10 minutes"
-other_language_path: "/en/wiki/foundational-concepts/privacy-fundamentals/information-lifecycle-and-states"
+other_languages:
+  en: "/en/wiki/foundational-concepts/privacy-fundamentals/information-lifecycle-and-states"
 ---
 
 # چرخه حیات و وضعیت‌های اطلاعات

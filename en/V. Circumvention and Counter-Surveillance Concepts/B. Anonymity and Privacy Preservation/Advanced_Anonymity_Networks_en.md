@@ -42,7 +42,8 @@ prerequisites:
   ]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-17"
-other_language_path: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/ناشناسماندن-و-حفظ-حریم-خصوصی/advanced-anonymity-networks"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/ناشناسماندن-و-حفظ-حریم-خصوصی/advanced-anonymity-networks"
 ---
 
 # Advanced Anonymity Networks: Tor, I2P, and Censorship Circumvention

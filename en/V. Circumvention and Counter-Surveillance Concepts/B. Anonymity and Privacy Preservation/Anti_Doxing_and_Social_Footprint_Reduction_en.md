@@ -26,7 +26,8 @@ summary: "A comprehensive guide to reducing your digital footprint and protectin
 content_type: "Guide"
 security_level: "High"
 last_updated: "2026-02-17"
-other_language_path: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/ناشناسماندن-و-حفظ-حریم-خصوصی/anti-doxing-and-social-footprint-reduction"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/ناشناسماندن-و-حفظ-حریم-خصوصی/anti-doxing-and-social-footprint-reduction"
 ---
 
 # Anti-Doxing and Social Footprint Reduction

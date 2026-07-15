@@ -22,7 +22,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of 2FA", "Access to backup codes (preferred)"]
 estimated_read_time: "10 minutes"
-other_language_path: "/en/wiki/technical-foundations/authentication-and-access-control/account-recovery-and-threat-mitigation"
+other_languages:
+  en: "/en/wiki/technical-foundations/authentication-and-access-control/account-recovery-and-threat-mitigation"
 ---
 
 # بازیابی حساب کاربری و کاهش تهدیدات

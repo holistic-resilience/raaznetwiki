@@ -26,7 +26,8 @@ security_level: "High"
 language: "English"
 prerequisites: ["Basic computer literacy", "Understanding of file management"]
 estimated_read_time: "15 minutes"
-other_language_path: "/fa/wiki/مدیریت-دادهها/ذخیرهسازی-دادهها/encryption-for-data-at-rest"
+other_languages:
+  fa: "/fa/wiki/مدیریت-دادهها/ذخیرهسازی-دادهها/encryption-for-data-at-rest"
 ---
 
 # Encryption for Data at Rest

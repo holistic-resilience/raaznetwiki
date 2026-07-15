@@ -31,7 +31,8 @@ language: "Persian"
 prerequisites: ["Installed WhatsApp", "Basic settings knowledge"]
 estimated_read_time: "10 minutes"
 last_updated: "2026-02-18"
-other_language_path: "/en/wiki/platform-and-device-knowledge/communication-platforms/whatsapp-security-guide"
+other_languages:
+  en: "/en/wiki/platform-and-device-knowledge/communication-platforms/whatsapp-security-guide"
 ---
 
 # راهنمای امنیت واتس‌اپ برای کاربران ایرانی

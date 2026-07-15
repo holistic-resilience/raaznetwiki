@@ -34,7 +34,8 @@ prerequisites:
     "Understanding of file systems",
   ]
 estimated_read_time: "20 minutes"
-other_language_path: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/امنیت-عملیاتی-opsec/data-encryption-storage-and-destruction"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/امنیت-عملیاتی-opsec/data-encryption-storage-and-destruction"
 ---
 
 # Data Encryption, Storage, and Destruction

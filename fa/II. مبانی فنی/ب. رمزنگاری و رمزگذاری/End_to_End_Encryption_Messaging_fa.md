@@ -28,7 +28,8 @@ security_level: "High"
 language: "English"
 prerequisites: ["Basic smartphone usage", "Understanding of censorship in Iran"]
 estimated_read_time: "15 minutes"
-other_language_path: "/en/wiki/technical-foundations/cryptography-and-encryption/end-to-end-encryption-messaging"
+other_languages:
+  en: "/en/wiki/technical-foundations/cryptography-and-encryption/end-to-end-encryption-messaging"
 ---
 
 # پیام‌رسانی با رمزگذاری سرتاسری (E2EE)

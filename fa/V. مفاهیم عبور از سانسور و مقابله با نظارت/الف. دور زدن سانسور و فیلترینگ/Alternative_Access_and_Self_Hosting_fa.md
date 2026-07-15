@@ -34,7 +34,8 @@ prerequisites:
   ]
 estimated_read_time: "12 minutes"
 related: "[Internet_Censorship_Mechanisms](internet-censorship-mechanisms) [VPN_Comprehensive_Guide](vpn-comprehensive-guide) [Anonymity_Networks_Tor_and_I2P](anonymity-networks-tor-and-i2p)"
-other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/censorship-circumvention/alternative-access-and-self-hosting"
+other_languages:
+  en: "/en/wiki/circumvention-and-counter-surveillance-concepts/censorship-circumvention/alternative-access-and-self-hosting"
 ---
 
 # دسترسی جایگزین و میزبانی شخصی (Self-Hosting)

@@ -20,7 +20,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of mobile networks", "Familiarity with app permissions"]
 estimated_read_time: "15 minutes"
-other_language_path: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/نظارت-فیزیکی-و-رفتاری/location-tracking-and-mobile-telemetry"
+other_languages:
+  fa: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/نظارت-فیزیکی-و-رفتاری/location-tracking-and-mobile-telemetry"
 ---
 
 # Location Tracking and Mobile Telemetry

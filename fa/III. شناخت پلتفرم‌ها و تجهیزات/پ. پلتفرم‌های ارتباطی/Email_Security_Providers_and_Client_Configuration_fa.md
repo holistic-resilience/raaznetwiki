@@ -19,7 +19,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of email", "Access to a VPN or Tor Browser"]
 estimated_read_time: "20 minutes"
-other_language_path: "/en/wiki/platform-and-device-knowledge/communication-platforms/email-security-providers-and-client-configuration"
+other_languages:
+  en: "/en/wiki/platform-and-device-knowledge/communication-platforms/email-security-providers-and-client-configuration"
 ---
 
 # امنیت ایمیل: ارائه‌دهندگان سرویس و پیکربندی کلاینت

@@ -28,7 +28,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of account settings", "Password Manager installed"]
 estimated_read_time: "15 minutes"
-other_language_path: "/fa/wiki/مفاهیم-بنیادین/مبانی-حریم-خصوصی/digital-hygiene-and-account-lifecycle"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-بنیادین/مبانی-حریم-خصوصی/digital-hygiene-and-account-lifecycle"
 ---
 
 # Digital Hygiene and Account Lifecycle

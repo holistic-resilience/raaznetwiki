@@ -24,7 +24,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of internet usage", "Ability to install software"]
 estimated_read_time: "15 minutes"
-other_language_path: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/امنیت-عملیاتی-opsec/internet-privacy-browsers-and-vpns"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/امنیت-عملیاتی-opsec/internet-privacy-browsers-and-vpns"
 ---
 
 # Internet Privacy: Browsers, VPNs, and Tor

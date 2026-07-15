@@ -29,7 +29,8 @@ language: "English"
 prerequisites:
   ["Understanding Digital Surveillance", "Basic Account Management"]
 estimated_read_time: "20 minutes"
-other_language_path: "/en/wiki/foundational-concepts/privacy-fundamentals/identity-management-and-compartmentalization"
+other_languages:
+  en: "/en/wiki/foundational-concepts/privacy-fundamentals/identity-management-and-compartmentalization"
 ---
 
 # مدیریت هویت و بخش‌بندی (Compartmentalization)

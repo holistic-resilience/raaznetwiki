@@ -21,7 +21,8 @@ security_level: "High"
 language: "English"
 prerequisites: ["Basic computer literacy", "Understanding of password strength"]
 estimated_read_time: "10 minutes"
-other_language_path: "/en/wiki/technical-foundations/authentication-and-access-control/secure-password-storage-and-managers"
+other_languages:
+  en: "/en/wiki/technical-foundations/authentication-and-access-control/secure-password-storage-and-managers"
 ---
 
 # ذخیره‌سازی امن و مدیریت رمزهای عبور

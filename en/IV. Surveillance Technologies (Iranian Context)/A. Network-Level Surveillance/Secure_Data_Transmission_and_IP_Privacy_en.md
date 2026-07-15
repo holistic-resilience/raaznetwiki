@@ -34,7 +34,8 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-17"
-other_language_path: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/پایش-و-نظارت-در-سطح-شبکه/secure-data-transmission-and-ip-privacy"
+other_languages:
+  fa: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/پایش-و-نظارت-در-سطح-شبکه/secure-data-transmission-and-ip-privacy"
 ---
 
 # Secure Data Transmission and IP Privacy

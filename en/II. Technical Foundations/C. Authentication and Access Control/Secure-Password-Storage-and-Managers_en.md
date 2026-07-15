@@ -21,7 +21,8 @@ security_level: "High"
 language: "English"
 prerequisites: ["Basic computer literacy", "Understanding of password strength"]
 estimated_read_time: "10 minutes"
-other_language_path: "/fa/wiki/مبانی-فنی/احراز-هویت-و-کنترل-دسترسی/secure-password-storage-and-managers"
+other_languages:
+  fa: "/fa/wiki/مبانی-فنی/احراز-هویت-و-کنترل-دسترسی/secure-password-storage-and-managers"
 ---
 
 # Secure Password Storage and Managers

@@ -33,7 +33,8 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-17"
-other_language_path: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/پایش-و-نظارت-در-سطح-شبکه/web-tracking-technologies-and-browser-security"
+other_languages:
+  fa: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/پایش-و-نظارت-در-سطح-شبکه/web-tracking-technologies-and-browser-security"
 ---
 
 # Web Tracking Technologies and Browser Security

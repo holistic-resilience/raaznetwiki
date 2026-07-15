@@ -20,7 +20,8 @@ language: "Persian"
 prerequisites:
   ["Basic understanding of file types", "Access to F-Droid or App Store"]
 estimated_read_time: "12 minutes"
-other_language_path: "/en/wiki/data-management/secure-data-deletion/metadata-scrubbing-and-media-redaction"
+other_languages:
+  en: "/en/wiki/data-management/secure-data-deletion/metadata-scrubbing-and-media-redaction"
 ---
 
 # پاکسازی متادیتا و ویرایش امنیتی رسانه‌ها

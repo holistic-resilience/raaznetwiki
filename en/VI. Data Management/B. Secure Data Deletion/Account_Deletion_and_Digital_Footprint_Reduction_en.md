@@ -32,7 +32,8 @@ prerequisites:
     "Password manager (optional)",
   ]
 estimated_read_time: "12 minutes"
-other_language_path: "/fa/wiki/مدیریت-دادهها/امحا-و-حذف-امن-دادهها/account-deletion-and-digital-footprint-reduction"
+other_languages:
+  fa: "/fa/wiki/مدیریت-دادهها/امحا-و-حذف-امن-دادهها/account-deletion-and-digital-footprint-reduction"
 ---
 
 # Account Deletion and Digital Footprint Reduction

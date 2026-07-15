@@ -25,7 +25,8 @@ summary: "راهنمایی جامع برای کاهش ردپای دیجیتال 
 content_type: "Guide"
 security_level: "High"
 last_updated: "2026-02-17"
-other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/anonymity-and-privacy-preservation/anti-doxing-and-social-footprint-reduction"
+other_languages:
+  en: "/en/wiki/circumvention-and-counter-surveillance-concepts/anonymity-and-privacy-preservation/anti-doxing-and-social-footprint-reduction"
 ---
 
 # مقابله با داکسینگ و کاهش ردپای اجتماعی

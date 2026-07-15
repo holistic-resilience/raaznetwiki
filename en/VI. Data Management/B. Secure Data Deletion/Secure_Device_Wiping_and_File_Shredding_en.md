@@ -30,7 +30,8 @@ prerequisites:
     "Full Disk Encryption enabled (recommended)",
   ]
 estimated_read_time: "12 minutes"
-other_language_path: "/fa/wiki/مدیریت-دادهها/امحا-و-حذف-امن-دادهها/secure-device-wiping-and-file-shredding"
+other_languages:
+  fa: "/fa/wiki/مدیریت-دادهها/امحا-و-حذف-امن-دادهها/secure-device-wiping-and-file-shredding"
 ---
 
 # Secure Device Wiping and File Shredding

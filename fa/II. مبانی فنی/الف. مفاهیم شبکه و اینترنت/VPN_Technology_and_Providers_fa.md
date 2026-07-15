@@ -32,7 +32,8 @@ prerequisites:
     "Familiarity with encryption concepts",
   ]
 estimated_read_time: "15 minutes"
-other_language_path: "/en/wiki/technical-foundations/network-and-internet-concepts/vpn-technology-and-providers"
+other_languages:
+  en: "/en/wiki/technical-foundations/network-and-internet-concepts/vpn-technology-and-providers"
 ---
 
 # فناوری VPN و ارائه‌دهندگان آن

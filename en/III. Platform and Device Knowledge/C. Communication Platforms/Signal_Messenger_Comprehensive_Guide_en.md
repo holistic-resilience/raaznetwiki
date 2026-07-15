@@ -21,7 +21,8 @@ audience: [General Public, Activists, Journalists]
 difficulty: "Intermediate"
 source: "Raaznet Aggregated Data"
 last_updated: "2026-02-18"
-other_language_path: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/پلتفرمهای-ارتباطی/signal-messenger-comprehensive-guide"
+other_languages:
+  fa: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/پلتفرمهای-ارتباطی/signal-messenger-comprehensive-guide"
 ---
 
 # Signal Messenger Comprehensive Guide for Iranian Users

@@ -23,7 +23,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of internet usage", "Familiarity with mobile apps"]
 estimated_read_time: "10 minutes"
-other_language_path: "/fa/wiki/مفاهیم-بنیادین/شناخت-نظارت-و-پایش-دیجیتال/the-surveillance-economy-and-data-brokers"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-بنیادین/شناخت-نظارت-و-پایش-دیجیتال/the-surveillance-economy-and-data-brokers"
 ---
 
 # The Surveillance Economy and Data Brokers

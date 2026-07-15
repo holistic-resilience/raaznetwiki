@@ -24,7 +24,8 @@ prerequisites:
   ]
 estimated_read_time: "10 minutes"
 last_updated: "2026-02-12"
-other_language_path: "/en/wiki/technical-foundations/network-and-internet-concepts/dns-protocols-and-privacy"
+other_languages:
+  en: "/en/wiki/technical-foundations/network-and-internet-concepts/dns-protocols-and-privacy"
 ---
 
 # پروتکل‌های DNS و حریم خصوصی

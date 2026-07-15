@@ -34,7 +34,8 @@ prerequisites:
     "Basic encryption knowledge",
   ]
 estimated_read_time: "15 minutes"
-other_language_path: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/دور-زدن-سانسور-و-فیلترینگ/secure-reporting-and-whistleblowing"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/دور-زدن-سانسور-و-فیلترینگ/secure-reporting-and-whistleblowing"
 ---
 
 # Secure Reporting and Whistleblowing in Iran

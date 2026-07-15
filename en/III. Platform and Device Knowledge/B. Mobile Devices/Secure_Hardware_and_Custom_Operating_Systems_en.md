@@ -34,7 +34,8 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-18"
-other_language_path: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/دستگاههای-موبایل-تلفن-همراه/secure-hardware-and-custom-operating-systems"
+other_languages:
+  fa: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/دستگاههای-موبایل-تلفن-همراه/secure-hardware-and-custom-operating-systems"
 ---
 
 # Secure Hardware and Custom Operating Systems

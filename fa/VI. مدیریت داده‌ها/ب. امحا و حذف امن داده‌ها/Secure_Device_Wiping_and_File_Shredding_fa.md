@@ -30,7 +30,8 @@ prerequisites:
     "Full Disk Encryption enabled (recommended)",
   ]
 estimated_read_time: "12 minutes"
-other_language_path: "/en/wiki/data-management/secure-data-deletion/secure-device-wiping-and-file-shredding"
+other_languages:
+  en: "/en/wiki/data-management/secure-data-deletion/secure-device-wiping-and-file-shredding"
 ---
 
 # پاک‌سازی امن دستگاه و امحای فایل‌ها

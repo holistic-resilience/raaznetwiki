@@ -23,7 +23,8 @@ language: "Persian"
 prerequisites:
   ["Basic understanding of internet usage", "Familiarity with mobile apps"]
 estimated_read_time: "10 minutes"
-other_language_path: "/en/wiki/foundational-concepts/understanding-digital-surveillance/the-surveillance-economy-and-data-brokers"
+other_languages:
+  en: "/en/wiki/foundational-concepts/understanding-digital-surveillance/the-surveillance-economy-and-data-brokers"
 ---
 
 # اقتصاد نظارتی و دلالان داده

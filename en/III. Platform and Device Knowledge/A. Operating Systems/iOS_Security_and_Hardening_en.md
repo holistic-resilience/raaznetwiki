@@ -31,7 +31,8 @@ prerequisites:
   ["iOS 17 or later recommended", "Basic familiarity with iOS Settings"]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-18"
-other_language_path: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/سیستمعاملها/ios-security-and-hardening"
+other_languages:
+  fa: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/سیستمعاملها/ios-security-and-hardening"
 ---
 
 # iOS Security and Hardening

@@ -22,7 +22,8 @@ prerequisites:
     "Familiarity with network terms (IP, DNS)",
   ]
 estimated_read_time: "15 minutes"
-other_language_path: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/دور-زدن-سانسور-و-فیلترینگ/internet-censorship-mechanisms"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/دور-زدن-سانسور-و-فیلترینگ/internet-censorship-mechanisms"
 ---
 
 # Internet Censorship Mechanisms in Iran

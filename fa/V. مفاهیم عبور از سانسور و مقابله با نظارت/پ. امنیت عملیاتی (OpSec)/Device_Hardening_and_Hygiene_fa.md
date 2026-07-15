@@ -23,7 +23,8 @@ language: "Persian"
 prerequisites:
   ["Basic understanding of operating systems", "Access to device settings"]
 estimated_read_time: "20 minutes"
-other_language_path: "/en/wiki/circumvention-and-counter-surveillance-concepts/operational-security-opsec/device-hardening-and-hygiene"
+other_languages:
+  en: "/en/wiki/circumvention-and-counter-surveillance-concepts/operational-security-opsec/device-hardening-and-hygiene"
 ---
 
 # مقاوم‌سازی و بهداشت امنیتی دستگاه
