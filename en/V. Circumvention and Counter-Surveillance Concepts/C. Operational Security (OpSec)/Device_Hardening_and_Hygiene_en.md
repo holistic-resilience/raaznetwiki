@@ -24,6 +24,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of operating systems", "Access to device settings"]
 estimated_read_time: "20 minutes"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/امنیت-عملیاتی-opsec/device-hardening-and-hygiene"
 ---
 
 # Device Hardening and Hygiene

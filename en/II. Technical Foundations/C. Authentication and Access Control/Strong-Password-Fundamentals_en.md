@@ -27,6 +27,8 @@ security_level: "Basic"
 language: "English"
 prerequisites: ["Basic computer literacy"]
 estimated_read_time: "10 minutes"
+other_languages:
+  fa: "/fa/wiki/مبانی-فنی/احراز-هویت-و-کنترل-دسترسی/strong-password-fundamentals"
 ---
 
 # Strong Password Fundamentals

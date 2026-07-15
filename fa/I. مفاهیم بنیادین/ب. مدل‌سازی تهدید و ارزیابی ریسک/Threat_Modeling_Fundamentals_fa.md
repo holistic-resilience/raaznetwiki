@@ -28,6 +28,8 @@ language: "English"
 prerequisites: ["None"]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-19"
+other_languages:
+  en: "/en/wiki/foundational-concepts/threat-modeling-risk-assessment/threat-modeling-fundamentals"
 ---
 
 # اصول مدل‌سازی تهدید

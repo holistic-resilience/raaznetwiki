@@ -21,6 +21,8 @@ audience: [General Public, Activists, Journalists]
 difficulty: "Intermediate"
 source: "Raaznet Aggregated Data"
 last_updated: "2026-02-18"
+other_languages:
+  en: "/en/wiki/platform-and-device-knowledge/communication-platforms/signal-messenger-comprehensive-guide"
 ---
 
 # راهنمای جامع پیام‌رسان سیگنال برای کاربران ایرانی

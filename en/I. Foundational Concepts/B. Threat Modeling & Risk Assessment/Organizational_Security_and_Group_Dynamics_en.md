@@ -28,6 +28,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of threat modeling", "Experience working in groups"]
 estimated_read_time: "15 minutes"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-بنیادین/مدلسازی-تهدید-و-ارزیابی-ریسک/organizational-security-and-group-dynamics"
 ---
 
 # Organizational Security and Group Dynamics

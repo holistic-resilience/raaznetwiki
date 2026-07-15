@@ -23,6 +23,8 @@ prerequisites:
     "Installed Tor Browser or Orbot",
   ]
 estimated_read_time: "15 minutes"
+other_languages:
+  en: "/en/wiki/circumvention-and-counter-surveillance-concepts/censorship-circumvention/anonymity-networks-tor-and-i2p"
 ---
 
 # شبکه‌های ناشناس‌سازی: Tor و I2P

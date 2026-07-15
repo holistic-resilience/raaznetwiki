@@ -33,6 +33,8 @@ prerequisites:
     "Basic encryption knowledge",
   ]
 estimated_read_time: "15 minutes"
+other_languages:
+  en: "/en/wiki/circumvention-and-counter-surveillance-concepts/censorship-circumvention/secure-reporting-and-whistleblowing"
 ---
 
 # گزارش‌دهی امن و افشاگری در ایران

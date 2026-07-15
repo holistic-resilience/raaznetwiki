@@ -33,6 +33,8 @@ prerequisites:
   ]
 estimated_read_time: "12 minutes"
 last_updated: "2026-02-19"
+other_languages:
+  en: "/en/wiki/foundational-concepts/privacy-fundamentals/digital-footprint-and-metadata"
 ---
 
 # ردپای دیجیتال و متادیتا

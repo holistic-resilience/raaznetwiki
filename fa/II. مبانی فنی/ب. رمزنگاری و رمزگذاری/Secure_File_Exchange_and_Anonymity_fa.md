@@ -29,6 +29,8 @@ language: "English"
 prerequisites:
   ["Working Tor Browser (with Bridges)", "Basic understanding of encryption"]
 last_updated: "2026-02-06"
+other_languages:
+  en: "/en/wiki/technical-foundations/cryptography-and-encryption/secure-file-exchange-and-anonymity"
 ---
 
 # تبادل امن فایل و ناشناسی

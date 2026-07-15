@@ -28,6 +28,8 @@ language: "English"
 prerequisites:
   ["Administrator access to Windows", "Basic familiarity with System Settings"]
 estimated_read_time: "25 minutes"
+other_languages:
+  fa: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/سیستمعاملها/windows-privacy-and-hardening"
 ---
 
 # Windows Privacy and Hardening

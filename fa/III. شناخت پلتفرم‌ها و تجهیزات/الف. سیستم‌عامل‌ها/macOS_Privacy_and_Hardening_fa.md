@@ -31,6 +31,8 @@ language: "Persian"
 prerequisites: ["Administrator access to Mac", "Apple Silicon Mac recommended"]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-18"
+other_languages:
+  en: "/en/wiki/platform-and-device-knowledge/operating-systems/macos-privacy-and-hardening"
 ---
 
 # حریم خصوصی و مقاوم‌سازی مک‌اواس (macOS)

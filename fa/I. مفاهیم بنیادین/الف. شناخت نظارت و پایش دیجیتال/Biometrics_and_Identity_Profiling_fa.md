@@ -21,6 +21,8 @@ security_level: "Informational"
 language: "English"
 prerequisites: ["Understanding Digital Surveillance", "Basic Privacy Concepts"]
 estimated_read_time: "15 minutes"
+other_languages:
+  en: "/en/wiki/foundational-concepts/understanding-digital-surveillance/biometrics-and-identity-profiling"
 ---
 
 # بیومتریک و نمایه‌سازی هویتی

@@ -28,6 +28,8 @@ security_level: "Foundational"
 language: "Persian"
 prerequisites: ["Basic understanding of how the internet works"]
 estimated_read_time: "12 minutes"
+other_languages:
+  en: "/en/wiki/foundational-concepts/understanding-digital-surveillance/the-mechanisms-of-digital-surveillance"
 ---
 
 # مکانیزم‌های نظارت دیجیتال

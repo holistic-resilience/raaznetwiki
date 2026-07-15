@@ -31,6 +31,8 @@ language: "English"
 prerequisites: ["Installed WhatsApp", "Basic settings knowledge"]
 estimated_read_time: "10 minutes"
 last_updated: "2026-02-18"
+other_languages:
+  fa: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/پلتفرمهای-ارتباطی/whatsapp-security-guide"
 ---
 
 # WhatsApp Security Guide for Iranian Users

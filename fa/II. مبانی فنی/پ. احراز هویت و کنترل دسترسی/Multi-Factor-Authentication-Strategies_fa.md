@@ -22,6 +22,8 @@ security_level: "High"
 language: "English"
 prerequisites: ["Basic account management", "Understanding of passwords"]
 estimated_read_time: "10 minutes"
+other_languages:
+  en: "/en/wiki/technical-foundations/authentication-and-access-control/multi-factor-authentication-strategies"
 ---
 
 # استراتژی‌های احراز هویت چندمرحله‌ای (MFA)

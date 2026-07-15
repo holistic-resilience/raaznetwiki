@@ -37,6 +37,8 @@ prerequisites:
   ["Basic understanding of threat modeling", "Experience working in groups"]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-17"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/امنیت-عملیاتی-opsec/holistic-and-organizational-strategy"
 ---
 
 # Holistic and Organizational Security Strategy

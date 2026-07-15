@@ -30,6 +30,8 @@ prerequisites:
   ["Basic mobile security knowledge", "Familiarity with 2FA and encryption"]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-18"
+other_languages:
+  fa: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/دستگاههای-موبایل-تلفن-همراه/advanced-mobile-threats-and-countermeasures"
 ---
 
 # Advanced Mobile Threats and Countermeasures

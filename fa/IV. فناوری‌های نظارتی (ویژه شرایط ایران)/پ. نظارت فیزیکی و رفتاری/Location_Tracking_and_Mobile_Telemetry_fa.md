@@ -27,6 +27,8 @@ language: "Persian"
 prerequisites:
   ["Basic understanding of mobile networks", "Familiarity with app permissions"]
 estimated_read_time: "15 minutes"
+other_languages:
+  en: "/en/wiki/surveillance-technologies-iranian-context/physical-and-behavioral-surveillance/location-tracking-and-mobile-telemetry"
 ---
 
 # ردیابی موقعیت مکانی و تله‌متری موبایل

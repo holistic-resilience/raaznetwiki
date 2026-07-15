@@ -28,6 +28,8 @@ language: "Persian"
 prerequisites:
   ["Administrator access to Windows", "Basic familiarity with System Settings"]
 estimated_read_time: "25 minutes"
+other_languages:
+  en: "/en/wiki/platform-and-device-knowledge/operating-systems/windows-privacy-and-hardening"
 ---
 
 # حریم خصوصی و مقاوم‌سازی ویندوز

@@ -34,6 +34,8 @@ prerequisites:
     "Understanding of VPN usage",
   ]
 estimated_read_time: "15 minutes"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/ناشناسماندن-و-حفظ-حریم-خصوصی/financial-privacy-and-anonymous-transactions"
 ---
 
 # Financial Privacy and Anonymous Transactions

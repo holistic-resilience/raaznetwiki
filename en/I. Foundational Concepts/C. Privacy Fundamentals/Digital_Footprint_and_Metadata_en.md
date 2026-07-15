@@ -33,6 +33,8 @@ prerequisites:
   ]
 estimated_read_time: "12 minutes"
 last_updated: "2026-02-19"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-بنیادین/مبانی-حریم-خصوصی/digital-footprint-and-metadata"
 ---
 
 # Digital Footprint and Metadata

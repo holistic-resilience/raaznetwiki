@@ -22,6 +22,8 @@ security_level: "Basic"
 language: "English"
 prerequisites: ["Basic internet literacy", "Familiarity with messaging apps"]
 estimated_read_time: "15 minutes"
+other_languages:
+  en: "/en/wiki/technical-foundations/malware-and-social-engineering/countering-social-engineering-phishing-and-scams"
 ---
 
 # مقابله با مهندسی اجتماعی، فیشینگ و کلاهبرداری‌ها

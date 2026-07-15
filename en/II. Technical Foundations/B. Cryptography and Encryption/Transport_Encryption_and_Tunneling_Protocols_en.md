@@ -35,6 +35,8 @@ prerequisites:
     "Familiarity with VPN concepts",
   ]
 estimated_read_time: "12 minutes"
+other_languages:
+  fa: "/fa/wiki/مبانی-فنی/رمزنگاری-و-رمزگذاری/transport-encryption-and-tunneling-protocols"
 ---
 
 # Transport Encryption and Tunneling Protocols

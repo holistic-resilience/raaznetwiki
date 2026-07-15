@@ -23,6 +23,8 @@ language: "English"
 prerequisites:
   ["Basic computer literacy", "Understanding of internet navigation"]
 estimated_read_time: "15 minutes"
+other_languages:
+  fa: "/fa/wiki/مبانی-فنی/مفاهیم-شبکه-و-اینترنت/secure-browsing-and-web-hygiene"
 ---
 
 # Secure Browsing and Web Hygiene

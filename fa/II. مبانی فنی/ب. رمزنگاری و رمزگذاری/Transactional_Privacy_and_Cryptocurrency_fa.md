@@ -30,6 +30,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of digital wallets", "VPN usage", "Threat modeling"]
 estimated_read_time: "15 minutes"
+other_languages:
+  en: "/en/wiki/technical-foundations/cryptography-and-encryption/transactional-privacy-and-cryptocurrency"
 ---
 
 # حریم خصوصی تراکنش‌ها و رمزارزها

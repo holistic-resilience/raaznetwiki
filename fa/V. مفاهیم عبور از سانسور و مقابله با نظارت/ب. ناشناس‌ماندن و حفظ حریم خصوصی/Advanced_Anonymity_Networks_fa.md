@@ -41,6 +41,8 @@ prerequisites:
   ]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-17"
+other_languages:
+  en: "/en/wiki/circumvention-and-counter-surveillance-concepts/anonymity-and-privacy-preservation/advanced-anonymity-networks"
 ---
 
 # شبکه‌های ناشناس پیشرفته: Tor، I2P و دور زدن سانسور

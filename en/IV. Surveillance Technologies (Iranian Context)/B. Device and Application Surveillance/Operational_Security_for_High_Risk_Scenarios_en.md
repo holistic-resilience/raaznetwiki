@@ -29,6 +29,8 @@ language: "English"
 prerequisites:
   ["Basic digital security knowledge", "Familiarity with Signal and VPNs"]
 estimated_read_time: "15 minutes"
+other_languages:
+  fa: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/نظارت-بر-دستگاهها-و-اپلیکیشنها/operational-security-for-high-risk-scenarios"
 ---
 
 # Operational Security for High-Risk Scenarios

@@ -34,6 +34,8 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-17"
+other_languages:
+  fa: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/پایش-و-نظارت-در-سطح-شبکه/cellular-network-surveillance-and-imsi-catchers"
 ---
 
 # Cellular Network Surveillance and IMSI Catchers

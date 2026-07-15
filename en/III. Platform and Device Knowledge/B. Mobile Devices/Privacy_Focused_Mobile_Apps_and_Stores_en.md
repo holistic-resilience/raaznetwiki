@@ -33,6 +33,8 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-18"
+other_languages:
+  fa: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/دستگاههای-موبایل-تلفن-همراه/privacy-focused-mobile-apps-and-stores"
 ---
 
 # Privacy-Focused Mobile Apps and Stores

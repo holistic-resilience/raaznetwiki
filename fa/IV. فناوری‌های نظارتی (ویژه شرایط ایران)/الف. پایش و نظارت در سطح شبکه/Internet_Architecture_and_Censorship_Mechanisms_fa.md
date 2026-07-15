@@ -37,6 +37,8 @@ prerequisites:
   ]
 estimated_read_time: "12 minutes"
 last_updated: "2026-02-17"
+other_languages:
+  en: "/en/wiki/surveillance-technologies-iranian-context/network-level-surveillance/internet-architecture-and-censorship-mechanisms"
 ---
 
 # معماری اینترنت و مکانیزم‌های سانسور

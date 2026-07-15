@@ -34,6 +34,8 @@ prerequisites:
     "Understanding of server administration",
   ]
 estimated_read_time: "12 minutes"
+other_languages:
+  fa: "/fa/wiki/مبانی-فنی/مفاهیم-شبکه-و-اینترنت/self-hosting-and-decentralized-infrastructure"
 ---
 
 # Self-Hosting and Decentralized Infrastructure

@@ -35,6 +35,8 @@ prerequisites:
   ]
 estimated_read_time: "10 minutes"
 last_updated: "2026-02-15"
+other_languages:
+  fa: "/fa/wiki/مدیریت-دادهها/ذخیرهسازی-دادهها/private-notes-and-media-management"
 ---
 
 # Private Notes and Media Management

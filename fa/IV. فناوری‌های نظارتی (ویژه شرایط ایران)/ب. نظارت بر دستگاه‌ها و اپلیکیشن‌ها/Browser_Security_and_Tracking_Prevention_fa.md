@@ -27,6 +27,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of browser settings", "Familiarity with extensions"]
 estimated_read_time: "15 minutes"
+other_languages:
+  en: "/en/wiki/surveillance-technologies-iranian-context/device-and-application-surveillance/browser-security-and-tracking-prevention"
 ---
 
 # امنیت مرورگر و جلوگیری از ردیابی

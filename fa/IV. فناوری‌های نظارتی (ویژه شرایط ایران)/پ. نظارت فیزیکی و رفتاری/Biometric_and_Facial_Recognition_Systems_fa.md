@@ -32,6 +32,8 @@ prerequisites:
     "Awareness of Iran's security apparatus",
   ]
 estimated_read_time: "15 minutes"
+other_languages:
+  en: "/en/wiki/surveillance-technologies-iranian-context/physical-and-behavioral-surveillance/biometric-and-facial-recognition-systems"
 ---
 
 # سیستم‌های بیومتریک و تشخیص چهره

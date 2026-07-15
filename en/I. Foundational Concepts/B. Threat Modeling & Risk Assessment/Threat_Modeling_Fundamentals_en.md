@@ -28,6 +28,8 @@ language: "English"
 prerequisites: ["None"]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-19"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-بنیادین/مدلسازی-تهدید-و-ارزیابی-ریسک/threat-modeling-fundamentals"
 ---
 
 # Threat Modeling Fundamentals

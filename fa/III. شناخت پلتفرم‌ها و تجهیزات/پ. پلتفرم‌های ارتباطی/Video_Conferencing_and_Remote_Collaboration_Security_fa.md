@@ -31,6 +31,8 @@ prerequisites:
   ["Basic understanding of VPNs", "Signal installed (optional but recommended)"]
 estimated_read_time: "10 minutes"
 last_updated: "2026-02-18"
+other_languages:
+  en: "/en/wiki/platform-and-device-knowledge/communication-platforms/video-conferencing-and-remote-collaboration-security"
 ---
 
 # امنیت کنفرانس ویدیویی و همکاری از راه دور

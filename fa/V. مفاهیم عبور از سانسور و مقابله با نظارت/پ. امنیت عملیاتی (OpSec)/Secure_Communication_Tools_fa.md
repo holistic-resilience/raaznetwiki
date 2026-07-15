@@ -27,6 +27,8 @@ content_type: "Guide"
 security_level: "High"
 language: "English"
 last_updated: "2026-02-17"
+other_languages:
+  en: "/en/wiki/circumvention-and-counter-surveillance-concepts/operational-security-opsec/secure-communication-tools"
 ---
 
 # ابزارهای ارتباطی امن

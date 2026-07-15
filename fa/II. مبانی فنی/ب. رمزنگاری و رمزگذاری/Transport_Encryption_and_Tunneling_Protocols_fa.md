@@ -35,6 +35,8 @@ prerequisites:
     "Familiarity with VPN concepts",
   ]
 estimated_read_time: "12 minutes"
+other_languages:
+  en: "/en/wiki/technical-foundations/cryptography-and-encryption/transport-encryption-and-tunneling-protocols"
 ---
 
 # رمزگذاری انتقال و پروتکل‌های تونل‌زنی

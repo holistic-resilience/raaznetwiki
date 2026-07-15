@@ -23,6 +23,8 @@ language: "English"
 prerequisites:
   ["Basic computer literacy", "Understanding of internet navigation"]
 estimated_read_time: "15 minutes"
+other_languages:
+  en: "/en/wiki/technical-foundations/network-and-internet-concepts/secure-browsing-and-web-hygiene"
 ---
 
 # مرور امن و بهداشت وب

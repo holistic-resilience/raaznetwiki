@@ -31,6 +31,8 @@ prerequisites:
   ["Understanding of Basic Authentication", "Password Manager Basics"]
 estimated_read_time: "8 minutes"
 last_updated: "2026-02-15"
+other_languages:
+  fa: "/fa/wiki/مبانی-فنی/احراز-هویت-و-کنترل-دسترسی/passkeys-and-biometric-security"
 ---
 
 # Passkeys and Biometric Security

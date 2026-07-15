@@ -30,6 +30,8 @@ prerequisites:
     "I.B. Risk Assessment and Threat Identification",
   ]
 estimated_read_time: "15 minutes"
+other_languages:
+  en: "/en/wiki/foundational-concepts/threat-modeling-risk-assessment/security-strategy-and-response-planning"
 ---
 
 # استراتژی امنیت و برنامه‌ریزی واکنش

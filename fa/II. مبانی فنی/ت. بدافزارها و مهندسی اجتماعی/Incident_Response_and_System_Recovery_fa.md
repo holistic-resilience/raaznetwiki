@@ -34,6 +34,8 @@ prerequisites:
   ]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-15"
+other_languages:
+  en: "/en/wiki/technical-foundations/malware-and-social-engineering/incident-response-and-system-recovery"
 ---
 
 # پاسخ به حوادث و بازیابی سیستم

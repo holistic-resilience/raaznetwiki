@@ -20,6 +20,8 @@ prerequisites:
   ["iOS device running iOS 17 or later", "Basic familiarity with Settings"]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-18"
+other_languages:
+  en: "/en/wiki/platform-and-device-knowledge/mobile-devices/ios-security-and-hardening"
 ---
 
 # امنیت و مقاوم‌سازی iOS

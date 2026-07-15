@@ -32,6 +32,8 @@ prerequisites:
     "Familiarity with browser extensions",
   ]
 estimated_read_time: "15 minutes"
+other_languages:
+  fa: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/نظارت-بر-دستگاهها-و-اپلیکیشنها/commercial-platform-hardening-and-data-minimization"
 ---
 
 # Commercial Platform Hardening and Data Minimization

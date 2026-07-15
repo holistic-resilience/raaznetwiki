@@ -31,6 +31,8 @@ prerequisites:
     "Password manager (optional)",
   ]
 estimated_read_time: "12 minutes"
+other_languages:
+  en: "/en/wiki/data-management/secure-data-deletion/account-deletion-and-digital-footprint-reduction"
 ---
 
 # حذف حساب‌های کاربری و کاهش ردپای دیجیتال

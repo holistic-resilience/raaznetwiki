@@ -21,6 +21,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of app installation", "Access to a working VPN or Tor"]
 estimated_read_time: "15 minutes"
+other_languages:
+  fa: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/نظارت-بر-دستگاهها-و-اپلیکیشنها/privacy-preserving-software-alternatives"
 ---
 
 # Privacy-Preserving Software Alternatives

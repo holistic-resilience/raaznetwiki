@@ -22,6 +22,8 @@ security_level: "High"
 language: "English"
 prerequisites: ["Basic browser usage", "Understanding of extensions"]
 estimated_read_time: "10 minutes"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/دور-زدن-سانسور-و-فیلترینگ/browser-privacy-and-extensions"
 ---
 
 # Browser Privacy and Extensions

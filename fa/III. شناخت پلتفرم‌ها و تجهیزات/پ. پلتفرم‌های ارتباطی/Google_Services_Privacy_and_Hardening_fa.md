@@ -34,6 +34,8 @@ prerequisites:
     "VPN/Circumvention tool",
   ]
 estimated_read_time: "20 minutes"
+other_languages:
+  en: "/en/wiki/platform-and-device-knowledge/communication-platforms/google-services-privacy-and-hardening"
 ---
 
 # حریم خصوصی و امن‌سازی سرویس‌های گوگل

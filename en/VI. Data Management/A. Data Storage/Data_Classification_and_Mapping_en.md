@@ -26,6 +26,8 @@ security_level: "Foundational"
 language: "English"
 prerequisites: ["Basic understanding of file management"]
 estimated_read_time: "10 minutes"
+other_languages:
+  fa: "/fa/wiki/مدیریت-دادهها/ذخیرهسازی-دادهها/data-classification-and-mapping"
 ---
 
 # Data Classification and Mapping

@@ -33,6 +33,8 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-17"
+other_languages:
+  en: "/en/wiki/surveillance-technologies-iranian-context/network-level-surveillance/secure-data-transmission-and-ip-privacy"
 ---
 
 # انتقال امن داده‌ها و حریم خصوصی آی‌پی

@@ -13,6 +13,8 @@ language: "Persian"
 prerequisites:
   ["Basic understanding of app installation", "Access to a working VPN or Tor"]
 estimated_read_time: "15 minutes"
+other_languages:
+  en: "/en/wiki/surveillance-technologies-iranian-context/device-and-application-surveillance/privacy-preserving-software-alternatives"
 ---
 
 # جایگزین‌های نرم‌افزاری حافظ حریم خصوصی

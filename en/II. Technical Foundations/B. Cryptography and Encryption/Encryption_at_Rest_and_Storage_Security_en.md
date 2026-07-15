@@ -33,6 +33,8 @@ prerequisites:
   ]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-06"
+other_languages:
+  fa: "/fa/wiki/مبانی-فنی/رمزنگاری-و-رمزگذاری/encryption-at-rest-and-storage-security"
 ---
 
 # Encryption at Rest and Storage Security

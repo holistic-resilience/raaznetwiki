@@ -33,6 +33,8 @@ prerequisites:
     "Familiarity with local threat landscape",
   ]
 estimated_read_time: "20 minutes"
+other_languages:
+  fa: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/نظارت-فیزیکی-و-رفتاری/physical-security-and-crisis-preparedness"
 ---
 
 # Physical Security and Crisis Preparedness

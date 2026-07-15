@@ -30,6 +30,8 @@ language: "English"
 prerequisites: ["Basic understanding of social media settings", "VPN usage"]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-17"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/امنیت-عملیاتی-opsec/social-media-security-and-migration"
 ---
 
 # Social Media Security and Migration

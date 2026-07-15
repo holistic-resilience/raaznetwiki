@@ -34,6 +34,8 @@ prerequisites:
     "Risk Assessment",
   ]
 estimated_read_time: "20 minutes"
+other_languages:
+  en: "/en/wiki/surveillance-technologies-iranian-context/physical-and-behavioral-surveillance/travel-security-and-border-crossing-protocols"
 ---
 
 # پروتکل‌های امنیت سفر و عبور از مرز

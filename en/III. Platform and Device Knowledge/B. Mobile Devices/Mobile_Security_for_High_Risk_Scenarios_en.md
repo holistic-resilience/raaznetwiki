@@ -29,6 +29,8 @@ prerequisites:
   ]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-18"
+other_languages:
+  fa: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/دستگاههای-موبایل-تلفن-همراه/mobile-security-for-high-risk-scenarios"
 ---
 
 # Mobile Security for High-Risk Scenarios

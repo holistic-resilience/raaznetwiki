@@ -34,6 +34,8 @@ prerequisites:
     "Familiarity with Iranian security context",
   ]
 estimated_read_time: "20 minutes"
+other_languages:
+  fa: "/fa/wiki/فناوریهای-نظارتی-ویژه-شرایط-ایران/نظارت-فیزیکی-و-رفتاری/visual-audio-and-aerial-surveillance-systems"
 ---
 
 # Visual, Audio, and Aerial Surveillance Systems

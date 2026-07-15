@@ -27,6 +27,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of home networking", "Familiarity with Wi-Fi settings"]
 estimated_read_time: "15 minutes"
+other_languages:
+  en: "/en/wiki/surveillance-technologies-iranian-context/device-and-application-surveillance/iot-and-smart-device-security-risks"
 ---
 
 # خطرات امنیتی اینترنت اشیاء و ابزارهای هوشمند

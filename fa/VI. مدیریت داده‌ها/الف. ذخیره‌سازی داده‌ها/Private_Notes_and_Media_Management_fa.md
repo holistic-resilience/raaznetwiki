@@ -35,6 +35,8 @@ prerequisites:
   ]
 estimated_read_time: "10 minutes"
 last_updated: "2026-02-15"
+other_languages:
+  en: "/en/wiki/data-management/data-storage/private-notes-and-media-management"
 ---
 
 # مدیریت یادداشت‌ها و مدیای خصوصی

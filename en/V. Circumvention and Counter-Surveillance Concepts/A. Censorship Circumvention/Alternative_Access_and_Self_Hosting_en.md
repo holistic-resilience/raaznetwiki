@@ -34,6 +34,8 @@ prerequisites:
   ]
 estimated_read_time: "12 minutes"
 related: "[Internet_Censorship_Mechanisms](internet-censorship-mechanisms) [VPN_Comprehensive_Guide](vpn-comprehensive-guide) [Anonymity_Networks_Tor_and_I2P](anonymity-networks-tor-and-i2p)"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-عبور-از-سانسور-و-مقابله-با-نظارت/دور-زدن-سانسور-و-فیلترینگ/alternative-access-and-self-hosting"
 ---
 
 # Alternative Access and Self-Hosting

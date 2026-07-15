@@ -29,6 +29,8 @@ content_type: "Guide"
 security_level: "High"
 language: "English"
 last_updated: "2026-02-18"
+other_languages:
+  fa: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/پلتفرمهای-ارتباطی/mainstream-social-media-security"
 ---
 
 # Mainstream Social Media Security

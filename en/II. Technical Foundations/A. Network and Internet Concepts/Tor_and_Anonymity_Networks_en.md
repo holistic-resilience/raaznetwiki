@@ -25,6 +25,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of internet browsing", "Familiarity with VPN concepts"]
 estimated_read_time: "15 minutes"
+other_languages:
+  fa: "/fa/wiki/مبانی-فنی/مفاهیم-شبکه-و-اینترنت/tor-and-anonymity-networks"
 ---
 
 # Tor and Anonymity Networks

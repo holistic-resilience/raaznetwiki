@@ -32,6 +32,8 @@ prerequisites:
     "Familiarity with browser extensions",
   ]
 estimated_read_time: "15 minutes"
+other_languages:
+  en: "/en/wiki/surveillance-technologies-iranian-context/device-and-application-surveillance/commercial-platform-hardening-and-data-minimization"
 ---
 
 # ایمن‌سازی پلتفرم‌های تجاری و به حداقل رساندن داده‌ها

@@ -31,6 +31,8 @@ prerequisites:
   ["Basic understanding of social media", "Familiarity with VPN/Tor usage"]
 estimated_read_time: "15 minutes"
 last_updated: "2026-02-18"
+other_languages:
+  fa: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/پلتفرمهای-ارتباطی/decentralized-social-networks"
 ---
 
 # Decentralized Social Networks

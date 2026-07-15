@@ -27,6 +27,8 @@ security_level: "Essential"
 language: "English"
 prerequisites: ["Basic understanding of digital surveillance"]
 estimated_read_time: "10 minutes"
+other_languages:
+  fa: "/fa/wiki/مفاهیم-بنیادین/مدلسازی-تهدید-و-ارزیابی-ریسک/contextual-analysis-and-actor-mapping"
 ---
 
 # Contextual Analysis and Actor Mapping

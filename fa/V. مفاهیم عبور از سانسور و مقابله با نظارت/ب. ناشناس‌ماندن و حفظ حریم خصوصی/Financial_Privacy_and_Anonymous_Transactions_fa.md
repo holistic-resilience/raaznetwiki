@@ -33,6 +33,8 @@ prerequisites:
     "Understanding of VPN usage",
   ]
 estimated_read_time: "15 minutes"
+other_languages:
+  en: "/en/wiki/circumvention-and-counter-surveillance-concepts/anonymity-and-privacy-preservation/financial-privacy-and-anonymous-transactions"
 ---
 
 # حریم خصوصی مالی و تراکنش‌های ناشناس

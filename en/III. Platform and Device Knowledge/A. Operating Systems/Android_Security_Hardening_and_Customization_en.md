@@ -33,6 +33,8 @@ prerequisites:
   ]
 estimated_read_time: "20 minutes"
 last_updated: "2026-02-17"
+other_languages:
+  fa: "/fa/wiki/شناخت-پلتفرمها-و-تجهیزات/سیستمعاملها/android-security-hardening-and-customization"
 ---
 
 # Android Security Hardening and Customization

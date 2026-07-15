@@ -32,6 +32,8 @@ prerequisites:
     "Familiarity with encryption concepts",
   ]
 estimated_read_time: "15 minutes"
+other_languages:
+  fa: "/fa/wiki/مبانی-فنی/مفاهیم-شبکه-و-اینترنت/vpn-technology-and-providers"
 ---
 
 # VPN Technology and Providers

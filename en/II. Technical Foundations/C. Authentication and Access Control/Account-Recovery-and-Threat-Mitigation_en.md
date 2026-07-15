@@ -22,6 +22,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of 2FA", "Access to backup codes (preferred)"]
 estimated_read_time: "10 minutes"
+other_languages:
+  fa: "/fa/wiki/مبانی-فنی/احراز-هویت-و-کنترل-دسترسی/account-recovery-and-threat-mitigation"
 ---
 
 # Account Recovery and Threat Mitigation

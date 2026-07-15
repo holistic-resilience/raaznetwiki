@@ -25,6 +25,8 @@ language: "English"
 prerequisites:
   ["Basic understanding of internet browsing", "Familiarity with VPN concepts"]
 estimated_read_time: "15 minutes"
+other_languages:
+  en: "/en/wiki/technical-foundations/network-and-internet-concepts/tor-and-anonymity-networks"
 ---
 
 # تور (Tor) و شبکه‌های ناشناس
