@@ -67,7 +67,7 @@ When a device is seized at a checkpoint or during arrest, Iranian security force
 
 ### 3. Domestic "Rat"ware
 
-The most common vector in Iran is **social engineering**. Users are tricked into installing "Anti-Filter" apps, "Gold Telegram" clones, or government service apps that break device integrity and grant persistent access to the MOIS (Ministry of Intelligence).
+The most common vector in Iran is **social engineering**. Users are tricked into installing "Anti-Filter" apps, "Gold Telegram" clones, or government service apps that break device integrity and grant persistent access to the MOIS (Ministry of Intelligence). An example of such a high-risk application, potentially developed with Iranian cooperation, is the 'National Keyboard' app, which has been identified as having significant privacy and security vulnerabilities, including insecure logging of sensitive data and transmission of user text to external AI systems.
 
 ---
 
