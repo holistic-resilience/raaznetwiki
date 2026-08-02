@@ -83,6 +83,26 @@ WhatsApp recently added email verification as an alternative login method, usefu
 1.  Go to **Settings** > **Account** > **Email Address**.
 2.  Verify your email.
 
+### Usernames (Upcoming Feature)
+
+WhatsApp is introducing optional usernames, allowing users to connect without sharing their phone numbers. This can be a significant privacy improvement, especially for new contacts or in public groups, as it reduces the exposure of your personal phone number.
+
+**How to reserve your WhatsApp username (when available):**
+
+1.  Update WhatsApp to the latest version.
+2.  Open **Settings**.
+3.  Go to **Account**.
+4.  Tap **Username**.
+5.  Choose an available username.
+6.  Confirm your selection.
+
+**Security Considerations for Usernames:**
+
+*   **Impersonation:** Be aware of attackers attempting to register usernames that resemble legitimate people or brands.
+*   **Fake Support Accounts:** Scammers may create usernames pretending to be banks, delivery companies, or government agencies. Always verify requests through official channels.
+*   **Username Harvesting:** If you publish your username on social media, it becomes another identifier scammers can collect. Consider using a unique username not tied to your other social media handles.
+*   **Username Key:** WhatsApp is also introducing an optional 'Username Key' for an extra layer of verification, giving more control over who can initiate contact.
+
 ---
 
 ## 3. Protecting Your Data
