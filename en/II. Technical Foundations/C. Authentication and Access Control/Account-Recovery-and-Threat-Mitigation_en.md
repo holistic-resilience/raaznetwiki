@@ -88,6 +88,7 @@ This means the state can intercept SMS verification codes (SS7 attacks) or issue
 ### Why SMS 2FA is Dangerous in Iran
 
 - **Interception:** SMS travels in plaintext. Infrastructure providers can read the code before it reaches you.
+- **Brute-Force Attacks:** Even without direct interception or SIM cloning, vulnerabilities in password reset systems can allow attackers to brute-force 6-digit SMS recovery codes by bypassing rate limits using thousands of IP addresses, as demonstrated with Instagram.
 - **Cloning:** If your SIM is cloned, the attacker receives your calls and SMS codes on their device.
 
 ### Defense Strategies
