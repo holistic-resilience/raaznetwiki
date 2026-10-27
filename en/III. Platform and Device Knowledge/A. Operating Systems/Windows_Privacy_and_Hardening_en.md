@@ -160,7 +160,7 @@ For users with **Windows Pro/Enterprise**, the **Group Policy Editor** (`gpedit.
 | **Windows Components > Windows AI**      | Turn off Recall                  | **Enabled**                        | **CRITICAL:** Disables the AI feature that takes screenshots of your screen every few seconds. |
 
 > [!danger] Disable "Recall" Immediately
-> The **Recall** feature (part of Copilot+) periodically takes screenshots of everything you see on your screen to create a searchable timeline. This creates a massive forensic database of your activity (encrypted, but accessible if you are logged in).
+> The **Recall** feature (part of Copilot+) periodically takes screenshots of everything you see on your screen to create a searchable timeline. This creates a massive forensic database of your activity, which, despite being encrypted, can be trivially accessed by malware without special permissions once you are logged in.
 >
 > - **Action:** Ensure Recall is disabled in Settings or via Group Policy.
 
