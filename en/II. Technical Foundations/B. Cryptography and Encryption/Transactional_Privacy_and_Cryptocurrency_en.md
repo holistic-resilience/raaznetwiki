@@ -126,7 +126,7 @@ To protect your privacy when buying from an Iranian exchange:
 
 ### 3. P2P and Vouchers
 
-- **Bisq / HodlHodl:** Decentralized P2P exchanges that run over Tor. Harder to use but offer high privacy.
+
 - **Vouchers:** Some services trade Perfect Money or PSVouchers. These are high-fee but often require less verification.
 
 ---

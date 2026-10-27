@@ -89,10 +89,9 @@ When choosing a DNS provider, prioritize those with strong privacy policies (no 
 | :------------- | :--------------------------------- | :------------------------------------- | :-------------------------------------------------------- |
 | **Quad9**      | `dns.quad9.net`                    | `https://dns.quad9.net/dns-query`      | Blocks malware; Swiss-based privacy laws.                 |
 | **Cloudflare** | `1dot1dot1dot1.cloudflare-dns.com` | `https://cloudflare-dns.com/dns-query` | Fast; 24h log retention (anonymized).                     |
-| **Mullvad**    | `doh.mullvad.net`                  | `https://doh.mullvad.net/dns-query`    | No logging; owned by a trusted VPN company.               |
 | **Google**     | `dns.google`                       | `https://dns.google/dns-query`         | Reliable; susceptible to US jurisdiction data collection. |
 
-> **Iran Connectivity Note:** Major providers like Cloudflare (`1.1.1.1`) and Google (`8.8.8.8`) are frequently throttled or disrupted in Iran. Quad9 or Mullvad are often better alternatives. If one stops working, switch to another.
+> **Iran Connectivity Note:** Major providers like Cloudflare (`1.1.1.1`) and Google (`8.8.8.8`) are frequently throttled or disrupted in Iran. Quad9 is often a better alternative. If one stops working, switch to another.
 
 ---
 
