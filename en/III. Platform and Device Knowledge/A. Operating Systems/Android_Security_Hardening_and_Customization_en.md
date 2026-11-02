@@ -71,7 +71,7 @@ If you cannot use GrapheneOS, you must harden your stock Android device.
 
 ### A Note on Other Custom ROMs
 
-- **LineageOS / /e/ OS:** While these remove Google services, they often weaken security by requiring unlocked bootloaders without verified boot support or by using "userdebug" builds. They are generally **not recommended** for high-security threat models compared to stock Android or GrapheneOS.
+- **LineageOS / /e/ OS:** While these remove Google services, they often weaken security by requiring unlocked bootloaders without proper Verified Boot support or by using "userdebug" builds. They are generally **not recommended** for high-security threat models compared to stock Android or GrapheneOS.
 
 ---
 
@@ -122,7 +122,7 @@ Accessing the Google Play Store is often restricted in Iran due to sanctions or 
     - _Why:_ No Google account required. It spoofs device info to bypass "This item is not available in your country" errors.
 3.  **F-Droid (via Droid-ify or Neo Store clients):**
     - _Best for:_ Free and Open Source Software (FOSS).
-    - _Why:_ Apps are auditable and generally privacy-respecting. Use the "Droid-ify" client for a better experience and faster updates than the official F-Droid app.
+    - _Why:_ Apps are auditable and generally privacy-respecting. Use the "Droid-ify" or "Neo Store" clients for a better experience and faster updates than the official F-Droid app. Alternatively, "F-Droid Basic" is a lightweight client with a reduced feature set, limiting attack surface.
 
 ### Essential Privacy Apps
 
