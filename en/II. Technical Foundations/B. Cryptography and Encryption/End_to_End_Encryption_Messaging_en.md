@@ -75,8 +75,7 @@ Signal is blocked in Iran. While you can use a VPN, Signal allows you to use a *
 2.  Enter a valid proxy address (often shared on trusted channels like Twitter/X or Mastodon via `#IRanASignalProxy`).
 3.  _Note:_ The proxy provider can see your IP address but **cannot** read your messages.
 
-> **⚠️ Alternative Client: Molly (Android Only)**
-> For Android users, **Molly** is a hardened fork of Signal. It offers features not found in the official app, such as Tor integration and database encryption passphrases. It is an excellent choice for high-risk users.
+
 
 ---
 

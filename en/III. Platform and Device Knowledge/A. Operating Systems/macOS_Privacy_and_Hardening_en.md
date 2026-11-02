@@ -76,7 +76,7 @@ If you bought your Mac used or from a third-party seller in Iran, **do not trust
 
 Your computer's name is broadcasted on local networks (Wi-Fi). Change it to something generic to avoid identifying yourself.
 
-- **Settings > General > About > Name**: Change to "MacBook" or "Mac".
+- **Settings > General > About > Name**: Change to "MacBook" or "Mac". You can also change your Mac's local hostname in **Settings > General > Sharing**.
 
 ### User Accounts
 
