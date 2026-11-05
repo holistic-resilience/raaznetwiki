@@ -126,7 +126,7 @@ Regular assessment helps identify gaps between your policy and actual practice.
 
 Visualize your security performance across different dimensions. Draw a wheel divided into sections such as:
 
-1.  **Digital Security:** (e.g., 2FA, encryption, secure deletion)
+1.  **Digital Security:** (e.g., 2FA, strong passwords, regular software updates, encryption for sensitive information, secure messaging/email/file sharing, vetting IT solution providers, secure deletion)
 2.  **Physical Security:** (e.g., office access, meeting locations)
 3.  **Data Management:** (e.g., retention policies, backups)
 4.  **Well-being:** (e.g., stress management, burnout prevention)
@@ -146,6 +146,7 @@ Conduct an **Information Ecosystem Mapping**:
 - **Where** is it stored? (Cloud, local drives, paper)
 - **Who** has access?
 - **How** sensitive is it?
+- **How** are backups created and stored? (e.g., cloud services, external drives)
 
 Classify data (e.g., Public, Internal, Highly Sensitive) and apply appropriate protections to each level.
 
